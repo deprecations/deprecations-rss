@@ -1325,72 +1325,6 @@
       ]
     },
     {
-      "id": "google-<unknown>",
-      "url": "https://ai.google.dev/gemini-api/docs/changelog#20250929",
-      "title": "Google Deprecation",
-      "content_text": "Insufficient information provided in the deprecation notice. Unable to extract specific details about model deprecation.",
-      "date_published": "2025-11-13T21:06:42.902590+00:00",
-      "_deprecation": {
-        "provider": "Google",
-        "model_id": "gemini-1.5-pro",
-        "model_name": "<UNKNOWN>",
-        "shutdown_date": "",
-        "announcement_date": "2025-09-29",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Insufficient information provided in the deprecation notice. Unable to extract specific details about model deprecation."
-      },
-      "tags": [
-        "Google",
-        "shutdown-"
-      ]
-    },
-    {
-      "id": "google-<unknown>",
-      "url": "https://ai.google.dev/gemini-api/docs/changelog#20250929",
-      "title": "Google Deprecation",
-      "content_text": "Unable to analyze deprecation notice - content is missing or truncated",
-      "date_published": "2025-11-13T21:06:42.902657+00:00",
-      "_deprecation": {
-        "provider": "Google",
-        "model_id": "gemini-1.5-flash-8b",
-        "model_name": "<UNKNOWN>",
-        "shutdown_date": "",
-        "announcement_date": "2025-09-29",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Unable to analyze deprecation notice - content is missing or truncated"
-      },
-      "tags": [
-        "Google",
-        "shutdown-"
-      ]
-    },
-    {
-      "id": "google-<unknown>",
-      "url": "https://ai.google.dev/gemini-api/docs/changelog#20250929",
-      "title": "Google Deprecation",
-      "content_text": "Unable to extract details due to limited or missing content in the deprecation notice.",
-      "date_published": "2025-11-13T21:06:42.902719+00:00",
-      "_deprecation": {
-        "provider": "Google",
-        "model_id": "gemini-1.5-flash",
-        "model_name": "<UNKNOWN>",
-        "shutdown_date": "",
-        "announcement_date": "2025-09-29",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Unable to extract details due to limited or missing content in the deprecation notice."
-      },
-      "tags": [
-        "Google",
-        "shutdown-"
-      ]
-    },
-    {
       "id": "google-gemini-embedding-exp-03-07",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20250916",
       "title": "Google Deprecation",
@@ -1451,43 +1385,21 @@
       ]
     },
     {
-      "id": "google-<unknown>",
-      "url": "https://ai.google.dev/gemini-api/docs/changelog#20250626",
+      "id": "google-unspecified-google-model",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#20250617",
       "title": "Google Deprecation",
-      "content_text": "Unable to extract details due to limited or missing content in the deprecation notice.",
-      "date_published": "2025-11-13T21:06:42.903497+00:00",
+      "content_text": "Notice content not provided. Unable to extract specific deprecation details.",
+      "date_published": "2025-11-25T03:10:04.252655+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-pro",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Unspecified Google Model",
         "shutdown_date": "",
-        "announcement_date": "2025-06-26",
+        "announcement_date": "2025-06-17",
         "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Unable to extract details due to limited or missing content in the deprecation notice."
-      },
-      "tags": [
-        "Google",
-        "shutdown-"
-      ]
-    },
-    {
-      "id": "google-<unknown>",
-      "url": "https://ai.google.dev/gemini-api/docs/changelog#20250626",
-      "title": "Google Deprecation",
-      "content_text": "Unable to extract details due to limited or missing deprecation notice content.",
-      "date_published": "2025-11-13T21:06:42.903539+00:00",
-      "_deprecation": {
-        "provider": "Google",
-        "model_id": "gemini-2.5-pro-exp-03-25",
-        "model_name": "<UNKNOWN>",
-        "shutdown_date": "",
-        "announcement_date": "2025-06-26",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Unable to extract details due to limited or missing deprecation notice content."
+        "first_observed": "2025-11-25",
+        "last_observed": "2025-11-25",
+        "summary": "Notice content not provided. Unable to extract specific deprecation details."
       },
       "tags": [
         "Google",
@@ -1532,6 +1444,28 @@
         "first_observed": "2025-11-13",
         "last_observed": "2025-11-13",
         "summary": "Unable to analyze deprecation notice - content is limited or missing"
+      },
+      "tags": [
+        "Google",
+        "shutdown-"
+      ]
+    },
+    {
+      "id": "google-<unknown>",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#20250527",
+      "title": "Google Deprecation",
+      "content_text": "Unable to analyze deprecation notice - content appears to be truncated or missing.",
+      "date_published": "2025-11-25T03:10:04.253194+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-1.5-flash",
+        "model_name": "<UNKNOWN>",
+        "shutdown_date": "",
+        "announcement_date": "2025-05-27",
+        "replacement_model": null,
+        "first_observed": "2025-11-25",
+        "last_observed": "2025-11-25",
+        "summary": "Unable to analyze deprecation notice - content appears to be truncated or missing."
       },
       "tags": [
         "Google",

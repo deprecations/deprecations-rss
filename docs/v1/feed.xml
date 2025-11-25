@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Mon, 24 Nov 2025 03:18:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 03:10:23 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -818,48 +818,6 @@ Unable to analyze deprecation notice due to missing content</description>
       <guid isPermaLink="false">Google-gemini-live-2.5-flash-preview-3a1c6000</guid>
     </item>
     <item>
-      <title>Google: &lt;UNKNOWN&gt;</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20250929</link>
-      <description>Provider: Google
-Model ID: gemini-1.5-pro
-Model: &lt;UNKNOWN&gt;
-Announcement Date: 2025-09-29
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
-
-Insufficient information provided in the deprecation notice. Unable to extract specific details about model deprecation.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-1.5-pro-f7a59ecd</guid>
-    </item>
-    <item>
-      <title>Google: &lt;UNKNOWN&gt;</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20250929</link>
-      <description>Provider: Google
-Model ID: gemini-1.5-flash-8b
-Model: &lt;UNKNOWN&gt;
-Announcement Date: 2025-09-29
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
-
-Unable to analyze deprecation notice - content is missing or truncated</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-1.5-flash-8b-f5e40955</guid>
-    </item>
-    <item>
-      <title>Google: &lt;UNKNOWN&gt;</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20250929</link>
-      <description>Provider: Google
-Model ID: gemini-1.5-flash
-Model: &lt;UNKNOWN&gt;
-Announcement Date: 2025-09-29
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
-
-Unable to extract details due to limited or missing content in the deprecation notice.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-1.5-flash-f333a1b2</guid>
-    </item>
-    <item>
       <title>Google: Gemini Embedding Exp 03 07</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20250916</link>
       <description>Provider: Google
@@ -900,32 +858,18 @@ Unable to analyze deprecation notice due to limited or missing content.</descrip
       <guid isPermaLink="false">Google-gemini-embedding-001-05120a83</guid>
     </item>
     <item>
-      <title>Google: &lt;UNKNOWN&gt;</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20250626</link>
+      <title>Google: Unspecified Google Model</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20250617</link>
       <description>Provider: Google
 Model ID: gemini-2.5-pro
-Model: &lt;UNKNOWN&gt;
-Announcement Date: 2025-06-26
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+Model: Unspecified Google Model
+Announcement Date: 2025-06-17
+First Observed: 2025-11-25
+Last Observed: 2025-11-25
 
-Unable to extract details due to limited or missing content in the deprecation notice.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-pro-f333a1b2</guid>
-    </item>
-    <item>
-      <title>Google: &lt;UNKNOWN&gt;</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20250626</link>
-      <description>Provider: Google
-Model ID: gemini-2.5-pro-exp-03-25
-Model: &lt;UNKNOWN&gt;
-Announcement Date: 2025-06-26
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
-
-Unable to extract details due to limited or missing deprecation notice content.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-pro-exp-03-25-7992ee11</guid>
+Notice content not provided. Unable to extract specific deprecation details.</description>
+      <pubDate>Tue, 25 Nov 2025 03:10:04 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-pro-844e341a</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -954,6 +898,20 @@ Last Observed: 2025-11-13
 Unable to analyze deprecation notice - content is limited or missing</description>
       <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.5-flash-preview-04-17-e570cc4f</guid>
+    </item>
+    <item>
+      <title>Google: &lt;UNKNOWN&gt;</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20250527</link>
+      <description>Provider: Google
+Model ID: gemini-1.5-flash
+Model: &lt;UNKNOWN&gt;
+Announcement Date: 2025-05-27
+First Observed: 2025-11-25
+Last Observed: 2025-11-25
+
+Unable to analyze deprecation notice - content appears to be truncated or missing.</description>
+      <pubDate>Tue, 25 Nov 2025 03:10:04 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-1.5-flash-a94f3338</guid>
     </item>
     <item>
       <title>Google: Gemini 1.0 Pro</title>
