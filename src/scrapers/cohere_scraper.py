@@ -239,7 +239,9 @@ class CohereScraper(EnhancedBaseScraper):
 
             # Create deprecation item from LLM results
             replacement_str = enhanced.get("suggested_replacement")
-            replacement_models = self.parse_replacements(replacement_str) if replacement_str else None
+            replacement_models = (
+                self.parse_replacements(replacement_str) if replacement_str else None
+            )
 
             item = DeprecationItem(
                 provider=self.provider_name,

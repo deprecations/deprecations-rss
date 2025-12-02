@@ -140,7 +140,11 @@ class GoogleScraper(EnhancedBaseScraper):
                                         replacement_str = repl_match.group(1)
                                         break
 
-                                replacement_models = self.parse_replacements(replacement_str) if replacement_str else None
+                                replacement_models = (
+                                    self.parse_replacements(replacement_str)
+                                    if replacement_str
+                                    else None
+                                )
 
                                 item = DeprecationItem(
                                     provider=self.provider_name,

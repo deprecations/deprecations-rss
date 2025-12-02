@@ -46,7 +46,11 @@ class AnthropicScraper(EnhancedBaseScraper):
                         if len(cells) > 2 and cells[2] not in ["—", "-", "N/A"]
                         else None
                     )
-                    replacement_models = self.parse_replacements(replacement_str) if replacement_str else None
+                    replacement_models = (
+                        self.parse_replacements(replacement_str)
+                        if replacement_str
+                        else None
+                    )
                     deprecated_date = ""
                 else:
                     # Format 1: API Model Name | State | Deprecated | Tentative Retirement Date

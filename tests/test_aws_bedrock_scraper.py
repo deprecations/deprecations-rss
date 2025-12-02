@@ -63,7 +63,9 @@ def test_extracts_eol_models_with_dates(fixture_html):
         assert eol_item.announcement_date == "2024-02-02"
         assert eol_item.shutdown_date == "2024-04-30"
         assert eol_item.replacement_models is not None
-        assert any("Stable Diffusion XL 1.x" in model for model in eol_item.replacement_models)
+        assert any(
+            "Stable Diffusion XL 1.x" in model for model in eol_item.replacement_models
+        )
 
 
 def test_all_dates_are_iso_format(fixture_html):

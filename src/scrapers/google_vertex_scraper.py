@@ -218,7 +218,11 @@ class GoogleVertexScraper(EnhancedBaseScraper):
                     if repl_match:
                         replacement_str = repl_match.group(1).strip()
 
-                replacement_models = self.parse_replacements(replacement_str) if replacement_str else None
+                replacement_models = (
+                    self.parse_replacements(replacement_str)
+                    if replacement_str
+                    else None
+                )
 
                 # Handle special case: Imagen versions
                 if "imagen" in feature.lower():
