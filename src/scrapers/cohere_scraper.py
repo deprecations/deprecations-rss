@@ -107,7 +107,7 @@ class CohereScraper(EnhancedBaseScraper):
                 model_name="Command-R-03-2024 Fine-tuned Models",
                 announcement_date=announcement_date,
                 shutdown_date=shutdown_date or "2025-03-08",  # From example
-                replacement_model="Command-R-08-2024",
+                replacement_models=["Command-R-08-2024"],
                 deprecation_context=content,
                 url=f"{self.url}#{announcement_date}",
             )
@@ -137,7 +137,7 @@ class CohereScraper(EnhancedBaseScraper):
                         announcement_date=announcement_date
                         or "2024-12-02",  # From example
                         shutdown_date=shutdown_date or "2025-04-30",  # From example
-                        replacement_model=replacement,
+                        replacement_models=[replacement],
                         deprecation_context=content,
                         url=f"{self.url}#{announcement_date}",
                     )
@@ -160,7 +160,7 @@ class CohereScraper(EnhancedBaseScraper):
                 model_name="Classify Default Embed Models",
                 announcement_date=announcement,
                 shutdown_date=announcement,  # Same as announcement for this one
-                replacement_model="Fine-tuned Embed models",
+                replacement_models=["Fine-tuned Embed models"],
                 deprecation_context=content,
                 url=f"{self.url}#{announcement_date}",
             )
@@ -238,13 +238,16 @@ class CohereScraper(EnhancedBaseScraper):
             enhanced = self.llm_analyzer.analyze_item(analysis_item)
 
             # Create deprecation item from LLM results
+            replacement_str = enhanced.get("suggested_replacement")
+            replacement_models = self.parse_replacements(replacement_str) if replacement_str else None
+
             item = DeprecationItem(
                 provider=self.provider_name,
                 model_id=enhanced.get("model_name", title),
                 model_name=enhanced.get("model_name", title),
                 announcement_date=announcement_date,
                 shutdown_date=enhanced.get("shutdown_date", ""),
-                replacement_model=enhanced.get("suggested_replacement"),
+                replacement_models=replacement_models,
                 deprecation_context=content,
                 url=f"{self.url}#{announcement_date}",
                 content_hash=content_hash,

@@ -125,7 +125,7 @@ class GoogleScraper(EnhancedBaseScraper):
                                 model_name = model_id.replace("-", " ").title()
 
                                 # Look for replacement models in context
-                                replacement = None
+                                replacement_str = None
                                 repl_patterns = [
                                     r"redirect(?:ing)?\s+to\s+(gemini-[a-zA-Z0-9\-\.]+)",
                                     r"use\s+([a-z]+\s+\d+)",
@@ -137,8 +137,10 @@ class GoogleScraper(EnhancedBaseScraper):
                                         pattern, deprecation_context.lower()
                                     )
                                     if repl_match:
-                                        replacement = repl_match.group(1)
+                                        replacement_str = repl_match.group(1)
                                         break
+
+                                replacement_models = self.parse_replacements(replacement_str) if replacement_str else None
 
                                 item = DeprecationItem(
                                     provider=self.provider_name,
@@ -148,7 +150,7 @@ class GoogleScraper(EnhancedBaseScraper):
                                     shutdown_date=deprecation_date
                                     if deprecation_date != section_date
                                     else "",
-                                    replacement_model=replacement,
+                                    replacement_models=replacement_models,
                                     deprecation_context=deprecation_context,
                                     url=f"{self.url}#{section_date.replace('-', '')}",
                                 )
@@ -194,7 +196,7 @@ class GoogleScraper(EnhancedBaseScraper):
                                             shutdown_date=deprecation_date
                                             if deprecation_date != section_date
                                             else "",
-                                            replacement_model=None,
+                                            replacement_models=None,
                                             deprecation_context=text,
                                             url=f"{self.url}#{section_date.replace('-', '')}",
                                         )

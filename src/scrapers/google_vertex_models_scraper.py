@@ -160,7 +160,7 @@ class GoogleVertexModelsScraper(EnhancedBaseScraper):
                                         model_name=model_name,
                                         announcement_date=deprecation_date,
                                         shutdown_date=parsed_date,
-                                        replacement_model=None,
+                                        replacement_models=None,
                                         deprecation_context=f"{status}. {' '.join(context_parts)}".strip(),
                                         url=f"{self.url}#{section_header.get('id', '')}",
                                     )
@@ -215,7 +215,7 @@ class GoogleVertexModelsScraper(EnhancedBaseScraper):
                                             model_name=model_name,
                                             announcement_date=deprecation_date,
                                             shutdown_date=item_date,
-                                            replacement_model=None,
+                                            replacement_models=None,
                                             deprecation_context=li_text,
                                             url=f"{self.url}#{section_header.get('id', '')}",
                                         )
@@ -250,7 +250,7 @@ class GoogleVertexModelsScraper(EnhancedBaseScraper):
                         model_name=model_name,
                         announcement_date=deprecation_date,
                         shutdown_date=shutdown_date,
-                        replacement_model=None,
+                        replacement_models=None,
                         deprecation_context=" ".join(context_parts),
                         url=f"{self.url}#{section_header.get('id', '')}",
                     )

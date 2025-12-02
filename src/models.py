@@ -15,7 +15,9 @@ class DeprecationItem:
     model_name: str  # Display name for the model
     announcement_date: str  # ISO date when announced
     shutdown_date: str  # ISO date when model stops working
-    replacement_model: Optional[str] = None  # Recommended replacement (can be null)
+    replacement_models: Optional[list[str]] = (
+        None  # Recommended replacements (can be null)
+    )
     deprecation_context: str = ""  # Full announcement text/context
     url: str = ""  # Full URL with anchor (e.g., /docs/deprecations#2025-04-28)
     content_hash: str = ""  # Hash of raw content (for LLM deduplication)
@@ -44,7 +46,7 @@ class DeprecationItem:
             "model_name": self.model_name,
             "announcement_date": self.announcement_date,
             "shutdown_date": self.shutdown_date,
-            "replacement_model": self.replacement_model,
+            "replacement_models": self.replacement_models,
             "deprecation_context": self.deprecation_context,
             "url": self.url,
             "content_hash": self.content_hash,
@@ -54,13 +56,29 @@ class DeprecationItem:
     @classmethod
     def from_dict(cls, data: dict) -> "DeprecationItem":
         """Create instance from dictionary."""
+        # Handle backward compatibility: convert old replacement_model string to list
+        replacement_models = data.get("replacement_models")
+        if replacement_models is None and "replacement_model" in data:
+            old_value = data.get("replacement_model")
+            if old_value:
+                # Split on "or" to handle cases like "gpt-image-1orgpt-image-1-mini"
+                # This handles the concatenated format from the old data
+                if "or" in old_value and " " not in old_value.split("or")[0] and " " not in old_value.split("or")[-1]:
+                    # Looks like concatenated format: "model1ormodel2"
+                    replacement_models = [m for m in old_value.split("or") if m]
+                else:
+                    # Single model or already properly formatted
+                    replacement_models = [old_value]
+            else:
+                replacement_models = None
+
         return cls(
             provider=data.get("provider", ""),
             model_id=data.get("model_id", ""),
             model_name=data.get("model_name", ""),
             announcement_date=data.get("announcement_date", ""),
             shutdown_date=data.get("shutdown_date", ""),
-            replacement_model=data.get("replacement_model"),
+            replacement_models=replacement_models,
             deprecation_context=data.get("deprecation_context", ""),
             url=data.get("url", ""),
             content_hash=data.get("content_hash", ""),

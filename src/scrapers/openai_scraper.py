@@ -231,11 +231,11 @@ class OpenAIScraper(EnhancedBaseScraper):
                     shutdown_date = parsed_date
 
             # Extract replacement
-            replacement = None
+            replacement_models = None
             if replacement_idx is not None and replacement_idx < len(cells):
                 repl_text = cells[replacement_idx].get_text(strip=True)
                 if repl_text and repl_text not in ["—", "-", "N/A"]:
-                    replacement = repl_text
+                    replacement_models = self.parse_replacements(repl_text)
 
             # Create deprecation item for each model
             for model_name in model_names:
@@ -245,7 +245,7 @@ class OpenAIScraper(EnhancedBaseScraper):
                     model_name=model_name,
                     announcement_date=announcement_date,
                     shutdown_date=shutdown_date,
-                    replacement_model=replacement,
+                    replacement_models=replacement_models,
                     deprecation_context=context,
                     url=url,
                 )
@@ -291,7 +291,7 @@ class OpenAIScraper(EnhancedBaseScraper):
                 model_name=model,
                 announcement_date=announcement_date,
                 shutdown_date=shutdown_date,
-                replacement_model=None,  # Would need LLM to extract this reliably
+                replacement_models=None,  # Would need LLM to extract this reliably
                 deprecation_context=text,
                 url=url,
             )
@@ -322,7 +322,7 @@ class OpenAIScraper(EnhancedBaseScraper):
                         model_name=model,
                         announcement_date=announcement_date,
                         shutdown_date=shutdown_date,
-                        replacement_model=None,
+                        replacement_models=None,
                         deprecation_context=text,
                         url=url,
                     )
@@ -339,7 +339,7 @@ class OpenAIScraper(EnhancedBaseScraper):
                     model_name=title,
                     announcement_date=announcement_date,
                     shutdown_date=shutdown_date,
-                    replacement_model=None,
+                    replacement_models=None,
                     deprecation_context=text,
                     url=url,
                 )

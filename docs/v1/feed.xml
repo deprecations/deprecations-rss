@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Tue, 02 Dec 2025 03:13:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 11:07:27 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -14,7 +14,7 @@ Model: chatgpt-4o-latest
 Shutdown Date: 2026-02-17
 
 On November 18th, 2025, we notified developers usingchatgpt-4o-latestmodel snapshot of its deprecation and removal from the API on February 17, 2026.</description>
-      <pubDate>Fri, 21 Nov 2025 03:05:41 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-chatgpt-4o-latest-2026-02-17-e3b0c442</guid>
     </item>
     <item>
@@ -26,7 +26,7 @@ Model: codex-mini-latest
 Shutdown Date: 2026-01-16
 
 On November 17th, 2025, we notified developers usingcodex-mini-latestmodel of its deprecation and removal from the API on January 16, 2026.</description>
-      <pubDate>Thu, 20 Nov 2025 03:04:49 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-codex-mini-latest-2026-01-16-e3b0c442</guid>
     </item>
     <item>
@@ -38,7 +38,7 @@ Model: dall-e-2
 Shutdown Date: 2026-05-12
 
 On November 14th, 2025, we notified developers using DALL·E model snapshots of their deprecation and removal from the API on May 12, 2026.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-dall-e-2-2026-05-12-e3b0c442</guid>
     </item>
     <item>
@@ -50,7 +50,7 @@ Model: dall-e-3
 Shutdown Date: 2026-05-12
 
 On November 14th, 2025, we notified developers using DALL·E model snapshots of their deprecation and removal from the API on May 12, 2026.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-dall-e-3-2026-05-12-e3b0c442</guid>
     </item>
     <item>
@@ -62,7 +62,7 @@ Model: gpt-4-0314
 Shutdown Date: 2025-09-26
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4-0314-2025-09-26-e3b0c442</guid>
     </item>
     <item>
@@ -74,7 +74,7 @@ Model: gpt-4-1106-preview
 Shutdown Date: 2025-09-26
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4-1106-preview-2025-09-26-e3b0c442</guid>
     </item>
     <item>
@@ -86,7 +86,7 @@ Model: gpt-4-0125-preview
 Shutdown Date: 2025-09-26
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4-0125-preview-2025-09-26-e3b0c442</guid>
     </item>
     <item>
@@ -98,7 +98,7 @@ Model: gpt-3.5-turbo-instruct
 Shutdown Date: 2026-09-28
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-instruct-2026-09-28-e3b0c442</guid>
     </item>
     <item>
@@ -110,7 +110,7 @@ Model: babbage-002
 Shutdown Date: 2026-09-28
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-babbage-002-2026-09-28-e3b0c442</guid>
     </item>
     <item>
@@ -122,7 +122,7 @@ Model: davinci-002
 Shutdown Date: 2026-09-28
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-davinci-002-2026-09-28-e3b0c442</guid>
     </item>
     <item>
@@ -134,7 +134,7 @@ Model: gpt-3.5-turbo-1106
 Shutdown Date: 2026-09-28
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-1106-2026-09-28-e3b0c442</guid>
     </item>
     <item>
@@ -146,7 +146,7 @@ Model: gpt-4o-realtime-preview
 Shutdown Date: 2026-02-27
 
 In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2026-02-27-e3b0c442</guid>
     </item>
     <item>
@@ -158,7 +158,7 @@ Model: gpt-4o-realtime-preview-2025-06-03
 Shutdown Date: 2026-02-27
 
 In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2025-06-03-2026-02-27-e3b0c442</guid>
     </item>
     <item>
@@ -170,7 +170,7 @@ Model: gpt-4o-realtime-preview-2024-12-17
 Shutdown Date: 2026-02-27
 
 In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2024-12-17-2026-02-27-e3b0c442</guid>
     </item>
     <item>
@@ -182,7 +182,7 @@ Model: gpt-4o-realtime-preview-2024-10-01
 Shutdown Date: 2025-10-10
 
 On June 10th, 2025, we notified developers using gpt-4o-realtime-preview-2024-10-01 of its deprecation and removal from the API in three months.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2024-10-01-2025-10-10-e3b0c442</guid>
     </item>
     <item>
@@ -194,7 +194,7 @@ Model: gpt-4o-audio-preview-2024-10-01
 Shutdown Date: 2025-10-10
 
 On June 10th, 2025, we notified developers usinggpt-4o-audio-preview-2024-10-01of its deprecation and removal from the API in three months.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-audio-preview-2024-10-01-2025-10-10-e3b0c442</guid>
     </item>
     <item>
@@ -206,7 +206,7 @@ Model: text-moderation-007
 Shutdown Date: 2025-10-27
 
 On April 28th, 2025, we notified developers usingtext-moderationof its deprecation and removal from the API in six months.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-text-moderation-007-2025-10-27-e3b0c442</guid>
     </item>
     <item>
@@ -218,7 +218,7 @@ Model: text-moderation-stable
 Shutdown Date: 2025-10-27
 
 On April 28th, 2025, we notified developers usingtext-moderationof its deprecation and removal from the API in six months.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-text-moderation-stable-2025-10-27-e3b0c442</guid>
     </item>
     <item>
@@ -230,7 +230,7 @@ Model: text-moderation-latest
 Shutdown Date: 2025-10-27
 
 On April 28th, 2025, we notified developers usingtext-moderationof its deprecation and removal from the API in six months.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-text-moderation-latest-2025-10-27-e3b0c442</guid>
     </item>
     <item>
@@ -242,7 +242,7 @@ Model: o1-preview
 Shutdown Date: 2025-07-28
 
 On April 28th, 2025, we notified developers usingo1-previewando1-miniof their deprecations and removal from the API in three months and six months respectively.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-o1-preview-2025-07-28-e3b0c442</guid>
     </item>
     <item>
@@ -254,7 +254,7 @@ Model: o1-mini
 Shutdown Date: 2025-10-27
 
 On April 28th, 2025, we notified developers usingo1-previewando1-miniof their deprecations and removal from the API in three months and six months respectively.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-o1-mini-2025-10-27-e3b0c442</guid>
     </item>
     <item>
@@ -266,7 +266,7 @@ Model: gpt-4.5-preview
 Shutdown Date: 2025-07-14
 
 On April 14th, 2025, we notified developers that thegpt-4.5-previewmodel is deprecated and will be removed from the API in the coming months.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4.5-preview-2025-07-14-e3b0c442</guid>
     </item>
     <item>
@@ -278,7 +278,7 @@ Model: gpt-4-32k
 Shutdown Date: 2025-06-06
 
 On June 6th, 2024, we notified developers usinggpt-4-32kandgpt-4-vision-previewof their upcoming deprecations in one year and six months respectively. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4-32k-2025-06-06-e3b0c442</guid>
     </item>
     <item>
@@ -290,7 +290,7 @@ Model: gpt-4-32k-0613
 Shutdown Date: 2025-06-06
 
 On June 6th, 2024, we notified developers usinggpt-4-32kandgpt-4-vision-previewof their upcoming deprecations in one year and six months respectively. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4-32k-0613-2025-06-06-e3b0c442</guid>
     </item>
     <item>
@@ -302,7 +302,7 @@ Model: gpt-4-32k-0314
 Shutdown Date: 2025-06-06
 
 On June 6th, 2024, we notified developers usinggpt-4-32kandgpt-4-vision-previewof their upcoming deprecations in one year and six months respectively. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4-32k-0314-2025-06-06-e3b0c442</guid>
     </item>
     <item>
@@ -314,7 +314,7 @@ Model: gpt-4-vision-preview
 Shutdown Date: 2024-12-06
 
 On June 6th, 2024, we notified developers usinggpt-4-32kandgpt-4-vision-previewof their upcoming deprecations in one year and six months respectively. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4-vision-preview-2024-12-06-e3b0c442</guid>
     </item>
     <item>
@@ -326,7 +326,7 @@ Model: gpt-4-1106-vision-preview
 Shutdown Date: 2024-12-06
 
 On June 6th, 2024, we notified developers usinggpt-4-32kandgpt-4-vision-previewof their upcoming deprecations in one year and six months respectively. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4-1106-vision-preview-2024-12-06-e3b0c442</guid>
     </item>
     <item>
@@ -338,7 +338,7 @@ Model: gpt-3.5-turbo-0613
 Shutdown Date: 2024-09-13
 
 On November 6th, 2023, weannouncedthe release of an updated GPT-3.5-Turbo model (which now comes by default with 16k context) along with deprecation ofgpt-3.5-turbo-0613andgpt-3.5-turbo-16k-0613. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-0613-2024-09-13-e3b0c442</guid>
     </item>
     <item>
@@ -350,7 +350,7 @@ Model: gpt-3.5-turbo-16k-0613
 Shutdown Date: 2024-09-13
 
 On November 6th, 2023, weannouncedthe release of an updated GPT-3.5-Turbo model (which now comes by default with 16k context) along with deprecation ofgpt-3.5-turbo-0613andgpt-3.5-turbo-16k-0613. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-16k-0613-2024-09-13-e3b0c442</guid>
     </item>
     <item>
@@ -361,7 +361,7 @@ Model ID: code-davinci-002
 Model: code-davinci-002
 Shutdown Date: 2023-03-23
 </description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-code-davinci-002-2023-03-23-e3b0c442</guid>
     </item>
     <item>
@@ -372,7 +372,7 @@ Model ID: code-davinci-001
 Model: code-davinci-001
 Shutdown Date: 2023-03-23
 </description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-code-davinci-001-2023-03-23-e3b0c442</guid>
     </item>
     <item>
@@ -383,7 +383,7 @@ Model ID: code-cushman-002
 Model: code-cushman-002
 Shutdown Date: 2023-03-23
 </description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-code-cushman-002-2023-03-23-e3b0c442</guid>
     </item>
     <item>
@@ -394,7 +394,7 @@ Model ID: code-cushman-001
 Model: code-cushman-001
 Shutdown Date: 2023-03-23
 </description>
-      <pubDate>Thu, 13 Nov 2025 21:06:38 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:04 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-code-cushman-001-2023-03-23-e3b0c442</guid>
     </item>
     <item>
@@ -405,7 +405,7 @@ Model ID: claude-3-opus-20240229
 Model: claude-3-opus-20240229
 Shutdown Date: 2026-01-05
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-opus-20240229-2026-01-05-e3b0c442</guid>
     </item>
     <item>
@@ -416,7 +416,7 @@ Model ID: claude-3-7-sonnet-20250219
 Model: claude-3-7-sonnet-20250219
 Shutdown Date: 2026-02-19
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-7-sonnet-20250219-2026-02-19-e3b0c442</guid>
     </item>
     <item>
@@ -427,7 +427,7 @@ Model ID: claude-3-5-sonnet-20240620
 Model: claude-3-5-sonnet-20240620
 Shutdown Date: 2025-10-28
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-5-sonnet-20240620-2025-10-28-e3b0c442</guid>
     </item>
     <item>
@@ -438,7 +438,7 @@ Model ID: claude-3-5-sonnet-20241022
 Model: claude-3-5-sonnet-20241022
 Shutdown Date: 2025-10-28
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-5-sonnet-20241022-2025-10-28-e3b0c442</guid>
     </item>
     <item>
@@ -449,7 +449,7 @@ Model ID: claude-2.0
 Model: claude-2.0
 Shutdown Date: 2025-07-21
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-2.0-2025-07-21-e3b0c442</guid>
     </item>
     <item>
@@ -460,7 +460,7 @@ Model ID: claude-2.1
 Model: claude-2.1
 Shutdown Date: 2025-07-21
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-2.1-2025-07-21-e3b0c442</guid>
     </item>
     <item>
@@ -471,7 +471,7 @@ Model ID: claude-3-sonnet-20240229
 Model: claude-3-sonnet-20240229
 Shutdown Date: 2025-07-21
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-sonnet-20240229-2025-07-21-e3b0c442</guid>
     </item>
     <item>
@@ -482,7 +482,7 @@ Model ID: claude-1.0
 Model: claude-1.0
 Shutdown Date: 2024-11-06
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-1.0-2024-11-06-e3b0c442</guid>
     </item>
     <item>
@@ -493,7 +493,7 @@ Model ID: claude-1.1
 Model: claude-1.1
 Shutdown Date: 2024-11-06
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-1.1-2024-11-06-e3b0c442</guid>
     </item>
     <item>
@@ -504,7 +504,7 @@ Model ID: claude-1.2
 Model: claude-1.2
 Shutdown Date: 2024-11-06
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-1.2-2024-11-06-e3b0c442</guid>
     </item>
     <item>
@@ -515,7 +515,7 @@ Model ID: claude-1.3
 Model: claude-1.3
 Shutdown Date: 2024-11-06
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-1.3-2024-11-06-e3b0c442</guid>
     </item>
     <item>
@@ -526,7 +526,7 @@ Model ID: claude-instant-1.0
 Model: claude-instant-1.0
 Shutdown Date: 2024-11-06
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-instant-1.0-2024-11-06-e3b0c442</guid>
     </item>
     <item>
@@ -537,7 +537,7 @@ Model ID: claude-instant-1.1
 Model: claude-instant-1.1
 Shutdown Date: 2024-11-06
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-instant-1.1-2024-11-06-e3b0c442</guid>
     </item>
     <item>
@@ -548,7 +548,7 @@ Model ID: claude-instant-1.2
 Model: claude-instant-1.2
 Shutdown Date: 2024-11-06
 </description>
-      <pubDate>Fri, 14 Nov 2025 19:36:57 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:08 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-instant-1.2-2024-11-06-e3b0c442</guid>
     </item>
     <item>
@@ -560,7 +560,7 @@ Model: Veo 3.0 Fast Generate Preview
 Shutdown Date: 2025-11-12
 
 November 12: veo-3.0-fast-generate-preview veo-3.0-generate-preview</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
       <guid isPermaLink="false">Google-veo-3.0-fast-generate-preview-2025-11-12-e3b0c442</guid>
     </item>
     <item>
@@ -572,22 +572,22 @@ Model: Veo 3.0 Generate Preview
 Shutdown Date: 2025-11-12
 
 November 12: veo-3.0-fast-generate-preview veo-3.0-generate-preview</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
       <guid isPermaLink="false">Google-veo-3.0-generate-preview-2025-11-12-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: Google Model</title>
+      <title>Google: &lt;UNKNOWN&gt;</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251111</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-exp-image-generation
-Model: Google Model
+Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-11-11
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-&lt;UNKNOWN&gt;</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-exp-image-generation-28e33c46</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-exp-image-generation-1837e9be</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -596,26 +596,26 @@ Last Observed: 2025-11-13
 Model ID: gemini-2.0-flash-preview-image-generation
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-11-11
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Insufficient information provided to complete deprecation analysis</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-preview-image-generation-d10861d3</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-preview-image-generation-1837e9be</guid>
     </item>
     <item>
-      <title>Google: Unknown</title>
+      <title>Google: &lt;UNKNOWN&gt;</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251110</link>
       <description>Provider: Google
 Model ID: imagen-3.0-generate-002
-Model: Unknown
+Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-11-10
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Insufficient information provided. No deprecation details were included in the notice.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-imagen-3.0-generate-002-fd0882fb</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-imagen-3.0-generate-002-1837e9be</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -624,12 +624,12 @@ Insufficient information provided. No deprecation details were included in the n
 Model ID: gemini-2.5-flash-lite-preview-06-17
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-11-04
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Unable to analyze deprecation notice due to missing content details.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-lite-preview-06-17-71ee96fb</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-lite-preview-06-17-1837e9be</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -638,12 +638,12 @@ Unable to analyze deprecation notice due to missing content details.</descriptio
 Model ID: gemini-2.5-flash-preview-05-20
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-11-04
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Insufficient information provided in the deprecation notice</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-05-20-37f0cd2c</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-05-20-1837e9be</guid>
     </item>
     <item>
       <title>Google: Gemini 2.0 Flash Thinking Exp</title>
@@ -654,7 +654,7 @@ Model: Gemini 2.0 Flash Thinking Exp
 Shutdown Date: 2025-12-02
 
 December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.0-flash-thinking-exp-2025-12-02-e3b0c442</guid>
     </item>
     <item>
@@ -664,12 +664,12 @@ December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 
 Model ID: gemini-2.0-flash-thinking-exp-01-21
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-11-04
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Unable to analyze deprecation notice - content is missing or limited</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-thinking-exp-01-21-50ddcc3b</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-thinking-exp-01-21-1837e9be</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -678,12 +678,12 @@ Unable to analyze deprecation notice - content is missing or limited</descriptio
 Model ID: gemini-2.0-flash-thinking-exp-1219
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-11-04
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Unable to analyze deprecation notice - content is limited or missing</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-thinking-exp-1219-e570cc4f</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-thinking-exp-1219-1837e9be</guid>
     </item>
     <item>
       <title>Google: Gemini 2.5 Pro Preview 03 25</title>
@@ -694,7 +694,7 @@ Model: Gemini 2.5 Pro Preview 03 25
 Shutdown Date: 2025-12-02
 
 December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.5-pro-preview-03-25-2025-12-02-e3b0c442</guid>
     </item>
     <item>
@@ -706,7 +706,7 @@ Model: Gemini 2.5 Pro Preview 05 06
 Shutdown Date: 2025-12-02
 
 December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.5-pro-preview-05-06-2025-12-02-e3b0c442</guid>
     </item>
     <item>
@@ -718,7 +718,7 @@ Model: Gemini 2.5 Pro Preview 06 05
 Shutdown Date: 2025-12-02
 
 December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.5-pro-preview-06-05-2025-12-02-e3b0c442</guid>
     </item>
     <item>
@@ -730,7 +730,7 @@ Model: Gemini 2.0 Flash Lite Preview
 Shutdown Date: 2025-12-09
 
 December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.0-flash-lite-preview-2025-12-09-e3b0c442</guid>
     </item>
     <item>
@@ -740,12 +740,12 @@ December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05<
 Model ID: gemini-2.0-flash-lite-preview-02-05
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-11-04
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Insufficient information provided in the deprecation notice to extract meaningful details.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-preview-02-05-cced542e</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-preview-02-05-1837e9be</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -754,12 +754,12 @@ Insufficient information provided in the deprecation notice to extract meaningfu
 Model ID: gemini-2.5-flash-preview-native-audio-dialog
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-10-20
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Notice appears to be incomplete or missing critical details about model deprecation.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-native-audio-dialog-97f7a56d</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-native-audio-dialog-1837e9be</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -768,26 +768,26 @@ Notice appears to be incomplete or missing critical details about model deprecat
 Model ID: gemini-2.5-flash-exp-native-audio-thinking-dialog
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-10-20
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Unable to analyze deprecation details due to limited or missing content in the notice.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-exp-native-audio-thinking-dialog-a95df977</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-exp-native-audio-thinking-dialog-1837e9be</guid>
     </item>
     <item>
-      <title>Google: Unknown</title>
+      <title>Google: &lt;UNKNOWN&gt;</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251020</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-native-audio-preview-09-2025
-Model: Unknown
+Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-10-20
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Insufficient content provided for meaningful deprecation analysis</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-native-audio-preview-09-2025-3e0544a6</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-native-audio-preview-09-2025-1837e9be</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -796,12 +796,12 @@ Insufficient content provided for meaningful deprecation analysis</description>
 Model ID: gemini-2.0-flash-live-001
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-10-20
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Unable to analyze deprecation notice due to missing content.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-live-001-f8196b10</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-live-001-1837e9be</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -810,38 +810,40 @@ Unable to analyze deprecation notice due to missing content.</description>
 Model ID: gemini-live-2.5-flash-preview
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-10-20
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Unable to analyze deprecation notice due to missing content</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-live-2.5-flash-preview-3a1c6000</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-live-2.5-flash-preview-1837e9be</guid>
     </item>
     <item>
-      <title>Google: Gemini Embedding Exp 03 07</title>
+      <title>Google: &lt;UNKNOWN&gt;</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20250916</link>
       <description>Provider: Google
 Model ID: gemini-embedding-exp-03-07
-Model: Gemini Embedding Exp 03 07
+Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-09-16
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-The following models will be deprecated in October, 2025:embedding-001embedding-gecko-001gemini-embedding-exp-03-07(gemini-embedding-exp)See theEmbeddingspage for details on the latest embeddings
-model.</description>
-      <pubDate>Tue, 11 Nov 2025 16:16:45 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-embedding-exp-03-07-e3b0c442</guid>
+Incomplete deprecation notice - critical details missing from the provided content.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-embedding-exp-03-07-1837e9be</guid>
     </item>
     <item>
-      <title>Google: Gemini Embedding Exp</title>
+      <title>Google: &lt;UNKNOWN&gt;</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20250916</link>
       <description>Provider: Google
 Model ID: gemini-embedding-exp
-Model: Gemini Embedding Exp
+Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-09-16
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-The following models will be deprecated in October, 2025:embedding-001embedding-gecko-001gemini-embedding-exp-03-07(gemini-embedding-exp)See theEmbeddingspage for details on the latest embeddings
-model.</description>
-      <pubDate>Tue, 11 Nov 2025 16:16:45 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-embedding-exp-e3b0c442</guid>
+Insufficient information provided in the deprecation notice. Unable to extract key details.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-embedding-exp-cc470a64</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -850,26 +852,26 @@ model.</description>
 Model ID: gemini-embedding-001
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-07-14
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Unable to analyze deprecation notice due to limited or missing content.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-embedding-001-05120a83</guid>
+Insufficient information provided in the deprecation notice. Unable to extract key details.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-embedding-001-cc470a64</guid>
     </item>
     <item>
-      <title>Google: Unspecified Google Model</title>
+      <title>Google: &lt;UNKNOWN&gt;</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20250617</link>
       <description>Provider: Google
 Model ID: gemini-2.5-pro
-Model: Unspecified Google Model
+Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-06-17
-First Observed: 2025-11-25
-Last Observed: 2025-11-25
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Notice content not provided. Unable to extract specific deprecation details.</description>
-      <pubDate>Tue, 25 Nov 2025 03:10:04 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-pro-844e341a</guid>
+Insufficient information provided in the deprecation notice. Unable to extract key details.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-pro-cc470a64</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -878,12 +880,12 @@ Notice content not provided. Unable to extract specific deprecation details.</de
 Model ID: gemini-2.5-flash
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-06-17
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Unable to analyze deprecation details due to limited or missing content in the notice.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-a95df977</guid>
+Insufficient information provided in the deprecation notice. Unable to extract key details.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-cc470a64</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -892,12 +894,12 @@ Unable to analyze deprecation details due to limited or missing content in the n
 Model ID: gemini-2.5-flash-preview-04-17
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-06-17
-First Observed: 2025-11-13
-Last Observed: 2025-11-13
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Unable to analyze deprecation notice - content is limited or missing</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-04-17-e570cc4f</guid>
+Insufficient information provided in the deprecation notice. Unable to extract key details.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-04-17-cc470a64</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -906,36 +908,40 @@ Unable to analyze deprecation notice - content is limited or missing</descriptio
 Model ID: gemini-1.5-flash
 Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-05-27
-First Observed: 2025-11-25
-Last Observed: 2025-11-25
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Unable to analyze deprecation notice - content appears to be truncated or missing.</description>
-      <pubDate>Tue, 25 Nov 2025 03:10:04 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-1.5-flash-a94f3338</guid>
+Insufficient information provided in the deprecation notice. Unable to extract key details.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-1.5-flash-cc470a64</guid>
     </item>
     <item>
-      <title>Google: Gemini 1.0 Pro</title>
+      <title>Google: &lt;UNKNOWN&gt;</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20250218</link>
       <description>Provider: Google
 Model ID: gemini-1.0-pro
-Model: Gemini 1.0 Pro
+Model: &lt;UNKNOWN&gt;
 Announcement Date: 2025-02-18
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Gemini 1.0 Pro is no longer supported. For the list of supported models, seeGemini models.</description>
-      <pubDate>Tue, 11 Nov 2025 16:16:45 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-1.0-pro-e3b0c442</guid>
+Insufficient information provided in the deprecation notice. Unable to extract key details.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-1.0-pro-cc470a64</guid>
     </item>
     <item>
-      <title>Google: Gemini 1.0 Pro Vision</title>
+      <title>Google: &lt;UNKNOWN&gt;</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20240712</link>
       <description>Provider: Google
 Model ID: gemini-1.0-pro-vision
-Model: Gemini 1.0 Pro Vision
+Model: &lt;UNKNOWN&gt;
 Announcement Date: 2024-07-12
+First Observed: 2025-12-02
+Last Observed: 2025-12-02
 
-Support for Gemini 1.0 Pro Vision removed from Google AI services and tools.</description>
-      <pubDate>Tue, 11 Nov 2025 16:16:45 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-1.0-pro-vision-e3b0c442</guid>
+Insufficient information provided in the deprecation notice. Unable to extract key details.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:09 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-1.0-pro-vision-cc470a64</guid>
     </item>
     <item>
       <title>Google Vertex: Generative AI module in the Vertex AI SDK</title>
@@ -949,7 +955,7 @@ Starting on June 24, 2025, the Generative AI module in the
         Vertex AI SDK is deprecated. The Generative AI module will be
         removed on June 24, 2026. For information about migrating to the
         Google Gen AI SDK, seeVertex AI SDK migration guide.</description>
-      <pubDate>Tue, 11 Nov 2025 16:16:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:10 GMT</pubDate>
       <guid isPermaLink="false">Google_Vertex-Generative_AI_module_in_the_Vertex_AI_SDK-2026-06-24-e3b0c442</guid>
     </item>
     <item>
@@ -965,7 +971,7 @@ The following Imagen 4 Preview models are retiring on
         disruption, migrate all workflows that use Imagen 4 preview models
         before November 30, 2025 , to the following Imagen 4
         Generally Available models:imagen-4.0-generate-001,imagen-4.0-ultra-generate-001,imagen-4.0-fast-generate-001.</description>
-      <pubDate>Tue, 11 Nov 2025 16:16:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:10 GMT</pubDate>
       <guid isPermaLink="false">Google_Vertex-Imagen_4_Preview_models-2025-11-30-e3b0c442</guid>
     </item>
     <item>
@@ -981,7 +987,7 @@ Imagen subject model and style model tuning will be
         useGemini 2.5 Flash Image, which supports most use cases that
         require fine-tuning. For more information, seeEdit
         images with Gemini.</description>
-      <pubDate>Tue, 11 Nov 2025 16:16:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:10 GMT</pubDate>
       <guid isPermaLink="false">Google_Vertex-Imagen_subject_model_and_style_model_tuning-2025-12-31-e3b0c442</guid>
     </item>
     <item>
@@ -993,7 +999,7 @@ Model: Stable Diffusion XL 1.0
 Shutdown Date: 2025-05-20
 
 Model Stable Diffusion XL 1.0. entered legacy status on 2024-10-16. and will reach end-of-life on 2025-05-20. Recommended replacement: Stable Image Core.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Stable_Diffusion_XL_1.0-2025-05-20-e3b0c442</guid>
     </item>
     <item>
@@ -1005,7 +1011,7 @@ Model: Claude 3 Opus
 Shutdown Date: 2026-01-15
 
 Model Claude 3 Opus. entered legacy status on 2025-07-15. and will reach end-of-life on 2026-01-15. Recommended replacement: Claude Opus 4.1, Claude Sonnet 4.5.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_3_Opus-2026-01-15-e3b0c442</guid>
     </item>
     <item>
@@ -1017,7 +1023,7 @@ Model: Claude Opus 4
 Shutdown Date: 2026-05-31
 
 Model Claude Opus 4. entered legacy status on 2025-10-01. and will reach end-of-life on 2026-05-31. Recommended replacement: Claude Opus 4.1.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_Opus_4-2026-05-31-e3b0c442</guid>
     </item>
     <item>
@@ -1029,7 +1035,7 @@ Model: Claude 3.5 Sonnet v1
 Shutdown Date: 2026-03-01
 
 Model Claude 3.5 Sonnet v1. entered legacy status on 2025-08-25. and will reach end-of-life on 2026-03-01. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_3.5_Sonnet_v1-2026-03-01-e3b0c442</guid>
     </item>
     <item>
@@ -1041,7 +1047,7 @@ Model: Claude 3.5 Sonnet v2
 Shutdown Date: 2026-03-01
 
 Model Claude 3.5 Sonnet v2. entered legacy status on 2025-08-25. and will reach end-of-life on 2026-03-01. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_3.5_Sonnet_v2-2026-03-01-e3b0c442</guid>
     </item>
     <item>
@@ -1053,7 +1059,7 @@ Model: Claude 3.7 Sonnet
 Shutdown Date: 2026-04-28
 
 Model Claude 3.7 Sonnet. entered legacy status on 2025-10-28. and will reach end-of-life on 2026-04-28. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_3.7_Sonnet-2026-04-28-e3b0c442</guid>
     </item>
     <item>
@@ -1065,7 +1071,7 @@ Model: Stable Diffusion XL 0.8
 Shutdown Date: 2024-04-30
 
 Model Stable Diffusion XL 0.8. entered legacy status on 2024-02-02. and will reach end-of-life on 2024-04-30. Recommended replacement: Stable Diffusion XL 1.x.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Stable_Diffusion_XL_0.8-2024-04-30-e3b0c442</guid>
     </item>
     <item>
@@ -1077,7 +1083,7 @@ Model: Cohere Command
 Shutdown Date: 2025-08-12
 
 Model Cohere Command. entered legacy status on 2024-10-04. and will reach end-of-life on 2025-08-12. Recommended replacement: Cohere Command R, Cohere Command R+.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Cohere_Command-2025-08-12-e3b0c442</guid>
     </item>
     <item>
@@ -1089,7 +1095,7 @@ Model: Cohere Command Light
 Shutdown Date: 2025-08-12
 
 Model Cohere Command Light. entered legacy status on 2024-10-04. and will reach end-of-life on 2025-08-12. Recommended replacement: Cohere Command R, Cohere Command R+.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Cohere_Command_Light-2025-08-12-e3b0c442</guid>
     </item>
     <item>
@@ -1101,7 +1107,7 @@ Model: Claude v1.3
 Shutdown Date: 2024-02-28
 
 Model Claude v1.3. entered legacy status on 2023-11-28. and will reach end-of-life on 2024-02-28. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_v1.3-2024-02-28-e3b0c442</guid>
     </item>
     <item>
@@ -1113,7 +1119,7 @@ Model: Claude v2
 Shutdown Date: 2025-07-21
 
 Model Claude v2. entered legacy status on 2025-01-21. and will reach end-of-life on 2025-07-21. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_v2-2025-07-21-e3b0c442</guid>
     </item>
     <item>
@@ -1125,7 +1131,7 @@ Model: Claude v2.1
 Shutdown Date: 2025-07-21
 
 Model Claude v2.1. entered legacy status on 2025-01-21. and will reach end-of-life on 2025-07-21. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_v2.1-2025-07-21-e3b0c442</guid>
     </item>
     <item>
@@ -1137,7 +1143,7 @@ Model: Claude Instant
 Shutdown Date: 2025-07-21
 
 Model Claude Instant. entered legacy status on 2025-01-21. and will reach end-of-life on 2025-07-21. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_Instant-2025-07-21-e3b0c442</guid>
     </item>
     <item>
@@ -1149,7 +1155,7 @@ Model: Claude 3 Sonnet
 Shutdown Date: 2025-07-21
 
 Model Claude 3 Sonnet. entered legacy status on 2025-01-21. and will reach end-of-life on 2025-07-21. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_3_Sonnet-2025-07-21-e3b0c442</guid>
     </item>
     <item>
@@ -1161,7 +1167,7 @@ Model: Titan Embeddings - Text v1.1
 Shutdown Date: 2024-02-15
 
 Model Titan Embeddings - Text v1.1. entered legacy status on 2023-11-07. and will reach end-of-life on 2024-02-15. Recommended replacement: Titan Embeddings - Text v1.2.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Titan_Embeddings_-_Text_v1.1-2024-02-15-e3b0c442</guid>
     </item>
     <item>
@@ -1172,8 +1178,8 @@ Model ID: Meta Llama 2 13b-chat-v1
 Model: Meta Llama 2 13b-chat-v1
 Shutdown Date: 2024-10-30
 
-Model Meta Llama 2 13b-chat-v1. entered legacy status on 2024-05-12. and will reach end-of-life on 2024-10-30. Recommended replacement: Meta Llama3 and Meta Llama3.1.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+Model Meta Llama 2 13b-chat-v1. entered legacy status on 2024-05-12. and will reach end-of-life on 2024-10-30. Recommended replacement: Meta Llama3, Meta Llama3.1.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Meta_Llama_2_13b-chat-v1-2024-10-30-e3b0c442</guid>
     </item>
     <item>
@@ -1184,8 +1190,8 @@ Model ID: Meta Llama 2 70b-chat-v1
 Model: Meta Llama 2 70b-chat-v1
 Shutdown Date: 2024-10-30
 
-Model Meta Llama 2 70b-chat-v1. entered legacy status on 2024-05-12. and will reach end-of-life on 2024-10-30. Recommended replacement: Meta Llama3 and Meta Llama3.1.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+Model Meta Llama 2 70b-chat-v1. entered legacy status on 2024-05-12. and will reach end-of-life on 2024-10-30. Recommended replacement: Meta Llama3, Meta Llama3.1.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Meta_Llama_2_70b-chat-v1-2024-10-30-e3b0c442</guid>
     </item>
     <item>
@@ -1196,8 +1202,8 @@ Model ID: Meta Llama 2-13b
 Model: Meta Llama 2-13b
 Shutdown Date: 2024-10-30
 
-Model Meta Llama 2-13b. entered legacy status on 2024-05-12. and will reach end-of-life on 2024-10-30. Recommended replacement: Meta Llama3 and Meta Llama3.1.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+Model Meta Llama 2-13b. entered legacy status on 2024-05-12. and will reach end-of-life on 2024-10-30. Recommended replacement: Meta Llama3, Meta Llama3.1.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Meta_Llama_2-13b-2024-10-30-e3b0c442</guid>
     </item>
     <item>
@@ -1208,8 +1214,8 @@ Model ID: Meta Llama 2-70b
 Model: Meta Llama 2-70b
 Shutdown Date: 2024-10-30
 
-Model Meta Llama 2-70b. entered legacy status on 2024-05-12. and will reach end-of-life on 2024-10-30. Recommended replacement: Meta Llama3 and Meta Llama3.1.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+Model Meta Llama 2-70b. entered legacy status on 2024-05-12. and will reach end-of-life on 2024-10-30. Recommended replacement: Meta Llama3, Meta Llama3.1.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Meta_Llama_2-70b-2024-10-30-e3b0c442</guid>
     </item>
     <item>
@@ -1221,7 +1227,7 @@ Model: Ai21 J2 Mid-v1
 Shutdown Date: 2024-10-04
 
 Model Ai21 J2 Mid-v1. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Ai21_J2_Mid-v1-2024-10-04-e3b0c442</guid>
     </item>
     <item>
@@ -1233,7 +1239,7 @@ Model: Ai21 J2 Ultra-v1
 Shutdown Date: 2024-10-04
 
 Model Ai21 J2 Ultra-v1. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Ai21_J2_Ultra-v1-2024-10-04-e3b0c442</guid>
     </item>
     <item>
@@ -1245,7 +1251,7 @@ Model: Ai21 J2-Grande-Instruct
 Shutdown Date: 2024-10-04
 
 Model Ai21 J2-Grande-Instruct. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Ai21_J2-Grande-Instruct-2024-10-04-e3b0c442</guid>
     </item>
     <item>
@@ -1257,7 +1263,7 @@ Model: Ai21 J2 Jumbo-Instruct
 Shutdown Date: 2024-10-04
 
 Model Ai21 J2 Jumbo-Instruct. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Ai21_J2_Jumbo-Instruct-2024-10-04-e3b0c442</guid>
     </item>
     <item>
@@ -1268,8 +1274,8 @@ Model ID: AI21 Jamba-Instruct
 Model: AI21 Jamba-Instruct
 Shutdown Date: 2025-08-01
 
-Model AI21 Jamba-Instruct. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-08-01. Recommended replacement: AI21 Jamba 1.5 Mini or AI21 Jamba 1.5 Large.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+Model AI21 Jamba-Instruct. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-08-01. Recommended replacement: AI21 Jamba 1.5 Mini, AI21 Jamba 1.5 Large.</description>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-AI21_Jamba-Instruct-2025-08-01-e3b0c442</guid>
     </item>
     <item>
@@ -1281,7 +1287,7 @@ Model: Stability Image Core v1
 Shutdown Date: 2025-09-04
 
 Model Stability Image Core v1. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-09-04. Recommended replacement: Stability Image Core v1.1.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Stability_Image_Core_v1-2025-09-04-e3b0c442</guid>
     </item>
     <item>
@@ -1293,7 +1299,7 @@ Model: Stability 3 Large
 Shutdown Date: 2025-09-04
 
 Model Stability 3 Large. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-09-04. Recommended replacement: Stability 3.5 Large.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Stability_3_Large-2025-09-04-e3b0c442</guid>
     </item>
     <item>
@@ -1305,7 +1311,7 @@ Model: Stability Image Ultra v1
 Shutdown Date: 2025-09-04
 
 Model Stability Image Ultra v1. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-09-04. Recommended replacement: Stable Image Ultra v1.1.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Stability_Image_Ultra_v1-2025-09-04-e3b0c442</guid>
     </item>
     <item>
@@ -1317,7 +1323,7 @@ Model: Amazon Titan Text G1 - Premier
 Shutdown Date: 2025-08-15
 
 Model Amazon Titan Text G1 - Premier. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-08-15. Recommended replacement: Amazon Nova Pro.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Amazon_Titan_Text_G1_-_Premier-2025-08-15-e3b0c442</guid>
     </item>
     <item>
@@ -1329,7 +1335,7 @@ Model: Amazon Titan Text G1 - Express
 Shutdown Date: 2025-08-15
 
 Model Amazon Titan Text G1 - Express. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-08-15. Recommended replacement: Amazon Nova Micro.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Amazon_Titan_Text_G1_-_Express-2025-08-15-e3b0c442</guid>
     </item>
     <item>
@@ -1341,7 +1347,7 @@ Model: Amazon Titan Text G1 - Lite
 Shutdown Date: 2025-08-15
 
 Model Amazon Titan Text G1 - Lite. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-08-15. Recommended replacement: Amazon Nova Lite.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Amazon_Titan_Text_G1_-_Lite-2025-08-15-e3b0c442</guid>
     </item>
     <item>
@@ -1353,15 +1359,15 @@ Model: Amazon Titan Image Generator G1 V1
 Shutdown Date: 2025-08-15
 
 Model Amazon Titan Image Generator G1 V1. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-08-15. Recommended replacement: Amazon Nova Canvas.</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:45 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:12 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Amazon_Titan_Image_Generator_G1_V1-2025-08-15-e3b0c442</guid>
     </item>
     <item>
-      <title>Cohere: command-r-03-2024, command-r, command-r-plus-04-2024, command-r-plus, command-light, command, summarize, classify, rerank</title>
+      <title>Cohere: command-r-03-2024, command-r, command-r-plus-04-2024, command-r-plus, command-light, command, summarize</title>
       <link>https://docs.cohere.com/docs/deprecations#2025-09-15</link>
       <description>Provider: Cohere
-Model ID: command-r-03-2024, command-r, command-r-plus-04-2024, command-r-plus, command-light, command, summarize, classify, rerank
-Model: command-r-03-2024, command-r, command-r-plus-04-2024, command-r-plus, command-light, command, summarize, classify, rerank
+Model ID: command-r-03-2024, command-r, command-r-plus-04-2024, command-r-plus, command-light, command, summarize
+Model: command-r-03-2024, command-r, command-r-plus-04-2024, command-r-plus, command-light, command, summarize
 Shutdown Date: 2025-09-15
 
 2025-09-15: Various older command models, a number of endpoints, all of fine-tuning.
@@ -1369,7 +1375,7 @@ Effective September 15, 2025, the following deprecatations will roll out.
 Deprecated Models:
 command-r-03-2024(and the aliascommand-r)command-r-plus-04-2024(and the aliascommand-r-plus)command-lightcommandsummarize(Refer tothe migration guidefor alternatives).
 For command model replacements, we recommend you usecommand-r-08-2024,command-r-plus-08-2024, orcommand-a-03-2025(which is the strongest-performing model ...</description>
-      <pubDate>Tue, 11 Nov 2025 16:16:55 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:16 GMT</pubDate>
       <guid isPermaLink="false">Cohere-command-r-03-2024,_command-r,_command-r-plus-04-2024,_command-r-plus,_command-light,_command,</guid>
     </item>
     <item>
@@ -1384,7 +1390,7 @@ Shutdown Date: 2025-03-08
 On March 08, 2025, we will sunset all models fine-tuned with Command-R-03-2024. As part of our ongoing efforts to enhance our services, we are making the following changes to our fine-tuning capabilities:
 Deprecating fine-tuning with the older Command-R-03-2024 modelAll fine-tunes are now powered by the Command-R-08-2024 model.
 Models fine-tuned with Command-R-03-2024 will continue to be supported until March 08, 2025. After this date, all requests...</description>
-      <pubDate>Tue, 26 Aug 2025 18:51:55 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:16 GMT</pubDate>
       <guid isPermaLink="false">Cohere-Command-R-03-2024-finetuned-2025-03-08-e3b0c442</guid>
     </item>
     <item>
@@ -1398,7 +1404,7 @@ Shutdown Date: 2025-01-31
 2025-01-31: Default Classify endpoint
 After January 31st, 2025, usage of Classify endpoint via the default Embed models will be deprecated.
 However, you can still use the Classify endpoint with a fine-tuned Embed model. By leveraging fine-tuning, you can achieve even better performance and accuracy in your classification tasks. Read the documentation onClassify fine-tuningfor more information.</description>
-      <pubDate>Tue, 26 Aug 2025 18:51:55 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:16 GMT</pubDate>
       <guid isPermaLink="false">Cohere-classify-default-embed-2025-01-31-e3b0c442</guid>
     </item>
     <item>
@@ -1415,7 +1421,7 @@ Fine-tuned models created from these base models are not affected by this deprec
 Shutdown DateDeprecated ModelDeprecated Model PriceRecommended Replacement2025-04-30rerank-english-v2.0$1.00 / 1K searchesrerank-v3.52025-04-30rerank-multilingual-v2.0$1.00 / 1K searchesrerank-v3.5
 Best Practices:
 Regularly check our documentation for updates on ann...</description>
-      <pubDate>Tue, 26 Aug 2025 18:51:55 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:16 GMT</pubDate>
       <guid isPermaLink="false">Cohere-rerank-english-v2.0-2025-04-30-e3b0c442</guid>
     </item>
     <item>
@@ -1432,7 +1438,7 @@ Fine-tuned models created from these base models are not affected by this deprec
 Shutdown DateDeprecated ModelDeprecated Model PriceRecommended Replacement2025-04-30rerank-english-v2.0$1.00 / 1K searchesrerank-v3.52025-04-30rerank-multilingual-v2.0$1.00 / 1K searchesrerank-v3.5
 Best Practices:
 Regularly check our documentation for updates on ann...</description>
-      <pubDate>Tue, 26 Aug 2025 18:51:55 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:16 GMT</pubDate>
       <guid isPermaLink="false">Cohere-rerank-multilingual-v2.0-2025-04-30-e3b0c442</guid>
     </item>
     <item>
@@ -1444,7 +1450,7 @@ Model: Jamba Instruct
 Shutdown Date: 2025-03-01
 
 AI21 Labs</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Jamba_Instruct-2025-03-01-e3b0c442</guid>
     </item>
     <item>
@@ -1456,7 +1462,7 @@ Model: AI21-Jamba-1.5-Large
 Shutdown Date: 2025-08-01
 
 AI21 Labs</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-AI21-Jamba-1.5-Large-2025-08-01-e3b0c442</guid>
     </item>
     <item>
@@ -1468,7 +1474,7 @@ Model: AI21-Jamba-1.5-Mini
 Shutdown Date: 2025-08-01
 
 AI21 Labs</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-AI21-Jamba-1.5-Mini-2025-08-01-e3b0c442</guid>
     </item>
     <item>
@@ -1480,7 +1486,7 @@ Model: Bria-2.3-Fast
 Shutdown Date: 2025-10-31
 
 Bria</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Bria-2.3-Fast-2025-10-31-e3b0c442</guid>
     </item>
     <item>
@@ -1492,7 +1498,7 @@ Model: Command R
 Shutdown Date: 2025-06-30
 
 Cohere</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Command_R-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -1504,7 +1510,7 @@ Model: Command R+
 Shutdown Date: 2025-06-30
 
 Cohere</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Command_R+-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -1516,7 +1522,7 @@ Model: Cohere-rerank-v3-english
 Shutdown Date: 2025-06-30
 
 Cohere</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-rerank-v3-english-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -1528,7 +1534,7 @@ Model: Cohere-rerank-v3-multilingual
 Shutdown Date: 2025-06-30
 
 Cohere</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-rerank-v3-multilingual-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -1540,7 +1546,7 @@ Model: jais-30b-chat
 Shutdown Date: 2026-01-30
 
 Core42</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-jais-30b-chat-2026-01-30-e3b0c442</guid>
     </item>
     <item>
@@ -1552,7 +1558,7 @@ Model: DeepSeek-V3
 Shutdown Date: 2025-08-31
 
 DeepSeek</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-DeepSeek-V3-2025-08-31-e3b0c442</guid>
     </item>
     <item>
@@ -1564,7 +1570,7 @@ Model: Gretel-Navigator-Tabular
 Shutdown Date: 2025-09-16
 
 Gretel</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Gretel-Navigator-Tabular-2025-09-16-e3b0c442</guid>
     </item>
     <item>
@@ -1576,7 +1582,7 @@ Model: Llama-2-13b
 Shutdown Date: 2025-06-30
 
 Meta</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Llama-2-13b-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -1588,7 +1594,7 @@ Model: Llama-2-13b-chat
 Shutdown Date: 2025-06-30
 
 Meta</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Llama-2-13b-chat-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -1600,7 +1606,7 @@ Model: Llama-2-70b
 Shutdown Date: 2025-06-30
 
 Meta</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Llama-2-70b-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -1612,7 +1618,7 @@ Model: Llama-2-70b-chat
 Shutdown Date: 2025-06-30
 
 Meta</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Llama-2-70b-chat-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -1624,7 +1630,7 @@ Model: Llama-2-7b
 Shutdown Date: 2025-06-30
 
 Meta</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Llama-2-7b-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -1636,7 +1642,7 @@ Model: Llama-2-7b-chat
 Shutdown Date: 2025-06-30
 
 Meta</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Llama-2-7b-chat-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -1648,7 +1654,7 @@ Model: Meta-Llama-3-70B-Instruct
 Shutdown Date: 2025-06-30
 
 Meta</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Meta-Llama-3-70B-Instruct-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -1660,7 +1666,7 @@ Model: Meta-Llama-3-8B-Instruct
 Shutdown Date: 2025-06-30
 
 Meta</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Meta-Llama-3-8B-Instruct-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -1672,7 +1678,7 @@ Model: Meta-Llama-3.1-70B-Instruct
 Shutdown Date: 2025-06-30
 
 Meta</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Meta-Llama-3.1-70B-Instruct-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -1684,7 +1690,7 @@ Model: Phi-3-medium-4k-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3-medium-4k-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1696,7 +1702,7 @@ Model: Phi-3-medium-128k-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3-medium-128k-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1708,7 +1714,7 @@ Model: Phi-3-mini-4k-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3-mini-4k-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1720,7 +1726,7 @@ Model: Phi-3-mini-128k-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3-mini-128k-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1732,7 +1738,7 @@ Model: Phi-3-small-8k-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3-small-8k-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1744,7 +1750,7 @@ Model: Phi-3-small-128k-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3-small-128k-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1756,7 +1762,7 @@ Model: Phi-3.5-mini-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3.5-mini-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1768,7 +1774,7 @@ Model: Phi-3.5-MoE-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3.5-MoE-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1780,7 +1786,7 @@ Model: Phi-3.5-vision-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3.5-vision-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1792,7 +1798,7 @@ Model: Mistral-Nemo
 Shutdown Date: 2026-01-30
 
 Mistral AI</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-Nemo-2026-01-30-e3b0c442</guid>
     </item>
     <item>
@@ -1804,7 +1810,7 @@ Model: Mistral-large-2411
 Shutdown Date: 2026-01-30
 
 Mistral AI</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-large-2411-2026-01-30-e3b0c442</guid>
     </item>
     <item>
@@ -1816,7 +1822,7 @@ Model: Mistral-ocr-2503
 Shutdown Date: 2026-01-30
 
 Mistral AI</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-ocr-2503-2026-01-30-e3b0c442</guid>
     </item>
     <item>
@@ -1828,7 +1834,7 @@ Model: Mistral-small
 Shutdown Date: 2025-07-31
 
 Mistral AI</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-small-2025-07-31-e3b0c442</guid>
     </item>
     <item>
@@ -1840,7 +1846,7 @@ Model: Mistral-large-2407
 Shutdown Date: 2025-05-13
 
 Mistral AI</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-large-2407-2025-05-13-e3b0c442</guid>
     </item>
     <item>
@@ -1852,7 +1858,7 @@ Model: Mistral-large
 Shutdown Date: 2025-04-15
 
 Mistral AI</description>
-      <pubDate>Thu, 13 Nov 2025 21:06:58 GMT</pubDate>
+      <pubDate>Tue, 02 Dec 2025 11:07:22 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-large-2025-04-15-e3b0c442</guid>
     </item>
   </channel>

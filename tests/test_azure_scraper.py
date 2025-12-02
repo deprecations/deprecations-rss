@@ -86,8 +86,8 @@ def test_handles_replacement_models():
     items = scraper.extract_structured_deprecations(html)
 
     # Some items should have replacement models
-    with_replacement = [item for item in items if item.replacement_model]
-    without_replacement = [item for item in items if not item.replacement_model]
+    with_replacement = [item for item in items if item.replacement_models]
+    without_replacement = [item for item in items if not item.replacement_models]
 
     # We expect some items to have replacements and some not to
     assert len(with_replacement) > 0, "Should have some items with replacement models"
@@ -98,9 +98,13 @@ def test_handles_replacement_models():
     # Replacement models should not be placeholders
     invalid_placeholders = ["N/A", "TBD", "NONE", "—", "-"]
     for item in with_replacement:
-        assert item.replacement_model not in invalid_placeholders, (
-            f"Replacement model should not be a placeholder: {item.replacement_model}"
+        assert isinstance(item.replacement_models, list), (
+            f"Replacement models should be a list: {item.replacement_models}"
         )
+        for model in item.replacement_models:
+            assert model not in invalid_placeholders, (
+                f"Replacement model should not be a placeholder: {model}"
+            )
 
 
 def test_includes_url_for_each_item():

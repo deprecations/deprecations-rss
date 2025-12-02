@@ -129,6 +129,44 @@ class EnhancedBaseScraper:
 
         return ""
 
+    def parse_replacements(self, replacement_str: str) -> List[str] | None:
+        """Parse replacement string into list of model names.
+
+        Handles cases like:
+        - "gpt-4" -> ["gpt-4"]
+        - "gpt-4 and gpt-4-turbo" -> ["gpt-4", "gpt-4-turbo"]
+        - "gpt-4 or gpt-4-turbo" -> ["gpt-4", "gpt-4-turbo"]
+        - "gpt-image-1orgpt-image-1-mini" -> ["gpt-image-1", "gpt-image-1-mini"]
+        - None -> None
+        """
+        if not replacement_str:
+            return None
+
+        # Split on common separators (and, or, comma)
+        # First normalize the separators
+        normalized = replacement_str
+        for separator in [" and ", " or ", ", "]:
+            normalized = normalized.replace(separator, "|")
+
+        # Handle concatenated "or" without spaces (e.g., "model1ormodel2")
+        # Only split if it looks like model names on both sides
+        # (contains hyphens or numbers, typical of model identifiers)
+        if "or" in normalized and "|" not in normalized:
+            # Check if it looks like concatenated model names
+            parts = normalized.split("or")
+            if len(parts) == 2:
+                left, right = parts
+                # If both sides look like model names (contain hyphen or digit), split on "or"
+                if ("-" in left or any(c.isdigit() for c in left)) and (
+                    "-" in right or any(c.isdigit() for c in right)
+                ):
+                    normalized = normalized.replace("or", "|")
+
+        # Split and clean up
+        models = [m.strip() for m in normalized.split("|") if m.strip()]
+
+        return models if models else None
+
     def scrape(self) -> List[DeprecationItem]:
         """Main scraping method."""
         try:
@@ -222,11 +260,11 @@ class EnhancedBaseScraper:
             if date_idx is not None and date_idx < len(cells):
                 shutdown_date = self.parse_date(cells[date_idx])
 
-            replacement = None
+            replacement_models = None
             if replacement_idx is not None and replacement_idx < len(cells):
                 repl = cells[replacement_idx]
                 if repl and repl not in ["—", "-", "N/A", "None"]:
-                    replacement = repl
+                    replacement_models = self.parse_replacements(repl)
 
             # Create deprecation item
             item = DeprecationItem(
@@ -235,7 +273,7 @@ class EnhancedBaseScraper:
                 model_name=model_name,
                 announcement_date=announcement_date or shutdown_date,
                 shutdown_date=shutdown_date,
-                replacement_model=replacement,
+                replacement_models=replacement_models,
                 deprecation_context=section_context,
                 url=self.url,
                 content_hash=DeprecationItem._compute_hash(

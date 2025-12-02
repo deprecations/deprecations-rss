@@ -210,7 +210,7 @@ class XAIScraper(EnhancedBaseScraper):
                 model_name=model_name,
                 announcement_date=deprecation_date,
                 shutdown_date=deprecation_date,
-                replacement_model=None,  # Would need additional parsing
+                replacement_models=None,  # Would need additional parsing
                 deprecation_context=description,
                 url=self.url,
             )
@@ -247,7 +247,7 @@ class XAIScraper(EnhancedBaseScraper):
                     model_name=text,
                     announcement_date="",
                     shutdown_date="",
-                    replacement_model=None,
+                    replacement_models=None,
                     deprecation_context="Found in deprecated models section",
                     url=self.url,
                 )
@@ -286,7 +286,7 @@ class XAIScraper(EnhancedBaseScraper):
                     model_name=model_name,
                     announcement_date="",
                     shutdown_date="",
-                    replacement_model=None,
+                    replacement_models=None,
                     deprecation_context=context,
                     url=self.url,
                 )
@@ -325,7 +325,7 @@ class XAIScraper(EnhancedBaseScraper):
                     model_name=model_name,
                     announcement_date="",
                     shutdown_date="",
-                    replacement_model=None,
+                    replacement_models=None,
                     deprecation_context=context,
                     url=self.url,
                 )

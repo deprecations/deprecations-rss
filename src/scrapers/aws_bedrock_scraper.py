@@ -91,11 +91,11 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                     eol_date = self.parse_date(cells[eol_idx])
 
                 # Extract replacement
-                replacement = None
+                replacement_models = None
                 if replacement_idx is not None and replacement_idx < len(cells):
                     repl_text = cells[replacement_idx]
                     if repl_text and repl_text not in ["—", "-", "N/A", "TBD"]:
-                        replacement = repl_text
+                        replacement_models = self.parse_replacements(repl_text)
 
                 # Build context
                 context_parts = [f"Model {model_name}"]
@@ -108,8 +108,9 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                         )
                     else:
                         context_parts.append(f"will reach end-of-life on {eol_date}")
-                if replacement:
-                    context_parts.append(f"Recommended replacement: {replacement}")
+                if replacement_models:
+                    replacement_str = ", ".join(replacement_models)
+                    context_parts.append(f"Recommended replacement: {replacement_str}")
 
                 context = ". ".join(context_parts) + "."
 
@@ -121,7 +122,7 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                         model_name=model_name,
                         announcement_date=legacy_date or eol_date,
                         shutdown_date=eol_date or legacy_date,
-                        replacement_model=replacement,
+                        replacement_models=replacement_models,
                         deprecation_context=context,
                         url=self.url,
                     )

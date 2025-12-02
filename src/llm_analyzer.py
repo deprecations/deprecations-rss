@@ -42,10 +42,12 @@ class LLMAnalyzer:
             raise ValueError(
                 "ANTHROPIC_API_KEY or ANTHROPIC_API_TOKEN environment variable required"
             )
+        base_url = os.environ.get("ANTHROPIC_BASE_URL") or None
 
         # Patch Anthropic client with instructor for structured outputs
         self.client = instructor.from_anthropic(
-            client=Anthropic(api_key=api_key), mode=instructor.Mode.ANTHROPIC_TOOLS
+            client=Anthropic(api_key=api_key, base_url=base_url),
+            mode=instructor.Mode.ANTHROPIC_TOOLS,
         )
         self.model_name = model_name
 
