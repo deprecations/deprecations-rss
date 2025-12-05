@@ -20,6 +20,7 @@ dependencies = [
     "anthropic>=0.64.0",
     "instructor>=1.10.0",
     "pytest>=8.0.0",
+    "playwright-stealth>=2.0.0",
 ]
 
 [build-system]
