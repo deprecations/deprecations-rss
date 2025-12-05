@@ -25,6 +25,7 @@ def hash_item(item: dict) -> str:
         "shutdown_date": item.get("shutdown_date", ""),
         "deprecation_context": item.get("deprecation_context", item.get("content", "")),
         "url": item.get("url", ""),
+        "replacement_models": item.get("replacement_models"),
     }
     content_str = json.dumps(key_fields, sort_keys=True)
     return hashlib.sha256(content_str.encode()).hexdigest()[:16]

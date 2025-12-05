@@ -45,8 +45,9 @@ def test_extracts_legacy_models_with_dates(fixture_html):
         f"Expected '2025-05-20', got '{sd_xl_item.shutdown_date}'"
     )
 
-    # Verify replacement model
-    assert "Stable Image Core" in sd_xl_item.replacement_model
+    # Verify replacement models
+    assert sd_xl_item.replacement_models is not None
+    assert any("Stable Image Core" in model for model in sd_xl_item.replacement_models)
 
 
 def test_extracts_eol_models_with_dates(fixture_html):
@@ -61,7 +62,10 @@ def test_extracts_eol_models_with_dates(fixture_html):
         eol_item = eol_items[0]
         assert eol_item.announcement_date == "2024-02-02"
         assert eol_item.shutdown_date == "2024-04-30"
-        assert "Stable Diffusion XL 1.x" in eol_item.replacement_model
+        assert eol_item.replacement_models is not None
+        assert any(
+            "Stable Diffusion XL 1.x" in model for model in eol_item.replacement_models
+        )
 
 
 def test_all_dates_are_iso_format(fixture_html):

@@ -15,7 +15,9 @@ class DeprecationItem:
     model_name: str  # Display name for the model
     announcement_date: str  # ISO date when announced
     shutdown_date: str  # ISO date when model stops working
-    replacement_model: Optional[str] = None  # Recommended replacement (can be null)
+    replacement_models: Optional[list[str]] = (
+        None  # Recommended replacements (can be null)
+    )
     deprecation_context: str = ""  # Full announcement text/context
     url: str = ""  # Full URL with anchor (e.g., /docs/deprecations#2025-04-28)
     content_hash: str = ""  # Hash of raw content (for LLM deduplication)
@@ -44,7 +46,7 @@ class DeprecationItem:
             "model_name": self.model_name,
             "announcement_date": self.announcement_date,
             "shutdown_date": self.shutdown_date,
-            "replacement_model": self.replacement_model,
+            "replacement_models": self.replacement_models,
             "deprecation_context": self.deprecation_context,
             "url": self.url,
             "content_hash": self.content_hash,
@@ -60,7 +62,7 @@ class DeprecationItem:
             model_name=data.get("model_name", ""),
             announcement_date=data.get("announcement_date", ""),
             shutdown_date=data.get("shutdown_date", ""),
-            replacement_model=data.get("replacement_model"),
+            replacement_models=data.get("replacement_models"),
             deprecation_context=data.get("deprecation_context", ""),
             url=data.get("url", ""),
             content_hash=data.get("content_hash", ""),

@@ -102,11 +102,11 @@ class AzureFoundryScraper(EnhancedBaseScraper):
                         announcement_date = parsed_legacy
 
                 # Extract replacement if available
-                replacement = None
+                replacement_models = None
                 if replacement_idx is not None and replacement_idx < len(cells):
                     repl_text = cells[replacement_idx].get_text(strip=True)
                     if repl_text and repl_text not in ["—", "-", "N/A", "TBD"]:
-                        replacement = repl_text
+                        replacement_models = self.parse_replacements(repl_text)
 
                 # Create deprecation item
                 item = DeprecationItem(
@@ -115,7 +115,7 @@ class AzureFoundryScraper(EnhancedBaseScraper):
                     model_name=model_name,
                     announcement_date=announcement_date,
                     shutdown_date=retirement_date,
-                    replacement_model=replacement,
+                    replacement_models=replacement_models,
                     deprecation_context=self._build_context(table, model_name),
                     url=f"{self.url}#timelines-for-foundry-models",
                 )

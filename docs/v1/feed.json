@@ -13,18 +13,720 @@
   "language": "en-US",
   "items": [
     {
+      "id": "openai-chatgpt-4o-latest",
+      "url": "https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.184035+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "chatgpt-4o-latest",
+        "model_name": "chatgpt-4o-latest",
+        "shutdown_date": "2026-02-17",
+        "announcement_date": "2025-11-18",
+        "replacement_models": [
+          "gpt-5.1-chat-latest"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-codex-mini-latest",
+      "url": "https://platform.openai.com/docs/deprecations#2025-11-17-codex-mini-latest-model-snapshot",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.184090+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "codex-mini-latest",
+        "model_name": "codex-mini-latest",
+        "shutdown_date": "2026-01-16",
+        "announcement_date": "2025-11-17",
+        "replacement_models": [
+          "gpt-5-codex-mini"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-dall-e-2",
+      "url": "https://platform.openai.com/docs/deprecations#2025-11-14-dall-e-model-snapshots",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.184128+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "dall-e-2",
+        "model_name": "dall-e-2",
+        "shutdown_date": "2026-05-12",
+        "announcement_date": "2025-11-14",
+        "replacement_models": [
+          "gpt-image-1",
+          "gpt-image-1-mini"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-dall-e-3",
+      "url": "https://platform.openai.com/docs/deprecations#2025-11-14-dall-e-model-snapshots",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.184142+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "dall-e-3",
+        "model_name": "dall-e-3",
+        "shutdown_date": "2026-05-12",
+        "announcement_date": "2025-11-14",
+        "replacement_models": [
+          "gpt-image-1",
+          "gpt-image-1-mini"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-4-0314",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185181+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4-0314",
+        "model_name": "gpt-4-0314",
+        "shutdown_date": "2025-09-26",
+        "announcement_date": "2025-09-26",
+        "replacement_models": [
+          "gpt-5",
+          "gpt-4.1*"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-gpt-4-1106-preview",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185231+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4-1106-preview",
+        "model_name": "gpt-4-1106-preview",
+        "shutdown_date": "2025-09-26",
+        "announcement_date": "2025-09-26",
+        "replacement_models": [
+          "gpt-5",
+          "gpt-4.1*"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-gpt-4-0125-preview",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185267+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4-0125-preview",
+        "model_name": "gpt-4-0125-preview",
+        "shutdown_date": "2025-09-26",
+        "announcement_date": "2025-09-26",
+        "replacement_models": [
+          "gpt-5",
+          "gpt-4.1*"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-gpt-3.5-turbo-instruct",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185281+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-3.5-turbo-instruct",
+        "model_name": "gpt-3.5-turbo-instruct",
+        "shutdown_date": "2026-09-28",
+        "announcement_date": "2025-09-26",
+        "replacement_models": [
+          "gpt-5-mini",
+          "gpt-4.1-mini*"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-babbage-002",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185294+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "babbage-002",
+        "model_name": "babbage-002",
+        "shutdown_date": "2026-09-28",
+        "announcement_date": "2025-09-26",
+        "replacement_models": [
+          "gpt-5-mini",
+          "gpt-4.1-mini*"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-davinci-002",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185305+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "davinci-002",
+        "model_name": "davinci-002",
+        "shutdown_date": "2026-09-28",
+        "announcement_date": "2025-09-26",
+        "replacement_models": [
+          "gpt-5-mini",
+          "gpt-4.1-mini*"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-3.5-turbo-1106",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185316+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-3.5-turbo-1106",
+        "model_name": "gpt-3.5-turbo-1106",
+        "shutdown_date": "2026-09-28",
+        "announcement_date": "2025-09-26",
+        "replacement_models": [
+          "gpt-5-mini",
+          "gpt-4.1-mini*"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-realtime-preview",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185404+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-realtime-preview",
+        "model_name": "gpt-4o-realtime-preview",
+        "shutdown_date": "2026-02-27",
+        "announcement_date": "2025-09-15",
+        "replacement_models": [
+          "gpt-realtime"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-realtime-preview-2025-06-03",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185415+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-realtime-preview-2025-06-03",
+        "model_name": "gpt-4o-realtime-preview-2025-06-03",
+        "shutdown_date": "2026-02-27",
+        "announcement_date": "2025-09-15",
+        "replacement_models": [
+          "gpt-realtime"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-realtime-preview-2024-12-17",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185425+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-realtime-preview-2024-12-17",
+        "model_name": "gpt-4o-realtime-preview-2024-12-17",
+        "shutdown_date": "2026-02-27",
+        "announcement_date": "2025-09-15",
+        "replacement_models": [
+          "gpt-realtime"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-realtime-preview-2024-10-01",
+      "url": "https://platform.openai.com/docs/deprecations#2025-06-10-gpt-4o-realtime-preview-2024-10-01",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185452+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-realtime-preview-2024-10-01",
+        "model_name": "gpt-4o-realtime-preview-2024-10-01",
+        "shutdown_date": "2025-10-10",
+        "announcement_date": "2025-06-10",
+        "replacement_models": [
+          "gpt-realtime"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-audio-preview-2024-10-01",
+      "url": "https://platform.openai.com/docs/deprecations#2025-06-10-gpt-4o-audio-preview-2024-10-01",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185479+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-audio-preview-2024-10-01",
+        "model_name": "gpt-4o-audio-preview-2024-10-01",
+        "shutdown_date": "2025-10-10",
+        "announcement_date": "2025-06-10",
+        "replacement_models": [
+          "gpt-4o-audio-preview"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-text-moderation-007",
+      "url": "https://platform.openai.com/docs/deprecations#2025-04-28-text-moderation",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185507+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "text-moderation-007",
+        "model_name": "text-moderation-007",
+        "shutdown_date": "2025-10-27",
+        "announcement_date": "2025-04-28",
+        "replacement_models": [
+          "omni-moderation"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-text-moderation-stable",
+      "url": "https://platform.openai.com/docs/deprecations#2025-04-28-text-moderation",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185518+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "text-moderation-stable",
+        "model_name": "text-moderation-stable",
+        "shutdown_date": "2025-10-27",
+        "announcement_date": "2025-04-28",
+        "replacement_models": [
+          "omni-moderation"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-text-moderation-latest",
+      "url": "https://platform.openai.com/docs/deprecations#2025-04-28-text-moderation",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185529+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "text-moderation-latest",
+        "model_name": "text-moderation-latest",
+        "shutdown_date": "2025-10-27",
+        "announcement_date": "2025-04-28",
+        "replacement_models": [
+          "omni-moderation"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-o1-preview",
+      "url": "https://platform.openai.com/docs/deprecations#2025-04-28-o1-preview-and-o1-mini",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185557+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "o1-preview",
+        "model_name": "o1-preview",
+        "shutdown_date": "2025-07-28",
+        "announcement_date": "2025-04-28",
+        "replacement_models": [
+          "o3"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-o1-mini",
+      "url": "https://platform.openai.com/docs/deprecations#2025-04-28-o1-preview-and-o1-mini",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185568+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "o1-mini",
+        "model_name": "o1-mini",
+        "shutdown_date": "2025-10-27",
+        "announcement_date": "2025-04-28",
+        "replacement_models": [
+          "o4-mini"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-gpt-4.5-preview",
+      "url": "https://platform.openai.com/docs/deprecations#2025-04-14-gpt-4-5-preview",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185594+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4.5-preview",
+        "model_name": "gpt-4.5-preview",
+        "shutdown_date": "2025-07-14",
+        "announcement_date": "2025-04-14",
+        "replacement_models": [
+          "gpt-4.1"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-gpt-4-32k",
+      "url": "https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185686+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4-32k",
+        "model_name": "gpt-4-32k",
+        "shutdown_date": "2025-06-06",
+        "announcement_date": "2024-06-06",
+        "replacement_models": [
+          "gpt-4o"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-gpt-4-32k-0613",
+      "url": "https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185697+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4-32k-0613",
+        "model_name": "gpt-4-32k-0613",
+        "shutdown_date": "2025-06-06",
+        "announcement_date": "2024-06-06",
+        "replacement_models": [
+          "gpt-4o"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-gpt-4-32k-0314",
+      "url": "https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185707+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4-32k-0314",
+        "model_name": "gpt-4-32k-0314",
+        "shutdown_date": "2025-06-06",
+        "announcement_date": "2024-06-06",
+        "replacement_models": [
+          "gpt-4o"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "openai-gpt-4-vision-preview",
+      "url": "https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185717+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4-vision-preview",
+        "model_name": "gpt-4-vision-preview",
+        "shutdown_date": "2024-12-06",
+        "announcement_date": "2024-06-06",
+        "replacement_models": [
+          "gpt-4o"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2024"
+      ]
+    },
+    {
+      "id": "openai-gpt-4-1106-vision-preview",
+      "url": "https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185728+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4-1106-vision-preview",
+        "model_name": "gpt-4-1106-vision-preview",
+        "shutdown_date": "2024-12-06",
+        "announcement_date": "2024-06-06",
+        "replacement_models": [
+          "gpt-4o"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2024"
+      ]
+    },
+    {
+      "id": "openai-gpt-3.5-turbo-0613",
+      "url": "https://platform.openai.com/docs/deprecations#2023-11-06-chat-model-updates",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185757+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-3.5-turbo-0613",
+        "model_name": "gpt-3.5-turbo-0613",
+        "shutdown_date": "2024-09-13",
+        "announcement_date": "2023-11-06",
+        "replacement_models": [
+          "gpt-3.5-turbo"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2024"
+      ]
+    },
+    {
+      "id": "openai-gpt-3.5-turbo-16k-0613",
+      "url": "https://platform.openai.com/docs/deprecations#2023-11-06-chat-model-updates",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.185767+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-3.5-turbo-16k-0613",
+        "model_name": "gpt-3.5-turbo-16k-0613",
+        "shutdown_date": "2024-09-13",
+        "announcement_date": "2023-11-06",
+        "replacement_models": [
+          "gpt-3.5-turbo"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2024"
+      ]
+    },
+    {
+      "id": "openai-code-davinci-002",
+      "url": "https://platform.openai.com/docs/deprecations#2023-03-20-codex-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.186073+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "code-davinci-002",
+        "model_name": "code-davinci-002",
+        "shutdown_date": "2023-03-23",
+        "announcement_date": "2023-03-20",
+        "replacement_models": [
+          "gpt-4o"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2023"
+      ]
+    },
+    {
+      "id": "openai-code-davinci-001",
+      "url": "https://platform.openai.com/docs/deprecations#2023-03-20-codex-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.186084+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "code-davinci-001",
+        "model_name": "code-davinci-001",
+        "shutdown_date": "2023-03-23",
+        "announcement_date": "2023-03-20",
+        "replacement_models": [
+          "gpt-4o"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2023"
+      ]
+    },
+    {
+      "id": "openai-code-cushman-002",
+      "url": "https://platform.openai.com/docs/deprecations#2023-03-20-codex-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.186095+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "code-cushman-002",
+        "model_name": "code-cushman-002",
+        "shutdown_date": "2023-03-23",
+        "announcement_date": "2023-03-20",
+        "replacement_models": [
+          "gpt-4o"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2023"
+      ]
+    },
+    {
+      "id": "openai-code-cushman-001",
+      "url": "https://platform.openai.com/docs/deprecations#2023-03-20-codex-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.186106+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "code-cushman-001",
+        "model_name": "code-cushman-001",
+        "shutdown_date": "2023-03-23",
+        "announcement_date": "2023-03-20",
+        "replacement_models": [
+          "gpt-4o"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2023"
+      ]
+    },
+    {
       "id": "anthropic-claude-3-opus-20240229",
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.219391+00:00",
+      "date_published": "2025-12-05T16:52:41.207583+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-3-opus-20240229",
         "model_name": "claude-3-opus-20240229",
         "shutdown_date": "2026-01-05",
         "announcement_date": "2025-06-30",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Anthropic",
@@ -36,14 +738,14 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.219743+00:00",
+      "date_published": "2025-12-05T16:52:41.207727+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-3-7-sonnet-20250219",
         "model_name": "claude-3-7-sonnet-20250219",
         "shutdown_date": "2026-02-19",
         "announcement_date": "2025-10-28",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Anthropic",
@@ -55,14 +757,16 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.220685+00:00",
+      "date_published": "2025-12-05T16:52:41.208068+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-3-5-sonnet-20240620",
         "model_name": "claude-3-5-sonnet-20240620",
         "shutdown_date": "2025-10-28",
         "announcement_date": "",
-        "replacement_model": "claude-sonnet-4-5-20250929"
+        "replacement_models": [
+          "claude-sonnet-4-5-20250929"
+        ]
       },
       "tags": [
         "Anthropic",
@@ -74,14 +778,16 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.220724+00:00",
+      "date_published": "2025-12-05T16:52:41.208081+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-3-5-sonnet-20241022",
         "model_name": "claude-3-5-sonnet-20241022",
         "shutdown_date": "2025-10-28",
         "announcement_date": "",
-        "replacement_model": "claude-sonnet-4-5-20250929"
+        "replacement_models": [
+          "claude-sonnet-4-5-20250929"
+        ]
       },
       "tags": [
         "Anthropic",
@@ -93,14 +799,16 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.220890+00:00",
+      "date_published": "2025-12-05T16:52:41.208130+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-2.0",
         "model_name": "claude-2.0",
         "shutdown_date": "2025-07-21",
         "announcement_date": "",
-        "replacement_model": "claude-sonnet-4-5-20250929"
+        "replacement_models": [
+          "claude-sonnet-4-5-20250929"
+        ]
       },
       "tags": [
         "Anthropic",
@@ -112,14 +820,16 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.220927+00:00",
+      "date_published": "2025-12-05T16:52:41.208142+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-2.1",
         "model_name": "claude-2.1",
         "shutdown_date": "2025-07-21",
         "announcement_date": "",
-        "replacement_model": "claude-sonnet-4-5-20250929"
+        "replacement_models": [
+          "claude-sonnet-4-5-20250929"
+        ]
       },
       "tags": [
         "Anthropic",
@@ -131,14 +841,16 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.220960+00:00",
+      "date_published": "2025-12-05T16:52:41.208153+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-3-sonnet-20240229",
         "model_name": "claude-3-sonnet-20240229",
         "shutdown_date": "2025-07-21",
         "announcement_date": "",
-        "replacement_model": "claude-sonnet-4-5-20250929"
+        "replacement_models": [
+          "claude-sonnet-4-5-20250929"
+        ]
       },
       "tags": [
         "Anthropic",
@@ -150,14 +862,16 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.221048+00:00",
+      "date_published": "2025-12-05T16:52:41.208179+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-1.0",
         "model_name": "claude-1.0",
         "shutdown_date": "2024-11-06",
         "announcement_date": "",
-        "replacement_model": "claude-3-5-haiku-20241022"
+        "replacement_models": [
+          "claude-3-5-haiku-20241022"
+        ]
       },
       "tags": [
         "Anthropic",
@@ -169,14 +883,16 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.221104+00:00",
+      "date_published": "2025-12-05T16:52:41.208190+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-1.1",
         "model_name": "claude-1.1",
         "shutdown_date": "2024-11-06",
         "announcement_date": "",
-        "replacement_model": "claude-3-5-haiku-20241022"
+        "replacement_models": [
+          "claude-3-5-haiku-20241022"
+        ]
       },
       "tags": [
         "Anthropic",
@@ -188,14 +904,16 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.221141+00:00",
+      "date_published": "2025-12-05T16:52:41.208200+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-1.2",
         "model_name": "claude-1.2",
         "shutdown_date": "2024-11-06",
         "announcement_date": "",
-        "replacement_model": "claude-3-5-haiku-20241022"
+        "replacement_models": [
+          "claude-3-5-haiku-20241022"
+        ]
       },
       "tags": [
         "Anthropic",
@@ -207,14 +925,16 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.221180+00:00",
+      "date_published": "2025-12-05T16:52:41.208212+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-1.3",
         "model_name": "claude-1.3",
         "shutdown_date": "2024-11-06",
         "announcement_date": "",
-        "replacement_model": "claude-3-5-haiku-20241022"
+        "replacement_models": [
+          "claude-3-5-haiku-20241022"
+        ]
       },
       "tags": [
         "Anthropic",
@@ -226,14 +946,16 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.221215+00:00",
+      "date_published": "2025-12-05T16:52:41.208222+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-instant-1.0",
         "model_name": "claude-instant-1.0",
         "shutdown_date": "2024-11-06",
         "announcement_date": "",
-        "replacement_model": "claude-3-5-haiku-20241022"
+        "replacement_models": [
+          "claude-3-5-haiku-20241022"
+        ]
       },
       "tags": [
         "Anthropic",
@@ -245,14 +967,16 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.221255+00:00",
+      "date_published": "2025-12-05T16:52:41.208232+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-instant-1.1",
         "model_name": "claude-instant-1.1",
         "shutdown_date": "2024-11-06",
         "announcement_date": "",
-        "replacement_model": "claude-3-5-haiku-20241022"
+        "replacement_models": [
+          "claude-3-5-haiku-20241022"
+        ]
       },
       "tags": [
         "Anthropic",
@@ -264,14 +988,16 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
       "title": "Anthropic Deprecation",
       "content_text": "",
-      "date_published": "2025-11-14T19:36:57.221290+00:00",
+      "date_published": "2025-12-05T16:52:41.208242+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-instant-1.2",
         "model_name": "claude-instant-1.2",
         "shutdown_date": "2024-11-06",
         "announcement_date": "",
-        "replacement_model": "claude-3-5-haiku-20241022"
+        "replacement_models": [
+          "claude-3-5-haiku-20241022"
+        ]
       },
       "tags": [
         "Anthropic",
@@ -279,21 +1005,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-2.5-flash-image-preview",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251204",
       "title": "Google Deprecation",
-      "content_text": "Unable to analyze deprecation notice due to limited or missing content.",
-      "date_published": "2025-12-05T03:14:04.973762+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.232623+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash-image-preview",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini 2.5 Flash Image Preview",
         "shutdown_date": "",
         "announcement_date": "2025-12-04",
-        "replacement_model": null,
+        "replacement_models": null,
         "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05",
-        "summary": "Unable to analyze deprecation notice due to limited or missing content."
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -305,14 +1030,14 @@
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251111",
       "title": "Google Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:42.900737+00:00",
+      "date_published": "2025-12-05T16:52:41.232765+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "veo-3.0-fast-generate-preview",
         "model_name": "Veo 3.0 Fast Generate Preview",
         "shutdown_date": "2025-11-12",
         "announcement_date": "2025-11-11",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Google",
@@ -324,14 +1049,14 @@
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251111",
       "title": "Google Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:42.900866+00:00",
+      "date_published": "2025-12-05T16:52:41.232794+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "veo-3.0-generate-preview",
         "model_name": "Veo 3.0 Generate Preview",
         "shutdown_date": "2025-11-12",
         "announcement_date": "2025-11-11",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Google",
@@ -339,21 +1064,20 @@
       ]
     },
     {
-      "id": "google-google-model",
+      "id": "google-gemini-2.0-flash-exp-image-generation",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251111",
       "title": "Google Deprecation",
-      "content_text": "<UNKNOWN>",
-      "date_published": "2025-11-13T21:06:42.900920+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.232807+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.0-flash-exp-image-generation",
-        "model_name": "Google Model",
+        "model_name": "Gemini 2.0 Flash Exp Image Generation",
         "shutdown_date": "",
         "announcement_date": "2025-11-11",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "<UNKNOWN>"
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -361,21 +1085,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-2.0-flash-preview-image-generation",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251111",
       "title": "Google Deprecation",
-      "content_text": "Insufficient information provided to complete deprecation analysis",
-      "date_published": "2025-11-13T21:06:42.900961+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.232818+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.0-flash-preview-image-generation",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini 2.0 Flash Preview Image Generation",
         "shutdown_date": "",
         "announcement_date": "2025-11-11",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Insufficient information provided to complete deprecation analysis"
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -383,21 +1106,22 @@
       ]
     },
     {
-      "id": "google-unknown",
+      "id": "google-imagen-3.0-generate-002",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251110",
       "title": "Google Deprecation",
-      "content_text": "Insufficient information provided. No deprecation details were included in the notice.",
-      "date_published": "2025-11-13T21:06:42.901168+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.232888+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "imagen-3.0-generate-002",
-        "model_name": "Unknown",
+        "model_name": "Imagen 3.0 Generate 002",
         "shutdown_date": "",
         "announcement_date": "2025-11-10",
-        "replacement_model": "imagen 4",
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Insufficient information provided. No deprecation details were included in the notice."
+        "replacement_models": [
+          "imagen 4"
+        ],
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -405,21 +1129,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-2.5-flash-lite-preview-06-17",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
       "title": "Google Deprecation",
-      "content_text": "Unable to analyze deprecation notice due to missing content details.",
-      "date_published": "2025-11-13T21:06:42.901348+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.232941+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash-lite-preview-06-17",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini 2.5 Flash Lite Preview 06 17",
         "shutdown_date": "",
         "announcement_date": "2025-11-04",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Unable to analyze deprecation notice due to missing content details."
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -427,21 +1150,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-2.5-flash-preview-05-20",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
       "title": "Google Deprecation",
-      "content_text": "Insufficient information provided in the deprecation notice",
-      "date_published": "2025-11-13T21:06:42.901392+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.232953+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash-preview-05-20",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini 2.5 Flash Preview 05 20",
         "shutdown_date": "",
         "announcement_date": "2025-11-04",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Insufficient information provided in the deprecation notice"
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -453,14 +1175,14 @@
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
       "title": "Google Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:42.901477+00:00",
+      "date_published": "2025-12-05T16:52:41.232981+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.0-flash-thinking-exp",
         "model_name": "Gemini 2.0 Flash Thinking Exp",
         "shutdown_date": "2025-12-02",
         "announcement_date": "2025-11-04",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Google",
@@ -468,21 +1190,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-2.0-flash-thinking-exp-01-21",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
       "title": "Google Deprecation",
-      "content_text": "Unable to analyze deprecation notice - content is missing or limited",
-      "date_published": "2025-11-13T21:06:42.901520+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.232993+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.0-flash-thinking-exp-01-21",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini 2.0 Flash Thinking Exp 01 21",
         "shutdown_date": "",
         "announcement_date": "2025-11-04",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Unable to analyze deprecation notice - content is missing or limited"
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -490,21 +1211,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-2.0-flash-thinking-exp-1219",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
       "title": "Google Deprecation",
-      "content_text": "Unable to analyze deprecation notice - content is limited or missing",
-      "date_published": "2025-11-13T21:06:42.901556+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.233003+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.0-flash-thinking-exp-1219",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini 2.0 Flash Thinking Exp 1219",
         "shutdown_date": "",
         "announcement_date": "2025-11-04",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Unable to analyze deprecation notice - content is limited or missing"
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -516,14 +1236,14 @@
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
       "title": "Google Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:42.901641+00:00",
+      "date_published": "2025-12-05T16:52:41.233029+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-pro-preview-03-25",
         "model_name": "Gemini 2.5 Pro Preview 03 25",
         "shutdown_date": "2025-12-02",
         "announcement_date": "2025-11-04",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Google",
@@ -535,14 +1255,14 @@
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
       "title": "Google Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:42.901728+00:00",
+      "date_published": "2025-12-05T16:52:41.233055+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-pro-preview-05-06",
         "model_name": "Gemini 2.5 Pro Preview 05 06",
         "shutdown_date": "2025-12-02",
         "announcement_date": "2025-11-04",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Google",
@@ -554,14 +1274,14 @@
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
       "title": "Google Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:42.901820+00:00",
+      "date_published": "2025-12-05T16:52:41.233079+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-pro-preview-06-05",
         "model_name": "Gemini 2.5 Pro Preview 06 05",
         "shutdown_date": "2025-12-02",
         "announcement_date": "2025-11-04",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Google",
@@ -573,14 +1293,14 @@
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
       "title": "Google Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:42.901902+00:00",
+      "date_published": "2025-12-05T16:52:41.233101+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.0-flash-lite-preview",
         "model_name": "Gemini 2.0 Flash Lite Preview",
         "shutdown_date": "2025-12-09",
         "announcement_date": "2025-11-04",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Google",
@@ -588,21 +1308,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-2.0-flash-lite-preview-02-05",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
       "title": "Google Deprecation",
-      "content_text": "Insufficient information provided in the deprecation notice to extract meaningful details.",
-      "date_published": "2025-11-13T21:06:42.901943+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.233112+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.0-flash-lite-preview-02-05",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini 2.0 Flash Lite Preview 02 05",
         "shutdown_date": "",
         "announcement_date": "2025-11-04",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Insufficient information provided in the deprecation notice to extract meaningful details."
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -610,21 +1329,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-2.5-flash-preview-native-audio-dialog",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251020",
       "title": "Google Deprecation",
-      "content_text": "Notice appears to be incomplete or missing critical details about model deprecation.",
-      "date_published": "2025-11-13T21:06:42.902059+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.233151+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash-preview-native-audio-dialog",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini 2.5 Flash Preview Native Audio Dialog",
         "shutdown_date": "",
         "announcement_date": "2025-10-20",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Notice appears to be incomplete or missing critical details about model deprecation."
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -632,21 +1350,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-2.5-flash-exp-native-audio-thinking-dialog",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251020",
       "title": "Google Deprecation",
-      "content_text": "Unable to analyze deprecation details due to limited or missing content in the notice.",
-      "date_published": "2025-11-13T21:06:42.902109+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.233162+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash-exp-native-audio-thinking-dialog",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini 2.5 Flash Exp Native Audio Thinking Dialog",
         "shutdown_date": "",
         "announcement_date": "2025-10-20",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Unable to analyze deprecation details due to limited or missing content in the notice."
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -654,21 +1371,22 @@
       ]
     },
     {
-      "id": "google-unknown",
+      "id": "google-gemini-2.5-flash-native-audio-preview-09-2025",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251020",
       "title": "Google Deprecation",
-      "content_text": "Insufficient content provided for meaningful deprecation analysis",
-      "date_published": "2025-11-13T21:06:42.902149+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.233176+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash-native-audio-preview-09-2025",
-        "model_name": "Unknown",
+        "model_name": "Gemini 2.5 Flash Native Audio Preview 09 2025",
         "shutdown_date": "",
         "announcement_date": "2025-10-20",
-        "replacement_model": "gemini-2.5-flash-native-audio-preview-09-2025",
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Insufficient content provided for meaningful deprecation analysis"
+        "replacement_models": [
+          "gemini-2.5-flash-native-audio-preview-09-2025"
+        ],
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -676,21 +1394,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-2.0-flash-live-001",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251020",
       "title": "Google Deprecation",
-      "content_text": "Unable to analyze deprecation notice due to missing content.",
-      "date_published": "2025-11-13T21:06:42.902197+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.233192+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.0-flash-live-001",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini 2.0 Flash Live 001",
         "shutdown_date": "",
         "announcement_date": "2025-10-20",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Unable to analyze deprecation notice due to missing content."
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -698,21 +1415,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-live-2.5-flash-preview",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251020",
       "title": "Google Deprecation",
-      "content_text": "Unable to analyze deprecation notice due to missing content",
-      "date_published": "2025-11-13T21:06:42.902239+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.233205+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-live-2.5-flash-preview",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini Live 2.5 Flash Preview",
         "shutdown_date": "",
         "announcement_date": "2025-10-20",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Unable to analyze deprecation notice due to missing content"
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -724,14 +1440,16 @@
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20250916",
       "title": "Google Deprecation",
       "content_text": "",
-      "date_published": "2025-11-11T16:16:45.366303+00:00",
+      "date_published": "2025-12-05T16:52:41.233344+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-embedding-exp-03-07",
         "model_name": "Gemini Embedding Exp 03 07",
         "shutdown_date": "",
         "announcement_date": "2025-09-16",
-        "replacement_model": null
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -743,14 +1461,16 @@
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20250916",
       "title": "Google Deprecation",
       "content_text": "",
-      "date_published": "2025-11-11T16:16:45.366312+00:00",
+      "date_published": "2025-12-05T16:52:41.233356+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-embedding-exp",
         "model_name": "Gemini Embedding Exp",
         "shutdown_date": "",
         "announcement_date": "2025-09-16",
-        "replacement_model": null
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -758,21 +1478,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-embedding-001",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20250714",
       "title": "Google Deprecation",
-      "content_text": "Unable to analyze deprecation notice due to limited or missing content.",
-      "date_published": "2025-11-13T21:06:42.903211+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.233467+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-embedding-001",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini Embedding 001",
         "shutdown_date": "",
         "announcement_date": "2025-07-14",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Unable to analyze deprecation notice due to limited or missing content."
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -780,21 +1499,20 @@
       ]
     },
     {
-      "id": "google-unspecified-google-model",
+      "id": "google-gemini-2.5-pro",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20250617",
       "title": "Google Deprecation",
-      "content_text": "Notice content not provided. Unable to extract specific deprecation details.",
-      "date_published": "2025-11-25T03:10:04.252655+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.233549+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-pro",
-        "model_name": "Unspecified Google Model",
+        "model_name": "Gemini 2.5 Pro",
         "shutdown_date": "",
         "announcement_date": "2025-06-17",
-        "replacement_model": null,
-        "first_observed": "2025-11-25",
-        "last_observed": "2025-11-25",
-        "summary": "Notice content not provided. Unable to extract specific deprecation details."
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -802,21 +1520,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-2.5-flash",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20250617",
       "title": "Google Deprecation",
-      "content_text": "Unable to analyze deprecation details due to limited or missing content in the notice.",
-      "date_published": "2025-11-13T21:06:42.903822+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.233598+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini 2.5 Flash",
         "shutdown_date": "",
         "announcement_date": "2025-06-17",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Unable to analyze deprecation details due to limited or missing content in the notice."
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -824,21 +1541,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-2.5-flash-preview-04-17",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20250617",
       "title": "Google Deprecation",
-      "content_text": "Unable to analyze deprecation notice - content is limited or missing",
-      "date_published": "2025-11-13T21:06:42.903865+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.233613+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash-preview-04-17",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini 2.5 Flash Preview 04 17",
         "shutdown_date": "",
         "announcement_date": "2025-06-17",
-        "replacement_model": null,
-        "first_observed": "2025-11-13",
-        "last_observed": "2025-11-13",
-        "summary": "Unable to analyze deprecation notice - content is limited or missing"
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -846,21 +1562,20 @@
       ]
     },
     {
-      "id": "google-<unknown>",
+      "id": "google-gemini-1.5-flash",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20250527",
       "title": "Google Deprecation",
-      "content_text": "Unable to analyze deprecation notice - content appears to be truncated or missing.",
-      "date_published": "2025-11-25T03:10:04.253194+00:00",
+      "content_text": "",
+      "date_published": "2025-12-05T16:52:41.233724+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-1.5-flash",
-        "model_name": "<UNKNOWN>",
+        "model_name": "Gemini 1.5 Flash",
         "shutdown_date": "",
         "announcement_date": "2025-05-27",
-        "replacement_model": null,
-        "first_observed": "2025-11-25",
-        "last_observed": "2025-11-25",
-        "summary": "Unable to analyze deprecation notice - content appears to be truncated or missing."
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -872,14 +1587,16 @@
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20250218",
       "title": "Google Deprecation",
       "content_text": "",
-      "date_published": "2025-11-11T16:16:45.367287+00:00",
+      "date_published": "2025-12-05T16:52:41.233930+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-1.0-pro",
         "model_name": "Gemini 1.0 Pro",
         "shutdown_date": "",
         "announcement_date": "2025-02-18",
-        "replacement_model": null
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -891,14 +1608,16 @@
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20240712",
       "title": "Google Deprecation",
       "content_text": "",
-      "date_published": "2025-11-11T16:16:45.367921+00:00",
+      "date_published": "2025-12-05T16:52:41.234181+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-1.0-pro-vision",
         "model_name": "Gemini 1.0 Pro Vision",
         "shutdown_date": "",
         "announcement_date": "2024-07-12",
-        "replacement_model": null
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Google",
@@ -910,14 +1629,14 @@
       "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations",
       "title": "Google Vertex Deprecation",
       "content_text": "",
-      "date_published": "2025-11-11T16:16:45.849313+00:00",
+      "date_published": "2025-12-05T16:52:41.253062+00:00",
       "_deprecation": {
         "provider": "Google Vertex",
         "model_id": "Generative AI module in the Vertex AI SDK",
         "model_name": "Generative AI module in the Vertex AI SDK",
         "shutdown_date": "2026-06-24",
         "announcement_date": "2025-06-24",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Google Vertex",
@@ -929,14 +1648,17 @@
       "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations",
       "title": "Google Vertex Deprecation",
       "content_text": "",
-      "date_published": "2025-11-11T16:16:45.849471+00:00",
+      "date_published": "2025-12-05T16:52:41.253131+00:00",
       "_deprecation": {
         "provider": "Google Vertex",
         "model_id": "Imagen 4 Preview models",
         "model_name": "Imagen 4 Preview models",
         "shutdown_date": "2025-11-30",
         "announcement_date": "2025-10-14",
-        "replacement_model": "Imagen 4 preview models\n        before November 30"
+        "replacement_models": [
+          "Imagen 4 preview models\n        bef",
+          "e November 30"
+        ]
       },
       "tags": [
         "Google Vertex",
@@ -948,14 +1670,16 @@
       "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations",
       "title": "Google Vertex Deprecation",
       "content_text": "",
-      "date_published": "2025-11-11T16:16:45.849542+00:00",
+      "date_published": "2025-12-05T16:52:41.253158+00:00",
       "_deprecation": {
         "provider": "Google Vertex",
         "model_id": "Imagen subject model and style model tuning",
         "model_name": "Imagen subject model and style model tuning",
         "shutdown_date": "2025-12-31",
         "announcement_date": "2025-10-14",
-        "replacement_model": "Gemini 2"
+        "replacement_models": [
+          "Gemini 2"
+        ]
       },
       "tags": [
         "Google Vertex",
@@ -967,14 +1691,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.007761+00:00",
+      "date_published": "2025-12-05T16:52:41.318257+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Stable Diffusion XL 1.0",
         "model_name": "Stable Diffusion XL 1.0",
         "shutdown_date": "2025-05-20",
         "announcement_date": "2024-10-16",
-        "replacement_model": "Stable Image Core"
+        "replacement_models": [
+          "Stable Image Core"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -986,14 +1712,17 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.007896+00:00",
+      "date_published": "2025-12-05T16:52:41.318295+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Claude 3 Opus",
         "model_name": "Claude 3 Opus",
         "shutdown_date": "2026-01-15",
         "announcement_date": "2025-07-15",
-        "replacement_model": "Claude Opus 4.1, Claude Sonnet 4.5"
+        "replacement_models": [
+          "Claude Opus 4.1",
+          "Claude Sonnet 4.5"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1005,14 +1734,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.007958+00:00",
+      "date_published": "2025-12-05T16:52:41.318314+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Claude Opus 4",
         "model_name": "Claude Opus 4",
         "shutdown_date": "2026-05-31",
         "announcement_date": "2025-10-01",
-        "replacement_model": "Claude Opus 4.1"
+        "replacement_models": [
+          "Claude Opus 4.1"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1024,14 +1755,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008018+00:00",
+      "date_published": "2025-12-05T16:52:41.318334+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Claude 3.5 Sonnet v1",
         "model_name": "Claude 3.5 Sonnet v1",
         "shutdown_date": "2026-03-01",
         "announcement_date": "2025-08-25",
-        "replacement_model": "Claude Sonnet 4.5"
+        "replacement_models": [
+          "Claude Sonnet 4.5"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1043,14 +1776,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008076+00:00",
+      "date_published": "2025-12-05T16:52:41.318354+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Claude 3.5 Sonnet v2",
         "model_name": "Claude 3.5 Sonnet v2",
         "shutdown_date": "2026-03-01",
         "announcement_date": "2025-08-25",
-        "replacement_model": "Claude Sonnet 4.5"
+        "replacement_models": [
+          "Claude Sonnet 4.5"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1062,14 +1797,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008128+00:00",
+      "date_published": "2025-12-05T16:52:41.318372+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Claude 3.7 Sonnet",
         "model_name": "Claude 3.7 Sonnet",
         "shutdown_date": "2026-04-28",
         "announcement_date": "2025-10-28",
-        "replacement_model": "Claude Sonnet 4.5"
+        "replacement_models": [
+          "Claude Sonnet 4.5"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1081,14 +1818,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008321+00:00",
+      "date_published": "2025-12-05T16:52:41.318435+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Stable Diffusion XL 0.8",
         "model_name": "Stable Diffusion XL 0.8",
         "shutdown_date": "2024-04-30",
         "announcement_date": "2024-02-02",
-        "replacement_model": "Stable Diffusion XL 1.x"
+        "replacement_models": [
+          "Stable Diffusion XL 1.x"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1100,14 +1839,17 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008390+00:00",
+      "date_published": "2025-12-05T16:52:41.318452+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Cohere Command",
         "model_name": "Cohere Command",
         "shutdown_date": "2025-08-12",
         "announcement_date": "2024-10-04",
-        "replacement_model": "Cohere Command R, Cohere Command R+"
+        "replacement_models": [
+          "Cohere Command R",
+          "Cohere Command R+"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1119,14 +1861,17 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008441+00:00",
+      "date_published": "2025-12-05T16:52:41.318469+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Cohere Command Light",
         "model_name": "Cohere Command Light",
         "shutdown_date": "2025-08-12",
         "announcement_date": "2024-10-04",
-        "replacement_model": "Cohere Command R, Cohere Command R+"
+        "replacement_models": [
+          "Cohere Command R",
+          "Cohere Command R+"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1138,14 +1883,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008489+00:00",
+      "date_published": "2025-12-05T16:52:41.318487+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Claude v1.3",
         "model_name": "Claude v1.3",
         "shutdown_date": "2024-02-28",
         "announcement_date": "2023-11-28",
-        "replacement_model": "Claude Sonnet 4.5"
+        "replacement_models": [
+          "Claude Sonnet 4.5"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1157,14 +1904,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008539+00:00",
+      "date_published": "2025-12-05T16:52:41.318527+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Claude v2",
         "model_name": "Claude v2",
         "shutdown_date": "2025-07-21",
         "announcement_date": "2025-01-21",
-        "replacement_model": "Claude Sonnet 4.5"
+        "replacement_models": [
+          "Claude Sonnet 4.5"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1176,14 +1925,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008588+00:00",
+      "date_published": "2025-12-05T16:52:41.318543+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Claude v2.1",
         "model_name": "Claude v2.1",
         "shutdown_date": "2025-07-21",
         "announcement_date": "2025-01-21",
-        "replacement_model": "Claude Sonnet 4.5"
+        "replacement_models": [
+          "Claude Sonnet 4.5"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1195,14 +1946,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008634+00:00",
+      "date_published": "2025-12-05T16:52:41.318558+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Claude Instant",
         "model_name": "Claude Instant",
         "shutdown_date": "2025-07-21",
         "announcement_date": "2025-01-21",
-        "replacement_model": "Claude Sonnet 4.5"
+        "replacement_models": [
+          "Claude Sonnet 4.5"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1214,14 +1967,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008680+00:00",
+      "date_published": "2025-12-05T16:52:41.318574+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Claude 3 Sonnet",
         "model_name": "Claude 3 Sonnet",
         "shutdown_date": "2025-07-21",
         "announcement_date": "2025-01-21",
-        "replacement_model": "Claude Sonnet 4.5"
+        "replacement_models": [
+          "Claude Sonnet 4.5"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1233,14 +1988,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008726+00:00",
+      "date_published": "2025-12-05T16:52:41.318590+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Titan Embeddings - Text v1.1",
         "model_name": "Titan Embeddings - Text v1.1",
         "shutdown_date": "2024-02-15",
         "announcement_date": "2023-11-07",
-        "replacement_model": "Titan Embeddings - Text v1.2"
+        "replacement_models": [
+          "Titan Embeddings - Text v1.2"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1252,14 +2009,17 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008772+00:00",
+      "date_published": "2025-12-05T16:52:41.318608+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Meta Llama 2 13b-chat-v1",
         "model_name": "Meta Llama 2 13b-chat-v1",
         "shutdown_date": "2024-10-30",
         "announcement_date": "2024-05-12",
-        "replacement_model": "Meta Llama3 and Meta Llama3.1"
+        "replacement_models": [
+          "Meta Llama3",
+          "Meta Llama3.1"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1271,14 +2031,17 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008819+00:00",
+      "date_published": "2025-12-05T16:52:41.318623+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Meta Llama 2 70b-chat-v1",
         "model_name": "Meta Llama 2 70b-chat-v1",
         "shutdown_date": "2024-10-30",
         "announcement_date": "2024-05-12",
-        "replacement_model": "Meta Llama3 and Meta Llama3.1"
+        "replacement_models": [
+          "Meta Llama3",
+          "Meta Llama3.1"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1290,14 +2053,17 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008864+00:00",
+      "date_published": "2025-12-05T16:52:41.318639+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Meta Llama 2-13b",
         "model_name": "Meta Llama 2-13b",
         "shutdown_date": "2024-10-30",
         "announcement_date": "2024-05-12",
-        "replacement_model": "Meta Llama3 and Meta Llama3.1"
+        "replacement_models": [
+          "Meta Llama3",
+          "Meta Llama3.1"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1309,14 +2075,17 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008911+00:00",
+      "date_published": "2025-12-05T16:52:41.318655+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Meta Llama 2-70b",
         "model_name": "Meta Llama 2-70b",
         "shutdown_date": "2024-10-30",
         "announcement_date": "2024-05-12",
-        "replacement_model": "Meta Llama3 and Meta Llama3.1"
+        "replacement_models": [
+          "Meta Llama3",
+          "Meta Llama3.1"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1328,14 +2097,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.008956+00:00",
+      "date_published": "2025-12-05T16:52:41.318671+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Ai21 J2 Mid-v1",
         "model_name": "Ai21 J2 Mid-v1",
         "shutdown_date": "2024-10-04",
         "announcement_date": "2024-04-30",
-        "replacement_model": "Jamba-Instruct v1"
+        "replacement_models": [
+          "Jamba-Instruct v1"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1347,14 +2118,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.009003+00:00",
+      "date_published": "2025-12-05T16:52:41.318687+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Ai21 J2 Ultra-v1",
         "model_name": "Ai21 J2 Ultra-v1",
         "shutdown_date": "2024-10-04",
         "announcement_date": "2024-04-30",
-        "replacement_model": "Jamba-Instruct v1"
+        "replacement_models": [
+          "Jamba-Instruct v1"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1366,14 +2139,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.009050+00:00",
+      "date_published": "2025-12-05T16:52:41.318703+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Ai21 J2-Grande-Instruct",
         "model_name": "Ai21 J2-Grande-Instruct",
         "shutdown_date": "2024-10-04",
         "announcement_date": "2024-04-30",
-        "replacement_model": "Jamba-Instruct v1"
+        "replacement_models": [
+          "Jamba-Instruct v1"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1385,14 +2160,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.009098+00:00",
+      "date_published": "2025-12-05T16:52:41.318719+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Ai21 J2 Jumbo-Instruct",
         "model_name": "Ai21 J2 Jumbo-Instruct",
         "shutdown_date": "2024-10-04",
         "announcement_date": "2024-04-30",
-        "replacement_model": "Jamba-Instruct v1"
+        "replacement_models": [
+          "Jamba-Instruct v1"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1404,14 +2181,17 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.009144+00:00",
+      "date_published": "2025-12-05T16:52:41.318735+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "AI21 Jamba-Instruct",
         "model_name": "AI21 Jamba-Instruct",
         "shutdown_date": "2025-08-01",
         "announcement_date": "2025-01-31",
-        "replacement_model": "AI21 Jamba 1.5 Mini or AI21 Jamba 1.5 Large"
+        "replacement_models": [
+          "AI21 Jamba 1.5 Mini",
+          "AI21 Jamba 1.5 Large"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1423,14 +2203,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.009421+00:00",
+      "date_published": "2025-12-05T16:52:41.318814+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Stability Image Core v1",
         "model_name": "Stability Image Core v1",
         "shutdown_date": "2025-09-04",
         "announcement_date": "2025-01-31",
-        "replacement_model": "Stability Image Core v1.1"
+        "replacement_models": [
+          "Stability Image Core v1.1"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1442,14 +2224,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.009468+00:00",
+      "date_published": "2025-12-05T16:52:41.318830+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Stability 3 Large",
         "model_name": "Stability 3 Large",
         "shutdown_date": "2025-09-04",
         "announcement_date": "2025-01-31",
-        "replacement_model": "Stability 3.5 Large"
+        "replacement_models": [
+          "Stability 3.5 Large"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1461,14 +2245,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.009514+00:00",
+      "date_published": "2025-12-05T16:52:41.318845+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Stability Image Ultra v1",
         "model_name": "Stability Image Ultra v1",
         "shutdown_date": "2025-09-04",
         "announcement_date": "2025-01-31",
-        "replacement_model": "Stable Image Ultra v1.1"
+        "replacement_models": [
+          "Stable Image Ultra v1.1"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1480,14 +2266,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.009559+00:00",
+      "date_published": "2025-12-05T16:52:41.318860+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Amazon Titan Text G1 - Premier",
         "model_name": "Amazon Titan Text G1 - Premier",
         "shutdown_date": "2025-08-15",
         "announcement_date": "2025-01-31",
-        "replacement_model": "Amazon Nova Pro"
+        "replacement_models": [
+          "Amazon Nova Pro"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1499,14 +2287,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.009604+00:00",
+      "date_published": "2025-12-05T16:52:41.318875+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Amazon Titan Text G1 - Express",
         "model_name": "Amazon Titan Text G1 - Express",
         "shutdown_date": "2025-08-15",
         "announcement_date": "2025-01-31",
-        "replacement_model": "Amazon Nova Micro"
+        "replacement_models": [
+          "Amazon Nova Micro"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1518,14 +2308,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.009648+00:00",
+      "date_published": "2025-12-05T16:52:41.318890+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Amazon Titan Text G1 - Lite",
         "model_name": "Amazon Titan Text G1 - Lite",
         "shutdown_date": "2025-08-15",
         "announcement_date": "2025-01-31",
-        "replacement_model": "Amazon Nova Lite"
+        "replacement_models": [
+          "Amazon Nova Lite"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1537,14 +2329,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:45.009694+00:00",
+      "date_published": "2025-12-05T16:52:41.318905+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "Amazon Titan Image Generator G1 V1",
         "model_name": "Amazon Titan Image Generator G1 V1",
         "shutdown_date": "2025-08-15",
         "announcement_date": "2025-01-31",
-        "replacement_model": "Amazon Nova Canvas"
+        "replacement_models": [
+          "Amazon Nova Canvas"
+        ]
       },
       "tags": [
         "AWS Bedrock",
@@ -1552,22 +2346,24 @@
       ]
     },
     {
-      "id": "cohere-command-r-03-2024,-command-r,-command-r-plus-04-2024,-command-r-plus,-command-light,-command,",
+      "id": "cohere-various-older-command-models,-a-number-of-endpoints,-all-of-fine-tuning.",
       "url": "https://docs.cohere.com/docs/deprecations#2025-09-15",
       "title": "Cohere Deprecation",
       "content_text": "",
-      "date_published": "2025-11-11T16:16:55.550569+00:00",
+      "date_published": "2025-12-05T16:52:41.504282+00:00",
       "_deprecation": {
         "provider": "Cohere",
-        "model_id": "command-r-03-2024, command-r, command-r-plus-04-2024, command-r-plus, command-light, command, summarize, classify, rerank",
-        "model_name": "command-r-03-2024, command-r, command-r-plus-04-2024, command-r-plus, command-light, command, summarize, classify, rerank",
-        "shutdown_date": "2025-09-15",
+        "model_id": "Various older command models, a number of endpoints, all of fine-tuning.",
+        "model_name": "Various older command models, a number of endpoints, all of fine-tuning.",
+        "shutdown_date": "",
         "announcement_date": "2025-09-15",
-        "replacement_model": "command-r-08-2024, command-r-plus-08-2024, command-a-03-2025"
+        "replacement_models": null,
+        "first_observed": "2025-12-05",
+        "last_observed": "2025-12-05"
       },
       "tags": [
         "Cohere",
-        "shutdown-2025"
+        "shutdown-"
       ]
     },
     {
@@ -1575,14 +2371,16 @@
       "url": "https://docs.cohere.com/docs/deprecations#2025-03-08",
       "title": "Cohere Deprecation",
       "content_text": "",
-      "date_published": "2025-08-26T18:51:55.823412+00:00",
+      "date_published": "2025-12-05T16:52:41.504503+00:00",
       "_deprecation": {
         "provider": "Cohere",
         "model_id": "Command-R-03-2024-finetuned",
         "model_name": "Command-R-03-2024 Fine-tuned Models",
         "shutdown_date": "2025-03-08",
         "announcement_date": "2025-03-08",
-        "replacement_model": "Command-R-08-2024"
+        "replacement_models": [
+          "Command-R-08-2024"
+        ]
       },
       "tags": [
         "Cohere",
@@ -1594,14 +2392,16 @@
       "url": "https://docs.cohere.com/docs/deprecations#2025-01-31",
       "title": "Cohere Deprecation",
       "content_text": "",
-      "date_published": "2025-08-26T18:51:55.823483+00:00",
+      "date_published": "2025-12-05T16:52:41.504613+00:00",
       "_deprecation": {
         "provider": "Cohere",
         "model_id": "classify-default-embed",
         "model_name": "Classify Default Embed Models",
         "shutdown_date": "2025-01-31",
         "announcement_date": "2025-01-31",
-        "replacement_model": "Fine-tuned Embed models"
+        "replacement_models": [
+          "Fine-tuned Embed models"
+        ]
       },
       "tags": [
         "Cohere",
@@ -1613,14 +2413,16 @@
       "url": "https://docs.cohere.com/docs/deprecations#2024-12-02",
       "title": "Cohere Deprecation",
       "content_text": "",
-      "date_published": "2025-08-26T18:51:55.823511+00:00",
+      "date_published": "2025-12-05T16:52:41.504662+00:00",
       "_deprecation": {
         "provider": "Cohere",
         "model_id": "rerank-english-v2.0",
         "model_name": "rerank-english-v2.0",
         "shutdown_date": "2025-04-30",
         "announcement_date": "2024-12-02",
-        "replacement_model": "rerank-v3.5"
+        "replacement_models": [
+          "rerank-v3.5"
+        ]
       },
       "tags": [
         "Cohere",
@@ -1632,14 +2434,16 @@
       "url": "https://docs.cohere.com/docs/deprecations#2024-12-02",
       "title": "Cohere Deprecation",
       "content_text": "",
-      "date_published": "2025-08-26T18:51:55.823514+00:00",
+      "date_published": "2025-12-05T16:52:41.504667+00:00",
       "_deprecation": {
         "provider": "Cohere",
         "model_id": "rerank-multilingual-v2.0",
         "model_name": "rerank-multilingual-v2.0",
         "shutdown_date": "2025-04-30",
         "announcement_date": "2024-12-02",
-        "replacement_model": "rerank-v3.5"
+        "replacement_models": [
+          "rerank-v3.5"
+        ]
       },
       "tags": [
         "Cohere",
@@ -1651,14 +2455,14 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.697556+00:00",
+      "date_published": "2025-12-05T16:52:41.602658+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Jamba Instruct",
         "model_name": "Jamba Instruct",
         "shutdown_date": "2025-03-01",
         "announcement_date": "2025-02-01",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Azure",
@@ -1670,14 +2474,14 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.697666+00:00",
+      "date_published": "2025-12-05T16:52:41.602694+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "AI21-Jamba-1.5-Large",
         "model_name": "AI21-Jamba-1.5-Large",
         "shutdown_date": "2025-08-01",
         "announcement_date": "2025-05-01",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Azure",
@@ -1689,14 +2493,14 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.697749+00:00",
+      "date_published": "2025-12-05T16:52:41.602723+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "AI21-Jamba-1.5-Mini",
         "model_name": "AI21-Jamba-1.5-Mini",
         "shutdown_date": "2025-08-01",
         "announcement_date": "2025-05-01",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Azure",
@@ -1708,14 +2512,14 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.697958+00:00",
+      "date_published": "2025-12-05T16:52:41.602799+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Bria-2.3-Fast",
         "model_name": "Bria-2.3-Fast",
         "shutdown_date": "2025-10-31",
         "announcement_date": "2025-08-31",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Azure",
@@ -1727,14 +2531,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.698130+00:00",
+      "date_published": "2025-12-05T16:52:41.602860+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Command R",
         "model_name": "Command R",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-02-24",
-        "replacement_model": "Cohere Command R 08-2024"
+        "replacement_models": [
+          "Cohere Command R 08-2024"
+        ]
       },
       "tags": [
         "Azure",
@@ -1746,14 +2552,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.698210+00:00",
+      "date_published": "2025-12-05T16:52:41.602886+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Command R+",
         "model_name": "Command R+",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-02-24",
-        "replacement_model": "Cohere Command R+ 08-2024"
+        "replacement_models": [
+          "Cohere Command R+ 08-2024"
+        ]
       },
       "tags": [
         "Azure",
@@ -1765,14 +2573,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.698287+00:00",
+      "date_published": "2025-12-05T16:52:41.602910+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Cohere-rerank-v3-english",
         "model_name": "Cohere-rerank-v3-english",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-02-28",
-        "replacement_model": "Cohere-rerank-v3.5"
+        "replacement_models": [
+          "Cohere-rerank-v3.5"
+        ]
       },
       "tags": [
         "Azure",
@@ -1784,14 +2594,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.698391+00:00",
+      "date_published": "2025-12-05T16:52:41.602935+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Cohere-rerank-v3-multilingual",
         "model_name": "Cohere-rerank-v3-multilingual",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-02-28",
-        "replacement_model": "Cohere-rerank-v3.5"
+        "replacement_models": [
+          "Cohere-rerank-v3.5"
+        ]
       },
       "tags": [
         "Azure",
@@ -1803,14 +2615,14 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.698540+00:00",
+      "date_published": "2025-12-05T16:52:41.602982+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "jais-30b-chat",
         "model_name": "jais-30b-chat",
         "shutdown_date": "2026-01-30",
         "announcement_date": "2025-09-30",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Azure",
@@ -1822,14 +2634,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.698683+00:00",
+      "date_published": "2025-12-05T16:52:41.603029+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "DeepSeek-V3",
         "model_name": "DeepSeek-V3",
         "shutdown_date": "2025-08-31",
         "announcement_date": "2025-04-10",
-        "replacement_model": "DeepSeek-V3-0324"
+        "replacement_models": [
+          "DeepSeek-V3-0324"
+        ]
       },
       "tags": [
         "Azure",
@@ -1841,14 +2655,14 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.698879+00:00",
+      "date_published": "2025-12-05T16:52:41.603092+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Gretel-Navigator-Tabular",
         "model_name": "Gretel-Navigator-Tabular",
         "shutdown_date": "2025-09-16",
         "announcement_date": "2025-06-16",
-        "replacement_model": null
+        "replacement_models": null
       },
       "tags": [
         "Azure",
@@ -1860,14 +2674,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.699064+00:00",
+      "date_published": "2025-12-05T16:52:41.603151+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Llama-2-13b",
         "model_name": "Llama-2-13b",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-02-28",
-        "replacement_model": "Meta-Llama-3.1-8B-Instruct"
+        "replacement_models": [
+          "Meta-Llama-3.1-8B-Instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -1879,14 +2695,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.699144+00:00",
+      "date_published": "2025-12-05T16:52:41.603176+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Llama-2-13b-chat",
         "model_name": "Llama-2-13b-chat",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-02-28",
-        "replacement_model": "Meta-Llama-3.1-8B-Instruct"
+        "replacement_models": [
+          "Meta-Llama-3.1-8B-Instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -1898,14 +2716,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.699219+00:00",
+      "date_published": "2025-12-05T16:52:41.603199+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Llama-2-70b",
         "model_name": "Llama-2-70b",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-02-28",
-        "replacement_model": "Llama-3.3-70B-Instruct"
+        "replacement_models": [
+          "Llama-3.3-70B-Instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -1917,14 +2737,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.699292+00:00",
+      "date_published": "2025-12-05T16:52:41.603222+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Llama-2-70b-chat",
         "model_name": "Llama-2-70b-chat",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-02-28",
-        "replacement_model": "Llama-3.3-70B-Instruct"
+        "replacement_models": [
+          "Llama-3.3-70B-Instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -1936,14 +2758,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.699388+00:00",
+      "date_published": "2025-12-05T16:52:41.603245+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Llama-2-7b",
         "model_name": "Llama-2-7b",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-02-28",
-        "replacement_model": "Meta-Llama-3.1-8B-Instruct"
+        "replacement_models": [
+          "Meta-Llama-3.1-8B-Instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -1955,14 +2779,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.699462+00:00",
+      "date_published": "2025-12-05T16:52:41.603268+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Llama-2-7b-chat",
         "model_name": "Llama-2-7b-chat",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-02-28",
-        "replacement_model": "Meta-Llama-3.1-8B-Instruct"
+        "replacement_models": [
+          "Meta-Llama-3.1-8B-Instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -1974,14 +2800,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.699536+00:00",
+      "date_published": "2025-12-05T16:52:41.603292+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Meta-Llama-3-70B-Instruct",
         "model_name": "Meta-Llama-3-70B-Instruct",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-02-28",
-        "replacement_model": "Llama-3.3-70B-Instruct"
+        "replacement_models": [
+          "Llama-3.3-70B-Instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -1993,14 +2821,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.699608+00:00",
+      "date_published": "2025-12-05T16:52:41.603316+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Meta-Llama-3-8B-Instruct",
         "model_name": "Meta-Llama-3-8B-Instruct",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-02-28",
-        "replacement_model": "Meta-Llama-3.1-8B-Instruct"
+        "replacement_models": [
+          "Meta-Llama-3.1-8B-Instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -2012,14 +2842,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.699680+00:00",
+      "date_published": "2025-12-05T16:52:41.603339+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Meta-Llama-3.1-70B-Instruct",
         "model_name": "Meta-Llama-3.1-70B-Instruct",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-02-28",
-        "replacement_model": "Llama-3.3-70B-Instruct"
+        "replacement_models": [
+          "Llama-3.3-70B-Instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -2031,14 +2863,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.699841+00:00",
+      "date_published": "2025-12-05T16:52:41.603399+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Phi-3-medium-4k-instruct",
         "model_name": "Phi-3-medium-4k-instruct",
         "shutdown_date": "2025-08-30",
         "announcement_date": "2025-06-09",
-        "replacement_model": "Phi-4"
+        "replacement_models": [
+          "Phi-4"
+        ]
       },
       "tags": [
         "Azure",
@@ -2050,14 +2884,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.699916+00:00",
+      "date_published": "2025-12-05T16:52:41.603424+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Phi-3-medium-128k-instruct",
         "model_name": "Phi-3-medium-128k-instruct",
         "shutdown_date": "2025-08-30",
         "announcement_date": "2025-06-09",
-        "replacement_model": "Phi-4"
+        "replacement_models": [
+          "Phi-4"
+        ]
       },
       "tags": [
         "Azure",
@@ -2069,14 +2905,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.699988+00:00",
+      "date_published": "2025-12-05T16:52:41.603449+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Phi-3-mini-4k-instruct",
         "model_name": "Phi-3-mini-4k-instruct",
         "shutdown_date": "2025-08-30",
         "announcement_date": "2025-06-09",
-        "replacement_model": "Phi-4-mini-instruct"
+        "replacement_models": [
+          "Phi-4-mini-instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -2088,14 +2926,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.700060+00:00",
+      "date_published": "2025-12-05T16:52:41.603472+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Phi-3-mini-128k-instruct",
         "model_name": "Phi-3-mini-128k-instruct",
         "shutdown_date": "2025-08-30",
         "announcement_date": "2025-06-09",
-        "replacement_model": "Phi-4-mini-instruct"
+        "replacement_models": [
+          "Phi-4-mini-instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -2107,14 +2947,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.700132+00:00",
+      "date_published": "2025-12-05T16:52:41.603496+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Phi-3-small-8k-instruct",
         "model_name": "Phi-3-small-8k-instruct",
         "shutdown_date": "2025-08-30",
         "announcement_date": "2025-06-09",
-        "replacement_model": "Phi-4-mini-instruct"
+        "replacement_models": [
+          "Phi-4-mini-instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -2126,14 +2968,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.700205+00:00",
+      "date_published": "2025-12-05T16:52:41.603519+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Phi-3-small-128k-instruct",
         "model_name": "Phi-3-small-128k-instruct",
         "shutdown_date": "2025-08-30",
         "announcement_date": "2025-06-09",
-        "replacement_model": "Phi-4-mini-instruct"
+        "replacement_models": [
+          "Phi-4-mini-instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -2145,14 +2989,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.700278+00:00",
+      "date_published": "2025-12-05T16:52:41.603545+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Phi-3.5-mini-instruct",
         "model_name": "Phi-3.5-mini-instruct",
         "shutdown_date": "2025-08-30",
         "announcement_date": "2025-06-09",
-        "replacement_model": "Phi-4-mini-instruct"
+        "replacement_models": [
+          "Phi-4-mini-instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -2164,14 +3010,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.700373+00:00",
+      "date_published": "2025-12-05T16:52:41.603568+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Phi-3.5-MoE-instruct",
         "model_name": "Phi-3.5-MoE-instruct",
         "shutdown_date": "2025-08-30",
         "announcement_date": "2025-06-09",
-        "replacement_model": "Phi-4-mini-instruct"
+        "replacement_models": [
+          "Phi-4-mini-instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -2183,14 +3031,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.700452+00:00",
+      "date_published": "2025-12-05T16:52:41.603592+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Phi-3.5-vision-instruct",
         "model_name": "Phi-3.5-vision-instruct",
         "shutdown_date": "2025-08-30",
         "announcement_date": "2025-06-09",
-        "replacement_model": "Phi-4-mini-instruct"
+        "replacement_models": [
+          "Phi-4-mini-instruct"
+        ]
       },
       "tags": [
         "Azure",
@@ -2202,14 +3052,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.700608+00:00",
+      "date_published": "2025-12-05T16:52:41.603644+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Mistral-Nemo",
         "model_name": "Mistral-Nemo",
         "shutdown_date": "2026-01-30",
         "announcement_date": "2025-09-30",
-        "replacement_model": "Mistral-small-2503"
+        "replacement_models": [
+          "Mistral-small-2503"
+        ]
       },
       "tags": [
         "Azure",
@@ -2221,14 +3073,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.700684+00:00",
+      "date_published": "2025-12-05T16:52:41.603669+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Mistral-large-2411",
         "model_name": "Mistral-large-2411",
         "shutdown_date": "2026-01-30",
         "announcement_date": "2025-09-30",
-        "replacement_model": "Mistral-medium-2505"
+        "replacement_models": [
+          "Mistral-medium-2505"
+        ]
       },
       "tags": [
         "Azure",
@@ -2240,14 +3094,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.700756+00:00",
+      "date_published": "2025-12-05T16:52:41.603693+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Mistral-ocr-2503",
         "model_name": "Mistral-ocr-2503",
         "shutdown_date": "2026-01-30",
         "announcement_date": "2025-09-30",
-        "replacement_model": "Mistral-document-ai-2505"
+        "replacement_models": [
+          "Mistral-document-ai-2505"
+        ]
       },
       "tags": [
         "Azure",
@@ -2259,14 +3115,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.700829+00:00",
+      "date_published": "2025-12-05T16:52:41.603715+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Mistral-small",
         "model_name": "Mistral-small",
         "shutdown_date": "2025-07-31",
         "announcement_date": "2025-03-31",
-        "replacement_model": "Mistral-small-2503"
+        "replacement_models": [
+          "Mistral-small-2503"
+        ]
       },
       "tags": [
         "Azure",
@@ -2278,14 +3136,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.700902+00:00",
+      "date_published": "2025-12-05T16:52:41.603739+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Mistral-large-2407",
         "model_name": "Mistral-large-2407",
         "shutdown_date": "2025-05-13",
         "announcement_date": "2025-01-13",
-        "replacement_model": "Mistral-medium-2505"
+        "replacement_models": [
+          "Mistral-medium-2505"
+        ]
       },
       "tags": [
         "Azure",
@@ -2297,14 +3157,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
       "content_text": "",
-      "date_published": "2025-11-13T21:06:58.700974+00:00",
+      "date_published": "2025-12-05T16:52:41.603762+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Mistral-large",
         "model_name": "Mistral-large",
         "shutdown_date": "2025-04-15",
         "announcement_date": "2024-12-15",
-        "replacement_model": "Mistral-medium-2505"
+        "replacement_models": [
+          "Mistral-medium-2505"
+        ]
       },
       "tags": [
         "Azure",

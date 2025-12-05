@@ -119,14 +119,21 @@ def test_extracts_replacement_models_when_available(scraper, fixture_html):
     """Should extract replacement models when specified."""
     items = scraper.extract_structured_deprecations(fixture_html)
 
-    items_with_replacement = [item for item in items if item.replacement_model]
+    items_with_replacement = [item for item in items if item.replacement_models]
 
     assert len(items_with_replacement) > 0, "Should find items with replacement models"
 
     for item in items_with_replacement:
-        assert len(item.replacement_model) > 0, (
-            f"Replacement model is empty for {item.model_name}"
+        assert isinstance(item.replacement_models, list), (
+            f"Replacement models should be a list for {item.model_name}"
         )
+        assert len(item.replacement_models) > 0, (
+            f"Replacement models list is empty for {item.model_name}"
+        )
+        for model in item.replacement_models:
+            assert len(model) > 0, (
+                f"Replacement model is empty string for {item.model_name}"
+            )
 
 
 def test_generates_correct_urls_with_anchors(scraper, fixture_html):

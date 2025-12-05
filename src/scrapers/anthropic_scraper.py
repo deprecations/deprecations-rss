@@ -41,9 +41,14 @@ class AnthropicScraper(EnhancedBaseScraper):
                     # Format 2: Retirement Date | Deprecated Model | Replacement
                     shutdown_date = self.parse_date(cells[0])
                     model_name = cells[1]
-                    replacement = (
+                    replacement_str = (
                         cells[2]
                         if len(cells) > 2 and cells[2] not in ["—", "-", "N/A"]
+                        else None
+                    )
+                    replacement_models = (
+                        self.parse_replacements(replacement_str)
+                        if replacement_str
                         else None
                     )
                     deprecated_date = ""
@@ -54,7 +59,7 @@ class AnthropicScraper(EnhancedBaseScraper):
                         self.parse_date(cells[2]) if len(cells) > 2 else ""
                     )
                     shutdown_date = self.parse_date(cells[3]) if len(cells) > 3 else ""
-                    replacement = None
+                    replacement_models = None
 
                     # Skip active models with N/A deprecation
                     if cells[2].strip().upper() == "N/A":
@@ -72,7 +77,7 @@ class AnthropicScraper(EnhancedBaseScraper):
                         model_name=model_name,
                         announcement_date=deprecated_date or "",
                         shutdown_date=final_date,
-                        replacement_model=replacement,
+                        replacement_models=replacement_models,
                         deprecation_context="",
                         url=self.url,
                     )

@@ -69,9 +69,9 @@ def create_json_feed(data):
         if "announcement_date" in item_data:
             deprecation_data["announcement_date"] = item_data["announcement_date"]
 
-        # Handle both replacement_model (new) and suggested_replacement (old)
-        if "replacement_model" in item_data:
-            deprecation_data["replacement_model"] = item_data["replacement_model"]
+        # Handle replacement_models
+        if "replacement_models" in item_data:
+            deprecation_data["replacement_models"] = item_data["replacement_models"]
         elif "suggested_replacement" in item_data:
             deprecation_data["suggested_replacement"] = item_data[
                 "suggested_replacement"

@@ -15,6 +15,58 @@ class OpenAIScraper(EnhancedBaseScraper):
     url = "https://platform.openai.com/docs/deprecations"
     requires_playwright = True  # OpenAI uses Cloudflare protection
 
+    def fetch_with_playwright(self, url: str) -> str:
+        """
+        Fetch OpenAI content with Playwright, using stealth mode and dynamic content waiting.
+
+        Override base implementation to handle Cloudflare protection and
+        wait for actual deprecation content to load.
+        """
+        from playwright.sync_api import sync_playwright
+        from playwright_stealth import Stealth
+
+        with sync_playwright() as p:
+            browser = p.chromium.launch(
+                headless=True,
+                args=[
+                    "--disable-blink-features=AutomationControlled",
+                    "--disable-dev-shm-usage",
+                    "--no-sandbox",
+                    "--disable-setuid-sandbox",
+                ],
+            )
+            context = browser.new_context(
+                viewport={"width": 1920, "height": 1080},
+                user_agent=self.headers["User-Agent"],
+            )
+            page = context.new_page()
+
+            # Apply stealth mode to evade bot detection
+            Stealth().apply_stealth_sync(page)
+
+            try:
+                # Navigate to page
+                page.goto(url, wait_until="domcontentloaded", timeout=60000)
+
+                # Wait for actual deprecation content to load
+                # This ensures we bypass Cloudflare challenge and get the real content
+                page.wait_for_function(
+                    """() => {
+                        const headings = Array.from(document.querySelectorAll('h2, h3'));
+                        return headings.some(h =>
+                            h.textContent.match(/\\d{4}-\\d{2}-\\d{2}:/) ||
+                            h.textContent.includes('Deprecation history')
+                        );
+                    }""",
+                    timeout=30000,
+                )
+
+                html = page.content()
+            finally:
+                browser.close()
+
+            return html
+
     def extract_structured_deprecations(self, html: str) -> List[DeprecationItem]:
         """Extract deprecations from OpenAI's structured format."""
         items = []
@@ -231,11 +283,11 @@ class OpenAIScraper(EnhancedBaseScraper):
                     shutdown_date = parsed_date
 
             # Extract replacement
-            replacement = None
+            replacement_models = None
             if replacement_idx is not None and replacement_idx < len(cells):
                 repl_text = cells[replacement_idx].get_text(strip=True)
                 if repl_text and repl_text not in ["—", "-", "N/A"]:
-                    replacement = repl_text
+                    replacement_models = self.parse_replacements(repl_text)
 
             # Create deprecation item for each model
             for model_name in model_names:
@@ -245,7 +297,7 @@ class OpenAIScraper(EnhancedBaseScraper):
                     model_name=model_name,
                     announcement_date=announcement_date,
                     shutdown_date=shutdown_date,
-                    replacement_model=replacement,
+                    replacement_models=replacement_models,
                     deprecation_context=context,
                     url=url,
                 )
@@ -291,7 +343,7 @@ class OpenAIScraper(EnhancedBaseScraper):
                 model_name=model,
                 announcement_date=announcement_date,
                 shutdown_date=shutdown_date,
-                replacement_model=None,  # Would need LLM to extract this reliably
+                replacement_models=None,  # Would need LLM to extract this reliably
                 deprecation_context=text,
                 url=url,
             )
@@ -322,7 +374,7 @@ class OpenAIScraper(EnhancedBaseScraper):
                         model_name=model,
                         announcement_date=announcement_date,
                         shutdown_date=shutdown_date,
-                        replacement_model=None,
+                        replacement_models=None,
                         deprecation_context=text,
                         url=url,
                     )
@@ -339,7 +391,7 @@ class OpenAIScraper(EnhancedBaseScraper):
                     model_name=title,
                     announcement_date=announcement_date,
                     shutdown_date=shutdown_date,
-                    replacement_model=None,
+                    replacement_models=None,
                     deprecation_context=text,
                     url=url,
                 )

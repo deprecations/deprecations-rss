@@ -92,7 +92,7 @@ class GoogleVertexScraper(EnhancedBaseScraper):
                                     else model_name,
                                     announcement_date=deprecation_date,
                                     shutdown_date=shutdown_date,
-                                    replacement_model="Imagen 3"
+                                    replacement_models=["Imagen 3"]
                                     if "imagen" in li_text.lower()
                                     else None,
                                     deprecation_context=" ".join(context_parts),
@@ -112,7 +112,7 @@ class GoogleVertexScraper(EnhancedBaseScraper):
                                         model_name=feature_name,
                                         announcement_date=deprecation_date,
                                         shutdown_date=shutdown_date,
-                                        replacement_model=None,
+                                        replacement_models=None,
                                         deprecation_context=" ".join(context_parts),
                                         url=f"{self.url}#{section_header.get('id', '')}",
                                     )
@@ -141,7 +141,7 @@ class GoogleVertexScraper(EnhancedBaseScraper):
                     model_name=model_name,
                     announcement_date=deprecation_date,
                     shutdown_date=shutdown_date,
-                    replacement_model=None,
+                    replacement_models=None,
                     deprecation_context=" ".join(context_parts),
                     url=f"{self.url}#{section_header.get('id', '')}",
                 )
@@ -208,7 +208,7 @@ class GoogleVertexScraper(EnhancedBaseScraper):
                     details = cells[details_idx]
 
                 # Extract replacement from details if present
-                replacement = None
+                replacement_str = None
                 if details:
                     repl_match = re.search(
                         r"(?:migrate to|use|replacement:?)\s*([A-Za-z0-9\-\s]+)",
@@ -216,7 +216,13 @@ class GoogleVertexScraper(EnhancedBaseScraper):
                         re.IGNORECASE,
                     )
                     if repl_match:
-                        replacement = repl_match.group(1).strip()
+                        replacement_str = repl_match.group(1).strip()
+
+                replacement_models = (
+                    self.parse_replacements(replacement_str)
+                    if replacement_str
+                    else None
+                )
 
                 # Handle special case: Imagen versions
                 if "imagen" in feature.lower():
@@ -233,9 +239,9 @@ class GoogleVertexScraper(EnhancedBaseScraper):
                                 model_name=f"Imagen {model}",
                                 announcement_date=deprecated_date,
                                 shutdown_date=shutdown_date,
-                                replacement_model="Imagen 3"
+                                replacement_models=["Imagen 3"]
                                 if "imagen 3" in details.lower()
-                                else replacement,
+                                else replacement_models,
                                 deprecation_context=details or f"{feature} deprecation",
                                 url=self.url,
                             )
@@ -248,7 +254,7 @@ class GoogleVertexScraper(EnhancedBaseScraper):
                             model_name=feature,
                             announcement_date=deprecated_date,
                             shutdown_date=shutdown_date,
-                            replacement_model=replacement,
+                            replacement_models=replacement_models,
                             deprecation_context=details or f"{feature} deprecation",
                             url=self.url,
                         )
@@ -261,7 +267,7 @@ class GoogleVertexScraper(EnhancedBaseScraper):
                         model_name=feature,
                         announcement_date=deprecated_date,
                         shutdown_date=shutdown_date,
-                        replacement_model=replacement,
+                        replacement_models=replacement_models,
                         deprecation_context=details or f"{feature} will be shut down",
                         url=self.url,
                     )
