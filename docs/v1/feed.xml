@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 19 Dec 2025 03:18:46 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 03:10:32 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -894,6 +894,18 @@ Model Claude Opus 4. entered legacy status on 2025-10-01. and will reach end-of-
       <guid isPermaLink="false">AWS_Bedrock-Claude_Opus_4-2026-05-31-e3b0c442</guid>
     </item>
     <item>
+      <title>AWS Bedrock: Claude 3.5 Haiku</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: Claude 3.5 Haiku
+Model: Claude 3.5 Haiku
+Shutdown Date: 2026-06-19
+
+Model Claude 3.5 Haiku. entered legacy status on 2025-12-19. and will reach end-of-life on 2026-06-19. Recommended replacement: Claude Haiku 4.5.</description>
+      <pubDate>Sat, 20 Dec 2025 03:10:18 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-Claude_3.5_Haiku-2026-06-19-e3b0c442</guid>
+    </item>
+    <item>
       <title>AWS Bedrock: Claude 3.5 Sonnet v1</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
@@ -928,6 +940,18 @@ Shutdown Date: 2026-04-28
 Model Claude 3.7 Sonnet. entered legacy status on 2025-10-28. and will reach end-of-life on 2026-04-28. Recommended replacement: Claude Sonnet 4.5.</description>
       <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_3.7_Sonnet-2026-04-28-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: Titan Image Generator G1 v2</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: Titan Image Generator G1 v2
+Model: Titan Image Generator G1 v2
+Shutdown Date: 2026-06-30
+
+Model Titan Image Generator G1 v2. entered legacy status on 2025-12-30. and will reach end-of-life on 2026-06-30. Recommended replacement: Nova Canvas, Nova 2 Omni.</description>
+      <pubDate>Sat, 20 Dec 2025 03:10:18 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-Titan_Image_Generator_G1_v2-2026-06-30-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: Stable Diffusion XL 0.8</title>

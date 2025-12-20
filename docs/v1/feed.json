@@ -1461,6 +1461,27 @@
       ]
     },
     {
+      "id": "aws-bedrock-claude-3.5-haiku",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+      "title": "AWS Bedrock Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-20T03:10:18.145735+00:00",
+      "_deprecation": {
+        "provider": "AWS Bedrock",
+        "model_id": "Claude 3.5 Haiku",
+        "model_name": "Claude 3.5 Haiku",
+        "shutdown_date": "2026-06-19",
+        "announcement_date": "2025-12-19",
+        "replacement_models": [
+          "Claude Haiku 4.5"
+        ]
+      },
+      "tags": [
+        "AWS Bedrock",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "aws-bedrock-claude-3.5-sonnet-v1",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",
@@ -1516,6 +1537,28 @@
         "announcement_date": "2025-10-28",
         "replacement_models": [
           "Claude Sonnet 4.5"
+        ]
+      },
+      "tags": [
+        "AWS Bedrock",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "aws-bedrock-titan-image-generator-g1-v2",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+      "title": "AWS Bedrock Deprecation",
+      "content_text": "",
+      "date_published": "2025-12-20T03:10:18.145958+00:00",
+      "_deprecation": {
+        "provider": "AWS Bedrock",
+        "model_id": "Titan Image Generator G1 v2",
+        "model_name": "Titan Image Generator G1 v2",
+        "shutdown_date": "2026-06-30",
+        "announcement_date": "2025-12-30",
+        "replacement_models": [
+          "Nova Canvas",
+          "Nova 2 Omni"
         ]
       },
       "tags": [

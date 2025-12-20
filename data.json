@@ -966,6 +966,20 @@
   },
   {
     "provider": "AWS Bedrock",
+    "model_id": "Claude 3.5 Haiku",
+    "model_name": "Claude 3.5 Haiku",
+    "announcement_date": "2025-12-19",
+    "shutdown_date": "2026-06-19",
+    "replacement_models": [
+      "Claude Haiku 4.5"
+    ],
+    "deprecation_context": "Model Claude 3.5 Haiku. entered legacy status on 2025-12-19. and will reach end-of-life on 2026-06-19. Recommended replacement: Claude Haiku 4.5.",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+    "content_hash": "e49598ccc3ddc66c",
+    "scraped_at": "2025-12-20T03:10:18.145735+00:00"
+  },
+  {
+    "provider": "AWS Bedrock",
     "model_id": "Claude 3.5 Sonnet v1",
     "model_name": "Claude 3.5 Sonnet v1",
     "announcement_date": "2025-08-25",
@@ -1005,6 +1019,21 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
     "content_hash": "d0c7823621d47ced",
     "scraped_at": "2025-12-05T16:52:41.318372+00:00"
+  },
+  {
+    "provider": "AWS Bedrock",
+    "model_id": "Titan Image Generator G1 v2",
+    "model_name": "Titan Image Generator G1 v2",
+    "announcement_date": "2025-12-30",
+    "shutdown_date": "2026-06-30",
+    "replacement_models": [
+      "Nova Canvas",
+      "Nova 2 Omni"
+    ],
+    "deprecation_context": "Model Titan Image Generator G1 v2. entered legacy status on 2025-12-30. and will reach end-of-life on 2026-06-30. Recommended replacement: Nova Canvas, Nova 2 Omni.",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+    "content_hash": "73115953e974fac7",
+    "scraped_at": "2025-12-20T03:10:18.145958+00:00"
   },
   {
     "provider": "AWS Bedrock",
