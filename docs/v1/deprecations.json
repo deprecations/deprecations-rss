@@ -167,42 +167,42 @@
     "model_id": "gpt-4o-realtime-preview",
     "model_name": "gpt-4o-realtime-preview",
     "announcement_date": "2025-09-15",
-    "shutdown_date": "2026-02-27",
+    "shutdown_date": "2026-03-24",
     "replacement_models": [
       "gpt-realtime"
     ],
     "deprecation_context": "In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.",
     "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
-    "content_hash": "4be7a206b36eb901",
-    "scraped_at": "2025-12-05T16:52:41.185404+00:00"
+    "content_hash": "1ed82b106d46e09e",
+    "scraped_at": "2026-01-08T03:24:22.185515+00:00"
   },
   {
     "provider": "OpenAI",
     "model_id": "gpt-4o-realtime-preview-2025-06-03",
     "model_name": "gpt-4o-realtime-preview-2025-06-03",
     "announcement_date": "2025-09-15",
-    "shutdown_date": "2026-02-27",
+    "shutdown_date": "2026-03-24",
     "replacement_models": [
       "gpt-realtime"
     ],
     "deprecation_context": "In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.",
     "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
-    "content_hash": "ad1e6fef4d6af64d",
-    "scraped_at": "2025-12-05T16:52:41.185415+00:00"
+    "content_hash": "531f4fcf42668dcb",
+    "scraped_at": "2026-01-08T03:24:22.185553+00:00"
   },
   {
     "provider": "OpenAI",
     "model_id": "gpt-4o-realtime-preview-2024-12-17",
     "model_name": "gpt-4o-realtime-preview-2024-12-17",
     "announcement_date": "2025-09-15",
-    "shutdown_date": "2026-02-27",
+    "shutdown_date": "2026-03-24",
     "replacement_models": [
       "gpt-realtime"
     ],
     "deprecation_context": "In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.",
     "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
-    "content_hash": "964cbdd0d958d157",
-    "scraped_at": "2025-12-05T16:52:41.185425+00:00"
+    "content_hash": "e1dcb5716dabd680",
+    "scraped_at": "2026-01-08T03:24:22.185586+00:00"
   },
   {
     "provider": "OpenAI",

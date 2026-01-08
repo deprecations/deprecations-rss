@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Wed, 07 Jan 2026 03:24:09 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 03:24:42 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -143,11 +143,11 @@ To improve reliability and make it easier for developers to choose the right mod
       <description>Provider: OpenAI
 Model ID: gpt-4o-realtime-preview
 Model: gpt-4o-realtime-preview
-Shutdown Date: 2026-02-27
+Shutdown Date: 2026-03-24
 
 In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2026-02-27-e3b0c442</guid>
+      <pubDate>Thu, 08 Jan 2026 03:24:22 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2026-03-24-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-4o-realtime-preview-2025-06-03</title>
@@ -155,11 +155,11 @@ In September, 2025, we notified developers using gpt-4o-realtime-preview models 
       <description>Provider: OpenAI
 Model ID: gpt-4o-realtime-preview-2025-06-03
 Model: gpt-4o-realtime-preview-2025-06-03
-Shutdown Date: 2026-02-27
+Shutdown Date: 2026-03-24
 
 In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2025-06-03-2026-02-27-e3b0c442</guid>
+      <pubDate>Thu, 08 Jan 2026 03:24:22 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2025-06-03-2026-03-24-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-4o-realtime-preview-2024-12-17</title>
@@ -167,11 +167,11 @@ In September, 2025, we notified developers using gpt-4o-realtime-preview models 
       <description>Provider: OpenAI
 Model ID: gpt-4o-realtime-preview-2024-12-17
 Model: gpt-4o-realtime-preview-2024-12-17
-Shutdown Date: 2026-02-27
+Shutdown Date: 2026-03-24
 
 In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2024-12-17-2026-02-27-e3b0c442</guid>
+      <pubDate>Thu, 08 Jan 2026 03:24:22 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2024-12-17-2026-03-24-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-4o-realtime-preview-2024-10-01</title>

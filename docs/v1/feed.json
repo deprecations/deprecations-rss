@@ -257,12 +257,12 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185404+00:00",
+      "date_published": "2026-01-08T03:24:22.185515+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-4o-realtime-preview",
         "model_name": "gpt-4o-realtime-preview",
-        "shutdown_date": "2026-02-27",
+        "shutdown_date": "2026-03-24",
         "announcement_date": "2025-09-15",
         "replacement_models": [
           "gpt-realtime"
@@ -278,12 +278,12 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185415+00:00",
+      "date_published": "2026-01-08T03:24:22.185553+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-4o-realtime-preview-2025-06-03",
         "model_name": "gpt-4o-realtime-preview-2025-06-03",
-        "shutdown_date": "2026-02-27",
+        "shutdown_date": "2026-03-24",
         "announcement_date": "2025-09-15",
         "replacement_models": [
           "gpt-realtime"
@@ -299,12 +299,12 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185425+00:00",
+      "date_published": "2026-01-08T03:24:22.185586+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-4o-realtime-preview-2024-12-17",
         "model_name": "gpt-4o-realtime-preview-2024-12-17",
-        "shutdown_date": "2026-02-27",
+        "shutdown_date": "2026-03-24",
         "announcement_date": "2025-09-15",
         "replacement_models": [
           "gpt-realtime"
