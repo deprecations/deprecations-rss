@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Tue, 13 Jan 2026 03:23:04 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 03:41:48 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -826,22 +826,6 @@ Starting on June 24, 2025, the Generative AI module in the
       <guid isPermaLink="false">Google_Vertex-Generative_AI_module_in_the_Vertex_AI_SDK-2026-06-24-e3b0c442</guid>
     </item>
     <item>
-      <title>Google Vertex: Imagen 4 Preview models</title>
-      <link>https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations</link>
-      <description>Provider: Google Vertex
-Model ID: Imagen 4 Preview models
-Model: Imagen 4 Preview models
-Shutdown Date: 2025-11-30
-
-The following Imagen 4 Preview models are retiring on
-        November 30, 2025 :imagen-4.0-generate-preview-06-06,imagen-4.0-ultra-generate-preview-06-06, andimagen-4.0-fast-generate-preview-06-06. To avoid service
-        disruption, migrate all workflows that use Imagen 4 preview models
-        before November 30, 2025 , to the following Imagen 4
-        Generally Available models:imagen-4.0-generate-001,imagen-4.0-ultra-generate-001,imagen-4.0-fast-generate-001.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google_Vertex-Imagen_4_Preview_models-2025-11-30-e3b0c442</guid>
-    </item>
-    <item>
       <title>Google Vertex: Imagen subject model and style model tuning</title>
       <link>https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations</link>
       <description>Provider: Google Vertex
@@ -1429,6 +1413,18 @@ Shutdown Date: 2025-06-30
 Cohere</description>
       <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-rerank-v3-multilingual-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Cohere-rerank-v3.5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Cohere-rerank-v3.5
+Model: Cohere-rerank-v3.5
+Shutdown Date: 2026-05-14
+
+Cohere</description>
+      <pubDate>Wed, 14 Jan 2026 03:41:48 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Cohere-rerank-v3.5-2026-05-14-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: jais-30b-chat</title>

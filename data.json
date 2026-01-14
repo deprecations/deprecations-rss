@@ -894,21 +894,6 @@
   },
   {
     "provider": "Google Vertex",
-    "model_id": "Imagen 4 Preview models",
-    "model_name": "Imagen 4 Preview models",
-    "announcement_date": "2025-10-14",
-    "shutdown_date": "2025-11-30",
-    "replacement_models": [
-      "Imagen 4 preview models\n        bef",
-      "e November 30"
-    ],
-    "deprecation_context": "The following Imagen 4 Preview models are retiring on\n        November 30, 2025 :imagen-4.0-generate-preview-06-06,imagen-4.0-ultra-generate-preview-06-06, andimagen-4.0-fast-generate-preview-06-06. To avoid service\n        disruption, migrate all workflows that use Imagen 4 preview models\n        before November 30, 2025 , to the following Imagen 4\n        Generally Available models:imagen-4.0-generate-001,imagen-4.0-ultra-generate-001,imagen-4.0-fast-generate-001.",
-    "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations",
-    "content_hash": "21bbf4f26f0b8430",
-    "scraped_at": "2025-12-05T16:52:41.253131+00:00"
-  },
-  {
-    "provider": "Google Vertex",
     "model_id": "Imagen subject model and style model tuning",
     "model_name": "Imagen subject model and style model tuning",
     "announcement_date": "2025-10-14",
@@ -1565,6 +1550,20 @@
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
     "content_hash": "e6da923b18a95d68",
     "scraped_at": "2025-12-05T16:52:41.602935+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Cohere-rerank-v3.5",
+    "model_name": "Cohere-rerank-v3.5",
+    "announcement_date": "2026-01-14",
+    "shutdown_date": "2026-05-14",
+    "replacement_models": [
+      "Cohere-rerank-v4.0-pro,Cohere-rerank-v4.0-fast"
+    ],
+    "deprecation_context": "Cohere",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "5f91272cd5afb80c",
+    "scraped_at": "2026-01-14T03:41:48.470298+00:00"
   },
   {
     "provider": "Azure",

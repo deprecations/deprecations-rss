@@ -1354,28 +1354,6 @@
       ]
     },
     {
-      "id": "google-vertex-imagen-4-preview-models",
-      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations",
-      "title": "Google Vertex Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.253131+00:00",
-      "_deprecation": {
-        "provider": "Google Vertex",
-        "model_id": "Imagen 4 Preview models",
-        "model_name": "Imagen 4 Preview models",
-        "shutdown_date": "2025-11-30",
-        "announcement_date": "2025-10-14",
-        "replacement_models": [
-          "Imagen 4 preview models\n        bef",
-          "e November 30"
-        ]
-      },
-      "tags": [
-        "Google Vertex",
-        "shutdown-2025"
-      ]
-    },
-    {
       "id": "google-vertex-imagen-subject-model-and-style-model-tuning",
       "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations",
       "title": "Google Vertex Deprecation",
@@ -2361,6 +2339,27 @@
       "tags": [
         "Azure",
         "shutdown-2025"
+      ]
+    },
+    {
+      "id": "azure-cohere-rerank-v3.5",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-01-14T03:41:48.470298+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Cohere-rerank-v3.5",
+        "model_name": "Cohere-rerank-v3.5",
+        "shutdown_date": "2026-05-14",
+        "announcement_date": "2026-01-14",
+        "replacement_models": [
+          "Cohere-rerank-v4.0-pro,Cohere-rerank-v4.0-fast"
+        ]
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
       ]
     },
     {
