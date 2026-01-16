@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 15 Jan 2026 03:25:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 03:24:50 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -172,6 +172,42 @@ Shutdown Date: 2026-03-24
 In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
       <pubDate>Thu, 08 Jan 2026 03:24:22 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2024-12-17-2026-03-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-mini-realtime-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-mini-realtime-preview
+Model: gpt-4o-mini-realtime-preview
+Shutdown Date: 2026-03-24
+
+In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Fri, 16 Jan 2026 03:24:25 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-mini-realtime-preview-2026-03-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-audio-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-audio-preview
+Model: gpt-4o-audio-preview
+Shutdown Date: 2026-03-24
+
+In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Fri, 16 Jan 2026 03:24:25 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-audio-preview-2026-03-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-mini-audio-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-mini-audio-preview
+Model: gpt-4o-mini-audio-preview
+Shutdown Date: 2026-03-24
+
+In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Fri, 16 Jan 2026 03:24:25 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-mini-audio-preview-2026-03-24-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-4o-realtime-preview-2024-10-01</title>
@@ -398,19 +434,60 @@ Shutdown Date: 2023-03-23
       <guid isPermaLink="false">OpenAI-code-cushman-001-2023-03-23-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: Gemini 2.5 Flash Image Preview</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251204</link>
+      <title>Google: &lt;UNKNOWN&gt;</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260115</link>
+      <description>Provider: Google
+Model ID: gemini-2.5-flash-preview-09-25
+Model: &lt;UNKNOWN&gt;
+Announcement Date: 2026-01-15
+First Observed: 2026-01-16
+Last Observed: 2026-01-16
+
+Insufficient information provided in the deprecation notice to complete analysis.</description>
+      <pubDate>Fri, 16 Jan 2026 03:24:29 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-09-25-68660377</guid>
+    </item>
+    <item>
+      <title>Google: &lt;UNKNOWN&gt;</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260115</link>
+      <description>Provider: Google
+Model ID: imagen-4.0-generate-preview-06-06
+Model: &lt;UNKNOWN&gt;
+Announcement Date: 2026-01-15
+First Observed: 2026-01-16
+Last Observed: 2026-01-16
+
+Insufficient information provided in the deprecation notice. Unable to extract specific details about model deprecation.</description>
+      <pubDate>Fri, 16 Jan 2026 03:24:29 GMT</pubDate>
+      <guid isPermaLink="false">Google-imagen-4.0-generate-preview-06-06-f7a59ecd</guid>
+    </item>
+    <item>
+      <title>Google: &lt;UNKNOWN&gt;</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260115</link>
+      <description>Provider: Google
+Model ID: imagen-4.0-ultra-generate-preview-06-06
+Model: &lt;UNKNOWN&gt;
+Announcement Date: 2026-01-15
+First Observed: 2026-01-16
+Last Observed: 2026-01-16
+
+Insufficient information provided in the deprecation notice to extract specific details.</description>
+      <pubDate>Fri, 16 Jan 2026 03:24:29 GMT</pubDate>
+      <guid isPermaLink="false">Google-imagen-4.0-ultra-generate-preview-06-06-1357e0cc</guid>
+    </item>
+    <item>
+      <title>Google: &lt;UNKNOWN&gt;</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260115</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-image-preview
-Model: Gemini 2.5 Flash Image Preview
-Announcement Date: 2025-12-04
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Model: &lt;UNKNOWN&gt;
+Announcement Date: 2026-01-15
+First Observed: 2026-01-16
+Last Observed: 2026-01-16
 
-Deprecation announcement: The gemini-2.5-flash-image-preview model will be
-shut down January 15, 2026.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-image-preview-e3b0c442</guid>
+Unable to analyze deprecation notice due to missing or truncated content.</description>
+      <pubDate>Fri, 16 Jan 2026 03:24:29 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-image-preview-188519c7</guid>
     </item>
     <item>
       <title>Google: Veo 3.0 Fast Generate Preview</title>

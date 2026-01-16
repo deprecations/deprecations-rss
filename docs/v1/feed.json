@@ -316,6 +316,69 @@
       ]
     },
     {
+      "id": "openai-gpt-4o-mini-realtime-preview",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2026-01-16T03:24:25.275402+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-mini-realtime-preview",
+        "model_name": "gpt-4o-mini-realtime-preview",
+        "shutdown_date": "2026-03-24",
+        "announcement_date": "2025-09-15",
+        "replacement_models": [
+          "gpt-realtime-mini"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-audio-preview",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2026-01-16T03:24:25.275432+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-audio-preview",
+        "model_name": "gpt-4o-audio-preview",
+        "shutdown_date": "2026-03-24",
+        "announcement_date": "2025-09-15",
+        "replacement_models": [
+          "gpt-audio"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-mini-audio-preview",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
+      "title": "OpenAI Deprecation",
+      "content_text": "",
+      "date_published": "2026-01-16T03:24:25.275462+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-mini-audio-preview",
+        "model_name": "gpt-4o-mini-audio-preview",
+        "shutdown_date": "2026-03-24",
+        "announcement_date": "2025-09-15",
+        "replacement_models": [
+          "gpt-audio-mini"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "openai-gpt-4o-realtime-preview-2024-10-01",
       "url": "https://platform.openai.com/docs/deprecations#2025-06-10-gpt-4o-realtime-preview-2024-10-01",
       "title": "OpenAI Deprecation",
@@ -715,20 +778,87 @@
       ]
     },
     {
-      "id": "google-gemini-2.5-flash-image-preview",
-      "url": "https://ai.google.dev/gemini-api/docs/changelog#20251204",
+      "id": "google-<unknown>",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#20260115",
       "title": "Google Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.232623+00:00",
+      "content_text": "Insufficient information provided in the deprecation notice to complete analysis.",
+      "date_published": "2026-01-16T03:24:29.958726+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-flash-preview-09-25",
+        "model_name": "<UNKNOWN>",
+        "shutdown_date": "",
+        "announcement_date": "2026-01-15",
+        "replacement_models": null,
+        "first_observed": "2026-01-16",
+        "last_observed": "2026-01-16",
+        "summary": "Insufficient information provided in the deprecation notice to complete analysis."
+      },
+      "tags": [
+        "Google",
+        "shutdown-"
+      ]
+    },
+    {
+      "id": "google-<unknown>",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#20260115",
+      "title": "Google Deprecation",
+      "content_text": "Insufficient information provided in the deprecation notice. Unable to extract specific details about model deprecation.",
+      "date_published": "2026-01-16T03:24:29.958876+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "imagen-4.0-generate-preview-06-06",
+        "model_name": "<UNKNOWN>",
+        "shutdown_date": "",
+        "announcement_date": "2026-01-15",
+        "replacement_models": null,
+        "first_observed": "2026-01-16",
+        "last_observed": "2026-01-16",
+        "summary": "Insufficient information provided in the deprecation notice. Unable to extract specific details about model deprecation."
+      },
+      "tags": [
+        "Google",
+        "shutdown-"
+      ]
+    },
+    {
+      "id": "google-<unknown>",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#20260115",
+      "title": "Google Deprecation",
+      "content_text": "Insufficient information provided in the deprecation notice to extract specific details.",
+      "date_published": "2026-01-16T03:24:29.958925+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "imagen-4.0-ultra-generate-preview-06-06",
+        "model_name": "<UNKNOWN>",
+        "shutdown_date": "",
+        "announcement_date": "2026-01-15",
+        "replacement_models": null,
+        "first_observed": "2026-01-16",
+        "last_observed": "2026-01-16",
+        "summary": "Insufficient information provided in the deprecation notice to extract specific details."
+      },
+      "tags": [
+        "Google",
+        "shutdown-"
+      ]
+    },
+    {
+      "id": "google-<unknown>",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#20260115",
+      "title": "Google Deprecation",
+      "content_text": "Unable to analyze deprecation notice due to missing or truncated content.",
+      "date_published": "2026-01-16T03:24:29.958970+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash-image-preview",
-        "model_name": "Gemini 2.5 Flash Image Preview",
+        "model_name": "<UNKNOWN>",
         "shutdown_date": "",
-        "announcement_date": "2025-12-04",
+        "announcement_date": "2026-01-15",
         "replacement_models": null,
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
+        "first_observed": "2026-01-16",
+        "last_observed": "2026-01-16",
+        "summary": "Unable to analyze deprecation notice due to missing or truncated content."
       },
       "tags": [
         "Google",
