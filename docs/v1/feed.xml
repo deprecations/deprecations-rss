@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 22 Jan 2026 03:42:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 03:28:05 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -597,6 +597,62 @@ Shutdown Date: 2024-11-06
 </description>
       <pubDate>Wed, 21 Jan 2026 03:27:51 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-instant-1.2-2024-11-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: &lt;UNKNOWN&gt;</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260122</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-flash
+Model: &lt;UNKNOWN&gt;
+Announcement Date: 2026-01-22
+First Observed: 2026-01-23
+Last Observed: 2026-01-23
+
+Insufficient information provided to analyze the deprecation notice.</description>
+      <pubDate>Fri, 23 Jan 2026 03:27:42 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-783f7fd3</guid>
+    </item>
+    <item>
+      <title>Google: &lt;UNKNOWN&gt;</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260122</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-flash-001
+Model: &lt;UNKNOWN&gt;
+Announcement Date: 2026-01-22
+First Observed: 2026-01-23
+Last Observed: 2026-01-23
+
+Unable to analyze deprecation notice - content is missing or truncated.</description>
+      <pubDate>Fri, 23 Jan 2026 03:27:42 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-001-16cf68d8</guid>
+    </item>
+    <item>
+      <title>Google: &lt;UNKNOWN&gt;</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260122</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-flash-lite
+Model: &lt;UNKNOWN&gt;
+Announcement Date: 2026-01-22
+First Observed: 2026-01-23
+Last Observed: 2026-01-23
+
+Incomplete deprecation notice - insufficient details provided</description>
+      <pubDate>Fri, 23 Jan 2026 03:27:42 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-80c17792</guid>
+    </item>
+    <item>
+      <title>Google: MISSING_MODEL_NAME</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260122</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-flash-lite-001
+Model: MISSING_MODEL_NAME
+Announcement Date: 2026-01-22
+First Observed: 2026-01-23
+Last Observed: 2026-01-23
+
+Insufficient information provided in the deprecation notice</description>
+      <pubDate>Fri, 23 Jan 2026 03:27:42 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-001-37f0cd2c</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
