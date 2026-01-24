@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 23 Jan 2026 03:28:05 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Jan 2026 03:21:49 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -1867,6 +1867,18 @@ Shutdown Date: 2025-06-30
 Meta</description>
       <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
       <guid isPermaLink="false">Azure-Meta-Llama-3.1-70B-Instruct-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: MAI-DS-R1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: MAI-DS-R1
+Model: MAI-DS-R1
+Shutdown Date: 2026-02-27
+
+Microsoft</description>
+      <pubDate>Sat, 24 Jan 2026 03:21:49 GMT</pubDate>
+      <guid isPermaLink="false">Azure-MAI-DS-R1-2026-02-27-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Phi-3-medium-4k-instruct</title>

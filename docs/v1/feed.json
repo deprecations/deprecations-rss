@@ -3140,6 +3140,27 @@
       ]
     },
     {
+      "id": "azure-mai-ds-r1",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-01-24T03:21:49.841788+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "MAI-DS-R1",
+        "model_name": "MAI-DS-R1",
+        "shutdown_date": "2026-02-27",
+        "announcement_date": "2026-01-16",
+        "replacement_models": [
+          "Any DeepSeek model available in the Model catalog"
+        ]
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "azure-phi-3-medium-4k-instruct",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
