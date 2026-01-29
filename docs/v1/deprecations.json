@@ -1054,6 +1054,42 @@
   },
   {
     "provider": "Google",
+    "model_id": "gemini-2.0-flash-exp",
+    "model_name": "Gemini 2.0 Flash Exp",
+    "announcement_date": "2025-11-04",
+    "shutdown_date": "2025-12-09",
+    "replacement_models": null,
+    "deprecation_context": "December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
+    "content_hash": "ed83bc1c163356c0",
+    "scraped_at": "2026-01-29T04:02:00.403641+00:00"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.0-pro-exp",
+    "model_name": "Gemini 2.0 Pro Exp",
+    "announcement_date": "2025-11-04",
+    "shutdown_date": "2025-12-09",
+    "replacement_models": null,
+    "deprecation_context": "December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
+    "content_hash": "f0f832b7736bdccd",
+    "scraped_at": "2026-01-29T04:02:00.403734+00:00"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.0-pro-exp-02-05",
+    "model_name": "Gemini 2.0 Pro Exp 02 05",
+    "announcement_date": "2025-11-04",
+    "shutdown_date": "2025-12-09",
+    "replacement_models": null,
+    "deprecation_context": "December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
+    "content_hash": "28b9783352ec4a78",
+    "scraped_at": "2026-01-29T04:02:00.403817+00:00"
+  },
+  {
+    "provider": "Google",
     "model_id": "gemini-2.5-flash-preview-native-audio-dialog",
     "model_name": "Gemini 2.5 Flash Preview Native Audio Dialog",
     "announcement_date": "2025-10-20",

@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Wed, 28 Jan 2026 03:39:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 04:02:17 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -905,6 +905,42 @@ Last Observed: 2025-12-05
 gemini-2.0-flash-lite-preview-02-05</description>
       <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.0-flash-lite-preview-02-05-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: Gemini 2.0 Flash Exp</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-flash-exp
+Model: Gemini 2.0 Flash Exp
+Shutdown Date: 2025-12-09
+
+December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
+      <pubDate>Thu, 29 Jan 2026 04:02:00 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-exp-2025-12-09-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: Gemini 2.0 Pro Exp</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-pro-exp
+Model: Gemini 2.0 Pro Exp
+Shutdown Date: 2025-12-09
+
+December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
+      <pubDate>Thu, 29 Jan 2026 04:02:00 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-pro-exp-2025-12-09-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: Gemini 2.0 Pro Exp 02 05</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-pro-exp-02-05
+Model: Gemini 2.0 Pro Exp 02 05
+Shutdown Date: 2025-12-09
+
+December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
+      <pubDate>Thu, 29 Jan 2026 04:02:00 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-pro-exp-02-05-2025-12-09-e3b0c442</guid>
     </item>
     <item>
       <title>Google: Gemini 2.5 Flash Preview Native Audio Dialog</title>

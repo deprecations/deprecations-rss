@@ -1568,6 +1568,63 @@
       ]
     },
     {
+      "id": "google-gemini-2.0-flash-exp",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
+      "title": "Google Deprecation",
+      "content_text": "",
+      "date_published": "2026-01-29T04:02:00.403641+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.0-flash-exp",
+        "model_name": "Gemini 2.0 Flash Exp",
+        "shutdown_date": "2025-12-09",
+        "announcement_date": "2025-11-04",
+        "replacement_models": null
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-2.0-pro-exp",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
+      "title": "Google Deprecation",
+      "content_text": "",
+      "date_published": "2026-01-29T04:02:00.403734+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.0-pro-exp",
+        "model_name": "Gemini 2.0 Pro Exp",
+        "shutdown_date": "2025-12-09",
+        "announcement_date": "2025-11-04",
+        "replacement_models": null
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-2.0-pro-exp-02-05",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#20251104",
+      "title": "Google Deprecation",
+      "content_text": "",
+      "date_published": "2026-01-29T04:02:00.403817+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.0-pro-exp-02-05",
+        "model_name": "Gemini 2.0 Pro Exp 02 05",
+        "shutdown_date": "2025-12-09",
+        "announcement_date": "2025-11-04",
+        "replacement_models": null
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
       "id": "google-gemini-2.5-flash-preview-native-audio-dialog",
       "url": "https://ai.google.dev/gemini-api/docs/changelog#20251020",
       "title": "Google Deprecation",
