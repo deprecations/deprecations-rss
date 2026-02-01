@@ -1855,110 +1855,6 @@
   },
   {
     "provider": "Azure",
-    "model_id": "Jamba Instruct",
-    "model_name": "Jamba Instruct",
-    "announcement_date": "2025-02-01",
-    "shutdown_date": "2025-03-01",
-    "replacement_models": null,
-    "deprecation_context": "AI21 Labs",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "085c2fd2bc8bffb0",
-    "scraped_at": "2025-12-05T16:52:41.602658+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "AI21-Jamba-1.5-Large",
-    "model_name": "AI21-Jamba-1.5-Large",
-    "announcement_date": "2025-05-01",
-    "shutdown_date": "2025-08-01",
-    "replacement_models": null,
-    "deprecation_context": "AI21 Labs",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "c820a0852786796b",
-    "scraped_at": "2025-12-05T16:52:41.602694+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "AI21-Jamba-1.5-Mini",
-    "model_name": "AI21-Jamba-1.5-Mini",
-    "announcement_date": "2025-05-01",
-    "shutdown_date": "2025-08-01",
-    "replacement_models": null,
-    "deprecation_context": "AI21 Labs",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "5c907e3cb49afd1d",
-    "scraped_at": "2025-12-05T16:52:41.602723+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Bria-2.3-Fast",
-    "model_name": "Bria-2.3-Fast",
-    "announcement_date": "2025-08-31",
-    "shutdown_date": "2025-10-31",
-    "replacement_models": null,
-    "deprecation_context": "Bria",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "bdf81f66d487bff5",
-    "scraped_at": "2025-12-05T16:52:41.602799+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Command R",
-    "model_name": "Command R",
-    "announcement_date": "2025-02-24",
-    "shutdown_date": "2025-06-30",
-    "replacement_models": [
-      "Cohere Command R 08-2024"
-    ],
-    "deprecation_context": "Cohere",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "e1c655ad292c8c91",
-    "scraped_at": "2025-12-05T16:52:41.602860+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Command R+",
-    "model_name": "Command R+",
-    "announcement_date": "2025-02-24",
-    "shutdown_date": "2025-06-30",
-    "replacement_models": [
-      "Cohere Command R+ 08-2024"
-    ],
-    "deprecation_context": "Cohere",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "04769f5fca2287c3",
-    "scraped_at": "2025-12-05T16:52:41.602886+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Cohere-rerank-v3-english",
-    "model_name": "Cohere-rerank-v3-english",
-    "announcement_date": "2025-02-28",
-    "shutdown_date": "2025-06-30",
-    "replacement_models": [
-      "Cohere-rerank-v3.5"
-    ],
-    "deprecation_context": "Cohere",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "31a50e7ef00edf05",
-    "scraped_at": "2025-12-05T16:52:41.602910+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Cohere-rerank-v3-multilingual",
-    "model_name": "Cohere-rerank-v3-multilingual",
-    "announcement_date": "2025-02-28",
-    "shutdown_date": "2025-06-30",
-    "replacement_models": [
-      "Cohere-rerank-v3.5"
-    ],
-    "deprecation_context": "Cohere",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "e6da923b18a95d68",
-    "scraped_at": "2025-12-05T16:52:41.602935+00:00"
-  },
-  {
-    "provider": "Azure",
     "model_id": "Cohere-rerank-v3.5",
     "model_name": "Cohere-rerank-v3.5",
     "announcement_date": "2026-01-14",
@@ -1970,170 +1866,6 @@
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
     "content_hash": "5f91272cd5afb80c",
     "scraped_at": "2026-01-14T03:41:48.470298+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "jais-30b-chat",
-    "model_name": "jais-30b-chat",
-    "announcement_date": "2025-09-30",
-    "shutdown_date": "2026-01-30",
-    "replacement_models": null,
-    "deprecation_context": "Core42",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "bfa32787a49bbe65",
-    "scraped_at": "2025-12-05T16:52:41.602982+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "DeepSeek-V3",
-    "model_name": "DeepSeek-V3",
-    "announcement_date": "2025-04-10",
-    "shutdown_date": "2025-08-31",
-    "replacement_models": [
-      "DeepSeek-V3-0324"
-    ],
-    "deprecation_context": "DeepSeek",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "01159c3bb55c9891",
-    "scraped_at": "2025-12-05T16:52:41.603029+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Gretel-Navigator-Tabular",
-    "model_name": "Gretel-Navigator-Tabular",
-    "announcement_date": "2025-06-16",
-    "shutdown_date": "2025-09-16",
-    "replacement_models": null,
-    "deprecation_context": "Gretel",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "8ebec70f08404c35",
-    "scraped_at": "2025-12-05T16:52:41.603092+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Llama-2-13b",
-    "model_name": "Llama-2-13b",
-    "announcement_date": "2025-02-28",
-    "shutdown_date": "2025-06-30",
-    "replacement_models": [
-      "Meta-Llama-3.1-8B-Instruct"
-    ],
-    "deprecation_context": "Meta",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "1c5c2c8fc1b1effd",
-    "scraped_at": "2025-12-05T16:52:41.603151+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Llama-2-13b-chat",
-    "model_name": "Llama-2-13b-chat",
-    "announcement_date": "2025-02-28",
-    "shutdown_date": "2025-06-30",
-    "replacement_models": [
-      "Meta-Llama-3.1-8B-Instruct"
-    ],
-    "deprecation_context": "Meta",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "8323fe5a0c396b68",
-    "scraped_at": "2025-12-05T16:52:41.603176+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Llama-2-70b",
-    "model_name": "Llama-2-70b",
-    "announcement_date": "2025-02-28",
-    "shutdown_date": "2025-06-30",
-    "replacement_models": [
-      "Llama-3.3-70B-Instruct"
-    ],
-    "deprecation_context": "Meta",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "65ba149c8ce59bcc",
-    "scraped_at": "2025-12-05T16:52:41.603199+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Llama-2-70b-chat",
-    "model_name": "Llama-2-70b-chat",
-    "announcement_date": "2025-02-28",
-    "shutdown_date": "2025-06-30",
-    "replacement_models": [
-      "Llama-3.3-70B-Instruct"
-    ],
-    "deprecation_context": "Meta",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "7fdd6d941f26b208",
-    "scraped_at": "2025-12-05T16:52:41.603222+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Llama-2-7b",
-    "model_name": "Llama-2-7b",
-    "announcement_date": "2025-02-28",
-    "shutdown_date": "2025-06-30",
-    "replacement_models": [
-      "Meta-Llama-3.1-8B-Instruct"
-    ],
-    "deprecation_context": "Meta",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "5a36d6b9f6b3f1db",
-    "scraped_at": "2025-12-05T16:52:41.603245+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Llama-2-7b-chat",
-    "model_name": "Llama-2-7b-chat",
-    "announcement_date": "2025-02-28",
-    "shutdown_date": "2025-06-30",
-    "replacement_models": [
-      "Meta-Llama-3.1-8B-Instruct"
-    ],
-    "deprecation_context": "Meta",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "add8a54508480f21",
-    "scraped_at": "2025-12-05T16:52:41.603268+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Meta-Llama-3-70B-Instruct",
-    "model_name": "Meta-Llama-3-70B-Instruct",
-    "announcement_date": "2025-02-28",
-    "shutdown_date": "2025-06-30",
-    "replacement_models": [
-      "Llama-3.3-70B-Instruct"
-    ],
-    "deprecation_context": "Meta",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "1f9e67fde823561f",
-    "scraped_at": "2025-12-05T16:52:41.603292+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Meta-Llama-3-8B-Instruct",
-    "model_name": "Meta-Llama-3-8B-Instruct",
-    "announcement_date": "2025-02-28",
-    "shutdown_date": "2025-06-30",
-    "replacement_models": [
-      "Meta-Llama-3.1-8B-Instruct"
-    ],
-    "deprecation_context": "Meta",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "eb838c410392db80",
-    "scraped_at": "2025-12-05T16:52:41.603316+00:00"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Meta-Llama-3.1-70B-Instruct",
-    "model_name": "Meta-Llama-3.1-70B-Instruct",
-    "announcement_date": "2025-02-28",
-    "shutdown_date": "2025-06-30",
-    "replacement_models": [
-      "Llama-3.3-70B-Instruct"
-    ],
-    "deprecation_context": "Meta",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "33732393cee68beb",
-    "scraped_at": "2025-12-05T16:52:41.603339+00:00"
   },
   {
     "provider": "Azure",
@@ -2151,212 +1883,480 @@
   },
   {
     "provider": "Azure",
+    "model_id": "Jamba Instruct",
+    "model_name": "Jamba Instruct",
+    "announcement_date": "2025-03-01",
+    "shutdown_date": "2025-03-01",
+    "replacement_models": null,
+    "deprecation_context": "AI21 Labs",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "88df71cf579b8f68",
+    "scraped_at": "2026-02-01T04:25:16.214459+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "AI21-Jamba-1.5-Large",
+    "model_name": "AI21-Jamba-1.5-Large",
+    "announcement_date": "2025-08-01",
+    "shutdown_date": "2025-08-01",
+    "replacement_models": null,
+    "deprecation_context": "AI21 Labs",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "883e2c3e6a390707",
+    "scraped_at": "2026-02-01T04:25:16.214514+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "AI21-Jamba-1.5-Mini",
+    "model_name": "AI21-Jamba-1.5-Mini",
+    "announcement_date": "2025-08-01",
+    "shutdown_date": "2025-08-01",
+    "replacement_models": null,
+    "deprecation_context": "AI21 Labs",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "05c263fffd4c428a",
+    "scraped_at": "2026-02-01T04:25:16.214578+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Bria-2.3-Fast",
+    "model_name": "Bria-2.3-Fast",
+    "announcement_date": "2025-10-31",
+    "shutdown_date": "2025-10-31",
+    "replacement_models": null,
+    "deprecation_context": "Bria",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "5abb724e9cb4ce35",
+    "scraped_at": "2026-02-01T04:25:16.214695+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Command R",
+    "model_name": "Command R",
+    "announcement_date": "2025-06-30",
+    "shutdown_date": "2025-06-30",
+    "replacement_models": [
+      "Cohere Command R 08-2024"
+    ],
+    "deprecation_context": "Cohere",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "8ef4c9bff82e2b97",
+    "scraped_at": "2026-02-01T04:25:16.214818+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Command R+",
+    "model_name": "Command R+",
+    "announcement_date": "2025-06-30",
+    "shutdown_date": "2025-06-30",
+    "replacement_models": [
+      "Cohere Command R+ 08-2024"
+    ],
+    "deprecation_context": "Cohere",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "69008085fa3c5d6e",
+    "scraped_at": "2026-02-01T04:25:16.214876+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Cohere-rerank-v3-english",
+    "model_name": "Cohere-rerank-v3-english",
+    "announcement_date": "2025-06-30",
+    "shutdown_date": "2025-06-30",
+    "replacement_models": [
+      "Cohere-rerank-v4.0-pro,Cohere-rerank-v4.0-fast"
+    ],
+    "deprecation_context": "Cohere",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "be39bb5a07610f86",
+    "scraped_at": "2026-02-01T04:25:16.214932+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Cohere-rerank-v3-multilingual",
+    "model_name": "Cohere-rerank-v3-multilingual",
+    "announcement_date": "2025-06-30",
+    "shutdown_date": "2025-06-30",
+    "replacement_models": [
+      "Cohere-rerank-v4.0-pro,Cohere-rerank-v4.0-fast"
+    ],
+    "deprecation_context": "Cohere",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "189d49ca19ba52d4",
+    "scraped_at": "2026-02-01T04:25:16.214993+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "jais-30b-chat",
+    "model_name": "jais-30b-chat",
+    "announcement_date": "2026-01-30",
+    "shutdown_date": "2026-01-30",
+    "replacement_models": null,
+    "deprecation_context": "Core42",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "5bf263f551380f4a",
+    "scraped_at": "2026-02-01T04:25:16.215133+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "DeepSeek-V3",
+    "model_name": "DeepSeek-V3",
+    "announcement_date": "2025-08-31",
+    "shutdown_date": "2025-08-31",
+    "replacement_models": [
+      "DeepSeek-V3-0324"
+    ],
+    "deprecation_context": "DeepSeek",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "6173369a664550a4",
+    "scraped_at": "2026-02-01T04:25:16.215249+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Gretel-Navigator-Tabular",
+    "model_name": "Gretel-Navigator-Tabular",
+    "announcement_date": "2025-09-16",
+    "shutdown_date": "2025-09-16",
+    "replacement_models": null,
+    "deprecation_context": "Gretel",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "e25bbd8c215f7e95",
+    "scraped_at": "2026-02-01T04:25:16.215358+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Llama-2-13b",
+    "model_name": "Llama-2-13b",
+    "announcement_date": "2025-06-30",
+    "shutdown_date": "2025-06-30",
+    "replacement_models": [
+      "Meta-Llama-3.1-8B-Instruct"
+    ],
+    "deprecation_context": "Meta",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "66a0b93b41987559",
+    "scraped_at": "2026-02-01T04:25:16.215482+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Llama-2-13b-chat",
+    "model_name": "Llama-2-13b-chat",
+    "announcement_date": "2025-06-30",
+    "shutdown_date": "2025-06-30",
+    "replacement_models": [
+      "Meta-Llama-3.1-8B-Instruct"
+    ],
+    "deprecation_context": "Meta",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "943f984ab4f98788",
+    "scraped_at": "2026-02-01T04:25:16.215536+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Llama-2-70b",
+    "model_name": "Llama-2-70b",
+    "announcement_date": "2025-06-30",
+    "shutdown_date": "2025-06-30",
+    "replacement_models": [
+      "Llama-3.3-70B-Instruct"
+    ],
+    "deprecation_context": "Meta",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "3f8aa0b9e9c724e1",
+    "scraped_at": "2026-02-01T04:25:16.215588+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Llama-2-70b-chat",
+    "model_name": "Llama-2-70b-chat",
+    "announcement_date": "2025-06-30",
+    "shutdown_date": "2025-06-30",
+    "replacement_models": [
+      "Llama-3.3-70B-Instruct"
+    ],
+    "deprecation_context": "Meta",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "d43b508b62d9b87e",
+    "scraped_at": "2026-02-01T04:25:16.215639+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Llama-2-7b",
+    "model_name": "Llama-2-7b",
+    "announcement_date": "2025-06-30",
+    "shutdown_date": "2025-06-30",
+    "replacement_models": [
+      "Meta-Llama-3.1-8B-Instruct"
+    ],
+    "deprecation_context": "Meta",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "ba07438e15765a64",
+    "scraped_at": "2026-02-01T04:25:16.215691+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Llama-2-7b-chat",
+    "model_name": "Llama-2-7b-chat",
+    "announcement_date": "2025-06-30",
+    "shutdown_date": "2025-06-30",
+    "replacement_models": [
+      "Meta-Llama-3.1-8B-Instruct"
+    ],
+    "deprecation_context": "Meta",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "caefcdd27c944dc1",
+    "scraped_at": "2026-02-01T04:25:16.215744+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Meta-Llama-3-70B-Instruct",
+    "model_name": "Meta-Llama-3-70B-Instruct",
+    "announcement_date": "2025-06-30",
+    "shutdown_date": "2025-06-30",
+    "replacement_models": [
+      "Llama-3.3-70B-Instruct"
+    ],
+    "deprecation_context": "Meta",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "b4cfb4af0e07228f",
+    "scraped_at": "2026-02-01T04:25:16.215800+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Meta-Llama-3-8B-Instruct",
+    "model_name": "Meta-Llama-3-8B-Instruct",
+    "announcement_date": "2025-06-30",
+    "shutdown_date": "2025-06-30",
+    "replacement_models": [
+      "Meta-Llama-3.1-8B-Instruct"
+    ],
+    "deprecation_context": "Meta",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "c831a80939cf5e03",
+    "scraped_at": "2026-02-01T04:25:16.215853+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Meta-Llama-3.1-70B-Instruct",
+    "model_name": "Meta-Llama-3.1-70B-Instruct",
+    "announcement_date": "2025-06-30",
+    "shutdown_date": "2025-06-30",
+    "replacement_models": [
+      "Llama-3.3-70B-Instruct"
+    ],
+    "deprecation_context": "Meta",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "047017a414671ca5",
+    "scraped_at": "2026-02-01T04:25:16.215904+00:00"
+  },
+  {
+    "provider": "Azure",
     "model_id": "Phi-3-medium-4k-instruct",
     "model_name": "Phi-3-medium-4k-instruct",
-    "announcement_date": "2025-06-09",
+    "announcement_date": "2025-08-30",
     "shutdown_date": "2025-08-30",
     "replacement_models": [
       "Phi-4"
     ],
     "deprecation_context": "Microsoft",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "565292f28d75c3ff",
-    "scraped_at": "2025-12-05T16:52:41.603399+00:00"
+    "content_hash": "60df6cc001a866d7",
+    "scraped_at": "2026-02-01T04:25:16.216052+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Phi-3-medium-128k-instruct",
     "model_name": "Phi-3-medium-128k-instruct",
-    "announcement_date": "2025-06-09",
+    "announcement_date": "2025-08-30",
     "shutdown_date": "2025-08-30",
     "replacement_models": [
       "Phi-4"
     ],
     "deprecation_context": "Microsoft",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "3fdb209c87e4b117",
-    "scraped_at": "2025-12-05T16:52:41.603424+00:00"
+    "content_hash": "11de1f1f9372cec0",
+    "scraped_at": "2026-02-01T04:25:16.216110+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Phi-3-mini-4k-instruct",
     "model_name": "Phi-3-mini-4k-instruct",
-    "announcement_date": "2025-06-09",
+    "announcement_date": "2025-08-30",
     "shutdown_date": "2025-08-30",
     "replacement_models": [
       "Phi-4-mini-instruct"
     ],
     "deprecation_context": "Microsoft",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "8aa1b6a6e0d73189",
-    "scraped_at": "2025-12-05T16:52:41.603449+00:00"
+    "content_hash": "8e7ebf5d725dcdbf",
+    "scraped_at": "2026-02-01T04:25:16.216162+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Phi-3-mini-128k-instruct",
     "model_name": "Phi-3-mini-128k-instruct",
-    "announcement_date": "2025-06-09",
+    "announcement_date": "2025-08-30",
     "shutdown_date": "2025-08-30",
     "replacement_models": [
       "Phi-4-mini-instruct"
     ],
     "deprecation_context": "Microsoft",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "b7cef2bb6ff5e3b5",
-    "scraped_at": "2025-12-05T16:52:41.603472+00:00"
+    "content_hash": "c8b712c980bf6620",
+    "scraped_at": "2026-02-01T04:25:16.216227+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Phi-3-small-8k-instruct",
     "model_name": "Phi-3-small-8k-instruct",
-    "announcement_date": "2025-06-09",
+    "announcement_date": "2025-08-30",
     "shutdown_date": "2025-08-30",
     "replacement_models": [
       "Phi-4-mini-instruct"
     ],
     "deprecation_context": "Microsoft",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "6434820f4ca1a23c",
-    "scraped_at": "2025-12-05T16:52:41.603496+00:00"
+    "content_hash": "4ab1520dfca86383",
+    "scraped_at": "2026-02-01T04:25:16.216289+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Phi-3-small-128k-instruct",
     "model_name": "Phi-3-small-128k-instruct",
-    "announcement_date": "2025-06-09",
+    "announcement_date": "2025-08-30",
     "shutdown_date": "2025-08-30",
     "replacement_models": [
       "Phi-4-mini-instruct"
     ],
     "deprecation_context": "Microsoft",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "784f27d2259e8aa5",
-    "scraped_at": "2025-12-05T16:52:41.603519+00:00"
+    "content_hash": "b6691de596e04291",
+    "scraped_at": "2026-02-01T04:25:16.216341+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Phi-3.5-mini-instruct",
     "model_name": "Phi-3.5-mini-instruct",
-    "announcement_date": "2025-06-09",
+    "announcement_date": "2025-08-30",
     "shutdown_date": "2025-08-30",
     "replacement_models": [
       "Phi-4-mini-instruct"
     ],
     "deprecation_context": "Microsoft",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "0331bf708daa478d",
-    "scraped_at": "2025-12-05T16:52:41.603545+00:00"
+    "content_hash": "949793562c786085",
+    "scraped_at": "2026-02-01T04:25:16.216393+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Phi-3.5-MoE-instruct",
     "model_name": "Phi-3.5-MoE-instruct",
-    "announcement_date": "2025-06-09",
+    "announcement_date": "2025-08-30",
     "shutdown_date": "2025-08-30",
     "replacement_models": [
       "Phi-4-mini-instruct"
     ],
     "deprecation_context": "Microsoft",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "1127b32bdf7da6b5",
-    "scraped_at": "2025-12-05T16:52:41.603568+00:00"
+    "content_hash": "554276e84383ad45",
+    "scraped_at": "2026-02-01T04:25:16.216444+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Phi-3.5-vision-instruct",
     "model_name": "Phi-3.5-vision-instruct",
-    "announcement_date": "2025-06-09",
+    "announcement_date": "2025-08-30",
     "shutdown_date": "2025-08-30",
     "replacement_models": [
       "Phi-4-mini-instruct"
     ],
     "deprecation_context": "Microsoft",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "e54bee6e2d274678",
-    "scraped_at": "2025-12-05T16:52:41.603592+00:00"
+    "content_hash": "9019887c9ca176bf",
+    "scraped_at": "2026-02-01T04:25:16.216495+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Mistral-Nemo",
     "model_name": "Mistral-Nemo",
-    "announcement_date": "2025-09-30",
+    "announcement_date": "2026-01-30",
     "shutdown_date": "2026-01-30",
     "replacement_models": [
       "Mistral-small-2503"
     ],
     "deprecation_context": "Mistral AI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "9cfc9c43e6cb7bc1",
-    "scraped_at": "2025-12-05T16:52:41.603644+00:00"
+    "content_hash": "cd6888eb550c8ce9",
+    "scraped_at": "2026-02-01T04:25:16.216615+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Mistral-large-2411",
     "model_name": "Mistral-large-2411",
-    "announcement_date": "2025-09-30",
+    "announcement_date": "2026-01-30",
     "shutdown_date": "2026-01-30",
     "replacement_models": [
       "Mistral-medium-2505"
     ],
     "deprecation_context": "Mistral AI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "b0d13871364a48cd",
-    "scraped_at": "2025-12-05T16:52:41.603669+00:00"
+    "content_hash": "bfb07a23aead46d9",
+    "scraped_at": "2026-02-01T04:25:16.216672+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Mistral-ocr-2503",
     "model_name": "Mistral-ocr-2503",
-    "announcement_date": "2025-09-30",
+    "announcement_date": "2026-01-30",
     "shutdown_date": "2026-01-30",
     "replacement_models": [
       "Mistral-document-ai-2505"
     ],
     "deprecation_context": "Mistral AI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "f91f5df0aa9c1853",
-    "scraped_at": "2025-12-05T16:52:41.603693+00:00"
+    "content_hash": "3297a6e617672555",
+    "scraped_at": "2026-02-01T04:25:16.216724+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Mistral-small",
     "model_name": "Mistral-small",
-    "announcement_date": "2025-03-31",
+    "announcement_date": "2025-07-31",
     "shutdown_date": "2025-07-31",
     "replacement_models": [
       "Mistral-small-2503"
     ],
     "deprecation_context": "Mistral AI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "cc8a4138425b390f",
-    "scraped_at": "2025-12-05T16:52:41.603715+00:00"
+    "content_hash": "a3745845d9eb0c4f",
+    "scraped_at": "2026-02-01T04:25:16.216775+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Mistral-large-2407",
     "model_name": "Mistral-large-2407",
-    "announcement_date": "2025-01-13",
+    "announcement_date": "2025-05-13",
     "shutdown_date": "2025-05-13",
     "replacement_models": [
       "Mistral-medium-2505"
     ],
     "deprecation_context": "Mistral AI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "51cef67e314d5dbe",
-    "scraped_at": "2025-12-05T16:52:41.603739+00:00"
+    "content_hash": "57e3a72e31299c37",
+    "scraped_at": "2026-02-01T04:25:16.216825+00:00"
   },
   {
     "provider": "Azure",
     "model_id": "Mistral-large",
     "model_name": "Mistral-large",
-    "announcement_date": "2024-12-15",
+    "announcement_date": "2025-04-15",
     "shutdown_date": "2025-04-15",
     "replacement_models": [
       "Mistral-medium-2505"
     ],
     "deprecation_context": "Mistral AI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "330810e12284609e",
-    "scraped_at": "2025-12-05T16:52:41.603762+00:00"
+    "content_hash": "96e48273042d4f34",
+    "scraped_at": "2026-02-01T04:25:16.216875+00:00"
   }
 ]

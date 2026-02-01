@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Sat, 31 Jan 2026 03:59:57 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 04:25:16 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -1653,102 +1653,6 @@ Regularly check our documentation for updates on ann...</description>
       <guid isPermaLink="false">Cohere-rerank-multilingual-v2.0-2025-04-30-e3b0c442</guid>
     </item>
     <item>
-      <title>Azure: Jamba Instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Jamba Instruct
-Model: Jamba Instruct
-Shutdown Date: 2025-03-01
-
-AI21 Labs</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Jamba_Instruct-2025-03-01-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: AI21-Jamba-1.5-Large</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: AI21-Jamba-1.5-Large
-Model: AI21-Jamba-1.5-Large
-Shutdown Date: 2025-08-01
-
-AI21 Labs</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-AI21-Jamba-1.5-Large-2025-08-01-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: AI21-Jamba-1.5-Mini</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: AI21-Jamba-1.5-Mini
-Model: AI21-Jamba-1.5-Mini
-Shutdown Date: 2025-08-01
-
-AI21 Labs</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-AI21-Jamba-1.5-Mini-2025-08-01-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Bria-2.3-Fast</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Bria-2.3-Fast
-Model: Bria-2.3-Fast
-Shutdown Date: 2025-10-31
-
-Bria</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Bria-2.3-Fast-2025-10-31-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Command R</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Command R
-Model: Command R
-Shutdown Date: 2025-06-30
-
-Cohere</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Command_R-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Command R+</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Command R+
-Model: Command R+
-Shutdown Date: 2025-06-30
-
-Cohere</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Command_R+-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Cohere-rerank-v3-english</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Cohere-rerank-v3-english
-Model: Cohere-rerank-v3-english
-Shutdown Date: 2025-06-30
-
-Cohere</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Cohere-rerank-v3-english-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Cohere-rerank-v3-multilingual</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Cohere-rerank-v3-multilingual
-Model: Cohere-rerank-v3-multilingual
-Shutdown Date: 2025-06-30
-
-Cohere</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Cohere-rerank-v3-multilingual-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
       <title>Azure: Cohere-rerank-v3.5</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -1759,150 +1663,6 @@ Shutdown Date: 2026-05-14
 Cohere</description>
       <pubDate>Wed, 14 Jan 2026 03:41:48 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-rerank-v3.5-2026-05-14-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: jais-30b-chat</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: jais-30b-chat
-Model: jais-30b-chat
-Shutdown Date: 2026-01-30
-
-Core42</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-jais-30b-chat-2026-01-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: DeepSeek-V3</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: DeepSeek-V3
-Model: DeepSeek-V3
-Shutdown Date: 2025-08-31
-
-DeepSeek</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-DeepSeek-V3-2025-08-31-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Gretel-Navigator-Tabular</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Gretel-Navigator-Tabular
-Model: Gretel-Navigator-Tabular
-Shutdown Date: 2025-09-16
-
-Gretel</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Gretel-Navigator-Tabular-2025-09-16-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Llama-2-13b</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Llama-2-13b
-Model: Llama-2-13b
-Shutdown Date: 2025-06-30
-
-Meta</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-2-13b-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Llama-2-13b-chat</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Llama-2-13b-chat
-Model: Llama-2-13b-chat
-Shutdown Date: 2025-06-30
-
-Meta</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-2-13b-chat-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Llama-2-70b</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Llama-2-70b
-Model: Llama-2-70b
-Shutdown Date: 2025-06-30
-
-Meta</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-2-70b-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Llama-2-70b-chat</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Llama-2-70b-chat
-Model: Llama-2-70b-chat
-Shutdown Date: 2025-06-30
-
-Meta</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-2-70b-chat-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Llama-2-7b</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Llama-2-7b
-Model: Llama-2-7b
-Shutdown Date: 2025-06-30
-
-Meta</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-2-7b-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Llama-2-7b-chat</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Llama-2-7b-chat
-Model: Llama-2-7b-chat
-Shutdown Date: 2025-06-30
-
-Meta</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-2-7b-chat-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Meta-Llama-3-70B-Instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Meta-Llama-3-70B-Instruct
-Model: Meta-Llama-3-70B-Instruct
-Shutdown Date: 2025-06-30
-
-Meta</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Meta-Llama-3-70B-Instruct-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Meta-Llama-3-8B-Instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Meta-Llama-3-8B-Instruct
-Model: Meta-Llama-3-8B-Instruct
-Shutdown Date: 2025-06-30
-
-Meta</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Meta-Llama-3-8B-Instruct-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Meta-Llama-3.1-70B-Instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Meta-Llama-3.1-70B-Instruct
-Model: Meta-Llama-3.1-70B-Instruct
-Shutdown Date: 2025-06-30
-
-Meta</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Meta-Llama-3.1-70B-Instruct-2025-06-30-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: MAI-DS-R1</title>
@@ -1917,6 +1677,246 @@ Microsoft</description>
       <guid isPermaLink="false">Azure-MAI-DS-R1-2026-02-27-e3b0c442</guid>
     </item>
     <item>
+      <title>Azure: Jamba Instruct</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Jamba Instruct
+Model: Jamba Instruct
+Shutdown Date: 2025-03-01
+
+AI21 Labs</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Jamba_Instruct-2025-03-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: AI21-Jamba-1.5-Large</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: AI21-Jamba-1.5-Large
+Model: AI21-Jamba-1.5-Large
+Shutdown Date: 2025-08-01
+
+AI21 Labs</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-AI21-Jamba-1.5-Large-2025-08-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: AI21-Jamba-1.5-Mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: AI21-Jamba-1.5-Mini
+Model: AI21-Jamba-1.5-Mini
+Shutdown Date: 2025-08-01
+
+AI21 Labs</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-AI21-Jamba-1.5-Mini-2025-08-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Bria-2.3-Fast</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Bria-2.3-Fast
+Model: Bria-2.3-Fast
+Shutdown Date: 2025-10-31
+
+Bria</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Bria-2.3-Fast-2025-10-31-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Command R</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Command R
+Model: Command R
+Shutdown Date: 2025-06-30
+
+Cohere</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Command_R-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Command R+</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Command R+
+Model: Command R+
+Shutdown Date: 2025-06-30
+
+Cohere</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Command_R+-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Cohere-rerank-v3-english</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Cohere-rerank-v3-english
+Model: Cohere-rerank-v3-english
+Shutdown Date: 2025-06-30
+
+Cohere</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Cohere-rerank-v3-english-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Cohere-rerank-v3-multilingual</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Cohere-rerank-v3-multilingual
+Model: Cohere-rerank-v3-multilingual
+Shutdown Date: 2025-06-30
+
+Cohere</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Cohere-rerank-v3-multilingual-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: jais-30b-chat</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: jais-30b-chat
+Model: jais-30b-chat
+Shutdown Date: 2026-01-30
+
+Core42</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-jais-30b-chat-2026-01-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: DeepSeek-V3</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: DeepSeek-V3
+Model: DeepSeek-V3
+Shutdown Date: 2025-08-31
+
+DeepSeek</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-DeepSeek-V3-2025-08-31-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Gretel-Navigator-Tabular</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Gretel-Navigator-Tabular
+Model: Gretel-Navigator-Tabular
+Shutdown Date: 2025-09-16
+
+Gretel</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Gretel-Navigator-Tabular-2025-09-16-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Llama-2-13b</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Llama-2-13b
+Model: Llama-2-13b
+Shutdown Date: 2025-06-30
+
+Meta</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Llama-2-13b-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Llama-2-13b-chat</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Llama-2-13b-chat
+Model: Llama-2-13b-chat
+Shutdown Date: 2025-06-30
+
+Meta</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Llama-2-13b-chat-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Llama-2-70b</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Llama-2-70b
+Model: Llama-2-70b
+Shutdown Date: 2025-06-30
+
+Meta</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Llama-2-70b-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Llama-2-70b-chat</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Llama-2-70b-chat
+Model: Llama-2-70b-chat
+Shutdown Date: 2025-06-30
+
+Meta</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Llama-2-70b-chat-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Llama-2-7b</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Llama-2-7b
+Model: Llama-2-7b
+Shutdown Date: 2025-06-30
+
+Meta</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Llama-2-7b-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Llama-2-7b-chat</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Llama-2-7b-chat
+Model: Llama-2-7b-chat
+Shutdown Date: 2025-06-30
+
+Meta</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Llama-2-7b-chat-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Meta-Llama-3-70B-Instruct</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Meta-Llama-3-70B-Instruct
+Model: Meta-Llama-3-70B-Instruct
+Shutdown Date: 2025-06-30
+
+Meta</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Meta-Llama-3-70B-Instruct-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Meta-Llama-3-8B-Instruct</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Meta-Llama-3-8B-Instruct
+Model: Meta-Llama-3-8B-Instruct
+Shutdown Date: 2025-06-30
+
+Meta</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Meta-Llama-3-8B-Instruct-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Meta-Llama-3.1-70B-Instruct</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Meta-Llama-3.1-70B-Instruct
+Model: Meta-Llama-3.1-70B-Instruct
+Shutdown Date: 2025-06-30
+
+Meta</description>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Meta-Llama-3.1-70B-Instruct-2025-06-30-e3b0c442</guid>
+    </item>
+    <item>
       <title>Azure: Phi-3-medium-4k-instruct</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -1925,7 +1925,7 @@ Model: Phi-3-medium-4k-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3-medium-4k-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1937,7 +1937,7 @@ Model: Phi-3-medium-128k-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3-medium-128k-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1949,7 +1949,7 @@ Model: Phi-3-mini-4k-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3-mini-4k-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1961,7 +1961,7 @@ Model: Phi-3-mini-128k-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3-mini-128k-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1973,7 +1973,7 @@ Model: Phi-3-small-8k-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3-small-8k-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1985,7 +1985,7 @@ Model: Phi-3-small-128k-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3-small-128k-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -1997,7 +1997,7 @@ Model: Phi-3.5-mini-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3.5-mini-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -2009,7 +2009,7 @@ Model: Phi-3.5-MoE-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3.5-MoE-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -2021,7 +2021,7 @@ Model: Phi-3.5-vision-instruct
 Shutdown Date: 2025-08-30
 
 Microsoft</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Phi-3.5-vision-instruct-2025-08-30-e3b0c442</guid>
     </item>
     <item>
@@ -2033,7 +2033,7 @@ Model: Mistral-Nemo
 Shutdown Date: 2026-01-30
 
 Mistral AI</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-Nemo-2026-01-30-e3b0c442</guid>
     </item>
     <item>
@@ -2045,7 +2045,7 @@ Model: Mistral-large-2411
 Shutdown Date: 2026-01-30
 
 Mistral AI</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-large-2411-2026-01-30-e3b0c442</guid>
     </item>
     <item>
@@ -2057,7 +2057,7 @@ Model: Mistral-ocr-2503
 Shutdown Date: 2026-01-30
 
 Mistral AI</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-ocr-2503-2026-01-30-e3b0c442</guid>
     </item>
     <item>
@@ -2069,7 +2069,7 @@ Model: Mistral-small
 Shutdown Date: 2025-07-31
 
 Mistral AI</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-small-2025-07-31-e3b0c442</guid>
     </item>
     <item>
@@ -2081,7 +2081,7 @@ Model: Mistral-large-2407
 Shutdown Date: 2025-05-13
 
 Mistral AI</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-large-2407-2025-05-13-e3b0c442</guid>
     </item>
     <item>
@@ -2093,7 +2093,7 @@ Model: Mistral-large
 Shutdown Date: 2025-04-15
 
 Mistral AI</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-large-2025-04-15-e3b0c442</guid>
     </item>
   </channel>
