@@ -514,18 +514,6 @@
   },
   {
     "provider": "Anthropic",
-    "model_id": "claude-3-5-haiku-20241022",
-    "model_name": "claude-3-5-haiku-20241022",
-    "announcement_date": "2025-12-19",
-    "shutdown_date": "2026-02-19",
-    "replacement_models": null,
-    "deprecation_context": "",
-    "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
-    "content_hash": "0cb5d027d6b4f624",
-    "scraped_at": "2026-01-21T03:27:51.274923+00:00"
-  },
-  {
-    "provider": "Anthropic",
     "model_id": "claude-3-7-sonnet-20250219",
     "model_name": "claude-3-7-sonnet-20250219",
     "announcement_date": "2025-10-28",
@@ -535,6 +523,18 @@
     "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
     "content_hash": "c8a4c9a555c15f9e",
     "scraped_at": "2026-01-21T03:27:51.274990+00:00"
+  },
+  {
+    "provider": "Anthropic",
+    "model_id": "claude-3-5-haiku-20241022",
+    "model_name": "claude-3-5-haiku-20241022",
+    "announcement_date": "2025-12-19",
+    "shutdown_date": "2026-02-19",
+    "replacement_models": null,
+    "deprecation_context": "",
+    "url": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+    "content_hash": "0cb5d027d6b4f624",
+    "scraped_at": "2026-01-21T03:27:51.274923+00:00"
   },
   {
     "provider": "Anthropic",

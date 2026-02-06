@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 05 Feb 2026 04:08:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 04:08:43 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -434,17 +434,6 @@ Shutdown Date: 2023-03-23
       <guid isPermaLink="false">OpenAI-code-cushman-001-2023-03-23-e3b0c442</guid>
     </item>
     <item>
-      <title>Anthropic: claude-3-5-haiku-20241022</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
-      <description>Provider: Anthropic
-Model ID: claude-3-5-haiku-20241022
-Model: claude-3-5-haiku-20241022
-Shutdown Date: 2026-02-19
-</description>
-      <pubDate>Wed, 21 Jan 2026 03:27:51 GMT</pubDate>
-      <guid isPermaLink="false">Anthropic-claude-3-5-haiku-20241022-2026-02-19-e3b0c442</guid>
-    </item>
-    <item>
       <title>Anthropic: claude-3-7-sonnet-20250219</title>
       <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
       <description>Provider: Anthropic
@@ -454,6 +443,17 @@ Shutdown Date: 2026-02-19
 </description>
       <pubDate>Wed, 21 Jan 2026 03:27:51 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-7-sonnet-20250219-2026-02-19-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Anthropic: claude-3-5-haiku-20241022</title>
+      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <description>Provider: Anthropic
+Model ID: claude-3-5-haiku-20241022
+Model: claude-3-5-haiku-20241022
+Shutdown Date: 2026-02-19
+</description>
+      <pubDate>Wed, 21 Jan 2026 03:27:51 GMT</pubDate>
+      <guid isPermaLink="false">Anthropic-claude-3-5-haiku-20241022-2026-02-19-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-3-5-sonnet-20240620</title>
