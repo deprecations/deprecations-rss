@@ -13,20 +13,18 @@
   "language": "en-US",
   "items": [
     {
-      "id": "openai-chatgpt-4o-latest",
+      "id": "openai-chatgpt-4o-latest-snapshot",
       "url": "https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.184035+00:00",
+      "date_published": "2026-02-10T04:26:39.100410+00:00",
       "_deprecation": {
         "provider": "OpenAI",
-        "model_id": "chatgpt-4o-latest",
-        "model_name": "chatgpt-4o-latest",
+        "model_id": "chatgpt-4o-latest snapshot",
+        "model_name": "chatgpt-4o-latest snapshot",
         "shutdown_date": "2026-02-17",
         "announcement_date": "2025-11-18",
-        "replacement_models": [
-          "gpt-5.1-chat-latest"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -34,20 +32,18 @@
       ]
     },
     {
-      "id": "openai-codex-mini-latest",
+      "id": "openai-codex-mini-latest-model-snapshot",
       "url": "https://platform.openai.com/docs/deprecations#2025-11-17-codex-mini-latest-model-snapshot",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.184090+00:00",
+      "date_published": "2026-02-10T04:26:39.100562+00:00",
       "_deprecation": {
         "provider": "OpenAI",
-        "model_id": "codex-mini-latest",
-        "model_name": "codex-mini-latest",
+        "model_id": "codex-mini-latest model snapshot",
+        "model_name": "codex-mini-latest model snapshot",
         "shutdown_date": "2026-01-16",
         "announcement_date": "2025-11-17",
-        "replacement_models": [
-          "gpt-5-codex-mini"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -55,21 +51,18 @@
       ]
     },
     {
-      "id": "openai-dall-e-2",
-      "url": "https://platform.openai.com/docs/deprecations#2025-11-14-dall-e-model-snapshots",
+      "id": "openai-dall·e-model-snapshots",
+      "url": "https://platform.openai.com/docs/deprecations#2025-11-14-dalle-model-snapshots",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.184128+00:00",
+      "date_published": "2026-02-10T04:26:39.100773+00:00",
       "_deprecation": {
         "provider": "OpenAI",
-        "model_id": "dall-e-2",
-        "model_name": "dall-e-2",
+        "model_id": "DALL·E model snapshots",
+        "model_name": "DALL·E model snapshots",
         "shutdown_date": "2026-05-12",
         "announcement_date": "2025-11-14",
-        "replacement_models": [
-          "gpt-image-1",
-          "gpt-image-1-mini"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -77,43 +70,18 @@
       ]
     },
     {
-      "id": "openai-dall-e-3",
-      "url": "https://platform.openai.com/docs/deprecations#2025-11-14-dall-e-model-snapshots",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.184142+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "dall-e-3",
-        "model_name": "dall-e-3",
-        "shutdown_date": "2026-05-12",
-        "announcement_date": "2025-11-14",
-        "replacement_models": [
-          "gpt-image-1",
-          "gpt-image-1-mini"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-4-0314",
+      "id": "openai-legacy-gpt-model-snapshots",
       "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185181+00:00",
+      "date_published": "2026-02-10T04:26:39.101097+00:00",
       "_deprecation": {
         "provider": "OpenAI",
-        "model_id": "gpt-4-0314",
-        "model_name": "gpt-4-0314",
+        "model_id": "Legacy GPT model snapshots",
+        "model_name": "Legacy GPT model snapshots",
         "shutdown_date": "2025-09-26",
         "announcement_date": "2025-09-26",
-        "replacement_models": [
-          "gpt-5",
-          "gpt-4.1*"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -121,261 +89,22 @@
       ]
     },
     {
-      "id": "openai-gpt-4-1106-preview",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
+      "id": "openai-gpt-4o-realtime-preview-models",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185231+00:00",
+      "date_published": "2026-02-10T04:26:39.102444+00:00",
       "_deprecation": {
         "provider": "OpenAI",
-        "model_id": "gpt-4-1106-preview",
-        "model_name": "gpt-4-1106-preview",
-        "shutdown_date": "2025-09-26",
-        "announcement_date": "2025-09-26",
-        "replacement_models": [
-          "gpt-5",
-          "gpt-4.1*"
-        ]
+        "model_id": "gpt-4o-realtime-preview models",
+        "model_name": "gpt-4o-realtime-preview models",
+        "shutdown_date": "2025-09-15",
+        "announcement_date": "2025-09-15",
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
         "shutdown-2025"
-      ]
-    },
-    {
-      "id": "openai-gpt-4-0125-preview",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185267+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-4-0125-preview",
-        "model_name": "gpt-4-0125-preview",
-        "shutdown_date": "2025-09-26",
-        "announcement_date": "2025-09-26",
-        "replacement_models": [
-          "gpt-5",
-          "gpt-4.1*"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "openai-gpt-3.5-turbo-instruct",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185281+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-3.5-turbo-instruct",
-        "model_name": "gpt-3.5-turbo-instruct",
-        "shutdown_date": "2026-09-28",
-        "announcement_date": "2025-09-26",
-        "replacement_models": [
-          "gpt-5-mini",
-          "gpt-4.1-mini*"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-babbage-002",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185294+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "babbage-002",
-        "model_name": "babbage-002",
-        "shutdown_date": "2026-09-28",
-        "announcement_date": "2025-09-26",
-        "replacement_models": [
-          "gpt-5-mini",
-          "gpt-4.1-mini*"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-davinci-002",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185305+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "davinci-002",
-        "model_name": "davinci-002",
-        "shutdown_date": "2026-09-28",
-        "announcement_date": "2025-09-26",
-        "replacement_models": [
-          "gpt-5-mini",
-          "gpt-4.1-mini*"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-3.5-turbo-1106",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185316+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-3.5-turbo-1106",
-        "model_name": "gpt-3.5-turbo-1106",
-        "shutdown_date": "2026-09-28",
-        "announcement_date": "2025-09-26",
-        "replacement_models": [
-          "gpt-5-mini",
-          "gpt-4.1-mini*"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-4o-realtime-preview",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2026-01-08T03:24:22.185515+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-4o-realtime-preview",
-        "model_name": "gpt-4o-realtime-preview",
-        "shutdown_date": "2026-03-24",
-        "announcement_date": "2025-09-15",
-        "replacement_models": [
-          "gpt-realtime"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-4o-realtime-preview-2025-06-03",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2026-01-08T03:24:22.185553+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-4o-realtime-preview-2025-06-03",
-        "model_name": "gpt-4o-realtime-preview-2025-06-03",
-        "shutdown_date": "2026-03-24",
-        "announcement_date": "2025-09-15",
-        "replacement_models": [
-          "gpt-realtime"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-4o-realtime-preview-2024-12-17",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2026-01-08T03:24:22.185586+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-4o-realtime-preview-2024-12-17",
-        "model_name": "gpt-4o-realtime-preview-2024-12-17",
-        "shutdown_date": "2026-03-24",
-        "announcement_date": "2025-09-15",
-        "replacement_models": [
-          "gpt-realtime"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-4o-mini-realtime-preview",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2026-01-16T03:24:25.275402+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-4o-mini-realtime-preview",
-        "model_name": "gpt-4o-mini-realtime-preview",
-        "shutdown_date": "2026-03-24",
-        "announcement_date": "2025-09-15",
-        "replacement_models": [
-          "gpt-realtime-mini"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-4o-audio-preview",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2026-01-16T03:24:25.275432+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-4o-audio-preview",
-        "model_name": "gpt-4o-audio-preview",
-        "shutdown_date": "2026-03-24",
-        "announcement_date": "2025-09-15",
-        "replacement_models": [
-          "gpt-audio"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-4o-mini-audio-preview",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2026-01-16T03:24:25.275462+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-4o-mini-audio-preview",
-        "model_name": "gpt-4o-mini-audio-preview",
-        "shutdown_date": "2026-03-24",
-        "announcement_date": "2025-09-15",
-        "replacement_models": [
-          "gpt-audio-mini"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
       ]
     },
     {
@@ -383,16 +112,14 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-06-10-gpt-4o-realtime-preview-2024-10-01",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185452+00:00",
+      "date_published": "2026-02-10T04:26:39.102573+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-4o-realtime-preview-2024-10-01",
         "model_name": "gpt-4o-realtime-preview-2024-10-01",
-        "shutdown_date": "2025-10-10",
+        "shutdown_date": "2025-06-10",
         "announcement_date": "2025-06-10",
-        "replacement_models": [
-          "gpt-realtime"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -404,16 +131,14 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-06-10-gpt-4o-audio-preview-2024-10-01",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185479+00:00",
+      "date_published": "2026-02-10T04:26:39.102692+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-4o-audio-preview-2024-10-01",
         "model_name": "gpt-4o-audio-preview-2024-10-01",
-        "shutdown_date": "2025-10-10",
+        "shutdown_date": "2025-06-10",
         "announcement_date": "2025-06-10",
-        "replacement_models": [
-          "gpt-4o-audio-preview"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -421,62 +146,18 @@
       ]
     },
     {
-      "id": "openai-text-moderation-007",
+      "id": "openai-text-moderation",
       "url": "https://platform.openai.com/docs/deprecations#2025-04-28-text-moderation",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185507+00:00",
+      "date_published": "2026-02-10T04:26:39.102920+00:00",
       "_deprecation": {
         "provider": "OpenAI",
-        "model_id": "text-moderation-007",
-        "model_name": "text-moderation-007",
-        "shutdown_date": "2025-10-27",
+        "model_id": "text-moderation",
+        "model_name": "text-moderation",
+        "shutdown_date": "2025-04-28",
         "announcement_date": "2025-04-28",
-        "replacement_models": [
-          "omni-moderation"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "openai-text-moderation-stable",
-      "url": "https://platform.openai.com/docs/deprecations#2025-04-28-text-moderation",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185518+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "text-moderation-stable",
-        "model_name": "text-moderation-stable",
-        "shutdown_date": "2025-10-27",
-        "announcement_date": "2025-04-28",
-        "replacement_models": [
-          "omni-moderation"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "openai-text-moderation-latest",
-      "url": "https://platform.openai.com/docs/deprecations#2025-04-28-text-moderation",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185529+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "text-moderation-latest",
-        "model_name": "text-moderation-latest",
-        "shutdown_date": "2025-10-27",
-        "announcement_date": "2025-04-28",
-        "replacement_models": [
-          "omni-moderation"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -488,16 +169,14 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-04-28-o1-preview-and-o1-mini",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185557+00:00",
+      "date_published": "2026-02-10T04:26:39.103008+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "o1-preview",
         "model_name": "o1-preview",
-        "shutdown_date": "2025-07-28",
+        "shutdown_date": "2025-04-28",
         "announcement_date": "2025-04-28",
-        "replacement_models": [
-          "o3"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -509,16 +188,14 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-04-28-o1-preview-and-o1-mini",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185568+00:00",
+      "date_published": "2026-02-10T04:26:39.103013+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "o1-mini",
         "model_name": "o1-mini",
-        "shutdown_date": "2025-10-27",
+        "shutdown_date": "2025-04-28",
         "announcement_date": "2025-04-28",
-        "replacement_models": [
-          "o4-mini"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -527,19 +204,17 @@
     },
     {
       "id": "openai-gpt-4.5-preview",
-      "url": "https://platform.openai.com/docs/deprecations#2025-04-14-gpt-4-5-preview",
+      "url": "https://platform.openai.com/docs/deprecations#2025-04-14-gpt-45-preview",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185594+00:00",
+      "date_published": "2026-02-10T04:26:39.103077+00:00",
       "_deprecation": {
         "provider": "OpenAI",
-        "model_id": "gpt-4.5-preview",
-        "model_name": "gpt-4.5-preview",
-        "shutdown_date": "2025-07-14",
+        "model_id": "GPT-4.5-preview",
+        "model_name": "GPT-4.5-preview",
+        "shutdown_date": "2025-04-14",
         "announcement_date": "2025-04-14",
-        "replacement_models": [
-          "gpt-4.1"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -551,79 +226,14 @@
       "url": "https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185686+00:00",
+      "date_published": "2026-02-10T04:26:39.103507+00:00",
       "_deprecation": {
         "provider": "OpenAI",
-        "model_id": "gpt-4-32k",
-        "model_name": "gpt-4-32k",
-        "shutdown_date": "2025-06-06",
+        "model_id": "GPT-4-32K",
+        "model_name": "GPT-4-32K",
+        "shutdown_date": "2024-06-06",
         "announcement_date": "2024-06-06",
-        "replacement_models": [
-          "gpt-4o"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "openai-gpt-4-32k-0613",
-      "url": "https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185697+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-4-32k-0613",
-        "model_name": "gpt-4-32k-0613",
-        "shutdown_date": "2025-06-06",
-        "announcement_date": "2024-06-06",
-        "replacement_models": [
-          "gpt-4o"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "openai-gpt-4-32k-0314",
-      "url": "https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185707+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-4-32k-0314",
-        "model_name": "gpt-4-32k-0314",
-        "shutdown_date": "2025-06-06",
-        "announcement_date": "2024-06-06",
-        "replacement_models": [
-          "gpt-4o"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "openai-gpt-4-vision-preview",
-      "url": "https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185717+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-4-vision-preview",
-        "model_name": "gpt-4-vision-preview",
-        "shutdown_date": "2024-12-06",
-        "announcement_date": "2024-06-06",
-        "replacement_models": [
-          "gpt-4o"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -631,20 +241,18 @@
       ]
     },
     {
-      "id": "openai-gpt-4-1106-vision-preview",
+      "id": "openai-vision-preview-models",
       "url": "https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185728+00:00",
+      "date_published": "2026-02-10T04:26:39.103514+00:00",
       "_deprecation": {
         "provider": "OpenAI",
-        "model_id": "gpt-4-1106-vision-preview",
-        "model_name": "gpt-4-1106-vision-preview",
-        "shutdown_date": "2024-12-06",
+        "model_id": "Vision Preview models",
+        "model_name": "Vision Preview models",
+        "shutdown_date": "2024-06-06",
         "announcement_date": "2024-06-06",
-        "replacement_models": [
-          "gpt-4o"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -652,62 +260,18 @@
       ]
     },
     {
-      "id": "openai-gpt-3.5-turbo-0613",
+      "id": "openai-chat-model-updates",
       "url": "https://platform.openai.com/docs/deprecations#2023-11-06-chat-model-updates",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185757+00:00",
+      "date_published": "2026-02-10T04:26:39.103704+00:00",
       "_deprecation": {
         "provider": "OpenAI",
-        "model_id": "gpt-3.5-turbo-0613",
-        "model_name": "gpt-3.5-turbo-0613",
-        "shutdown_date": "2024-09-13",
+        "model_id": "Chat model updates",
+        "model_name": "Chat model updates",
+        "shutdown_date": "2023-11-06",
         "announcement_date": "2023-11-06",
-        "replacement_models": [
-          "gpt-3.5-turbo"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2024"
-      ]
-    },
-    {
-      "id": "openai-gpt-3.5-turbo-16k-0613",
-      "url": "https://platform.openai.com/docs/deprecations#2023-11-06-chat-model-updates",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.185767+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-3.5-turbo-16k-0613",
-        "model_name": "gpt-3.5-turbo-16k-0613",
-        "shutdown_date": "2024-09-13",
-        "announcement_date": "2023-11-06",
-        "replacement_models": [
-          "gpt-3.5-turbo"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2024"
-      ]
-    },
-    {
-      "id": "openai-code-davinci-002",
-      "url": "https://platform.openai.com/docs/deprecations#2023-03-20-codex-models",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.186073+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "code-davinci-002",
-        "model_name": "code-davinci-002",
-        "shutdown_date": "2023-03-23",
-        "announcement_date": "2023-03-20",
-        "replacement_models": [
-          "gpt-4o"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -715,20 +279,18 @@
       ]
     },
     {
-      "id": "openai-code-davinci-001",
-      "url": "https://platform.openai.com/docs/deprecations#2023-03-20-codex-models",
+      "id": "openai-updated-chat-models",
+      "url": "https://platform.openai.com/docs/deprecations#2023-06-13-updated-chat-models",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.186084+00:00",
+      "date_published": "2026-02-10T04:26:39.103983+00:00",
       "_deprecation": {
         "provider": "OpenAI",
-        "model_id": "code-davinci-001",
-        "model_name": "code-davinci-001",
-        "shutdown_date": "2023-03-23",
-        "announcement_date": "2023-03-20",
-        "replacement_models": [
-          "gpt-4o"
-        ]
+        "model_id": "Updated chat models",
+        "model_name": "Updated chat models",
+        "shutdown_date": "2023-06-13",
+        "announcement_date": "2023-06-13",
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
@@ -736,41 +298,18 @@
       ]
     },
     {
-      "id": "openai-code-cushman-002",
+      "id": "openai-codex-models",
       "url": "https://platform.openai.com/docs/deprecations#2023-03-20-codex-models",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.186095+00:00",
+      "date_published": "2026-02-10T04:26:39.104313+00:00",
       "_deprecation": {
         "provider": "OpenAI",
-        "model_id": "code-cushman-002",
-        "model_name": "code-cushman-002",
-        "shutdown_date": "2023-03-23",
+        "model_id": "Codex models",
+        "model_name": "Codex models",
+        "shutdown_date": "2023-03-20",
         "announcement_date": "2023-03-20",
-        "replacement_models": [
-          "gpt-4o"
-        ]
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2023"
-      ]
-    },
-    {
-      "id": "openai-code-cushman-001",
-      "url": "https://platform.openai.com/docs/deprecations#2023-03-20-codex-models",
-      "title": "OpenAI Deprecation",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.186106+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "code-cushman-001",
-        "model_name": "code-cushman-001",
-        "shutdown_date": "2023-03-23",
-        "announcement_date": "2023-03-20",
-        "replacement_models": [
-          "gpt-4o"
-        ]
+        "replacement_models": null
       },
       "tags": [
         "OpenAI",
