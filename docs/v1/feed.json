@@ -36,12 +36,12 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-11-17-codex-mini-latest-model-snapshot",
       "title": "OpenAI Deprecation",
       "content_text": "",
-      "date_published": "2026-02-10T04:26:39.100562+00:00",
+      "date_published": "2026-02-13T04:13:53.946016+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "codex-mini-latest model snapshot",
         "model_name": "codex-mini-latest model snapshot",
-        "shutdown_date": "2026-01-16",
+        "shutdown_date": "2026-02-12",
         "announcement_date": "2025-11-17",
         "replacement_models": null
       },
@@ -2320,6 +2320,48 @@
         "announcement_date": "2026-01-14",
         "replacement_models": [
           "Cohere-rerank-v4.0-pro,Cohere-rerank-v4.0-fast"
+        ]
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-cohere-command-r-08-2024",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-02-13T04:14:15.749837+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Cohere-command-r-08-2024",
+        "model_name": "Cohere-command-r-08-2024",
+        "shutdown_date": "2026-05-12",
+        "announcement_date": "2026-02-12",
+        "replacement_models": [
+          "Cohere-command-a"
+        ]
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-cohere-command-r-plus-08-2024",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-02-13T04:14:15.749925+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Cohere-command-r-plus-08-2024",
+        "model_name": "Cohere-command-r-plus-08-2024",
+        "shutdown_date": "2026-05-12",
+        "announcement_date": "2026-02-12",
+        "replacement_models": [
+          "Cohere-command-a"
         ]
       },
       "tags": [

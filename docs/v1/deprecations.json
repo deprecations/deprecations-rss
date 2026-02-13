@@ -16,12 +16,12 @@
     "model_id": "codex-mini-latest model snapshot",
     "model_name": "codex-mini-latest model snapshot",
     "announcement_date": "2025-11-17",
-    "shutdown_date": "2026-01-16",
+    "shutdown_date": "2026-02-12",
     "replacement_models": null,
-    "deprecation_context": "On November 17th, 2025, we notified developers usingcodex-mini-latestmodel of its deprecation and removal from the API on January 16, 2026. Shutdown dateModel / systemRecommended replacement2026-01-16codex-mini-latestgpt-5-codex-mini",
+    "deprecation_context": "On November 17th, 2025, we notified developers usingcodex-mini-latestmodel of its deprecation and removal from the API on February 12, 2026. As part of this deprecation, we will no longer support our legacy local shell tool, which is only available for use withcodex-mini-latest. For new use cases, please use our latest shell tool. Shutdown dateModel / systemRecommended replacement2026-02-12codex-mini-latestgpt-5-codex-mini",
     "url": "https://platform.openai.com/docs/deprecations#2025-11-17-codex-mini-latest-model-snapshot",
-    "content_hash": "52ec0e5813b9bbcb",
-    "scraped_at": "2026-02-10T04:26:39.100562+00:00"
+    "content_hash": "7f6756ace68ca1cb",
+    "scraped_at": "2026-02-13T04:13:53.946016+00:00"
   },
   {
     "provider": "OpenAI",
@@ -1545,6 +1545,34 @@
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
     "content_hash": "5f91272cd5afb80c",
     "scraped_at": "2026-01-14T03:41:48.470298+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Cohere-command-r-08-2024",
+    "model_name": "Cohere-command-r-08-2024",
+    "announcement_date": "2026-02-12",
+    "shutdown_date": "2026-05-12",
+    "replacement_models": [
+      "Cohere-command-a"
+    ],
+    "deprecation_context": "Cohere",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "0b7593a5f2490d80",
+    "scraped_at": "2026-02-13T04:14:15.749837+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Cohere-command-r-plus-08-2024",
+    "model_name": "Cohere-command-r-plus-08-2024",
+    "announcement_date": "2026-02-12",
+    "shutdown_date": "2026-05-12",
+    "replacement_models": [
+      "Cohere-command-a"
+    ],
+    "deprecation_context": "Cohere",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "d901d5f46a6890f8",
+    "scraped_at": "2026-02-13T04:14:15.749925+00:00"
   },
   {
     "provider": "Azure",

@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 12 Feb 2026 04:17:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 04:14:15 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest snapshot</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -23,11 +23,11 @@ On November 18th, 2025, we notified developers usingchatgpt-4o-latestmodel snaps
       <description>Provider: OpenAI
 Model ID: codex-mini-latest model snapshot
 Model: codex-mini-latest model snapshot
-Shutdown Date: 2026-01-16
+Shutdown Date: 2026-02-12
 
-On November 17th, 2025, we notified developers usingcodex-mini-latestmodel of its deprecation and removal from the API on January 16, 2026. Shutdown dateModel / systemRecommended replacement2026-01-16codex-mini-latestgpt-5-codex-mini</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-codex-mini-latest_model_snapshot-2026-01-16-e3b0c442</guid>
+On November 17th, 2025, we notified developers usingcodex-mini-latestmodel of its deprecation and removal from the API on February 12, 2026. As part of this deprecation, we will no longer support our legacy local shell tool, which is only available for use withcodex-mini-latest. For new use cases, please use our latest shell tool. Shutdown dateModel / systemRecommended replacement2026-02-12codex-mini-latestgpt-5-codex-mini</description>
+      <pubDate>Fri, 13 Feb 2026 04:13:53 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-codex-mini-latest_model_snapshot-2026-02-12-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: DALL·E model snapshots</title>
@@ -1427,6 +1427,30 @@ Shutdown Date: 2026-05-14
 Cohere</description>
       <pubDate>Wed, 14 Jan 2026 03:41:48 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-rerank-v3.5-2026-05-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Cohere-command-r-08-2024</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Cohere-command-r-08-2024
+Model: Cohere-command-r-08-2024
+Shutdown Date: 2026-05-12
+
+Cohere</description>
+      <pubDate>Fri, 13 Feb 2026 04:14:15 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Cohere-command-r-08-2024-2026-05-12-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Cohere-command-r-plus-08-2024</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Cohere-command-r-plus-08-2024
+Model: Cohere-command-r-plus-08-2024
+Shutdown Date: 2026-05-12
+
+Cohere</description>
+      <pubDate>Fri, 13 Feb 2026 04:14:15 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Cohere-command-r-plus-08-2024-2026-05-12-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: MAI-DS-R1</title>
