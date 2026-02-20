@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 19 Feb 2026 04:13:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 04:09:18 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest snapshot</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -220,6 +220,17 @@ Shutdown Date: 2026-02-19
       <guid isPermaLink="false">Anthropic-claude-3-5-haiku-20241022-2026-02-19-e3b0c442</guid>
     </item>
     <item>
+      <title>Anthropic: claude-3-haiku-20240307</title>
+      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <description>Provider: Anthropic
+Model ID: claude-3-haiku-20240307
+Model: claude-3-haiku-20240307
+Shutdown Date: 2026-04-20
+</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:01 GMT</pubDate>
+      <guid isPermaLink="false">Anthropic-claude-3-haiku-20240307-2026-04-20-e3b0c442</guid>
+    </item>
+    <item>
       <title>Anthropic: claude-3-5-sonnet-20240620</title>
       <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
       <description>Provider: Anthropic
@@ -363,60 +374,60 @@ Shutdown Date: 2024-11-06
       <guid isPermaLink="false">Anthropic-claude-instant-1.2-2024-11-06-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: &lt;UNKNOWN&gt;</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260122</link>
+      <title>Google: Gemini 2.0 Flash</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260218</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash
-Model: &lt;UNKNOWN&gt;
-Announcement Date: 2026-01-22
-First Observed: 2026-01-23
-Last Observed: 2026-01-23
+Model: Gemini 2.0 Flash
+Announcement Date: 2026-02-18
+First Observed: 2026-02-20
+Last Observed: 2026-02-20
 
-Insufficient information provided to analyze the deprecation notice.</description>
-      <pubDate>Fri, 23 Jan 2026 03:27:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-783f7fd3</guid>
+Deprecation announcement: The following models will be shut down June 1, 2026: gemini-2.0-flash gemini-2.0-flash-001 gemini-2.0-flash-lite gemini-2.0-flash-lite-001</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:02 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: &lt;UNKNOWN&gt;</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260122</link>
+      <title>Google: Gemini 2.0 Flash 001</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260218</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-001
-Model: &lt;UNKNOWN&gt;
-Announcement Date: 2026-01-22
-First Observed: 2026-01-23
-Last Observed: 2026-01-23
+Model: Gemini 2.0 Flash 001
+Announcement Date: 2026-02-18
+First Observed: 2026-02-20
+Last Observed: 2026-02-20
 
-Unable to analyze deprecation notice - content is missing or truncated.</description>
-      <pubDate>Fri, 23 Jan 2026 03:27:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-001-16cf68d8</guid>
+Deprecation announcement: The following models will be shut down June 1, 2026: gemini-2.0-flash gemini-2.0-flash-001 gemini-2.0-flash-lite gemini-2.0-flash-lite-001</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:02 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-001-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: &lt;UNKNOWN&gt;</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260122</link>
+      <title>Google: Gemini 2.0 Flash Lite</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260218</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-lite
-Model: &lt;UNKNOWN&gt;
-Announcement Date: 2026-01-22
-First Observed: 2026-01-23
-Last Observed: 2026-01-23
+Model: Gemini 2.0 Flash Lite
+Announcement Date: 2026-02-18
+First Observed: 2026-02-20
+Last Observed: 2026-02-20
 
-Incomplete deprecation notice - insufficient details provided</description>
-      <pubDate>Fri, 23 Jan 2026 03:27:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-80c17792</guid>
+Deprecation announcement: The following models will be shut down June 1, 2026: gemini-2.0-flash gemini-2.0-flash-001 gemini-2.0-flash-lite gemini-2.0-flash-lite-001</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:02 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: MISSING_MODEL_NAME</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260122</link>
+      <title>Google: Gemini 2.0 Flash Lite 001</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260218</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-lite-001
-Model: MISSING_MODEL_NAME
-Announcement Date: 2026-01-22
-First Observed: 2026-01-23
-Last Observed: 2026-01-23
+Model: Gemini 2.0 Flash Lite 001
+Announcement Date: 2026-02-18
+First Observed: 2026-02-20
+Last Observed: 2026-02-20
 
-Insufficient information provided in the deprecation notice</description>
-      <pubDate>Fri, 23 Jan 2026 03:27:42 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-001-37f0cd2c</guid>
+Deprecation announcement: The following models will be shut down June 1, 2026: gemini-2.0-flash gemini-2.0-flash-001 gemini-2.0-flash-lite gemini-2.0-flash-lite-001</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:02 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-001-e3b0c442</guid>
     </item>
     <item>
       <title>Google: &lt;UNKNOWN&gt;</title>
@@ -1000,6 +1011,34 @@ Model Claude 3.5 Sonnet v1. entered legacy status on 2025-08-25. and will reach 
       <guid isPermaLink="false">AWS_Bedrock-Claude_3.5_Sonnet_v1-2026-03-01-e3b0c442</guid>
     </item>
     <item>
+      <title>AWS Bedrock: August 25, 2025 (eu-central-2 Region)</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: August 25, 2025 (eu-central-2 Region)
+Model: August 25, 2025 (eu-central-2 Region)
+Shutdown Date: 2025-12-01
+
+Model August 25, 2025 (eu-central-2 Region). entered legacy status on 2025-12-01.</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-August_25,_2025_(eu-central-2_Region)-2025-12-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: January 30, 2026 (us-gov-east-1, us-gov-west-1, ap-northeast-1, ap-south-1, and ap-southeast-2
+                            Regions)</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: January 30, 2026 (us-gov-east-1, us-gov-west-1, ap-northeast-1, ap-south-1, and ap-southeast-2
+                            Regions)
+Model: January 30, 2026 (us-gov-east-1, us-gov-west-1, ap-northeast-1, ap-south-1, and ap-southeast-2
+                            Regions)
+Shutdown Date: 2026-04-30
+
+Model January 30, 2026 (us-gov-east-1, us-gov-west-1, ap-northeast-1, ap-south-1, and ap-southeast-2
+                            Regions). entered legacy status on 2026-04-30.</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-January_30,_2026_(us-gov-east-1,_us-gov-west-1,_ap-northeast-1,_ap-south-1,_and_ap-south</guid>
+    </item>
+    <item>
       <title>AWS Bedrock: Claude 3.5 Sonnet v2</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
@@ -1010,6 +1049,22 @@ Shutdown Date: 2026-03-01
 Model Claude 3.5 Sonnet v2. entered legacy status on 2025-08-25. and will reach end-of-life on 2026-03-01. Recommended replacement: Claude Sonnet 4.5.</description>
       <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_3.5_Sonnet_v2-2026-03-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: January 30, 2026 (ap-northeast-1, ap-northeast-3, ap-south-1, ap-south-2, and ap-southeast-2
+                            Regions)</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: January 30, 2026 (ap-northeast-1, ap-northeast-3, ap-south-1, ap-south-2, and ap-southeast-2
+                            Regions)
+Model: January 30, 2026 (ap-northeast-1, ap-northeast-3, ap-south-1, ap-south-2, and ap-southeast-2
+                            Regions)
+Shutdown Date: 2026-04-30
+
+Model January 30, 2026 (ap-northeast-1, ap-northeast-3, ap-south-1, ap-south-2, and ap-southeast-2
+                            Regions). entered legacy status on 2026-04-30.</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-January_30,_2026_(ap-northeast-1,_ap-northeast-3,_ap-south-1,_ap-south-2,_and_ap-southea</guid>
     </item>
     <item>
       <title>AWS Bedrock: Claude 3.7 Sonnet</title>
@@ -1024,6 +1079,23 @@ Model Claude 3.7 Sonnet. entered legacy status on 2025-10-28. and will reach end
       <guid isPermaLink="false">AWS_Bedrock-Claude_3.7_Sonnet-2026-04-28-e3b0c442</guid>
     </item>
     <item>
+      <title>AWS Bedrock: January 30, 2026 (us-gov-east-1 and us-gov-west-1
+                            Regions)</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: January 30, 2026 (us-gov-east-1 and us-gov-west-1
+                            Regions)
+Model: January 30, 2026 (us-gov-east-1 and us-gov-west-1
+                            Regions)
+Shutdown Date: 2026-04-30
+
+Model January 30, 2026 (us-gov-east-1 and us-gov-west-1
+                            Regions). entered legacy status on 2026-04-30.</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-January_30,_2026_(us-gov-east-1_and_us-gov-west-1
+____________________________Regions)-2</guid>
+    </item>
+    <item>
       <title>AWS Bedrock: Titan Image Generator G1 v2</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
@@ -1034,6 +1106,66 @@ Shutdown Date: 2026-06-30
 Model Titan Image Generator G1 v2. entered legacy status on 2025-12-30. and will reach end-of-life on 2026-06-30. Recommended replacement: Nova Canvas, Nova 2 Omni.</description>
       <pubDate>Sat, 20 Dec 2025 03:10:18 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Titan_Image_Generator_G1_v2-2026-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: Llama 3.1 405B Instruct</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: Llama 3.1 405B Instruct
+Model: Llama 3.1 405B Instruct
+Shutdown Date: 2026-07-07
+
+Model Llama 3.1 405B Instruct. entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement: Llama 4 Maverick 17B Instruct, Llama 4 Scout 17B Instruct.</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-Llama_3.1_405B_Instruct-2026-07-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: Llama 3.2 1B Instruct</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: Llama 3.2 1B Instruct
+Model: Llama 3.2 1B Instruct
+Shutdown Date: 2026-07-07
+
+Model Llama 3.2 1B Instruct. entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement: Llama 4 Maverick 17B Instruct, Llama 4 Scout 17B Instruct.</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-Llama_3.2_1B_Instruct-2026-07-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: Llama 3.2 3B Instruct</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: Llama 3.2 3B Instruct
+Model: Llama 3.2 3B Instruct
+Shutdown Date: 2026-07-07
+
+Model Llama 3.2 3B Instruct. entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement: Llama 4 Maverick 17B Instruct, Llama 4 Scout 17B Instruct.</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-Llama_3.2_3B_Instruct-2026-07-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: Llama 3.2 11B Instruct</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: Llama 3.2 11B Instruct
+Model: Llama 3.2 11B Instruct
+Shutdown Date: 2026-07-07
+
+Model Llama 3.2 11B Instruct. entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement: Llama 4 Maverick 17B Instruct, Llama 4 Scout 17B Instruct.</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-Llama_3.2_11B_Instruct-2026-07-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: Llama 3.2 90B Instruct</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: Llama 3.2 90B Instruct
+Model: Llama 3.2 90B Instruct
+Shutdown Date: 2026-07-07
+
+Model Llama 3.2 90B Instruct. entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement: Llama 4 Maverick 17B Instruct, Llama 4 Scout 17B Instruct.</description>
+      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-Llama_3.2_90B_Instruct-2026-07-07-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: Stable Diffusion XL 0.8</title>
