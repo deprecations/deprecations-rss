@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Tue, 24 Feb 2026 04:11:46 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 04:13:37 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest snapshot</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -1585,6 +1585,54 @@ Cohere</description>
       <guid isPermaLink="false">Azure-Cohere-command-r-plus-08-2024-2026-05-12-e3b0c442</guid>
     </item>
     <item>
+      <title>Azure: Meta-Llama-3.1-405B-Instruct</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Meta-Llama-3.1-405B-Instruct
+Model: Meta-Llama-3.1-405B-Instruct
+Shutdown Date: 2026-06-13
+
+Meta</description>
+      <pubDate>Wed, 25 Feb 2026 04:13:37 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Meta-Llama-3.1-405B-Instruct-2026-06-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Meta-Llama-3.1-8B</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Meta-Llama-3.1-8B
+Model: Meta-Llama-3.1-8B
+Shutdown Date: 2026-06-13
+
+Meta</description>
+      <pubDate>Wed, 25 Feb 2026 04:13:37 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Meta-Llama-3.1-8B-2026-06-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Llama-3.2-11B-Vision-Instruct</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Llama-3.2-11B-Vision-Instruct
+Model: Llama-3.2-11B-Vision-Instruct
+Shutdown Date: 2026-06-13
+
+Meta</description>
+      <pubDate>Wed, 25 Feb 2026 04:13:37 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Llama-3.2-11B-Vision-Instruct-2026-06-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Llama-3.2-90B-Vision-Instruct</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Llama-3.2-90B-Vision-Instruct
+Model: Llama-3.2-90B-Vision-Instruct
+Shutdown Date: 2026-06-13
+
+Meta</description>
+      <pubDate>Wed, 25 Feb 2026 04:13:37 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Llama-3.2-90B-Vision-Instruct-2026-06-13-e3b0c442</guid>
+    </item>
+    <item>
       <title>Azure: MAI-DS-R1</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -1595,6 +1643,18 @@ Shutdown Date: 2026-02-27
 Microsoft</description>
       <pubDate>Sat, 24 Jan 2026 03:21:49 GMT</pubDate>
       <guid isPermaLink="false">Azure-MAI-DS-R1-2026-02-27-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Kimi-k2-thinking</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Kimi-k2-thinking
+Model: Kimi-k2-thinking
+Shutdown Date: 2026-03-29
+
+Moonshot AI</description>
+      <pubDate>Wed, 25 Feb 2026 04:13:37 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Kimi-k2-thinking-2026-03-29-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Jamba Instruct</title>

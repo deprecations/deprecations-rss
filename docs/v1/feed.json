@@ -2571,6 +2571,86 @@
       ]
     },
     {
+      "id": "azure-meta-llama-3.1-405b-instruct",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-02-25T04:13:37.513193+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Meta-Llama-3.1-405B-Instruct",
+        "model_name": "Meta-Llama-3.1-405B-Instruct",
+        "shutdown_date": "2026-06-13",
+        "announcement_date": "2026-02-13",
+        "replacement_models": null
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-meta-llama-3.1-8b",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-02-25T04:13:37.513278+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Meta-Llama-3.1-8B",
+        "model_name": "Meta-Llama-3.1-8B",
+        "shutdown_date": "2026-06-13",
+        "announcement_date": "2026-02-13",
+        "replacement_models": null
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-llama-3.2-11b-vision-instruct",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-02-25T04:13:37.513361+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Llama-3.2-11B-Vision-Instruct",
+        "model_name": "Llama-3.2-11B-Vision-Instruct",
+        "shutdown_date": "2026-06-13",
+        "announcement_date": "2026-02-13",
+        "replacement_models": [
+          "Llama-4-Maverick-17B-128E-Instruct-FP8,Llama-4-Scout-17B-16E-Instruct"
+        ]
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-llama-3.2-90b-vision-instruct",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-02-25T04:13:37.513450+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Llama-3.2-90B-Vision-Instruct",
+        "model_name": "Llama-3.2-90B-Vision-Instruct",
+        "shutdown_date": "2026-06-13",
+        "announcement_date": "2026-02-13",
+        "replacement_models": [
+          "Llama-4-Maverick-17B-128E-Instruct-FP8,Llama-4-Scout-17B-16E-Instruct"
+        ]
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "azure-mai-ds-r1",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
@@ -2584,6 +2664,27 @@
         "announcement_date": "2026-01-16",
         "replacement_models": [
           "Any DeepSeek model available in the Model catalog"
+        ]
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-kimi-k2-thinking",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-02-25T04:13:37.513762+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Kimi-k2-thinking",
+        "model_name": "Kimi-k2-thinking",
+        "shutdown_date": "2026-03-29",
+        "announcement_date": "2026-02-23",
+        "replacement_models": [
+          "Kimi-k2.5"
         ]
       },
       "tags": [
