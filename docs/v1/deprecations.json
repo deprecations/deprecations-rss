@@ -411,6 +411,20 @@
   },
   {
     "provider": "Google",
+    "model_id": "gemini-3-pro-preview",
+    "model_name": "Gemini 3 Pro Preview",
+    "announcement_date": "2026-02-26",
+    "shutdown_date": "",
+    "replacement_models": null,
+    "deprecation_context": "Deprecation announcement: Gemini 3 Pro Preview ( gemini-3-pro-preview )\nwill be shut down March 9, 2026.",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog#20260226",
+    "content_hash": "d3c4f9815f87ea3b",
+    "scraped_at": "2026-02-27T04:06:58.664291+00:00",
+    "first_observed": "2026-02-27",
+    "last_observed": "2026-02-27"
+  },
+  {
+    "provider": "Google",
     "model_id": "gemini-2.0-flash",
     "model_name": "Gemini 2.0 Flash",
     "announcement_date": "2026-02-18",

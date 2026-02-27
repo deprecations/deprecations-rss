@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 26 Feb 2026 04:10:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 04:07:12 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest snapshot</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -372,6 +372,21 @@ Shutdown Date: 2024-11-06
 </description>
       <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-instant-1.2-2024-11-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: Gemini 3 Pro Preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260226</link>
+      <description>Provider: Google
+Model ID: gemini-3-pro-preview
+Model: Gemini 3 Pro Preview
+Announcement Date: 2026-02-26
+First Observed: 2026-02-27
+Last Observed: 2026-02-27
+
+Deprecation announcement: Gemini 3 Pro Preview ( gemini-3-pro-preview )
+will be shut down March 9, 2026.</description>
+      <pubDate>Fri, 27 Feb 2026 04:06:58 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-3-pro-preview-e3b0c442</guid>
     </item>
     <item>
       <title>Google: Gemini 2.0 Flash</title>
