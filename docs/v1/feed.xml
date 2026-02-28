@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 27 Feb 2026 04:07:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 03:48:26 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest snapshot</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -1483,21 +1483,39 @@ Model Amazon Titan Image Generator G1 V1. entered legacy status on 2025-01-31. a
       <guid isPermaLink="false">AWS_Bedrock-Amazon_Titan_Image_Generator_G1_V1-2025-08-15-e3b0c442</guid>
     </item>
     <item>
+      <title>Cohere: Embed v2.0, Aya Expanse 8B</title>
+      <link>https://docs.cohere.com/docs/deprecations#2026-04-04</link>
+      <description>Provider: Cohere
+Model ID: Embed v2.0, Aya Expanse 8B
+Model: Embed v2.0, Aya Expanse 8B
+Announcement Date: 2026-04-04
+First Observed: 2026-02-28
+Last Observed: 2026-02-28
+
+2026-04-04: Embed v2.0, Aya Expanse 8B
+Effective April 4th, 2026, the following models will be retired:
+embed-english-v2.0embed-english-light-v2.0embed-multilingual-v2.0c4ai-aya-expanse-8bc4ai-aya-vision-8b
+We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities:
+Embedding tasks alternatives:embed-english-v3.0embed-multilingual-v3.0embed-v4.0Chat tasks alternatives:command-r7b-12-2024command-a-03-2025command-a-reasoning-08-...</description>
+      <pubDate>Sat, 28 Feb 2026 03:48:19 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-Embed_v2.0,_Aya_Expanse_8B-e3b0c442</guid>
+    </item>
+    <item>
       <title>Cohere: Various older command models, a number of endpoints, all of fine-tuning.</title>
       <link>https://docs.cohere.com/docs/deprecations#2025-09-15</link>
       <description>Provider: Cohere
 Model ID: Various older command models, a number of endpoints, all of fine-tuning.
 Model: Various older command models, a number of endpoints, all of fine-tuning.
 Announcement Date: 2025-09-15
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+First Observed: 2026-02-28
+Last Observed: 2026-02-28
 
 2025-09-15: Various older command models, a number of endpoints, all of fine-tuning.
-Effective September 15, 2025, the following deprecatations will roll out.
+Effective September 15, 2025, the following deprecations will roll out.
 Deprecated Models:
 command-r-03-2024(and the aliascommand-r)command-r-plus-04-2024(and the aliascommand-r-plus)command-lightcommandsummarize(Refer tothe migration guidefor alternatives).
-For command model replacements, we recommend you usecommand-r-08-2024,command-r-plus-08-2024, orcommand-a-03-2025(which is the strongest-performing model ...</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+For command model replacements, we recommend you usecommand-r-08-2024,command-r-plus-08-2024, orcommand-a-03-2025(which is the strongest-performing model ac...</description>
+      <pubDate>Sat, 28 Feb 2026 03:48:19 GMT</pubDate>
       <guid isPermaLink="false">Cohere-Various_older_command_models,_a_number_of_endpoints,_all_of_fine-tuning.-e3b0c442</guid>
     </item>
     <item>

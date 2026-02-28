@@ -1601,17 +1601,31 @@
   },
   {
     "provider": "Cohere",
+    "model_id": "Embed v2.0, Aya Expanse 8B",
+    "model_name": "Embed v2.0, Aya Expanse 8B",
+    "announcement_date": "2026-04-04",
+    "shutdown_date": "",
+    "replacement_models": null,
+    "deprecation_context": "2026-04-04: Embed v2.0, Aya Expanse 8B\nEffective April 4th, 2026, the following models will be retired:\nembed-english-v2.0embed-english-light-v2.0embed-multilingual-v2.0c4ai-aya-expanse-8bc4ai-aya-vision-8b\nWe encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities:\nEmbedding tasks alternatives:embed-english-v3.0embed-multilingual-v3.0embed-v4.0Chat tasks alternatives:command-r7b-12-2024command-a-03-2025command-a-reasoning-08-2025\nOur team is here to ensure a seamless transition. For questions or assistance, please don’t hesitate reaching out to us atsupport@cohere.com. Thank you for your continued partnership. We look forward to powering your applications with our latest AI advancements.",
+    "url": "https://docs.cohere.com/docs/deprecations#2026-04-04",
+    "content_hash": "08b938101a7595a3",
+    "scraped_at": "2026-02-28T03:48:19.622249+00:00",
+    "first_observed": "2026-02-28",
+    "last_observed": "2026-02-28"
+  },
+  {
+    "provider": "Cohere",
     "model_id": "Various older command models, a number of endpoints, all of fine-tuning.",
     "model_name": "Various older command models, a number of endpoints, all of fine-tuning.",
     "announcement_date": "2025-09-15",
     "shutdown_date": "",
     "replacement_models": null,
-    "deprecation_context": "2025-09-15: Various older command models, a number of endpoints, all of fine-tuning.\nEffective September 15, 2025, the following deprecatations will roll out.\nDeprecated Models:\ncommand-r-03-2024(and the aliascommand-r)command-r-plus-04-2024(and the aliascommand-r-plus)command-lightcommandsummarize(Refer tothe migration guidefor alternatives).\nFor command model replacements, we recommend you usecommand-r-08-2024,command-r-plus-08-2024, orcommand-a-03-2025(which is the strongest-performing model across domains) instead.\nRetired Fine-Tuning Capabilities:\nFine-tuning for thecommand-light,command,command-r,classify, andrerankmodels is being retired. This covers both the Cohere dashboard and API. Previously fine-tuned models will no longer be accessible.\nDeprecated Features and API Endpoints:\n/v1/connectors(Managed connectors for RAG)/v1/chatparameters:connectors,search_queries_only/v1/generate(Legacy generative endpoint)/v1/summarize(Legacy summarization endpoint)/v1/classifySlack App integrationCoral Web UI (chat.cohere.com and coral.cohere.com)\nThese changes reflect our commitment to innovation and performance optimization. We encourage users to assess their current implementations and migrate to recommended alternatives. Our support team is available atsupport@cohere.comto assist with the transition. For detailed guidance, please refer to our migration resources and technical documentation.",
+    "deprecation_context": "2025-09-15: Various older command models, a number of endpoints, all of fine-tuning.\nEffective September 15, 2025, the following deprecations will roll out.\nDeprecated Models:\ncommand-r-03-2024(and the aliascommand-r)command-r-plus-04-2024(and the aliascommand-r-plus)command-lightcommandsummarize(Refer tothe migration guidefor alternatives).\nFor command model replacements, we recommend you usecommand-r-08-2024,command-r-plus-08-2024, orcommand-a-03-2025(which is the strongest-performing model across domains) instead.\nRetired Fine-Tuning Capabilities:\nFine-tuning for thecommand-light,command,command-r,classify, andrerankmodels is being retired. This covers both the Cohere dashboard and API. Previously fine-tuned models will no longer be accessible.\nDeprecated Features and API Endpoints:\n/v1/connectors(Managed connectors for RAG)/v1/chatparameters:connectors,search_queries_only/v1/generate(Legacy generative endpoint)/v1/summarize(Legacy summarization endpoint)/v1/classifySlack App integrationCoral Web UI (chat.cohere.com and coral.cohere.com)\nThese changes reflect our commitment to innovation and performance optimization. We encourage users to assess their current implementations and migrate to recommended alternatives. Our support team is available atsupport@cohere.comto assist with the transition. For detailed guidance, please refer to our migration resources and technical documentation.",
     "url": "https://docs.cohere.com/docs/deprecations#2025-09-15",
-    "content_hash": "ef5b6c28193cff1e",
-    "scraped_at": "2025-12-05T16:52:41.504282+00:00",
-    "first_observed": "2025-12-05",
-    "last_observed": "2025-12-05"
+    "content_hash": "1610818f0ab9fb4d",
+    "scraped_at": "2026-02-28T03:48:19.900965+00:00",
+    "first_observed": "2026-02-28",
+    "last_observed": "2026-02-28"
   },
   {
     "provider": "Cohere",

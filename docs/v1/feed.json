@@ -2424,11 +2424,32 @@
       ]
     },
     {
+      "id": "cohere-embed-v2.0,-aya-expanse-8b",
+      "url": "https://docs.cohere.com/docs/deprecations#2026-04-04",
+      "title": "Cohere Deprecation",
+      "content_text": "",
+      "date_published": "2026-02-28T03:48:19.622249+00:00",
+      "_deprecation": {
+        "provider": "Cohere",
+        "model_id": "Embed v2.0, Aya Expanse 8B",
+        "model_name": "Embed v2.0, Aya Expanse 8B",
+        "shutdown_date": "",
+        "announcement_date": "2026-04-04",
+        "replacement_models": null,
+        "first_observed": "2026-02-28",
+        "last_observed": "2026-02-28"
+      },
+      "tags": [
+        "Cohere",
+        "shutdown-"
+      ]
+    },
+    {
       "id": "cohere-various-older-command-models,-a-number-of-endpoints,-all-of-fine-tuning.",
       "url": "https://docs.cohere.com/docs/deprecations#2025-09-15",
       "title": "Cohere Deprecation",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.504282+00:00",
+      "date_published": "2026-02-28T03:48:19.900965+00:00",
       "_deprecation": {
         "provider": "Cohere",
         "model_id": "Various older command models, a number of endpoints, all of fine-tuning.",
@@ -2436,8 +2457,8 @@
         "shutdown_date": "",
         "announcement_date": "2025-09-15",
         "replacement_models": null,
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
+        "first_observed": "2026-02-28",
+        "last_observed": "2026-02-28"
       },
       "tags": [
         "Cohere",
