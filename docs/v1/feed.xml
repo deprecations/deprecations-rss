@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Wed, 11 Mar 2026 04:03:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 04:07:33 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest snapshot</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -372,6 +372,37 @@ Shutdown Date: 2024-11-06
 </description>
       <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-instant-1.2-2024-11-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: Gemini Embedding 2 Preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260310</link>
+      <description>Provider: Google
+Model ID: gemini-embedding-2-preview
+Model: Gemini Embedding 2 Preview
+Announcement Date: 2026-03-10
+First Observed: 2026-03-12
+Last Observed: 2026-03-12
+
+Released gemini-embedding-2-preview , our first multimodal embedding model.
+It supports text, image, video, audio, and PDF inputs,
+mapping all modalities into a unified embedding space. To learn more, see Embeddings .</description>
+      <pubDate>Thu, 12 Mar 2026 04:07:19 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-embedding-2-preview-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: Gemini 2.5 Flash Lite Preview 09 2025</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260310</link>
+      <description>Provider: Google
+Model ID: gemini-2.5-flash-lite-preview-09-2025
+Model: Gemini 2.5 Flash Lite Preview 09 2025
+Announcement Date: 2026-03-10
+First Observed: 2026-03-12
+Last Observed: 2026-03-12
+
+Deprecation announcement: The gemini-2.5-flash-lite-preview-09-2025 model
+will be shut down on March 31, 2026.</description>
+      <pubDate>Thu, 12 Mar 2026 04:07:19 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-lite-preview-09-2025-e3b0c442</guid>
     </item>
     <item>
       <title>Google: Gemini 3 Pro Preview</title>
