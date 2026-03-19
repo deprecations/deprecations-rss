@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Wed, 18 Mar 2026 04:17:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 04:16:13 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest snapshot</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -1212,6 +1212,30 @@ Shutdown Date: 2026-07-07
 Model Llama 3.2 90B Instruct. entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement: Llama 4 Maverick 17B Instruct, Llama 4 Scout 17B Instruct.</description>
       <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Llama_3.2_90B_Instruct-2026-07-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: Amazon Nova Premier</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: Amazon Nova Premier
+Model: Amazon Nova Premier
+Shutdown Date: 2026-09-14
+
+Model Amazon Nova Premier. entered legacy status on 2026-03-13. and will reach end-of-life on 2026-09-14. Recommended replacement: Nova 2 Lite.</description>
+      <pubDate>Thu, 19 Mar 2026 04:16:01 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-Amazon_Nova_Premier-2026-09-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: Amazon Nova Sonic</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: Amazon Nova Sonic
+Model: Amazon Nova Sonic
+Shutdown Date: 2026-09-14
+
+Model Amazon Nova Sonic. entered legacy status on 2026-03-13. and will reach end-of-life on 2026-09-14. Recommended replacement: Amazon Nova 2 Sonic.</description>
+      <pubDate>Thu, 19 Mar 2026 04:16:01 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-Amazon_Nova_Sonic-2026-09-14-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: Stable Diffusion XL 0.8</title>

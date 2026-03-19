@@ -1934,6 +1934,48 @@
       ]
     },
     {
+      "id": "aws-bedrock-amazon-nova-premier",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+      "title": "AWS Bedrock Deprecation",
+      "content_text": "",
+      "date_published": "2026-03-19T04:16:01.520033+00:00",
+      "_deprecation": {
+        "provider": "AWS Bedrock",
+        "model_id": "Amazon Nova Premier",
+        "model_name": "Amazon Nova Premier",
+        "shutdown_date": "2026-09-14",
+        "announcement_date": "2026-03-13",
+        "replacement_models": [
+          "Nova 2 Lite"
+        ]
+      },
+      "tags": [
+        "AWS Bedrock",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "aws-bedrock-amazon-nova-sonic",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+      "title": "AWS Bedrock Deprecation",
+      "content_text": "",
+      "date_published": "2026-03-19T04:16:01.520082+00:00",
+      "_deprecation": {
+        "provider": "AWS Bedrock",
+        "model_id": "Amazon Nova Sonic",
+        "model_name": "Amazon Nova Sonic",
+        "shutdown_date": "2026-09-14",
+        "announcement_date": "2026-03-13",
+        "replacement_models": [
+          "Amazon Nova 2 Sonic"
+        ]
+      },
+      "tags": [
+        "AWS Bedrock",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "aws-bedrock-stable-diffusion-xl-0.8",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock Deprecation",

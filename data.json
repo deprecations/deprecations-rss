@@ -1272,6 +1272,34 @@
   },
   {
     "provider": "AWS Bedrock",
+    "model_id": "Amazon Nova Premier",
+    "model_name": "Amazon Nova Premier",
+    "announcement_date": "2026-03-13",
+    "shutdown_date": "2026-09-14",
+    "replacement_models": [
+      "Nova 2 Lite"
+    ],
+    "deprecation_context": "Model Amazon Nova Premier. entered legacy status on 2026-03-13. and will reach end-of-life on 2026-09-14. Recommended replacement: Nova 2 Lite.",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+    "content_hash": "4a552a8c5697e455",
+    "scraped_at": "2026-03-19T04:16:01.520033+00:00"
+  },
+  {
+    "provider": "AWS Bedrock",
+    "model_id": "Amazon Nova Sonic",
+    "model_name": "Amazon Nova Sonic",
+    "announcement_date": "2026-03-13",
+    "shutdown_date": "2026-09-14",
+    "replacement_models": [
+      "Amazon Nova 2 Sonic"
+    ],
+    "deprecation_context": "Model Amazon Nova Sonic. entered legacy status on 2026-03-13. and will reach end-of-life on 2026-09-14. Recommended replacement: Amazon Nova 2 Sonic.",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+    "content_hash": "0b1342d09a7714ca",
+    "scraped_at": "2026-03-19T04:16:01.520082+00:00"
+  },
+  {
+    "provider": "AWS Bedrock",
     "model_id": "Stable Diffusion XL 0.8",
     "model_name": "Stable Diffusion XL 0.8",
     "announcement_date": "2024-02-02",
