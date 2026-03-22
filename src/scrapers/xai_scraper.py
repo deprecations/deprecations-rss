@@ -99,8 +99,10 @@ class XAIScraper(EnhancedBaseScraper):
             items.extend(table_items)
 
         deprecated_sections = soup.find_all(
-            lambda tag: tag.name in ["div", "section", "p"]
-            and "deprecat" in tag.get_text().lower()
+            lambda tag: (
+                tag.name in ["div", "section", "p"]
+                and "deprecat" in tag.get_text().lower()
+            )
         )
 
         for section in deprecated_sections:
