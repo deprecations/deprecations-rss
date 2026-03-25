@@ -1741,6 +1741,18 @@
   },
   {
     "provider": "Azure",
+    "model_id": "E.L.Y.Crop-Protection",
+    "model_name": "E.L.Y.Crop-Protection",
+    "announcement_date": "2026-03-16",
+    "shutdown_date": "2026-07-31",
+    "replacement_models": null,
+    "deprecation_context": "Bayer",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "84447727cb8304c7",
+    "scraped_at": "2026-03-25T04:13:22.067506+00:00"
+  },
+  {
+    "provider": "Azure",
     "model_id": "Cohere-rerank-v3.5",
     "model_name": "Cohere-rerank-v3.5",
     "announcement_date": "2026-01-14",
@@ -1783,6 +1795,18 @@
   },
   {
     "provider": "Azure",
+    "model_id": "deci-decidiffusion-v1-0",
+    "model_name": "deci-decidiffusion-v1-0",
+    "announcement_date": "2026-03-16",
+    "shutdown_date": "2026-07-31",
+    "replacement_models": null,
+    "deprecation_context": "Deci AI",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "40f9a6eacad08c65",
+    "scraped_at": "2026-03-25T04:13:22.068025+00:00"
+  },
+  {
+    "provider": "Azure",
     "model_id": "Meta-Llama-3.1-405B-Instruct",
     "model_name": "Meta-Llama-3.1-405B-Instruct",
     "announcement_date": "2026-02-13",
@@ -1792,6 +1816,18 @@
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
     "content_hash": "8a5229f738490391",
     "scraped_at": "2026-02-25T04:13:37.513193+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Meta-Llama-3.1-8B-Instruct",
+    "model_name": "Meta-Llama-3.1-8B-Instruct",
+    "announcement_date": "2026-02-13",
+    "shutdown_date": "2026-06-13",
+    "replacement_models": null,
+    "deprecation_context": "Meta",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "55eb57de3a0f6125",
+    "scraped_at": "2026-03-25T04:13:22.068294+00:00"
   },
   {
     "provider": "Azure",
@@ -1832,6 +1868,54 @@
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
     "content_hash": "528e6adfdc771140",
     "scraped_at": "2026-02-25T04:13:37.513450+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "financial-reports-analysis",
+    "model_name": "financial-reports-analysis",
+    "announcement_date": "2026-03-16",
+    "shutdown_date": "2026-07-31",
+    "replacement_models": null,
+    "deprecation_context": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "c9257f155e3d2f01",
+    "scraped_at": "2026-03-25T04:13:22.068699+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "financial-reports-analysis-v2",
+    "model_name": "financial-reports-analysis-v2",
+    "announcement_date": "2026-03-16",
+    "shutdown_date": "2026-07-31",
+    "replacement_models": null,
+    "deprecation_context": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "83450c6e8ae0c409",
+    "scraped_at": "2026-03-25T04:13:22.068778+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "supply-chain-trade-regulations",
+    "model_name": "supply-chain-trade-regulations",
+    "announcement_date": "2026-03-16",
+    "shutdown_date": "2026-07-31",
+    "replacement_models": null,
+    "deprecation_context": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "acb99c1a6256fa9e",
+    "scraped_at": "2026-03-25T04:13:22.068856+00:00"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "supply-chain-trade-regulations-v2",
+    "model_name": "supply-chain-trade-regulations-v2",
+    "announcement_date": "2026-03-16",
+    "shutdown_date": "2026-07-31",
+    "replacement_models": null,
+    "deprecation_context": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "68b501c2caafd8d0",
+    "scraped_at": "2026-03-25T04:13:22.068933+00:00"
   },
   {
     "provider": "Azure",

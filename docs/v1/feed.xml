@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Tue, 24 Mar 2026 04:11:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 04:13:22 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest snapshot</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -1637,6 +1637,18 @@ Regularly check our documentation for updates on ann...</description>
       <guid isPermaLink="false">Cohere-rerank-multilingual-v2.0-2025-04-30-e3b0c442</guid>
     </item>
     <item>
+      <title>Azure: E.L.Y.Crop-Protection</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: E.L.Y.Crop-Protection
+Model: E.L.Y.Crop-Protection
+Shutdown Date: 2026-07-31
+
+Bayer</description>
+      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
+      <guid isPermaLink="false">Azure-E.L.Y.Crop-Protection-2026-07-31-e3b0c442</guid>
+    </item>
+    <item>
       <title>Azure: Cohere-rerank-v3.5</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -1673,6 +1685,18 @@ Cohere</description>
       <guid isPermaLink="false">Azure-Cohere-command-r-plus-08-2024-2026-05-12-e3b0c442</guid>
     </item>
     <item>
+      <title>Azure: deci-decidiffusion-v1-0</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: deci-decidiffusion-v1-0
+Model: deci-decidiffusion-v1-0
+Shutdown Date: 2026-07-31
+
+Deci AI</description>
+      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
+      <guid isPermaLink="false">Azure-deci-decidiffusion-v1-0-2026-07-31-e3b0c442</guid>
+    </item>
+    <item>
       <title>Azure: Meta-Llama-3.1-405B-Instruct</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -1683,6 +1707,18 @@ Shutdown Date: 2026-06-13
 Meta</description>
       <pubDate>Wed, 25 Feb 2026 04:13:37 GMT</pubDate>
       <guid isPermaLink="false">Azure-Meta-Llama-3.1-405B-Instruct-2026-06-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Meta-Llama-3.1-8B-Instruct</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Meta-Llama-3.1-8B-Instruct
+Model: Meta-Llama-3.1-8B-Instruct
+Shutdown Date: 2026-06-13
+
+Meta</description>
+      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Meta-Llama-3.1-8B-Instruct-2026-06-13-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Meta-Llama-3.1-8B</title>
@@ -1719,6 +1755,54 @@ Shutdown Date: 2026-06-13
 Meta</description>
       <pubDate>Wed, 25 Feb 2026 04:13:37 GMT</pubDate>
       <guid isPermaLink="false">Azure-Llama-3.2-90B-Vision-Instruct-2026-06-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: financial-reports-analysis</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: financial-reports-analysis
+Model: financial-reports-analysis
+Shutdown Date: 2026-07-31
+
+Microsoft</description>
+      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
+      <guid isPermaLink="false">Azure-financial-reports-analysis-2026-07-31-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: financial-reports-analysis-v2</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: financial-reports-analysis-v2
+Model: financial-reports-analysis-v2
+Shutdown Date: 2026-07-31
+
+Microsoft</description>
+      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
+      <guid isPermaLink="false">Azure-financial-reports-analysis-v2-2026-07-31-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: supply-chain-trade-regulations</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: supply-chain-trade-regulations
+Model: supply-chain-trade-regulations
+Shutdown Date: 2026-07-31
+
+Microsoft</description>
+      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
+      <guid isPermaLink="false">Azure-supply-chain-trade-regulations-2026-07-31-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: supply-chain-trade-regulations-v2</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: supply-chain-trade-regulations-v2
+Model: supply-chain-trade-regulations-v2
+Shutdown Date: 2026-07-31
+
+Microsoft</description>
+      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
+      <guid isPermaLink="false">Azure-supply-chain-trade-regulations-v2-2026-07-31-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Kimi-k2-thinking</title>

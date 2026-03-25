@@ -2634,6 +2634,25 @@
       ]
     },
     {
+      "id": "azure-e.l.y.crop-protection",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-03-25T04:13:22.067506+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "E.L.Y.Crop-Protection",
+        "model_name": "E.L.Y.Crop-Protection",
+        "shutdown_date": "2026-07-31",
+        "announcement_date": "2026-03-16",
+        "replacement_models": null
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "azure-cohere-rerank-v3.5",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
@@ -2697,6 +2716,25 @@
       ]
     },
     {
+      "id": "azure-deci-decidiffusion-v1-0",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-03-25T04:13:22.068025+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "deci-decidiffusion-v1-0",
+        "model_name": "deci-decidiffusion-v1-0",
+        "shutdown_date": "2026-07-31",
+        "announcement_date": "2026-03-16",
+        "replacement_models": null
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "azure-meta-llama-3.1-405b-instruct",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure Deprecation",
@@ -2706,6 +2744,25 @@
         "provider": "Azure",
         "model_id": "Meta-Llama-3.1-405B-Instruct",
         "model_name": "Meta-Llama-3.1-405B-Instruct",
+        "shutdown_date": "2026-06-13",
+        "announcement_date": "2026-02-13",
+        "replacement_models": null
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-meta-llama-3.1-8b-instruct",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-03-25T04:13:22.068294+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Meta-Llama-3.1-8B-Instruct",
+        "model_name": "Meta-Llama-3.1-8B-Instruct",
         "shutdown_date": "2026-06-13",
         "announcement_date": "2026-02-13",
         "replacement_models": null
@@ -2770,6 +2827,82 @@
         "replacement_models": [
           "Llama-4-Maverick-17B-128E-Instruct-FP8,Llama-4-Scout-17B-16E-Instruct"
         ]
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-financial-reports-analysis",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-03-25T04:13:22.068699+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "financial-reports-analysis",
+        "model_name": "financial-reports-analysis",
+        "shutdown_date": "2026-07-31",
+        "announcement_date": "2026-03-16",
+        "replacement_models": null
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-financial-reports-analysis-v2",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-03-25T04:13:22.068778+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "financial-reports-analysis-v2",
+        "model_name": "financial-reports-analysis-v2",
+        "shutdown_date": "2026-07-31",
+        "announcement_date": "2026-03-16",
+        "replacement_models": null
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-supply-chain-trade-regulations",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-03-25T04:13:22.068856+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "supply-chain-trade-regulations",
+        "model_name": "supply-chain-trade-regulations",
+        "shutdown_date": "2026-07-31",
+        "announcement_date": "2026-03-16",
+        "replacement_models": null
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-supply-chain-trade-regulations-v2",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure Deprecation",
+      "content_text": "",
+      "date_published": "2026-03-25T04:13:22.068933+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "supply-chain-trade-regulations-v2",
+        "model_name": "supply-chain-trade-regulations-v2",
+        "shutdown_date": "2026-07-31",
+        "announcement_date": "2026-03-16",
+        "replacement_models": null
       },
       "tags": [
         "Azure",
