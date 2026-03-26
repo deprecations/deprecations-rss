@@ -1,35 +1,23 @@
 set shell := ["bash", "-cu"]
+port := env_var_or_default("PORT", "8910")
 
-port := env_var_or_default("PORT", "8000")
-
-# Show available recipes
-_default:
-    @just --list
-
-# Install project tooling/dependencies
 up:
     uv sync
 
-# Generate deprecations data and feeds
-generate:
-    python run.py
+run:
+    uv run python -m src.main
 
-# Serve docs locally
 server:
     cd docs && python -m http.server {{port}}
 
-# Run tests
 test:
-    pytest .
+    uv run pytest .
 
-# Auto-fix lint/format issues
 format:
-    ruff check --fix --unsafe-fixes . && ruff format .
+    uv run ruff check --fix --unsafe-fixes . && uv run ruff format .
 
-# Check lint/format without modifying files
 lint:
-    ruff check . && ruff format --check .
+    uv run ruff check . && uv run ruff format --check .
 
-# Open app URL
-open-app:
+open:
     python -m webbrowser http://localhost:{{port}}
