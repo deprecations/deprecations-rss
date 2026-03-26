@@ -1,99 +1,106 @@
-"""Cache manager for HTML responses, to speed up local development."""
+"""Cache manager for fetched provider pages, including HTML and Markdown."""
 
-import json
+from __future__ import annotations
+
 import hashlib
+import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Optional, Dict, Any
+from typing import Any, Dict, Optional
 
 
 class CacheManager:
-    """Manages cached HTML responses with TTL support."""
+    """Manages cached provider content with TTL support."""
 
     def __init__(self, cache_dir: str = "cache", ttl_hours: int = 24):
         self.cache_dir = Path(cache_dir)
         self.html_dir = self.cache_dir / "html"
+        self.markdown_dir = self.cache_dir / "markdown"
         self.manifest_path = self.cache_dir / "cache_manifest.json"
         self.ttl_hours = ttl_hours
 
-        # Create cache directories
         self.html_dir.mkdir(parents=True, exist_ok=True)
+        self.markdown_dir.mkdir(parents=True, exist_ok=True)
 
-        # Load or create manifest
         self.manifest = self._load_manifest()
 
     def _load_manifest(self) -> Dict[str, Any]:
-        """Load the cache manifest or create empty one."""
+        """Load the cache manifest or create an empty one."""
         if self.manifest_path.exists():
             try:
-                with open(self.manifest_path, "r") as f:
-                    return json.load(f)
+                with open(self.manifest_path, "r", encoding="utf-8") as file:
+                    return json.load(file)
             except (json.JSONDecodeError, IOError):
                 return {}
         return {}
 
     def _save_manifest(self):
         """Save the manifest to disk."""
-        with open(self.manifest_path, "w") as f:
-            json.dump(self.manifest, f, indent=2)
+        with open(self.manifest_path, "w", encoding="utf-8") as file:
+            json.dump(self.manifest, file, indent=2)
 
     def _get_cache_key(self, provider: str, url: str) -> str:
         """Generate a cache key from provider and URL."""
-        # Use a hash to handle long URLs and special characters
         url_hash = hashlib.md5(url.encode()).hexdigest()[:8]
         return f"{provider}_{url_hash}"
 
-    def _get_cache_path(self, cache_key: str) -> Path:
-        """Get the file path for a cache key."""
+    def _is_markdown_url(self, url: str) -> bool:
+        """Return True when the source URL points to markdown content."""
+        return url.lower().split("?", 1)[0].endswith(".md")
+
+    def _get_cache_path(self, cache_key: str, url: str) -> Path:
+        """Get the file path for a cache entry based on URL type."""
+        if self._is_markdown_url(url):
+            return self.markdown_dir / f"{cache_key}.md"
         return self.html_dir / f"{cache_key}.html"
+
+    def _get_manifest_cache_path(self, cache_key: str, url: str) -> Path:
+        """Resolve the cache path, preferring the manifest entry when present."""
+        entry = self.manifest.get(cache_key)
+        if entry and entry.get("file"):
+            return self.cache_dir / entry["file"]
+        return self._get_cache_path(cache_key, url)
 
     def is_cached(self, provider: str, url: str) -> bool:
         """Check if valid cached content exists."""
         cache_key = self._get_cache_key(provider, url)
-
         if cache_key not in self.manifest:
             return False
 
         entry = self.manifest[cache_key]
         cached_at = datetime.fromisoformat(entry["cached_at"])
-        expires_at = cached_at + timedelta(hours=self.ttl_hours)
-
-        # Check if cache has expired
+        expires_at = cached_at + timedelta(hours=entry.get("ttl_hours", self.ttl_hours))
         if datetime.now(timezone.utc) > expires_at:
             return False
 
-        # Check if file exists
-        cache_path = self._get_cache_path(cache_key)
-        return cache_path.exists()
+        return self._get_manifest_cache_path(cache_key, url).exists()
 
     def get_cached_html(self, provider: str, url: str) -> Optional[str]:
-        """Get cached HTML if available and not expired."""
+        """Get cached provider content if available and not expired."""
         if not self.is_cached(provider, url):
             return None
 
         cache_key = self._get_cache_key(provider, url)
-        cache_path = self._get_cache_path(cache_key)
+        cache_path = self._get_manifest_cache_path(cache_key, url)
 
         try:
-            with open(cache_path, "r", encoding="utf-8") as f:
-                return f.read()
+            with open(cache_path, "r", encoding="utf-8") as file:
+                return file.read()
         except IOError:
-            # Remove from manifest if file read fails
             if cache_key in self.manifest:
                 del self.manifest[cache_key]
                 self._save_manifest()
             return None
 
     def save_html(self, provider: str, url: str, html: str):
-        """Save HTML content to cache."""
+        """Save provider content to cache."""
         cache_key = self._get_cache_key(provider, url)
-        cache_path = self._get_cache_path(cache_key)
+        cache_path = self._get_cache_path(cache_key, url)
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
 
-        # Write HTML file
-        with open(cache_path, "w", encoding="utf-8") as f:
-            f.write(html)
+        with open(cache_path, "w", encoding="utf-8") as file:
+            file.write(html)
 
-        # Update manifest
         self.manifest[cache_key] = {
             "provider": provider,
             "url": url,
@@ -112,15 +119,12 @@ class CacheManager:
             expires_at = cached_at + timedelta(
                 hours=entry.get("ttl_hours", self.ttl_hours)
             )
-
             if datetime.now(timezone.utc) > expires_at:
                 expired_keys.append(cache_key)
-                # Delete the file
-                cache_path = self._get_cache_path(cache_key)
+                cache_path = self.cache_dir / entry.get("file", "")
                 if cache_path.exists():
                     cache_path.unlink()
 
-        # Remove from manifest
         for key in expired_keys:
             del self.manifest[key]
 
@@ -130,14 +134,13 @@ class CacheManager:
 
     def clear_all(self):
         """Clear all cache entries."""
-        # Remove all HTML files
-        for html_file in self.html_dir.glob("*.html"):
-            html_file.unlink()
+        for cache_file in list(self.html_dir.glob("*.html")) + list(
+            self.markdown_dir.glob("*.md")
+        ):
+            cache_file.unlink()
 
-        # Clear manifest
         self.manifest = {}
         self._save_manifest()
-
         print("Cleared all cache entries")
 
     def get_stats(self) -> Dict[str, Any]:
@@ -145,15 +148,17 @@ class CacheManager:
         total_entries = len(self.manifest)
         valid_entries = sum(
             1
-            for p, u in [(e["provider"], e["url"]) for e in self.manifest.values()]
-            if self.is_cached(p, u)
+            for provider, url in [
+                (entry["provider"], entry["url"]) for entry in self.manifest.values()
+            ]
+            if self.is_cached(provider, url)
         )
 
-        total_size = sum(
-            self._get_cache_path(k).stat().st_size
-            for k in self.manifest
-            if self._get_cache_path(k).exists()
-        )
+        total_size = 0
+        for cache_key, entry in self.manifest.items():
+            path = self._get_manifest_cache_path(cache_key, entry["url"])
+            if path.exists():
+                total_size += path.stat().st_size
 
         return {
             "total_entries": total_entries,

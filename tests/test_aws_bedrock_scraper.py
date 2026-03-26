@@ -156,6 +156,84 @@ def test_extracts_multiple_legacy_models(fixture_html):
         assert item.url == scraper.url
 
 
+def test_does_not_extract_dates_as_model_names(fixture_html):
+    """Continuation rows should not turn regional dates into fake model names."""
+    scraper = AWSBedrockScraper()
+    items = scraper.extract_structured_deprecations(fixture_html)
+
+    date_like_prefixes = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ]
+
+    bad_items = [
+        item.model_name
+        for item in items
+        if any(item.model_name.startswith(prefix) for prefix in date_like_prefixes)
+    ]
+
+    assert bad_items == [], f"Found date strings being used as model names: {bad_items}"
+
+
+def test_merges_regional_schedule_rows_into_real_model_context():
+    """Regional continuation rows should be merged back into the owning model."""
+    scraper = AWSBedrockScraper()
+    html = """
+    <html>
+      <body>
+        <main>
+          <table>
+            <tr>
+              <th>Model version</th>
+              <th>Legacy date</th>
+              <th>Public extended access date</th>
+              <th>EOL date</th>
+              <th>Recommended model version replacement</th>
+              <th>Recommended model ID</th>
+            </tr>
+            <tr>
+              <td rowspan="3">Claude 3.5 Sonnet v1</td>
+              <td>August 25, 2025 (us-east-1)</td>
+              <td>December 1, 2025</td>
+              <td>Mar 1, 2026 (us-east-1)</td>
+              <td rowspan="3">Claude Sonnet 4.5</td>
+              <td rowspan="3">anthropic.claude-sonnet-4-5-20250929-v1:0</td>
+            </tr>
+            <tr>
+              <td>August 25, 2025 (eu-central-2)</td>
+              <td>December 1, 2025</td>
+              <td>June 1, 2026 (eu-central-2)</td>
+            </tr>
+            <tr>
+              <td>January 30, 2026 (us-gov-east-1)</td>
+              <td>April 30, 2026</td>
+              <td>July 30, 2026 (us-gov-east-1)</td>
+            </tr>
+          </table>
+        </main>
+      </body>
+    </html>
+    """
+
+    items = scraper.extract_structured_deprecations(html)
+
+    assert len(items) == 1
+    sonnet_v1 = items[0]
+    assert sonnet_v1.model_name == "Claude 3.5 Sonnet v1"
+    assert "Additional regional schedule" in sonnet_v1.deprecation_context
+    assert "2026-07-30" in sonnet_v1.deprecation_context
+
+
 def test_deprecation_context_is_meaningful(fixture_html):
     """Should create meaningful deprecation context."""
     scraper = AWSBedrockScraper()

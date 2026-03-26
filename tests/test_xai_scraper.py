@@ -24,8 +24,8 @@ def fixture_html():
 def test_scraper_initialization(scraper):
     """Test that scraper initializes with correct properties."""
     assert scraper.provider_name == "xAI"
-    assert scraper.url == "https://docs.x.ai/docs/models"
-    assert scraper.requires_playwright is True
+    assert scraper.url == "https://docs.x.ai/developers/models"
+    assert scraper.requires_playwright is False
 
 
 def test_no_false_positives_from_active_models(scraper, fixture_html):
@@ -214,4 +214,4 @@ def test_url_is_set_in_items(scraper):
     items = scraper.extract_structured_deprecations(html)
 
     assert len(items) == 1
-    assert items[0].url == "https://docs.x.ai/docs/models"
+    assert items[0].url == "https://docs.x.ai/developers/models"

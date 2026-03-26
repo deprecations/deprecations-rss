@@ -1,5 +1,6 @@
 """AWS Bedrock deprecations scraper with individual model extraction."""
 
+from datetime import datetime
 from typing import List
 from bs4 import BeautifulSoup
 
@@ -16,7 +17,7 @@ class AWSBedrockScraper(EnhancedBaseScraper):
 
     def extract_structured_deprecations(self, html: str) -> List[DeprecationItem]:
         """Extract deprecations from AWS Bedrock's table format."""
-        items = []
+        items: list[DeprecationItem] = []
         soup = BeautifulSoup(html, "html.parser")
 
         # Find main content
@@ -30,17 +31,12 @@ class AWSBedrockScraper(EnhancedBaseScraper):
             if len(rows) <= 1:
                 continue
 
-            # Check headers to identify deprecation tables
-            headers = [
-                th.get_text(strip=True).lower() for th in rows[0].find_all(["th", "td"])
-            ]
+            expanded_rows = self._expand_table_rows(table)
+            headers = [header.lower() for header in expanded_rows[0]]
 
-            # Look for tables with legacy/EOL columns
-            is_lifecycle_table = any(
-                keyword in " ".join(headers)
-                for keyword in ["legacy", "eol", "end of life", "deprecat"]
-            )
-
+            # The lifecycle/deprecation tables include a dedicated legacy column.
+            # Skip the general catalog table, which has launch/EOL data for active models.
+            is_lifecycle_table = any("legacy" in header for header in headers)
             if not is_lifecycle_table:
                 continue
 
@@ -64,24 +60,17 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                 ) and "id" not in header:
                     replacement_idx = i
 
-            # Default to positional
             if model_idx is None:
                 model_idx = 0
 
-            # Process each row
-            for row in rows[1:]:
-                cells = [td.get_text(strip=True) for td in row.find_all("td")]
-
+            for cells in expanded_rows[1:]:
                 if len(cells) <= model_idx:
                     continue
 
                 model_name = cells[model_idx]
-
-                # Skip empty or header rows
                 if not model_name or model_name.lower() in ["model", "name"]:
                     continue
 
-                # Extract dates
                 legacy_date = ""
                 if legacy_idx is not None and legacy_idx < len(cells):
                     legacy_date = self.parse_date(cells[legacy_idx])
@@ -90,54 +79,132 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                 if eol_idx is not None and eol_idx < len(cells):
                     eol_date = self.parse_date(cells[eol_idx])
 
-                # Extract replacement
                 replacement_models = None
                 if replacement_idx is not None and replacement_idx < len(cells):
                     repl_text = cells[replacement_idx]
-                    if repl_text and repl_text not in ["—", "-", "N/A", "TBD"]:
+                    if repl_text and repl_text not in ["—", "-", "N/A", "TBD", "NA"]:
                         replacement_models = self.parse_replacements(repl_text)
 
-                # Build context
-                context_parts = [f"Model {model_name}"]
-                if legacy_date:
-                    context_parts.append(f"entered legacy status on {legacy_date}")
-                if eol_date:
-                    if legacy_date:
-                        context_parts.append(
-                            f"and will reach end-of-life on {eol_date}"
-                        )
-                    else:
-                        context_parts.append(f"will reach end-of-life on {eol_date}")
-                if replacement_models:
-                    replacement_str = ", ".join(replacement_models)
-                    context_parts.append(f"Recommended replacement: {replacement_str}")
+                if not (legacy_date or eol_date):
+                    continue
 
-                context = ". ".join(context_parts) + "."
+                item = DeprecationItem(
+                    provider=self.provider_name,
+                    model_id=model_name,
+                    model_name=model_name,
+                    announcement_date=legacy_date or eol_date,
+                    shutdown_date=eol_date or legacy_date,
+                    replacement_models=replacement_models,
+                    deprecation_context=self._build_context(
+                        model_name, legacy_date, eol_date, replacement_models
+                    ),
+                    url=self.url,
+                )
+                items.append(item)
 
-                # Create deprecation item
-                if legacy_date or eol_date:
-                    item = DeprecationItem(
-                        provider=self.provider_name,
-                        model_id=model_name,
-                        model_name=model_name,
-                        announcement_date=legacy_date or eol_date,
-                        shutdown_date=eol_date or legacy_date,
-                        replacement_models=replacement_models,
-                        deprecation_context=context,
-                        url=self.url,
-                    )
-                    items.append(item)
+        return self._merge_duplicate_models(items)
 
-        # If no tables found with httpx, might need playwright
-        if not items and not self.requires_playwright:
-            print(
-                f"  → No tables found with httpx, trying Playwright for {self.provider_name}"
+    def _expand_table_rows(self, table) -> list[list[str]]:
+        """Expand rowspans so each row has a full set of cells."""
+        raw_rows = table.find_all("tr")
+        if not raw_rows:
+            return []
+
+        header_cells = raw_rows[0].find_all(["th", "td"])
+        total_cols = len(header_cells)
+        expanded_rows: list[list[str]] = []
+        rowspans: dict[int, list[str | int]] = {}
+
+        for row in raw_rows:
+            rendered: list[str] = []
+            cells = row.find_all(["th", "td"])
+            cell_idx = 0
+
+            for col_idx in range(total_cols):
+                if col_idx in rowspans and rowspans[col_idx][0] > 0:
+                    rendered.append(str(rowspans[col_idx][1]))
+                    rowspans[col_idx][0] -= 1
+                    if rowspans[col_idx][0] == 0:
+                        del rowspans[col_idx]
+                    continue
+
+                if cell_idx >= len(cells):
+                    rendered.append("")
+                    continue
+
+                cell = cells[cell_idx]
+                cell_idx += 1
+                text = cell.get_text(" ", strip=True)
+                rendered.append(text)
+
+                rowspan = int(cell.get("rowspan", 1))
+                if rowspan > 1:
+                    rowspans[col_idx] = [rowspan - 1, text]
+
+            expanded_rows.append(rendered)
+
+        return expanded_rows
+
+    def _build_context(
+        self,
+        model_name: str,
+        legacy_date: str,
+        eol_date: str,
+        replacement_models: list[str] | None,
+    ) -> str:
+        """Build standardized context for a single lifecycle row."""
+        context_parts = [f"Model {model_name}"]
+        if legacy_date:
+            context_parts.append(f"entered legacy status on {legacy_date}")
+        if eol_date:
+            if legacy_date:
+                context_parts.append(f"and will reach end-of-life on {eol_date}")
+            else:
+                context_parts.append(f"will reach end-of-life on {eol_date}")
+        if replacement_models:
+            context_parts.append(
+                f"Recommended replacement: {', '.join(replacement_models)}"
             )
-            self.requires_playwright = True
-            html = self.fetch_html(self.url)
-            return self.extract_structured_deprecations(html)
+        return ". ".join(context_parts) + "."
 
-        return items
+    def _merge_duplicate_models(
+        self, items: list[DeprecationItem]
+    ) -> list[DeprecationItem]:
+        """Merge duplicate model rows that represent different regional schedules."""
+        by_model: dict[str, DeprecationItem] = {}
+
+        for item in items:
+            existing = by_model.get(item.model_id)
+            if existing is None:
+                by_model[item.model_id] = item
+                continue
+
+            existing.announcement_date = self._earliest_date(
+                existing.announcement_date, item.announcement_date
+            )
+            existing.shutdown_date = self._earliest_date(
+                existing.shutdown_date, item.shutdown_date
+            )
+
+            if item.deprecation_context not in existing.deprecation_context:
+                existing.deprecation_context += (
+                    f" Additional regional schedule: {item.deprecation_context}"
+                )
+
+            if not existing.replacement_models and item.replacement_models:
+                existing.replacement_models = item.replacement_models
+
+        return list(by_model.values())
+
+    def _earliest_date(self, left: str, right: str) -> str:
+        """Return the earliest non-empty ISO date."""
+        if not left:
+            return right
+        if not right:
+            return left
+        left_dt = datetime.fromisoformat(left)
+        right_dt = datetime.fromisoformat(right)
+        return left if left_dt <= right_dt else right
 
     def extract_unstructured_deprecations(self, html: str) -> List[DeprecationItem]:
         """AWS uses tables, so no unstructured extraction needed."""

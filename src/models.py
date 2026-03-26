@@ -20,7 +20,7 @@ class DeprecationItem:
     )
     deprecation_context: str = ""  # Full announcement text/context
     url: str = ""  # Full URL with anchor (e.g., /docs/deprecations#2025-04-28)
-    content_hash: str = ""  # Hash of raw content (for LLM deduplication)
+    content_hash: str = ""  # Hash of raw content for deduplication/change tracking
     scraped_at: str = ""  # ISO timestamp
 
     def __post_init__(self):

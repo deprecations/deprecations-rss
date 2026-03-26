@@ -25,7 +25,6 @@ def test_scraper_imports():
         from src.scrapers.anthropic_scraper import AnthropicScraper  # noqa: F401
         from src.scrapers.google_scraper import GoogleScraper  # noqa: F401
         from src.scrapers.google_vertex_scraper import GoogleVertexScraper  # noqa: F401
-        from src.scrapers.google_vertex_models_scraper import GoogleVertexModelsScraper  # noqa: F401
         from src.scrapers.aws_bedrock_scraper import AWSBedrockScraper  # noqa: F401
         from src.scrapers.cohere_scraper import CohereScraper  # noqa: F401
         from src.scrapers.xai_scraper import XAIScraper  # noqa: F401
@@ -64,3 +63,38 @@ def test_cache_directory_exists():
         # This is OK - cache directory is created when needed
         return
     assert cache_dir.is_dir(), "cache is not a directory"
+
+
+def test_main_normalizes_unknown_names_and_dedupes():
+    """Saved output should fall back to model_id and keep the richer duplicate."""
+    from src.main import dedupe_and_normalize_data
+
+    data = [
+        {
+            "provider": "Google",
+            "model_id": "gemini-2.5-flash-preview-09-25",
+            "model_name": "<UNKNOWN>",
+            "announcement_date": "2026-01-15",
+            "shutdown_date": "",
+            "replacement_models": None,
+            "deprecation_context": "short",
+            "url": "https://example.com/a",
+        },
+        {
+            "provider": "Google",
+            "model_id": "gemini-2.5-flash-preview-09-25",
+            "model_name": "",
+            "announcement_date": "2026-01-15",
+            "shutdown_date": "",
+            "replacement_models": None,
+            "deprecation_context": "a much richer context block",
+            "url": "https://example.com/b",
+        },
+    ]
+
+    result = dedupe_and_normalize_data(data)
+
+    assert len(result) == 1
+    assert result[0]["model_id"] == "gemini-2.5-flash-preview-09-25"
+    assert result[0]["model_name"] == "gemini-2.5-flash-preview-09-25"
+    assert result[0]["deprecation_context"] == "a much richer context block"

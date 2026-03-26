@@ -13,14 +13,9 @@ dependencies = [
     "httpx>=0.27.0",
     "beautifulsoup4>=4.12.3",
     "lxml>=4.9.0",
-    "playwright>=1.40.0",
     "ruff>=0.8.0",
-    "python-dotenv>=1.0.0",
     "ipython>=9.4.0",
-    "anthropic>=0.64.0",
-    "instructor>=1.10.0",
     "pytest>=8.0.0",
-    "playwright-stealth>=2.0.0",
 ]
 
 [build-system]
@@ -29,4 +24,10 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src"]
+
+[tool.pytest.ini_options]
+markers = [
+    "slow: marks tests that hit live external sources",
+    "integration: marks integration-style tests",
+]
 

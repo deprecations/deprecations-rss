@@ -4,66 +4,234 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 26 Mar 2026 04:27:54 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 15:09:30 GMT</lastBuildDate>
     <item>
-      <title>OpenAI: chatgpt-4o-latest snapshot</title>
+      <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
       <description>Provider: OpenAI
-Model ID: chatgpt-4o-latest snapshot
-Model: chatgpt-4o-latest snapshot
+Model ID: chatgpt-4o-latest
+Model: chatgpt-4o-latest
 Shutdown Date: 2026-02-17
 
-On November 18th, 2025, we notified developers usingchatgpt-4o-latestmodel snapshot of its deprecation and removal from the API on February 17, 2026. Shutdown dateModel / systemRecommended replacement2026-02-17chatgpt-4o-latestgpt-5.1-chat-latest</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-chatgpt-4o-latest_snapshot-2026-02-17-e3b0c442</guid>
+On November 18th, 2025, we notified developers using `chatgpt-4o-latest` model snapshot of its deprecation and removal from the API on February 17, 2026.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-chatgpt-4o-latest-2026-02-17-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: codex-mini-latest model snapshot</title>
+      <title>OpenAI: codex-mini-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-17-codex-mini-latest-model-snapshot</link>
       <description>Provider: OpenAI
-Model ID: codex-mini-latest model snapshot
-Model: codex-mini-latest model snapshot
+Model ID: codex-mini-latest
+Model: codex-mini-latest
 Shutdown Date: 2026-02-12
 
-On November 17th, 2025, we notified developers usingcodex-mini-latestmodel of its deprecation and removal from the API on February 12, 2026. As part of this deprecation, we will no longer support our legacy local shell tool, which is only available for use withcodex-mini-latest. For new use cases, please use our latest shell tool. Shutdown dateModel / systemRecommended replacement2026-02-12codex-mini-latestgpt-5-codex-mini</description>
-      <pubDate>Fri, 13 Feb 2026 04:13:53 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-codex-mini-latest_model_snapshot-2026-02-12-e3b0c442</guid>
+On November 17th, 2025, we notified developers using `codex-mini-latest` model of its deprecation and removal from the API on February 12, 2026. As part of this deprecation, we will no longer support our legacy local shell tool, which is only available for use with `codex-mini-latest`. For new use cases, please use our latest shell tool.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-codex-mini-latest-2026-02-12-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: DALL·E model snapshots</title>
+      <title>OpenAI: dall-e-2</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-14-dalle-model-snapshots</link>
       <description>Provider: OpenAI
-Model ID: DALL·E model snapshots
-Model: DALL·E model snapshots
+Model ID: dall-e-2
+Model: dall-e-2
 Shutdown Date: 2026-05-12
 
-On November 14th, 2025, we notified developers using DALL·E model snapshots of their deprecation and removal from the API on May 12, 2026. Shutdown dateModel / systemRecommended replacement2026-05-12dall-e-2gpt-image-1orgpt-image-1-mini2026-05-12dall-e-3gpt-image-1orgpt-image-1-mini</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-DALL·E_model_snapshots-2026-05-12-e3b0c442</guid>
+On November 14th, 2025, we notified developers using DALL·E model snapshots of their deprecation and removal from the API on May 12, 2026.</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-dall-e-2-2026-05-12-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: Legacy GPT model snapshots</title>
+      <title>OpenAI: dall-e-3</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-11-14-dalle-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: dall-e-3
+Model: dall-e-3
+Shutdown Date: 2026-05-12
+
+On November 14th, 2025, we notified developers using DALL·E model snapshots of their deprecation and removal from the API on May 12, 2026.</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-dall-e-3-2026-05-12-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4-0314</title>
       <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
       <description>Provider: OpenAI
-Model ID: Legacy GPT model snapshots
-Model: Legacy GPT model snapshots
-Shutdown Date: 2025-09-26
+Model ID: gpt-4-0314
+Model: gpt-4-0314
+Shutdown Date: 2026-03-26
 
-To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below. Shutdown dateModel / systemRecommended replacement2026‑03‑26gpt-4-0314gpt-5orgpt-4.1*2026‑03‑26gpt-4-1106-previewgpt-5orgpt-4.1*2026‑03‑26gpt-4-0125-preview(includinggpt-4-turbo-previewandgpt-4-turbo-preview-completions, which point to this snapshot...</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-Legacy_GPT_model_snapshots-2025-09-26-e3b0c442</guid>
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Thu, 26 Mar 2026 14:57:08 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-0314-2026-03-26-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: gpt-4o-realtime-preview models</title>
+      <title>OpenAI: gpt-4-1106-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4-1106-preview
+Model: gpt-4-1106-preview
+Shutdown Date: 2026-03-26
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Thu, 26 Mar 2026 14:57:08 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-1106-preview-2026-03-26-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4-0125-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4-0125-preview
+Model: gpt-4-0125-preview
+Shutdown Date: 2026-03-26
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Thu, 26 Mar 2026 14:57:08 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-0125-preview-2026-03-26-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4-turbo-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4-turbo-preview
+Model: gpt-4-turbo-preview
+Shutdown Date: 2026-03-26
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Thu, 26 Mar 2026 14:57:08 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-turbo-preview-2026-03-26-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4-turbo-preview-completions</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4-turbo-preview-completions
+Model: gpt-4-turbo-preview-completions
+Shutdown Date: 2026-03-26
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Thu, 26 Mar 2026 14:57:08 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-turbo-preview-completions-2026-03-26-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-3.5-turbo-instruct</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-3.5-turbo-instruct
+Model: gpt-3.5-turbo-instruct
+Shutdown Date: 2026-09-28
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-instruct-2026-09-28-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: babbage-002</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: babbage-002
+Model: babbage-002
+Shutdown Date: 2026-09-28
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-babbage-002-2026-09-28-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: davinci-002</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: davinci-002
+Model: davinci-002
+Shutdown Date: 2026-09-28
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-davinci-002-2026-09-28-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-3.5-turbo-1106</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-3.5-turbo-1106
+Model: gpt-3.5-turbo-1106
+Shutdown Date: 2026-09-28
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-1106-2026-09-28-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-realtime-preview</title>
       <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
       <description>Provider: OpenAI
-Model ID: gpt-4o-realtime-preview models
-Model: gpt-4o-realtime-preview models
-Shutdown Date: 2025-09-15
+Model ID: gpt-4o-realtime-preview
+Model: gpt-4o-realtime-preview
+Shutdown Date: 2026-05-07
 
-In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months. Shutdown dateModel / systemRecommended replacement2026-03-24gpt-4o-realtime-previewgpt-realtime2026-03-24gpt-4o-realtime-preview-2025-06-03gpt-realtime2026-03-24gpt-4o-realtime-preview-2024-12-17gpt-realtime2026-03-24gpt-4o-mini-realtime-previewgpt-realtime-mini2026-03-24gpt-4o-audio-previewgpt-audio2026-03-24gpt-4o-mini-audio-previewgpt-audio-mini</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview_models-2025-09-15-e3b0c442</guid>
+In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2026-05-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-realtime-preview-2025-06-03</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-realtime-preview-2025-06-03
+Model: gpt-4o-realtime-preview-2025-06-03
+Shutdown Date: 2026-05-07
+
+In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2025-06-03-2026-05-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-realtime-preview-2024-12-17</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-realtime-preview-2024-12-17
+Model: gpt-4o-realtime-preview-2024-12-17
+Shutdown Date: 2026-05-07
+
+In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2024-12-17-2026-05-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-mini-realtime-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-mini-realtime-preview
+Model: gpt-4o-mini-realtime-preview
+Shutdown Date: 2026-05-07
+
+In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-mini-realtime-preview-2026-05-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-audio-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-audio-preview
+Model: gpt-4o-audio-preview
+Shutdown Date: 2026-05-07
+
+In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-audio-preview-2026-05-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-mini-audio-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-mini-audio-preview
+Model: gpt-4o-mini-audio-preview
+Shutdown Date: 2026-05-07
+
+In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-mini-audio-preview-2026-05-07-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-4o-realtime-preview-2024-10-01</title>
@@ -71,11 +239,11 @@ In September, 2025, we notified developers using gpt-4o-realtime-preview models 
       <description>Provider: OpenAI
 Model ID: gpt-4o-realtime-preview-2024-10-01
 Model: gpt-4o-realtime-preview-2024-10-01
-Shutdown Date: 2025-06-10
+Shutdown Date: 2025-10-10
 
-On June 10th, 2025, we notified developers using gpt-4o-realtime-preview-2024-10-01 of its deprecation and removal from the API in three months. Shutdown dateModel / systemRecommended replacement2025-10-10gpt-4o-realtime-preview-2024-10-01gpt-realtime</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2024-10-01-2025-06-10-e3b0c442</guid>
+On June 10th, 2025, we notified developers using gpt-4o-realtime-preview-2024-10-01 of its deprecation and removal from the API in three months.</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2024-10-01-2025-10-10-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-4o-audio-preview-2024-10-01</title>
@@ -83,23 +251,47 @@ On June 10th, 2025, we notified developers using gpt-4o-realtime-preview-2024-10
       <description>Provider: OpenAI
 Model ID: gpt-4o-audio-preview-2024-10-01
 Model: gpt-4o-audio-preview-2024-10-01
-Shutdown Date: 2025-06-10
+Shutdown Date: 2025-10-10
 
-On June 10th, 2025, we notified developers usinggpt-4o-audio-preview-2024-10-01of its deprecation and removal from the API in three months. Shutdown dateModel / systemRecommended replacement2025-10-10gpt-4o-audio-preview-2024-10-01gpt-audio</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-gpt-4o-audio-preview-2024-10-01-2025-06-10-e3b0c442</guid>
+On June 10th, 2025, we notified developers using `gpt-4o-audio-preview-2024-10-01` of its deprecation and removal from the API in three months.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-audio-preview-2024-10-01-2025-10-10-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: text-moderation</title>
+      <title>OpenAI: text-moderation-007</title>
       <link>https://platform.openai.com/docs/deprecations#2025-04-28-text-moderation</link>
       <description>Provider: OpenAI
-Model ID: text-moderation
-Model: text-moderation
-Shutdown Date: 2025-04-28
+Model ID: text-moderation-007
+Model: text-moderation-007
+Shutdown Date: 2025-10-27
 
-On April 28th, 2025, we notified developers usingtext-moderationof its deprecation and removal from the API in six months. Shutdown dateModel / systemRecommended replacement2025-10-27text-moderation-007omni-moderation2025-10-27text-moderation-stableomni-moderation2025-10-27text-moderation-latestomni-moderation</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-text-moderation-2025-04-28-e3b0c442</guid>
+On April 28th, 2025, we notified developers using `text-moderation` of its deprecation and removal from the API in six months.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-moderation-007-2025-10-27-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-moderation-stable</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-04-28-text-moderation</link>
+      <description>Provider: OpenAI
+Model ID: text-moderation-stable
+Model: text-moderation-stable
+Shutdown Date: 2025-10-27
+
+On April 28th, 2025, we notified developers using `text-moderation` of its deprecation and removal from the API in six months.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-moderation-stable-2025-10-27-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-moderation-latest</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-04-28-text-moderation</link>
+      <description>Provider: OpenAI
+Model ID: text-moderation-latest
+Model: text-moderation-latest
+Shutdown Date: 2025-10-27
+
+On April 28th, 2025, we notified developers using `text-moderation` of its deprecation and removal from the API in six months.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-moderation-latest-2025-10-27-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: o1-preview</title>
@@ -107,11 +299,11 @@ On April 28th, 2025, we notified developers usingtext-moderationof its deprecati
       <description>Provider: OpenAI
 Model ID: o1-preview
 Model: o1-preview
-Shutdown Date: 2025-04-28
+Shutdown Date: 2025-07-28
 
-On April 28th, 2025, we notified developers usingo1-previewando1-miniof their deprecations and removal from the API in three months and six months respectively. Shutdown dateModel / systemRecommended replacement2025-07-28o1-previewo32025-10-27o1-minio4-mini</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-o1-preview-2025-04-28-e3b0c442</guid>
+On April 28th, 2025, we notified developers using `o1-preview` and `o1-mini` of their deprecations and removal from the API in three months and six months respectively.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-o1-preview-2025-07-28-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: o1-mini</title>
@@ -119,258 +311,691 @@ On April 28th, 2025, we notified developers usingo1-previewando1-miniof their de
       <description>Provider: OpenAI
 Model ID: o1-mini
 Model: o1-mini
-Shutdown Date: 2025-04-28
+Shutdown Date: 2025-10-27
 
-On April 28th, 2025, we notified developers usingo1-previewando1-miniof their deprecations and removal from the API in three months and six months respectively. Shutdown dateModel / systemRecommended replacement2025-07-28o1-previewo32025-10-27o1-minio4-mini</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-o1-mini-2025-04-28-e3b0c442</guid>
+On April 28th, 2025, we notified developers using `o1-preview` and `o1-mini` of their deprecations and removal from the API in three months and six months respectively.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-o1-mini-2025-10-27-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: GPT-4.5-preview</title>
-      <link>https://platform.openai.com/docs/deprecations#2025-04-14-gpt-45-preview</link>
+      <title>OpenAI: gpt-4.5-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-04-14-gpt-4-5-preview</link>
       <description>Provider: OpenAI
-Model ID: GPT-4.5-preview
-Model: GPT-4.5-preview
-Shutdown Date: 2025-04-14
+Model ID: gpt-4.5-preview
+Model: gpt-4.5-preview
+Shutdown Date: 2025-07-14
 
-On April 14th, 2025, we notified developers that thegpt-4.5-previewmodel is deprecated and will be removed from the API in the coming months. Shutdown dateModel / systemRecommended replacement2025-07-14gpt-4.5-previewgpt-4.1</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-GPT-4.5-preview-2025-04-14-e3b0c442</guid>
+On April 14th, 2025, we notified developers that the `gpt-4.5-preview` model is deprecated and will be removed from the API in the coming months.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4.5-preview-2025-07-14-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: GPT-4-32K</title>
+      <title>OpenAI: gpt-4-32k</title>
       <link>https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models</link>
       <description>Provider: OpenAI
-Model ID: GPT-4-32K
-Model: GPT-4-32K
-Shutdown Date: 2024-06-06
+Model ID: gpt-4-32k
+Model: gpt-4-32k
+Shutdown Date: 2025-06-06
 
-On June 6th, 2024, we notified developers usinggpt-4-32kandgpt-4-vision-previewof their upcoming deprecations in one year and six months respectively. As of June 17, 2024, only existing users of these models will be able to continue using them. Shutdown dateDeprecated modelDeprecated model priceRecommended replacement2025-06-06gpt-4-32k$60.00 / 1M input tokens + $120 / 1M output tokensgpt-4o2025-06-06gpt-4-32k-0613$60.00 / 1M input tokens + $120 / 1M output tokensgpt-4o2025-06-06gpt-4-32k-0314$6...</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-GPT-4-32K-2024-06-06-e3b0c442</guid>
+On June 6th, 2024, we notified developers using `gpt-4-32k` and `gpt-4-vision-preview` of their upcoming deprecations in one year and six months respectively. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-32k-2025-06-06-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: Vision Preview models</title>
+      <title>OpenAI: gpt-4-32k-0613</title>
       <link>https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models</link>
       <description>Provider: OpenAI
-Model ID: Vision Preview models
-Model: Vision Preview models
-Shutdown Date: 2024-06-06
+Model ID: gpt-4-32k-0613
+Model: gpt-4-32k-0613
+Shutdown Date: 2025-06-06
 
-On June 6th, 2024, we notified developers usinggpt-4-32kandgpt-4-vision-previewof their upcoming deprecations in one year and six months respectively. As of June 17, 2024, only existing users of these models will be able to continue using them. Shutdown dateDeprecated modelDeprecated model priceRecommended replacement2025-06-06gpt-4-32k$60.00 / 1M input tokens + $120 / 1M output tokensgpt-4o2025-06-06gpt-4-32k-0613$60.00 / 1M input tokens + $120 / 1M output tokensgpt-4o2025-06-06gpt-4-32k-0314$6...</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-Vision_Preview_models-2024-06-06-e3b0c442</guid>
+On June 6th, 2024, we notified developers using `gpt-4-32k` and `gpt-4-vision-preview` of their upcoming deprecations in one year and six months respectively. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-32k-0613-2025-06-06-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: Chat model updates</title>
+      <title>OpenAI: gpt-4-32k-0314</title>
+      <link>https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4-32k-0314
+Model: gpt-4-32k-0314
+Shutdown Date: 2025-06-06
+
+On June 6th, 2024, we notified developers using `gpt-4-32k` and `gpt-4-vision-preview` of their upcoming deprecations in one year and six months respectively. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-32k-0314-2025-06-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4-vision-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4-vision-preview
+Model: gpt-4-vision-preview
+Shutdown Date: 2024-12-06
+
+On June 6th, 2024, we notified developers using `gpt-4-32k` and `gpt-4-vision-preview` of their upcoming deprecations in one year and six months respectively. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-vision-preview-2024-12-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4-1106-vision-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4-1106-vision-preview
+Model: gpt-4-1106-vision-preview
+Shutdown Date: 2024-12-06
+
+On June 6th, 2024, we notified developers using `gpt-4-32k` and `gpt-4-vision-preview` of their upcoming deprecations in one year and six months respectively. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-1106-vision-preview-2024-12-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-3.5-turbo-0613</title>
       <link>https://platform.openai.com/docs/deprecations#2023-11-06-chat-model-updates</link>
       <description>Provider: OpenAI
-Model ID: Chat model updates
-Model: Chat model updates
-Shutdown Date: 2023-11-06
+Model ID: gpt-3.5-turbo-0613
+Model: gpt-3.5-turbo-0613
+Shutdown Date: 2024-09-13
 
-On November 6th, 2023, weannouncedthe release of an updated GPT-3.5-Turbo model (which now comes by default with 16k context) along with deprecation ofgpt-3.5-turbo-0613andgpt-3.5-turbo-16k-0613. As of June 17, 2024, only existing users of these models will be able to continue using them. Shutdown dateDeprecated modelDeprecated model priceRecommended replacement2024-09-13gpt-3.5-turbo-0613$1.50 / 1M input tokens + $2.00 / 1M output tokensgpt-3.5-turbo2024-09-13gpt-3.5-turbo-16k-0613$3.00 / 1M in...</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-Chat_model_updates-2023-11-06-e3b0c442</guid>
+On November 6th, 2023, we [announced](https://openai.com/blog/new-models-and-developer-products-announced-at-devday) the release of an updated GPT-3.5-Turbo model (which now comes by default with 16k context) along with deprecation of `gpt-3.5-turbo-0613` and ` gpt-3.5-turbo-16k-0613`. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-0613-2024-09-13-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: Updated chat models</title>
+      <title>OpenAI: gpt-3.5-turbo-16k-0613</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-11-06-chat-model-updates</link>
+      <description>Provider: OpenAI
+Model ID: gpt-3.5-turbo-16k-0613
+Model: gpt-3.5-turbo-16k-0613
+Shutdown Date: 2024-09-13
+
+On November 6th, 2023, we [announced](https://openai.com/blog/new-models-and-developer-products-announced-at-devday) the release of an updated GPT-3.5-Turbo model (which now comes by default with 16k context) along with deprecation of `gpt-3.5-turbo-0613` and ` gpt-3.5-turbo-16k-0613`. As of June 17, 2024, only existing users of these models will be able to continue using them.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-16k-0613-2024-09-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-ada-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-ada-001
+Model: text-ada-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-ada-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-babbage-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-babbage-001
+Model: text-babbage-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-babbage-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-curie-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-curie-001
+Model: text-curie-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-curie-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-davinci-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-davinci-001
+Model: text-davinci-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-davinci-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-davinci-002</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-davinci-002
+Model: text-davinci-002
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-davinci-002-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-davinci-003</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-davinci-003
+Model: text-davinci-003
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-davinci-003-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: ada</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: ada
+Model: ada
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-ada-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: babbage</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: babbage
+Model: babbage
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-babbage-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: curie</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: curie
+Model: curie
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-curie-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: davinci</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: davinci
+Model: davinci
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-davinci-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: code-davinci-002</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: code-davinci-002
+Model: code-davinci-002
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-code-davinci-002-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-davinci-edit-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-davinci-edit-001
+Model: text-davinci-edit-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-davinci-edit-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: code-davinci-edit-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: code-davinci-edit-001
+Model: code-davinci-edit-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-code-davinci-edit-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-similarity-ada-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-similarity-ada-001
+Model: text-similarity-ada-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-similarity-ada-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-search-ada-doc-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-search-ada-doc-001
+Model: text-search-ada-doc-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-search-ada-doc-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-search-ada-query-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-search-ada-query-001
+Model: text-search-ada-query-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-search-ada-query-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: code-search-ada-code-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: code-search-ada-code-001
+Model: code-search-ada-code-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-code-search-ada-code-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: code-search-ada-text-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: code-search-ada-text-001
+Model: code-search-ada-text-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-code-search-ada-text-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-similarity-babbage-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-similarity-babbage-001
+Model: text-similarity-babbage-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-similarity-babbage-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-search-babbage-doc-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-search-babbage-doc-001
+Model: text-search-babbage-doc-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-search-babbage-doc-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-search-babbage-query-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-search-babbage-query-001
+Model: text-search-babbage-query-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-search-babbage-query-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: code-search-babbage-code-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: code-search-babbage-code-001
+Model: code-search-babbage-code-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-code-search-babbage-code-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: code-search-babbage-text-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: code-search-babbage-text-001
+Model: code-search-babbage-text-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-code-search-babbage-text-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-similarity-curie-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-similarity-curie-001
+Model: text-similarity-curie-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-similarity-curie-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-search-curie-doc-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-search-curie-doc-001
+Model: text-search-curie-doc-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-search-curie-doc-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-search-curie-query-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-search-curie-query-001
+Model: text-search-curie-query-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-search-curie-query-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-similarity-davinci-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-similarity-davinci-001
+Model: text-similarity-davinci-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-similarity-davinci-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-search-davinci-doc-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-search-davinci-doc-001
+Model: text-search-davinci-doc-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-search-davinci-doc-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: text-search-davinci-query-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
+      <description>Provider: OpenAI
+Model ID: text-search-davinci-query-001
+Model: text-search-davinci-query-001
+Shutdown Date: 2024-01-04
+
+On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-availability) the upcoming retirements of older GPT-3 and GPT-3.5 models served via the completions endpoint. We also announced the upcoming retirement of our first-generation text embedding models. They will be shut down on January 04, 2024.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-text-search-davinci-query-001-2024-01-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-3.5-turbo-0301</title>
       <link>https://platform.openai.com/docs/deprecations#2023-06-13-updated-chat-models</link>
       <description>Provider: OpenAI
-Model ID: Updated chat models
-Model: Updated chat models
-Shutdown Date: 2023-06-13
+Model ID: gpt-3.5-turbo-0301
+Model: gpt-3.5-turbo-0301
+Shutdown Date: 2024-09-13
 
-On June 13, 2023, we announced new chat model versions in theFunction calling and other API updatesblog post. The three original versions will be retired in June 2024 at the earliest. As of January 10, 2024, only existing users of these models will be able to continue using them. Shutdown dateLegacy modelLegacy model priceRecommended replacementat earliest 2024-06-13gpt-4-0314$30.00 / 1M input tokens + $60.00 / 1M output tokensgpt-4o Shutdown dateDeprecated modelDeprecated model priceRecommended...</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-Updated_chat_models-2023-06-13-e3b0c442</guid>
+On June 13, 2023, we announced new chat model versions in the [Function calling and other API updates](https://openai.com/blog/function-calling-and-other-api-updates) blog post. The three original versions will be retired in June 2024 at the earliest. As of January 10, 2024, only existing users of these models will be able to continue using them.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-0301-2024-09-13-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: Codex models</title>
+      <title>OpenAI: code-davinci-001</title>
       <link>https://platform.openai.com/docs/deprecations#2023-03-20-codex-models</link>
       <description>Provider: OpenAI
-Model ID: Codex models
-Model: Codex models
-Shutdown Date: 2023-03-20
-
-Shutdown dateDeprecated modelRecommended replacement2023-03-23code-davinci-002gpt-4o2023-03-23code-davinci-001gpt-4o2023-03-23code-cushman-002gpt-4o2023-03-23code-cushman-001gpt-4o</description>
-      <pubDate>Tue, 10 Feb 2026 04:26:39 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-Codex_models-2023-03-20-e3b0c442</guid>
+Model ID: code-davinci-001
+Model: code-davinci-001
+Shutdown Date: 2023-03-23
+</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-code-davinci-001-2023-03-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: code-cushman-002</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-03-20-codex-models</link>
+      <description>Provider: OpenAI
+Model ID: code-cushman-002
+Model: code-cushman-002
+Shutdown Date: 2023-03-23
+</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-code-cushman-002-2023-03-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: code-cushman-001</title>
+      <link>https://platform.openai.com/docs/deprecations#2023-03-20-codex-models</link>
+      <description>Provider: OpenAI
+Model ID: code-cushman-001
+Model: code-cushman-001
+Shutdown Date: 2023-03-23
+</description>
+      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-code-cushman-001-2023-03-23-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-3-7-sonnet-20250219</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-10-28-claude-sonnet-3-7-model</link>
       <description>Provider: Anthropic
 Model ID: claude-3-7-sonnet-20250219
 Model: claude-3-7-sonnet-20250219
 Shutdown Date: 2026-02-19
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; This model was retired February 19, 2026. &lt;/Note&gt; On October 28, 2025, Anthropic notified developers using Claude Sonnet 3.7 model of its upcoming retirement on the Claude API.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-7-sonnet-20250219-2026-02-19-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-3-5-haiku-20241022</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-12-19-claude-haiku-3-5-model</link>
       <description>Provider: Anthropic
 Model ID: claude-3-5-haiku-20241022
 Model: claude-3-5-haiku-20241022
 Shutdown Date: 2026-02-19
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; This model was retired February 19, 2026. &lt;/Note&gt; On December 19, 2025, Anthropic notified developers using Claude Haiku 3.5 model of its upcoming retirement on the Claude API.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-5-haiku-20241022-2026-02-19-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-3-haiku-20240307</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-02-19-claude-haiku-3-model</link>
       <description>Provider: Anthropic
 Model ID: claude-3-haiku-20240307
 Model: claude-3-haiku-20240307
 Shutdown Date: 2026-04-20
-</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:01 GMT</pubDate>
+
+On February 19, 2026, Anthropic notified developers using Claude Haiku 3 model of its upcoming retirement on the Claude API.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-haiku-20240307-2026-04-20-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-3-5-sonnet-20240620</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-08-13-claude-sonnet-3-5-models</link>
       <description>Provider: Anthropic
 Model ID: claude-3-5-sonnet-20240620
 Model: claude-3-5-sonnet-20240620
 Shutdown Date: 2025-10-28
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; These models were retired October 28, 2025. &lt;/Note&gt; On August 13, 2025, Anthropic notified developers using Claude Sonnet 3.5 models of their upcoming retirement.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-5-sonnet-20240620-2025-10-28-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-3-5-sonnet-20241022</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-08-13-claude-sonnet-3-5-models</link>
       <description>Provider: Anthropic
 Model ID: claude-3-5-sonnet-20241022
 Model: claude-3-5-sonnet-20241022
 Shutdown Date: 2025-10-28
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; These models were retired October 28, 2025. &lt;/Note&gt; On August 13, 2025, Anthropic notified developers using Claude Sonnet 3.5 models of their upcoming retirement.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-5-sonnet-20241022-2025-10-28-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-3-opus-20240229</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-06-30-claude-opus-3-model</link>
       <description>Provider: Anthropic
 Model ID: claude-3-opus-20240229
 Model: claude-3-opus-20240229
 Shutdown Date: 2026-01-05
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; This model was retired January 5, 2026. &lt;/Note&gt; On June 30, 2025, Anthropic notified developers using Claude Opus 3 model of its upcoming retirement.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-opus-20240229-2026-01-05-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-2.0</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models</link>
       <description>Provider: Anthropic
 Model ID: claude-2.0
 Model: claude-2.0
 Shutdown Date: 2025-07-21
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; These models were retired July 21, 2025. &lt;/Note&gt; On January 21, 2025, Anthropic notified developers using Claude 2, Claude 2.1, and Claude Sonnet 3 models of their upcoming retirements.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-2.0-2025-07-21-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-2.1</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models</link>
       <description>Provider: Anthropic
 Model ID: claude-2.1
 Model: claude-2.1
 Shutdown Date: 2025-07-21
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; These models were retired July 21, 2025. &lt;/Note&gt; On January 21, 2025, Anthropic notified developers using Claude 2, Claude 2.1, and Claude Sonnet 3 models of their upcoming retirements.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-2.1-2025-07-21-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-3-sonnet-20240229</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models</link>
       <description>Provider: Anthropic
 Model ID: claude-3-sonnet-20240229
 Model: claude-3-sonnet-20240229
 Shutdown Date: 2025-07-21
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; These models were retired July 21, 2025. &lt;/Note&gt; On January 21, 2025, Anthropic notified developers using Claude 2, Claude 2.1, and Claude Sonnet 3 models of their upcoming retirements.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-sonnet-20240229-2025-07-21-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-1.0</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-1.0
 Model: claude-1.0
 Shutdown Date: 2024-11-06
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; These models were retired November 6, 2024. &lt;/Note&gt; On September 4, 2024, Anthropic notified developers using Claude 1 and Instant models of their upcoming retirements.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-1.0-2024-11-06-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-1.1</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-1.1
 Model: claude-1.1
 Shutdown Date: 2024-11-06
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; These models were retired November 6, 2024. &lt;/Note&gt; On September 4, 2024, Anthropic notified developers using Claude 1 and Instant models of their upcoming retirements.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-1.1-2024-11-06-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-1.2</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-1.2
 Model: claude-1.2
 Shutdown Date: 2024-11-06
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; These models were retired November 6, 2024. &lt;/Note&gt; On September 4, 2024, Anthropic notified developers using Claude 1 and Instant models of their upcoming retirements.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-1.2-2024-11-06-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-1.3</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-1.3
 Model: claude-1.3
 Shutdown Date: 2024-11-06
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; These models were retired November 6, 2024. &lt;/Note&gt; On September 4, 2024, Anthropic notified developers using Claude 1 and Instant models of their upcoming retirements.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-1.3-2024-11-06-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-instant-1.0</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-instant-1.0
 Model: claude-instant-1.0
 Shutdown Date: 2024-11-06
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; These models were retired November 6, 2024. &lt;/Note&gt; On September 4, 2024, Anthropic notified developers using Claude 1 and Instant models of their upcoming retirements.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-instant-1.0-2024-11-06-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-instant-1.1</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-instant-1.1
 Model: claude-instant-1.1
 Shutdown Date: 2024-11-06
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; These models were retired November 6, 2024. &lt;/Note&gt; On September 4, 2024, Anthropic notified developers using Claude 1 and Instant models of their upcoming retirements.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-instant-1.1-2024-11-06-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-instant-1.2</title>
-      <link>https://docs.anthropic.com/en/docs/about-claude/model-deprecations</link>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-instant-1.2
 Model: claude-instant-1.2
 Shutdown Date: 2024-11-06
-</description>
-      <pubDate>Sun, 08 Feb 2026 04:28:42 GMT</pubDate>
+
+&lt;Note&gt; These models were retired November 6, 2024. &lt;/Note&gt; On September 4, 2024, Anthropic notified developers using Claude 1 and Instant models of their upcoming retirements.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-instant-1.2-2024-11-06-e3b0c442</guid>
     </item>
     <item>
@@ -518,18 +1143,16 @@ Insufficient information provided in the deprecation notice to extract specific 
       <guid isPermaLink="false">Google-imagen-4.0-ultra-generate-preview-06-06-1357e0cc</guid>
     </item>
     <item>
-      <title>Google: &lt;UNKNOWN&gt;</title>
+      <title>Google: Gemini 2.5 Flash Image Preview</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20260115</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-image-preview
-Model: &lt;UNKNOWN&gt;
+Model: Gemini 2.5 Flash Image Preview
 Announcement Date: 2026-01-15
-First Observed: 2026-01-16
-Last Observed: 2026-01-16
 
-Unable to analyze deprecation notice due to missing or truncated content.</description>
-      <pubDate>Fri, 16 Jan 2026 03:24:29 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-image-preview-188519c7</guid>
+The gemini-2.5-flash-image-preview model has been shut down.</description>
+      <pubDate>Thu, 26 Mar 2026 13:07:23 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-image-preview-e3b0c442</guid>
     </item>
     <item>
       <title>Google: Veo 3.0 Fast Generate Preview</title>
@@ -709,8 +1332,8 @@ Model ID: gemini-2.0-flash-lite-preview
 Model: Gemini 2.0 Flash Lite Preview
 Shutdown Date: 2025-12-09
 
-December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
+      <pubDate>Thu, 26 Mar 2026 13:07:23 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.0-flash-lite-preview-2025-12-09-e3b0c442</guid>
     </item>
     <item>
@@ -966,35 +1589,125 @@ Support for Gemini 1.0 Pro Vision removed from Google AI services and tools.</de
       <guid isPermaLink="false">Google-gemini-1.0-pro-vision-e3b0c442</guid>
     </item>
     <item>
-      <title>Google Vertex: Generative AI module in the Vertex AI SDK</title>
-      <link>https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations</link>
+      <title>Google Vertex: Anthropic's Claude 3 Haiku</title>
+      <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#haiku-3</link>
       <description>Provider: Google Vertex
-Model ID: Generative AI module in the Vertex AI SDK
-Model: Generative AI module in the Vertex AI SDK
-Shutdown Date: 2026-06-24
+Model ID: claude-3-haiku
+Model: Anthropic's Claude 3 Haiku
+Shutdown Date: 2026-08-23
 
-Starting on June 24, 2025, the Generative AI module in the
-        Vertex AI SDK is deprecated. The Generative AI module will be
-        removed on June 24, 2026. For information about migrating to the
-        Google Gen AI SDK, seeVertex AI SDK migration guide.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google_Vertex-Generative_AI_module_in_the_Vertex_AI_SDK-2026-06-24-e3b0c442</guid>
+Anthropic's Claude 3 Haiku is deprecated as of February 23, 2026 and will be shut down on August 23, 2026 . Anthropic's Claude 3 Haiku is available to
+existing customers only. Anthropic's Claude 3 Haiku is Anthropic's fastest vision and text model for
+near-instant responses to basic queries, meant for seamless AI experiences
+mimicking human interactions. Model ID claude-3-haiku Launch stage deprecated Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum inpu...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+      <guid isPermaLink="false">Google_Vertex-claude-3-haiku-2026-08-23-e3b0c442</guid>
     </item>
     <item>
-      <title>Google Vertex: Imagen subject model and style model tuning</title>
-      <link>https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations</link>
+      <title>Google Vertex: Claude 3.5 Haiku</title>
+      <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#haiku-3-5</link>
       <description>Provider: Google Vertex
-Model ID: Imagen subject model and style model tuning
-Model: Imagen subject model and style model tuning
-Shutdown Date: 2025-12-31
+Model ID: claude-3-5-haiku
+Model: Claude 3.5 Haiku
+Shutdown Date: 2026-07-05
 
-Imagen subject model and style model tuning will be
-        removed on December 31, 2025. We recommend that you
-        useGemini 2.5 Flash Image, which supports most use cases that
-        require fine-tuning. For more information, seeEdit
-        images with Gemini.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google_Vertex-Imagen_subject_model_and_style_model_tuning-2025-12-31-e3b0c442</guid>
+Claude 3.5 Haiku is deprecated as of January 5, 2026 and
+will be shut down on July 5, 2026 . Claude 3.5 Haiku is
+available to existing customers only. Claude 3.5 Haiku, the next
+generation of Anthropic's fastest and most cost-effective model, is
+optimal for use cases where speed and affordability matter. View model card in Model Garden Model ID claude-3-5-haiku Launch stage deprecated Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+      <guid isPermaLink="false">Google_Vertex-claude-3-5-haiku-2026-07-05-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google Vertex: Claude 3.7 Sonnet</title>
+      <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-3-7</link>
+      <description>Provider: Google Vertex
+Model ID: claude-3-7-sonnet
+Model: Claude 3.7 Sonnet
+Shutdown Date: 2026-05-11
+
+Claude 3.7 Sonnet is deprecated as of November 11, 2025 and
+will be shut down on May 11, 2026 . Claude 3.7 Sonnet is
+available to existing customers only. Claude 3.7 Sonnet is a state-of-the-art model for real-world
+software engineering tasks and agentic capabilities. Model ID claude-3-7-sonnet Launch stage deprecated Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output tokens: 128,000 Capabilities Supported Batch predict...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+      <guid isPermaLink="false">Google_Vertex-claude-3-7-sonnet-2026-05-11-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google Vertex: Claude 3.5 Sonnet v2</title>
+      <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-3-5-v2</link>
+      <description>Provider: Google Vertex
+Model ID: claude-3-5-sonnet-v2
+Model: Claude 3.5 Sonnet v2
+Shutdown Date: 2026-02-19
+
+Claude 3.5 Sonnet v2 is deprecated as of August 20, 2025 and
+will be shut down on February 19, 2026 . Claude 3.5 Sonnet v2 is
+available to existing customers only. Claude 3.5 Sonnet v2 is a state-of-the-art model for real-world
+software engineering tasks and agentic capabilities. Try in Vertex AI Model ID claude-3-5-sonnet-v2 Launch stage GA Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output tokens: 8,000 Capabilities S...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+      <guid isPermaLink="false">Google_Vertex-claude-3-5-sonnet-v2-2026-02-19-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google Vertex: Claude 3.5 Sonnet</title>
+      <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-3-5</link>
+      <description>Provider: Google Vertex
+Model ID: claude-3-5-sonnet
+Model: Claude 3.5 Sonnet
+Shutdown Date: 2026-02-19
+
+Claude 3.5 Sonnet is deprecated as of August 20, 2025 and
+will be shut down on February 19, 2026 . Claude 3.5 Sonnet is
+available to existing customers only. Claude 3.5 Sonnet outperforms Anthropic's
+Claude 3 Opus on a wide range of Anthropic's evaluations with the
+speed and cost of Anthropic's mid-tier model, Claude 3 Sonnet. Model ID claude-3-5-sonnet Launch stage GA Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output ...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+      <guid isPermaLink="false">Google_Vertex-claude-3-5-sonnet-2026-02-19-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google Vertex: Jamba 1.5 Large</title>
+      <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#jamba-1-5-large</link>
+      <description>Provider: Google Vertex
+Model ID: jamba-1.5-large
+Model: Jamba 1.5 Large
+Shutdown Date: 2026-02-27
+
+Jamba 1.5 Large is deprecated as of August 27, 2025 and will be shut down on February 27, 2026 . Jamba 1.5 Large is available to
+existing customers only. AI21 Labs's Jamba 1.5 Large is well balanced across quality,
+throughput, and low cost. View model card in Model Garden Model ID jamba-1.5-large Launch stage Preview Supported inputs &amp; outputs Inputs: Text , Documents Outputs: Text Usage types Supported Fixed quota Not supported Provisioned Throughput Knowledge cutoff date March 2024 Versions ja...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+      <guid isPermaLink="false">Google_Vertex-jamba-1.5-large-2026-02-27-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google Vertex: Jamba 1.5 Mini</title>
+      <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#jamba-1-5</link>
+      <description>Provider: Google Vertex
+Model ID: jamba-1.5-mini
+Model: Jamba 1.5 Mini
+Shutdown Date: 2026-02-27
+
+Jamba 1.5 Mini is deprecated as of August 27, 2025 and will be shut down on February 27, 2026 . Jamba 1.5 Mini is available to existing
+customers only. AI21 Labs's Jamba 1.5 Mini is well balanced across quality, throughput,
+and low cost. View model card in Model Garden Model ID jamba-1.5-mini Launch stage Preview Supported inputs &amp; outputs Inputs: Text , Documents Outputs: Text Usage types Supported Fixed quota Not supported Provisioned Throughput Knowledge cutoff date March 2024 Versions jamba-...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+      <guid isPermaLink="false">Google_Vertex-jamba-1.5-mini-2026-02-27-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google Vertex: Claude 3 Opus</title>
+      <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#claude-opus</link>
+      <description>Provider: Google Vertex
+Model ID: claude-3-opus
+Model: Claude 3 Opus
+Shutdown Date: 2025-08-01
+
+Anthropic's Claude 3 Opus is deprecated as of June 30, 2025 and will be shut down on August 1, 2025 . Claude 3 Opus is available to
+existing customers only. Anthropic's Claude 3 Opus is a powerful AI model with top-level performance on highly
+complex tasks. It can navigate open-ended prompts and sight-unseen scenarios
+with remarkable fluency and human-like understanding. Claude 3 Opus
+is optimized for the following use cases: Task automation, such as interactive coding and planning, or running c...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+      <guid isPermaLink="false">Google_Vertex-claude-3-opus-2025-08-01-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: Stable Diffusion XL 1.0</title>
@@ -1052,37 +1765,9 @@ Model ID: Claude 3.5 Sonnet v1
 Model: Claude 3.5 Sonnet v1
 Shutdown Date: 2026-03-01
 
-Model Claude 3.5 Sonnet v1. entered legacy status on 2025-08-25. and will reach end-of-life on 2026-03-01. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+Model Claude 3.5 Sonnet v1. entered legacy status on 2025-08-25. and will reach end-of-life on 2026-03-01. Recommended replacement: Claude Sonnet 4.5. Additional regional schedule: Model Claude 3.5 Sonnet v1. entered legacy status on 2025-08-25. and will reach end-of-life on 2026-06-01. Recommended replacement: Claude Sonnet 4.5. Additional regional schedule: Model Claude 3.5 Sonnet v1. entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30. Recommended replacement: Claude...</description>
+      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_3.5_Sonnet_v1-2026-03-01-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: August 25, 2025 (eu-central-2 Region)</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: August 25, 2025 (eu-central-2 Region)
-Model: August 25, 2025 (eu-central-2 Region)
-Shutdown Date: 2025-12-01
-
-Model August 25, 2025 (eu-central-2 Region). entered legacy status on 2025-12-01.</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-August_25,_2025_(eu-central-2_Region)-2025-12-01-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: January 30, 2026 (us-gov-east-1, us-gov-west-1, ap-northeast-1, ap-south-1, and ap-southeast-2
-                            Regions)</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: January 30, 2026 (us-gov-east-1, us-gov-west-1, ap-northeast-1, ap-south-1, and ap-southeast-2
-                            Regions)
-Model: January 30, 2026 (us-gov-east-1, us-gov-west-1, ap-northeast-1, ap-south-1, and ap-southeast-2
-                            Regions)
-Shutdown Date: 2026-04-30
-
-Model January 30, 2026 (us-gov-east-1, us-gov-west-1, ap-northeast-1, ap-south-1, and ap-southeast-2
-                            Regions). entered legacy status on 2026-04-30.</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-January_30,_2026_(us-gov-east-1,_us-gov-west-1,_ap-northeast-1,_ap-south-1,_and_ap-south</guid>
     </item>
     <item>
       <title>AWS Bedrock: Claude 3.5 Sonnet v2</title>
@@ -1092,25 +1777,9 @@ Model ID: Claude 3.5 Sonnet v2
 Model: Claude 3.5 Sonnet v2
 Shutdown Date: 2026-03-01
 
-Model Claude 3.5 Sonnet v2. entered legacy status on 2025-08-25. and will reach end-of-life on 2026-03-01. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+Model Claude 3.5 Sonnet v2. entered legacy status on 2025-08-25. and will reach end-of-life on 2026-03-01. Recommended replacement: Claude Sonnet 4.5. Additional regional schedule: Model Claude 3.5 Sonnet v2. entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30. Recommended replacement: Claude Sonnet 4.5.</description>
+      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_3.5_Sonnet_v2-2026-03-01-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: January 30, 2026 (ap-northeast-1, ap-northeast-3, ap-south-1, ap-south-2, and ap-southeast-2
-                            Regions)</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: January 30, 2026 (ap-northeast-1, ap-northeast-3, ap-south-1, ap-south-2, and ap-southeast-2
-                            Regions)
-Model: January 30, 2026 (ap-northeast-1, ap-northeast-3, ap-south-1, ap-south-2, and ap-southeast-2
-                            Regions)
-Shutdown Date: 2026-04-30
-
-Model January 30, 2026 (ap-northeast-1, ap-northeast-3, ap-south-1, ap-south-2, and ap-southeast-2
-                            Regions). entered legacy status on 2026-04-30.</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-January_30,_2026_(ap-northeast-1,_ap-northeast-3,_ap-south-1,_ap-south-2,_and_ap-southea</guid>
     </item>
     <item>
       <title>AWS Bedrock: Claude 3.7 Sonnet</title>
@@ -1120,26 +1789,9 @@ Model ID: Claude 3.7 Sonnet
 Model: Claude 3.7 Sonnet
 Shutdown Date: 2026-04-28
 
-Model Claude 3.7 Sonnet. entered legacy status on 2025-10-28. and will reach end-of-life on 2026-04-28. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+Model Claude 3.7 Sonnet. entered legacy status on 2025-10-28. and will reach end-of-life on 2026-04-28. Recommended replacement: Claude Sonnet 4.5. Additional regional schedule: Model Claude 3.7 Sonnet. entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30. Recommended replacement: Claude Sonnet 4.5.</description>
+      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Claude_3.7_Sonnet-2026-04-28-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: January 30, 2026 (us-gov-east-1 and us-gov-west-1
-                            Regions)</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: January 30, 2026 (us-gov-east-1 and us-gov-west-1
-                            Regions)
-Model: January 30, 2026 (us-gov-east-1 and us-gov-west-1
-                            Regions)
-Shutdown Date: 2026-04-30
-
-Model January 30, 2026 (us-gov-east-1 and us-gov-west-1
-                            Regions). entered legacy status on 2026-04-30.</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-January_30,_2026_(us-gov-east-1_and_us-gov-west-1
-____________________________Regions)-2</guid>
     </item>
     <item>
       <title>AWS Bedrock: Titan Image Generator G1 v2</title>
@@ -1401,8 +2053,8 @@ Model ID: Ai21 J2 Mid-v1
 Model: Ai21 J2 Mid-v1
 Shutdown Date: 2024-10-04
 
-Model Ai21 J2 Mid-v1. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+Model Ai21 J2 Mid-v1. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1. Additional regional schedule: Model Ai21 J2 Mid-v1. entered legacy status on 2024-10-04. and will reach end-of-life on 2025-03-12. Recommended replacement: Jamba-Instruct v1.</description>
+      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Ai21_J2_Mid-v1-2024-10-04-e3b0c442</guid>
     </item>
     <item>
@@ -1413,8 +2065,8 @@ Model ID: Ai21 J2 Ultra-v1
 Model: Ai21 J2 Ultra-v1
 Shutdown Date: 2024-10-04
 
-Model Ai21 J2 Ultra-v1. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+Model Ai21 J2 Ultra-v1. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1. Additional regional schedule: Model Ai21 J2 Ultra-v1. entered legacy status on 2024-10-04. and will reach end-of-life on 2025-03-12. Recommended replacement: Jamba-Instruct v1.</description>
+      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Ai21_J2_Ultra-v1-2024-10-04-e3b0c442</guid>
     </item>
     <item>
@@ -1425,8 +2077,8 @@ Model ID: Ai21 J2-Grande-Instruct
 Model: Ai21 J2-Grande-Instruct
 Shutdown Date: 2024-10-04
 
-Model Ai21 J2-Grande-Instruct. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+Model Ai21 J2-Grande-Instruct. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1. Additional regional schedule: Model Ai21 J2-Grande-Instruct. entered legacy status on 2024-10-04. and will reach end-of-life on 2025-03-12. Recommended replacement: Jamba-Instruct v1.</description>
+      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Ai21_J2-Grande-Instruct-2024-10-04-e3b0c442</guid>
     </item>
     <item>
@@ -1437,8 +2089,8 @@ Model ID: Ai21 J2 Jumbo-Instruct
 Model: Ai21 J2 Jumbo-Instruct
 Shutdown Date: 2024-10-04
 
-Model Ai21 J2 Jumbo-Instruct. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+Model Ai21 J2 Jumbo-Instruct. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1. Additional regional schedule: Model Ai21 J2 Jumbo-Instruct. entered legacy status on 2024-10-04. and will reach end-of-life on 2025-03-12. Recommended replacement: Jamba-Instruct v1.</description>
+      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-Ai21_J2_Jumbo-Instruct-2024-10-04-e3b0c442</guid>
     </item>
     <item>
@@ -1538,102 +2190,159 @@ Model Amazon Titan Image Generator G1 V1. entered legacy status on 2025-01-31. a
       <guid isPermaLink="false">AWS_Bedrock-Amazon_Titan_Image_Generator_G1_V1-2025-08-15-e3b0c442</guid>
     </item>
     <item>
-      <title>Cohere: Embed v2.0, Aya Expanse 8B</title>
-      <link>https://docs.cohere.com/docs/deprecations#2026-04-04</link>
+      <title>Cohere: embed-english-v2.0</title>
+      <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
       <description>Provider: Cohere
-Model ID: Embed v2.0, Aya Expanse 8B
-Model: Embed v2.0, Aya Expanse 8B
-Announcement Date: 2026-04-04
-First Observed: 2026-02-28
-Last Observed: 2026-02-28
+Model ID: embed-english-v2.0
+Model: embed-english-v2.0
+Shutdown Date: 2026-04-04
 
-2026-04-04: Embed v2.0, Aya Expanse 8B
-Effective April 4th, 2026, the following models will be retired:
-embed-english-v2.0embed-english-light-v2.0embed-multilingual-v2.0c4ai-aya-expanse-8bc4ai-aya-vision-8b
-We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities:
-Embedding tasks alternatives:embed-english-v3.0embed-multilingual-v3.0embed-v4.0Chat tasks alternatives:command-r7b-12-2024command-a-03-2025command-a-reasoning-08-...</description>
-      <pubDate>Sat, 28 Feb 2026 03:48:19 GMT</pubDate>
-      <guid isPermaLink="false">Cohere-Embed_v2.0,_Aya_Expanse_8B-e3b0c442</guid>
+Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:37 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-embed-english-v2.0-2026-04-04-e3b0c442</guid>
     </item>
     <item>
-      <title>Cohere: Various older command models, a number of endpoints, all of fine-tuning.</title>
-      <link>https://docs.cohere.com/docs/deprecations#2025-09-15</link>
+      <title>Cohere: embed-english-light-v2.0</title>
+      <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
       <description>Provider: Cohere
-Model ID: Various older command models, a number of endpoints, all of fine-tuning.
-Model: Various older command models, a number of endpoints, all of fine-tuning.
+Model ID: embed-english-light-v2.0
+Model: embed-english-light-v2.0
+Shutdown Date: 2026-04-04
+
+Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:37 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-embed-english-light-v2.0-2026-04-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: embed-multilingual-v2.0</title>
+      <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
+      <description>Provider: Cohere
+Model ID: embed-multilingual-v2.0
+Model: embed-multilingual-v2.0
+Shutdown Date: 2026-04-04
+
+Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:37 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-embed-multilingual-v2.0-2026-04-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: c4ai-aya-expanse-8b</title>
+      <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
+      <description>Provider: Cohere
+Model ID: c4ai-aya-expanse-8b
+Model: c4ai-aya-expanse-8b
+Shutdown Date: 2026-04-04
+
+Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:37 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-c4ai-aya-expanse-8b-2026-04-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: c4ai-aya-vision-8b</title>
+      <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
+      <description>Provider: Cohere
+Model ID: c4ai-aya-vision-8b
+Model: c4ai-aya-vision-8b
+Shutdown Date: 2026-04-04
+
+Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:37 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-c4ai-aya-vision-8b-2026-04-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: command-r-03-2024</title>
+      <link>https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning</link>
+      <description>Provider: Cohere
+Model ID: command-r-03-2024
+Model: command-r-03-2024
 Announcement Date: 2025-09-15
-First Observed: 2026-02-28
-Last Observed: 2026-02-28
 
-2025-09-15: Various older command models, a number of endpoints, all of fine-tuning.
-Effective September 15, 2025, the following deprecations will roll out.
-Deprecated Models:
-command-r-03-2024(and the aliascommand-r)command-r-plus-04-2024(and the aliascommand-r-plus)command-lightcommandsummarize(Refer tothe migration guidefor alternatives).
-For command model replacements, we recommend you usecommand-r-08-2024,command-r-plus-08-2024, orcommand-a-03-2025(which is the strongest-performing model ac...</description>
-      <pubDate>Sat, 28 Feb 2026 03:48:19 GMT</pubDate>
-      <guid isPermaLink="false">Cohere-Various_older_command_models,_a_number_of_endpoints,_all_of_fine-tuning.-e3b0c442</guid>
+Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a...</description>
+      <pubDate>Thu, 26 Mar 2026 14:57:09 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-command-r-03-2024-e3b0c442</guid>
     </item>
     <item>
-      <title>Cohere: Command-R-03-2024 Fine-tuned Models</title>
-      <link>https://docs.cohere.com/docs/deprecations#2025-03-08</link>
+      <title>Cohere: command-r</title>
+      <link>https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning</link>
       <description>Provider: Cohere
-Model ID: Command-R-03-2024-finetuned
-Model: Command-R-03-2024 Fine-tuned Models
-Shutdown Date: 2025-03-08
+Model ID: command-r
+Model: command-r
+Announcement Date: 2025-09-15
 
-2025-03-08: Command-R-03-2024 Fine-tuned Models
-On March 08, 2025, we will sunset all models fine-tuned with Command-R-03-2024. As part of our ongoing efforts to enhance our services, we are making the following changes to our fine-tuning capabilities:
-Deprecating fine-tuning with the older Command-R-03-2024 modelAll fine-tunes are now powered by the Command-R-08-2024 model.
-Models fine-tuned with Command-R-03-2024 will continue to be supported until March 08, 2025. After this date, all requests...</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Cohere-Command-R-03-2024-finetuned-2025-03-08-e3b0c442</guid>
+Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a...</description>
+      <pubDate>Thu, 26 Mar 2026 14:57:09 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-command-r-e3b0c442</guid>
     </item>
     <item>
-      <title>Cohere: Classify Default Embed Models</title>
-      <link>https://docs.cohere.com/docs/deprecations#2025-01-31</link>
+      <title>Cohere: command-r-plus-04-2024</title>
+      <link>https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning</link>
       <description>Provider: Cohere
-Model ID: classify-default-embed
-Model: Classify Default Embed Models
-Shutdown Date: 2025-01-31
+Model ID: command-r-plus-04-2024
+Model: command-r-plus-04-2024
+Announcement Date: 2025-09-15
 
-2025-01-31: Default Classify endpoint
-After January 31st, 2025, usage of Classify endpoint via the default Embed models will be deprecated.
-However, you can still use the Classify endpoint with a fine-tuned Embed model. By leveraging fine-tuning, you can achieve even better performance and accuracy in your classification tasks. Read the documentation onClassify fine-tuningfor more information.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Cohere-classify-default-embed-2025-01-31-e3b0c442</guid>
+Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a...</description>
+      <pubDate>Thu, 26 Mar 2026 14:57:09 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-command-r-plus-04-2024-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: command-r-plus</title>
+      <link>https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning</link>
+      <description>Provider: Cohere
+Model ID: command-r-plus
+Model: command-r-plus
+Announcement Date: 2025-09-15
+
+Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a...</description>
+      <pubDate>Thu, 26 Mar 2026 14:57:09 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-command-r-plus-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: command-light</title>
+      <link>https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning</link>
+      <description>Provider: Cohere
+Model ID: command-light
+Model: command-light
+Announcement Date: 2025-09-15
+
+Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a...</description>
+      <pubDate>Thu, 26 Mar 2026 14:57:09 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-command-light-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: command</title>
+      <link>https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning</link>
+      <description>Provider: Cohere
+Model ID: command
+Model: command
+Announcement Date: 2025-09-15
+
+Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a...</description>
+      <pubDate>Thu, 26 Mar 2026 14:57:09 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-command-e3b0c442</guid>
     </item>
     <item>
       <title>Cohere: rerank-english-v2.0</title>
-      <link>https://docs.cohere.com/docs/deprecations#2024-12-02</link>
+      <link>https://docs.cohere.com/docs/deprecations#2024-12-02-rerank-v2-0</link>
       <description>Provider: Cohere
 Model ID: rerank-english-v2.0
 Model: rerank-english-v2.0
 Shutdown Date: 2025-04-30
 
-2024-12-02: Rerank v2.0
-On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family.
-Fine-tuned models created from these base models are not affected by this deprecation.
-Shutdown DateDeprecated ModelDeprecated Model PriceRecommended Replacement2025-04-30rerank-english-v2.0$1.00 / 1K searchesrerank-v3.52025-04-30rerank-multilingual-v2.0$1.00 / 1K searchesrerank-v3.5
-Best Practices:
-Regularly check our documentation for updates on ann...</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family. Fine-tuned models created from these base models are not affected by this deprecation. | Shutdown Date | Deprecated Model           | Deprecated Model Price | Recommended Replacement | | ------------- | -------------------------- | ---------------------- | ----------------------- | | 2025-04-30    | `rerank-english-v2.0`      | \$1.00 / 1K searches   | `rerank-v3.5`         ...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:37 GMT</pubDate>
       <guid isPermaLink="false">Cohere-rerank-english-v2.0-2025-04-30-e3b0c442</guid>
     </item>
     <item>
       <title>Cohere: rerank-multilingual-v2.0</title>
-      <link>https://docs.cohere.com/docs/deprecations#2024-12-02</link>
+      <link>https://docs.cohere.com/docs/deprecations#2024-12-02-rerank-v2-0</link>
       <description>Provider: Cohere
 Model ID: rerank-multilingual-v2.0
 Model: rerank-multilingual-v2.0
 Shutdown Date: 2025-04-30
 
-2024-12-02: Rerank v2.0
-On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family.
-Fine-tuned models created from these base models are not affected by this deprecation.
-Shutdown DateDeprecated ModelDeprecated Model PriceRecommended Replacement2025-04-30rerank-english-v2.0$1.00 / 1K searchesrerank-v3.52025-04-30rerank-multilingual-v2.0$1.00 / 1K searchesrerank-v3.5
-Best Practices:
-Regularly check our documentation for updates on ann...</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family. Fine-tuned models created from these base models are not affected by this deprecation. | Shutdown Date | Deprecated Model           | Deprecated Model Price | Recommended Replacement | | ------------- | -------------------------- | ---------------------- | ----------------------- | | 2025-04-30    | `rerank-english-v2.0`      | \$1.00 / 1K searches   | `rerank-v3.5`         ...</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:37 GMT</pubDate>
       <guid isPermaLink="false">Cohere-rerank-multilingual-v2.0-2025-04-30-e3b0c442</guid>
     </item>
     <item>

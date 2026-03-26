@@ -5,7 +5,6 @@ from .scrapers.openai_scraper import OpenAIScraper
 from .scrapers.anthropic_scraper import AnthropicScraper
 from .scrapers.google_scraper import GoogleScraper
 from .scrapers.google_vertex_scraper import GoogleVertexScraper
-from .scrapers.google_vertex_models_scraper import GoogleVertexModelsScraper
 from .scrapers.aws_bedrock_scraper import AWSBedrockScraper
 from .scrapers.cohere_scraper import CohereScraper
 from .scrapers.xai_scraper import XAIScraper
@@ -17,7 +16,6 @@ SCRAPERS = [
     AnthropicScraper,
     GoogleScraper,
     GoogleVertexScraper,
-    GoogleVertexModelsScraper,
     AWSBedrockScraper,
     CohereScraper,
     XAIScraper,

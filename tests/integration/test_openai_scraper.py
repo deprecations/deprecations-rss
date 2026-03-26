@@ -170,6 +170,36 @@ def test_extracts_o1_preview_with_context(scraper, fixture_html):
     ), "Context should mention the deprecated models"
 
 
+def test_extracts_tables_wrapped_in_container_divs(scraper):
+    """Live OpenAI pages wrap tables in overflow divs instead of placing them as direct siblings."""
+    html = """
+    <html>
+      <body>
+        <main>
+          <div class="anchor-heading-wrapper"><h3 id="2025-11-18-chatgpt-4o-latest-snapshot">2025-11-18: chatgpt-4o-latest snapshot</h3></div>
+          <p>On November 18th, 2025, we notified developers using chatgpt-4o-latest model snapshot of its deprecation.</p>
+          <div class="md:max-w-5xl mx-auto overflow-x-auto">
+            <table>
+              <thead>
+                <tr><th>Shutdown date</th><th>Model / system</th><th>Recommended replacement</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>2026-02-17</td><td><code>chatgpt-4o-latest</code></td><td><code>gpt-5.1-chat-latest</code></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </main>
+      </body>
+    </html>
+    """
+
+    items = scraper.extract_structured_deprecations(html)
+
+    assert len(items) == 1
+    assert items[0].model_id == "chatgpt-4o-latest"
+    assert items[0].shutdown_date == "2026-02-17"
+
+
 def test_extracts_gpt4_32k_with_context(scraper, fixture_html):
     """Should extract gpt-4-32k with proper context."""
     items = scraper.extract_structured_deprecations(fixture_html)
@@ -243,6 +273,22 @@ def test_handles_multiple_models_in_one_table_row(scraper, fixture_html):
     )
 
 
+def test_extracts_alias_models_and_cleans_replacements(scraper, fixture_html):
+    """Should emit alias model IDs from one HTML row and strip footnote markers."""
+    items = scraper.extract_structured_deprecations(fixture_html)
+    by_id = {item.model_id: item for item in items}
+
+    for model_id in [
+        "gpt-4-0125-preview",
+        "gpt-4-turbo-preview",
+        "gpt-4-turbo-preview-completions",
+    ]:
+        assert model_id in by_id, f"Missing alias-backed model {model_id}"
+        assert by_id[model_id].replacement_models == ["gpt-5", "gpt-4.1"], (
+            f"Unexpected replacements for {model_id}: {by_id[model_id].replacement_models}"
+        )
+
+
 def test_handles_models_with_special_characters(scraper, fixture_html):
     """Should handle model names with hyphens and underscores."""
     items = scraper.extract_structured_deprecations(fixture_html)
@@ -270,16 +316,16 @@ def test_handles_models_with_special_characters(scraper, fixture_html):
 @pytest.mark.slow
 @pytest.mark.integration
 def test_scrapes_live_site_successfully(scraper):
-    """Should successfully scrape the live OpenAI deprecations page."""
+    """Should successfully scrape the live OpenAI markdown source."""
     try:
-        html = scraper.fetch_with_playwright(scraper.url)
-        items = scraper.extract_structured_deprecations(html)
+        content = scraper.fetch_html(scraper.get_source_url())
+        items = scraper.extract_structured_deprecations(content)
 
-        assert len(items) > 0, "Should extract items from live site"
+        assert len(items) > 0, "Should extract items from live source"
 
         for item in items[:5]:
             assert item.deprecation_context, (
                 f"Live site: {item.model_name} should have context"
             )
     except Exception as e:
-        pytest.skip(f"Live site test failed (may be Cloudflare or network issue): {e}")
+        pytest.skip(f"Live site test failed (may be network issue): {e}")
