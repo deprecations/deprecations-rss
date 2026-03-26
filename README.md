@@ -5,8 +5,6 @@ Feed](https://badges.ws/badge/RSS-Feed-orange?style=flat&logo=RSS)](https://depr
 Feed](https://badges.ws/badge/JSON-Feed-green?style=flat&logo=RSS)](https://deprecations.info/feed.json)
 [![Raw
 JSON](https://badges.ws/badge/Raw-JSON-blue?style=flat&logo=JSON)](https://deprecations.info/api/v1/deprecations.json)
-[![Github
-Sponsors](https://badges.ws/badge/Github-Sponsors-red?style=flat&logo=githubsponsors)](https://github.com/sponsors/leblancfg)
 
 Never miss an AI model shutdown again. Track AI model deprecation announcements
 from major AI providers via JSON API, JSON Feed, or RSS.
