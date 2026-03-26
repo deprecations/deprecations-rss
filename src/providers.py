@@ -21,13 +21,21 @@ SCRAPERS = [
 ]
 
 TRACKED_PROVIDER_PAGES = [
-    {"provider": OpenAIScraper.provider_name, "label": "OpenAI Deprecations", "url": OpenAIScraper.url},
+    {
+        "provider": OpenAIScraper.provider_name,
+        "label": "OpenAI Deprecations",
+        "url": OpenAIScraper.url,
+    },
     {
         "provider": AnthropicScraper.provider_name,
         "label": "Anthropic Model Deprecations",
         "url": AnthropicScraper.url,
     },
-    {"provider": GoogleScraper.provider_name, "label": "Google AI/Gemini Deprecations", "url": GoogleScraper.url},
+    {
+        "provider": GoogleScraper.provider_name,
+        "label": "Google AI/Gemini Deprecations",
+        "url": GoogleScraper.url,
+    },
     {
         "provider": GoogleVertexScraper.provider_name,
         "label": "Google Vertex AI Deprecations",
@@ -38,7 +46,19 @@ TRACKED_PROVIDER_PAGES = [
         "label": "AWS Bedrock Model Lifecycle",
         "url": AWSBedrockScraper.url,
     },
-    {"provider": CohereScraper.provider_name, "label": "Cohere Deprecations", "url": CohereScraper.url},
-    {"provider": XAIScraper.provider_name, "label": "xAI Models", "url": XAIScraper.url},
-    {"provider": AzureFoundryScraper.provider_name, "label": "Azure AI Foundry Retirements", "url": AzureFoundryScraper.url},
+    {
+        "provider": CohereScraper.provider_name,
+        "label": "Cohere Deprecations",
+        "url": CohereScraper.url,
+    },
+    {
+        "provider": XAIScraper.provider_name,
+        "label": "xAI Models",
+        "url": XAIScraper.url,
+    },
+    {
+        "provider": AzureFoundryScraper.provider_name,
+        "label": "Azure AI Foundry Retirements",
+        "url": AzureFoundryScraper.url,
+    },
 ]

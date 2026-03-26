@@ -103,9 +103,7 @@ def test_extracts_dates(scraper, fixture_html):
     items = scraper.extract_structured_deprecations(fixture_html)
 
     for item in items:
-        assert item.announcement_date, (
-            f"Missing announcement date for {item.model_id}"
-        )
+        assert item.announcement_date, f"Missing announcement date for {item.model_id}"
         assert item.shutdown_date, f"Missing shutdown date for {item.model_id}"
         # Dates should be in YYYY-MM-DD format
         assert len(item.announcement_date) == 10, (

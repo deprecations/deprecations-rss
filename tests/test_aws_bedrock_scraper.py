@@ -39,7 +39,9 @@ def test_extracts_true_model_ids_from_active_lookup(fixture_html):
         ),
         None,
     )
-    assert sonnet_item is not None, "Should resolve Claude 3.7 Sonnet to its Bedrock model ID"
+    assert sonnet_item is not None, (
+        "Should resolve Claude 3.7 Sonnet to its Bedrock model ID"
+    )
     assert sonnet_item.announcement_date == "2025-10-28"
     assert sonnet_item.shutdown_date == "2026-04-28"
     assert sonnet_item.replacement_models == [
@@ -62,9 +64,7 @@ def test_extracts_replacement_model_ids(fixture_html):
         None,
     )
     assert sonnet_v1 is not None
-    assert sonnet_v1.replacement_models == [
-        "anthropic.claude-sonnet-4-5-20250929-v1:0"
-    ]
+    assert sonnet_v1.replacement_models == ["anthropic.claude-sonnet-4-5-20250929-v1:0"]
 
 
 def test_all_dates_are_iso_format(fixture_html):

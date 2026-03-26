@@ -91,7 +91,9 @@ class AzureFoundryScraper(EnhancedBaseScraper):
 
                 replacement_models = None
                 if replacement_idx is not None and replacement_idx < len(cells):
-                    replacement_models = self._extract_replacement_models(cells[replacement_idx])
+                    replacement_models = self._extract_replacement_models(
+                        cells[replacement_idx]
+                    )
 
                 items.append(
                     DeprecationItem(

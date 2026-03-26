@@ -55,15 +55,21 @@ def scrape_all(previous_data: list[dict]) -> list[dict]:
                 print(
                     f"✗ Failed to scrape {provider_name}: Missing shutdown dates for {len(missing_shutdown)} model IDs: {preview}"
                 )
-                valid_items = [item for item in deprecation_dicts if item.get("shutdown_date")]
+                valid_items = [
+                    item for item in deprecation_dicts if item.get("shutdown_date")
+                ]
                 if valid_items:
                     all_deprecations.extend(valid_items)
                     print(f"  → Using {len(valid_items)} currently valid scraped items")
                 else:
                     previous_provider_data = [
-                        item for item in previous_data if item.get("provider") == provider_name
+                        item
+                        for item in previous_data
+                        if item.get("provider") == provider_name
                     ]
-                    filtered_previous = _filter_fallback_items(scraper_class, previous_provider_data)
+                    filtered_previous = _filter_fallback_items(
+                        scraper_class, previous_provider_data
+                    )
                     all_deprecations.extend(filtered_previous)
                     print(f"  → Using {len(filtered_previous)} cached items")
                 continue
@@ -75,7 +81,9 @@ def scrape_all(previous_data: list[dict]) -> list[dict]:
             previous_provider_data = [
                 item for item in previous_data if item.get("provider") == provider_name
             ]
-            filtered_previous = _filter_fallback_items(scraper_class, previous_provider_data)
+            filtered_previous = _filter_fallback_items(
+                scraper_class, previous_provider_data
+            )
             all_deprecations.extend(filtered_previous)
             print(f"  → Using {len(filtered_previous)} cached items")
 
@@ -162,7 +170,11 @@ def apply_observation_metadata(
         observed_on = (item.get("scraped_at") or "")[:10] or today
         first_observed = previous.get("first_observed") or observed_on
         previous_last_observed = previous.get("last_observed") or ""
-        last_observed = max(previous_last_observed, observed_on) if previous_last_observed else observed_on
+        last_observed = (
+            max(previous_last_observed, observed_on)
+            if previous_last_observed
+            else observed_on
+        )
 
         item["first_observed"] = first_observed
         item["last_observed"] = last_observed

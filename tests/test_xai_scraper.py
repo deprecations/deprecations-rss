@@ -132,9 +132,7 @@ def test_does_not_extract_apis_as_models(scraper, fixture_html):
     items = scraper.extract_unstructured_deprecations(fixture_html)
 
     for item in items:
-        assert "API" not in item.model_id, (
-            f"Extracted API '{item.model_id}' as a model"
-        )
+        assert "API" not in item.model_id, f"Extracted API '{item.model_id}' as a model"
 
 
 def test_extract_with_multiple_deprecated_models():

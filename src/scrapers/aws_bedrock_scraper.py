@@ -46,7 +46,11 @@ class AWSBedrockScraper(EnhancedBaseScraper):
             replacement_id_idx = None
 
             for i, header in enumerate(headers):
-                if "model id" in header and "recommended" not in header and model_id_idx is None:
+                if (
+                    "model id" in header
+                    and "recommended" not in header
+                    and model_id_idx is None
+                ):
                     model_id_idx = i
                 elif (
                     "model version" in header or "model name" in header
@@ -59,8 +63,10 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                 elif "recommended model id" in header and replacement_id_idx is None:
                     replacement_id_idx = i
                 elif (
-                    "replac" in header or "migration" in header
-                ) and "id" not in header and replacement_idx is None:
+                    ("replac" in header or "migration" in header)
+                    and "id" not in header
+                    and replacement_idx is None
+                ):
                     replacement_idx = i
 
             if model_version_idx is None and model_id_idx is None:
@@ -96,7 +102,13 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                     replacement_text = cells[replacement_id_idx]
                 elif replacement_idx is not None and replacement_idx < len(cells):
                     replacement_text = cells[replacement_idx]
-                if replacement_text and replacement_text not in ["—", "-", "N/A", "TBD", "NA"]:
+                if replacement_text and replacement_text not in [
+                    "—",
+                    "-",
+                    "N/A",
+                    "TBD",
+                    "NA",
+                ]:
                     replacement_models = self.parse_replacements(replacement_text)
 
                 if not (legacy_date or eol_date):
@@ -110,7 +122,11 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                         shutdown_date=eol_date or legacy_date,
                         replacement_models=replacement_models,
                         deprecation_context=self._build_context(
-                            model_id, model_version, legacy_date, eol_date, replacement_models
+                            model_id,
+                            model_version,
+                            legacy_date,
+                            eol_date,
+                            replacement_models,
                         ),
                         url=self.url,
                     )
@@ -140,7 +156,11 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                 continue
 
             model_version_idx = next(
-                (i for i, header in enumerate(headers) if header in {"model name", "model version"}),
+                (
+                    i
+                    for i, header in enumerate(headers)
+                    if header in {"model name", "model version"}
+                ),
                 None,
             )
             model_id_idx = headers.index("model id")

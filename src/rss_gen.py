@@ -36,7 +36,11 @@ def create_rss_feed(data):
         item = ET.SubElement(channel, "item")
 
         model_id = item_data.get("model_id", "")
-        title = f"{item_data['provider']}: {model_id}" if model_id else f"{item_data['provider']} Deprecation"
+        title = (
+            f"{item_data['provider']}: {model_id}"
+            if model_id
+            else f"{item_data['provider']} Deprecation"
+        )
 
         ET.SubElement(item, "title").text = title
         ET.SubElement(item, "link").text = item_data["url"]

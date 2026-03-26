@@ -169,7 +169,9 @@ class GoogleScraper(EnhancedBaseScraper):
                                         matched_model = re.search(
                                             pattern, text.lower()
                                         ).group(0)
-                                        model_id = matched_model.lower().replace(" ", "-")
+                                        model_id = matched_model.lower().replace(
+                                            " ", "-"
+                                        )
 
                                         future_date_match = re.search(
                                             r"(\w+ \d+, \d{4})", text
