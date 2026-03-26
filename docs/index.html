@@ -1350,6 +1350,11 @@ end</code></pre>
                 If you're not checking their docs constantly, you might miss an announcement and have your app break.
                 This feed does the checking for you.
             </p>
+            <p>
+                Note: some providers publish different lifecycle dates by region. In those cases, we currently collapse
+                the data to one row per model ID and use the earliest published legacy/deprecation date and the earliest
+                published shutdown/EOL date. Regional differences may still exist on the source page.
+            </p>
         </section>
 
         <section class="sponsorship">

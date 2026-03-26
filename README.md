@@ -47,6 +47,11 @@ AI providers deprecate models regularly, sometimes with just a few months
 notice. If you're not checking their docs constantly, you might miss an
 announcement and have your app break. This feed does the checking for you.
 
+Note: some providers publish different lifecycle dates by region. In those
+cases, we currently collapse the data to one row per model ID and use the
+earliest published legacy/deprecation date and the earliest published
+shutdown/EOL date. Regional differences may still exist on the source page.
+
 ## How It Works
 
 1. GitHub Actions runs daily at 2 AM UTC
