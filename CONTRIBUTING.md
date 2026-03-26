@@ -19,9 +19,6 @@ If a provider changed their page format or you found any other issue:
 # Install dependencies
 uv sync
 
-# Set up API key (required for LLM enhancement)
-echo "ANTHROPIC_API_KEY=your-key-here" >> ~/.env
-
 # Run the scraper
 uv run python main.py
 ```

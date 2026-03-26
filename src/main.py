@@ -32,15 +32,11 @@ def _filter_fallback_items(scraper_class, items: list[dict]) -> list[dict]:
     return items
 
 
-def _validate_scraped_items(scraper, items: list[dict]):
-    """Validate scraper output and fail fast when required fields are missing."""
-    if getattr(scraper, "require_shutdown_dates", False):
-        missing_shutdown = [item["model_id"] for item in items if not item.get("shutdown_date")]
-        if missing_shutdown:
-            preview = ", ".join(missing_shutdown[:10])
-            raise ValueError(
-                f"Missing shutdown dates for {len(missing_shutdown)} model IDs: {preview}"
-            )
+def _missing_shutdown_items(scraper, items: list[dict]) -> list[str]:
+    """Return model IDs missing required shutdown dates for this scraper."""
+    if not getattr(scraper, "require_shutdown_dates", False):
+        return []
+    return [item["model_id"] for item in items if not item.get("shutdown_date")]
 
 
 def scrape_all(previous_data: list[dict]) -> list[dict]:
@@ -49,11 +45,29 @@ def scrape_all(previous_data: list[dict]) -> list[dict]:
 
     for scraper_class in SCRAPERS:
         provider_name = scraper_class.provider_name
+        scraper = scraper_class()
         try:
-            scraper = scraper_class()
             deprecations = scraper.scrape()
             deprecation_dicts = [item.to_dict() for item in deprecations]
-            _validate_scraped_items(scraper, deprecation_dicts)
+            missing_shutdown = _missing_shutdown_items(scraper, deprecation_dicts)
+            if missing_shutdown:
+                preview = ", ".join(missing_shutdown[:10])
+                print(
+                    f"✗ Failed to scrape {provider_name}: Missing shutdown dates for {len(missing_shutdown)} model IDs: {preview}"
+                )
+                valid_items = [item for item in deprecation_dicts if item.get("shutdown_date")]
+                if valid_items:
+                    all_deprecations.extend(valid_items)
+                    print(f"  → Using {len(valid_items)} currently valid scraped items")
+                else:
+                    previous_provider_data = [
+                        item for item in previous_data if item.get("provider") == provider_name
+                    ]
+                    filtered_previous = _filter_fallback_items(scraper_class, previous_provider_data)
+                    all_deprecations.extend(filtered_previous)
+                    print(f"  → Using {len(filtered_previous)} cached items")
+                continue
+
             all_deprecations.extend(deprecation_dicts)
             print(f"✓ Scraped {provider_name}: {len(deprecations)} deprecations")
         except Exception as exc:
@@ -154,7 +168,7 @@ def apply_observation_metadata(
         item["last_observed"] = last_observed
 
         if not item.get("announcement_date"):
-            item["announcement_date"] = previous.get("announcement_date") or first_observed
+            item["announcement_date"] = first_observed
 
         enriched.append(item)
 

@@ -2844,107 +2844,18 @@
       ]
     },
     {
-      "id": "aws-bedrock-stable-diffusion-xl-1.0",
+      "id": "aws-bedrock-anthropic.claude-3-5-sonnet-20240620-v10",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Stable Diffusion XL 1.0",
+      "title": "AWS Bedrock: anthropic.claude-3-5-sonnet-20240620-v1:0",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318257+00:00",
+      "date_published": "2026-03-26T16:09:32.876891+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
-        "model_id": "Stable Diffusion XL 1.0",
-        "shutdown_date": "2025-05-20",
-        "announcement_date": "2024-10-16",
-        "replacement_models": [
-          "Stable Image Core"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "aws-bedrock-claude-3-opus",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Claude 3 Opus",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318295+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Claude 3 Opus",
-        "shutdown_date": "2026-01-15",
-        "announcement_date": "2025-07-15",
-        "replacement_models": [
-          "Claude Opus 4.1",
-          "Claude Sonnet 4.5"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-claude-opus-4",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Claude Opus 4",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318314+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Claude Opus 4",
-        "shutdown_date": "2026-05-31",
-        "announcement_date": "2025-10-01",
-        "replacement_models": [
-          "Claude Opus 4.1"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-claude-3.5-haiku",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Claude 3.5 Haiku",
-      "content_text": "",
-      "date_published": "2025-12-20T03:10:18.145735+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Claude 3.5 Haiku",
-        "shutdown_date": "2026-06-19",
-        "announcement_date": "2025-12-19",
-        "replacement_models": [
-          "Claude Haiku 4.5"
-        ],
-        "first_observed": "2025-12-20",
-        "last_observed": "2025-12-20"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-claude-3.5-sonnet-v1",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Claude 3.5 Sonnet v1",
-      "content_text": "",
-      "date_published": "2026-03-26T13:07:24.196633+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Claude 3.5 Sonnet v1",
+        "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0",
         "shutdown_date": "2026-03-01",
         "announcement_date": "2025-08-25",
         "replacement_models": [
-          "Claude Sonnet 4.5"
+          "anthropic.claude-sonnet-4-5-20250929-v1:0"
         ],
         "first_observed": "2026-03-26",
         "last_observed": "2026-03-26"
@@ -2955,18 +2866,18 @@
       ]
     },
     {
-      "id": "aws-bedrock-claude-3.5-sonnet-v2",
+      "id": "aws-bedrock-anthropic.claude-3-5-sonnet-20241022-v20",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Claude 3.5 Sonnet v2",
+      "title": "AWS Bedrock: anthropic.claude-3-5-sonnet-20241022-v2:0",
       "content_text": "",
-      "date_published": "2026-03-26T13:07:24.196813+00:00",
+      "date_published": "2026-03-26T16:09:32.877097+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
-        "model_id": "Claude 3.5 Sonnet v2",
+        "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0",
         "shutdown_date": "2026-03-01",
         "announcement_date": "2025-08-25",
         "replacement_models": [
-          "Claude Sonnet 4.5"
+          "anthropic.claude-sonnet-4-5-20250929-v1:0"
         ],
         "first_observed": "2026-03-26",
         "last_observed": "2026-03-26"
@@ -2977,18 +2888,18 @@
       ]
     },
     {
-      "id": "aws-bedrock-claude-3.7-sonnet",
+      "id": "aws-bedrock-anthropic.claude-3-7-sonnet-20250219-v10",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Claude 3.7 Sonnet",
+      "title": "AWS Bedrock: anthropic.claude-3-7-sonnet-20250219-v1:0",
       "content_text": "",
-      "date_published": "2026-03-26T13:07:24.196977+00:00",
+      "date_published": "2026-03-26T16:09:32.877208+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
-        "model_id": "Claude 3.7 Sonnet",
+        "model_id": "anthropic.claude-3-7-sonnet-20250219-v1:0",
         "shutdown_date": "2026-04-28",
         "announcement_date": "2025-10-28",
         "replacement_models": [
-          "Claude Sonnet 4.5"
+          "anthropic.claude-sonnet-4-5-20250929-v1:0"
         ],
         "first_observed": "2026-03-26",
         "last_observed": "2026-03-26"
@@ -2999,742 +2910,140 @@
       ]
     },
     {
-      "id": "aws-bedrock-titan-image-generator-g1-v2",
+      "id": "aws-bedrock-amazon.titan-image-generator-v20",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Titan Image Generator G1 v2",
+      "title": "AWS Bedrock: amazon.titan-image-generator-v2:0",
       "content_text": "",
-      "date_published": "2025-12-20T03:10:18.145958+00:00",
+      "date_published": "2026-03-26T16:09:32.877322+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
-        "model_id": "Titan Image Generator G1 v2",
+        "model_id": "amazon.titan-image-generator-v2:0",
         "shutdown_date": "2026-06-30",
         "announcement_date": "2025-12-30",
         "replacement_models": [
-          "Nova Canvas",
-          "Nova 2 Omni"
-        ],
-        "first_observed": "2025-12-20",
-        "last_observed": "2025-12-20"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-llama-3.1-405b-instruct",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Llama 3.1 405B Instruct",
-      "content_text": "",
-      "date_published": "2026-02-20T04:09:05.015182+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Llama 3.1 405B Instruct",
-        "shutdown_date": "2026-07-07",
-        "announcement_date": "2026-01-07",
-        "replacement_models": [
-          "Llama 4 Maverick 17B Instruct",
-          "Llama 4 Scout 17B Instruct"
-        ],
-        "first_observed": "2026-02-20",
-        "last_observed": "2026-02-20"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-llama-3.2-1b-instruct",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Llama 3.2 1B Instruct",
-      "content_text": "",
-      "date_published": "2026-02-20T04:09:05.015233+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Llama 3.2 1B Instruct",
-        "shutdown_date": "2026-07-07",
-        "announcement_date": "2026-01-07",
-        "replacement_models": [
-          "Llama 4 Maverick 17B Instruct",
-          "Llama 4 Scout 17B Instruct"
-        ],
-        "first_observed": "2026-02-20",
-        "last_observed": "2026-02-20"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-llama-3.2-3b-instruct",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Llama 3.2 3B Instruct",
-      "content_text": "",
-      "date_published": "2026-02-20T04:09:05.015282+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Llama 3.2 3B Instruct",
-        "shutdown_date": "2026-07-07",
-        "announcement_date": "2026-01-07",
-        "replacement_models": [
-          "Llama 4 Maverick 17B Instruct",
-          "Llama 4 Scout 17B Instruct"
-        ],
-        "first_observed": "2026-02-20",
-        "last_observed": "2026-02-20"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-llama-3.2-11b-instruct",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Llama 3.2 11B Instruct",
-      "content_text": "",
-      "date_published": "2026-02-20T04:09:05.015351+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Llama 3.2 11B Instruct",
-        "shutdown_date": "2026-07-07",
-        "announcement_date": "2026-01-07",
-        "replacement_models": [
-          "Llama 4 Maverick 17B Instruct",
-          "Llama 4 Scout 17B Instruct"
-        ],
-        "first_observed": "2026-02-20",
-        "last_observed": "2026-02-20"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-llama-3.2-90b-instruct",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Llama 3.2 90B Instruct",
-      "content_text": "",
-      "date_published": "2026-02-20T04:09:05.015403+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Llama 3.2 90B Instruct",
-        "shutdown_date": "2026-07-07",
-        "announcement_date": "2026-01-07",
-        "replacement_models": [
-          "Llama 4 Maverick 17B Instruct",
-          "Llama 4 Scout 17B Instruct"
-        ],
-        "first_observed": "2026-02-20",
-        "last_observed": "2026-02-20"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-amazon-nova-premier",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Amazon Nova Premier",
-      "content_text": "",
-      "date_published": "2026-03-19T04:16:01.520033+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Amazon Nova Premier",
-        "shutdown_date": "2026-09-14",
-        "announcement_date": "2026-03-13",
-        "replacement_models": [
-          "Nova 2 Lite"
-        ],
-        "first_observed": "2026-03-19",
-        "last_observed": "2026-03-19"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-amazon-nova-sonic",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Amazon Nova Sonic",
-      "content_text": "",
-      "date_published": "2026-03-19T04:16:01.520082+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Amazon Nova Sonic",
-        "shutdown_date": "2026-09-14",
-        "announcement_date": "2026-03-13",
-        "replacement_models": [
-          "Amazon Nova 2 Sonic"
-        ],
-        "first_observed": "2026-03-19",
-        "last_observed": "2026-03-19"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-stable-diffusion-xl-0.8",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Stable Diffusion XL 0.8",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318435+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Stable Diffusion XL 0.8",
-        "shutdown_date": "2024-04-30",
-        "announcement_date": "2024-02-02",
-        "replacement_models": [
-          "Stable Diffusion XL 1.x"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2024"
-      ]
-    },
-    {
-      "id": "aws-bedrock-cohere-command",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Cohere Command",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318452+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Cohere Command",
-        "shutdown_date": "2025-08-12",
-        "announcement_date": "2024-10-04",
-        "replacement_models": [
-          "Cohere Command R",
-          "Cohere Command R+"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "aws-bedrock-cohere-command-light",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Cohere Command Light",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318469+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Cohere Command Light",
-        "shutdown_date": "2025-08-12",
-        "announcement_date": "2024-10-04",
-        "replacement_models": [
-          "Cohere Command R",
-          "Cohere Command R+"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "aws-bedrock-claude-v1.3",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Claude v1.3",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318487+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Claude v1.3",
-        "shutdown_date": "2024-02-28",
-        "announcement_date": "2023-11-28",
-        "replacement_models": [
-          "Claude Sonnet 4.5"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2024"
-      ]
-    },
-    {
-      "id": "aws-bedrock-claude-v2",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Claude v2",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318527+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Claude v2",
-        "shutdown_date": "2025-07-21",
-        "announcement_date": "2025-01-21",
-        "replacement_models": [
-          "Claude Sonnet 4.5"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "aws-bedrock-claude-v2.1",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Claude v2.1",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318543+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Claude v2.1",
-        "shutdown_date": "2025-07-21",
-        "announcement_date": "2025-01-21",
-        "replacement_models": [
-          "Claude Sonnet 4.5"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "aws-bedrock-claude-instant",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Claude Instant",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318558+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Claude Instant",
-        "shutdown_date": "2025-07-21",
-        "announcement_date": "2025-01-21",
-        "replacement_models": [
-          "Claude Sonnet 4.5"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "aws-bedrock-claude-3-sonnet",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Claude 3 Sonnet",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318574+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Claude 3 Sonnet",
-        "shutdown_date": "2025-07-21",
-        "announcement_date": "2025-01-21",
-        "replacement_models": [
-          "Claude Sonnet 4.5"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "aws-bedrock-titan-embeddings---text-v1.1",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Titan Embeddings - Text v1.1",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318590+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Titan Embeddings - Text v1.1",
-        "shutdown_date": "2024-02-15",
-        "announcement_date": "2023-11-07",
-        "replacement_models": [
-          "Titan Embeddings - Text v1.2"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2024"
-      ]
-    },
-    {
-      "id": "aws-bedrock-meta-llama-2-13b-chat-v1",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Meta Llama 2 13b-chat-v1",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318608+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Meta Llama 2 13b-chat-v1",
-        "shutdown_date": "2024-10-30",
-        "announcement_date": "2024-05-12",
-        "replacement_models": [
-          "Meta Llama3",
-          "Meta Llama3.1"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2024"
-      ]
-    },
-    {
-      "id": "aws-bedrock-meta-llama-2-70b-chat-v1",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Meta Llama 2 70b-chat-v1",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318623+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Meta Llama 2 70b-chat-v1",
-        "shutdown_date": "2024-10-30",
-        "announcement_date": "2024-05-12",
-        "replacement_models": [
-          "Meta Llama3",
-          "Meta Llama3.1"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2024"
-      ]
-    },
-    {
-      "id": "aws-bedrock-meta-llama-2-13b",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Meta Llama 2-13b",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318639+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Meta Llama 2-13b",
-        "shutdown_date": "2024-10-30",
-        "announcement_date": "2024-05-12",
-        "replacement_models": [
-          "Meta Llama3",
-          "Meta Llama3.1"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2024"
-      ]
-    },
-    {
-      "id": "aws-bedrock-meta-llama-2-70b",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Meta Llama 2-70b",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318655+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Meta Llama 2-70b",
-        "shutdown_date": "2024-10-30",
-        "announcement_date": "2024-05-12",
-        "replacement_models": [
-          "Meta Llama3",
-          "Meta Llama3.1"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2024"
-      ]
-    },
-    {
-      "id": "aws-bedrock-ai21-j2-mid-v1",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Ai21 J2 Mid-v1",
-      "content_text": "",
-      "date_published": "2026-03-26T13:07:24.200005+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Ai21 J2 Mid-v1",
-        "shutdown_date": "2024-10-04",
-        "announcement_date": "2024-04-30",
-        "replacement_models": [
-          "Jamba-Instruct v1"
+          "amazon.nova-canvas-v1:0"
         ],
         "first_observed": "2026-03-26",
         "last_observed": "2026-03-26"
       },
       "tags": [
         "AWS Bedrock",
-        "shutdown-2024"
+        "shutdown-2026"
       ]
     },
     {
-      "id": "aws-bedrock-ai21-j2-ultra-v1",
+      "id": "aws-bedrock-meta.llama3-1-405b-instruct-v10",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Ai21 J2 Ultra-v1",
+      "title": "AWS Bedrock: meta.llama3-1-405b-instruct-v1:0",
       "content_text": "",
-      "date_published": "2026-03-26T13:07:24.200056+00:00",
+      "date_published": "2026-03-26T16:09:32.877378+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
-        "model_id": "Ai21 J2 Ultra-v1",
-        "shutdown_date": "2024-10-04",
-        "announcement_date": "2024-04-30",
+        "model_id": "meta.llama3-1-405b-instruct-v1:0",
+        "shutdown_date": "2026-07-07",
+        "announcement_date": "2026-01-07",
         "replacement_models": [
-          "Jamba-Instruct v1"
+          "meta.llama4-maverick-17b-instruct-v1:0",
+          "meta.llama4-scout-17b-instruct-v1:0"
         ],
         "first_observed": "2026-03-26",
         "last_observed": "2026-03-26"
       },
       "tags": [
         "AWS Bedrock",
-        "shutdown-2024"
+        "shutdown-2026"
       ]
     },
     {
-      "id": "aws-bedrock-ai21-j2-grande-instruct",
+      "id": "aws-bedrock-meta.llama3-2-1b-instruct-v10",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Ai21 J2-Grande-Instruct",
+      "title": "AWS Bedrock: meta.llama3-2-1b-instruct-v1:0",
       "content_text": "",
-      "date_published": "2026-03-26T13:07:24.200106+00:00",
+      "date_published": "2026-03-26T16:09:32.877433+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
-        "model_id": "Ai21 J2-Grande-Instruct",
-        "shutdown_date": "2024-10-04",
-        "announcement_date": "2024-04-30",
+        "model_id": "meta.llama3-2-1b-instruct-v1:0",
+        "shutdown_date": "2026-07-07",
+        "announcement_date": "2026-01-07",
         "replacement_models": [
-          "Jamba-Instruct v1"
+          "meta.llama4-maverick-17b-instruct-v1:0",
+          "meta.llama4-scout-17b-instruct-v1:0"
         ],
         "first_observed": "2026-03-26",
         "last_observed": "2026-03-26"
       },
       "tags": [
         "AWS Bedrock",
-        "shutdown-2024"
+        "shutdown-2026"
       ]
     },
     {
-      "id": "aws-bedrock-ai21-j2-jumbo-instruct",
+      "id": "aws-bedrock-meta.llama3-2-3b-instruct-v10",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Ai21 J2 Jumbo-Instruct",
+      "title": "AWS Bedrock: meta.llama3-2-3b-instruct-v1:0",
       "content_text": "",
-      "date_published": "2026-03-26T13:07:24.200158+00:00",
+      "date_published": "2026-03-26T16:09:32.877486+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
-        "model_id": "Ai21 J2 Jumbo-Instruct",
-        "shutdown_date": "2024-10-04",
-        "announcement_date": "2024-04-30",
+        "model_id": "meta.llama3-2-3b-instruct-v1:0",
+        "shutdown_date": "2026-07-07",
+        "announcement_date": "2026-01-07",
         "replacement_models": [
-          "Jamba-Instruct v1"
+          "meta.llama4-maverick-17b-instruct-v1:0",
+          "meta.llama4-scout-17b-instruct-v1:0"
         ],
         "first_observed": "2026-03-26",
         "last_observed": "2026-03-26"
       },
       "tags": [
         "AWS Bedrock",
-        "shutdown-2024"
+        "shutdown-2026"
       ]
     },
     {
-      "id": "aws-bedrock-ai21-jamba-instruct",
+      "id": "aws-bedrock-meta.llama3-2-11b-instruct-v10",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: AI21 Jamba-Instruct",
+      "title": "AWS Bedrock: meta.llama3-2-11b-instruct-v1:0",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318735+00:00",
+      "date_published": "2026-03-26T16:09:32.877539+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
-        "model_id": "AI21 Jamba-Instruct",
-        "shutdown_date": "2025-08-01",
-        "announcement_date": "2025-01-31",
+        "model_id": "meta.llama3-2-11b-instruct-v1:0",
+        "shutdown_date": "2026-07-07",
+        "announcement_date": "2026-01-07",
         "replacement_models": [
-          "AI21 Jamba 1.5 Mini",
-          "AI21 Jamba 1.5 Large"
+          "meta.llama4-maverick-17b-instruct-v1:0",
+          "meta.llama4-scout-17b-instruct-v1:0"
         ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
+        "first_observed": "2026-03-26",
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "AWS Bedrock",
-        "shutdown-2025"
+        "shutdown-2026"
       ]
     },
     {
-      "id": "aws-bedrock-stability-image-core-v1",
+      "id": "aws-bedrock-meta.llama3-2-90b-instruct-v10",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Stability Image Core v1",
+      "title": "AWS Bedrock: meta.llama3-2-90b-instruct-v1:0",
       "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318814+00:00",
+      "date_published": "2026-03-26T16:09:32.877598+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
-        "model_id": "Stability Image Core v1",
-        "shutdown_date": "2025-09-04",
-        "announcement_date": "2025-01-31",
+        "model_id": "meta.llama3-2-90b-instruct-v1:0",
+        "shutdown_date": "2026-07-07",
+        "announcement_date": "2026-01-07",
         "replacement_models": [
-          "Stability Image Core v1.1"
+          "meta.llama4-maverick-17b-instruct-v1:0",
+          "meta.llama4-scout-17b-instruct-v1:0"
         ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
+        "first_observed": "2026-03-26",
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "AWS Bedrock",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "aws-bedrock-stability-3-large",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Stability 3 Large",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318830+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Stability 3 Large",
-        "shutdown_date": "2025-09-04",
-        "announcement_date": "2025-01-31",
-        "replacement_models": [
-          "Stability 3.5 Large"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "aws-bedrock-stability-image-ultra-v1",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Stability Image Ultra v1",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318845+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Stability Image Ultra v1",
-        "shutdown_date": "2025-09-04",
-        "announcement_date": "2025-01-31",
-        "replacement_models": [
-          "Stable Image Ultra v1.1"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "aws-bedrock-amazon-titan-text-g1---premier",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Amazon Titan Text G1 - Premier",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318860+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Amazon Titan Text G1 - Premier",
-        "shutdown_date": "2025-08-15",
-        "announcement_date": "2025-01-31",
-        "replacement_models": [
-          "Amazon Nova Pro"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "aws-bedrock-amazon-titan-text-g1---express",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Amazon Titan Text G1 - Express",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318875+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Amazon Titan Text G1 - Express",
-        "shutdown_date": "2025-08-15",
-        "announcement_date": "2025-01-31",
-        "replacement_models": [
-          "Amazon Nova Micro"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "aws-bedrock-amazon-titan-text-g1---lite",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Amazon Titan Text G1 - Lite",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318890+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Amazon Titan Text G1 - Lite",
-        "shutdown_date": "2025-08-15",
-        "announcement_date": "2025-01-31",
-        "replacement_models": [
-          "Amazon Nova Lite"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "aws-bedrock-amazon-titan-image-generator-g1-v1",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: Amazon Titan Image Generator G1 V1",
-      "content_text": "",
-      "date_published": "2025-12-05T16:52:41.318905+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "Amazon Titan Image Generator G1 V1",
-        "shutdown_date": "2025-08-15",
-        "announcement_date": "2025-01-31",
-        "replacement_models": [
-          "Amazon Nova Canvas"
-        ],
-        "first_observed": "2025-12-05",
-        "last_observed": "2025-12-05"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2025"
+        "shutdown-2026"
       ]
     },
     {
@@ -3742,12 +3051,12 @@
       "url": "https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b",
       "title": "Cohere: embed-english-v2.0",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:37.268459+00:00",
+      "date_published": "2026-03-26T18:38:33.682212+00:00",
       "_deprecation": {
         "provider": "Cohere",
         "model_id": "embed-english-v2.0",
         "shutdown_date": "2026-04-04",
-        "announcement_date": "2026-04-04",
+        "announcement_date": "2026-03-26",
         "replacement_models": [
           "embed-english-v3.0",
           "embed-multilingual-v3.0",
@@ -3766,12 +3075,12 @@
       "url": "https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b",
       "title": "Cohere: embed-english-light-v2.0",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:37.268535+00:00",
+      "date_published": "2026-03-26T18:38:33.682283+00:00",
       "_deprecation": {
         "provider": "Cohere",
         "model_id": "embed-english-light-v2.0",
         "shutdown_date": "2026-04-04",
-        "announcement_date": "2026-04-04",
+        "announcement_date": "2026-03-26",
         "replacement_models": [
           "embed-english-v3.0",
           "embed-multilingual-v3.0",
@@ -3790,12 +3099,12 @@
       "url": "https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b",
       "title": "Cohere: embed-multilingual-v2.0",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:37.268584+00:00",
+      "date_published": "2026-03-26T18:38:33.682338+00:00",
       "_deprecation": {
         "provider": "Cohere",
         "model_id": "embed-multilingual-v2.0",
         "shutdown_date": "2026-04-04",
-        "announcement_date": "2026-04-04",
+        "announcement_date": "2026-03-26",
         "replacement_models": [
           "embed-english-v3.0",
           "embed-multilingual-v3.0",
@@ -3814,12 +3123,12 @@
       "url": "https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b",
       "title": "Cohere: c4ai-aya-expanse-8b",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:37.268626+00:00",
+      "date_published": "2026-03-26T18:38:33.682387+00:00",
       "_deprecation": {
         "provider": "Cohere",
         "model_id": "c4ai-aya-expanse-8b",
         "shutdown_date": "2026-04-04",
-        "announcement_date": "2026-04-04",
+        "announcement_date": "2026-03-26",
         "replacement_models": [
           "command-r7b-12-2024",
           "command-a-03-2025",
@@ -3838,12 +3147,12 @@
       "url": "https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b",
       "title": "Cohere: c4ai-aya-vision-8b",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:37.268666+00:00",
+      "date_published": "2026-03-26T18:38:33.682435+00:00",
       "_deprecation": {
         "provider": "Cohere",
         "model_id": "c4ai-aya-vision-8b",
         "shutdown_date": "2026-04-04",
-        "announcement_date": "2026-04-04",
+        "announcement_date": "2026-03-26",
         "replacement_models": [
           "command-r7b-12-2024",
           "command-a-03-2025",
@@ -3926,17 +3235,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Cohere-rerank-v3.5",
       "content_text": "",
-      "date_published": "2026-01-14T03:41:48.470298+00:00",
+      "date_published": "2026-03-26T16:12:10.138890+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Cohere-rerank-v3.5",
         "shutdown_date": "2026-05-14",
         "announcement_date": "2026-01-14",
         "replacement_models": [
-          "Cohere-rerank-v4.0-pro,Cohere-rerank-v4.0-fast"
+          "Cohere-rerank-v4.0-pro",
+          "Cohere-rerank-v4.0-fast"
         ],
         "first_observed": "2026-01-14",
-        "last_observed": "2026-01-14"
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "Azure",
@@ -4072,17 +3382,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Llama-3.2-11B-Vision-Instruct",
       "content_text": "",
-      "date_published": "2026-02-25T04:13:37.513361+00:00",
+      "date_published": "2026-03-26T16:12:10.140149+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Llama-3.2-11B-Vision-Instruct",
         "shutdown_date": "2026-06-13",
         "announcement_date": "2026-02-13",
         "replacement_models": [
-          "Llama-4-Maverick-17B-128E-Instruct-FP8,Llama-4-Scout-17B-16E-Instruct"
+          "Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "Llama-4-Scout-17B-16E-Instruct"
         ],
         "first_observed": "2026-02-25",
-        "last_observed": "2026-02-25"
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "Azure",
@@ -4094,17 +3405,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Llama-3.2-90B-Vision-Instruct",
       "content_text": "",
-      "date_published": "2026-02-25T04:13:37.513450+00:00",
+      "date_published": "2026-03-26T16:12:10.140290+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Llama-3.2-90B-Vision-Instruct",
         "shutdown_date": "2026-06-13",
         "announcement_date": "2026-02-13",
         "replacement_models": [
-          "Llama-4-Maverick-17B-128E-Instruct-FP8,Llama-4-Scout-17B-16E-Instruct"
+          "Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "Llama-4-Scout-17B-16E-Instruct"
         ],
         "first_observed": "2026-02-25",
-        "last_observed": "2026-02-25"
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "Azure",
@@ -4214,26 +3526,6 @@
       ]
     },
     {
-      "id": "azure-jamba-instruct",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Jamba Instruct",
-      "content_text": "",
-      "date_published": "2026-02-01T04:25:16.214459+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Jamba Instruct",
-        "shutdown_date": "2025-03-01",
-        "announcement_date": "2025-03-01",
-        "replacement_models": null,
-        "first_observed": "2026-02-01",
-        "last_observed": "2026-02-01"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2025"
-      ]
-    },
-    {
       "id": "azure-ai21-jamba-1.5-large",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: AI21-Jamba-1.5-Large",
@@ -4294,65 +3586,22 @@
       ]
     },
     {
-      "id": "azure-command-r",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Command R",
-      "content_text": "",
-      "date_published": "2026-02-01T04:25:16.214818+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Command R",
-        "shutdown_date": "2025-06-30",
-        "announcement_date": "2025-06-30",
-        "replacement_models": [
-          "Cohere Command R 08-2024"
-        ],
-        "first_observed": "2026-02-01",
-        "last_observed": "2026-02-01"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2025"
-      ]
-    },
-    {
-      "id": "azure-command-r+",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Command R+",
-      "content_text": "",
-      "date_published": "2026-02-01T04:25:16.214876+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Command R+",
-        "shutdown_date": "2025-06-30",
-        "announcement_date": "2025-06-30",
-        "replacement_models": [
-          "Cohere Command R+ 08-2024"
-        ],
-        "first_observed": "2026-02-01",
-        "last_observed": "2026-02-01"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2025"
-      ]
-    },
-    {
       "id": "azure-cohere-rerank-v3-english",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Cohere-rerank-v3-english",
       "content_text": "",
-      "date_published": "2026-02-01T04:25:16.214932+00:00",
+      "date_published": "2026-03-26T16:12:10.142097+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Cohere-rerank-v3-english",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-06-30",
         "replacement_models": [
-          "Cohere-rerank-v4.0-pro,Cohere-rerank-v4.0-fast"
+          "Cohere-rerank-v4.0-pro",
+          "Cohere-rerank-v4.0-fast"
         ],
         "first_observed": "2026-02-01",
-        "last_observed": "2026-02-01"
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "Azure",
@@ -4364,17 +3613,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Cohere-rerank-v3-multilingual",
       "content_text": "",
-      "date_published": "2026-02-01T04:25:16.214993+00:00",
+      "date_published": "2026-03-26T16:12:10.142240+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Cohere-rerank-v3-multilingual",
         "shutdown_date": "2025-06-30",
         "announcement_date": "2025-06-30",
         "replacement_models": [
-          "Cohere-rerank-v4.0-pro,Cohere-rerank-v4.0-fast"
+          "Cohere-rerank-v4.0-pro",
+          "Cohere-rerank-v4.0-fast"
         ],
         "first_observed": "2026-02-01",
-        "last_observed": "2026-02-01"
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "Azure",
@@ -4646,17 +3896,15 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: MAI-DS-R1",
       "content_text": "",
-      "date_published": "2026-03-06T04:03:15.726430+00:00",
+      "date_published": "2026-03-26T16:12:10.143739+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "MAI-DS-R1",
         "shutdown_date": "2026-02-27",
         "announcement_date": "2026-02-27",
-        "replacement_models": [
-          "Any DeepSeek model available in the Model catalog"
-        ],
+        "replacement_models": null,
         "first_observed": "2026-03-06",
-        "last_observed": "2026-03-06"
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "Azure",
@@ -4866,17 +4114,17 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Mistral-Nemo",
       "content_text": "",
-      "date_published": "2026-02-01T04:25:16.216615+00:00",
+      "date_published": "2026-03-26T16:12:10.144659+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Mistral-Nemo",
         "shutdown_date": "2026-01-30",
         "announcement_date": "2026-01-30",
         "replacement_models": [
-          "Mistral-small-2503"
+          "mistral-small-2503"
         ],
         "first_observed": "2026-02-01",
-        "last_observed": "2026-02-01"
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "Azure",
@@ -4888,17 +4136,17 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Mistral-large-2411",
       "content_text": "",
-      "date_published": "2026-02-01T04:25:16.216672+00:00",
+      "date_published": "2026-03-26T16:12:10.144747+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Mistral-large-2411",
         "shutdown_date": "2026-01-30",
         "announcement_date": "2026-01-30",
         "replacement_models": [
-          "Mistral-medium-2505"
+          "mistral-medium-2505"
         ],
         "first_observed": "2026-02-01",
-        "last_observed": "2026-02-01"
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "Azure",
@@ -4910,17 +4158,17 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Mistral-ocr-2503",
       "content_text": "",
-      "date_published": "2026-02-01T04:25:16.216724+00:00",
+      "date_published": "2026-03-26T16:12:10.144831+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Mistral-ocr-2503",
         "shutdown_date": "2026-01-30",
         "announcement_date": "2026-01-30",
         "replacement_models": [
-          "Mistral-document-ai-2505"
+          "mistral-document-ai-2505"
         ],
         "first_observed": "2026-02-01",
-        "last_observed": "2026-02-01"
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "Azure",
@@ -4932,17 +4180,17 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Mistral-small",
       "content_text": "",
-      "date_published": "2026-02-01T04:25:16.216775+00:00",
+      "date_published": "2026-03-26T16:12:10.144918+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Mistral-small",
         "shutdown_date": "2025-07-31",
         "announcement_date": "2025-07-31",
         "replacement_models": [
-          "Mistral-small-2503"
+          "mistral-small-2503"
         ],
         "first_observed": "2026-02-01",
-        "last_observed": "2026-02-01"
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "Azure",
@@ -4954,17 +4202,17 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Mistral-large-2407",
       "content_text": "",
-      "date_published": "2026-02-01T04:25:16.216825+00:00",
+      "date_published": "2026-03-26T16:12:10.145002+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Mistral-large-2407",
         "shutdown_date": "2025-05-13",
         "announcement_date": "2025-05-13",
         "replacement_models": [
-          "Mistral-medium-2505"
+          "mistral-medium-2505"
         ],
         "first_observed": "2026-02-01",
-        "last_observed": "2026-02-01"
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "Azure",
@@ -4976,17 +4224,17 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Mistral-large",
       "content_text": "",
-      "date_published": "2026-02-01T04:25:16.216875+00:00",
+      "date_published": "2026-03-26T16:12:10.145085+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Mistral-large",
         "shutdown_date": "2025-04-15",
         "announcement_date": "2025-04-15",
         "replacement_models": [
-          "Mistral-medium-2505"
+          "mistral-medium-2505"
         ],
         "first_observed": "2026-02-01",
-        "last_observed": "2026-02-01"
+        "last_observed": "2026-03-26"
       },
       "tags": [
         "Azure",

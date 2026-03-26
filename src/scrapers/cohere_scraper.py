@@ -46,13 +46,14 @@ class CohereScraper(EnhancedBaseScraper):
             if not re.match(r"^\d{4}-\d{2}-\d{2}:", heading_text):
                 continue
 
-            announcement_date, title = heading_text.split(":", 1)
+            section_date, title = heading_text.split(":", 1)
             title = title.strip()
             section_url = f"{self.url}#{slugify_heading(heading_text)}"
             lines = body.splitlines()
             context = " ".join(line.strip() for line in lines if line.strip())
+            announcement_date = self._infer_announcement_date(section_date, lines)
 
-            if announcement_date == "2026-04-04":
+            if section_date == "2026-04-04":
                 items.extend(
                     self._extract_embed_and_aya_section(
                         lines, announcement_date, context, section_url
@@ -60,7 +61,7 @@ class CohereScraper(EnhancedBaseScraper):
                 )
                 continue
 
-            if announcement_date == "2025-09-15":
+            if section_date == "2025-09-15":
                 items.extend(
                     self._extract_command_models_section(
                         lines, announcement_date, context, section_url
@@ -231,6 +232,13 @@ class CohereScraper(EnhancedBaseScraper):
         for table in main.find_all("table"):
             items.extend(self.extract_table_deprecations(table))
         return [item for item in items if self._looks_like_model(item.model_id)]
+
+    def _infer_announcement_date(self, section_date: str, lines: list[str]) -> str:
+        """Infer whether a section date is an announcement date or just an effective date."""
+        first_nonempty = next((line.strip() for line in lines if line.strip()), "")
+        if first_nonempty.lower().startswith("effective "):
+            return ""
+        return section_date
 
     def _extract_bullets_after_marker(self, lines: list[str], marker: str) -> list[str]:
         """Extract top-level bullet code spans after a marker line."""

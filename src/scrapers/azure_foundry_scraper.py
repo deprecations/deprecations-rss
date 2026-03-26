@@ -1,6 +1,8 @@
 """Azure AI Foundry model deprecations scraper."""
 
-from typing import List, Any
+from typing import Any, List
+import re
+from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 
 from ..base_scraper import EnhancedBaseScraper
@@ -63,8 +65,8 @@ class AzureFoundryScraper(EnhancedBaseScraper):
                 if len(cells) <= max(model_idx, retirement_idx):
                     continue
 
-                model_id = cells[model_idx].get_text(strip=True)
-                if not model_id or model_id.upper() in ["N/A", "TBD", "NONE", "—", "-"]:
+                model_id = self._extract_model_id_from_cell(cells[model_idx])
+                if not model_id:
                     continue
 
                 retirement_cell = cells[retirement_idx].get_text(strip=True)
@@ -89,9 +91,7 @@ class AzureFoundryScraper(EnhancedBaseScraper):
 
                 replacement_models = None
                 if replacement_idx is not None and replacement_idx < len(cells):
-                    repl_text = cells[replacement_idx].get_text(strip=True)
-                    if repl_text and repl_text not in ["—", "-", "N/A", "TBD"]:
-                        replacement_models = self.parse_replacements(repl_text)
+                    replacement_models = self._extract_replacement_models(cells[replacement_idx])
 
                 items.append(
                     DeprecationItem(
@@ -106,6 +106,69 @@ class AzureFoundryScraper(EnhancedBaseScraper):
                 )
 
         return items
+
+    def _extract_model_id_from_cell(self, cell: Any) -> str:
+        """Extract a stable model identifier from a model table cell."""
+        for anchor in cell.find_all("a"):
+            model_id = self._extract_model_id_from_href(anchor.get("href", ""))
+            if model_id:
+                return model_id
+
+        text = cell.get_text(" ", strip=True)
+        return self._normalize_identifier_text(text)
+
+    def _extract_replacement_models(self, cell: Any) -> list[str] | None:
+        """Extract stable replacement identifiers from the replacement cell."""
+        identifiers: list[str] = []
+
+        for anchor in cell.find_all("a"):
+            model_id = self._extract_model_id_from_href(anchor.get("href", ""))
+            if model_id and model_id not in identifiers:
+                identifiers.append(model_id)
+
+        if identifiers:
+            return identifiers
+
+        text = cell.get_text(" ", strip=True)
+        if not text or text in ["—", "-", "N/A", "TBD", "NONE"]:
+            return None
+
+        parsed = [
+            identifier
+            for identifier in (
+                self._normalize_identifier_text(part)
+                for part in self.parse_replacements(text)
+            )
+            if identifier
+        ]
+        return parsed or None
+
+    def _extract_model_id_from_href(self, href: str) -> str:
+        """Extract a model identifier from known Azure model/replacement links."""
+        if not href:
+            return ""
+
+        explore_match = re.search(r"/explore/models/([^/]+)/", href)
+        if explore_match:
+            return explore_match.group(1)
+
+        parsed = urlparse(href)
+        path_parts = [part for part in parsed.path.split("/") if part]
+        if "landing" in path_parts:
+            landing_idx = path_parts.index("landing")
+            if landing_idx + 1 < len(path_parts):
+                return path_parts[landing_idx + 1]
+
+        return ""
+
+    def _normalize_identifier_text(self, text: str) -> str:
+        """Keep only identifier-like text; reject display labels."""
+        cleaned = text.strip()
+        if not cleaned or cleaned.upper() in ["N/A", "TBD", "NONE", "—", "-"]:
+            return ""
+        if " " in cleaned:
+            return ""
+        return cleaned
 
     def _build_context(self, table: Any, model_id: str) -> str:
         """Build context information for the deprecation."""

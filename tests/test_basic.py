@@ -102,7 +102,7 @@ def test_missing_announcement_date_falls_back_to_first_observed():
         {
             "provider": "Cohere",
             "model_id": "command-r-03-2024-ft",
-            "announcement_date": "2025-03-01",
+            "announcement_date": "2025-02-27",
             "first_observed": "2025-03-01",
             "last_observed": "2025-03-10",
             "scraped_at": "2025-03-10T00:00:00+00:00",
@@ -126,3 +126,73 @@ def test_missing_announcement_date_falls_back_to_first_observed():
     assert result[0]["announcement_date"] == "2025-03-01"
     assert result[0]["first_observed"] == "2025-03-01"
     assert result[0]["last_observed"] == "2025-03-11"
+
+
+def test_missing_shutdown_dates_keep_current_valid_items(monkeypatch):
+    """Providers with partial validation failures should still keep current valid rows."""
+    from src import main
+
+    class FakeScraper:
+        provider_name = "Fake"
+        require_shutdown_dates = True
+
+        def scrape(self):
+            class FakeItem:
+                def __init__(self, payload):
+                    self.payload = payload
+
+                def to_dict(self):
+                    return self.payload
+
+            return [
+                FakeItem(
+                    {
+                        "provider": "Fake",
+                        "model_id": "good-model",
+                        "announcement_date": "",
+                        "shutdown_date": "2026-01-01",
+                        "replacement_models": None,
+                        "deprecation_context": "valid",
+                        "url": "https://example.com/good",
+                    }
+                ),
+                FakeItem(
+                    {
+                        "provider": "Fake",
+                        "model_id": "bad-model",
+                        "announcement_date": "",
+                        "shutdown_date": "",
+                        "replacement_models": None,
+                        "deprecation_context": "missing shutdown",
+                        "url": "https://example.com/bad",
+                    }
+                ),
+            ]
+
+    monkeypatch.setattr(main, "SCRAPERS", [FakeScraper])
+
+    previous_data = [
+        {
+            "provider": "Fake",
+            "model_id": "cached-model",
+            "announcement_date": "2025-01-01",
+            "shutdown_date": "2025-06-01",
+            "replacement_models": None,
+            "deprecation_context": "cached",
+            "url": "https://example.com/cached",
+        }
+    ]
+
+    result = main.scrape_all(previous_data)
+
+    assert result == [
+        {
+            "provider": "Fake",
+            "model_id": "good-model",
+            "announcement_date": "",
+            "shutdown_date": "2026-01-01",
+            "replacement_models": None,
+            "deprecation_context": "valid",
+            "url": "https://example.com/good",
+        }
+    ]

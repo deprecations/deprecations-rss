@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 26 Mar 2026 15:36:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 18:38:33 GMT</lastBuildDate>
     <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
@@ -1780,524 +1780,121 @@ is optimized for the following use cases: Task automation, such as interactive c
       <guid isPermaLink="false">Google_Vertex-claude-3-opus-2025-08-01-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: Stable Diffusion XL 1.0</title>
+      <title>AWS Bedrock: anthropic.claude-3-5-sonnet-20240620-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: Stable Diffusion XL 1.0
-Shutdown Date: 2025-05-20
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Stable Diffusion XL 1.0. entered legacy status on 2024-10-16. and will reach end-of-life on 2025-05-20. Recommended replacement: Stable Image Core.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Stable_Diffusion_XL_1.0-2025-05-20-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Claude 3 Opus</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Claude 3 Opus
-Shutdown Date: 2026-01-15
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Claude 3 Opus. entered legacy status on 2025-07-15. and will reach end-of-life on 2026-01-15. Recommended replacement: Claude Opus 4.1, Claude Sonnet 4.5.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Claude_3_Opus-2026-01-15-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Claude Opus 4</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Claude Opus 4
-Shutdown Date: 2026-05-31
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Claude Opus 4. entered legacy status on 2025-10-01. and will reach end-of-life on 2026-05-31. Recommended replacement: Claude Opus 4.1.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Claude_Opus_4-2026-05-31-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Claude 3.5 Haiku</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Claude 3.5 Haiku
-Shutdown Date: 2026-06-19
-First Observed: 2025-12-20
-Last Observed: 2025-12-20
-
-Model Claude 3.5 Haiku. entered legacy status on 2025-12-19. and will reach end-of-life on 2026-06-19. Recommended replacement: Claude Haiku 4.5.</description>
-      <pubDate>Sat, 20 Dec 2025 03:10:18 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Claude_3.5_Haiku-2026-06-19-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Claude 3.5 Sonnet v1</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Claude 3.5 Sonnet v1
+Model ID: anthropic.claude-3-5-sonnet-20240620-v1:0
 Shutdown Date: 2026-03-01
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
 
-Model Claude 3.5 Sonnet v1. entered legacy status on 2025-08-25. and will reach end-of-life on 2026-03-01. Recommended replacement: Claude Sonnet 4.5. Additional regional schedule: Model Claude 3.5 Sonnet v1. entered legacy status on 2025-08-25. and will reach end-of-life on 2026-06-01. Recommended replacement: Claude Sonnet 4.5. Additional regional schedule: Model Claude 3.5 Sonnet v1. entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30. Recommended replacement: Claude...</description>
-      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Claude_3.5_Sonnet_v1-2026-03-01-e3b0c442</guid>
+Model ID anthropic.claude-3-5-sonnet-20240620-v1:0. (Claude 3.5 Sonnet v1). entered legacy status on 2025-08-25. and will reach end-of-life on 2026-03-01. Recommended replacement IDs: anthropic.claude-sonnet-4-5-20250929-v1:0. Additional regional schedule: Model ID anthropic.claude-3-5-sonnet-20240620-v1:0. (Claude 3.5 Sonnet v1). entered legacy status on 2025-08-25. and will reach end-of-life on 2026-06-01. Recommended replacement IDs: anthropic.claude-sonnet-4-5-20250929-v1:0. Additional regio...</description>
+      <pubDate>Thu, 26 Mar 2026 16:09:32 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-3-5-sonnet-20240620-v10-2026-03-01-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: Claude 3.5 Sonnet v2</title>
+      <title>AWS Bedrock: anthropic.claude-3-5-sonnet-20241022-v2:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: Claude 3.5 Sonnet v2
+Model ID: anthropic.claude-3-5-sonnet-20241022-v2:0
 Shutdown Date: 2026-03-01
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
 
-Model Claude 3.5 Sonnet v2. entered legacy status on 2025-08-25. and will reach end-of-life on 2026-03-01. Recommended replacement: Claude Sonnet 4.5. Additional regional schedule: Model Claude 3.5 Sonnet v2. entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Claude_3.5_Sonnet_v2-2026-03-01-e3b0c442</guid>
+Model ID anthropic.claude-3-5-sonnet-20241022-v2:0. (Claude 3.5 Sonnet v2). entered legacy status on 2025-08-25. and will reach end-of-life on 2026-03-01. Recommended replacement IDs: anthropic.claude-sonnet-4-5-20250929-v1:0. Additional regional schedule: Model ID anthropic.claude-3-5-sonnet-20241022-v2:0. (Claude 3.5 Sonnet v2). entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30. Recommended replacement IDs: anthropic.claude-sonnet-4-5-20250929-v1:0.</description>
+      <pubDate>Thu, 26 Mar 2026 16:09:32 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-3-5-sonnet-20241022-v20-2026-03-01-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: Claude 3.7 Sonnet</title>
+      <title>AWS Bedrock: anthropic.claude-3-7-sonnet-20250219-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: Claude 3.7 Sonnet
+Model ID: anthropic.claude-3-7-sonnet-20250219-v1:0
 Shutdown Date: 2026-04-28
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
 
-Model Claude 3.7 Sonnet. entered legacy status on 2025-10-28. and will reach end-of-life on 2026-04-28. Recommended replacement: Claude Sonnet 4.5. Additional regional schedule: Model Claude 3.7 Sonnet. entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Claude_3.7_Sonnet-2026-04-28-e3b0c442</guid>
+Model ID anthropic.claude-3-7-sonnet-20250219-v1:0. (Claude 3.7 Sonnet). entered legacy status on 2025-10-28. and will reach end-of-life on 2026-04-28. Recommended replacement IDs: anthropic.claude-sonnet-4-5-20250929-v1:0. Additional regional schedule: Model ID anthropic.claude-3-7-sonnet-20250219-v1:0. (Claude 3.7 Sonnet). entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30. Recommended replacement IDs: anthropic.claude-sonnet-4-5-20250929-v1:0.</description>
+      <pubDate>Thu, 26 Mar 2026 16:09:32 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-3-7-sonnet-20250219-v10-2026-04-28-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: Titan Image Generator G1 v2</title>
+      <title>AWS Bedrock: amazon.titan-image-generator-v2:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: Titan Image Generator G1 v2
+Model ID: amazon.titan-image-generator-v2:0
 Shutdown Date: 2026-06-30
-First Observed: 2025-12-20
-Last Observed: 2025-12-20
-
-Model Titan Image Generator G1 v2. entered legacy status on 2025-12-30. and will reach end-of-life on 2026-06-30. Recommended replacement: Nova Canvas, Nova 2 Omni.</description>
-      <pubDate>Sat, 20 Dec 2025 03:10:18 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Titan_Image_Generator_G1_v2-2026-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Llama 3.1 405B Instruct</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Llama 3.1 405B Instruct
-Shutdown Date: 2026-07-07
-First Observed: 2026-02-20
-Last Observed: 2026-02-20
-
-Model Llama 3.1 405B Instruct. entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement: Llama 4 Maverick 17B Instruct, Llama 4 Scout 17B Instruct.</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Llama_3.1_405B_Instruct-2026-07-07-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Llama 3.2 1B Instruct</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Llama 3.2 1B Instruct
-Shutdown Date: 2026-07-07
-First Observed: 2026-02-20
-Last Observed: 2026-02-20
-
-Model Llama 3.2 1B Instruct. entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement: Llama 4 Maverick 17B Instruct, Llama 4 Scout 17B Instruct.</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Llama_3.2_1B_Instruct-2026-07-07-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Llama 3.2 3B Instruct</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Llama 3.2 3B Instruct
-Shutdown Date: 2026-07-07
-First Observed: 2026-02-20
-Last Observed: 2026-02-20
-
-Model Llama 3.2 3B Instruct. entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement: Llama 4 Maverick 17B Instruct, Llama 4 Scout 17B Instruct.</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Llama_3.2_3B_Instruct-2026-07-07-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Llama 3.2 11B Instruct</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Llama 3.2 11B Instruct
-Shutdown Date: 2026-07-07
-First Observed: 2026-02-20
-Last Observed: 2026-02-20
-
-Model Llama 3.2 11B Instruct. entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement: Llama 4 Maverick 17B Instruct, Llama 4 Scout 17B Instruct.</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Llama_3.2_11B_Instruct-2026-07-07-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Llama 3.2 90B Instruct</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Llama 3.2 90B Instruct
-Shutdown Date: 2026-07-07
-First Observed: 2026-02-20
-Last Observed: 2026-02-20
-
-Model Llama 3.2 90B Instruct. entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement: Llama 4 Maverick 17B Instruct, Llama 4 Scout 17B Instruct.</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:05 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Llama_3.2_90B_Instruct-2026-07-07-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Amazon Nova Premier</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Amazon Nova Premier
-Shutdown Date: 2026-09-14
-First Observed: 2026-03-19
-Last Observed: 2026-03-19
-
-Model Amazon Nova Premier. entered legacy status on 2026-03-13. and will reach end-of-life on 2026-09-14. Recommended replacement: Nova 2 Lite.</description>
-      <pubDate>Thu, 19 Mar 2026 04:16:01 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Amazon_Nova_Premier-2026-09-14-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Amazon Nova Sonic</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Amazon Nova Sonic
-Shutdown Date: 2026-09-14
-First Observed: 2026-03-19
-Last Observed: 2026-03-19
-
-Model Amazon Nova Sonic. entered legacy status on 2026-03-13. and will reach end-of-life on 2026-09-14. Recommended replacement: Amazon Nova 2 Sonic.</description>
-      <pubDate>Thu, 19 Mar 2026 04:16:01 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Amazon_Nova_Sonic-2026-09-14-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Stable Diffusion XL 0.8</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Stable Diffusion XL 0.8
-Shutdown Date: 2024-04-30
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Stable Diffusion XL 0.8. entered legacy status on 2024-02-02. and will reach end-of-life on 2024-04-30. Recommended replacement: Stable Diffusion XL 1.x.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Stable_Diffusion_XL_0.8-2024-04-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Cohere Command</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Cohere Command
-Shutdown Date: 2025-08-12
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Cohere Command. entered legacy status on 2024-10-04. and will reach end-of-life on 2025-08-12. Recommended replacement: Cohere Command R, Cohere Command R+.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Cohere_Command-2025-08-12-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Cohere Command Light</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Cohere Command Light
-Shutdown Date: 2025-08-12
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Cohere Command Light. entered legacy status on 2024-10-04. and will reach end-of-life on 2025-08-12. Recommended replacement: Cohere Command R, Cohere Command R+.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Cohere_Command_Light-2025-08-12-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Claude v1.3</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Claude v1.3
-Shutdown Date: 2024-02-28
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Claude v1.3. entered legacy status on 2023-11-28. and will reach end-of-life on 2024-02-28. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Claude_v1.3-2024-02-28-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Claude v2</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Claude v2
-Shutdown Date: 2025-07-21
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Claude v2. entered legacy status on 2025-01-21. and will reach end-of-life on 2025-07-21. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Claude_v2-2025-07-21-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Claude v2.1</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Claude v2.1
-Shutdown Date: 2025-07-21
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Claude v2.1. entered legacy status on 2025-01-21. and will reach end-of-life on 2025-07-21. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Claude_v2.1-2025-07-21-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Claude Instant</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Claude Instant
-Shutdown Date: 2025-07-21
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Claude Instant. entered legacy status on 2025-01-21. and will reach end-of-life on 2025-07-21. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Claude_Instant-2025-07-21-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Claude 3 Sonnet</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Claude 3 Sonnet
-Shutdown Date: 2025-07-21
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Claude 3 Sonnet. entered legacy status on 2025-01-21. and will reach end-of-life on 2025-07-21. Recommended replacement: Claude Sonnet 4.5.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Claude_3_Sonnet-2025-07-21-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Titan Embeddings - Text v1.1</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Titan Embeddings - Text v1.1
-Shutdown Date: 2024-02-15
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Titan Embeddings - Text v1.1. entered legacy status on 2023-11-07. and will reach end-of-life on 2024-02-15. Recommended replacement: Titan Embeddings - Text v1.2.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Titan_Embeddings_-_Text_v1.1-2024-02-15-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Meta Llama 2 13b-chat-v1</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Meta Llama 2 13b-chat-v1
-Shutdown Date: 2024-10-30
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Meta Llama 2 13b-chat-v1. entered legacy status on 2024-05-12. and will reach end-of-life on 2024-10-30. Recommended replacement: Meta Llama3, Meta Llama3.1.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Meta_Llama_2_13b-chat-v1-2024-10-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Meta Llama 2 70b-chat-v1</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Meta Llama 2 70b-chat-v1
-Shutdown Date: 2024-10-30
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Meta Llama 2 70b-chat-v1. entered legacy status on 2024-05-12. and will reach end-of-life on 2024-10-30. Recommended replacement: Meta Llama3, Meta Llama3.1.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Meta_Llama_2_70b-chat-v1-2024-10-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Meta Llama 2-13b</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Meta Llama 2-13b
-Shutdown Date: 2024-10-30
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Meta Llama 2-13b. entered legacy status on 2024-05-12. and will reach end-of-life on 2024-10-30. Recommended replacement: Meta Llama3, Meta Llama3.1.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Meta_Llama_2-13b-2024-10-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Meta Llama 2-70b</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Meta Llama 2-70b
-Shutdown Date: 2024-10-30
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Meta Llama 2-70b. entered legacy status on 2024-05-12. and will reach end-of-life on 2024-10-30. Recommended replacement: Meta Llama3, Meta Llama3.1.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Meta_Llama_2-70b-2024-10-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Ai21 J2 Mid-v1</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Ai21 J2 Mid-v1
-Shutdown Date: 2024-10-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
 
-Model Ai21 J2 Mid-v1. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1. Additional regional schedule: Model Ai21 J2 Mid-v1. entered legacy status on 2024-10-04. and will reach end-of-life on 2025-03-12. Recommended replacement: Jamba-Instruct v1.</description>
-      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Ai21_J2_Mid-v1-2024-10-04-e3b0c442</guid>
+Model ID amazon.titan-image-generator-v2:0. (Titan Image Generator G1 v2). entered legacy status on 2025-12-30. and will reach end-of-life on 2026-06-30. Recommended replacement IDs: amazon.nova-canvas-v1:0.</description>
+      <pubDate>Thu, 26 Mar 2026 16:09:32 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-amazon.titan-image-generator-v20-2026-06-30-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: Ai21 J2 Ultra-v1</title>
+      <title>AWS Bedrock: meta.llama3-1-405b-instruct-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: Ai21 J2 Ultra-v1
-Shutdown Date: 2024-10-04
+Model ID: meta.llama3-1-405b-instruct-v1:0
+Shutdown Date: 2026-07-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
 
-Model Ai21 J2 Ultra-v1. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1. Additional regional schedule: Model Ai21 J2 Ultra-v1. entered legacy status on 2024-10-04. and will reach end-of-life on 2025-03-12. Recommended replacement: Jamba-Instruct v1.</description>
-      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Ai21_J2_Ultra-v1-2024-10-04-e3b0c442</guid>
+Model ID meta.llama3-1-405b-instruct-v1:0. (Llama 3.1 405B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement IDs: meta.llama4-maverick-17b-instruct-v1:0, meta.llama4-scout-17b-instruct-v1:0.</description>
+      <pubDate>Thu, 26 Mar 2026 16:09:32 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-meta.llama3-1-405b-instruct-v10-2026-07-07-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: Ai21 J2-Grande-Instruct</title>
+      <title>AWS Bedrock: meta.llama3-2-1b-instruct-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: Ai21 J2-Grande-Instruct
-Shutdown Date: 2024-10-04
+Model ID: meta.llama3-2-1b-instruct-v1:0
+Shutdown Date: 2026-07-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
 
-Model Ai21 J2-Grande-Instruct. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1. Additional regional schedule: Model Ai21 J2-Grande-Instruct. entered legacy status on 2024-10-04. and will reach end-of-life on 2025-03-12. Recommended replacement: Jamba-Instruct v1.</description>
-      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Ai21_J2-Grande-Instruct-2024-10-04-e3b0c442</guid>
+Model ID meta.llama3-2-1b-instruct-v1:0. (Llama 3.2 1B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement IDs: meta.llama4-maverick-17b-instruct-v1:0, meta.llama4-scout-17b-instruct-v1:0.</description>
+      <pubDate>Thu, 26 Mar 2026 16:09:32 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-meta.llama3-2-1b-instruct-v10-2026-07-07-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: Ai21 J2 Jumbo-Instruct</title>
+      <title>AWS Bedrock: meta.llama3-2-3b-instruct-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: Ai21 J2 Jumbo-Instruct
-Shutdown Date: 2024-10-04
+Model ID: meta.llama3-2-3b-instruct-v1:0
+Shutdown Date: 2026-07-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
 
-Model Ai21 J2 Jumbo-Instruct. entered legacy status on 2024-04-30. and will reach end-of-life on 2024-10-04. Recommended replacement: Jamba-Instruct v1. Additional regional schedule: Model Ai21 J2 Jumbo-Instruct. entered legacy status on 2024-10-04. and will reach end-of-life on 2025-03-12. Recommended replacement: Jamba-Instruct v1.</description>
-      <pubDate>Thu, 26 Mar 2026 13:07:24 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Ai21_J2_Jumbo-Instruct-2024-10-04-e3b0c442</guid>
+Model ID meta.llama3-2-3b-instruct-v1:0. (Llama 3.2 3B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement IDs: meta.llama4-maverick-17b-instruct-v1:0, meta.llama4-scout-17b-instruct-v1:0.</description>
+      <pubDate>Thu, 26 Mar 2026 16:09:32 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-meta.llama3-2-3b-instruct-v10-2026-07-07-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: AI21 Jamba-Instruct</title>
+      <title>AWS Bedrock: meta.llama3-2-11b-instruct-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: AI21 Jamba-Instruct
-Shutdown Date: 2025-08-01
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Model ID: meta.llama3-2-11b-instruct-v1:0
+Shutdown Date: 2026-07-07
+First Observed: 2026-03-26
+Last Observed: 2026-03-26
 
-Model AI21 Jamba-Instruct. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-08-01. Recommended replacement: AI21 Jamba 1.5 Mini, AI21 Jamba 1.5 Large.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-AI21_Jamba-Instruct-2025-08-01-e3b0c442</guid>
+Model ID meta.llama3-2-11b-instruct-v1:0. (Llama 3.2 11B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement IDs: meta.llama4-maverick-17b-instruct-v1:0, meta.llama4-scout-17b-instruct-v1:0.</description>
+      <pubDate>Thu, 26 Mar 2026 16:09:32 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-meta.llama3-2-11b-instruct-v10-2026-07-07-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: Stability Image Core v1</title>
+      <title>AWS Bedrock: meta.llama3-2-90b-instruct-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: Stability Image Core v1
-Shutdown Date: 2025-09-04
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Model ID: meta.llama3-2-90b-instruct-v1:0
+Shutdown Date: 2026-07-07
+First Observed: 2026-03-26
+Last Observed: 2026-03-26
 
-Model Stability Image Core v1. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-09-04. Recommended replacement: Stability Image Core v1.1.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Stability_Image_Core_v1-2025-09-04-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Stability 3 Large</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Stability 3 Large
-Shutdown Date: 2025-09-04
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Stability 3 Large. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-09-04. Recommended replacement: Stability 3.5 Large.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Stability_3_Large-2025-09-04-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Stability Image Ultra v1</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Stability Image Ultra v1
-Shutdown Date: 2025-09-04
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Stability Image Ultra v1. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-09-04. Recommended replacement: Stable Image Ultra v1.1.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Stability_Image_Ultra_v1-2025-09-04-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Amazon Titan Text G1 - Premier</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Amazon Titan Text G1 - Premier
-Shutdown Date: 2025-08-15
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Amazon Titan Text G1 - Premier. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-08-15. Recommended replacement: Amazon Nova Pro.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Amazon_Titan_Text_G1_-_Premier-2025-08-15-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Amazon Titan Text G1 - Express</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Amazon Titan Text G1 - Express
-Shutdown Date: 2025-08-15
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Amazon Titan Text G1 - Express. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-08-15. Recommended replacement: Amazon Nova Micro.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Amazon_Titan_Text_G1_-_Express-2025-08-15-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Amazon Titan Text G1 - Lite</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Amazon Titan Text G1 - Lite
-Shutdown Date: 2025-08-15
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Amazon Titan Text G1 - Lite. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-08-15. Recommended replacement: Amazon Nova Lite.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Amazon_Titan_Text_G1_-_Lite-2025-08-15-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: Amazon Titan Image Generator G1 V1</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: Amazon Titan Image Generator G1 V1
-Shutdown Date: 2025-08-15
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Model Amazon Titan Image Generator G1 V1. entered legacy status on 2025-01-31. and will reach end-of-life on 2025-08-15. Recommended replacement: Amazon Nova Canvas.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-Amazon_Titan_Image_Generator_G1_V1-2025-08-15-e3b0c442</guid>
+Model ID meta.llama3-2-90b-instruct-v1:0. (Llama 3.2 90B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07. Recommended replacement IDs: meta.llama4-maverick-17b-instruct-v1:0, meta.llama4-scout-17b-instruct-v1:0.</description>
+      <pubDate>Thu, 26 Mar 2026 16:09:32 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-meta.llama3-2-90b-instruct-v10-2026-07-07-e3b0c442</guid>
     </item>
     <item>
       <title>Cohere: embed-english-v2.0</title>
@@ -2309,7 +1906,7 @@ First Observed: 2026-03-26
 Last Observed: 2026-03-26
 
 Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:37 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 18:38:33 GMT</pubDate>
       <guid isPermaLink="false">Cohere-embed-english-v2.0-2026-04-04-e3b0c442</guid>
     </item>
     <item>
@@ -2322,7 +1919,7 @@ First Observed: 2026-03-26
 Last Observed: 2026-03-26
 
 Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:37 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 18:38:33 GMT</pubDate>
       <guid isPermaLink="false">Cohere-embed-english-light-v2.0-2026-04-04-e3b0c442</guid>
     </item>
     <item>
@@ -2335,7 +1932,7 @@ First Observed: 2026-03-26
 Last Observed: 2026-03-26
 
 Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:37 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 18:38:33 GMT</pubDate>
       <guid isPermaLink="false">Cohere-embed-multilingual-v2.0-2026-04-04-e3b0c442</guid>
     </item>
     <item>
@@ -2348,7 +1945,7 @@ First Observed: 2026-03-26
 Last Observed: 2026-03-26
 
 Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:37 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 18:38:33 GMT</pubDate>
       <guid isPermaLink="false">Cohere-c4ai-aya-expanse-8b-2026-04-04-e3b0c442</guid>
     </item>
     <item>
@@ -2361,7 +1958,7 @@ First Observed: 2026-03-26
 Last Observed: 2026-03-26
 
 Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:37 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 18:38:33 GMT</pubDate>
       <guid isPermaLink="false">Cohere-c4ai-aya-vision-8b-2026-04-04-e3b0c442</guid>
     </item>
     <item>
@@ -2410,10 +2007,10 @@ Bayer</description>
 Model ID: Cohere-rerank-v3.5
 Shutdown Date: 2026-05-14
 First Observed: 2026-01-14
-Last Observed: 2026-01-14
+Last Observed: 2026-03-26
 
 Cohere</description>
-      <pubDate>Wed, 14 Jan 2026 03:41:48 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-rerank-v3.5-2026-05-14-e3b0c442</guid>
     </item>
     <item>
@@ -2501,10 +2098,10 @@ Meta</description>
 Model ID: Llama-3.2-11B-Vision-Instruct
 Shutdown Date: 2026-06-13
 First Observed: 2026-02-25
-Last Observed: 2026-02-25
+Last Observed: 2026-03-26
 
 Meta</description>
-      <pubDate>Wed, 25 Feb 2026 04:13:37 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
       <guid isPermaLink="false">Azure-Llama-3.2-11B-Vision-Instruct-2026-06-13-e3b0c442</guid>
     </item>
     <item>
@@ -2514,10 +2111,10 @@ Meta</description>
 Model ID: Llama-3.2-90B-Vision-Instruct
 Shutdown Date: 2026-06-13
 First Observed: 2026-02-25
-Last Observed: 2026-02-25
+Last Observed: 2026-03-26
 
 Meta</description>
-      <pubDate>Wed, 25 Feb 2026 04:13:37 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
       <guid isPermaLink="false">Azure-Llama-3.2-90B-Vision-Instruct-2026-06-13-e3b0c442</guid>
     </item>
     <item>
@@ -2586,19 +2183,6 @@ Moonshot AI</description>
       <guid isPermaLink="false">Azure-Kimi-k2-thinking-2026-03-29-e3b0c442</guid>
     </item>
     <item>
-      <title>Azure: Jamba Instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Jamba Instruct
-Shutdown Date: 2025-03-01
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-AI21 Labs</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Jamba_Instruct-2025-03-01-e3b0c442</guid>
-    </item>
-    <item>
       <title>Azure: AI21-Jamba-1.5-Large</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -2638,42 +2222,16 @@ Bria</description>
       <guid isPermaLink="false">Azure-Bria-2.3-Fast-2025-10-31-e3b0c442</guid>
     </item>
     <item>
-      <title>Azure: Command R</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Command R
-Shutdown Date: 2025-06-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Cohere</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Command_R-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Command R+</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Command R+
-Shutdown Date: 2025-06-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Cohere</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Command_R+-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
       <title>Azure: Cohere-rerank-v3-english</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Cohere-rerank-v3-english
 Shutdown Date: 2025-06-30
 First Observed: 2026-02-01
-Last Observed: 2026-02-01
+Last Observed: 2026-03-26
 
 Cohere</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-rerank-v3-english-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -2683,10 +2241,10 @@ Cohere</description>
 Model ID: Cohere-rerank-v3-multilingual
 Shutdown Date: 2025-06-30
 First Observed: 2026-02-01
-Last Observed: 2026-02-01
+Last Observed: 2026-03-26
 
 Cohere</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-rerank-v3-multilingual-2025-06-30-e3b0c442</guid>
     </item>
     <item>
@@ -2852,10 +2410,10 @@ Meta</description>
 Model ID: MAI-DS-R1
 Shutdown Date: 2026-02-27
 First Observed: 2026-03-06
-Last Observed: 2026-03-06
+Last Observed: 2026-03-26
 
 Microsoft</description>
-      <pubDate>Fri, 06 Mar 2026 04:03:15 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
       <guid isPermaLink="false">Azure-MAI-DS-R1-2026-02-27-e3b0c442</guid>
     </item>
     <item>
@@ -2982,10 +2540,10 @@ Microsoft</description>
 Model ID: Mistral-Nemo
 Shutdown Date: 2026-01-30
 First Observed: 2026-02-01
-Last Observed: 2026-02-01
+Last Observed: 2026-03-26
 
 Mistral AI</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-Nemo-2026-01-30-e3b0c442</guid>
     </item>
     <item>
@@ -2995,10 +2553,10 @@ Mistral AI</description>
 Model ID: Mistral-large-2411
 Shutdown Date: 2026-01-30
 First Observed: 2026-02-01
-Last Observed: 2026-02-01
+Last Observed: 2026-03-26
 
 Mistral AI</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-large-2411-2026-01-30-e3b0c442</guid>
     </item>
     <item>
@@ -3008,10 +2566,10 @@ Mistral AI</description>
 Model ID: Mistral-ocr-2503
 Shutdown Date: 2026-01-30
 First Observed: 2026-02-01
-Last Observed: 2026-02-01
+Last Observed: 2026-03-26
 
 Mistral AI</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-ocr-2503-2026-01-30-e3b0c442</guid>
     </item>
     <item>
@@ -3021,10 +2579,10 @@ Mistral AI</description>
 Model ID: Mistral-small
 Shutdown Date: 2025-07-31
 First Observed: 2026-02-01
-Last Observed: 2026-02-01
+Last Observed: 2026-03-26
 
 Mistral AI</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-small-2025-07-31-e3b0c442</guid>
     </item>
     <item>
@@ -3034,10 +2592,10 @@ Mistral AI</description>
 Model ID: Mistral-large-2407
 Shutdown Date: 2025-05-13
 First Observed: 2026-02-01
-Last Observed: 2026-02-01
+Last Observed: 2026-03-26
 
 Mistral AI</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-large-2407-2025-05-13-e3b0c442</guid>
     </item>
     <item>
@@ -3047,10 +2605,10 @@ Mistral AI</description>
 Model ID: Mistral-large
 Shutdown Date: 2025-04-15
 First Observed: 2026-02-01
-Last Observed: 2026-02-01
+Last Observed: 2026-03-26
 
 Mistral AI</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
+      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-large-2025-04-15-e3b0c442</guid>
     </item>
   </channel>

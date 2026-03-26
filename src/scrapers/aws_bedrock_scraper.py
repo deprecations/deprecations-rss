@@ -16,13 +16,15 @@ class AWSBedrockScraper(EnhancedBaseScraper):
     requires_playwright = False
 
     def extract_structured_deprecations(self, html: str) -> List[DeprecationItem]:
-        """Extract deprecations from AWS Bedrock's table format."""
+        """Extract deprecations from AWS Bedrock lifecycle tables."""
         items: list[DeprecationItem] = []
         soup = BeautifulSoup(html, "html.parser")
 
         content = soup.find("div", id="main-content") or soup.find("main")
         if not content:
             return items
+
+        active_model_ids = self._build_active_model_id_map(content)
 
         for table in content.find_all("table"):
             rows = table.find_all("tr")
@@ -36,33 +38,47 @@ class AWSBedrockScraper(EnhancedBaseScraper):
             if not is_lifecycle_table:
                 continue
 
-            model_idx = None
+            model_version_idx = None
+            model_id_idx = None
             legacy_idx = None
             eol_idx = None
             replacement_idx = None
+            replacement_id_idx = None
 
             for i, header in enumerate(headers):
-                if (
+                if "model id" in header and "recommended" not in header and model_id_idx is None:
+                    model_id_idx = i
+                elif (
                     "model version" in header or "model name" in header
-                ) and model_idx is None:
-                    model_idx = i
+                ) and model_version_idx is None:
+                    model_version_idx = i
                 elif "legacy" in header and "date" in header:
                     legacy_idx = i
                 elif ("eol" in header or "end of life" in header) and "date" in header:
                     eol_idx = i
+                elif "recommended model id" in header and replacement_id_idx is None:
+                    replacement_id_idx = i
                 elif (
                     "replac" in header or "migration" in header
-                ) and "id" not in header:
+                ) and "id" not in header and replacement_idx is None:
                     replacement_idx = i
 
-            if model_idx is None:
-                model_idx = 0
+            if model_version_idx is None and model_id_idx is None:
+                continue
 
             for cells in expanded_rows[1:]:
-                if len(cells) <= model_idx:
-                    continue
+                model_version = (
+                    cells[model_version_idx]
+                    if model_version_idx is not None and model_version_idx < len(cells)
+                    else ""
+                )
+                direct_model_id = (
+                    cells[model_id_idx]
+                    if model_id_idx is not None and model_id_idx < len(cells)
+                    else ""
+                )
+                model_id = direct_model_id or active_model_ids.get(model_version, "")
 
-                model_id = cells[model_idx]
                 if not model_id or model_id.lower() in ["model", "name"]:
                     continue
 
@@ -75,10 +91,13 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                     eol_date = self.parse_date(cells[eol_idx])
 
                 replacement_models = None
-                if replacement_idx is not None and replacement_idx < len(cells):
-                    repl_text = cells[replacement_idx]
-                    if repl_text and repl_text not in ["—", "-", "N/A", "TBD", "NA"]:
-                        replacement_models = self.parse_replacements(repl_text)
+                replacement_text = ""
+                if replacement_id_idx is not None and replacement_id_idx < len(cells):
+                    replacement_text = cells[replacement_id_idx]
+                elif replacement_idx is not None and replacement_idx < len(cells):
+                    replacement_text = cells[replacement_idx]
+                if replacement_text and replacement_text not in ["—", "-", "N/A", "TBD", "NA"]:
+                    replacement_models = self.parse_replacements(replacement_text)
 
                 if not (legacy_date or eol_date):
                     continue
@@ -91,13 +110,53 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                         shutdown_date=eol_date or legacy_date,
                         replacement_models=replacement_models,
                         deprecation_context=self._build_context(
-                            model_id, legacy_date, eol_date, replacement_models
+                            model_id, model_version, legacy_date, eol_date, replacement_models
                         ),
                         url=self.url,
                     )
                 )
 
         return self._merge_duplicate_models(items)
+
+    def _build_active_model_id_map(self, content) -> dict[str, str]:
+        """Map active model version labels to Bedrock model IDs."""
+        active_model_ids: dict[str, str] = {}
+
+        for table in content.find_all("table"):
+            header = table.find_previous(["h2", "h3"])
+            heading_text = header.get_text(" ", strip=True).lower() if header else ""
+            if "active versions" not in heading_text:
+                continue
+
+            rows = table.find_all("tr")
+            if len(rows) <= 1:
+                continue
+
+            headers = [
+                cell.get_text(" ", strip=True).lower()
+                for cell in rows[0].find_all(["th", "td"])
+            ]
+            if "model id" not in headers:
+                continue
+
+            model_version_idx = next(
+                (i for i, header in enumerate(headers) if header in {"model name", "model version"}),
+                None,
+            )
+            model_id_idx = headers.index("model id")
+            if model_version_idx is None:
+                continue
+
+            for row in rows[1:]:
+                cells = [td.get_text(" ", strip=True) for td in row.find_all("td")]
+                if len(cells) <= max(model_version_idx, model_id_idx):
+                    continue
+                model_version = cells[model_version_idx]
+                model_id = cells[model_id_idx]
+                if model_version and model_id:
+                    active_model_ids[model_version] = model_id
+
+        return active_model_ids
 
     def _expand_table_rows(self, table) -> list[list[str]]:
         """Expand rowspans so each row has a full set of cells."""
@@ -143,12 +202,15 @@ class AWSBedrockScraper(EnhancedBaseScraper):
     def _build_context(
         self,
         model_id: str,
+        model_version: str,
         legacy_date: str,
         eol_date: str,
         replacement_models: list[str] | None,
     ) -> str:
         """Build standardized context for a single lifecycle row."""
-        context_parts = [f"Model {model_id}"]
+        context_parts = [f"Model ID {model_id}"]
+        if model_version and model_version != model_id:
+            context_parts.append(f"({model_version})")
         if legacy_date:
             context_parts.append(f"entered legacy status on {legacy_date}")
         if eol_date:
@@ -158,7 +220,7 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                 context_parts.append(f"will reach end-of-life on {eol_date}")
         if replacement_models:
             context_parts.append(
-                f"Recommended replacement: {', '.join(replacement_models)}"
+                f"Recommended replacement IDs: {', '.join(replacement_models)}"
             )
         return ". ".join(context_parts) + "."
 

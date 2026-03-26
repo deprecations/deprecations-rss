@@ -124,8 +124,8 @@ We encourage you to migrate to our latest models:
     assert "classify-default-embed" not in model_ids
 
 
-def test_cohere_command_section_does_not_invent_shutdown_date():
-    """Cohere command-model deprecations should not fabricate a retirement date."""
+def test_cohere_command_section_does_not_invent_shutdown_or_announcement_date():
+    """Cohere effective-date sections should not treat that date as announcement date."""
     markdown = """
 # Deprecations
 
@@ -147,13 +147,38 @@ For command model replacements, we recommend you use `command-r-08-2024`, `comma
 
     assert model_ids == {"command-r-03-2024", "command-r", "command-light"}
     for item in items:
-        assert item.announcement_date == "2025-09-15"
+        assert item.announcement_date == ""
         assert item.shutdown_date == ""
         assert item.replacement_models == [
             "command-r-08-2024",
             "command-r-plus-08-2024",
             "command-a-03-2025",
         ]
+
+
+def test_cohere_effective_shutdown_section_leaves_announcement_date_empty():
+    """Cohere effective retirement dates should stay in context, not announcement_date."""
+    markdown = """
+# Deprecations
+
+### 2026-04-04: Embed v2.0, Aya Expanse 8B
+
+Effective April 4th, 2026, the following models will be retired:
+
+* `embed-english-v2.0`
+
+We encourage you to migrate to our latest models:
+
+* Embedding tasks alternatives:
+  * `embed-v4.0`
+"""
+
+    items = CohereScraper().extract_structured_deprecations(markdown)
+
+    assert len(items) == 1
+    assert items[0].model_id == "embed-english-v2.0"
+    assert items[0].announcement_date == ""
+    assert items[0].shutdown_date == "2026-04-04"
 
 
 def test_google_vertex_partner_page_extracts_deprecated_partner_model():
