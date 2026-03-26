@@ -71,7 +71,6 @@ class GoogleVertexScraper(EnhancedBaseScraper):
                 DeprecationItem(
                     provider=self.provider_name,
                     model_id=model_id,
-                    model_name=section_name,
                     announcement_date=self.parse_date(deprecated_match.group(1)),
                     shutdown_date=self.parse_date(shutdown_match.group(1)),
                     replacement_models=None,

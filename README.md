@@ -19,7 +19,7 @@ https://deprecations.info/rss/v1/feed.xml
 
 ### JSON Feed
 Recommended for programmatic access. Structured JSON format with extracted
-metadata (model names, shutdown dates, providers).
+metadata (model IDs, shutdown dates, providers).
 ```
 https://deprecations.info/feed.json
 ```
@@ -36,10 +36,11 @@ We check these pages daily:
 - [OpenAI Deprecations](https://platform.openai.com/docs/deprecations)
 - [Anthropic Model Deprecations](https://docs.anthropic.com/en/docs/about-claude/model-deprecations)
 - [Google AI/Gemini Deprecations](https://ai.google.dev/gemini-api/docs/changelog)
-- [Google Vertex AI Deprecations](https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations)
+- [Google Vertex AI Deprecations](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models)
 - [AWS Bedrock Model Lifecycle](https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html)
 - [Cohere Deprecations](https://docs.cohere.com/docs/deprecations)
 - [xAI Models](https://docs.x.ai/docs/models)
+- [Azure AI Foundry Retirements](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement)
 
 ## Why This Exists
 AI providers deprecate models regularly, sometimes with just a few months
@@ -316,7 +317,7 @@ for item in feed['items'][:3]:  # Last 3 entries
         <h2 style="color: #d73a49;">⚠️ Model Deprecation Alert</h2>
         <h3>{item['title']}</h3>
         <p>{item['content_text']}</p>
-        <p><strong>Model:</strong> {item.get('_deprecation', {}).get('model_name', 'N/A')}</p>
+        <p><strong>Model ID:</strong> {item.get('_deprecation', {}).get('model_id', 'N/A')}</p>
         <p><strong>Shutdown:</strong> {item.get('_deprecation', {}).get('shutdown_date', 'TBD')}</p>
         <p><strong>Details:</strong> <a href="{item['url']}">{item['url']}</a></p>
         <hr>
@@ -379,7 +380,7 @@ async function sendDeprecationAlerts() {
             <h2 style="color: #d73a49;">⚠️ Model Deprecation Alert</h2>
             <h3>${item.title}</h3>
             <p>${item.content_text}</p>
-            <p><strong>Model:</strong> ${item._deprecation?.model_name || 'N/A'}</p>
+            <p><strong>Model ID:</strong> ${item._deprecation?.model_id || 'N/A'}</p>
             <p><strong>Shutdown:</strong> ${item._deprecation?.shutdown_date || 'TBD'}</p>
             <p><strong>Details:</strong> <a href="${item.url}">${item.url}</a></p>
             <hr>
@@ -421,8 +422,8 @@ TO_EMAILS="dev1@example.com,dev2@example.com"
 FEED_URL="https://deprecations.info/feed.json"
 
 # Parse JSON and send emails for recent items
-curl -s "$FEED_URL" | jq -r '.items[0:3] | .[] | "\(.title)|\(.content_text)|\(.url)|\(._deprecation.model_name // "N/A")|\(._deprecation.shutdown_date // "TBD")"' | \
-while IFS='|' read -r title description url model_name shutdown_date; do
+curl -s "$FEED_URL" | jq -r '.items[0:3] | .[] | "\(.title)|\(.content_text)|\(.url)|\(._deprecation.model_id // "N/A")|\(._deprecation.shutdown_date // "TBD")"' | \
+while IFS='|' read -r title description url model_id shutdown_date; do
   # Create email body
   EMAIL_BODY=$(cat <<EOF
 Subject: ⚠️ AI Model Deprecation Alert: $title
@@ -433,7 +434,7 @@ Content-Type: text/html
   <h2>⚠️ Model Deprecation Alert</h2>
   <h3>$title</h3>
   <p>$description</p>
-  <p><strong>Model:</strong> $model_name</p>
+  <p><strong>Model ID:</strong> $model_id</p>
   <p><strong>Shutdown:</strong> $shutdown_date</p>
   <p><strong>Details:</strong> <a href="$url">$url</a></p>
   <hr>
@@ -499,7 +500,7 @@ feed['items'].first(3).each do |item|
             <h2 style="color: #d73a49;">⚠️ Model Deprecation Alert</h2>
             <h3>#{item['title']}</h3>
             <p>#{item['content_text']}</p>
-            <p><strong>Model:</strong> #{item.dig('_deprecation', 'model_name') || 'N/A'}</p>
+            <p><strong>Model ID:</strong> #{item.dig('_deprecation', 'model_id') || 'N/A'}</p>
             <p><strong>Shutdown:</strong> #{item.dig('_deprecation', 'shutdown_date') || 'TBD'}</p>
             <p><strong>Details:</strong> <a href="#{item['url']}">#{item['url']}</a></p>
             <hr>
@@ -560,7 +561,7 @@ for item in feed['items'][:3]:  # Check last 3 entries
                 },
                 {
                     "name": "Model",
-                    "value": deprecation.get('model_name', 'N/A'),
+                    "value": deprecation.get('model_id', 'N/A'),
                     "inline": True
                 },
                 {
@@ -618,7 +619,7 @@ async function sendDiscordAlerts() {
           },
           {
             name: 'Model',
-            value: item._deprecation?.model_name || 'N/A',
+            value: item._deprecation?.model_id || 'N/A',
             inline: true
           },
           {
@@ -663,8 +664,8 @@ WEBHOOK_URL="https://discord.com/api/webhooks/YOUR_WEBHOOK_URL"
 FEED_URL="https://deprecations.info/feed.json"
 
 # Parse JSON feed and send to Discord
-curl -s "$FEED_URL" | jq -r '.items[0:3] | .[] | "\(.title)|\(.content_text)|\(.url)|\(._deprecation.provider // "Unknown")|\(._deprecation.model_name // "")|\(._deprecation.shutdown_date // "")"' | \
-while IFS='|' read -r title description url provider model_name shutdown_date; do
+curl -s "$FEED_URL" | jq -r '.items[0:3] | .[] | "\(.title)|\(.content_text)|\(.url)|\(._deprecation.provider // "Unknown")|\(._deprecation.model_id // "")|\(._deprecation.shutdown_date // "")"' | \
+while IFS='|' read -r title description url provider model_id shutdown_date; do
   
   # Create Discord embed JSON
   json_payload=$(cat <<EOF
@@ -683,7 +684,7 @@ while IFS='|' read -r title description url provider model_name shutdown_date; d
       },
       {
         "name": "Model",
-        "value": "$model_name",
+        "value": "$model_id",
         "inline": true
       },
       {
@@ -734,7 +735,7 @@ feed = JSON.parse(URI.open('https://deprecations.info/v1/feed.json').read)
 feed['items'].first(3).each do |item|
   # Access structured data
   provider = item.dig('_deprecation', 'provider') || 'Unknown'
-  model = item.dig('_deprecation', 'model_name') || 'N/A'
+  model = item.dig('_deprecation', 'model_id') || 'N/A'
   shutdown_date = item.dig('_deprecation', 'shutdown_date') || 'TBD'
   
   # Create Discord embed

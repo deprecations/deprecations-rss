@@ -18,6 +18,7 @@ class EnhancedBaseScraper:
     provider_name: str = "Unknown"
     url: str = ""
     requires_playwright: bool = False
+    require_shutdown_dates: bool = False
 
     def __init__(self):
         self.headers = {
@@ -122,7 +123,7 @@ class EnhancedBaseScraper:
         return ""
 
     def parse_replacements(self, replacement_str: str) -> List[str] | None:
-        """Parse replacement string into a list of model names."""
+        """Parse replacement string into a list of model IDs."""
         if not replacement_str:
             return None
 
@@ -231,8 +232,8 @@ class EnhancedBaseScraper:
             if len(cells) <= model_idx:
                 continue
 
-            model_name = cells[model_idx]
-            if not model_name or model_name.lower() in ["model", "name", "feature"]:
+            model_id = cells[model_idx]
+            if not model_id or model_id.lower() in ["model", "name", "feature"]:
                 continue
 
             shutdown_date = ""
@@ -253,15 +254,14 @@ class EnhancedBaseScraper:
             items.append(
                 DeprecationItem(
                     provider=self.provider_name,
-                    model_id=model_name,
-                    model_name=model_name,
+                    model_id=model_id,
                     announcement_date=announcement_date or shutdown_date,
                     shutdown_date=shutdown_date,
                     replacement_models=replacement_models,
                     deprecation_context=section_context,
                     url=self.url,
                     content_hash=DeprecationItem._compute_hash(
-                        f"{model_name}{shutdown_date}{section_context}"
+                        f"{model_id}{shutdown_date}{section_context}"
                     ),
                 )
             )

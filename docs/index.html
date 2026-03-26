@@ -45,15 +45,8 @@
                     <p class="tagline">Never miss an AI model shutdown again</p>
                 </div>
                 <div class="header-right">
-                    <div class="provider-badges">
-                        <a href="https://platform.openai.com/docs/deprecations" target="_blank" rel="noopener" title="OpenAI" class="provider-badge openai">OAI</a>
-                        <a href="https://docs.anthropic.com/en/docs/about-claude/model-deprecations" target="_blank" rel="noopener" title="Anthropic" class="provider-badge anthropic">ANT</a>
-                        <a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank" rel="noopener" title="Google AI/Gemini" class="provider-badge google">GOO</a>
-                        <a href="https://docs.cohere.com/docs/deprecations" target="_blank" rel="noopener" title="Cohere" class="provider-badge cohere">COH</a>
-                        <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations" target="_blank" rel="noopener" title="Google Vertex AI" class="provider-badge google-vertex">GCP</a>
-                        <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html" target="_blank" rel="noopener" title="AWS Bedrock" class="provider-badge aws">AWS</a>
-                        <a href="https://docs.x.ai/docs/models" target="_blank" rel="noopener" title="xAI" class="provider-badge xai">xAI</a>
-                        <a href="https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/model-retirements" target="_blank" rel="noopener" title="Microsoft Azure" class="provider-badge azure">AZR</a>
+                    <div class="provider-badges" id="provider-badges">
+                        <span class="provider-badge">…</span>
                     </div>
                     <a href="https://github.com/leblancfg/deprecations-rss" target="_blank" rel="noopener"
                         class="github-link">
@@ -347,7 +340,7 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                     
                     tr.innerHTML = `
                         <td class="provider ${providerClass}">${formatProviderName(deprecation.provider)}</td>
-                        <td class="model-name">${deprecation.model_name || deprecation.model_id || 'N/A'}</td>
+                        <td class="model-name">${deprecation.model_id || 'N/A'}</td>
                         <td class="announcement-date">${formatDate(deprecation.announcement_date)}</td>
                         <td class="shutdown-date">${formatDate(deprecation.shutdown_date)}</td>
                         <td class="days-remaining">${daysDisplay}</td>
@@ -545,7 +538,7 @@ for item in feed['items']:
     models_i_use = ['gpt-4', 'claude-2', 'text-davinci-003']
     
     # Access structured data from _deprecation extension
-    model = item.get('_deprecation', {}).get('model_name', '')
+    model = item.get('_deprecation', {}).get('model_id', '')
     shutdown_date = item.get('_deprecation', {}).get('shutdown_date', '')
     
     if any(m in item['title'].lower() or m in model.lower() for m in models_i_use):
@@ -556,7 +549,7 @@ for item in feed['items']:
 
 {item['content_text']}
 
-**Model:** {model}
+**Model ID:** {model}
 **Shutdown Date:** {shutdown_date}
 **Source:** {item['url']}
 **Date detected:** {datetime.now().isoformat()}
@@ -596,7 +589,7 @@ async function checkDeprecations() {
     
     for (const item of feed.items) {
         // Access structured data from _deprecation extension
-        const model = item._deprecation?.model_name || '';
+        const model = item._deprecation?.model_id || '';
         const shutdownDate = item._deprecation?.shutdown_date || '';
         
         const affectsUs = modelsInUse.some(m =>
@@ -613,7 +606,7 @@ async function checkDeprecations() {
 
 ${item.content_text}
 
-**Model:** ${model}
+**Model ID:** ${model}
 **Shutdown Date:** ${shutdownDate}
 **Source:** ${item.url}
 **Date detected:** ${new Date().toISOString()}
@@ -649,17 +642,17 @@ MODELS=("gpt-4" "claude-2" "text-davinci-003")
 
 # Fetch and parse JSON feed
 curl -s "$FEED_URL" | jq -r '.items[] |
-"\(.title)|\(.content_text)|\(.url)|\(._deprecation.model_name //
+"\(.title)|\(.content_text)|\(.url)|\(._deprecation.model_id //
 "")|\(._deprecation.shutdown_date // "")"' | \
-while IFS='|' read -r title description url model_name shutdown_date; do
+while IFS='|' read -r title description url model_id shutdown_date; do
 # Check if any of our models are mentioned
 for model in "${MODELS[@]}"; do
-if echo "$title $model_name" | grep -qi "$model"; then
+if echo "$title $model_id" | grep -qi "$model"; then
 # Create GitHub issue
 ISSUE_BODY=$(cat &lt;&lt;EOF
 {
 "title": "Model Deprecation: $title",
-"body": "## Deprecation Notice\n\n$description\n\n**Model:** $model_name\n**Shutdown
+"body": "## Deprecation Notice\n\n$description\n\n**Model ID:** $model_id\n**Shutdown
 Date:** $shutdown_date\n**Source:** $url\n**Date:** $(date -I)\n\n### Action Required\n-
 [ ] Identify affected code\n- [ ] Plan migration\n- [ ] Test with new model\n- [ ]
 Deploy changes",
@@ -701,7 +694,7 @@ feed = JSON.parse(URI.open('https://deprecations.info/v1/feed.json').read)
 
 feed['items'].each do |item|
   # Access structured data
-  model = item.dig('_deprecation', 'model_name') || ''
+  model = item.dig('_deprecation', 'model_id') || ''
   shutdown_date = item.dig('_deprecation', 'shutdown_date') || ''
   
   # Check if this affects our models
@@ -715,7 +708,7 @@ feed['items'].each do |item|
         
         #{item['content_text']}
         
-        **Model:** #{model}
+        **Model ID:** #{model}
         **Shutdown Date:** #{shutdown_date}
         **Source:** #{item['url']}
         **Date detected:** #{DateTime.now.iso8601}
@@ -849,7 +842,7 @@ async function sendDeprecationAlerts() {
                     &lt;h2 style="color: #d73a49;"&gt;Model Deprecation Alert&lt;/h2&gt;
                     &lt;h3&gt;${item.title}&lt;/h3&gt;
                     &lt;p&gt;${item.content_text}&lt;/p&gt;
-                    &lt;p&gt;&lt;strong&gt;Model:&lt;/strong&gt; ${item._deprecation?.model_name || 'N/A'}&lt;/p&gt;
+                    &lt;p&gt;&lt;strong&gt;Model ID:&lt;/strong&gt; ${item._deprecation?.model_id || 'N/A'}&lt;/p&gt;
                     &lt;p&gt;&lt;strong&gt;Shutdown:&lt;/strong&gt; ${item._deprecation?.shutdown_date || 'TBD'}&lt;/p&gt;
                     &lt;p&gt;&lt;strong&gt;Details:&lt;/strong&gt; &lt;a href="${item.url}"&gt;${item.url}&lt;/a&gt;&lt;/p&gt;
                     &lt;hr&gt;
@@ -891,9 +884,9 @@ FEED_URL="https://deprecations.info/v1/feed.json"
 
 # Parse JSON and send emails for recent items
 curl -s "$FEED_URL" | jq -r '.items[0:3] | .[] |
-"\(.title)|\(.content_text)|\(.url)|\(._deprecation.model_name //
+"\(.title)|\(.content_text)|\(.url)|\(._deprecation.model_id //
 "N/A")|\(._deprecation.shutdown_date // "TBD")"' | \
-while IFS='|' read -r title description url model_name shutdown_date; do
+while IFS='|' read -r title description url model_id shutdown_date; do
 # Create email body
 EMAIL_BODY=$(cat &lt;&lt;EOF
 Subject: AI Model Deprecation Alert: $title
@@ -904,7 +897,7 @@ Content-Type: text/html
 &lt;h2&gt;Model Deprecation Alert&lt;/h2&gt;
 &lt;h3&gt;$title&lt;/h3&gt;
 &lt;p&gt;$description&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Model:&lt;/strong&gt; $model_name&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Model ID:&lt;/strong&gt; $model_id&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Shutdown:&lt;/strong&gt; $shutdown_date&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Details:&lt;/strong&gt; &lt;a
 href="$url"&gt;$url&lt;/a&gt;&lt;/p&gt;
@@ -969,7 +962,7 @@ feed['items'].first(3).each do |item|
           &lt;h2 style="color: #d73a49;"&gt;Model Deprecation Alert&lt;/h2&gt;
           &lt;h3&gt;#{item['title']}&lt;/h3&gt;
           &lt;p&gt;#{item['content_text']}&lt;/p&gt;
-          &lt;p&gt;&lt;strong&gt;Model:&lt;/strong&gt; #{item.dig('_deprecation', 'model_name') || 'N/A'}&lt;/p&gt;
+          &lt;p&gt;&lt;strong&gt;Model ID:&lt;/strong&gt; #{item.dig('_deprecation', 'model_id') || 'N/A'}&lt;/p&gt;
           &lt;p&gt;&lt;strong&gt;Shutdown:&lt;/strong&gt; #{item.dig('_deprecation', 'shutdown_date') || 'TBD'}&lt;/p&gt;
           &lt;p&gt;&lt;strong&gt;Details:&lt;/strong&gt; &lt;a href="#{item['url']}"&gt;#{item['url']}&lt;/a&gt;&lt;/p&gt;
           &lt;hr&gt;
@@ -1127,8 +1120,8 @@ FEED_URL="https://deprecations.info/feed.json"
 # Parse JSON feed and send to Discord
 curl -s "$FEED_URL" | jq -r '.items[0:3] | .[] |
 "\(.title)|\(.content_text)|\(.url)|\(._deprecation.provider //
-"Unknown")|\(._deprecation.model_name // "")|\(._deprecation.shutdown_date // "")"' | \
-while IFS='|' read -r title description url provider model_name shutdown_date; do
+"Unknown")|\(._deprecation.model_id // "")|\(._deprecation.shutdown_date // "")"' | \
+while IFS='|' read -r title description url provider model_id shutdown_date; do
 
 # Create Discord embed JSON
 json_payload=$(cat &lt;&lt;EOF
@@ -1147,7 +1140,7 @@ json_payload=$(cat &lt;&lt;EOF
 },
 {
 "name": "Model",
-"value": "$model_name",
+"value": "$model_id",
 "inline": true
 },
 {
@@ -1196,7 +1189,7 @@ feed = JSON.parse(URI.open('https://deprecations.info/v1/feed.json').read)
 feed['items'].first(3).each do |item|
   # Access structured data
   provider = item.dig('_deprecation', 'provider') || 'Unknown'
-  model = item.dig('_deprecation', 'model_name') || 'N/A'
+  model = item.dig('_deprecation', 'model_id') || 'N/A'
   shutdown_date = item.dig('_deprecation', 'shutdown_date') || 'TBD'
   
   # Create Discord embed
@@ -1304,19 +1297,51 @@ end</code></pre>
         <section class="what-we-track">
             <h2>What We Track</h2>
             <p>We check these pages daily:</p>
-            <ul>
-                <li><a href="https://platform.openai.com/docs/deprecations" target="_blank">OpenAI Deprecations</a></li>
-                <li><a href="https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
-                        target="_blank">Anthropic Model Deprecations</a></li>
-                <li><a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank">Google AI/Gemini Deprecations</a></li>
-                <li><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations" target="_blank">Google
-                        Vertex AI Deprecations</a></li>
-                <li><a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html"
-                        target="_blank">AWS Bedrock Model Lifecycle</a></li>
-                <li><a href="https://docs.cohere.com/docs/deprecations" target="_blank">Cohere Deprecations</a></li>
-                <li><a href="https://docs.x.ai/docs/models" target="_blank">xAI Models</a></li>
+            <ul id="provider-pages-list">
+                <li>Loading provider pages…</li>
             </ul>
         </section>
+        <script>
+            async function loadProviderPages() {
+                const list = document.getElementById('provider-pages-list');
+                const badges = document.getElementById('provider-badges');
+                if (!list || !badges) return;
+
+                const badgeMeta = {
+                    'OpenAI': { className: 'openai', short: 'OAI' },
+                    'Anthropic': { className: 'anthropic', short: 'ANT' },
+                    'Google': { className: 'google', short: 'GOO' },
+                    'Google Vertex': { className: 'google-vertex', short: 'GCP' },
+                    'AWS Bedrock': { className: 'aws', short: 'AWS' },
+                    'Cohere': { className: 'cohere', short: 'COH' },
+                    'xAI': { className: 'xai', short: 'xAI' },
+                    'Azure': { className: 'azure', short: 'AZR' },
+                };
+
+                try {
+                    const response = await fetch('v1/providers.json');
+                    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                    const providers = await response.json();
+
+                    list.innerHTML = providers
+                        .map(provider => `<li><a href="${provider.url}" target="_blank">${provider.label}</a></li>`)
+                        .join('');
+
+                    badges.innerHTML = providers
+                        .map(provider => {
+                            const meta = badgeMeta[provider.provider] || { className: '', short: provider.provider.slice(0, 3).toUpperCase() };
+                            return `<a href="${provider.url}" target="_blank" rel="noopener" title="${provider.provider}" class="provider-badge ${meta.className}">${meta.short}</a>`;
+                        })
+                        .join('');
+                } catch (error) {
+                    console.error('Failed to load provider pages', error);
+                    list.innerHTML = '<li>Provider list unavailable.</li>';
+                    badges.innerHTML = '<span class="provider-badge">ERR</span>';
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', loadProviderPages);
+        </script>
 
         <section class="why">
             <h2>Why This Exists</h2>

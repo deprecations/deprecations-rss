@@ -106,22 +106,21 @@ class AnthropicScraper(EnhancedBaseScraper):
             if len(row) <= retirement_idx:
                 continue
 
-            model_names = extract_code_spans(row[model_idx])
-            model_name = model_names[0] if model_names else row[model_idx].strip()
+            model_ids = extract_code_spans(row[model_idx])
+            model_id = model_ids[0] if model_ids else row[model_idx].strip()
             current_state = row[state_idx].strip().lower()
             deprecated_date = self.parse_date(row[deprecated_idx])
             shutdown_date = self.parse_date(row[retirement_idx])
 
             if current_state not in {"deprecated", "retired"}:
                 continue
-            if not shutdown_date or not model_name:
+            if not shutdown_date or not model_id:
                 continue
 
             items.append(
                 DeprecationItem(
                     provider=self.provider_name,
-                    model_id=model_name,
-                    model_name=model_name,
+                    model_id=model_id,
                     announcement_date=deprecated_date,
                     shutdown_date=shutdown_date,
                     replacement_models=None,
@@ -156,20 +155,19 @@ class AnthropicScraper(EnhancedBaseScraper):
                 continue
 
             shutdown_date = self.parse_date(row[0])
-            model_names = extract_code_spans(row[1])
-            model_name = model_names[0] if model_names else row[1].strip()
+            model_ids = extract_code_spans(row[1])
+            model_id = model_ids[0] if model_ids else row[1].strip()
             replacement_models = (
                 extract_code_spans(row[2]) if len(row) > 2 and row[2].strip() else None
             )
 
-            if not shutdown_date or not model_name:
+            if not shutdown_date or not model_id:
                 continue
 
             items.append(
                 DeprecationItem(
                     provider=self.provider_name,
-                    model_id=model_name,
-                    model_name=model_name,
+                    model_id=model_id,
                     announcement_date=announcement_date,
                     shutdown_date=shutdown_date,
                     replacement_models=replacement_models or None,
@@ -205,7 +203,7 @@ class AnthropicScraper(EnhancedBaseScraper):
 
                 if is_format2:
                     shutdown_date = self.parse_date(cells[0])
-                    model_name = cells[1]
+                    model_id = cells[1]
                     replacement_str = (
                         cells[2]
                         if len(cells) > 2 and cells[2] not in {"—", "-", "N/A"}
@@ -218,7 +216,7 @@ class AnthropicScraper(EnhancedBaseScraper):
                     )
                     deprecated_date = announcement_date
                 else:
-                    model_name = cells[0]
+                    model_id = cells[0]
                     deprecated_date = (
                         self.parse_date(cells[2]) if len(cells) > 2 else ""
                     ) or announcement_date
@@ -228,14 +226,13 @@ class AnthropicScraper(EnhancedBaseScraper):
                         continue
 
                 final_date = shutdown_date or deprecated_date
-                if not final_date or not model_name:
+                if not final_date or not model_id:
                     continue
 
                 items.append(
                     DeprecationItem(
                         provider=self.provider_name,
-                        model_id=model_name,
-                        model_name=model_name,
+                        model_id=model_id,
                         announcement_date=deprecated_date or "",
                         shutdown_date=final_date,
                         replacement_models=replacement_models,

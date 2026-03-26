@@ -135,20 +135,20 @@ class OpenAIScraper(EnhancedBaseScraper):
             if len(row) <= model_idx:
                 continue
 
-            model_names = self._extract_model_names_from_cell(row[model_idx])
-            if not model_names:
+            model_ids = self._extract_model_ids_from_cell(row[model_idx])
+            if not model_ids:
                 continue
 
             if any(
-                model_name.upper() in {"MODEL", "SYSTEM", "NAME"}
-                for model_name in model_names
+                model_id.upper() in {"MODEL", "SYSTEM", "NAME"}
+                for model_id in model_ids
             ):
                 continue
 
             filtered_models = [
-                model_name
-                for model_name in model_names
-                if not self._should_skip_model_name(model_name)
+                model_id
+                for model_id in model_ids
+                if not self._should_skip_model_id(model_id)
             ]
             if not filtered_models:
                 continue
@@ -165,12 +165,11 @@ class OpenAIScraper(EnhancedBaseScraper):
                     row[replacement_idx]
                 )
 
-            for model_name in filtered_models:
+            for model_id in filtered_models:
                 items.append(
                     DeprecationItem(
                         provider=self.provider_name,
-                        model_id=model_name,
-                        model_name=model_name,
+                        model_id=model_id,
                         announcement_date=announcement_date,
                         shutdown_date=shutdown_date,
                         replacement_models=replacement_models,
@@ -185,7 +184,7 @@ class OpenAIScraper(EnhancedBaseScraper):
         """Normalize extracted model tokens and strip doc footnote markers."""
         return value.strip().rstrip("*").strip()
 
-    def _extract_model_names_from_cell(self, cell_text: str) -> list[str]:
+    def _extract_model_ids_from_cell(self, cell_text: str) -> list[str]:
         """Extract one or more concrete model IDs from a table cell."""
         code_spans = [
             self._clean_model_token(model)
@@ -205,7 +204,7 @@ class OpenAIScraper(EnhancedBaseScraper):
         return [plain_text] if plain_text else []
 
     def _parse_markdown_replacements(self, replacement_cell: str) -> list[str] | None:
-        """Parse replacement model names from markdown cell text."""
+        """Parse replacement model IDs from markdown cell text."""
         if not replacement_cell or replacement_cell in {"—", "-", "N/A"}:
             return None
 
@@ -223,14 +222,14 @@ class OpenAIScraper(EnhancedBaseScraper):
         cleaned = [self._clean_model_token(model) for model in parsed if model.strip()]
         return cleaned or None
 
-    def _should_skip_model_name(self, model_name: str) -> bool:
+    def _should_skip_model_id(self, model_id: str) -> bool:
         """Return True when a row describes a system, endpoint, or feature."""
         return (
-            model_name.startswith("/")
-            or " API" in model_name
-            or " endpoint" in model_name.lower()
-            or model_name.startswith("OpenAI-Beta:")
-            or "fine-tuning training" in model_name.lower()
+            model_id.startswith("/")
+            or " API" in model_id
+            or " endpoint" in model_id.lower()
+            or model_id.startswith("OpenAI-Beta:")
+            or "fine-tuning training" in model_id.lower()
         )
 
     def _extract_from_html(self, html: str) -> List[DeprecationItem]:
@@ -368,21 +367,21 @@ class OpenAIScraper(EnhancedBaseScraper):
                 for code in cells[model_idx].find_all("code")
                 if self._clean_model_token(code.get_text(strip=True))
             ]
-            model_names = code_models or self._extract_model_names_from_cell(
+            model_ids = code_models or self._extract_model_ids_from_cell(
                 cells[model_idx].get_text(" ", strip=True)
             )
-            if not model_names:
+            if not model_ids:
                 continue
             if any(
-                model_name.upper() in {"MODEL", "SYSTEM", "NAME"}
-                for model_name in model_names
+                model_id.upper() in {"MODEL", "SYSTEM", "NAME"}
+                for model_id in model_ids
             ):
                 continue
 
             filtered_models = [
-                model_name
-                for model_name in model_names
-                if not self._should_skip_model_name(model_name)
+                model_id
+                for model_id in model_ids
+                if not self._should_skip_model_id(model_id)
             ]
             if not filtered_models:
                 continue
@@ -401,12 +400,11 @@ class OpenAIScraper(EnhancedBaseScraper):
                         replacement_text
                     )
 
-            for model_name in filtered_models:
+            for model_id in filtered_models:
                 items.append(
                     DeprecationItem(
                         provider=self.provider_name,
-                        model_id=model_name,
-                        model_name=model_name,
+                        model_id=model_id,
                         announcement_date=announcement_date,
                         shutdown_date=shutdown_date,
                         replacement_models=replacement_models,
@@ -439,12 +437,11 @@ class OpenAIScraper(EnhancedBaseScraper):
             if parsed:
                 shutdown_date = parsed
 
-        for model in models_found:
+        for model_id in models_found:
             items.append(
                 DeprecationItem(
                     provider=self.provider_name,
-                    model_id=model,
-                    model_name=model,
+                    model_id=model_id,
                     announcement_date=announcement_date,
                     shutdown_date=shutdown_date,
                     replacement_models=None,
@@ -454,19 +451,18 @@ class OpenAIScraper(EnhancedBaseScraper):
             )
 
         if not items and title:
-            if self._should_skip_model_name(title):
+            if self._should_skip_model_id(title):
                 return items
 
             if " and " in title:
-                models = [model.strip() for model in title.split(" and ")]
-                for model in models:
-                    if model.upper() in {"GPT", "EMBEDDINGS", "MODELS"}:
+                model_ids = [model_id.strip() for model_id in title.split(" and ")]
+                for model_id in model_ids:
+                    if model_id.upper() in {"GPT", "EMBEDDINGS", "MODELS"}:
                         continue
                     items.append(
                         DeprecationItem(
                             provider=self.provider_name,
-                            model_id=model,
-                            model_name=model,
+                            model_id=model_id,
                             announcement_date=announcement_date,
                             shutdown_date=shutdown_date,
                             replacement_models=None,
@@ -479,7 +475,6 @@ class OpenAIScraper(EnhancedBaseScraper):
                     DeprecationItem(
                         provider=self.provider_name,
                         model_id=title,
-                        model_name=title,
                         announcement_date=announcement_date,
                         shutdown_date=shutdown_date,
                         replacement_models=None,

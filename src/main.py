@@ -4,9 +4,10 @@ from __future__ import annotations
 
 import hashlib
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 
-from .providers import SCRAPERS
+from .providers import SCRAPERS, TRACKED_PROVIDER_PAGES
 
 
 def hash_item(item: dict) -> str:
@@ -24,10 +25,27 @@ def hash_item(item: dict) -> str:
     return hashlib.sha256(content_str.encode()).hexdigest()[:16]
 
 
-def scrape_all() -> list[dict]:
+def _filter_fallback_items(scraper_class, items: list[dict]) -> list[dict]:
+    """Filter fallback items using the current provider validation policy."""
+    if getattr(scraper_class, "require_shutdown_dates", False):
+        return [item for item in items if item.get("shutdown_date")]
+    return items
+
+
+def _validate_scraped_items(scraper, items: list[dict]):
+    """Validate scraper output and fail fast when required fields are missing."""
+    if getattr(scraper, "require_shutdown_dates", False):
+        missing_shutdown = [item["model_id"] for item in items if not item.get("shutdown_date")]
+        if missing_shutdown:
+            preview = ", ".join(missing_shutdown[:10])
+            raise ValueError(
+                f"Missing shutdown dates for {len(missing_shutdown)} model IDs: {preview}"
+            )
+
+
+def scrape_all(previous_data: list[dict]) -> list[dict]:
     """Scrape all providers and return results."""
     all_deprecations = []
-    previous_data = read_existing_data()
 
     for scraper_class in SCRAPERS:
         provider_name = scraper_class.provider_name
@@ -35,6 +53,7 @@ def scrape_all() -> list[dict]:
             scraper = scraper_class()
             deprecations = scraper.scrape()
             deprecation_dicts = [item.to_dict() for item in deprecations]
+            _validate_scraped_items(scraper, deprecation_dicts)
             all_deprecations.extend(deprecation_dicts)
             print(f"✓ Scraped {provider_name}: {len(deprecations)} deprecations")
         except Exception as exc:
@@ -42,8 +61,9 @@ def scrape_all() -> list[dict]:
             previous_provider_data = [
                 item for item in previous_data if item.get("provider") == provider_name
             ]
-            all_deprecations.extend(previous_provider_data)
-            print(f"  → Using {len(previous_provider_data)} cached items")
+            filtered_previous = _filter_fallback_items(scraper_class, previous_provider_data)
+            all_deprecations.extend(filtered_previous)
+            print(f"  → Using {len(filtered_previous)} cached items")
 
     return all_deprecations
 
@@ -100,19 +120,45 @@ def merge_data(
 
 
 def normalize_item_fields(item: dict) -> dict:
-    """Normalize fields so saved output stays recognizable and stable."""
+    """Normalize fields so saved output stays ID-only and stable."""
     normalized = item.copy()
-    model_id = (normalized.get("model_id") or "").strip()
-    model_name = (normalized.get("model_name") or "").strip()
-
-    if model_id:
-        normalized["model_id"] = model_id
-    if not model_name or model_name == "<UNKNOWN>":
-        normalized["model_name"] = model_id
-    else:
-        normalized["model_name"] = model_name
-
+    normalized["model_id"] = (normalized.get("model_id") or "").strip()
+    normalized.pop("model_name", None)
     return normalized
+
+
+def apply_observation_metadata(
+    scraped_data: list[dict], existing_data: list[dict]
+) -> list[dict]:
+    """Preserve first/last observation dates and backfill missing announcement dates."""
+    previous_by_key = {
+        (item.get("provider", ""), item.get("model_id", "")): item
+        for item in existing_data
+        if item.get("provider") and item.get("model_id")
+    }
+
+    enriched = []
+    today = datetime.now(timezone.utc).date().isoformat()
+
+    for raw_item in scraped_data:
+        item = normalize_item_fields(raw_item)
+        key = (item.get("provider", ""), item.get("model_id", ""))
+        previous = previous_by_key.get(key, {})
+
+        observed_on = (item.get("scraped_at") or "")[:10] or today
+        first_observed = previous.get("first_observed") or observed_on
+        previous_last_observed = previous.get("last_observed") or ""
+        last_observed = max(previous_last_observed, observed_on) if previous_last_observed else observed_on
+
+        item["first_observed"] = first_observed
+        item["last_observed"] = last_observed
+
+        if not item.get("announcement_date"):
+            item["announcement_date"] = previous.get("announcement_date") or first_observed
+
+        enriched.append(item)
+
+    return enriched
 
 
 def _item_quality(item: dict) -> tuple:
@@ -122,7 +168,6 @@ def _item_quality(item: dict) -> tuple:
         int(bool(item.get("shutdown_date"))),
         int(bool(item.get("replacement_models"))),
         len(item.get("deprecation_context", "") or ""),
-        len(item.get("model_name", "") or ""),
     )
 
 
@@ -149,31 +194,45 @@ def save_data(data: list[dict]):
     print(f"\n✓ Saved {len(normalized_data)} deprecation notices to data.json")
 
 
+def save_provider_pages():
+    """Save tracked provider page metadata for the landing page."""
+    output_dir = Path("docs/v1")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_file = output_dir / "providers.json"
+    with open(output_file, "w", encoding="utf-8") as file:
+        json.dump(TRACKED_PROVIDER_PAGES, file, indent=2)
+    print(f"Provider metadata saved to {output_file}")
+
+
 if __name__ == "__main__":
     print("Scraping...")
 
-    scraped_data = scrape_all()
+    existing_data = read_existing_data()
+    scraped_data = scrape_all(existing_data)
+    scraped_data = apply_observation_metadata(scraped_data, existing_data)
     print(f"\nTotal scraped: {len(scraped_data)} deprecations")
 
-    existing_data = read_existing_data()
     changed_items = find_changed_items(scraped_data, existing_data)
     if not changed_items:
         print("✓ No content changes detected")
 
     final_data = merge_data(scraped_data, existing_data, changed_items)
-    save_data(final_data)
+    final_data = apply_observation_metadata(final_data, existing_data)
+    normalized_data = dedupe_and_normalize_data(final_data)
+    save_data(normalized_data)
 
     print("\nGenerating feeds...")
 
     from .rss_gen import create_rss_feed, save_rss_feed
 
-    feed = create_rss_feed(final_data)
+    feed = create_rss_feed(normalized_data)
     save_rss_feed(feed)
 
     from .json_feed_gen import create_json_feed, save_json_feed, save_raw_api
 
-    json_feed = create_json_feed(final_data)
+    json_feed = create_json_feed(normalized_data)
     save_json_feed(json_feed)
-    save_raw_api(final_data)
+    save_raw_api(normalized_data)
+    save_provider_pages()
 
     print("✓ All feeds generated successfully")

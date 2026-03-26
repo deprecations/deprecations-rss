@@ -13,19 +13,17 @@ class AWSBedrockScraper(EnhancedBaseScraper):
 
     provider_name = "AWS Bedrock"
     url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html"
-    requires_playwright = False  # Can try httpx first
+    requires_playwright = False
 
     def extract_structured_deprecations(self, html: str) -> List[DeprecationItem]:
         """Extract deprecations from AWS Bedrock's table format."""
         items: list[DeprecationItem] = []
         soup = BeautifulSoup(html, "html.parser")
 
-        # Find main content
         content = soup.find("div", id="main-content") or soup.find("main")
         if not content:
             return items
 
-        # AWS uses tables for model lifecycle
         for table in content.find_all("table"):
             rows = table.find_all("tr")
             if len(rows) <= 1:
@@ -34,13 +32,10 @@ class AWSBedrockScraper(EnhancedBaseScraper):
             expanded_rows = self._expand_table_rows(table)
             headers = [header.lower() for header in expanded_rows[0]]
 
-            # The lifecycle/deprecation tables include a dedicated legacy column.
-            # Skip the general catalog table, which has launch/EOL data for active models.
             is_lifecycle_table = any("legacy" in header for header in headers)
             if not is_lifecycle_table:
                 continue
 
-            # Find column indices
             model_idx = None
             legacy_idx = None
             eol_idx = None
@@ -67,8 +62,8 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                 if len(cells) <= model_idx:
                     continue
 
-                model_name = cells[model_idx]
-                if not model_name or model_name.lower() in ["model", "name"]:
+                model_id = cells[model_idx]
+                if not model_id or model_id.lower() in ["model", "name"]:
                     continue
 
                 legacy_date = ""
@@ -88,19 +83,19 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                 if not (legacy_date or eol_date):
                     continue
 
-                item = DeprecationItem(
-                    provider=self.provider_name,
-                    model_id=model_name,
-                    model_name=model_name,
-                    announcement_date=legacy_date or eol_date,
-                    shutdown_date=eol_date or legacy_date,
-                    replacement_models=replacement_models,
-                    deprecation_context=self._build_context(
-                        model_name, legacy_date, eol_date, replacement_models
-                    ),
-                    url=self.url,
+                items.append(
+                    DeprecationItem(
+                        provider=self.provider_name,
+                        model_id=model_id,
+                        announcement_date=legacy_date or eol_date,
+                        shutdown_date=eol_date or legacy_date,
+                        replacement_models=replacement_models,
+                        deprecation_context=self._build_context(
+                            model_id, legacy_date, eol_date, replacement_models
+                        ),
+                        url=self.url,
+                    )
                 )
-                items.append(item)
 
         return self._merge_duplicate_models(items)
 
@@ -147,13 +142,13 @@ class AWSBedrockScraper(EnhancedBaseScraper):
 
     def _build_context(
         self,
-        model_name: str,
+        model_id: str,
         legacy_date: str,
         eol_date: str,
         replacement_models: list[str] | None,
     ) -> str:
         """Build standardized context for a single lifecycle row."""
-        context_parts = [f"Model {model_name}"]
+        context_parts = [f"Model {model_id}"]
         if legacy_date:
             context_parts.append(f"entered legacy status on {legacy_date}")
         if eol_date:
@@ -170,7 +165,7 @@ class AWSBedrockScraper(EnhancedBaseScraper):
     def _merge_duplicate_models(
         self, items: list[DeprecationItem]
     ) -> list[DeprecationItem]:
-        """Merge duplicate model rows that represent different regional schedules."""
+        """Merge duplicate rows that represent different regional schedules."""
         by_model: dict[str, DeprecationItem] = {}
 
         for item in items:

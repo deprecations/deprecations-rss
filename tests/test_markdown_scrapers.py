@@ -187,7 +187,7 @@ def test_xai_markdown_returns_no_items_without_explicit_model_tags():
     markdown = """
 # Migrating to New Models
 
-You will see `deprecated` tag by the deprecated model names on xAI Console models page.
+You will see `deprecated` tag by the deprecated model IDs on xAI Console models page.
 We may transition a `deprecated` model to `obsolete` and discontinue serving the model.
 """
 

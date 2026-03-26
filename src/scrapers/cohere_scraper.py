@@ -26,6 +26,7 @@ class CohereScraper(EnhancedBaseScraper):
     url = "https://docs.cohere.com/docs/deprecations"
     markdown_url = "https://docs.cohere.com/docs/deprecations.md"
     requires_playwright = False
+    require_shutdown_dates = True
 
     def get_source_url(self) -> str:
         """Prefer the markdown source for deterministic parsing."""
@@ -106,7 +107,6 @@ class CohereScraper(EnhancedBaseScraper):
                 DeprecationItem(
                     provider=self.provider_name,
                     model_id=model,
-                    model_name=model,
                     announcement_date=announcement_date,
                     shutdown_date=shutdown_date,
                     replacement_models=replacement_models or None,
@@ -157,7 +157,6 @@ class CohereScraper(EnhancedBaseScraper):
                 DeprecationItem(
                     provider=self.provider_name,
                     model_id=model,
-                    model_name=model,
                     announcement_date=announcement_date,
                     shutdown_date="",
                     replacement_models=replacement_models or None,
@@ -188,7 +187,7 @@ class CohereScraper(EnhancedBaseScraper):
             if len(row) <= max(model_idx, shutdown_idx):
                 continue
 
-            model_names = [
+            model_ids = [
                 model
                 for model in extract_code_spans(row[model_idx])
                 if self._looks_like_model(model)
@@ -202,12 +201,11 @@ class CohereScraper(EnhancedBaseScraper):
                     if self._looks_like_model(model)
                 ]
 
-            for model_name in model_names:
+            for model_id in model_ids:
                 items.append(
                     DeprecationItem(
                         provider=self.provider_name,
-                        model_id=model_name,
-                        model_name=model_name,
+                        model_id=model_id,
                         announcement_date=announcement_date,
                         shutdown_date=shutdown_date,
                         replacement_models=replacement_models or None,

@@ -82,7 +82,7 @@ def test_extract_with_deprecated_model_in_text():
     items = scraper.extract_unstructured_deprecations(html)
 
     assert len(items) == 1
-    assert items[0].model_name == "grok-legacy-v1"
+    assert items[0].model_id == "grok-legacy-v1"
     assert "deprecated" in items[0].deprecation_context.lower()
 
 
@@ -103,11 +103,11 @@ def test_extract_with_deprecated_model_in_table():
     items = scraper.extract_structured_deprecations(html)
 
     assert len(items) == 1
-    assert items[0].model_name == "grok-old-model"
+    assert items[0].model_id == "grok-old-model"
 
 
 def test_does_not_extract_non_grok_models():
-    """Test that non-grok model names are not extracted."""
+    """Test that non-grok model IDs are not extracted."""
     html = """
     <html>
     <body>
@@ -119,7 +119,7 @@ def test_does_not_extract_non_grok_models():
     scraper = XAIScraper()
     items = scraper.extract_unstructured_deprecations(html)
 
-    assert len(items) == 0, "Should not extract non-grok model names"
+    assert len(items) == 0, "Should not extract non-grok model IDs"
 
 
 def test_does_not_extract_apis_as_models(scraper, fixture_html):
@@ -132,8 +132,8 @@ def test_does_not_extract_apis_as_models(scraper, fixture_html):
     items = scraper.extract_unstructured_deprecations(fixture_html)
 
     for item in items:
-        assert "API" not in item.model_name, (
-            f"Extracted API '{item.model_name}' as a model"
+        assert "API" not in item.model_id, (
+            f"Extracted API '{item.model_id}' as a model"
         )
 
 
@@ -156,10 +156,10 @@ def test_extract_with_multiple_deprecated_models():
     items = scraper.extract_structured_deprecations(html)
 
     assert len(items) == 2
-    model_names = {item.model_name for item in items}
-    assert "grok-old-1" in model_names
-    assert "grok-old-2" in model_names
-    assert "grok-current" not in model_names
+    model_ids = {item.model_id for item in items}
+    assert "grok-old-1" in model_ids
+    assert "grok-old-2" in model_ids
+    assert "grok-current" not in model_ids
 
 
 def test_deprecation_context_is_populated(scraper):

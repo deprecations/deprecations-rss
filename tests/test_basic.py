@@ -37,8 +37,6 @@ def test_scraper_imports():
 
 def test_main_module_runs():
     """Verify main module can be executed (dry run)."""
-    # We'll test by importing and checking if the module loads without errors
-    # Since actual scraping requires network/API access, we just test the import
     result = subprocess.run(
         [sys.executable, "-c", "import src.main"], capture_output=True, text=True
     )
@@ -48,9 +46,7 @@ def test_main_module_runs():
 def test_data_json_exists():
     """Verify data.json exists (it's required for feeds)."""
     data_file = Path("data.json")
-    # In CI, data.json might not exist yet, so we'll skip this test if it doesn't
     if not data_file.exists():
-        # This is OK in CI environment before first run
         return
     assert data_file.stat().st_size > 0, "data.json file is empty"
 
@@ -58,15 +54,13 @@ def test_data_json_exists():
 def test_cache_directory_exists():
     """Verify cache directory structure exists."""
     cache_dir = Path("cache")
-    # Cache directory is created on demand, so it's OK if it doesn't exist in CI
     if not cache_dir.exists():
-        # This is OK - cache directory is created when needed
         return
     assert cache_dir.is_dir(), "cache is not a directory"
 
 
-def test_main_normalizes_unknown_names_and_dedupes():
-    """Saved output should fall back to model_id and keep the richer duplicate."""
+def test_main_dedupes_and_removes_legacy_model_name_field():
+    """Saved output should be deduped by provider/model_id and remain ID-only."""
     from src.main import dedupe_and_normalize_data
 
     data = [
@@ -96,5 +90,39 @@ def test_main_normalizes_unknown_names_and_dedupes():
 
     assert len(result) == 1
     assert result[0]["model_id"] == "gemini-2.5-flash-preview-09-25"
-    assert result[0]["model_name"] == "gemini-2.5-flash-preview-09-25"
+    assert "model_name" not in result[0]
     assert result[0]["deprecation_context"] == "a much richer context block"
+
+
+def test_missing_announcement_date_falls_back_to_first_observed():
+    """Missing provider announcement dates should fall back to first observation."""
+    from src.main import apply_observation_metadata
+
+    existing = [
+        {
+            "provider": "Cohere",
+            "model_id": "command-r-03-2024-ft",
+            "announcement_date": "2025-03-01",
+            "first_observed": "2025-03-01",
+            "last_observed": "2025-03-10",
+            "scraped_at": "2025-03-10T00:00:00+00:00",
+        }
+    ]
+    scraped = [
+        {
+            "provider": "Cohere",
+            "model_id": "command-r-03-2024-ft",
+            "announcement_date": "",
+            "shutdown_date": "2025-03-08",
+            "replacement_models": None,
+            "deprecation_context": "Fine-tuned models will continue to be supported until March 08, 2025.",
+            "url": "https://example.com/cohere",
+            "scraped_at": "2025-03-11T00:00:00+00:00",
+        }
+    ]
+
+    result = apply_observation_metadata(scraped, existing)
+
+    assert result[0]["announcement_date"] == "2025-03-01"
+    assert result[0]["first_observed"] == "2025-03-01"
+    assert result[0]["last_observed"] == "2025-03-11"

@@ -33,7 +33,7 @@ def test_extracts_legacy_models_with_dates(fixture_html):
 
     # Find Stable Diffusion XL 1.0 model
     sd_xl_item = next(
-        (item for item in items if "Stable Diffusion XL 1.0" in item.model_name), None
+        (item for item in items if "Stable Diffusion XL 1.0" in item.model_id), None
     )
     assert sd_xl_item is not None, "Should find Stable Diffusion XL 1.0"
 
@@ -56,7 +56,7 @@ def test_extracts_eol_models_with_dates(fixture_html):
     items = scraper.extract_structured_deprecations(fixture_html)
 
     # Find EOL models (past end-of-life date)
-    eol_items = [item for item in items if "Stable Diffusion XL 0.8" in item.model_name]
+    eol_items = [item for item in items if "Stable Diffusion XL 0.8" in item.model_id]
 
     if eol_items:
         eol_item = eol_items[0]
@@ -78,12 +78,12 @@ def test_all_dates_are_iso_format(fixture_html):
     for item in items:
         if item.announcement_date:
             assert re.match(iso_date_pattern, item.announcement_date), (
-                f"announcement_date '{item.announcement_date}' for {item.model_name} is not in ISO format"
+                f"announcement_date '{item.announcement_date}' for {item.model_id} is not in ISO format"
             )
 
         if item.shutdown_date:
             assert re.match(iso_date_pattern, item.shutdown_date), (
-                f"shutdown_date '{item.shutdown_date}' for {item.model_name} is not in ISO format"
+                f"shutdown_date '{item.shutdown_date}' for {item.model_id} is not in ISO format"
             )
 
 
@@ -156,8 +156,8 @@ def test_extracts_multiple_legacy_models(fixture_html):
         assert item.url == scraper.url
 
 
-def test_does_not_extract_dates_as_model_names(fixture_html):
-    """Continuation rows should not turn regional dates into fake model names."""
+def test_does_not_extract_dates_as_model_ids(fixture_html):
+    """Continuation rows should not turn regional dates into fake model IDs."""
     scraper = AWSBedrockScraper()
     items = scraper.extract_structured_deprecations(fixture_html)
 
@@ -177,12 +177,12 @@ def test_does_not_extract_dates_as_model_names(fixture_html):
     ]
 
     bad_items = [
-        item.model_name
+        item.model_id
         for item in items
-        if any(item.model_name.startswith(prefix) for prefix in date_like_prefixes)
+        if any(item.model_id.startswith(prefix) for prefix in date_like_prefixes)
     ]
 
-    assert bad_items == [], f"Found date strings being used as model names: {bad_items}"
+    assert bad_items == [], f"Found date strings being used as model IDs: {bad_items}"
 
 
 def test_merges_regional_schedule_rows_into_real_model_context():
@@ -229,7 +229,7 @@ def test_merges_regional_schedule_rows_into_real_model_context():
 
     assert len(items) == 1
     sonnet_v1 = items[0]
-    assert sonnet_v1.model_name == "Claude 3.5 Sonnet v1"
+    assert sonnet_v1.model_id == "Claude 3.5 Sonnet v1"
     assert "Additional regional schedule" in sonnet_v1.deprecation_context
     assert "2026-07-30" in sonnet_v1.deprecation_context
 
@@ -241,8 +241,8 @@ def test_deprecation_context_is_meaningful(fixture_html):
 
     for item in items:
         assert item.deprecation_context, "Should have deprecation context"
-        assert item.model_name in item.deprecation_context, (
-            "Context should mention model name"
+        assert item.model_id in item.deprecation_context, (
+            "Context should mention model ID"
         )
 
         # Should mention dates if present

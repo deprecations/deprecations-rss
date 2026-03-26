@@ -75,13 +75,12 @@ class XAIScraper(EnhancedBaseScraper):
             lowered = line.lower()
             if "deprecated" not in lowered and "obsolete" not in lowered:
                 continue
-            for model_name in extract_code_spans(line):
-                if model_name.startswith("grok-"):
+            for model_id in extract_code_spans(line):
+                if model_id.startswith("grok-"):
                     items.append(
                         DeprecationItem(
                             provider=self.provider_name,
-                            model_id=model_name,
-                            model_name=model_name,
+                            model_id=model_id,
                             announcement_date="",
                             shutdown_date="",
                             replacement_models=None,
@@ -99,15 +98,14 @@ class XAIScraper(EnhancedBaseScraper):
         ]
         for pattern in prose_patterns:
             for match in re.finditer(pattern, content, re.IGNORECASE):
-                model_name = match.group(1)
+                model_id = match.group(1)
                 context_start = max(0, match.start() - 120)
                 context_end = min(len(content), match.end() + 120)
                 context = content[context_start:context_end].strip()
                 items.append(
                     DeprecationItem(
                         provider=self.provider_name,
-                        model_id=model_name,
-                        model_name=model_name,
+                        model_id=model_id,
                         announcement_date="",
                         shutdown_date="",
                         replacement_models=None,
@@ -168,8 +166,8 @@ class XAIScraper(EnhancedBaseScraper):
             if len(cells) <= model_idx:
                 continue
 
-            model_name = cells[model_idx].get_text(strip=True)
-            if not model_name or model_name.lower() in ["model", "name"]:
+            model_id = cells[model_idx].get_text(strip=True)
+            if not model_id or model_id.lower() in ["model", "name"]:
                 continue
 
             is_deprecated = self._has_deprecation_indicator(row)
@@ -194,8 +192,7 @@ class XAIScraper(EnhancedBaseScraper):
             items.append(
                 DeprecationItem(
                     provider=self.provider_name,
-                    model_id=model_name,
-                    model_name=model_name,
+                    model_id=model_id,
                     announcement_date=deprecation_date,
                     shutdown_date=deprecation_date,
                     replacement_models=None,
@@ -207,7 +204,7 @@ class XAIScraper(EnhancedBaseScraper):
         return items
 
     def _extract_from_deprecated_section(self, section: Any) -> List[DeprecationItem]:
-        """Extract model names from HTML sections explicitly mentioning deprecation."""
+        """Extract model IDs from HTML sections explicitly mentioning deprecation."""
         items = []
         text = section.get_text()
         deprecation_patterns = [
@@ -219,15 +216,14 @@ class XAIScraper(EnhancedBaseScraper):
 
         for pattern in deprecation_patterns:
             for match in re.finditer(pattern, text, re.IGNORECASE):
-                model_name = match.group(1)
+                model_id = match.group(1)
                 context_start = max(0, match.start() - 100)
                 context_end = min(len(text), match.end() + 100)
                 context = text[context_start:context_end].strip()
                 items.append(
                     DeprecationItem(
                         provider=self.provider_name,
-                        model_id=model_name,
-                        model_name=model_name,
+                        model_id=model_id,
                         announcement_date="",
                         shutdown_date="",
                         replacement_models=None,
@@ -254,15 +250,14 @@ class XAIScraper(EnhancedBaseScraper):
 
         for pattern in deprecation_patterns:
             for match in re.finditer(pattern, text_content, re.IGNORECASE):
-                model_name = match.group(1)
+                model_id = match.group(1)
                 context_start = max(0, match.start() - 100)
                 context_end = min(len(text_content), match.end() + 100)
                 context = text_content[context_start:context_end].strip()
                 items.append(
                     DeprecationItem(
                         provider=self.provider_name,
-                        model_id=model_name,
-                        model_name=model_name,
+                        model_id=model_id,
                         announcement_date="",
                         shutdown_date="",
                         replacement_models=None,
