@@ -1,10 +1,12 @@
 """Enhanced base scraper with caching and structured data extraction."""
 
-import httpx
+from __future__ import annotations
+
 import re
-from typing import List, Any
-from playwright.sync_api import sync_playwright
 from datetime import datetime
+from typing import Any, List
+
+import httpx
 
 from .cache_manager import CacheManager
 from .models import DeprecationItem
@@ -16,80 +18,47 @@ class EnhancedBaseScraper:
     provider_name: str = "Unknown"
     url: str = ""
     requires_playwright: bool = False
+    require_shutdown_dates: bool = False
 
     def __init__(self):
-        # Browser-like headers
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
             "Accept-Language": "en-US,en;q=0.5",
-            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Encoding": "gzip, deflate",
             "DNT": "1",
             "Connection": "keep-alive",
             "Upgrade-Insecure-Requests": "1",
         }
-
         self.client = httpx.Client(
             timeout=30, headers=self.headers, follow_redirects=True
         )
         self.cache_manager = CacheManager()
 
+    def get_source_url(self) -> str:
+        """Return the URL that should actually be fetched."""
+        return self.url
+
     def fetch_with_httpx(self, url: str) -> str:
-        """Fetch content using httpx (for simple pages)."""
+        """Fetch content using httpx."""
         response = self.client.get(url)
         response.raise_for_status()
         return response.text
 
-    def fetch_with_playwright(self, url: str) -> str:
-        """Fetch content using Playwright (for JS-heavy pages)."""
-        with sync_playwright() as p:
-            browser = p.chromium.launch(
-                headless=True,
-                args=[
-                    "--disable-blink-features=AutomationControlled",
-                    "--disable-dev-shm-usage",
-                    "--no-sandbox",
-                    "--disable-setuid-sandbox",
-                    "--disable-web-security",
-                ],
-            )
-            context = browser.new_context(
-                viewport={"width": 1920, "height": 1080},
-                user_agent=self.headers["User-Agent"],
-            )
-            page = context.new_page()
-
-            try:
-                page.goto(url, wait_until="domcontentloaded", timeout=60000)
-                page.wait_for_timeout(3000)  # Wait for dynamic content
-                html = page.content()
-            finally:
-                browser.close()
-
-            return html
-
     def fetch_html(self, url: str) -> str:
-        """Fetch HTML, using cache if available."""
-        # Check cache first
+        """Fetch provider content, using cache if available."""
         cached_html = self.cache_manager.get_cached_html(self.provider_name, url)
         if cached_html:
-            print(f"  → Using cached HTML for {self.provider_name}")
+            print(f"  → Using cached content for {self.provider_name}")
             return cached_html
 
-        # Fetch fresh content
         print(f"  → Fetching fresh content for {self.provider_name}")
-        if self.requires_playwright:
-            html = self.fetch_with_playwright(url)
-        else:
-            html = self.fetch_with_httpx(url)
-
-        # Save to cache
+        html = self.fetch_with_httpx(url)
         self.cache_manager.save_html(self.provider_name, url, html)
-
         return html
 
     def extract_structured_deprecations(self, html: str) -> List[DeprecationItem]:
-        """Extract deprecations from structured HTML (tables, etc). Override in subclasses."""
+        """Extract deprecations from structured content. Override in subclasses."""
         return []
 
     def extract_unstructured_deprecations(self, html: str) -> List[DeprecationItem]:
@@ -101,87 +70,88 @@ class EnhancedBaseScraper:
         if not date_str:
             return ""
 
-        # Strip region/context information in parentheses
-        # e.g., "May 20, 2025 (us-east-1 and us-west-2)" -> "May 20, 2025"
-        date_str = re.sub(r"\s*\([^)]*\)\s*", "", date_str).strip()
+        normalized = (
+            date_str.replace("\xa0", " ")
+            .replace("\u2010", "-")
+            .replace("\u2011", "-")
+            .replace("\u2012", "-")
+            .replace("\u2013", "-")
+            .replace("\u2014", "-")
+            .replace("\u2212", "-")
+            .strip()
+        )
 
-        # Already in ISO format
-        if re.match(r"^\d{4}-\d{2}-\d{2}$", date_str):
-            return date_str
+        normalized = re.sub(
+            r"^(?:no\s+sooner\s+than|not\s+sooner\s+than|at\s+earliest|on)\s+",
+            "",
+            normalized,
+            flags=re.IGNORECASE,
+        )
+        normalized = normalized.rstrip(". ")
+        normalized = re.sub(r"\s*\([^)]*\)\s*", "", normalized).strip()
+        normalized = re.sub(r"(\d{1,2})(st|nd|rd|th)", r"\1", normalized)
 
-        # Common formats to try
+        iso_match = re.search(r"\d{4}-\d{2}-\d{2}", normalized)
+        if iso_match:
+            return iso_match.group(0)
+
+        month_match = re.search(
+            r"([A-Za-z]+\s+\d{1,2},\s*\d{4}|\d{1,2}/\d{1,2}/\d{4})",
+            normalized,
+        )
+        if month_match:
+            normalized = month_match.group(1)
+
+        if re.match(r"^\d{4}-\d{2}-\d{2}$", normalized):
+            return normalized
+
         formats = [
-            "%B %d, %Y",  # January 31, 2025
-            "%b %d, %Y",  # Jan 31, 2025
-            "%B %dth, %Y",  # July 15th, 2025
-            "%b %dth, %Y",  # Jul 15th, 2025
-            "%Y-%m-%d",  # 2025-01-31
-            "%m/%d/%Y",  # 01/31/2025
-            "%d/%m/%Y",  # 31/01/2025
+            "%B %d, %Y",
+            "%b %d, %Y",
+            "%Y-%m-%d",
+            "%m/%d/%Y",
+            "%d/%m/%Y",
         ]
 
         for fmt in formats:
             try:
-                dt = datetime.strptime(date_str.strip(), fmt)
-                return dt.strftime("%Y-%m-%d")
+                parsed = datetime.strptime(normalized.strip(), fmt)
+                return parsed.strftime("%Y-%m-%d")
             except ValueError:
                 continue
 
         return ""
 
     def parse_replacements(self, replacement_str: str) -> List[str] | None:
-        """Parse replacement string into list of model names.
-
-        Handles cases like:
-        - "gpt-4" -> ["gpt-4"]
-        - "gpt-4 and gpt-4-turbo" -> ["gpt-4", "gpt-4-turbo"]
-        - "gpt-4 or gpt-4-turbo" -> ["gpt-4", "gpt-4-turbo"]
-        - "gpt-image-1orgpt-image-1-mini" -> ["gpt-image-1", "gpt-image-1-mini"]
-        - None -> None
-        """
+        """Parse replacement string into a list of model IDs."""
         if not replacement_str:
             return None
 
-        # Split on common separators (and, or, comma)
-        # First normalize the separators
         normalized = replacement_str
         for separator in [" and ", " or ", ", "]:
             normalized = normalized.replace(separator, "|")
 
-        # Handle concatenated "or" without spaces (e.g., "model1ormodel2")
-        # Only split if it looks like model names on both sides
-        # (contains hyphens or numbers, typical of model identifiers)
         if "or" in normalized and "|" not in normalized:
-            # Check if it looks like concatenated model names
             parts = normalized.split("or")
             if len(parts) == 2:
                 left, right = parts
-                # If both sides look like model names (contain hyphen or digit), split on "or"
-                if ("-" in left or any(c.isdigit() for c in left)) and (
-                    "-" in right or any(c.isdigit() for c in right)
+                if ("-" in left or any(char.isdigit() for char in left)) and (
+                    "-" in right or any(char.isdigit() for char in right)
                 ):
                     normalized = normalized.replace("or", "|")
 
-        # Split and clean up
-        models = [m.strip() for m in normalized.split("|") if m.strip()]
-
+        models = [model.strip() for model in normalized.split("|") if model.strip()]
         return models if models else None
 
     def scrape(self) -> List[DeprecationItem]:
         """Main scraping method."""
         try:
-            html = self.fetch_html(self.url)
-
-            # Try structured extraction first
+            source_url = self.get_source_url()
+            html = self.fetch_html(source_url)
             structured_items = self.extract_structured_deprecations(html)
-
-            # Then unstructured
             unstructured_items = self.extract_unstructured_deprecations(html)
-
-            # Combine and deduplicate
             all_items = structured_items + unstructured_items
 
-            # Deduplicate by model_id
             seen = set()
             unique_items = []
             for item in all_items:
@@ -190,31 +160,26 @@ class EnhancedBaseScraper:
                     unique_items.append(item)
 
             return unique_items
-
-        except Exception as e:
-            print(f"✗ Error scraping {self.provider_name}: {e}")
+        except Exception as exc:
+            print(f"✗ Error scraping {self.provider_name}: {exc}")
             raise
 
     def extract_table_deprecations(
         self,
-        table: Any,  # BeautifulSoup table element
+        table: Any,
         section_context: str = "",
         announcement_date: str = "",
     ) -> List[DeprecationItem]:
         """Common method to extract deprecations from HTML tables."""
         items = []
         rows = table.find_all("tr")
-
         if len(rows) <= 1:
             return items
 
-        # Extract headers to understand column positions
-        headers = []
-        header_row = rows[0]
-        for th in header_row.find_all(["th", "td"]):
-            headers.append(th.get_text(strip=True).lower())
+        headers = [
+            th.get_text(strip=True).lower() for th in rows[0].find_all(["th", "td"])
+        ]
 
-        # Common column name patterns
         model_cols = ["model", "system", "deprecated model", "feature", "name"]
         date_cols = [
             "shutdown date",
@@ -231,29 +196,44 @@ class EnhancedBaseScraper:
             "alternative",
         ]
 
-        # Find column indices
         model_idx = next(
-            (i for i, h in enumerate(headers) for m in model_cols if m in h), None
+            (
+                idx
+                for idx, header in enumerate(headers)
+                for col in model_cols
+                if col in header
+            ),
+            None,
         )
         date_idx = next(
-            (i for i, h in enumerate(headers) for d in date_cols if d in h), None
+            (
+                idx
+                for idx, header in enumerate(headers)
+                for col in date_cols
+                if col in header
+            ),
+            None,
         )
         replacement_idx = next(
-            (i for i, h in enumerate(headers) for r in replacement_cols if r in h), None
+            (
+                idx
+                for idx, header in enumerate(headers)
+                for col in replacement_cols
+                if col in header
+            ),
+            None,
         )
 
         if model_idx is None:
             return items
 
-        # Extract data from each row
         for row in rows[1:]:
             cells = [td.get_text(strip=True) for td in row.find_all("td")]
-
             if len(cells) <= model_idx:
                 continue
 
-            model_name = cells[model_idx]
-            if not model_name or model_name.lower() in ["model", "name", "feature"]:
+            model_id = cells[model_idx]
+            if not model_id or model_id.lower() in ["model", "name", "feature"]:
                 continue
 
             shutdown_date = ""
@@ -262,25 +242,28 @@ class EnhancedBaseScraper:
 
             replacement_models = None
             if replacement_idx is not None and replacement_idx < len(cells):
-                repl = cells[replacement_idx]
-                if repl and repl not in ["—", "-", "N/A", "None"]:
-                    replacement_models = self.parse_replacements(repl)
+                replacement_text = cells[replacement_idx]
+                if replacement_text and replacement_text not in [
+                    "—",
+                    "-",
+                    "N/A",
+                    "None",
+                ]:
+                    replacement_models = self.parse_replacements(replacement_text)
 
-            # Create deprecation item
-            item = DeprecationItem(
-                provider=self.provider_name,
-                model_id=model_name,
-                model_name=model_name,
-                announcement_date=announcement_date or shutdown_date,
-                shutdown_date=shutdown_date,
-                replacement_models=replacement_models,
-                deprecation_context=section_context,
-                url=self.url,
-                content_hash=DeprecationItem._compute_hash(
-                    f"{model_name}{shutdown_date}{section_context}"
-                ),
+            items.append(
+                DeprecationItem(
+                    provider=self.provider_name,
+                    model_id=model_id,
+                    announcement_date=announcement_date or shutdown_date,
+                    shutdown_date=shutdown_date,
+                    replacement_models=replacement_models,
+                    deprecation_context=section_context,
+                    url=self.url,
+                    content_hash=DeprecationItem._compute_hash(
+                        f"{model_id}{shutdown_date}{section_context}"
+                    ),
+                )
             )
-
-            items.append(item)
 
         return items

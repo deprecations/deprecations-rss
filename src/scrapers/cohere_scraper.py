@@ -1,12 +1,22 @@
-"""Cohere deprecations scraper with individual model extraction."""
+"""Cohere deprecations scraper with parser-based model extraction."""
+
+from __future__ import annotations
 
 import re
 from typing import List
+
 from bs4 import BeautifulSoup
 
 from ..base_scraper import EnhancedBaseScraper
+from ..markdown_utils import (
+    extract_code_spans,
+    extract_markdown_tables,
+    is_markdown,
+    parse_markdown_table,
+    slugify_heading,
+    split_markdown_sections,
+)
 from ..models import DeprecationItem
-from ..llm_analyzer import LLMAnalyzer
 
 
 class CohereScraper(EnhancedBaseScraper):
@@ -14,258 +24,267 @@ class CohereScraper(EnhancedBaseScraper):
 
     provider_name = "Cohere"
     url = "https://docs.cohere.com/docs/deprecations"
-    requires_playwright = True  # Dynamic content
+    markdown_url = "https://docs.cohere.com/docs/deprecations.md"
+    requires_playwright = False
+    require_shutdown_dates = True
 
-    def __init__(self):
-        super().__init__()
-        self.llm_analyzer = None  # Lazy load when needed
-        self._previous_hashes = {}  # Track content hashes to avoid duplicate LLM calls
+    def get_source_url(self) -> str:
+        """Prefer the markdown source for deterministic parsing."""
+        return self.markdown_url
 
     def extract_structured_deprecations(self, html: str) -> List[DeprecationItem]:
-        """Extract deprecations from Cohere's mixed format."""
-        items = []
-        soup = BeautifulSoup(html, "html.parser")
+        """Extract deprecations from Cohere's markdown or HTML pages."""
+        if is_markdown(html):
+            return self._extract_from_markdown(html)
+        return self._extract_from_html(html)
 
-        # Find main content
+    def _extract_from_markdown(self, content: str) -> List[DeprecationItem]:
+        """Extract model deprecations directly from the markdown source."""
+        items: list[DeprecationItem] = []
+
+        for heading_text, body in split_markdown_sections(content):
+            if not re.match(r"^\d{4}-\d{2}-\d{2}:", heading_text):
+                continue
+
+            section_date, title = heading_text.split(":", 1)
+            title = title.strip()
+            section_url = f"{self.url}#{slugify_heading(heading_text)}"
+            lines = body.splitlines()
+            context = " ".join(line.strip() for line in lines if line.strip())
+            announcement_date = self._infer_announcement_date(section_date, lines)
+
+            if section_date == "2026-04-04":
+                items.extend(
+                    self._extract_embed_and_aya_section(
+                        lines, announcement_date, context, section_url
+                    )
+                )
+                continue
+
+            if section_date == "2025-09-15":
+                items.extend(
+                    self._extract_command_models_section(
+                        lines, announcement_date, context, section_url
+                    )
+                )
+                continue
+
+            tables = extract_markdown_tables(lines)
+            for _, _, block in tables:
+                headers, rows = parse_markdown_table(block)
+                if not headers:
+                    continue
+                items.extend(
+                    self._extract_markdown_table_rows(
+                        headers, rows, announcement_date, context, section_url
+                    )
+                )
+
+        return items
+
+    def _extract_embed_and_aya_section(
+        self, lines: list[str], announcement_date: str, context: str, url: str
+    ) -> List[DeprecationItem]:
+        """Extract model rows from the Embed/Aya retirement section."""
+        retired_models = self._extract_bullets_after_marker(
+            lines, "the following models will be retired:"
+        )
+        embedding_replacements = self._extract_nested_bullets_after_marker(
+            lines, "* Embedding tasks alternatives:"
+        )
+        chat_replacements = self._extract_nested_bullets_after_marker(
+            lines, "* Chat tasks alternatives:"
+        )
+
+        items = []
+        for model in retired_models:
+            replacement_models = (
+                embedding_replacements
+                if model.startswith("embed-")
+                else chat_replacements
+            )
+            shutdown_date = self.parse_date("April 4, 2026")
+            items.append(
+                DeprecationItem(
+                    provider=self.provider_name,
+                    model_id=model,
+                    announcement_date=announcement_date,
+                    shutdown_date=shutdown_date,
+                    replacement_models=replacement_models or None,
+                    deprecation_context=context,
+                    url=url,
+                )
+            )
+
+        return items
+
+    def _extract_command_models_section(
+        self, lines: list[str], announcement_date: str, context: str, url: str
+    ) -> List[DeprecationItem]:
+        """Extract explicitly deprecated command models from the September 2025 section."""
+        deprecated_models = []
+        capture = False
+        started = False
+        for line in lines:
+            stripped = line.strip()
+            if stripped == "Deprecated Models:":
+                capture = True
+                continue
+            if not capture:
+                continue
+            if not stripped and not started:
+                continue
+            if not stripped:
+                break
+            if stripped.startswith("*"):
+                started = True
+                for code_span in extract_code_spans(stripped):
+                    if self._looks_like_model(code_span):
+                        deprecated_models.append(code_span)
+
+        replacement_models = []
+        for line in lines:
+            if "recommend you use" in line.lower():
+                replacement_models = [
+                    model
+                    for model in extract_code_spans(line)
+                    if self._looks_like_model(model)
+                ]
+                break
+
+        items = []
+        for model in deprecated_models:
+            items.append(
+                DeprecationItem(
+                    provider=self.provider_name,
+                    model_id=model,
+                    announcement_date=announcement_date,
+                    shutdown_date="",
+                    replacement_models=replacement_models or None,
+                    deprecation_context=context,
+                    url=url,
+                )
+            )
+        return items
+
+    def _extract_markdown_table_rows(
+        self,
+        headers: list[str],
+        rows: list[list[str]],
+        announcement_date: str,
+        context: str,
+        url: str,
+    ) -> List[DeprecationItem]:
+        """Extract model rows from markdown tables."""
+        header_map = {header.lower(): idx for idx, header in enumerate(headers)}
+        model_idx = header_map.get("deprecated model")
+        shutdown_idx = header_map.get("shutdown date")
+        replacement_idx = header_map.get("recommended replacement")
+        if model_idx is None or shutdown_idx is None:
+            return []
+
+        items = []
+        for row in rows:
+            if len(row) <= max(model_idx, shutdown_idx):
+                continue
+
+            model_ids = [
+                model
+                for model in extract_code_spans(row[model_idx])
+                if self._looks_like_model(model)
+            ]
+            shutdown_date = self.parse_date(row[shutdown_idx])
+            replacement_models = None
+            if replacement_idx is not None and replacement_idx < len(row):
+                replacement_models = [
+                    model
+                    for model in extract_code_spans(row[replacement_idx])
+                    if self._looks_like_model(model)
+                ]
+
+            for model_id in model_ids:
+                items.append(
+                    DeprecationItem(
+                        provider=self.provider_name,
+                        model_id=model_id,
+                        announcement_date=announcement_date,
+                        shutdown_date=shutdown_date,
+                        replacement_models=replacement_models or None,
+                        deprecation_context=context,
+                        url=url,
+                    )
+                )
+
+        return items
+
+    def _extract_from_html(self, html: str) -> List[DeprecationItem]:
+        """Fallback HTML parser that handles simple table-based cases."""
+        soup = BeautifulSoup(html, "html.parser")
         main = (
             soup.find("main")
             or soup.find("article")
             or soup.find("div", class_="markdown")
         )
         if not main:
-            return items
-
-        # Cohere uses date headers followed by content
-        # Example: "2025-03-08: Command-R-03-2024 Fine-tuned Models"
-        date_pattern = re.compile(r"^(\d{4}-\d{2}-\d{2}):\s*(.+)$")
-
-        # Find all potential sections
-        for element in main.find_all(["h2", "h3", "h4", "p"]):
-            text = element.get_text(strip=True)
-            date_match = date_pattern.match(text)
-
-            if date_match:
-                announcement_date = date_match.group(1)
-                section_title = date_match.group(2)
-
-                # Collect content for this section
-                content_parts = [text]
-                sibling = element.next_sibling
-
-                while sibling:
-                    if hasattr(sibling, "name"):
-                        # Stop at next date header
-                        sibling_text = sibling.get_text(strip=True)
-                        if date_pattern.match(sibling_text):
-                            break
-                        elif sibling.name in ["h2", "h3", "h4"]:
-                            break
-                        else:
-                            if sibling_text:
-                                content_parts.append(sibling_text)
-                    elif isinstance(sibling, str) and sibling.strip():
-                        content_parts.append(sibling.strip())
-
-                    sibling = sibling.next_sibling
-
-                section_content = "\n".join(content_parts)
-
-                # Try to extract structured data from known patterns
-                section_items = self._extract_from_section(
-                    section_content, section_title, announcement_date
-                )
-                items.extend(section_items)
-
-        # Also check for any tables (less common in Cohere docs)
-        for table in main.find_all("table"):
-            table_items = self.extract_table_deprecations(
-                table, section_context="", announcement_date=""
-            )
-            items.extend(table_items)
-
-        return items
-
-    def _extract_from_section(
-        self, content: str, title: str, announcement_date: str
-    ) -> List[DeprecationItem]:
-        """Extract deprecations from a section of content."""
-        items = []
-
-        # Known patterns in Cohere deprecations
-        if "Command-R-03-2024" in title or "Command-R-03-2024" in content:
-            # This is about fine-tuned models
-            shutdown_match = re.search(
-                r"(?:until|by|on)\s+(\w+\s+\d{1,2},?\s+\d{4})", content
-            )
-            shutdown_date = ""
-            if shutdown_match:
-                shutdown_date = self.parse_date(shutdown_match.group(1))
-
-            item = DeprecationItem(
-                provider=self.provider_name,
-                model_id="Command-R-03-2024-finetuned",
-                model_name="Command-R-03-2024 Fine-tuned Models",
-                announcement_date=announcement_date,
-                shutdown_date=shutdown_date or "2025-03-08",  # From example
-                replacement_models=["Command-R-08-2024"],
-                deprecation_context=content,
-                url=f"{self.url}#{announcement_date}",
-            )
-            items.append(item)
-
-        elif "rerank" in content.lower() and "v2.0" in content:
-            # Extract individual rerank models
-            rerank_models = [
-                ("rerank-english-v2.0", "rerank-v3.5"),
-                ("rerank-multilingual-v2.0", "rerank-v3.5"),
-            ]
-
-            # Find shutdown date
-            shutdown_match = re.search(
-                r"(?:until|by|on)\s+(\w+\s+\d{1,2},?\s+\d{4})", content
-            )
-            shutdown_date = ""
-            if shutdown_match:
-                shutdown_date = self.parse_date(shutdown_match.group(1))
-
-            for model_id, replacement in rerank_models:
-                if model_id in content or model_id.replace("-", " ") in content.lower():
-                    item = DeprecationItem(
-                        provider=self.provider_name,
-                        model_id=model_id,
-                        model_name=model_id,
-                        announcement_date=announcement_date
-                        or "2024-12-02",  # From example
-                        shutdown_date=shutdown_date or "2025-04-30",  # From example
-                        replacement_models=[replacement],
-                        deprecation_context=content,
-                        url=f"{self.url}#{announcement_date}",
-                    )
-                    items.append(item)
-
-        elif "Classify" in content and "Embed" in content:
-            # Classify endpoint deprecation
-            shutdown_match = re.search(
-                r"(?:on|by)\s+(\w+\s+\d{1,2},?\s+\d{4})", content
-            )
-            announcement = announcement_date
-
-            # This affects default Embed models for Classify
-            if not announcement and "January 31, 2025" in content:
-                announcement = "2025-01-31"
-
-            item = DeprecationItem(
-                provider=self.provider_name,
-                model_id="classify-default-embed",
-                model_name="Classify Default Embed Models",
-                announcement_date=announcement,
-                shutdown_date=announcement,  # Same as announcement for this one
-                replacement_models=["Fine-tuned Embed models"],
-                deprecation_context=content,
-                url=f"{self.url}#{announcement_date}",
-            )
-            items.append(item)
-
-        # If no specific patterns matched but we have clear model names, use LLM
-        if not items and self._contains_model_deprecation(content):
-            items.extend(self._extract_with_llm(content, title, announcement_date))
-
-        return items
-
-    def _contains_model_deprecation(self, content: str) -> bool:
-        """Check if content likely contains model deprecation info."""
-        deprecation_keywords = [
-            "deprecat",
-            "sunset",
-            "retire",
-            "end-of-life",
-            "eol",
-            "discontinued",
-            "removed",
-            "shut down",
-            "will be unsupported",
-        ]
-
-        model_keywords = [
-            "model",
-            "endpoint",
-            "api",
-            "command",
-            "embed",
-            "rerank",
-            "classify",
-            "generate",
-            "summarize",
-        ]
-
-        content_lower = content.lower()
-        has_deprecation = any(
-            keyword in content_lower for keyword in deprecation_keywords
-        )
-        has_model = any(keyword in content_lower for keyword in model_keywords)
-
-        return has_deprecation and has_model
-
-    def _extract_with_llm(
-        self, content: str, title: str, announcement_date: str
-    ) -> List[DeprecationItem]:
-        """Use LLM to extract structured data from unstructured content."""
-        # Compute hash to check if we've seen this content
-        content_hash = DeprecationItem._compute_hash(content)
-
-        # Check if we've already processed this exact content
-        if content_hash in self._previous_hashes:
-            return []  # Skip duplicate
-
-        # Initialize LLM analyzer if needed
-        if self.llm_analyzer is None:
-            try:
-                self.llm_analyzer = LLMAnalyzer()
-            except Exception as e:
-                print(f"Failed to initialize LLM analyzer: {e}")
-                return []
-
-        # Prepare content for LLM
-        analysis_item = {
-            "provider": self.provider_name,
-            "title": title,
-            "content": content,
-            "url": f"{self.url}#{announcement_date}",
-        }
-
-        try:
-            # Analyze with LLM
-            enhanced = self.llm_analyzer.analyze_item(analysis_item)
-
-            # Create deprecation item from LLM results
-            replacement_str = enhanced.get("suggested_replacement")
-            replacement_models = (
-                self.parse_replacements(replacement_str) if replacement_str else None
-            )
-
-            item = DeprecationItem(
-                provider=self.provider_name,
-                model_id=enhanced.get("model_name", title),
-                model_name=enhanced.get("model_name", title),
-                announcement_date=announcement_date,
-                shutdown_date=enhanced.get("shutdown_date", ""),
-                replacement_models=replacement_models,
-                deprecation_context=content,
-                url=f"{self.url}#{announcement_date}",
-                content_hash=content_hash,
-            )
-
-            # Track that we've processed this content
-            self._previous_hashes[content_hash] = True
-
-            return [item]
-
-        except Exception as e:
-            print(f"LLM analysis failed for Cohere content: {e}")
             return []
 
+        items = []
+        for table in main.find_all("table"):
+            items.extend(self.extract_table_deprecations(table))
+        return [item for item in items if self._looks_like_model(item.model_id)]
+
+    def _infer_announcement_date(self, section_date: str, lines: list[str]) -> str:
+        """Infer whether a section date is an announcement date or just an effective date."""
+        first_nonempty = next((line.strip() for line in lines if line.strip()), "")
+        if first_nonempty.lower().startswith("effective "):
+            return ""
+        return section_date
+
+    def _extract_bullets_after_marker(self, lines: list[str], marker: str) -> list[str]:
+        """Extract top-level bullet code spans after a marker line."""
+        items: list[str] = []
+        capture = False
+        started = False
+        for line in lines:
+            stripped = line.strip()
+            if marker.lower() in stripped.lower():
+                capture = True
+                continue
+            if not capture:
+                continue
+            if not stripped and not started:
+                continue
+            if not stripped:
+                break
+            if stripped.startswith("* "):
+                started = True
+                items.extend(extract_code_spans(stripped))
+        return [item for item in items if self._looks_like_model(item)]
+
+    def _extract_nested_bullets_after_marker(
+        self, lines: list[str], marker: str
+    ) -> list[str]:
+        """Extract nested bullet code spans after a marker line."""
+        items: list[str] = []
+        capture = False
+        for line in lines:
+            if line.strip() == marker:
+                capture = True
+                continue
+            if not capture:
+                continue
+            if line.startswith("  * ") or line.startswith("    * "):
+                items.extend(extract_code_spans(line))
+                continue
+            if line.strip() and not line.startswith(" "):
+                break
+        return [item for item in items if self._looks_like_model(item)]
+
+    def _looks_like_model(self, value: str) -> bool:
+        """Return True for model identifiers, False for endpoints/features."""
+        lowered = value.lower()
+        return lowered.startswith(("command", "embed", "rerank", "c4ai", "aya"))
+
     def extract_unstructured_deprecations(self, html: str) -> List[DeprecationItem]:
-        """Extract any remaining deprecations not caught by structured extraction."""
-        # Most Cohere deprecations should be caught by structured extraction
-        # This is a fallback for any edge cases
+        """Cohere deprecations are handled by structured parsing."""
         return []

@@ -11,8 +11,7 @@ class DeprecationItem:
     """Represents a single model deprecation notice."""
 
     provider: str
-    model_id: str  # Exact API model name (e.g., "gpt-4-32k-0613")
-    model_name: str  # Display name for the model
+    model_id: str  # Exact or best-available provider model identifier
     announcement_date: str  # ISO date when announced
     shutdown_date: str  # ISO date when model stops working
     replacement_models: Optional[list[str]] = (
@@ -20,7 +19,7 @@ class DeprecationItem:
     )
     deprecation_context: str = ""  # Full announcement text/context
     url: str = ""  # Full URL with anchor (e.g., /docs/deprecations#2025-04-28)
-    content_hash: str = ""  # Hash of raw content (for LLM deduplication)
+    content_hash: str = ""  # Hash of raw content for deduplication/change tracking
     scraped_at: str = ""  # ISO timestamp
 
     def __post_init__(self):
@@ -29,7 +28,6 @@ class DeprecationItem:
             self.scraped_at = datetime.now(timezone.utc).isoformat()
 
         if not self.content_hash:
-            # Hash based on unique fields for this deprecation
             unique_content = f"{self.provider}|{self.model_id}|{self.shutdown_date}|{self.announcement_date}"
             self.content_hash = self._compute_hash(unique_content)
 
@@ -43,7 +41,6 @@ class DeprecationItem:
         return {
             "provider": self.provider,
             "model_id": self.model_id,
-            "model_name": self.model_name,
             "announcement_date": self.announcement_date,
             "shutdown_date": self.shutdown_date,
             "replacement_models": self.replacement_models,
@@ -59,7 +56,6 @@ class DeprecationItem:
         return cls(
             provider=data.get("provider", ""),
             model_id=data.get("model_id", ""),
-            model_name=data.get("model_name", ""),
             announcement_date=data.get("announcement_date", ""),
             shutdown_date=data.get("shutdown_date", ""),
             replacement_models=data.get("replacement_models"),

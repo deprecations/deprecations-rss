@@ -121,9 +121,6 @@ class GoogleScraper(EnhancedBaseScraper):
                                 if not deprecation_date:
                                     deprecation_date = section_date
 
-                                # Clean up model name
-                                model_name = model_id.replace("-", " ").title()
-
                                 # Look for replacement models in context
                                 replacement_str = None
                                 repl_patterns = [
@@ -149,7 +146,6 @@ class GoogleScraper(EnhancedBaseScraper):
                                 item = DeprecationItem(
                                     provider=self.provider_name,
                                     model_id=model_id,
-                                    model_name=model_name,
                                     announcement_date=section_date,
                                     shutdown_date=deprecation_date
                                     if deprecation_date != section_date
@@ -170,10 +166,12 @@ class GoogleScraper(EnhancedBaseScraper):
 
                                 for pattern in general_model_patterns:
                                     if re.search(pattern, text.lower()):
-                                        model_name = re.search(
+                                        matched_model = re.search(
                                             pattern, text.lower()
                                         ).group(0)
-                                        model_id = model_name.lower().replace(" ", "-")
+                                        model_id = matched_model.lower().replace(
+                                            " ", "-"
+                                        )
 
                                         future_date_match = re.search(
                                             r"(\w+ \d+, \d{4})", text
@@ -195,7 +193,6 @@ class GoogleScraper(EnhancedBaseScraper):
                                         item = DeprecationItem(
                                             provider=self.provider_name,
                                             model_id=model_id,
-                                            model_name=model_name.title(),
                                             announcement_date=section_date,
                                             shutdown_date=deprecation_date
                                             if deprecation_date != section_date

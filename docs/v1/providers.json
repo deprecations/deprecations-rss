@@ -1,0 +1,42 @@
+[
+  {
+    "provider": "OpenAI",
+    "label": "OpenAI Deprecations",
+    "url": "https://platform.openai.com/docs/deprecations"
+  },
+  {
+    "provider": "Anthropic",
+    "label": "Anthropic Model Deprecations",
+    "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+  },
+  {
+    "provider": "Google",
+    "label": "Google AI/Gemini Deprecations",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog"
+  },
+  {
+    "provider": "Google Vertex",
+    "label": "Google Vertex AI Deprecations",
+    "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models"
+  },
+  {
+    "provider": "AWS Bedrock",
+    "label": "AWS Bedrock Model Lifecycle",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html"
+  },
+  {
+    "provider": "Cohere",
+    "label": "Cohere Deprecations",
+    "url": "https://docs.cohere.com/docs/deprecations"
+  },
+  {
+    "provider": "xAI",
+    "label": "xAI Models",
+    "url": "https://docs.x.ai/developers/models"
+  },
+  {
+    "provider": "Azure",
+    "label": "Azure AI Foundry Retirements",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement"
+  }
+]

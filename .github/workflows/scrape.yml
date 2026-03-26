@@ -27,13 +27,7 @@ jobs:
         run: uv python install 3.11
       
       - name: Install dependencies
-        run: |
-          uv sync
-          uv run playwright install chromium
-      
-      - name: Set up environment
-        run: |
-          echo "ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}" >> $GITHUB_ENV
+        run: uv sync
       
       - name: Scrape and generate all feeds
         run: uv run python -m src.main

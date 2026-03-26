@@ -63,8 +63,8 @@ def test_creates_separate_deprecation_items_for_each_model():
     )
 
 
-def test_extracts_model_names_correctly():
-    """Model names should be properly formatted and not concatenated."""
+def test_extracts_model_ids_correctly():
+    """Model IDs should be properly formatted and not concatenated."""
     fixture_path = Path(__file__).parent / "fixtures" / "google_changelog.html"
     html_content = fixture_path.read_text()
 
@@ -72,13 +72,13 @@ def test_extracts_model_names_correctly():
     items = scraper.extract_structured_deprecations(html_content)
 
     for item in items:
-        assert len(item.model_name) < 100, (
-            f"Model name '{item.model_name}' appears to be concatenated"
+        assert len(item.model_id) < 100, (
+            f"Model ID '{item.model_id}' appears to be concatenated"
         )
 
-        if "Gemini" in item.model_name:
-            assert item.model_name.count("Gemini") == 1, (
-                f"Model name '{item.model_name}' has duplicate 'Gemini'"
+        if "gemini" in item.model_id:
+            assert item.model_id.count("gemini") == 1, (
+                f"Model ID '{item.model_id}' has duplicate 'gemini'"
             )
 
 
