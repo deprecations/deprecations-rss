@@ -5,6 +5,12 @@ on:
     # Run daily at 2 AM UTC
     - cron: '0 2 * * *'
   workflow_dispatch:
+    inputs:
+      force_failure_notification_test:
+        description: "Fail at the final step after updating data, to test failure notifications"
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   scrape:
@@ -16,33 +22,92 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.BOT_PAT }}
-      
+
       - name: Install uv
         uses: astral-sh/setup-uv@v3
         with:
           enable-cache: true
           cache-dependency-glob: "pyproject.toml"
-      
+
       - name: Set up Python
         run: uv python install 3.11
-      
+
       - name: Install dependencies
         run: uv sync
-      
+
       - name: Scrape and generate all feeds
+        id: scrape
         run: uv run python -m src.main
-      
+        env:
+          SCRAPE_STATUS_FILE: .scrape-status.json
+
       - name: Commit and push changes
+        if: ${{ success() }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          
+
           # Add all generated files in the new v1 structure
           git add data.json docs/v1/
-          
+
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Update deprecation data - $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      - name: Finalize scrape status
+        if: ${{ always() }}
+        env:
+          SCRAPE_OUTCOME: ${{ steps.scrape.outcome }}
+          FORCE_FAILURE_NOTIFICATION_TEST: ${{ github.event_name == 'workflow_dispatch' && inputs.force_failure_notification_test }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import sys
+          from pathlib import Path
+
+          summary_path = Path(os.environ["GITHUB_STEP_SUMMARY"])
+          status_path = Path(".scrape-status.json")
+          scrape_outcome = os.environ.get("SCRAPE_OUTCOME", "")
+          force_failure = os.environ.get("FORCE_FAILURE_NOTIFICATION_TEST", "").lower() == "true"
+
+          provider_failures = []
+          if status_path.exists():
+              payload = json.loads(status_path.read_text())
+              provider_failures = payload.get("provider_failures", [])
+          else:
+              payload = {}
+
+          lines = ["## Scrape status", ""]
+          lines.append(f"- Scrape step outcome: `{scrape_outcome or 'unknown'}`")
+          lines.append(f"- Provider failures recorded: `{len(provider_failures)}`")
+          lines.append(f"- Forced failure test: `{force_failure}`")
+
+          if provider_failures:
+              lines.append("")
+              lines.append("### Provider failures")
+              for failure in provider_failures:
+                  provider = failure.get("provider", "Unknown")
+                  kind = failure.get("kind", "error")
+                  message = failure.get("message", "")
+                  lines.append(f"- **{provider}** ({kind}): {message}")
+
+          summary_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+          if scrape_outcome != "success":
+              print("Scrape step failed before finalization")
+              sys.exit(1)
+
+          if provider_failures:
+              print("Provider-level failures were recorded; failing workflow after updating data")
+              sys.exit(1)
+
+          if force_failure:
+              print("Forced failure enabled to test GitHub Actions failure notifications")
+              sys.exit(1)
+
+          print("No provider failures recorded")
+          PY

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -39,9 +40,10 @@ def _missing_shutdown_items(scraper, items: list[dict]) -> list[str]:
     return [item["model_id"] for item in items if not item.get("shutdown_date")]
 
 
-def scrape_all(previous_data: list[dict]) -> list[dict]:
-    """Scrape all providers and return results."""
+def scrape_all(previous_data: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Scrape all providers and return results plus provider-level failures."""
     all_deprecations = []
+    provider_failures = []
 
     for scraper_class in SCRAPERS:
         provider_name = scraper_class.provider_name
@@ -52,9 +54,17 @@ def scrape_all(previous_data: list[dict]) -> list[dict]:
             missing_shutdown = _missing_shutdown_items(scraper, deprecation_dicts)
             if missing_shutdown:
                 preview = ", ".join(missing_shutdown[:10])
-                print(
-                    f"✗ Failed to scrape {provider_name}: Missing shutdown dates for {len(missing_shutdown)} model IDs: {preview}"
+                message = (
+                    f"Missing shutdown dates for {len(missing_shutdown)} model IDs: {preview}"
                 )
+                provider_failures.append(
+                    {
+                        "provider": provider_name,
+                        "kind": "validation",
+                        "message": message,
+                    }
+                )
+                print(f"✗ Failed to scrape {provider_name}: {message}")
                 valid_items = [
                     item for item in deprecation_dicts if item.get("shutdown_date")
                 ]
@@ -77,6 +87,13 @@ def scrape_all(previous_data: list[dict]) -> list[dict]:
             all_deprecations.extend(deprecation_dicts)
             print(f"✓ Scraped {provider_name}: {len(deprecations)} deprecations")
         except Exception as exc:
+            provider_failures.append(
+                {
+                    "provider": provider_name,
+                    "kind": "exception",
+                    "message": str(exc),
+                }
+            )
             print(f"✗ Failed to scrape {provider_name}: {exc}")
             previous_provider_data = [
                 item for item in previous_data if item.get("provider") == provider_name
@@ -87,7 +104,7 @@ def scrape_all(previous_data: list[dict]) -> list[dict]:
             all_deprecations.extend(filtered_previous)
             print(f"  → Using {len(filtered_previous)} cached items")
 
-    return all_deprecations
+    return all_deprecations, provider_failures
 
 
 def read_existing_data() -> list[dict]:
@@ -230,11 +247,27 @@ def save_provider_pages():
     print(f"Provider metadata saved to {output_file}")
 
 
+def save_run_status(status_file: str | os.PathLike[str], provider_failures: list[dict]):
+    """Save provider-level scrape status for CI to evaluate after commit/push."""
+    output_file = Path(status_file)
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "status": "partial_failure" if provider_failures else "success",
+        "failure_count": len(provider_failures),
+        "provider_failures": provider_failures,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+    }
+    with open(output_file, "w", encoding="utf-8") as file:
+        json.dump(payload, file, indent=2)
+    print(f"Run status saved to {output_file}")
+
+
 if __name__ == "__main__":
     print("Scraping...")
 
+    status_file = os.environ.get("SCRAPE_STATUS_FILE", "")
     existing_data = read_existing_data()
-    scraped_data = scrape_all(existing_data)
+    scraped_data, provider_failures = scrape_all(existing_data)
     scraped_data = apply_observation_metadata(scraped_data, existing_data)
     print(f"\nTotal scraped: {len(scraped_data)} deprecations")
 
@@ -260,5 +293,11 @@ if __name__ == "__main__":
     save_json_feed(json_feed)
     save_raw_api(normalized_data)
     save_provider_pages()
+
+    if status_file:
+        save_run_status(status_file, provider_failures)
+
+    if provider_failures:
+        print(f"! Recorded {len(provider_failures)} provider-level scrape failures")
 
     print("✓ All feeds generated successfully")
