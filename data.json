@@ -1,6 +1,81 @@
 [
   {
     "provider": "OpenAI",
+    "model_id": "sora-2",
+    "announcement_date": "2026-03-24",
+    "shutdown_date": "2026-09-24",
+    "replacement_models": [
+      "---"
+    ],
+    "deprecation_context": "On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+    "content_hash": "fe4030bdd7c7cacf",
+    "scraped_at": "2026-03-27T04:35:42.378612+00:00",
+    "first_observed": "2026-03-27",
+    "last_observed": "2026-03-27"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "sora-2-pro",
+    "announcement_date": "2026-03-24",
+    "shutdown_date": "2026-09-24",
+    "replacement_models": [
+      "---"
+    ],
+    "deprecation_context": "On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+    "content_hash": "2b9043d1aa5d2a95",
+    "scraped_at": "2026-03-27T04:35:42.378649+00:00",
+    "first_observed": "2026-03-27",
+    "last_observed": "2026-03-27"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "sora-2-2025-10-06",
+    "announcement_date": "2026-03-24",
+    "shutdown_date": "2026-09-24",
+    "replacement_models": [
+      "---"
+    ],
+    "deprecation_context": "On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+    "content_hash": "1515760838a34125",
+    "scraped_at": "2026-03-27T04:35:42.378673+00:00",
+    "first_observed": "2026-03-27",
+    "last_observed": "2026-03-27"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "sora-2-2025-12-08",
+    "announcement_date": "2026-03-24",
+    "shutdown_date": "2026-09-24",
+    "replacement_models": [
+      "---"
+    ],
+    "deprecation_context": "On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+    "content_hash": "1d50d8b250da24a7",
+    "scraped_at": "2026-03-27T04:35:42.378692+00:00",
+    "first_observed": "2026-03-27",
+    "last_observed": "2026-03-27"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "sora-2-pro-2025-10-06",
+    "announcement_date": "2026-03-24",
+    "shutdown_date": "2026-09-24",
+    "replacement_models": [
+      "---"
+    ],
+    "deprecation_context": "On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+    "content_hash": "cc702b0e0fe4a5c5",
+    "scraped_at": "2026-03-27T04:35:42.378709+00:00",
+    "first_observed": "2026-03-27",
+    "last_observed": "2026-03-27"
+  },
+  {
+    "provider": "OpenAI",
     "model_id": "chatgpt-4o-latest",
     "announcement_date": "2025-11-18",
     "shutdown_date": "2026-02-17",

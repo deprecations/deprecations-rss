@@ -4,7 +4,72 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 26 Mar 2026 19:35:38 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 04:35:46 GMT</lastBuildDate>
+    <item>
+      <title>OpenAI: sora-2</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
+      <description>Provider: OpenAI
+Model ID: sora-2
+Shutdown Date: 2026-09-24
+First Observed: 2026-03-27
+Last Observed: 2026-03-27
+
+On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
+      <pubDate>Fri, 27 Mar 2026 04:35:42 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-sora-2-2026-09-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: sora-2-pro</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
+      <description>Provider: OpenAI
+Model ID: sora-2-pro
+Shutdown Date: 2026-09-24
+First Observed: 2026-03-27
+Last Observed: 2026-03-27
+
+On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
+      <pubDate>Fri, 27 Mar 2026 04:35:42 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-sora-2-pro-2026-09-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: sora-2-2025-10-06</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
+      <description>Provider: OpenAI
+Model ID: sora-2-2025-10-06
+Shutdown Date: 2026-09-24
+First Observed: 2026-03-27
+Last Observed: 2026-03-27
+
+On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
+      <pubDate>Fri, 27 Mar 2026 04:35:42 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-sora-2-2025-10-06-2026-09-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: sora-2-2025-12-08</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
+      <description>Provider: OpenAI
+Model ID: sora-2-2025-12-08
+Shutdown Date: 2026-09-24
+First Observed: 2026-03-27
+Last Observed: 2026-03-27
+
+On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
+      <pubDate>Fri, 27 Mar 2026 04:35:42 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-sora-2-2025-12-08-2026-09-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: sora-2-pro-2025-10-06</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
+      <description>Provider: OpenAI
+Model ID: sora-2-pro-2025-10-06
+Shutdown Date: 2026-09-24
+First Observed: 2026-03-27
+Last Observed: 2026-03-27
+
+On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
+      <pubDate>Fri, 27 Mar 2026 04:35:42 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-sora-2-pro-2025-10-06-2026-09-24-e3b0c442</guid>
+    </item>
     <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>

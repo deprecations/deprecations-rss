@@ -13,6 +13,116 @@
   "language": "en-US",
   "items": [
     {
+      "id": "openai-sora-2",
+      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+      "title": "OpenAI: sora-2",
+      "content_text": "",
+      "date_published": "2026-03-27T04:35:42.378612+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "sora-2",
+        "shutdown_date": "2026-09-24",
+        "announcement_date": "2026-03-24",
+        "replacement_models": [
+          "---"
+        ],
+        "first_observed": "2026-03-27",
+        "last_observed": "2026-03-27"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-sora-2-pro",
+      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+      "title": "OpenAI: sora-2-pro",
+      "content_text": "",
+      "date_published": "2026-03-27T04:35:42.378649+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "sora-2-pro",
+        "shutdown_date": "2026-09-24",
+        "announcement_date": "2026-03-24",
+        "replacement_models": [
+          "---"
+        ],
+        "first_observed": "2026-03-27",
+        "last_observed": "2026-03-27"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-sora-2-2025-10-06",
+      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+      "title": "OpenAI: sora-2-2025-10-06",
+      "content_text": "",
+      "date_published": "2026-03-27T04:35:42.378673+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "sora-2-2025-10-06",
+        "shutdown_date": "2026-09-24",
+        "announcement_date": "2026-03-24",
+        "replacement_models": [
+          "---"
+        ],
+        "first_observed": "2026-03-27",
+        "last_observed": "2026-03-27"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-sora-2-2025-12-08",
+      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+      "title": "OpenAI: sora-2-2025-12-08",
+      "content_text": "",
+      "date_published": "2026-03-27T04:35:42.378692+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "sora-2-2025-12-08",
+        "shutdown_date": "2026-09-24",
+        "announcement_date": "2026-03-24",
+        "replacement_models": [
+          "---"
+        ],
+        "first_observed": "2026-03-27",
+        "last_observed": "2026-03-27"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-sora-2-pro-2025-10-06",
+      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+      "title": "OpenAI: sora-2-pro-2025-10-06",
+      "content_text": "",
+      "date_published": "2026-03-27T04:35:42.378709+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "sora-2-pro-2025-10-06",
+        "shutdown_date": "2026-09-24",
+        "announcement_date": "2026-03-24",
+        "replacement_models": [
+          "---"
+        ],
+        "first_observed": "2026-03-27",
+        "last_observed": "2026-03-27"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "openai-chatgpt-4o-latest",
       "url": "https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot",
       "title": "OpenAI: chatgpt-4o-latest",
