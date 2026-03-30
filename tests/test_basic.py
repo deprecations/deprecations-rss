@@ -225,3 +225,26 @@ def test_save_run_status_records_provider_failures(tmp_path):
     assert payload["status"] == "partial_failure"
     assert payload["failure_count"] == 1
     assert payload["provider_failures"] == provider_failures
+
+
+def test_rss_feed_last_build_date_is_deterministic_from_data():
+    """Regenerating RSS without data changes should not rewrite lastBuildDate."""
+    from src.rss_gen import create_rss_feed
+
+    data = [
+        {
+            "provider": "OpenAI",
+            "model_id": "gpt-test",
+            "announcement_date": "2026-03-01",
+            "deprecation_date": "2026-02-15",
+            "shutdown_date": "2026-06-01",
+            "url": "https://example.com/test",
+            "scraped_at": "2026-03-30T10:00:00+00:00",
+        }
+    ]
+
+    feed_a = create_rss_feed(data)
+    feed_b = create_rss_feed(data)
+
+    assert feed_a == feed_b
+    assert "Mon, 30 Mar 2026 10:00:00 GMT" in feed_a

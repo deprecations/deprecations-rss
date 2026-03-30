@@ -28,7 +28,16 @@ def create_rss_feed(data):
     ET.SubElement(
         channel, "description"
     ).text = "RSS feed tracking deprecations across major AI providers"
-    ET.SubElement(channel, "lastBuildDate").text = datetime.now(timezone.utc).strftime(
+
+    build_dt = max(
+        (
+            datetime.fromisoformat(item["scraped_at"])
+            for item in data
+            if item.get("scraped_at")
+        ),
+        default=datetime.now(timezone.utc),
+    )
+    ET.SubElement(channel, "lastBuildDate").text = build_dt.strftime(
         "%a, %d %b %Y %H:%M:%S GMT"
     )
 

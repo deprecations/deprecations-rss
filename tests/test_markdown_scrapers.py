@@ -148,6 +148,7 @@ For command model replacements, we recommend you use `command-r-08-2024`, `comma
     assert model_ids == {"command-r-03-2024", "command-r", "command-light"}
     for item in items:
         assert item.announcement_date == "2025-09-15"
+        assert item.deprecation_date == "2025-09-15"
         assert item.shutdown_date == ""
         assert item.replacement_models == [
             "command-r-08-2024",

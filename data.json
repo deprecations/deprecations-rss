@@ -2475,6 +2475,114 @@
   },
   {
     "provider": "Cohere",
+    "model_id": "command-r-03-2024",
+    "announcement_date": "2026-03-30",
+    "shutdown_date": "",
+    "deprecation_date": "2025-09-15",
+    "replacement_models": [
+      "command-r-08-2024",
+      "command-r-plus-08-2024",
+      "command-a-03-2025"
+    ],
+    "deprecation_context": "Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a-03-2025` (which is the strongest-performing model across domains) instead. Retired Fine-Tuning Capabilities: Fine-tuning for the `command-light`, `command`, `command-r`, `classify`, and `rerank` models is being retired. This covers both the Cohere dashboard and API. Previously fine-tuned models will no longer be accessible. Deprecated Features and API Endpoints: * `/v1/connectors` (Managed connectors for RAG) * `/v1/chat` parameters: `connectors`, `search_queries_only` * `/v1/generate` (Legacy generative endpoint) * `/v1/summarize` (Legacy summarization endpoint) * `/v1/classify` * Slack App integration * Coral Web UI (chat.cohere.com and coral.cohere.com) These changes reflect our commitment to innovation and performance optimization. We encourage users to assess their current implementations and migrate to recommended alternatives. Our support team is available at [support@cohere.com](mailto:support@cohere.com) to assist with the transition. For detailed guidance, please refer to our migration resources and technical documentation.",
+    "url": "https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning",
+    "content_hash": "c49e9808e9c2d9a4",
+    "scraped_at": "2026-03-30T18:13:39.659043+00:00",
+    "first_observed": "2026-03-30",
+    "last_observed": "2026-03-30"
+  },
+  {
+    "provider": "Cohere",
+    "model_id": "command-r",
+    "announcement_date": "2026-03-30",
+    "shutdown_date": "",
+    "deprecation_date": "2025-09-15",
+    "replacement_models": [
+      "command-r-08-2024",
+      "command-r-plus-08-2024",
+      "command-a-03-2025"
+    ],
+    "deprecation_context": "Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a-03-2025` (which is the strongest-performing model across domains) instead. Retired Fine-Tuning Capabilities: Fine-tuning for the `command-light`, `command`, `command-r`, `classify`, and `rerank` models is being retired. This covers both the Cohere dashboard and API. Previously fine-tuned models will no longer be accessible. Deprecated Features and API Endpoints: * `/v1/connectors` (Managed connectors for RAG) * `/v1/chat` parameters: `connectors`, `search_queries_only` * `/v1/generate` (Legacy generative endpoint) * `/v1/summarize` (Legacy summarization endpoint) * `/v1/classify` * Slack App integration * Coral Web UI (chat.cohere.com and coral.cohere.com) These changes reflect our commitment to innovation and performance optimization. We encourage users to assess their current implementations and migrate to recommended alternatives. Our support team is available at [support@cohere.com](mailto:support@cohere.com) to assist with the transition. For detailed guidance, please refer to our migration resources and technical documentation.",
+    "url": "https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning",
+    "content_hash": "77f1c626c22a5fb8",
+    "scraped_at": "2026-03-30T18:13:39.659053+00:00",
+    "first_observed": "2026-03-30",
+    "last_observed": "2026-03-30"
+  },
+  {
+    "provider": "Cohere",
+    "model_id": "command-r-plus-04-2024",
+    "announcement_date": "2026-03-30",
+    "shutdown_date": "",
+    "deprecation_date": "2025-09-15",
+    "replacement_models": [
+      "command-r-08-2024",
+      "command-r-plus-08-2024",
+      "command-a-03-2025"
+    ],
+    "deprecation_context": "Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a-03-2025` (which is the strongest-performing model across domains) instead. Retired Fine-Tuning Capabilities: Fine-tuning for the `command-light`, `command`, `command-r`, `classify`, and `rerank` models is being retired. This covers both the Cohere dashboard and API. Previously fine-tuned models will no longer be accessible. Deprecated Features and API Endpoints: * `/v1/connectors` (Managed connectors for RAG) * `/v1/chat` parameters: `connectors`, `search_queries_only` * `/v1/generate` (Legacy generative endpoint) * `/v1/summarize` (Legacy summarization endpoint) * `/v1/classify` * Slack App integration * Coral Web UI (chat.cohere.com and coral.cohere.com) These changes reflect our commitment to innovation and performance optimization. We encourage users to assess their current implementations and migrate to recommended alternatives. Our support team is available at [support@cohere.com](mailto:support@cohere.com) to assist with the transition. For detailed guidance, please refer to our migration resources and technical documentation.",
+    "url": "https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning",
+    "content_hash": "5fe9a262b5c7bfaa",
+    "scraped_at": "2026-03-30T18:13:39.659060+00:00",
+    "first_observed": "2026-03-30",
+    "last_observed": "2026-03-30"
+  },
+  {
+    "provider": "Cohere",
+    "model_id": "command-r-plus",
+    "announcement_date": "2026-03-30",
+    "shutdown_date": "",
+    "deprecation_date": "2025-09-15",
+    "replacement_models": [
+      "command-r-08-2024",
+      "command-r-plus-08-2024",
+      "command-a-03-2025"
+    ],
+    "deprecation_context": "Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a-03-2025` (which is the strongest-performing model across domains) instead. Retired Fine-Tuning Capabilities: Fine-tuning for the `command-light`, `command`, `command-r`, `classify`, and `rerank` models is being retired. This covers both the Cohere dashboard and API. Previously fine-tuned models will no longer be accessible. Deprecated Features and API Endpoints: * `/v1/connectors` (Managed connectors for RAG) * `/v1/chat` parameters: `connectors`, `search_queries_only` * `/v1/generate` (Legacy generative endpoint) * `/v1/summarize` (Legacy summarization endpoint) * `/v1/classify` * Slack App integration * Coral Web UI (chat.cohere.com and coral.cohere.com) These changes reflect our commitment to innovation and performance optimization. We encourage users to assess their current implementations and migrate to recommended alternatives. Our support team is available at [support@cohere.com](mailto:support@cohere.com) to assist with the transition. For detailed guidance, please refer to our migration resources and technical documentation.",
+    "url": "https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning",
+    "content_hash": "fa8450ce908c56a3",
+    "scraped_at": "2026-03-30T18:13:39.659066+00:00",
+    "first_observed": "2026-03-30",
+    "last_observed": "2026-03-30"
+  },
+  {
+    "provider": "Cohere",
+    "model_id": "command-light",
+    "announcement_date": "2026-03-30",
+    "shutdown_date": "",
+    "deprecation_date": "2025-09-15",
+    "replacement_models": [
+      "command-r-08-2024",
+      "command-r-plus-08-2024",
+      "command-a-03-2025"
+    ],
+    "deprecation_context": "Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a-03-2025` (which is the strongest-performing model across domains) instead. Retired Fine-Tuning Capabilities: Fine-tuning for the `command-light`, `command`, `command-r`, `classify`, and `rerank` models is being retired. This covers both the Cohere dashboard and API. Previously fine-tuned models will no longer be accessible. Deprecated Features and API Endpoints: * `/v1/connectors` (Managed connectors for RAG) * `/v1/chat` parameters: `connectors`, `search_queries_only` * `/v1/generate` (Legacy generative endpoint) * `/v1/summarize` (Legacy summarization endpoint) * `/v1/classify` * Slack App integration * Coral Web UI (chat.cohere.com and coral.cohere.com) These changes reflect our commitment to innovation and performance optimization. We encourage users to assess their current implementations and migrate to recommended alternatives. Our support team is available at [support@cohere.com](mailto:support@cohere.com) to assist with the transition. For detailed guidance, please refer to our migration resources and technical documentation.",
+    "url": "https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning",
+    "content_hash": "3dd7dfbe6e9b5f6c",
+    "scraped_at": "2026-03-30T18:13:39.659071+00:00",
+    "first_observed": "2026-03-30",
+    "last_observed": "2026-03-30"
+  },
+  {
+    "provider": "Cohere",
+    "model_id": "command",
+    "announcement_date": "2026-03-30",
+    "shutdown_date": "",
+    "deprecation_date": "2025-09-15",
+    "replacement_models": [
+      "command-r-08-2024",
+      "command-r-plus-08-2024",
+      "command-a-03-2025"
+    ],
+    "deprecation_context": "Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a-03-2025` (which is the strongest-performing model across domains) instead. Retired Fine-Tuning Capabilities: Fine-tuning for the `command-light`, `command`, `command-r`, `classify`, and `rerank` models is being retired. This covers both the Cohere dashboard and API. Previously fine-tuned models will no longer be accessible. Deprecated Features and API Endpoints: * `/v1/connectors` (Managed connectors for RAG) * `/v1/chat` parameters: `connectors`, `search_queries_only` * `/v1/generate` (Legacy generative endpoint) * `/v1/summarize` (Legacy summarization endpoint) * `/v1/classify` * Slack App integration * Coral Web UI (chat.cohere.com and coral.cohere.com) These changes reflect our commitment to innovation and performance optimization. We encourage users to assess their current implementations and migrate to recommended alternatives. Our support team is available at [support@cohere.com](mailto:support@cohere.com) to assist with the transition. For detailed guidance, please refer to our migration resources and technical documentation.",
+    "url": "https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning",
+    "content_hash": "292d47b466348948",
+    "scraped_at": "2026-03-30T18:13:39.659077+00:00",
+    "first_observed": "2026-03-30",
+    "last_observed": "2026-03-30"
+  },
+  {
+    "provider": "Cohere",
     "model_id": "rerank-english-v2.0",
     "announcement_date": "2026-03-26",
     "shutdown_date": "2025-04-30",

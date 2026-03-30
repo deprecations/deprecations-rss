@@ -28,6 +28,9 @@ class DeprecationItem:
         if not self.scraped_at:
             self.scraped_at = datetime.now(timezone.utc).isoformat()
 
+        if not self.deprecation_date and self.announcement_date:
+            self.deprecation_date = self.announcement_date
+
         if not self.content_hash:
             unique_content = f"{self.provider}|{self.model_id}|{self.shutdown_date}|{self.deprecation_date}"
             self.content_hash = self._compute_hash(unique_content)
