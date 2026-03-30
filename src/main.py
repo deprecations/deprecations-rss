@@ -16,7 +16,9 @@ def hash_item(item: dict) -> str:
     key_fields = {
         "provider": item.get("provider", ""),
         "model_id": item.get("model_id", item.get("title", "")),
-        "announcement_date": item.get("announcement_date", ""),
+        "deprecation_date": item.get(
+            "deprecation_date", item.get("announcement_date", "")
+        ),
         "shutdown_date": item.get("shutdown_date", ""),
         "deprecation_context": item.get("deprecation_context", item.get("content", "")),
         "url": item.get("url", ""),
@@ -54,9 +56,7 @@ def scrape_all(previous_data: list[dict]) -> tuple[list[dict], list[dict]]:
             missing_shutdown = _missing_shutdown_items(scraper, deprecation_dicts)
             if missing_shutdown:
                 preview = ", ".join(missing_shutdown[:10])
-                message = (
-                    f"Missing shutdown dates for {len(missing_shutdown)} model IDs: {preview}"
-                )
+                message = f"Missing shutdown dates for {len(missing_shutdown)} model IDs: {preview}"
                 provider_failures.append(
                     {
                         "provider": provider_name,
@@ -163,6 +163,8 @@ def normalize_item_fields(item: dict) -> dict:
     normalized = item.copy()
     normalized["model_id"] = (normalized.get("model_id") or "").strip()
     normalized.pop("model_name", None)
+    if not normalized.get("deprecation_date") and normalized.get("announcement_date"):
+        normalized["deprecation_date"] = normalized.get("announcement_date", "")
     return normalized
 
 
@@ -171,7 +173,9 @@ def apply_observation_metadata(
 ) -> list[dict]:
     """Preserve first/last observation dates and backfill missing announcement dates."""
     previous_by_key = {
-        (item.get("provider", ""), item.get("model_id", "")): item
+        (item.get("provider", ""), item.get("model_id", "")): normalize_item_fields(
+            item
+        )
         for item in existing_data
         if item.get("provider") and item.get("model_id")
     }
@@ -195,9 +199,10 @@ def apply_observation_metadata(
 
         item["first_observed"] = first_observed
         item["last_observed"] = last_observed
-
-        if not item.get("announcement_date"):
-            item["announcement_date"] = first_observed
+        item["deprecation_date"] = (
+            item.get("deprecation_date") or previous.get("deprecation_date") or ""
+        )
+        item["announcement_date"] = first_observed
 
         enriched.append(item)
 
@@ -207,7 +212,7 @@ def apply_observation_metadata(
 def _item_quality(item: dict) -> tuple:
     """Score items so deduplication keeps the richer record."""
     return (
-        int(bool(item.get("announcement_date"))),
+        int(bool(item.get("deprecation_date"))),
         int(bool(item.get("shutdown_date"))),
         int(bool(item.get("replacement_models"))),
         len(item.get("deprecation_context", "") or ""),

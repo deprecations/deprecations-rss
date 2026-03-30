@@ -124,8 +124,8 @@ We encourage you to migrate to our latest models:
     assert "classify-default-embed" not in model_ids
 
 
-def test_cohere_command_section_does_not_invent_shutdown_or_announcement_date():
-    """Cohere effective-date sections should not treat that date as announcement date."""
+def test_cohere_command_section_uses_header_date_as_deprecation_date_source():
+    """Cohere header dates should be captured from the section heading."""
     markdown = """
 # Deprecations
 
@@ -147,7 +147,7 @@ For command model replacements, we recommend you use `command-r-08-2024`, `comma
 
     assert model_ids == {"command-r-03-2024", "command-r", "command-light"}
     for item in items:
-        assert item.announcement_date == ""
+        assert item.announcement_date == "2025-09-15"
         assert item.shutdown_date == ""
         assert item.replacement_models == [
             "command-r-08-2024",
@@ -156,8 +156,8 @@ For command model replacements, we recommend you use `command-r-08-2024`, `comma
         ]
 
 
-def test_cohere_effective_shutdown_section_leaves_announcement_date_empty():
-    """Cohere effective retirement dates should stay in context, not announcement_date."""
+def test_cohere_effective_shutdown_section_uses_header_date():
+    """Cohere effective retirement dates should come from the header date."""
     markdown = """
 # Deprecations
 
@@ -177,7 +177,7 @@ We encourage you to migrate to our latest models:
 
     assert len(items) == 1
     assert items[0].model_id == "embed-english-v2.0"
-    assert items[0].announcement_date == ""
+    assert items[0].announcement_date == "2026-04-04"
     assert items[0].shutdown_date == "2026-04-04"
 
 

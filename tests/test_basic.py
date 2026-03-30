@@ -94,8 +94,8 @@ def test_main_dedupes_and_removes_legacy_model_name_field():
     assert result[0]["deprecation_context"] == "a much richer context block"
 
 
-def test_missing_announcement_date_falls_back_to_first_observed():
-    """Missing provider announcement dates should fall back to first observation."""
+def test_announcement_date_tracks_first_observed_and_preserves_deprecation_date():
+    """Saved announcement_date should mean first observed, not provider deprecation date."""
     from src.main import apply_observation_metadata
 
     existing = [
@@ -112,7 +112,7 @@ def test_missing_announcement_date_falls_back_to_first_observed():
         {
             "provider": "Cohere",
             "model_id": "command-r-03-2024-ft",
-            "announcement_date": "",
+            "announcement_date": "2025-09-15",
             "shutdown_date": "2025-03-08",
             "replacement_models": None,
             "deprecation_context": "Fine-tuned models will continue to be supported until March 08, 2025.",
@@ -124,6 +124,7 @@ def test_missing_announcement_date_falls_back_to_first_observed():
     result = apply_observation_metadata(scraped, existing)
 
     assert result[0]["announcement_date"] == "2025-03-01"
+    assert result[0]["deprecation_date"] == "2025-09-15"
     assert result[0]["first_observed"] == "2025-03-01"
     assert result[0]["last_observed"] == "2025-03-11"
 

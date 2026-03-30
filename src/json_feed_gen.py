@@ -54,6 +54,9 @@ def create_json_feed(data):
         if "shutdown_date" in item_data:
             deprecation_data["shutdown_date"] = item_data["shutdown_date"]
 
+        if "deprecation_date" in item_data:
+            deprecation_data["deprecation_date"] = item_data["deprecation_date"]
+
         if "announcement_date" in item_data:
             deprecation_data["announcement_date"] = item_data["announcement_date"]
 

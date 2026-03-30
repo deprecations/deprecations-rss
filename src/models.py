@@ -12,8 +12,9 @@ class DeprecationItem:
 
     provider: str
     model_id: str  # Exact or best-available provider model identifier
-    announcement_date: str  # ISO date when announced
+    announcement_date: str  # ISO date when first observed by this project
     shutdown_date: str  # ISO date when model stops working
+    deprecation_date: str = ""  # ISO date published by the provider/source
     replacement_models: Optional[list[str]] = (
         None  # Recommended replacements (can be null)
     )
@@ -28,7 +29,7 @@ class DeprecationItem:
             self.scraped_at = datetime.now(timezone.utc).isoformat()
 
         if not self.content_hash:
-            unique_content = f"{self.provider}|{self.model_id}|{self.shutdown_date}|{self.announcement_date}"
+            unique_content = f"{self.provider}|{self.model_id}|{self.shutdown_date}|{self.deprecation_date}"
             self.content_hash = self._compute_hash(unique_content)
 
     @staticmethod
@@ -43,6 +44,7 @@ class DeprecationItem:
             "model_id": self.model_id,
             "announcement_date": self.announcement_date,
             "shutdown_date": self.shutdown_date,
+            "deprecation_date": self.deprecation_date,
             "replacement_models": self.replacement_models,
             "deprecation_context": self.deprecation_context,
             "url": self.url,
@@ -58,6 +60,9 @@ class DeprecationItem:
             model_id=data.get("model_id", ""),
             announcement_date=data.get("announcement_date", ""),
             shutdown_date=data.get("shutdown_date", ""),
+            deprecation_date=data.get(
+                "deprecation_date", data.get("announcement_date", "")
+            ),
             replacement_models=data.get("replacement_models"),
             deprecation_context=data.get("deprecation_context", ""),
             url=data.get("url", ""),

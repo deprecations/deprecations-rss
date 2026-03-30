@@ -51,11 +51,17 @@ def create_rss_feed(data):
         if model_id:
             description_parts.append(f"Model ID: {model_id}")
 
+        if item_data.get("deprecation_date"):
+            description_parts.append(
+                f"Deprecation Date: {item_data['deprecation_date']}"
+            )
+
         if item_data.get("shutdown_date"):
             description_parts.append(f"Shutdown Date: {item_data['shutdown_date']}")
-        elif item_data.get("announcement_date"):
+
+        if item_data.get("announcement_date"):
             description_parts.append(
-                f"Announcement Date: {item_data['announcement_date']}"
+                f"First Observed: {item_data['announcement_date']}"
             )
 
         if item_data.get("suggested_replacement") and not item_data[
@@ -70,7 +76,9 @@ def create_rss_feed(data):
         ].startswith("<"):
             description_parts.append(f"Reason: {item_data['deprecation_reason']}")
 
-        if "first_observed" in item_data:
+        if "first_observed" in item_data and item_data.get(
+            "first_observed"
+        ) != item_data.get("announcement_date"):
             description_parts.append(f"First Observed: {item_data['first_observed']}")
 
         if "last_observed" in item_data:

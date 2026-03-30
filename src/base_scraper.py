@@ -257,11 +257,12 @@ class EnhancedBaseScraper:
                     model_id=model_id,
                     announcement_date=announcement_date or shutdown_date,
                     shutdown_date=shutdown_date,
+                    deprecation_date=announcement_date or shutdown_date,
                     replacement_models=replacement_models,
                     deprecation_context=section_context,
                     url=self.url,
                     content_hash=DeprecationItem._compute_hash(
-                        f"{model_id}{shutdown_date}{section_context}"
+                        f"{model_id}{shutdown_date}{announcement_date or shutdown_date}{section_context}"
                     ),
                 )
             )

@@ -165,7 +165,7 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                         <tr>
                             <th>Provider</th>
                             <th>Model</th>
-                            <th>Announced</th>
+                            <th>Deprecated</th>
                             <th>Shutdown Date</th>
                             <th>Days Left</th>
                             <th>Status</th>
@@ -198,15 +198,15 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                             daysRemaining: item.shutdown_date ? getDaysRemaining(item.shutdown_date) : Infinity
                         }));
                         
-                        // Sort by: 1) days remaining (soonest first), 2) announcement date (newest first)
+                        // Sort by: 1) days remaining (soonest first), 2) deprecation date (newest first)
                         allDeprecations.sort((a, b) => {
                             // First sort by days remaining
                             if (a.daysRemaining !== b.daysRemaining) {
                                 return a.daysRemaining - b.daysRemaining;
                             }
-                            // Then by announcement date (newer first)
-                            const dateA = new Date(a.announcement_date || 0);
-                            const dateB = new Date(b.announcement_date || 0);
+                            // Then by deprecation date (newer first)
+                            const dateA = new Date(a.deprecation_date || a.announcement_date || 0);
+                            const dateB = new Date(b.deprecation_date || b.announcement_date || 0);
                             return dateB - dateA;
                         });
                         
@@ -341,7 +341,7 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                     tr.innerHTML = `
                         <td class="provider ${providerClass}">${formatProviderName(deprecation.provider)}</td>
                         <td class="model-name">${deprecation.model_id || 'N/A'}</td>
-                        <td class="announcement-date">${formatDate(deprecation.announcement_date)}</td>
+                        <td class="announcement-date">${formatDate(deprecation.deprecation_date || deprecation.announcement_date)}</td>
                         <td class="shutdown-date">${formatDate(deprecation.shutdown_date)}</td>
                         <td class="days-remaining">${daysDisplay}</td>
                         <td><span class="status-badge ${statusClass}">${statusText}</span></td>
@@ -433,7 +433,7 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                         previewIntro.textContent = 'Real-time data showing AI models scheduled for deprecation, sorted by urgency. Only showing models with confirmed shutdown dates that haven\'t occurred yet.';
                     } else {
                         const providers = Array.from(activeFilters).join(', ').toUpperCase();
-                        previewIntro.textContent = `Showing all deprecations from ${providers}, sorted by urgency and announcement date.`;
+                        previewIntro.textContent = `Showing all deprecations from ${providers}, sorted by urgency and provider deprecation date.`;
                     }
                 }
 

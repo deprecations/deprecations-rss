@@ -4,12 +4,13 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Mon, 30 Mar 2026 04:47:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 15:37:26 GMT</lastBuildDate>
     <item>
       <title>OpenAI: sora-2</title>
       <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
       <description>Provider: OpenAI
 Model ID: sora-2
+Deprecation Date: 2026-03-24
 Shutdown Date: 2026-09-24
 First Observed: 2026-03-27
 Last Observed: 2026-03-27
@@ -23,6 +24,7 @@ On March 24th, 2026, we notified developers using the Videos API and Sora 2 vide
       <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
       <description>Provider: OpenAI
 Model ID: sora-2-pro
+Deprecation Date: 2026-03-24
 Shutdown Date: 2026-09-24
 First Observed: 2026-03-27
 Last Observed: 2026-03-27
@@ -36,6 +38,7 @@ On March 24th, 2026, we notified developers using the Videos API and Sora 2 vide
       <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
       <description>Provider: OpenAI
 Model ID: sora-2-2025-10-06
+Deprecation Date: 2026-03-24
 Shutdown Date: 2026-09-24
 First Observed: 2026-03-27
 Last Observed: 2026-03-27
@@ -49,6 +52,7 @@ On March 24th, 2026, we notified developers using the Videos API and Sora 2 vide
       <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
       <description>Provider: OpenAI
 Model ID: sora-2-2025-12-08
+Deprecation Date: 2026-03-24
 Shutdown Date: 2026-09-24
 First Observed: 2026-03-27
 Last Observed: 2026-03-27
@@ -62,6 +66,7 @@ On March 24th, 2026, we notified developers using the Videos API and Sora 2 vide
       <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
       <description>Provider: OpenAI
 Model ID: sora-2-pro-2025-10-06
+Deprecation Date: 2026-03-24
 Shutdown Date: 2026-09-24
 First Observed: 2026-03-27
 Last Observed: 2026-03-27
@@ -75,6 +80,7 @@ On March 24th, 2026, we notified developers using the Videos API and Sora 2 vide
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
       <description>Provider: OpenAI
 Model ID: chatgpt-4o-latest
+Deprecation Date: 2025-11-18
 Shutdown Date: 2026-02-17
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -88,6 +94,7 @@ On November 18th, 2025, we notified developers using `chatgpt-4o-latest` model s
       <link>https://platform.openai.com/docs/deprecations#2025-11-17-codex-mini-latest-model-snapshot</link>
       <description>Provider: OpenAI
 Model ID: codex-mini-latest
+Deprecation Date: 2025-11-17
 Shutdown Date: 2026-02-12
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -101,6 +108,7 @@ On November 17th, 2025, we notified developers using `codex-mini-latest` model o
       <link>https://platform.openai.com/docs/deprecations#2025-11-14-dalle-model-snapshots</link>
       <description>Provider: OpenAI
 Model ID: dall-e-2
+Deprecation Date: 2025-11-14
 Shutdown Date: 2026-05-12
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -114,6 +122,7 @@ On November 14th, 2025, we notified developers using DALL·E model snapshots of 
       <link>https://platform.openai.com/docs/deprecations#2025-11-14-dalle-model-snapshots</link>
       <description>Provider: OpenAI
 Model ID: dall-e-3
+Deprecation Date: 2025-11-14
 Shutdown Date: 2026-05-12
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -127,6 +136,7 @@ On November 14th, 2025, we notified developers using DALL·E model snapshots of 
       <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
       <description>Provider: OpenAI
 Model ID: gpt-4-0314
+Deprecation Date: 2025-09-26
 Shutdown Date: 2026-03-26
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -140,6 +150,7 @@ To improve reliability and make it easier for developers to choose the right mod
       <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
       <description>Provider: OpenAI
 Model ID: gpt-4-1106-preview
+Deprecation Date: 2025-09-26
 Shutdown Date: 2026-03-26
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -153,6 +164,7 @@ To improve reliability and make it easier for developers to choose the right mod
       <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
       <description>Provider: OpenAI
 Model ID: gpt-4-0125-preview
+Deprecation Date: 2025-09-26
 Shutdown Date: 2026-03-26
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -166,6 +178,7 @@ To improve reliability and make it easier for developers to choose the right mod
       <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
       <description>Provider: OpenAI
 Model ID: gpt-4-turbo-preview
+Deprecation Date: 2025-09-26
 Shutdown Date: 2026-03-26
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -179,6 +192,7 @@ To improve reliability and make it easier for developers to choose the right mod
       <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
       <description>Provider: OpenAI
 Model ID: gpt-4-turbo-preview-completions
+Deprecation Date: 2025-09-26
 Shutdown Date: 2026-03-26
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -192,6 +206,7 @@ To improve reliability and make it easier for developers to choose the right mod
       <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
       <description>Provider: OpenAI
 Model ID: gpt-3.5-turbo-instruct
+Deprecation Date: 2025-09-26
 Shutdown Date: 2026-09-28
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -205,6 +220,7 @@ To improve reliability and make it easier for developers to choose the right mod
       <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
       <description>Provider: OpenAI
 Model ID: babbage-002
+Deprecation Date: 2025-09-26
 Shutdown Date: 2026-09-28
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -218,6 +234,7 @@ To improve reliability and make it easier for developers to choose the right mod
       <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
       <description>Provider: OpenAI
 Model ID: davinci-002
+Deprecation Date: 2025-09-26
 Shutdown Date: 2026-09-28
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -231,6 +248,7 @@ To improve reliability and make it easier for developers to choose the right mod
       <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
       <description>Provider: OpenAI
 Model ID: gpt-3.5-turbo-1106
+Deprecation Date: 2025-09-26
 Shutdown Date: 2026-09-28
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -244,6 +262,7 @@ To improve reliability and make it easier for developers to choose the right mod
       <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
       <description>Provider: OpenAI
 Model ID: gpt-4o-realtime-preview
+Deprecation Date: 2025-09-15
 Shutdown Date: 2026-05-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -257,6 +276,7 @@ In September, 2025, we notified developers using gpt-4o-realtime-preview models 
       <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
       <description>Provider: OpenAI
 Model ID: gpt-4o-realtime-preview-2025-06-03
+Deprecation Date: 2025-09-15
 Shutdown Date: 2026-05-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -270,6 +290,7 @@ In September, 2025, we notified developers using gpt-4o-realtime-preview models 
       <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
       <description>Provider: OpenAI
 Model ID: gpt-4o-realtime-preview-2024-12-17
+Deprecation Date: 2025-09-15
 Shutdown Date: 2026-05-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -283,6 +304,7 @@ In September, 2025, we notified developers using gpt-4o-realtime-preview models 
       <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
       <description>Provider: OpenAI
 Model ID: gpt-4o-mini-realtime-preview
+Deprecation Date: 2025-09-15
 Shutdown Date: 2026-05-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -296,6 +318,7 @@ In September, 2025, we notified developers using gpt-4o-realtime-preview models 
       <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
       <description>Provider: OpenAI
 Model ID: gpt-4o-audio-preview
+Deprecation Date: 2025-09-15
 Shutdown Date: 2026-05-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -309,6 +332,7 @@ In September, 2025, we notified developers using gpt-4o-realtime-preview models 
       <link>https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models</link>
       <description>Provider: OpenAI
 Model ID: gpt-4o-mini-audio-preview
+Deprecation Date: 2025-09-15
 Shutdown Date: 2026-05-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -322,6 +346,7 @@ In September, 2025, we notified developers using gpt-4o-realtime-preview models 
       <link>https://platform.openai.com/docs/deprecations#2025-06-10-gpt-4o-realtime-preview-2024-10-01</link>
       <description>Provider: OpenAI
 Model ID: gpt-4o-realtime-preview-2024-10-01
+Deprecation Date: 2025-06-10
 Shutdown Date: 2025-10-10
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -335,6 +360,7 @@ On June 10th, 2025, we notified developers using gpt-4o-realtime-preview-2024-10
       <link>https://platform.openai.com/docs/deprecations#2025-06-10-gpt-4o-audio-preview-2024-10-01</link>
       <description>Provider: OpenAI
 Model ID: gpt-4o-audio-preview-2024-10-01
+Deprecation Date: 2025-06-10
 Shutdown Date: 2025-10-10
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -348,6 +374,7 @@ On June 10th, 2025, we notified developers using `gpt-4o-audio-preview-2024-10-0
       <link>https://platform.openai.com/docs/deprecations#2025-04-28-text-moderation</link>
       <description>Provider: OpenAI
 Model ID: text-moderation-007
+Deprecation Date: 2025-04-28
 Shutdown Date: 2025-10-27
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -361,6 +388,7 @@ On April 28th, 2025, we notified developers using `text-moderation` of its depre
       <link>https://platform.openai.com/docs/deprecations#2025-04-28-text-moderation</link>
       <description>Provider: OpenAI
 Model ID: text-moderation-stable
+Deprecation Date: 2025-04-28
 Shutdown Date: 2025-10-27
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -374,6 +402,7 @@ On April 28th, 2025, we notified developers using `text-moderation` of its depre
       <link>https://platform.openai.com/docs/deprecations#2025-04-28-text-moderation</link>
       <description>Provider: OpenAI
 Model ID: text-moderation-latest
+Deprecation Date: 2025-04-28
 Shutdown Date: 2025-10-27
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -387,6 +416,7 @@ On April 28th, 2025, we notified developers using `text-moderation` of its depre
       <link>https://platform.openai.com/docs/deprecations#2025-04-28-o1-preview-and-o1-mini</link>
       <description>Provider: OpenAI
 Model ID: o1-preview
+Deprecation Date: 2025-04-28
 Shutdown Date: 2025-07-28
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -400,6 +430,7 @@ On April 28th, 2025, we notified developers using `o1-preview` and `o1-mini` of 
       <link>https://platform.openai.com/docs/deprecations#2025-04-28-o1-preview-and-o1-mini</link>
       <description>Provider: OpenAI
 Model ID: o1-mini
+Deprecation Date: 2025-04-28
 Shutdown Date: 2025-10-27
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -413,6 +444,7 @@ On April 28th, 2025, we notified developers using `o1-preview` and `o1-mini` of 
       <link>https://platform.openai.com/docs/deprecations#2025-04-14-gpt-4-5-preview</link>
       <description>Provider: OpenAI
 Model ID: gpt-4.5-preview
+Deprecation Date: 2025-04-14
 Shutdown Date: 2025-07-14
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -426,6 +458,7 @@ On April 14th, 2025, we notified developers that the `gpt-4.5-preview` model is 
       <link>https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models</link>
       <description>Provider: OpenAI
 Model ID: gpt-4-32k
+Deprecation Date: 2024-06-06
 Shutdown Date: 2025-06-06
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -439,6 +472,7 @@ On June 6th, 2024, we notified developers using `gpt-4-32k` and `gpt-4-vision-pr
       <link>https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models</link>
       <description>Provider: OpenAI
 Model ID: gpt-4-32k-0613
+Deprecation Date: 2024-06-06
 Shutdown Date: 2025-06-06
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -452,6 +486,7 @@ On June 6th, 2024, we notified developers using `gpt-4-32k` and `gpt-4-vision-pr
       <link>https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models</link>
       <description>Provider: OpenAI
 Model ID: gpt-4-32k-0314
+Deprecation Date: 2024-06-06
 Shutdown Date: 2025-06-06
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -465,6 +500,7 @@ On June 6th, 2024, we notified developers using `gpt-4-32k` and `gpt-4-vision-pr
       <link>https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models</link>
       <description>Provider: OpenAI
 Model ID: gpt-4-vision-preview
+Deprecation Date: 2024-06-06
 Shutdown Date: 2024-12-06
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -478,6 +514,7 @@ On June 6th, 2024, we notified developers using `gpt-4-32k` and `gpt-4-vision-pr
       <link>https://platform.openai.com/docs/deprecations#2024-06-06-gpt-4-32k-and-vision-preview-models</link>
       <description>Provider: OpenAI
 Model ID: gpt-4-1106-vision-preview
+Deprecation Date: 2024-06-06
 Shutdown Date: 2024-12-06
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -491,6 +528,7 @@ On June 6th, 2024, we notified developers using `gpt-4-32k` and `gpt-4-vision-pr
       <link>https://platform.openai.com/docs/deprecations#2023-11-06-chat-model-updates</link>
       <description>Provider: OpenAI
 Model ID: gpt-3.5-turbo-0613
+Deprecation Date: 2023-11-06
 Shutdown Date: 2024-09-13
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -504,6 +542,7 @@ On November 6th, 2023, we [announced](https://openai.com/blog/new-models-and-dev
       <link>https://platform.openai.com/docs/deprecations#2023-11-06-chat-model-updates</link>
       <description>Provider: OpenAI
 Model ID: gpt-3.5-turbo-16k-0613
+Deprecation Date: 2023-11-06
 Shutdown Date: 2024-09-13
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -517,6 +556,7 @@ On November 6th, 2023, we [announced](https://openai.com/blog/new-models-and-dev
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-ada-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -530,6 +570,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-babbage-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -543,6 +584,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-curie-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -556,6 +598,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-davinci-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -569,6 +612,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-davinci-002
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -582,6 +626,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-davinci-003
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -595,6 +640,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: ada
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -608,6 +654,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: babbage
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -621,6 +668,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: curie
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -634,6 +682,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: davinci
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -647,6 +696,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: code-davinci-002
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -660,6 +710,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-davinci-edit-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -673,6 +724,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: code-davinci-edit-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -686,6 +738,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-similarity-ada-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -699,6 +752,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-search-ada-doc-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -712,6 +766,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-search-ada-query-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -725,6 +780,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: code-search-ada-code-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -738,6 +794,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: code-search-ada-text-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -751,6 +808,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-similarity-babbage-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -764,6 +822,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-search-babbage-doc-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -777,6 +836,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-search-babbage-query-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -790,6 +850,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: code-search-babbage-code-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -803,6 +864,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: code-search-babbage-text-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -816,6 +878,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-similarity-curie-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -829,6 +892,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-search-curie-doc-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -842,6 +906,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-search-curie-query-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -855,6 +920,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-similarity-davinci-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -868,6 +934,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-search-davinci-doc-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -881,6 +948,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-07-06-gpt-and-embeddings</link>
       <description>Provider: OpenAI
 Model ID: text-search-davinci-query-001
+Deprecation Date: 2023-07-06
 Shutdown Date: 2024-01-04
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -894,6 +962,7 @@ On July 06, 2023, we [announced](https://openai.com/blog/gpt-4-api-general-avail
       <link>https://platform.openai.com/docs/deprecations#2023-06-13-updated-chat-models</link>
       <description>Provider: OpenAI
 Model ID: gpt-3.5-turbo-0301
+Deprecation Date: 2023-06-13
 Shutdown Date: 2024-09-13
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -907,6 +976,7 @@ On June 13, 2023, we announced new chat model versions in the [Function calling 
       <link>https://platform.openai.com/docs/deprecations#2023-03-20-codex-models</link>
       <description>Provider: OpenAI
 Model ID: code-davinci-001
+Deprecation Date: 2023-03-20
 Shutdown Date: 2023-03-23
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -919,6 +989,7 @@ Last Observed: 2026-03-26
       <link>https://platform.openai.com/docs/deprecations#2023-03-20-codex-models</link>
       <description>Provider: OpenAI
 Model ID: code-cushman-002
+Deprecation Date: 2023-03-20
 Shutdown Date: 2023-03-23
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -931,6 +1002,7 @@ Last Observed: 2026-03-26
       <link>https://platform.openai.com/docs/deprecations#2023-03-20-codex-models</link>
       <description>Provider: OpenAI
 Model ID: code-cushman-001
+Deprecation Date: 2023-03-20
 Shutdown Date: 2023-03-23
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -943,6 +1015,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-10-28-claude-sonnet-3-7-model</link>
       <description>Provider: Anthropic
 Model ID: claude-3-7-sonnet-20250219
+Deprecation Date: 2025-10-28
 Shutdown Date: 2026-02-19
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -956,6 +1029,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-12-19-claude-haiku-3-5-model</link>
       <description>Provider: Anthropic
 Model ID: claude-3-5-haiku-20241022
+Deprecation Date: 2025-12-19
 Shutdown Date: 2026-02-19
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -969,6 +1043,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-02-19-claude-haiku-3-model</link>
       <description>Provider: Anthropic
 Model ID: claude-3-haiku-20240307
+Deprecation Date: 2026-02-19
 Shutdown Date: 2026-04-20
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -982,6 +1057,7 @@ On February 19, 2026, Anthropic notified developers using Claude Haiku 3 model o
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-08-13-claude-sonnet-3-5-models</link>
       <description>Provider: Anthropic
 Model ID: claude-3-5-sonnet-20240620
+Deprecation Date: 2025-08-13
 Shutdown Date: 2025-10-28
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -995,6 +1071,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-08-13-claude-sonnet-3-5-models</link>
       <description>Provider: Anthropic
 Model ID: claude-3-5-sonnet-20241022
+Deprecation Date: 2025-08-13
 Shutdown Date: 2025-10-28
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1008,6 +1085,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-06-30-claude-opus-3-model</link>
       <description>Provider: Anthropic
 Model ID: claude-3-opus-20240229
+Deprecation Date: 2025-06-30
 Shutdown Date: 2026-01-05
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1021,6 +1099,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models</link>
       <description>Provider: Anthropic
 Model ID: claude-2.0
+Deprecation Date: 2025-01-21
 Shutdown Date: 2025-07-21
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1034,6 +1113,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models</link>
       <description>Provider: Anthropic
 Model ID: claude-2.1
+Deprecation Date: 2025-01-21
 Shutdown Date: 2025-07-21
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1047,6 +1127,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models</link>
       <description>Provider: Anthropic
 Model ID: claude-3-sonnet-20240229
+Deprecation Date: 2025-01-21
 Shutdown Date: 2025-07-21
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1060,6 +1141,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-1.0
+Deprecation Date: 2024-09-04
 Shutdown Date: 2024-11-06
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1073,6 +1155,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-1.1
+Deprecation Date: 2024-09-04
 Shutdown Date: 2024-11-06
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1086,6 +1169,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-1.2
+Deprecation Date: 2024-09-04
 Shutdown Date: 2024-11-06
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1099,6 +1183,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-1.3
+Deprecation Date: 2024-09-04
 Shutdown Date: 2024-11-06
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1112,6 +1197,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-instant-1.0
+Deprecation Date: 2024-09-04
 Shutdown Date: 2024-11-06
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1125,6 +1211,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-instant-1.1
+Deprecation Date: 2024-09-04
 Shutdown Date: 2024-11-06
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1138,6 +1225,7 @@ Last Observed: 2026-03-26
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2024-09-04-claude-1-and-instant-models</link>
       <description>Provider: Anthropic
 Model ID: claude-instant-1.2
+Deprecation Date: 2024-09-04
 Shutdown Date: 2024-11-06
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1151,7 +1239,7 @@ Last Observed: 2026-03-26
       <link>https://ai.google.dev/gemini-api/docs/changelog#20260310</link>
       <description>Provider: Google
 Model ID: gemini-embedding-2-preview
-Announcement Date: 2026-03-10
+Deprecation Date: 2026-03-10
 First Observed: 2026-03-12
 Last Observed: 2026-03-12
 
@@ -1166,7 +1254,7 @@ mapping all modalities into a unified embedding space. To learn more, see Embedd
       <link>https://ai.google.dev/gemini-api/docs/changelog#20260310</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-lite-preview-09-2025
-Announcement Date: 2026-03-10
+Deprecation Date: 2026-03-10
 First Observed: 2026-03-12
 Last Observed: 2026-03-12
 
@@ -1180,7 +1268,7 @@ will be shut down on March 31, 2026.</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20260226</link>
       <description>Provider: Google
 Model ID: gemini-3-pro-preview
-Announcement Date: 2026-02-26
+Deprecation Date: 2026-02-26
 First Observed: 2026-02-27
 Last Observed: 2026-02-27
 
@@ -1194,7 +1282,7 @@ will be shut down March 9, 2026.</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20260218</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash
-Announcement Date: 2026-02-18
+Deprecation Date: 2026-02-18
 First Observed: 2026-02-20
 Last Observed: 2026-02-20
 
@@ -1207,7 +1295,7 @@ Deprecation announcement: The following models will be shut down June 1, 2026: g
       <link>https://ai.google.dev/gemini-api/docs/changelog#20260218</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-001
-Announcement Date: 2026-02-18
+Deprecation Date: 2026-02-18
 First Observed: 2026-02-20
 Last Observed: 2026-02-20
 
@@ -1220,7 +1308,7 @@ Deprecation announcement: The following models will be shut down June 1, 2026: g
       <link>https://ai.google.dev/gemini-api/docs/changelog#20260218</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-lite
-Announcement Date: 2026-02-18
+Deprecation Date: 2026-02-18
 First Observed: 2026-02-20
 Last Observed: 2026-02-20
 
@@ -1233,7 +1321,7 @@ Deprecation announcement: The following models will be shut down June 1, 2026: g
       <link>https://ai.google.dev/gemini-api/docs/changelog#20260218</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-lite-001
-Announcement Date: 2026-02-18
+Deprecation Date: 2026-02-18
 First Observed: 2026-02-20
 Last Observed: 2026-02-20
 
@@ -1246,7 +1334,7 @@ Deprecation announcement: The following models will be shut down June 1, 2026: g
       <link>https://ai.google.dev/gemini-api/docs/changelog#20260115</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-preview-09-25
-Announcement Date: 2026-01-15
+Deprecation Date: 2026-01-15
 First Observed: 2026-01-16
 Last Observed: 2026-01-16
 
@@ -1259,7 +1347,7 @@ Insufficient information provided in the deprecation notice to complete analysis
       <link>https://ai.google.dev/gemini-api/docs/changelog#20260115</link>
       <description>Provider: Google
 Model ID: imagen-4.0-generate-preview-06-06
-Announcement Date: 2026-01-15
+Deprecation Date: 2026-01-15
 First Observed: 2026-01-16
 Last Observed: 2026-01-16
 
@@ -1272,7 +1360,7 @@ Insufficient information provided in the deprecation notice. Unable to extract s
       <link>https://ai.google.dev/gemini-api/docs/changelog#20260115</link>
       <description>Provider: Google
 Model ID: imagen-4.0-ultra-generate-preview-06-06
-Announcement Date: 2026-01-15
+Deprecation Date: 2026-01-15
 First Observed: 2026-01-16
 Last Observed: 2026-01-16
 
@@ -1285,7 +1373,7 @@ Insufficient information provided in the deprecation notice to extract specific 
       <link>https://ai.google.dev/gemini-api/docs/changelog#20260115</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-image-preview
-Announcement Date: 2026-01-15
+Deprecation Date: 2026-01-15
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
 
@@ -1298,6 +1386,7 @@ The gemini-2.5-flash-image-preview model has been shut down.</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251111</link>
       <description>Provider: Google
 Model ID: veo-3.0-fast-generate-preview
+Deprecation Date: 2025-11-11
 Shutdown Date: 2025-11-12
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
@@ -1311,6 +1400,7 @@ November 12: veo-3.0-fast-generate-preview veo-3.0-generate-preview</description
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251111</link>
       <description>Provider: Google
 Model ID: veo-3.0-generate-preview
+Deprecation Date: 2025-11-11
 Shutdown Date: 2025-11-12
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
@@ -1324,7 +1414,7 @@ November 12: veo-3.0-fast-generate-preview veo-3.0-generate-preview</description
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251111</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-exp-image-generation
-Announcement Date: 2025-11-11
+Deprecation Date: 2025-11-11
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1337,7 +1427,7 @@ gemini-2.0-flash-exp-image-generation</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251111</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-preview-image-generation
-Announcement Date: 2025-11-11
+Deprecation Date: 2025-11-11
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1350,7 +1440,7 @@ gemini-2.0-flash-preview-image-generation</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251110</link>
       <description>Provider: Google
 Model ID: imagen-3.0-generate-002
-Announcement Date: 2025-11-10
+Deprecation Date: 2025-11-10
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1363,7 +1453,7 @@ The following model is shut down: imagen-3.0-generate-002 Use Imagen 4 instead. 
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-lite-preview-06-17
-Announcement Date: 2025-11-04
+Deprecation Date: 2025-11-04
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1376,7 +1466,7 @@ gemini-2.5-flash-lite-preview-06-17</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-preview-05-20
-Announcement Date: 2025-11-04
+Deprecation Date: 2025-11-04
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1389,6 +1479,7 @@ gemini-2.5-flash-preview-05-20</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-thinking-exp
+Deprecation Date: 2025-11-04
 Shutdown Date: 2025-12-02
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
@@ -1402,7 +1493,7 @@ December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-thinking-exp-01-21
-Announcement Date: 2025-11-04
+Deprecation Date: 2025-11-04
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1415,7 +1506,7 @@ gemini-2.0-flash-thinking-exp-01-21</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-thinking-exp-1219
-Announcement Date: 2025-11-04
+Deprecation Date: 2025-11-04
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1428,6 +1519,7 @@ gemini-2.0-flash-thinking-exp-1219</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
       <description>Provider: Google
 Model ID: gemini-2.5-pro-preview-03-25
+Deprecation Date: 2025-11-04
 Shutdown Date: 2025-12-02
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
@@ -1441,6 +1533,7 @@ December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
       <description>Provider: Google
 Model ID: gemini-2.5-pro-preview-05-06
+Deprecation Date: 2025-11-04
 Shutdown Date: 2025-12-02
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
@@ -1454,6 +1547,7 @@ December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
       <description>Provider: Google
 Model ID: gemini-2.5-pro-preview-06-05
+Deprecation Date: 2025-11-04
 Shutdown Date: 2025-12-02
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
@@ -1467,6 +1561,7 @@ December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-lite-preview
+Deprecation Date: 2025-11-04
 Shutdown Date: 2025-12-09
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1480,7 +1575,7 @@ December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-lite-preview-02-05
-Announcement Date: 2025-11-04
+Deprecation Date: 2025-11-04
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1493,6 +1588,7 @@ gemini-2.0-flash-lite-preview-02-05</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-exp
+Deprecation Date: 2025-11-04
 Shutdown Date: 2025-12-09
 First Observed: 2026-01-29
 Last Observed: 2026-01-29
@@ -1506,6 +1602,7 @@ December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
       <description>Provider: Google
 Model ID: gemini-2.0-pro-exp
+Deprecation Date: 2025-11-04
 Shutdown Date: 2025-12-09
 First Observed: 2026-01-29
 Last Observed: 2026-01-29
@@ -1519,6 +1616,7 @@ December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
       <description>Provider: Google
 Model ID: gemini-2.0-pro-exp-02-05
+Deprecation Date: 2025-11-04
 Shutdown Date: 2025-12-09
 First Observed: 2026-01-29
 Last Observed: 2026-01-29
@@ -1532,7 +1630,7 @@ December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251020</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-preview-native-audio-dialog
-Announcement Date: 2025-10-20
+Deprecation Date: 2025-10-20
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1545,7 +1643,7 @@ gemini-2.5-flash-preview-native-audio-dialog</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251020</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-exp-native-audio-thinking-dialog
-Announcement Date: 2025-10-20
+Deprecation Date: 2025-10-20
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1558,7 +1656,7 @@ gemini-2.5-flash-exp-native-audio-thinking-dialog</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251020</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-native-audio-preview-09-2025
-Announcement Date: 2025-10-20
+Deprecation Date: 2025-10-20
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1571,7 +1669,7 @@ You can use gemini-2.5-flash-native-audio-preview-09-2025 instead.</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251020</link>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-live-001
-Announcement Date: 2025-10-20
+Deprecation Date: 2025-10-20
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1584,7 +1682,7 @@ Deprecation announcement: Shut down for gemini-2.0-flash-live-001 and gemini-liv
       <link>https://ai.google.dev/gemini-api/docs/changelog#20251020</link>
       <description>Provider: Google
 Model ID: gemini-live-2.5-flash-preview
-Announcement Date: 2025-10-20
+Deprecation Date: 2025-10-20
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1597,7 +1695,7 @@ Deprecation announcement: Shut down for gemini-2.0-flash-live-001 and gemini-liv
       <link>https://ai.google.dev/gemini-api/docs/changelog#20250916</link>
       <description>Provider: Google
 Model ID: gemini-embedding-exp-03-07
-Announcement Date: 2025-09-16
+Deprecation Date: 2025-09-16
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1610,7 +1708,7 @@ gemini-embedding-exp-03-07 ( gemini-embedding-exp )</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20250916</link>
       <description>Provider: Google
 Model ID: gemini-embedding-exp
-Announcement Date: 2025-09-16
+Deprecation Date: 2025-09-16
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1623,7 +1721,7 @@ gemini-embedding-exp-03-07 ( gemini-embedding-exp )</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20250714</link>
       <description>Provider: Google
 Model ID: gemini-embedding-001
-Announcement Date: 2025-07-14
+Deprecation Date: 2025-07-14
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1637,7 +1735,7 @@ text embedding model. To learn more, see embeddings . The gemini-embedding-exp-0
       <link>https://ai.google.dev/gemini-api/docs/changelog#20250617</link>
       <description>Provider: Google
 Model ID: gemini-2.5-pro
-Announcement Date: 2025-06-17
+Deprecation Date: 2025-06-17
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1651,7 +1749,7 @@ model, now with adaptive thinking. To learn more, see Gemini 2.5 Pro and Thinkin
       <link>https://ai.google.dev/gemini-api/docs/changelog#20250617</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash
-Announcement Date: 2025-06-17
+Deprecation Date: 2025-06-17
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1665,7 +1763,7 @@ more, see Gemini 2.5 Flash . gemini-2.5-flash-preview-04-17 will be deprecated o
       <link>https://ai.google.dev/gemini-api/docs/changelog#20250617</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-preview-04-17
-Announcement Date: 2025-06-17
+Deprecation Date: 2025-06-17
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1679,7 +1777,7 @@ more, see Gemini 2.5 Flash . gemini-2.5-flash-preview-04-17 will be deprecated o
       <link>https://ai.google.dev/gemini-api/docs/changelog#20250527</link>
       <description>Provider: Google
 Model ID: gemini-1.5-flash
-Announcement Date: 2025-05-27
+Deprecation Date: 2025-05-27
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1694,7 +1792,7 @@ SeeFine tuning with the Gemini API.</description>
       <link>https://ai.google.dev/gemini-api/docs/changelog#20250218</link>
       <description>Provider: Google
 Model ID: gemini-1.0-pro
-Announcement Date: 2025-02-18
+Deprecation Date: 2025-02-18
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1707,7 +1805,7 @@ Gemini 1.0 Pro is no longer supported. For the list of supported models, seeGemi
       <link>https://ai.google.dev/gemini-api/docs/changelog#20240712</link>
       <description>Provider: Google
 Model ID: gemini-1.0-pro-vision
-Announcement Date: 2024-07-12
+Deprecation Date: 2024-07-12
 First Observed: 2025-12-05
 Last Observed: 2025-12-05
 
@@ -1720,6 +1818,7 @@ Support for Gemini 1.0 Pro Vision removed from Google AI services and tools.</de
       <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#haiku-3</link>
       <description>Provider: Google Vertex
 Model ID: claude-3-haiku
+Deprecation Date: 2026-02-23
 Shutdown Date: 2026-08-23
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1736,6 +1835,7 @@ mimicking human interactions. Model ID claude-3-haiku Launch stage deprecated Su
       <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#haiku-3-5</link>
       <description>Provider: Google Vertex
 Model ID: claude-3-5-haiku
+Deprecation Date: 2026-01-05
 Shutdown Date: 2026-07-05
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1753,6 +1853,7 @@ optimal for use cases where speed and affordability matter. View model card in M
       <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-3-7</link>
       <description>Provider: Google Vertex
 Model ID: claude-3-7-sonnet
+Deprecation Date: 2025-11-11
 Shutdown Date: 2026-05-11
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1769,6 +1870,7 @@ software engineering tasks and agentic capabilities. Model ID claude-3-7-sonnet 
       <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-3-5-v2</link>
       <description>Provider: Google Vertex
 Model ID: claude-3-5-sonnet-v2
+Deprecation Date: 2025-08-20
 Shutdown Date: 2026-02-19
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1785,6 +1887,7 @@ software engineering tasks and agentic capabilities. Try in Vertex AI Model ID c
       <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-3-5</link>
       <description>Provider: Google Vertex
 Model ID: claude-3-5-sonnet
+Deprecation Date: 2025-08-20
 Shutdown Date: 2026-02-19
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1802,6 +1905,7 @@ speed and cost of Anthropic's mid-tier model, Claude 3 Sonnet. Model ID claude-3
       <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#jamba-1-5-large</link>
       <description>Provider: Google Vertex
 Model ID: jamba-1.5-large
+Deprecation Date: 2025-08-27
 Shutdown Date: 2026-02-27
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1817,6 +1921,7 @@ throughput, and low cost. View model card in Model Garden Model ID jamba-1.5-lar
       <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#jamba-1-5</link>
       <description>Provider: Google Vertex
 Model ID: jamba-1.5-mini
+Deprecation Date: 2025-08-27
 Shutdown Date: 2026-02-27
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1832,6 +1937,7 @@ and low cost. View model card in Model Garden Model ID jamba-1.5-mini Launch sta
       <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#claude-opus</link>
       <description>Provider: Google Vertex
 Model ID: claude-3-opus
+Deprecation Date: 2025-06-30
 Shutdown Date: 2025-08-01
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1849,6 +1955,7 @@ is optimized for the following use cases: Task automation, such as interactive c
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: amazon.nova-premier-v1
+Deprecation Date: 2026-03-13
 Shutdown Date: 2026-09-14
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1862,6 +1969,7 @@ Model ID amazon.nova-premier-v1. (Amazon Nova Premier). entered legacy status on
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: amazon.nova-sonic-v1
+Deprecation Date: 2026-03-13
 Shutdown Date: 2026-09-14
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1875,6 +1983,7 @@ Model ID amazon.nova-sonic-v1. (Amazon Nova Sonic). entered legacy status on 202
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: amazon.titan-image-generator-v2:0
+Deprecation Date: 2025-12-30
 Shutdown Date: 2026-06-30
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1888,6 +1997,7 @@ Model ID amazon.titan-image-generator-v2:0. (Titan Image Generator G1 v2). enter
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: anthropic.claude-3-haiku-20240307-v1:0
+Deprecation Date: 2026-03-10
 Shutdown Date: 2026-09-10
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1901,6 +2011,7 @@ Model ID anthropic.claude-3-haiku-20240307-v1:0. (Claude 3 Haiku). entered legac
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: anthropic.claude-3-sonnet-20240229-v1:0
+Deprecation Date: 2026-01-30
 Shutdown Date: 2026-07-30
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1914,6 +2025,7 @@ Model ID anthropic.claude-3-sonnet-20240229-v1:0. (Claude 3 Sonnet). entered leg
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: anthropic.claude-3-5-sonnet-20240620-v1:0
+Deprecation Date: 2025-08-25
 Shutdown Date: 2026-03-01
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1927,6 +2039,7 @@ Model ID anthropic.claude-3-5-sonnet-20240620-v1:0. (Claude 3.5 Sonnet v1). ente
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: anthropic.claude-3-5-sonnet-20241022-v2:0
+Deprecation Date: 2025-08-25
 Shutdown Date: 2026-03-01
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1940,6 +2053,7 @@ Model ID anthropic.claude-3-5-sonnet-20241022-v2:0. (Claude 3.5 Sonnet v2). ente
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: anthropic.claude-3-7-sonnet-20250219-v1:0
+Deprecation Date: 2025-10-28
 Shutdown Date: 2026-04-28
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1953,6 +2067,7 @@ Model ID anthropic.claude-3-7-sonnet-20250219-v1:0. (Claude 3.7 Sonnet). entered
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: anthropic.claude-3-5-haiku-20241022-v1:0
+Deprecation Date: 2025-12-19
 Shutdown Date: 2026-06-19
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1966,6 +2081,7 @@ Model ID anthropic.claude-3-5-haiku-20241022-v1:0. (Claude 3.5 Haiku). entered l
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: anthropic.claude-opus-4-20250514-v1:0
+Deprecation Date: 2025-10-01
 Shutdown Date: 2026-05-31
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1979,6 +2095,7 @@ Model ID anthropic.claude-opus-4-20250514-v1:0. (Claude Opus 4). entered legacy 
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: cohere.command-r-plus-v1:0
+Deprecation Date: 2026-02-19
 Shutdown Date: 2026-08-19
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -1992,6 +2109,7 @@ Model ID cohere.command-r-plus-v1:0. (Command R+). entered legacy status on 2026
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: cohere.command-r-v1:0
+Deprecation Date: 2026-02-19
 Shutdown Date: 2026-08-19
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -2005,6 +2123,7 @@ Model ID cohere.command-r-v1:0. (Command R). entered legacy status on 2026-02-19
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: meta.llama3-1-405b-instruct-v1:0
+Deprecation Date: 2026-01-07
 Shutdown Date: 2026-07-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -2018,6 +2137,7 @@ Model ID meta.llama3-1-405b-instruct-v1:0. (Llama 3.1 405B Instruct). entered le
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: meta.llama3-2-1b-instruct-v1:0
+Deprecation Date: 2026-01-07
 Shutdown Date: 2026-07-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -2031,6 +2151,7 @@ Model ID meta.llama3-2-1b-instruct-v1:0. (Llama 3.2 1B Instruct). entered legacy
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: meta.llama3-2-3b-instruct-v1:0
+Deprecation Date: 2026-01-07
 Shutdown Date: 2026-07-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -2044,6 +2165,7 @@ Model ID meta.llama3-2-3b-instruct-v1:0. (Llama 3.2 3B Instruct). entered legacy
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: meta.llama3-2-11b-instruct-v1:0
+Deprecation Date: 2026-01-07
 Shutdown Date: 2026-07-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -2057,6 +2179,7 @@ Model ID meta.llama3-2-11b-instruct-v1:0. (Llama 3.2 11B Instruct). entered lega
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: meta.llama3-2-90b-instruct-v1:0
+Deprecation Date: 2026-01-07
 Shutdown Date: 2026-07-07
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -2070,12 +2193,13 @@ Model ID meta.llama3-2-90b-instruct-v1:0. (Llama 3.2 90B Instruct). entered lega
       <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
       <description>Provider: Cohere
 Model ID: embed-english-v2.0
+Deprecation Date: 2026-04-04
 Shutdown Date: 2026-04-04
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-03-28
 
 Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
-      <pubDate>Thu, 26 Mar 2026 18:38:33 GMT</pubDate>
+      <pubDate>Sat, 28 Mar 2026 00:51:40 GMT</pubDate>
       <guid isPermaLink="false">Cohere-embed-english-v2.0-2026-04-04-e3b0c442</guid>
     </item>
     <item>
@@ -2083,12 +2207,13 @@ Effective April 4th, 2026, the following models will be retired: * `embed-englis
       <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
       <description>Provider: Cohere
 Model ID: embed-english-light-v2.0
+Deprecation Date: 2026-04-04
 Shutdown Date: 2026-04-04
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-03-28
 
 Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
-      <pubDate>Thu, 26 Mar 2026 18:38:33 GMT</pubDate>
+      <pubDate>Sat, 28 Mar 2026 00:51:40 GMT</pubDate>
       <guid isPermaLink="false">Cohere-embed-english-light-v2.0-2026-04-04-e3b0c442</guid>
     </item>
     <item>
@@ -2096,12 +2221,13 @@ Effective April 4th, 2026, the following models will be retired: * `embed-englis
       <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
       <description>Provider: Cohere
 Model ID: embed-multilingual-v2.0
+Deprecation Date: 2026-04-04
 Shutdown Date: 2026-04-04
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-03-28
 
 Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
-      <pubDate>Thu, 26 Mar 2026 18:38:33 GMT</pubDate>
+      <pubDate>Sat, 28 Mar 2026 00:51:40 GMT</pubDate>
       <guid isPermaLink="false">Cohere-embed-multilingual-v2.0-2026-04-04-e3b0c442</guid>
     </item>
     <item>
@@ -2109,12 +2235,13 @@ Effective April 4th, 2026, the following models will be retired: * `embed-englis
       <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
       <description>Provider: Cohere
 Model ID: c4ai-aya-expanse-8b
+Deprecation Date: 2026-04-04
 Shutdown Date: 2026-04-04
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-03-28
 
 Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
-      <pubDate>Thu, 26 Mar 2026 18:38:33 GMT</pubDate>
+      <pubDate>Sat, 28 Mar 2026 00:51:40 GMT</pubDate>
       <guid isPermaLink="false">Cohere-c4ai-aya-expanse-8b-2026-04-04-e3b0c442</guid>
     </item>
     <item>
@@ -2122,12 +2249,13 @@ Effective April 4th, 2026, the following models will be retired: * `embed-englis
       <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
       <description>Provider: Cohere
 Model ID: c4ai-aya-vision-8b
+Deprecation Date: 2026-04-04
 Shutdown Date: 2026-04-04
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-03-28
 
 Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
-      <pubDate>Thu, 26 Mar 2026 18:38:33 GMT</pubDate>
+      <pubDate>Sat, 28 Mar 2026 00:51:40 GMT</pubDate>
       <guid isPermaLink="false">Cohere-c4ai-aya-vision-8b-2026-04-04-e3b0c442</guid>
     </item>
     <item>
@@ -2135,6 +2263,7 @@ Effective April 4th, 2026, the following models will be retired: * `embed-englis
       <link>https://docs.cohere.com/docs/deprecations#2024-12-02-rerank-v2-0</link>
       <description>Provider: Cohere
 Model ID: rerank-english-v2.0
+Deprecation Date: 2024-12-02
 Shutdown Date: 2025-04-30
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -2148,6 +2277,7 @@ On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the de
       <link>https://docs.cohere.com/docs/deprecations#2024-12-02-rerank-v2-0</link>
       <description>Provider: Cohere
 Model ID: rerank-multilingual-v2.0
+Deprecation Date: 2024-12-02
 Shutdown Date: 2025-04-30
 First Observed: 2026-03-26
 Last Observed: 2026-03-26
@@ -2161,6 +2291,7 @@ On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the de
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: E.L.Y.Crop-Protection
+Deprecation Date: 2026-03-16
 Shutdown Date: 2026-07-31
 First Observed: 2026-03-25
 Last Observed: 2026-03-25
@@ -2174,6 +2305,7 @@ Bayer</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Cohere-rerank-v3.5
+Deprecation Date: 2026-01-14
 Shutdown Date: 2026-05-14
 First Observed: 2026-01-14
 Last Observed: 2026-03-26
@@ -2187,6 +2319,7 @@ Cohere</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Cohere-command-r-08-2024
+Deprecation Date: 2026-02-12
 Shutdown Date: 2026-05-12
 First Observed: 2026-02-13
 Last Observed: 2026-02-13
@@ -2200,6 +2333,7 @@ Cohere</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Cohere-command-r-plus-08-2024
+Deprecation Date: 2026-02-12
 Shutdown Date: 2026-05-12
 First Observed: 2026-02-13
 Last Observed: 2026-02-13
@@ -2213,6 +2347,7 @@ Cohere</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: deci-decidiffusion-v1-0
+Deprecation Date: 2026-03-16
 Shutdown Date: 2026-07-31
 First Observed: 2026-03-25
 Last Observed: 2026-03-25
@@ -2226,6 +2361,7 @@ Deci AI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Meta-Llama-3.1-405B-Instruct
+Deprecation Date: 2026-02-13
 Shutdown Date: 2026-06-13
 First Observed: 2026-02-25
 Last Observed: 2026-02-25
@@ -2239,6 +2375,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Meta-Llama-3.1-8B-Instruct
+Deprecation Date: 2026-02-13
 Shutdown Date: 2026-06-13
 First Observed: 2026-03-25
 Last Observed: 2026-03-25
@@ -2252,6 +2389,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Meta-Llama-3.1-8B
+Deprecation Date: 2026-02-13
 Shutdown Date: 2026-06-13
 First Observed: 2026-02-25
 Last Observed: 2026-02-25
@@ -2265,6 +2403,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Llama-3.2-11B-Vision-Instruct
+Deprecation Date: 2026-02-13
 Shutdown Date: 2026-06-13
 First Observed: 2026-02-25
 Last Observed: 2026-03-26
@@ -2278,6 +2417,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Llama-3.2-90B-Vision-Instruct
+Deprecation Date: 2026-02-13
 Shutdown Date: 2026-06-13
 First Observed: 2026-02-25
 Last Observed: 2026-03-26
@@ -2291,6 +2431,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: financial-reports-analysis
+Deprecation Date: 2026-03-16
 Shutdown Date: 2026-07-31
 First Observed: 2026-03-25
 Last Observed: 2026-03-25
@@ -2304,6 +2445,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: financial-reports-analysis-v2
+Deprecation Date: 2026-03-16
 Shutdown Date: 2026-07-31
 First Observed: 2026-03-25
 Last Observed: 2026-03-25
@@ -2317,6 +2459,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: supply-chain-trade-regulations
+Deprecation Date: 2026-03-16
 Shutdown Date: 2026-07-31
 First Observed: 2026-03-25
 Last Observed: 2026-03-25
@@ -2330,6 +2473,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: supply-chain-trade-regulations-v2
+Deprecation Date: 2026-03-16
 Shutdown Date: 2026-07-31
 First Observed: 2026-03-25
 Last Observed: 2026-03-25
@@ -2343,6 +2487,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Kimi-k2-thinking
+Deprecation Date: 2026-02-23
 Shutdown Date: 2026-03-29
 First Observed: 2026-02-25
 Last Observed: 2026-02-25
@@ -2356,6 +2501,7 @@ Moonshot AI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: AI21-Jamba-1.5-Large
+Deprecation Date: 2025-08-01
 Shutdown Date: 2025-08-01
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2369,6 +2515,7 @@ AI21 Labs</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: AI21-Jamba-1.5-Mini
+Deprecation Date: 2025-08-01
 Shutdown Date: 2025-08-01
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2382,6 +2529,7 @@ AI21 Labs</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Bria-2.3-Fast
+Deprecation Date: 2025-10-31
 Shutdown Date: 2025-10-31
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2395,6 +2543,7 @@ Bria</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Cohere-rerank-v3-english
+Deprecation Date: 2025-06-30
 Shutdown Date: 2025-06-30
 First Observed: 2026-02-01
 Last Observed: 2026-03-26
@@ -2408,6 +2557,7 @@ Cohere</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Cohere-rerank-v3-multilingual
+Deprecation Date: 2025-06-30
 Shutdown Date: 2025-06-30
 First Observed: 2026-02-01
 Last Observed: 2026-03-26
@@ -2421,6 +2571,7 @@ Cohere</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: jais-30b-chat
+Deprecation Date: 2026-01-30
 Shutdown Date: 2026-01-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2434,6 +2585,7 @@ Core42</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: DeepSeek-V3
+Deprecation Date: 2025-08-31
 Shutdown Date: 2025-08-31
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2447,6 +2599,7 @@ DeepSeek</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Gretel-Navigator-Tabular
+Deprecation Date: 2025-09-16
 Shutdown Date: 2025-09-16
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2460,6 +2613,7 @@ Gretel</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Llama-2-13b
+Deprecation Date: 2025-06-30
 Shutdown Date: 2025-06-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2473,6 +2627,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Llama-2-13b-chat
+Deprecation Date: 2025-06-30
 Shutdown Date: 2025-06-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2486,6 +2641,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Llama-2-70b
+Deprecation Date: 2025-06-30
 Shutdown Date: 2025-06-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2499,6 +2655,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Llama-2-70b-chat
+Deprecation Date: 2025-06-30
 Shutdown Date: 2025-06-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2512,6 +2669,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Llama-2-7b
+Deprecation Date: 2025-06-30
 Shutdown Date: 2025-06-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2525,6 +2683,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Llama-2-7b-chat
+Deprecation Date: 2025-06-30
 Shutdown Date: 2025-06-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2538,6 +2697,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Meta-Llama-3-70B-Instruct
+Deprecation Date: 2025-06-30
 Shutdown Date: 2025-06-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2551,6 +2711,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Meta-Llama-3-8B-Instruct
+Deprecation Date: 2025-06-30
 Shutdown Date: 2025-06-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2564,6 +2725,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Meta-Llama-3.1-70B-Instruct
+Deprecation Date: 2025-06-30
 Shutdown Date: 2025-06-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2577,6 +2739,7 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: MAI-DS-R1
+Deprecation Date: 2026-02-27
 Shutdown Date: 2026-02-27
 First Observed: 2026-03-06
 Last Observed: 2026-03-26
@@ -2590,6 +2753,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Phi-3-medium-4k-instruct
+Deprecation Date: 2025-08-30
 Shutdown Date: 2025-08-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2603,6 +2767,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Phi-3-medium-128k-instruct
+Deprecation Date: 2025-08-30
 Shutdown Date: 2025-08-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2616,6 +2781,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Phi-3-mini-4k-instruct
+Deprecation Date: 2025-08-30
 Shutdown Date: 2025-08-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2629,6 +2795,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Phi-3-mini-128k-instruct
+Deprecation Date: 2025-08-30
 Shutdown Date: 2025-08-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2642,6 +2809,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Phi-3-small-8k-instruct
+Deprecation Date: 2025-08-30
 Shutdown Date: 2025-08-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2655,6 +2823,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Phi-3-small-128k-instruct
+Deprecation Date: 2025-08-30
 Shutdown Date: 2025-08-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2668,6 +2837,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Phi-3.5-mini-instruct
+Deprecation Date: 2025-08-30
 Shutdown Date: 2025-08-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2681,6 +2851,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Phi-3.5-MoE-instruct
+Deprecation Date: 2025-08-30
 Shutdown Date: 2025-08-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2694,6 +2865,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Phi-3.5-vision-instruct
+Deprecation Date: 2025-08-30
 Shutdown Date: 2025-08-30
 First Observed: 2026-02-01
 Last Observed: 2026-02-01
@@ -2707,6 +2879,7 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Mistral-Nemo
+Deprecation Date: 2026-01-30
 Shutdown Date: 2026-01-30
 First Observed: 2026-02-01
 Last Observed: 2026-03-26
@@ -2720,6 +2893,7 @@ Mistral AI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Mistral-large-2411
+Deprecation Date: 2026-01-30
 Shutdown Date: 2026-01-30
 First Observed: 2026-02-01
 Last Observed: 2026-03-26
@@ -2733,6 +2907,7 @@ Mistral AI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Mistral-ocr-2503
+Deprecation Date: 2026-01-30
 Shutdown Date: 2026-01-30
 First Observed: 2026-02-01
 Last Observed: 2026-03-26
@@ -2746,6 +2921,7 @@ Mistral AI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Mistral-small
+Deprecation Date: 2025-07-31
 Shutdown Date: 2025-07-31
 First Observed: 2026-02-01
 Last Observed: 2026-03-26
@@ -2759,6 +2935,7 @@ Mistral AI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Mistral-large-2407
+Deprecation Date: 2025-05-13
 Shutdown Date: 2025-05-13
 First Observed: 2026-02-01
 Last Observed: 2026-03-26
@@ -2772,6 +2949,7 @@ Mistral AI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Mistral-large
+Deprecation Date: 2025-04-15
 Shutdown Date: 2025-04-15
 First Observed: 2026-02-01
 Last Observed: 2026-03-26
