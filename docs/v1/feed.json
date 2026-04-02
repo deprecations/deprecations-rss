@@ -4072,22 +4072,91 @@
       ]
     },
     {
-      "id": "azure-kimi-k2-thinking",
+      "id": "azure-grok-4-fast-reasoning",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Kimi-k2-thinking",
+      "title": "Azure: grok-4-fast-reasoning",
       "content_text": "",
-      "date_published": "2026-02-25T04:13:37.513762+00:00",
+      "date_published": "2026-04-02T04:31:38.854105+00:00",
       "_deprecation": {
         "provider": "Azure",
-        "model_id": "Kimi-k2-thinking",
-        "shutdown_date": "2026-03-29",
-        "deprecation_date": "2026-02-23",
-        "announcement_date": "2026-02-25",
+        "model_id": "grok-4-fast-reasoning",
+        "shutdown_date": "2026-05-01",
+        "deprecation_date": "2026-03-26",
+        "announcement_date": "2026-04-02",
         "replacement_models": [
-          "Kimi-k2.5"
+          "grok-4-1-fast-reasoning"
         ],
-        "first_observed": "2026-02-25",
-        "last_observed": "2026-02-25"
+        "first_observed": "2026-04-02",
+        "last_observed": "2026-04-02"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-grok-4-fast-non-reasoning",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: grok-4-fast-non-reasoning",
+      "content_text": "",
+      "date_published": "2026-04-02T04:31:38.854209+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "grok-4-fast-non-reasoning",
+        "shutdown_date": "2026-05-01",
+        "deprecation_date": "2026-03-26",
+        "announcement_date": "2026-04-02",
+        "replacement_models": [
+          "grok-4-1-fast-non-reasoning"
+        ],
+        "first_observed": "2026-04-02",
+        "last_observed": "2026-04-02"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-grok-3-mini",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: grok-3-mini",
+      "content_text": "",
+      "date_published": "2026-04-02T04:31:38.854311+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "grok-3-mini",
+        "shutdown_date": "2026-05-01",
+        "deprecation_date": "2026-03-26",
+        "announcement_date": "2026-04-02",
+        "replacement_models": [
+          "grok-4-1-fast-reasoning"
+        ],
+        "first_observed": "2026-04-02",
+        "last_observed": "2026-04-02"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-grok-3",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: grok-3",
+      "content_text": "",
+      "date_published": "2026-04-02T04:31:38.854418+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "grok-3",
+        "shutdown_date": "2026-05-01",
+        "deprecation_date": "2026-03-26",
+        "announcement_date": "2026-04-02",
+        "replacement_models": [
+          "grok-4"
+        ],
+        "first_observed": "2026-04-02",
+        "last_observed": "2026-04-02"
       },
       "tags": [
         "Azure",
@@ -4841,6 +4910,29 @@
       "tags": [
         "Azure",
         "shutdown-2025"
+      ]
+    },
+    {
+      "id": "azure-kimi-k2-thinking",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Kimi-k2-thinking",
+      "content_text": "",
+      "date_published": "2026-04-02T04:31:38.857482+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Kimi-k2-thinking",
+        "shutdown_date": "2026-03-29",
+        "deprecation_date": "2026-03-29",
+        "announcement_date": "2026-02-25",
+        "replacement_models": [
+          "Kimi-k2.5"
+        ],
+        "first_observed": "2026-02-25",
+        "last_observed": "2026-04-02"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
       ]
     }
   ]

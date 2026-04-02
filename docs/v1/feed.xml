@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Mon, 30 Mar 2026 18:13:39 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 04:31:38 GMT</lastBuildDate>
     <item>
       <title>OpenAI: sora-2</title>
       <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
@@ -2561,18 +2561,60 @@ Microsoft</description>
       <guid isPermaLink="false">Azure-supply-chain-trade-regulations-v2-2026-07-31-e3b0c442</guid>
     </item>
     <item>
-      <title>Azure: Kimi-k2-thinking</title>
+      <title>Azure: grok-4-fast-reasoning</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
-Model ID: Kimi-k2-thinking
-Deprecation Date: 2026-02-23
-Shutdown Date: 2026-03-29
-First Observed: 2026-02-25
-Last Observed: 2026-02-25
+Model ID: grok-4-fast-reasoning
+Deprecation Date: 2026-03-26
+Shutdown Date: 2026-05-01
+First Observed: 2026-04-02
+Last Observed: 2026-04-02
 
-Moonshot AI</description>
-      <pubDate>Wed, 25 Feb 2026 04:13:37 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Kimi-k2-thinking-2026-03-29-e3b0c442</guid>
+xAI</description>
+      <pubDate>Thu, 02 Apr 2026 04:31:38 GMT</pubDate>
+      <guid isPermaLink="false">Azure-grok-4-fast-reasoning-2026-05-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: grok-4-fast-non-reasoning</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: grok-4-fast-non-reasoning
+Deprecation Date: 2026-03-26
+Shutdown Date: 2026-05-01
+First Observed: 2026-04-02
+Last Observed: 2026-04-02
+
+xAI</description>
+      <pubDate>Thu, 02 Apr 2026 04:31:38 GMT</pubDate>
+      <guid isPermaLink="false">Azure-grok-4-fast-non-reasoning-2026-05-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: grok-3-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: grok-3-mini
+Deprecation Date: 2026-03-26
+Shutdown Date: 2026-05-01
+First Observed: 2026-04-02
+Last Observed: 2026-04-02
+
+xAI</description>
+      <pubDate>Thu, 02 Apr 2026 04:31:38 GMT</pubDate>
+      <guid isPermaLink="false">Azure-grok-3-mini-2026-05-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: grok-3</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: grok-3
+Deprecation Date: 2026-03-26
+Shutdown Date: 2026-05-01
+First Observed: 2026-04-02
+Last Observed: 2026-04-02
+
+xAI</description>
+      <pubDate>Thu, 02 Apr 2026 04:31:38 GMT</pubDate>
+      <guid isPermaLink="false">Azure-grok-3-2026-05-01-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: AI21-Jamba-1.5-Large</title>
@@ -3035,6 +3077,20 @@ Last Observed: 2026-03-26
 Mistral AI</description>
       <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
       <guid isPermaLink="false">Azure-Mistral-large-2025-04-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Kimi-k2-thinking</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Kimi-k2-thinking
+Deprecation Date: 2026-03-29
+Shutdown Date: 2026-03-29
+First Observed: 2026-02-25
+Last Observed: 2026-04-02
+
+Moonshot AI</description>
+      <pubDate>Thu, 02 Apr 2026 04:31:38 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Kimi-k2-thinking-2026-03-29-e3b0c442</guid>
     </item>
   </channel>
 </rss>

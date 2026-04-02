@@ -2824,19 +2824,67 @@
   },
   {
     "provider": "Azure",
-    "model_id": "Kimi-k2-thinking",
-    "announcement_date": "2026-02-25",
-    "shutdown_date": "2026-03-29",
+    "model_id": "grok-4-fast-reasoning",
+    "announcement_date": "2026-04-02",
+    "shutdown_date": "2026-05-01",
+    "deprecation_date": "2026-03-26",
     "replacement_models": [
-      "Kimi-k2.5"
+      "grok-4-1-fast-reasoning"
     ],
-    "deprecation_context": "Moonshot AI",
+    "deprecation_context": "xAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "297892b7af1b676a",
-    "scraped_at": "2026-02-25T04:13:37.513762+00:00",
-    "first_observed": "2026-02-25",
-    "last_observed": "2026-02-25",
-    "deprecation_date": "2026-02-23"
+    "content_hash": "e923c64dfc3e61ba",
+    "scraped_at": "2026-04-02T04:31:38.854105+00:00",
+    "first_observed": "2026-04-02",
+    "last_observed": "2026-04-02"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "grok-4-fast-non-reasoning",
+    "announcement_date": "2026-04-02",
+    "shutdown_date": "2026-05-01",
+    "deprecation_date": "2026-03-26",
+    "replacement_models": [
+      "grok-4-1-fast-non-reasoning"
+    ],
+    "deprecation_context": "xAI",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "94cc449c803dfa6f",
+    "scraped_at": "2026-04-02T04:31:38.854209+00:00",
+    "first_observed": "2026-04-02",
+    "last_observed": "2026-04-02"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "grok-3-mini",
+    "announcement_date": "2026-04-02",
+    "shutdown_date": "2026-05-01",
+    "deprecation_date": "2026-03-26",
+    "replacement_models": [
+      "grok-4-1-fast-reasoning"
+    ],
+    "deprecation_context": "xAI",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "d7ab9a4749aef6e5",
+    "scraped_at": "2026-04-02T04:31:38.854311+00:00",
+    "first_observed": "2026-04-02",
+    "last_observed": "2026-04-02"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "grok-3",
+    "announcement_date": "2026-04-02",
+    "shutdown_date": "2026-05-01",
+    "deprecation_date": "2026-03-26",
+    "replacement_models": [
+      "grok-4"
+    ],
+    "deprecation_context": "xAI",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "5b9cf8a47b820d60",
+    "scraped_at": "2026-04-02T04:31:38.854418+00:00",
+    "first_observed": "2026-04-02",
+    "last_observed": "2026-04-02"
   },
   {
     "provider": "Azure",
@@ -3355,5 +3403,21 @@
     "first_observed": "2026-02-01",
     "last_observed": "2026-03-26",
     "deprecation_date": "2025-04-15"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Kimi-k2-thinking",
+    "announcement_date": "2026-02-25",
+    "shutdown_date": "2026-03-29",
+    "deprecation_date": "2026-03-29",
+    "replacement_models": [
+      "Kimi-k2.5"
+    ],
+    "deprecation_context": "Moonshot AI",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "887fd0e3adc59b85",
+    "scraped_at": "2026-04-02T04:31:38.857482+00:00",
+    "first_observed": "2026-02-25",
+    "last_observed": "2026-04-02"
   }
 ]
