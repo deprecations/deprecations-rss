@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 02 Apr 2026 04:31:38 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 04:35:26 GMT</lastBuildDate>
     <item>
       <title>OpenAI: sora-2</title>
       <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
@@ -1951,32 +1951,74 @@ is optimized for the following use cases: Task automation, such as interactive c
       <guid isPermaLink="false">Google_Vertex-claude-3-opus-2025-08-01-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: amazon.nova-premier-v1</title>
+      <title>AWS Bedrock: amazon.nova-canvas-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: amazon.nova-premier-v1
-Deprecation Date: 2026-03-13
-Shutdown Date: 2026-09-14
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Model ID: amazon.nova-canvas-v1:0
+Deprecation Date: 2026-03-30
+Shutdown Date: 2026-09-30
+First Observed: 2026-04-07
+Last Observed: 2026-04-07
 
-Model ID amazon.nova-premier-v1. (Amazon Nova Premier). entered legacy status on 2026-03-13. and will reach end-of-life on 2026-09-14.</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-amazon.nova-premier-v1-2026-09-14-e3b0c442</guid>
+Model ID amazon.nova-canvas-v1:0. (Nova Canvas). entered legacy status on 2026-03-30. and will reach end-of-life on 2026-09-30.</description>
+      <pubDate>Tue, 07 Apr 2026 04:35:26 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-amazon.nova-canvas-v10-2026-09-30-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: amazon.nova-sonic-v1</title>
+      <title>AWS Bedrock: amazon.nova-reel-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: amazon.nova-sonic-v1
+Model ID: amazon.nova-reel-v1:0
+Deprecation Date: 2026-03-30
+Shutdown Date: 2026-09-30
+First Observed: 2026-04-07
+Last Observed: 2026-04-07
+
+Model ID amazon.nova-reel-v1:0. (Nova Reel). entered legacy status on 2026-03-30. and will reach end-of-life on 2026-09-30.</description>
+      <pubDate>Tue, 07 Apr 2026 04:35:26 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-amazon.nova-reel-v10-2026-09-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: amazon.nova-reel-v1:1</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: amazon.nova-reel-v1:1
+Deprecation Date: 2026-03-30
+Shutdown Date: 2026-09-30
+First Observed: 2026-04-07
+Last Observed: 2026-04-07
+
+Model ID amazon.nova-reel-v1:1. (Nova Reel). entered legacy status on 2026-03-30. and will reach end-of-life on 2026-09-30.</description>
+      <pubDate>Tue, 07 Apr 2026 04:35:26 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-amazon.nova-reel-v11-2026-09-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: amazon.nova-premier-v1:0</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: amazon.nova-premier-v1:0
 Deprecation Date: 2026-03-13
 Shutdown Date: 2026-09-14
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
+First Observed: 2026-04-07
+Last Observed: 2026-04-07
 
-Model ID amazon.nova-sonic-v1. (Amazon Nova Sonic). entered legacy status on 2026-03-13. and will reach end-of-life on 2026-09-14.</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-amazon.nova-sonic-v1-2026-09-14-e3b0c442</guid>
+Model ID amazon.nova-premier-v1:0. (Nova Premier). entered legacy status on 2026-03-13. and will reach end-of-life on 2026-09-14.</description>
+      <pubDate>Tue, 07 Apr 2026 04:35:26 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-amazon.nova-premier-v10-2026-09-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: amazon.nova-sonic-v1:0</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: amazon.nova-sonic-v1:0
+Deprecation Date: 2026-03-13
+Shutdown Date: 2026-09-14
+First Observed: 2026-04-07
+Last Observed: 2026-04-07
+
+Model ID amazon.nova-sonic-v1:0. (Nova Sonic). entered legacy status on 2026-03-13. and will reach end-of-life on 2026-09-14.</description>
+      <pubDate>Tue, 07 Apr 2026 04:35:26 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-amazon.nova-sonic-v10-2026-09-14-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: amazon.titan-image-generator-v2:0</title>
@@ -2025,28 +2067,28 @@ Model ID anthropic.claude-3-sonnet-20240229-v1:0. (Claude 3 Sonnet). entered leg
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: anthropic.claude-3-5-sonnet-20240620-v1:0
-Deprecation Date: 2025-08-25
-Shutdown Date: 2026-03-01
+Deprecation Date: 2026-01-30
+Shutdown Date: 2026-06-01
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-04-07
 
-Model ID anthropic.claude-3-5-sonnet-20240620-v1:0. (Claude 3.5 Sonnet v1). entered legacy status on 2025-08-25. and will reach end-of-life on 2026-03-01. Additional regional schedule: Model ID anthropic.claude-3-5-sonnet-20240620-v1:0. (Claude 3.5 Sonnet v1). entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30. Additional regional schedule: Model ID anthropic.claude-3-5-sonnet-20240620-v1:0. (Claude 3.5 Sonnet v1). entered legacy status on 2025-08-25. and will reach en...</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-3-5-sonnet-20240620-v10-2026-03-01-e3b0c442</guid>
+Model ID anthropic.claude-3-5-sonnet-20240620-v1:0. (Claude 3.5 Sonnet). entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30. Additional regional schedule: Model ID anthropic.claude-3-5-sonnet-20240620-v1:0. (Claude 3.5 Sonnet). entered legacy status on 2025-08-25. and will reach end-of-life on 2026-06-01.</description>
+      <pubDate>Tue, 07 Apr 2026 04:35:26 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-3-5-sonnet-20240620-v10-2026-06-01-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: anthropic.claude-3-5-sonnet-20241022-v2:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
 Model ID: anthropic.claude-3-5-sonnet-20241022-v2:0
-Deprecation Date: 2025-08-25
-Shutdown Date: 2026-03-01
+Deprecation Date: 2026-01-30
+Shutdown Date: 2026-07-30
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-04-07
 
-Model ID anthropic.claude-3-5-sonnet-20241022-v2:0. (Claude 3.5 Sonnet v2). entered legacy status on 2025-08-25. and will reach end-of-life on 2026-03-01. Additional regional schedule: Model ID anthropic.claude-3-5-sonnet-20241022-v2:0. (Claude 3.5 Sonnet v2). entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30.</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-3-5-sonnet-20241022-v20-2026-03-01-e3b0c442</guid>
+Model ID anthropic.claude-3-5-sonnet-20241022-v2:0. (Claude 3.5 Sonnet v2). entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30.</description>
+      <pubDate>Tue, 07 Apr 2026 04:35:26 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-3-5-sonnet-20241022-v20-2026-07-30-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: anthropic.claude-3-7-sonnet-20250219-v1:0</title>
@@ -2091,20 +2133,6 @@ Model ID anthropic.claude-opus-4-20250514-v1:0. (Claude Opus 4). entered legacy 
       <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-opus-4-20250514-v10-2026-05-31-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: cohere.command-r-plus-v1:0</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: cohere.command-r-plus-v1:0
-Deprecation Date: 2026-02-19
-Shutdown Date: 2026-08-19
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
-
-Model ID cohere.command-r-plus-v1:0. (Command R+). entered legacy status on 2026-02-19. and will reach end-of-life on 2026-08-19.</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-cohere.command-r-plus-v10-2026-08-19-e3b0c442</guid>
-    </item>
-    <item>
       <title>AWS Bedrock: cohere.command-r-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
@@ -2119,6 +2147,20 @@ Model ID cohere.command-r-v1:0. (Command R). entered legacy status on 2026-02-19
       <guid isPermaLink="false">AWS_Bedrock-cohere.command-r-v10-2026-08-19-e3b0c442</guid>
     </item>
     <item>
+      <title>AWS Bedrock: cohere.command-r-plus-v1:0</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: cohere.command-r-plus-v1:0
+Deprecation Date: 2026-02-19
+Shutdown Date: 2026-08-19
+First Observed: 2026-03-26
+Last Observed: 2026-03-26
+
+Model ID cohere.command-r-plus-v1:0. (Command R+). entered legacy status on 2026-02-19. and will reach end-of-life on 2026-08-19.</description>
+      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-cohere.command-r-plus-v10-2026-08-19-e3b0c442</guid>
+    </item>
+    <item>
       <title>AWS Bedrock: meta.llama3-1-405b-instruct-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
@@ -2131,6 +2173,20 @@ Last Observed: 2026-03-26
 Model ID meta.llama3-1-405b-instruct-v1:0. (Llama 3.1 405B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07.</description>
       <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-meta.llama3-1-405b-instruct-v10-2026-07-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: meta.llama3-2-11b-instruct-v1:0</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: meta.llama3-2-11b-instruct-v1:0
+Deprecation Date: 2026-01-07
+Shutdown Date: 2026-07-07
+First Observed: 2026-03-26
+Last Observed: 2026-03-26
+
+Model ID meta.llama3-2-11b-instruct-v1:0. (Llama 3.2 11B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07.</description>
+      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-meta.llama3-2-11b-instruct-v10-2026-07-07-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: meta.llama3-2-1b-instruct-v1:0</title>
@@ -2159,20 +2215,6 @@ Last Observed: 2026-03-26
 Model ID meta.llama3-2-3b-instruct-v1:0. (Llama 3.2 3B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07.</description>
       <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-meta.llama3-2-3b-instruct-v10-2026-07-07-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: meta.llama3-2-11b-instruct-v1:0</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: meta.llama3-2-11b-instruct-v1:0
-Deprecation Date: 2026-01-07
-Shutdown Date: 2026-07-07
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
-
-Model ID meta.llama3-2-11b-instruct-v1:0. (Llama 3.2 11B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07.</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-meta.llama3-2-11b-instruct-v10-2026-07-07-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: meta.llama3-2-90b-instruct-v1:0</title>

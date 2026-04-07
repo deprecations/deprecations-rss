@@ -3093,20 +3093,20 @@
       ]
     },
     {
-      "id": "aws-bedrock-amazon.nova-premier-v1",
+      "id": "aws-bedrock-amazon.nova-canvas-v10",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: amazon.nova-premier-v1",
+      "title": "AWS Bedrock: amazon.nova-canvas-v1:0",
       "content_text": "",
-      "date_published": "2026-03-26T18:47:23.936925+00:00",
+      "date_published": "2026-04-07T04:35:26.608195+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
-        "model_id": "amazon.nova-premier-v1",
-        "shutdown_date": "2026-09-14",
-        "deprecation_date": "2026-03-13",
-        "announcement_date": "2026-03-26",
+        "model_id": "amazon.nova-canvas-v1:0",
+        "shutdown_date": "2026-09-30",
+        "deprecation_date": "2026-03-30",
+        "announcement_date": "2026-04-07",
         "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "first_observed": "2026-04-07",
+        "last_observed": "2026-04-07"
       },
       "tags": [
         "AWS Bedrock",
@@ -3114,20 +3114,83 @@
       ]
     },
     {
-      "id": "aws-bedrock-amazon.nova-sonic-v1",
+      "id": "aws-bedrock-amazon.nova-reel-v10",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: amazon.nova-sonic-v1",
+      "title": "AWS Bedrock: amazon.nova-reel-v1:0",
       "content_text": "",
-      "date_published": "2026-03-26T18:47:23.937038+00:00",
+      "date_published": "2026-04-07T04:35:26.608256+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
-        "model_id": "amazon.nova-sonic-v1",
+        "model_id": "amazon.nova-reel-v1:0",
+        "shutdown_date": "2026-09-30",
+        "deprecation_date": "2026-03-30",
+        "announcement_date": "2026-04-07",
+        "replacement_models": null,
+        "first_observed": "2026-04-07",
+        "last_observed": "2026-04-07"
+      },
+      "tags": [
+        "AWS Bedrock",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "aws-bedrock-amazon.nova-reel-v11",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+      "title": "AWS Bedrock: amazon.nova-reel-v1:1",
+      "content_text": "",
+      "date_published": "2026-04-07T04:35:26.608296+00:00",
+      "_deprecation": {
+        "provider": "AWS Bedrock",
+        "model_id": "amazon.nova-reel-v1:1",
+        "shutdown_date": "2026-09-30",
+        "deprecation_date": "2026-03-30",
+        "announcement_date": "2026-04-07",
+        "replacement_models": null,
+        "first_observed": "2026-04-07",
+        "last_observed": "2026-04-07"
+      },
+      "tags": [
+        "AWS Bedrock",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "aws-bedrock-amazon.nova-premier-v10",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+      "title": "AWS Bedrock: amazon.nova-premier-v1:0",
+      "content_text": "",
+      "date_published": "2026-04-07T04:35:26.608354+00:00",
+      "_deprecation": {
+        "provider": "AWS Bedrock",
+        "model_id": "amazon.nova-premier-v1:0",
         "shutdown_date": "2026-09-14",
         "deprecation_date": "2026-03-13",
-        "announcement_date": "2026-03-26",
+        "announcement_date": "2026-04-07",
         "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "first_observed": "2026-04-07",
+        "last_observed": "2026-04-07"
+      },
+      "tags": [
+        "AWS Bedrock",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "aws-bedrock-amazon.nova-sonic-v10",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+      "title": "AWS Bedrock: amazon.nova-sonic-v1:0",
+      "content_text": "",
+      "date_published": "2026-04-07T04:35:26.608402+00:00",
+      "_deprecation": {
+        "provider": "AWS Bedrock",
+        "model_id": "amazon.nova-sonic-v1:0",
+        "shutdown_date": "2026-09-14",
+        "deprecation_date": "2026-03-13",
+        "announcement_date": "2026-04-07",
+        "replacement_models": null,
+        "first_observed": "2026-04-07",
+        "last_observed": "2026-04-07"
       },
       "tags": [
         "AWS Bedrock",
@@ -3202,16 +3265,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock: anthropic.claude-3-5-sonnet-20240620-v1:0",
       "content_text": "",
-      "date_published": "2026-03-26T18:47:23.937441+00:00",
+      "date_published": "2026-04-07T04:35:26.608592+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0",
-        "shutdown_date": "2026-03-01",
-        "deprecation_date": "2025-08-25",
+        "shutdown_date": "2026-06-01",
+        "deprecation_date": "2026-01-30",
         "announcement_date": "2026-03-26",
         "replacement_models": null,
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-04-07"
       },
       "tags": [
         "AWS Bedrock",
@@ -3223,16 +3286,16 @@
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock: anthropic.claude-3-5-sonnet-20241022-v2:0",
       "content_text": "",
-      "date_published": "2026-03-26T18:47:23.937667+00:00",
+      "date_published": "2026-04-07T04:35:26.608693+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0",
-        "shutdown_date": "2026-03-01",
-        "deprecation_date": "2025-08-25",
+        "shutdown_date": "2026-07-30",
+        "deprecation_date": "2026-01-30",
         "announcement_date": "2026-03-26",
         "replacement_models": null,
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-04-07"
       },
       "tags": [
         "AWS Bedrock",
@@ -3303,27 +3366,6 @@
       ]
     },
     {
-      "id": "aws-bedrock-cohere.command-r-plus-v10",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: cohere.command-r-plus-v1:0",
-      "content_text": "",
-      "date_published": "2026-03-26T18:47:23.938116+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "cohere.command-r-plus-v1:0",
-        "shutdown_date": "2026-08-19",
-        "deprecation_date": "2026-02-19",
-        "announcement_date": "2026-03-26",
-        "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
       "id": "aws-bedrock-cohere.command-r-v10",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock: cohere.command-r-v1:0",
@@ -3345,6 +3387,27 @@
       ]
     },
     {
+      "id": "aws-bedrock-cohere.command-r-plus-v10",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+      "title": "AWS Bedrock: cohere.command-r-plus-v1:0",
+      "content_text": "",
+      "date_published": "2026-03-26T18:47:23.938116+00:00",
+      "_deprecation": {
+        "provider": "AWS Bedrock",
+        "model_id": "cohere.command-r-plus-v1:0",
+        "shutdown_date": "2026-08-19",
+        "deprecation_date": "2026-02-19",
+        "announcement_date": "2026-03-26",
+        "replacement_models": null,
+        "first_observed": "2026-03-26",
+        "last_observed": "2026-03-26"
+      },
+      "tags": [
+        "AWS Bedrock",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "aws-bedrock-meta.llama3-1-405b-instruct-v10",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
       "title": "AWS Bedrock: meta.llama3-1-405b-instruct-v1:0",
@@ -3353,6 +3416,27 @@
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "meta.llama3-1-405b-instruct-v1:0",
+        "shutdown_date": "2026-07-07",
+        "deprecation_date": "2026-01-07",
+        "announcement_date": "2026-03-26",
+        "replacement_models": null,
+        "first_observed": "2026-03-26",
+        "last_observed": "2026-03-26"
+      },
+      "tags": [
+        "AWS Bedrock",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "aws-bedrock-meta.llama3-2-11b-instruct-v10",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+      "title": "AWS Bedrock: meta.llama3-2-11b-instruct-v1:0",
+      "content_text": "",
+      "date_published": "2026-03-26T18:47:23.938486+00:00",
+      "_deprecation": {
+        "provider": "AWS Bedrock",
+        "model_id": "meta.llama3-2-11b-instruct-v1:0",
         "shutdown_date": "2026-07-07",
         "deprecation_date": "2026-01-07",
         "announcement_date": "2026-03-26",
@@ -3395,27 +3479,6 @@
       "_deprecation": {
         "provider": "AWS Bedrock",
         "model_id": "meta.llama3-2-3b-instruct-v1:0",
-        "shutdown_date": "2026-07-07",
-        "deprecation_date": "2026-01-07",
-        "announcement_date": "2026-03-26",
-        "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-meta.llama3-2-11b-instruct-v10",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: meta.llama3-2-11b-instruct-v1:0",
-      "content_text": "",
-      "date_published": "2026-03-26T18:47:23.938486+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "meta.llama3-2-11b-instruct-v1:0",
         "shutdown_date": "2026-07-07",
         "deprecation_date": "2026-01-07",
         "announcement_date": "2026-03-26",
