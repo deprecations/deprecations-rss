@@ -3828,27 +3828,6 @@
       ]
     },
     {
-      "id": "azure-e.l.y.crop-protection",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: E.L.Y.Crop-Protection",
-      "content_text": "",
-      "date_published": "2026-03-25T04:13:22.067506+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "E.L.Y.Crop-Protection",
-        "shutdown_date": "2026-07-31",
-        "deprecation_date": "2026-03-16",
-        "announcement_date": "2026-03-25",
-        "replacement_models": null,
-        "first_observed": "2026-03-25",
-        "last_observed": "2026-03-25"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
       "id": "azure-cohere-rerank-v3.5",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Cohere-rerank-v3.5",

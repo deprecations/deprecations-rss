@@ -2657,20 +2657,6 @@
   },
   {
     "provider": "Azure",
-    "model_id": "E.L.Y.Crop-Protection",
-    "announcement_date": "2026-03-25",
-    "shutdown_date": "2026-07-31",
-    "replacement_models": null,
-    "deprecation_context": "Bayer",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "84447727cb8304c7",
-    "scraped_at": "2026-03-25T04:13:22.067506+00:00",
-    "first_observed": "2026-03-25",
-    "last_observed": "2026-03-25",
-    "deprecation_date": "2026-03-16"
-  },
-  {
-    "provider": "Azure",
     "model_id": "Cohere-rerank-v3.5",
     "announcement_date": "2026-01-14",
     "shutdown_date": "2026-05-14",

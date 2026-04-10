@@ -2407,20 +2407,6 @@ On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the de
       <guid isPermaLink="false">Cohere-rerank-multilingual-v2.0-2025-04-30-e3b0c442</guid>
     </item>
     <item>
-      <title>Azure: E.L.Y.Crop-Protection</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: E.L.Y.Crop-Protection
-Deprecation Date: 2026-03-16
-Shutdown Date: 2026-07-31
-First Observed: 2026-03-25
-Last Observed: 2026-03-25
-
-Bayer</description>
-      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
-      <guid isPermaLink="false">Azure-E.L.Y.Crop-Protection-2026-07-31-e3b0c442</guid>
-    </item>
-    <item>
       <title>Azure: Cohere-rerank-v3.5</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
