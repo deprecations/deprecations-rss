@@ -1164,6 +1164,38 @@
   },
   {
     "provider": "Anthropic",
+    "model_id": "claude-opus-4-20250514",
+    "announcement_date": "2026-04-15",
+    "shutdown_date": "2026-06-15",
+    "deprecation_date": "2026-04-14",
+    "replacement_models": [
+      "claude-opus-4-6"
+    ],
+    "deprecation_context": "On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.",
+    "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-04-14-claude-sonnet-4-and-claude-opus-4-models",
+    "content_hash": "ea215d951e6382ab",
+    "scraped_at": "2026-04-15T04:47:22.761907+00:00",
+    "first_observed": "2026-04-15",
+    "last_observed": "2026-04-15"
+  },
+  {
+    "provider": "Anthropic",
+    "model_id": "claude-sonnet-4-20250514",
+    "announcement_date": "2026-04-15",
+    "shutdown_date": "2026-06-15",
+    "deprecation_date": "2026-04-14",
+    "replacement_models": [
+      "claude-sonnet-4-6"
+    ],
+    "deprecation_context": "On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.",
+    "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-04-14-claude-sonnet-4-and-claude-opus-4-models",
+    "content_hash": "db0da81783bd76b6",
+    "scraped_at": "2026-04-15T04:47:22.761879+00:00",
+    "first_observed": "2026-04-15",
+    "last_observed": "2026-04-15"
+  },
+  {
+    "provider": "Anthropic",
     "model_id": "claude-3-7-sonnet-20250219",
     "announcement_date": "2026-03-26",
     "shutdown_date": "2026-02-19",
@@ -1417,6 +1449,34 @@
     "first_observed": "2026-03-26",
     "last_observed": "2026-03-26",
     "deprecation_date": "2024-09-04"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-robotics-er-1.6-preview",
+    "announcement_date": "2026-04-15",
+    "shutdown_date": "",
+    "deprecation_date": "2026-04-14",
+    "replacement_models": null,
+    "deprecation_context": "Released gemini-robotics-er-1.6-preview , our updated robotics model.\nIt now has new capabilities like instrument reading, improved spatial and\nphysical reasoning capabilities. To learn more, see Gemini Robotics-ER page and the blog .",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog#20260414",
+    "content_hash": "8bd769e777bca254",
+    "scraped_at": "2026-04-15T04:47:23.808563+00:00",
+    "first_observed": "2026-04-15",
+    "last_observed": "2026-04-15"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-robotics-er-1.5-preview",
+    "announcement_date": "2026-04-15",
+    "shutdown_date": "",
+    "deprecation_date": "2026-04-14",
+    "replacement_models": null,
+    "deprecation_context": "Deprecation announcement: The gemini-robotics-er-1.5-preview model\nwill be shut down on April 30, 2026 at 9AM\nPST.",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog#20260414",
+    "content_hash": "0736e81a21067282",
+    "scraped_at": "2026-04-15T04:47:23.808648+00:00",
+    "first_observed": "2026-04-15",
+    "last_observed": "2026-04-15"
   },
   {
     "provider": "Google",

@@ -1680,6 +1680,52 @@
       ]
     },
     {
+      "id": "anthropic-claude-opus-4-20250514",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-04-14-claude-sonnet-4-and-claude-opus-4-models",
+      "title": "Anthropic: claude-opus-4-20250514",
+      "content_text": "",
+      "date_published": "2026-04-15T04:47:22.761907+00:00",
+      "_deprecation": {
+        "provider": "Anthropic",
+        "model_id": "claude-opus-4-20250514",
+        "shutdown_date": "2026-06-15",
+        "deprecation_date": "2026-04-14",
+        "announcement_date": "2026-04-15",
+        "replacement_models": [
+          "claude-opus-4-6"
+        ],
+        "first_observed": "2026-04-15",
+        "last_observed": "2026-04-15"
+      },
+      "tags": [
+        "Anthropic",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "anthropic-claude-sonnet-4-20250514",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-04-14-claude-sonnet-4-and-claude-opus-4-models",
+      "title": "Anthropic: claude-sonnet-4-20250514",
+      "content_text": "",
+      "date_published": "2026-04-15T04:47:22.761879+00:00",
+      "_deprecation": {
+        "provider": "Anthropic",
+        "model_id": "claude-sonnet-4-20250514",
+        "shutdown_date": "2026-06-15",
+        "deprecation_date": "2026-04-14",
+        "announcement_date": "2026-04-15",
+        "replacement_models": [
+          "claude-sonnet-4-6"
+        ],
+        "first_observed": "2026-04-15",
+        "last_observed": "2026-04-15"
+      },
+      "tags": [
+        "Anthropic",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "anthropic-claude-3-7-sonnet-20250219",
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-10-28-claude-sonnet-3-7-model",
       "title": "Anthropic: claude-3-7-sonnet-20250219",
@@ -2045,6 +2091,46 @@
       "tags": [
         "Anthropic",
         "shutdown-2024"
+      ]
+    },
+    {
+      "id": "google-gemini-robotics-er-1.6-preview",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#20260414",
+      "title": "Google: gemini-robotics-er-1.6-preview",
+      "content_text": "",
+      "date_published": "2026-04-15T04:47:23.808563+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-robotics-er-1.6-preview",
+        "shutdown_date": "",
+        "deprecation_date": "2026-04-14",
+        "announcement_date": "2026-04-15",
+        "replacement_models": null,
+        "first_observed": "2026-04-15",
+        "last_observed": "2026-04-15"
+      },
+      "tags": [
+        "Google"
+      ]
+    },
+    {
+      "id": "google-gemini-robotics-er-1.5-preview",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#20260414",
+      "title": "Google: gemini-robotics-er-1.5-preview",
+      "content_text": "",
+      "date_published": "2026-04-15T04:47:23.808648+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-robotics-er-1.5-preview",
+        "shutdown_date": "",
+        "deprecation_date": "2026-04-14",
+        "announcement_date": "2026-04-15",
+        "replacement_models": null,
+        "first_observed": "2026-04-15",
+        "last_observed": "2026-04-15"
+      },
+      "tags": [
+        "Google"
       ]
     },
     {

@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Tue, 07 Apr 2026 04:35:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 04:47:23 GMT</lastBuildDate>
     <item>
       <title>OpenAI: sora-2</title>
       <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
@@ -1011,6 +1011,34 @@ Last Observed: 2026-03-26
       <guid isPermaLink="false">OpenAI-code-cushman-001-2023-03-23-e3b0c442</guid>
     </item>
     <item>
+      <title>Anthropic: claude-opus-4-20250514</title>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-04-14-claude-sonnet-4-and-claude-opus-4-models</link>
+      <description>Provider: Anthropic
+Model ID: claude-opus-4-20250514
+Deprecation Date: 2026-04-14
+Shutdown Date: 2026-06-15
+First Observed: 2026-04-15
+Last Observed: 2026-04-15
+
+On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.</description>
+      <pubDate>Wed, 15 Apr 2026 04:47:22 GMT</pubDate>
+      <guid isPermaLink="false">Anthropic-claude-opus-4-20250514-2026-06-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Anthropic: claude-sonnet-4-20250514</title>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-04-14-claude-sonnet-4-and-claude-opus-4-models</link>
+      <description>Provider: Anthropic
+Model ID: claude-sonnet-4-20250514
+Deprecation Date: 2026-04-14
+Shutdown Date: 2026-06-15
+First Observed: 2026-04-15
+Last Observed: 2026-04-15
+
+On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.</description>
+      <pubDate>Wed, 15 Apr 2026 04:47:22 GMT</pubDate>
+      <guid isPermaLink="false">Anthropic-claude-sonnet-4-20250514-2026-06-15-e3b0c442</guid>
+    </item>
+    <item>
       <title>Anthropic: claude-3-7-sonnet-20250219</title>
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-10-28-claude-sonnet-3-7-model</link>
       <description>Provider: Anthropic
@@ -1233,6 +1261,36 @@ Last Observed: 2026-03-26
 &lt;Note&gt; These models were retired November 6, 2024. &lt;/Note&gt; On September 4, 2024, Anthropic notified developers using Claude 1 and Instant models of their upcoming retirements.</description>
       <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-instant-1.2-2024-11-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-robotics-er-1.6-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260414</link>
+      <description>Provider: Google
+Model ID: gemini-robotics-er-1.6-preview
+Deprecation Date: 2026-04-14
+First Observed: 2026-04-15
+Last Observed: 2026-04-15
+
+Released gemini-robotics-er-1.6-preview , our updated robotics model.
+It now has new capabilities like instrument reading, improved spatial and
+physical reasoning capabilities. To learn more, see Gemini Robotics-ER page and the blog .</description>
+      <pubDate>Wed, 15 Apr 2026 04:47:23 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-robotics-er-1.6-preview-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-robotics-er-1.5-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260414</link>
+      <description>Provider: Google
+Model ID: gemini-robotics-er-1.5-preview
+Deprecation Date: 2026-04-14
+First Observed: 2026-04-15
+Last Observed: 2026-04-15
+
+Deprecation announcement: The gemini-robotics-er-1.5-preview model
+will be shut down on April 30, 2026 at 9AM
+PST.</description>
+      <pubDate>Wed, 15 Apr 2026 04:47:23 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-robotics-er-1.5-preview-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-embedding-2-preview</title>
