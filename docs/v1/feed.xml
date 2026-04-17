@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Wed, 15 Apr 2026 04:47:23 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 04:50:50 GMT</lastBuildDate>
     <item>
       <title>OpenAI: sora-2</title>
       <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
@@ -1018,10 +1018,10 @@ Model ID: claude-opus-4-20250514
 Deprecation Date: 2026-04-14
 Shutdown Date: 2026-06-15
 First Observed: 2026-04-15
-Last Observed: 2026-04-15
+Last Observed: 2026-04-17
 
 On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.</description>
-      <pubDate>Wed, 15 Apr 2026 04:47:22 GMT</pubDate>
+      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-opus-4-20250514-2026-06-15-e3b0c442</guid>
     </item>
     <item>
@@ -1046,10 +1046,10 @@ Model ID: claude-3-7-sonnet-20250219
 Deprecation Date: 2025-10-28
 Shutdown Date: 2026-02-19
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-04-17
 
 &lt;Note&gt; This model was retired February 19, 2026. &lt;/Note&gt; On October 28, 2025, Anthropic notified developers using Claude Sonnet 3.7 model of its upcoming retirement on the Claude API.</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-7-sonnet-20250219-2026-02-19-e3b0c442</guid>
     </item>
     <item>
@@ -1088,10 +1088,10 @@ Model ID: claude-3-5-sonnet-20240620
 Deprecation Date: 2025-08-13
 Shutdown Date: 2025-10-28
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-04-17
 
 &lt;Note&gt; These models were retired October 28, 2025. &lt;/Note&gt; On August 13, 2025, Anthropic notified developers using Claude Sonnet 3.5 models of their upcoming retirement.</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-5-sonnet-20240620-2025-10-28-e3b0c442</guid>
     </item>
     <item>
@@ -1102,10 +1102,10 @@ Model ID: claude-3-5-sonnet-20241022
 Deprecation Date: 2025-08-13
 Shutdown Date: 2025-10-28
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-04-17
 
 &lt;Note&gt; These models were retired October 28, 2025. &lt;/Note&gt; On August 13, 2025, Anthropic notified developers using Claude Sonnet 3.5 models of their upcoming retirement.</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-5-sonnet-20241022-2025-10-28-e3b0c442</guid>
     </item>
     <item>
@@ -1116,10 +1116,10 @@ Model ID: claude-3-opus-20240229
 Deprecation Date: 2025-06-30
 Shutdown Date: 2026-01-05
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-04-17
 
 &lt;Note&gt; This model was retired January 5, 2026. &lt;/Note&gt; On June 30, 2025, Anthropic notified developers using Claude Opus 3 model of its upcoming retirement.</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-opus-20240229-2026-01-05-e3b0c442</guid>
     </item>
     <item>
@@ -1130,10 +1130,10 @@ Model ID: claude-2.0
 Deprecation Date: 2025-01-21
 Shutdown Date: 2025-07-21
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-04-17
 
 &lt;Note&gt; These models were retired July 21, 2025. &lt;/Note&gt; On January 21, 2025, Anthropic notified developers using Claude 2, Claude 2.1, and Claude Sonnet 3 models of their upcoming retirements.</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-2.0-2025-07-21-e3b0c442</guid>
     </item>
     <item>
@@ -1144,10 +1144,10 @@ Model ID: claude-2.1
 Deprecation Date: 2025-01-21
 Shutdown Date: 2025-07-21
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-04-17
 
 &lt;Note&gt; These models were retired July 21, 2025. &lt;/Note&gt; On January 21, 2025, Anthropic notified developers using Claude 2, Claude 2.1, and Claude Sonnet 3 models of their upcoming retirements.</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-2.1-2025-07-21-e3b0c442</guid>
     </item>
     <item>
@@ -1158,10 +1158,10 @@ Model ID: claude-3-sonnet-20240229
 Deprecation Date: 2025-01-21
 Shutdown Date: 2025-07-21
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-04-17
 
 &lt;Note&gt; These models were retired July 21, 2025. &lt;/Note&gt; On January 21, 2025, Anthropic notified developers using Claude 2, Claude 2.1, and Claude Sonnet 3 models of their upcoming retirements.</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-sonnet-20240229-2025-07-21-e3b0c442</guid>
     </item>
     <item>
@@ -2189,6 +2189,20 @@ Last Observed: 2026-03-26
 Model ID anthropic.claude-opus-4-20250514-v1:0. (Claude Opus 4). entered legacy status on 2025-10-01. and will reach end-of-life on 2026-05-31.</description>
       <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-opus-4-20250514-v10-2026-05-31-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: anthropic.claude-sonnet-4-20250514-v1:0</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: anthropic.claude-sonnet-4-20250514-v1:0
+Deprecation Date: 2026-04-14
+Shutdown Date: 2026-10-14
+First Observed: 2026-04-17
+Last Observed: 2026-04-17
+
+Model ID anthropic.claude-sonnet-4-20250514-v1:0. (Claude Sonnet 4). entered legacy status on 2026-04-14. and will reach end-of-life on 2026-10-14.</description>
+      <pubDate>Fri, 17 Apr 2026 04:50:50 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-sonnet-4-20250514-v10-2026-10-14-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: cohere.command-r-v1:0</title>

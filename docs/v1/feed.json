@@ -1684,7 +1684,7 @@
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-04-14-claude-sonnet-4-and-claude-opus-4-models",
       "title": "Anthropic: claude-opus-4-20250514",
       "content_text": "",
-      "date_published": "2026-04-15T04:47:22.761907+00:00",
+      "date_published": "2026-04-17T04:50:48.598455+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-opus-4-20250514",
@@ -1692,10 +1692,10 @@
         "deprecation_date": "2026-04-14",
         "announcement_date": "2026-04-15",
         "replacement_models": [
-          "claude-opus-4-6"
+          "claude-opus-4-7"
         ],
         "first_observed": "2026-04-15",
-        "last_observed": "2026-04-15"
+        "last_observed": "2026-04-17"
       },
       "tags": [
         "Anthropic",
@@ -1730,7 +1730,7 @@
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-10-28-claude-sonnet-3-7-model",
       "title": "Anthropic: claude-3-7-sonnet-20250219",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:35.249224+00:00",
+      "date_published": "2026-04-17T04:50:48.598619+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-3-7-sonnet-20250219",
@@ -1738,10 +1738,10 @@
         "deprecation_date": "2025-10-28",
         "announcement_date": "2026-03-26",
         "replacement_models": [
-          "claude-opus-4-6"
+          "claude-sonnet-4-6"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-04-17"
       },
       "tags": [
         "Anthropic",
@@ -1799,7 +1799,7 @@
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-08-13-claude-sonnet-3-5-models",
       "title": "Anthropic: claude-3-5-sonnet-20240620",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:35.249301+00:00",
+      "date_published": "2026-04-17T04:50:48.598675+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-3-5-sonnet-20240620",
@@ -1807,10 +1807,10 @@
         "deprecation_date": "2025-08-13",
         "announcement_date": "2026-03-26",
         "replacement_models": [
-          "claude-opus-4-6"
+          "claude-sonnet-4-6"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-04-17"
       },
       "tags": [
         "Anthropic",
@@ -1822,7 +1822,7 @@
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-08-13-claude-sonnet-3-5-models",
       "title": "Anthropic: claude-3-5-sonnet-20241022",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:35.249358+00:00",
+      "date_published": "2026-04-17T04:50:48.598699+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-3-5-sonnet-20241022",
@@ -1830,10 +1830,10 @@
         "deprecation_date": "2025-08-13",
         "announcement_date": "2026-03-26",
         "replacement_models": [
-          "claude-opus-4-6"
+          "claude-sonnet-4-6"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-04-17"
       },
       "tags": [
         "Anthropic",
@@ -1845,7 +1845,7 @@
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-06-30-claude-opus-3-model",
       "title": "Anthropic: claude-3-opus-20240229",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:35.249431+00:00",
+      "date_published": "2026-04-17T04:50:48.598743+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-3-opus-20240229",
@@ -1853,10 +1853,10 @@
         "deprecation_date": "2025-06-30",
         "announcement_date": "2026-03-26",
         "replacement_models": [
-          "claude-opus-4-6"
+          "claude-opus-4-7"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-04-17"
       },
       "tags": [
         "Anthropic",
@@ -1868,7 +1868,7 @@
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models",
       "title": "Anthropic: claude-2.0",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:35.249511+00:00",
+      "date_published": "2026-04-17T04:50:48.598790+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-2.0",
@@ -1876,10 +1876,10 @@
         "deprecation_date": "2025-01-21",
         "announcement_date": "2026-03-26",
         "replacement_models": [
-          "claude-opus-4-6"
+          "claude-opus-4-7"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-04-17"
       },
       "tags": [
         "Anthropic",
@@ -1891,7 +1891,7 @@
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models",
       "title": "Anthropic: claude-2.1",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:35.249554+00:00",
+      "date_published": "2026-04-17T04:50:48.598813+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-2.1",
@@ -1899,10 +1899,10 @@
         "deprecation_date": "2025-01-21",
         "announcement_date": "2026-03-26",
         "replacement_models": [
-          "claude-opus-4-6"
+          "claude-opus-4-7"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-04-17"
       },
       "tags": [
         "Anthropic",
@@ -1914,7 +1914,7 @@
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models",
       "title": "Anthropic: claude-3-sonnet-20240229",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:35.249594+00:00",
+      "date_published": "2026-04-17T04:50:48.598833+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-3-sonnet-20240229",
@@ -1922,10 +1922,10 @@
         "deprecation_date": "2025-01-21",
         "announcement_date": "2026-03-26",
         "replacement_models": [
-          "claude-opus-4-6"
+          "claude-sonnet-4-6"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-04-17"
       },
       "tags": [
         "Anthropic",
@@ -3445,6 +3445,27 @@
         "replacement_models": null,
         "first_observed": "2026-03-26",
         "last_observed": "2026-03-26"
+      },
+      "tags": [
+        "AWS Bedrock",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "aws-bedrock-anthropic.claude-sonnet-4-20250514-v10",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+      "title": "AWS Bedrock: anthropic.claude-sonnet-4-20250514-v1:0",
+      "content_text": "",
+      "date_published": "2026-04-17T04:50:50.370229+00:00",
+      "_deprecation": {
+        "provider": "AWS Bedrock",
+        "model_id": "anthropic.claude-sonnet-4-20250514-v1:0",
+        "shutdown_date": "2026-10-14",
+        "deprecation_date": "2026-04-14",
+        "announcement_date": "2026-04-17",
+        "replacement_models": null,
+        "first_observed": "2026-04-17",
+        "last_observed": "2026-04-17"
       },
       "tags": [
         "AWS Bedrock",
