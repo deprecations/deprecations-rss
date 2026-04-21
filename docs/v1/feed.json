@@ -1776,7 +1776,7 @@
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-02-19-claude-haiku-3-model",
       "title": "Anthropic: claude-3-haiku-20240307",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:35.249059+00:00",
+      "date_published": "2026-04-21T04:49:55.100982+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-3-haiku-20240307",
@@ -1787,7 +1787,7 @@
           "claude-haiku-4-5-20251001"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-04-21"
       },
       "tags": [
         "Anthropic",
