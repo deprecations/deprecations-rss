@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 23 Apr 2026 04:51:54 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 04:37:34 GMT</lastBuildDate>
     <item>
       <title>OpenAI: computer-use-preview-2025-03-11</title>
       <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
@@ -2569,6 +2569,20 @@ Model ID amazon.titan-image-generator-v2:0. (Titan Image Generator G1 v2). enter
       <guid isPermaLink="false">AWS_Bedrock-amazon.titan-image-generator-v20-2026-06-30-e3b0c442</guid>
     </item>
     <item>
+      <title>AWS Bedrock: amazon.titan-tg1-large</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: amazon.titan-tg1-large
+Deprecation Date: 2025-02-08
+Shutdown Date: 2025-10-27
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Model ID amazon.titan-tg1-large. (Titan Text Large). entered legacy status on 2025-02-08. and will reach end-of-life on 2025-10-27.</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:33 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-amazon.titan-tg1-large-2025-10-27-e3b0c442</guid>
+    </item>
+    <item>
       <title>AWS Bedrock: anthropic.claude-3-haiku-20240307-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
@@ -2779,31 +2793,857 @@ Model ID meta.llama3-2-90b-instruct-v1:0. (Llama 3.2 90B Instruct). entered lega
       <guid isPermaLink="false">AWS_Bedrock-meta.llama3-2-90b-instruct-v10-2026-07-07-e3b0c442</guid>
     </item>
     <item>
-      <title>Azure: Cohere-rerank-v3.5</title>
+      <title>Azure: codex-mini</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
-Model ID: Cohere-rerank-v3.5
-Deprecation Date: 2026-01-14
-Shutdown Date: 2026-05-14
-First Observed: 2026-01-14
-Last Observed: 2026-03-26
+Model ID: codex-mini
+Deprecation Date: 2026-11-15
+Shutdown Date: 2026-11-15
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
 
-Cohere</description>
-      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Cohere-rerank-v3.5-2026-05-14-e3b0c442</guid>
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-codex-mini-2026-11-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-4.1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-4.1
+Deprecation Date: 2027-10-14
+Shutdown Date: 2027-10-14
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4.1-2027-10-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-4.1-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-4.1-mini
+Deprecation Date: 2027-10-14
+Shutdown Date: 2027-10-14
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4.1-mini-2027-10-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-4.1-nano</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-4.1-nano
+Deprecation Date: 2027-10-14
+Shutdown Date: 2027-10-14
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4.1-nano-2027-10-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-4o</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-4o
+Deprecation Date: 2027-03-31
+Shutdown Date: 2027-03-31
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4o-2027-03-31-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-4o-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-4o-mini
+Deprecation Date: 2027-10-01
+Shutdown Date: 2027-10-01
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4o-mini-2027-10-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-4o-mini-transcribe</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-4o-mini-transcribe
+Deprecation Date: 2026-06-01
+Shutdown Date: 2026-06-01
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4o-mini-transcribe-2026-06-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-4o-mini-tts</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-4o-mini-tts
+Deprecation Date: 2026-06-01
+Shutdown Date: 2026-06-01
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4o-mini-tts-2026-06-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-4o-transcribe</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-4o-transcribe
+Deprecation Date: 2026-06-01
+Shutdown Date: 2026-06-01
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4o-transcribe-2026-06-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-4o-transcribe-diarize</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-4o-transcribe-diarize
+Deprecation Date: 2027-04-16
+Shutdown Date: 2027-04-16
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4o-transcribe-diarize-2027-04-16-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5
+Deprecation Date: 2027-02-06
+Shutdown Date: 2027-02-06
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5-2027-02-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5-chat</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5-chat
+Deprecation Date: 2026-05-13
+Shutdown Date: 2026-05-13
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5-chat-2026-05-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5-codex</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5-codex
+Deprecation Date: 2027-03-17
+Shutdown Date: 2027-03-17
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5-codex-2027-03-17-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5-mini
+Deprecation Date: 2027-02-06
+Shutdown Date: 2027-02-06
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5-mini-2027-02-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5-nano</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5-nano
+Deprecation Date: 2027-02-06
+Shutdown Date: 2027-02-06
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5-nano-2027-02-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5-pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5-pro
+Deprecation Date: 2027-04-07
+Shutdown Date: 2027-04-07
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5-pro-2027-04-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.1
+Deprecation Date: 2027-05-15
+Shutdown Date: 2027-05-15
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.1-2027-05-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.1-chat</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.1-chat
+Deprecation Date: 2026-05-13
+Shutdown Date: 2026-05-13
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.1-chat-2026-05-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.1-codex</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.1-codex
+Deprecation Date: 2027-05-15
+Shutdown Date: 2027-05-15
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.1-codex-2027-05-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.1-codex-max</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.1-codex-max
+Deprecation Date: 2026-12-05
+Shutdown Date: 2026-12-05
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.1-codex-max-2026-12-05-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.1-codex-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.1-codex-mini
+Deprecation Date: 2027-05-15
+Shutdown Date: 2027-05-15
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.1-codex-mini-2027-05-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.2</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.2
+Deprecation Date: 2026-12-12
+Shutdown Date: 2026-12-12
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.2-2026-12-12-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.2-chat</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.2-chat
+Deprecation Date: 2026-05-13
+Shutdown Date: 2026-05-13
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.2-chat-2026-05-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.2-codex</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.2-codex
+Deprecation Date: 2027-01-14
+Shutdown Date: 2027-01-14
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.2-codex-2027-01-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.3-chat</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.3-chat
+Deprecation Date: 2026-06-03
+Shutdown Date: 2026-06-03
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.3-chat-2026-06-03-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.3-codex</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.3-codex
+Deprecation Date: 2027-02-25
+Shutdown Date: 2027-02-25
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.3-codex-2027-02-25-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.4</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.4
+Deprecation Date: 2027-03-05
+Shutdown Date: 2027-03-05
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.4-2027-03-05-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.4-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.4-mini
+Deprecation Date: 2027-03-18
+Shutdown Date: 2027-03-18
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.4-mini-2027-03-18-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.4-nano</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.4-nano
+Deprecation Date: 2027-03-18
+Shutdown Date: 2027-03-18
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.4-nano-2027-03-18-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-5.4-pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-5.4-pro
+Deprecation Date: 2027-03-06
+Shutdown Date: 2027-03-06
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.4-pro-2027-03-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-audio</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-audio
+Deprecation Date: 2027-02-28
+Shutdown Date: 2027-02-28
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-audio-2027-02-28-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-audio-1.5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-audio-1.5
+Deprecation Date: 2027-02-23
+Shutdown Date: 2027-02-23
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-audio-1.5-2027-02-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-audio-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-audio-mini
+Deprecation Date: 2027-04-07
+Shutdown Date: 2027-04-07
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-audio-mini-2027-04-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-image-1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-image-1
+Deprecation Date: 2026-05-15
+Shutdown Date: 2026-05-15
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-image-1-2026-05-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-image-1-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-image-1-mini
+Deprecation Date: 2027-04-07
+Shutdown Date: 2027-04-07
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-image-1-mini-2027-04-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-image-1.5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-image-1.5
+Deprecation Date: 2026-12-16
+Shutdown Date: 2026-12-16
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-image-1.5-2026-12-16-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-realtime</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-realtime
+Deprecation Date: 2027-02-28
+Shutdown Date: 2027-02-28
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-realtime-2027-02-28-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-realtime-1.5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-realtime-1.5
+Deprecation Date: 2027-02-23
+Shutdown Date: 2027-02-23
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-realtime-1.5-2027-02-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-realtime-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-realtime-mini
+Deprecation Date: 2027-04-07
+Shutdown Date: 2027-04-07
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-realtime-mini-2027-04-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: o1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: o1
+Deprecation Date: 2026-07-15
+Shutdown Date: 2026-07-15
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o1-2026-07-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: o3</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: o3
+Deprecation Date: 2026-10-16
+Shutdown Date: 2026-10-16
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o3-2026-10-16-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: o3-deep-research</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: o3-deep-research
+Deprecation Date: 2026-12-26
+Shutdown Date: 2026-12-26
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o3-deep-research-2026-12-26-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: o3-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: o3-mini
+Deprecation Date: 2026-08-02
+Shutdown Date: 2026-08-02
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o3-mini-2026-08-02-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: o3-pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: o3-pro
+Deprecation Date: 2026-12-10
+Shutdown Date: 2026-12-10
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o3-pro-2026-12-10-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: o4-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: o4-mini
+Deprecation Date: 2027-10-16
+Shutdown Date: 2027-10-16
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o4-mini-2027-10-16-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: sora-2</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: sora-2
+Deprecation Date: 2026-06-03
+Shutdown Date: 2026-06-03
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-sora-2-2026-06-03-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: text-embedding-3-large</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: text-embedding-3-large
+Deprecation Date: 2027-04-15
+Shutdown Date: 2027-04-15
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-text-embedding-3-large-2027-04-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: text-embedding-3-small</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: text-embedding-3-small
+Deprecation Date: 2027-04-15
+Shutdown Date: 2027-04-15
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-text-embedding-3-small-2027-04-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: text-embedding-ada-002</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: text-embedding-ada-002
+Deprecation Date: 2027-04-15
+Shutdown Date: 2027-04-15
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-text-embedding-ada-002-2027-04-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: tts</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: tts
+Deprecation Date: 2026-06-18
+Shutdown Date: 2026-06-18
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-tts-2026-06-18-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: tts-hd</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: tts-hd
+Deprecation Date: 2026-06-18
+Shutdown Date: 2026-06-18
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-tts-hd-2026-06-18-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: whisper</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: whisper
+Deprecation Date: 2026-06-18
+Shutdown Date: 2026-06-18
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Azure OpenAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-whisper-2026-06-18-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: model-router</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: model-router
+Deprecation Date: 2027-05-20
+Shutdown Date: 2027-05-20
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+Microsoft</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-model-router-2027-05-20-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Kimi-K2.5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Kimi-K2.5
+Deprecation Date: 2027-01-26
+Shutdown Date: 2027-01-26
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+MoonshotAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Kimi-K2.5-2027-01-26-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: grok-3</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: grok-3
+Deprecation Date: 2026-05-01
+Shutdown Date: 2026-05-01
+First Observed: 2026-04-02
+Last Observed: 2026-04-25
+
+xAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-grok-3-2026-05-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: grok-3-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: grok-3-mini
+Deprecation Date: 2026-05-01
+Shutdown Date: 2026-05-01
+First Observed: 2026-04-02
+Last Observed: 2026-04-25
+
+xAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-grok-3-mini-2026-05-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: grok-4-20-non-reasoning</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: grok-4-20-non-reasoning
+Deprecation Date: 2027-04-06
+Shutdown Date: 2027-04-06
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+xAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-grok-4-20-non-reasoning-2027-04-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: grok-4-20-reasoning</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: grok-4-20-reasoning
+Deprecation Date: 2027-04-06
+Shutdown Date: 2027-04-06
+First Observed: 2026-04-25
+Last Observed: 2026-04-25
+
+xAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-grok-4-20-reasoning-2027-04-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: grok-4-fast-non-reasoning</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: grok-4-fast-non-reasoning
+Deprecation Date: 2026-05-01
+Shutdown Date: 2026-05-01
+First Observed: 2026-04-02
+Last Observed: 2026-04-25
+
+xAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-grok-4-fast-non-reasoning-2026-05-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: grok-4-fast-reasoning</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: grok-4-fast-reasoning
+Deprecation Date: 2026-05-01
+Shutdown Date: 2026-05-01
+First Observed: 2026-04-02
+Last Observed: 2026-04-25
+
+xAI</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-grok-4-fast-reasoning-2026-05-01-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Cohere-command-r-08-2024</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Cohere-command-r-08-2024
-Deprecation Date: 2026-02-12
+Deprecation Date: 2026-05-12
 Shutdown Date: 2026-05-12
 First Observed: 2026-02-13
-Last Observed: 2026-02-13
+Last Observed: 2026-04-25
 
 Cohere</description>
-      <pubDate>Fri, 13 Feb 2026 04:14:15 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-command-r-08-2024-2026-05-12-e3b0c442</guid>
     </item>
     <item>
@@ -2811,83 +3651,55 @@ Cohere</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Cohere-command-r-plus-08-2024
-Deprecation Date: 2026-02-12
+Deprecation Date: 2026-05-12
 Shutdown Date: 2026-05-12
 First Observed: 2026-02-13
-Last Observed: 2026-02-13
+Last Observed: 2026-04-25
 
 Cohere</description>
-      <pubDate>Fri, 13 Feb 2026 04:14:15 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-command-r-plus-08-2024-2026-05-12-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Cohere-rerank-v3.5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Cohere-rerank-v3.5
+Deprecation Date: 2026-05-14
+Shutdown Date: 2026-05-14
+First Observed: 2026-01-14
+Last Observed: 2026-04-25
+
+Cohere</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Cohere-rerank-v3.5-2026-05-14-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: deci-decidiffusion-v1-0</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: deci-decidiffusion-v1-0
-Deprecation Date: 2026-03-16
+Deprecation Date: 2026-07-31
 Shutdown Date: 2026-07-31
 First Observed: 2026-03-25
-Last Observed: 2026-03-25
+Last Observed: 2026-04-25
 
 Deci AI</description>
-      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-deci-decidiffusion-v1-0-2026-07-31-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Meta-Llama-3.1-405B-Instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Meta-Llama-3.1-405B-Instruct
-Deprecation Date: 2026-02-13
-Shutdown Date: 2026-06-13
-First Observed: 2026-02-25
-Last Observed: 2026-02-25
-
-Meta</description>
-      <pubDate>Wed, 25 Feb 2026 04:13:37 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Meta-Llama-3.1-405B-Instruct-2026-06-13-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Meta-Llama-3.1-8B-Instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Meta-Llama-3.1-8B-Instruct
-Deprecation Date: 2026-02-13
-Shutdown Date: 2026-06-13
-First Observed: 2026-03-25
-Last Observed: 2026-03-25
-
-Meta</description>
-      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Meta-Llama-3.1-8B-Instruct-2026-06-13-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Meta-Llama-3.1-8B</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Meta-Llama-3.1-8B
-Deprecation Date: 2026-02-13
-Shutdown Date: 2026-06-13
-First Observed: 2026-02-25
-Last Observed: 2026-02-25
-
-Meta</description>
-      <pubDate>Wed, 25 Feb 2026 04:13:37 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Meta-Llama-3.1-8B-2026-06-13-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Llama-3.2-11B-Vision-Instruct</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Llama-3.2-11B-Vision-Instruct
-Deprecation Date: 2026-02-13
+Deprecation Date: 2026-06-13
 Shutdown Date: 2026-06-13
 First Observed: 2026-02-25
-Last Observed: 2026-03-26
+Last Observed: 2026-04-25
 
 Meta</description>
-      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-Llama-3.2-11B-Vision-Instruct-2026-06-13-e3b0c442</guid>
     </item>
     <item>
@@ -2895,27 +3707,69 @@ Meta</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Llama-3.2-90B-Vision-Instruct
-Deprecation Date: 2026-02-13
+Deprecation Date: 2026-06-13
 Shutdown Date: 2026-06-13
 First Observed: 2026-02-25
-Last Observed: 2026-03-26
+Last Observed: 2026-04-25
 
 Meta</description>
-      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-Llama-3.2-90B-Vision-Instruct-2026-06-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Meta-Llama-3.1-405B-Instruct</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Meta-Llama-3.1-405B-Instruct
+Deprecation Date: 2026-06-13
+Shutdown Date: 2026-06-13
+First Observed: 2026-02-25
+Last Observed: 2026-04-25
+
+Meta</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Meta-Llama-3.1-405B-Instruct-2026-06-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Meta-Llama-3.1-8B</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Meta-Llama-3.1-8B
+Deprecation Date: 2026-06-13
+Shutdown Date: 2026-06-13
+First Observed: 2026-02-25
+Last Observed: 2026-04-25
+
+Meta</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Meta-Llama-3.1-8B-2026-06-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Meta-Llama-3.1-8B-Instruct</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Meta-Llama-3.1-8B-Instruct
+Deprecation Date: 2026-06-13
+Shutdown Date: 2026-06-13
+First Observed: 2026-03-25
+Last Observed: 2026-04-25
+
+Meta</description>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Meta-Llama-3.1-8B-Instruct-2026-06-13-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: financial-reports-analysis</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: financial-reports-analysis
-Deprecation Date: 2026-03-16
+Deprecation Date: 2026-07-31
 Shutdown Date: 2026-07-31
 First Observed: 2026-03-25
-Last Observed: 2026-03-25
+Last Observed: 2026-04-25
 
 Microsoft</description>
-      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-financial-reports-analysis-2026-07-31-e3b0c442</guid>
     </item>
     <item>
@@ -2923,13 +3777,13 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: financial-reports-analysis-v2
-Deprecation Date: 2026-03-16
+Deprecation Date: 2026-07-31
 Shutdown Date: 2026-07-31
 First Observed: 2026-03-25
-Last Observed: 2026-03-25
+Last Observed: 2026-04-25
 
 Microsoft</description>
-      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-financial-reports-analysis-v2-2026-07-31-e3b0c442</guid>
     </item>
     <item>
@@ -2937,13 +3791,13 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: supply-chain-trade-regulations
-Deprecation Date: 2026-03-16
+Deprecation Date: 2026-07-31
 Shutdown Date: 2026-07-31
 First Observed: 2026-03-25
-Last Observed: 2026-03-25
+Last Observed: 2026-04-25
 
 Microsoft</description>
-      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-supply-chain-trade-regulations-2026-07-31-e3b0c442</guid>
     </item>
     <item>
@@ -2951,546 +3805,14 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: supply-chain-trade-regulations-v2
-Deprecation Date: 2026-03-16
+Deprecation Date: 2026-07-31
 Shutdown Date: 2026-07-31
 First Observed: 2026-03-25
-Last Observed: 2026-03-25
+Last Observed: 2026-04-25
 
 Microsoft</description>
-      <pubDate>Wed, 25 Mar 2026 04:13:22 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-supply-chain-trade-regulations-v2-2026-07-31-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: grok-4-fast-reasoning</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: grok-4-fast-reasoning
-Deprecation Date: 2026-03-26
-Shutdown Date: 2026-05-01
-First Observed: 2026-04-02
-Last Observed: 2026-04-02
-
-xAI</description>
-      <pubDate>Thu, 02 Apr 2026 04:31:38 GMT</pubDate>
-      <guid isPermaLink="false">Azure-grok-4-fast-reasoning-2026-05-01-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: grok-4-fast-non-reasoning</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: grok-4-fast-non-reasoning
-Deprecation Date: 2026-03-26
-Shutdown Date: 2026-05-01
-First Observed: 2026-04-02
-Last Observed: 2026-04-02
-
-xAI</description>
-      <pubDate>Thu, 02 Apr 2026 04:31:38 GMT</pubDate>
-      <guid isPermaLink="false">Azure-grok-4-fast-non-reasoning-2026-05-01-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: grok-3-mini</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: grok-3-mini
-Deprecation Date: 2026-03-26
-Shutdown Date: 2026-05-01
-First Observed: 2026-04-02
-Last Observed: 2026-04-02
-
-xAI</description>
-      <pubDate>Thu, 02 Apr 2026 04:31:38 GMT</pubDate>
-      <guid isPermaLink="false">Azure-grok-3-mini-2026-05-01-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: grok-3</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: grok-3
-Deprecation Date: 2026-03-26
-Shutdown Date: 2026-05-01
-First Observed: 2026-04-02
-Last Observed: 2026-04-02
-
-xAI</description>
-      <pubDate>Thu, 02 Apr 2026 04:31:38 GMT</pubDate>
-      <guid isPermaLink="false">Azure-grok-3-2026-05-01-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: AI21-Jamba-1.5-Large</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: AI21-Jamba-1.5-Large
-Deprecation Date: 2025-08-01
-Shutdown Date: 2025-08-01
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-AI21 Labs</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-AI21-Jamba-1.5-Large-2025-08-01-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: AI21-Jamba-1.5-Mini</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: AI21-Jamba-1.5-Mini
-Deprecation Date: 2025-08-01
-Shutdown Date: 2025-08-01
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-AI21 Labs</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-AI21-Jamba-1.5-Mini-2025-08-01-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Bria-2.3-Fast</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Bria-2.3-Fast
-Deprecation Date: 2025-10-31
-Shutdown Date: 2025-10-31
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Bria</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Bria-2.3-Fast-2025-10-31-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Cohere-rerank-v3-english</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Cohere-rerank-v3-english
-Deprecation Date: 2025-06-30
-Shutdown Date: 2025-06-30
-First Observed: 2026-02-01
-Last Observed: 2026-03-26
-
-Cohere</description>
-      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Cohere-rerank-v3-english-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Cohere-rerank-v3-multilingual</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Cohere-rerank-v3-multilingual
-Deprecation Date: 2025-06-30
-Shutdown Date: 2025-06-30
-First Observed: 2026-02-01
-Last Observed: 2026-03-26
-
-Cohere</description>
-      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Cohere-rerank-v3-multilingual-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: jais-30b-chat</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: jais-30b-chat
-Deprecation Date: 2026-01-30
-Shutdown Date: 2026-01-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Core42</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-jais-30b-chat-2026-01-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: DeepSeek-V3</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: DeepSeek-V3
-Deprecation Date: 2025-08-31
-Shutdown Date: 2025-08-31
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-DeepSeek</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-DeepSeek-V3-2025-08-31-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Gretel-Navigator-Tabular</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Gretel-Navigator-Tabular
-Deprecation Date: 2025-09-16
-Shutdown Date: 2025-09-16
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Gretel</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Gretel-Navigator-Tabular-2025-09-16-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Llama-2-13b</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Llama-2-13b
-Deprecation Date: 2025-06-30
-Shutdown Date: 2025-06-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Meta</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-2-13b-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Llama-2-13b-chat</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Llama-2-13b-chat
-Deprecation Date: 2025-06-30
-Shutdown Date: 2025-06-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Meta</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-2-13b-chat-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Llama-2-70b</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Llama-2-70b
-Deprecation Date: 2025-06-30
-Shutdown Date: 2025-06-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Meta</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-2-70b-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Llama-2-70b-chat</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Llama-2-70b-chat
-Deprecation Date: 2025-06-30
-Shutdown Date: 2025-06-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Meta</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-2-70b-chat-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Llama-2-7b</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Llama-2-7b
-Deprecation Date: 2025-06-30
-Shutdown Date: 2025-06-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Meta</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-2-7b-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Llama-2-7b-chat</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Llama-2-7b-chat
-Deprecation Date: 2025-06-30
-Shutdown Date: 2025-06-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Meta</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-2-7b-chat-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Meta-Llama-3-70B-Instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Meta-Llama-3-70B-Instruct
-Deprecation Date: 2025-06-30
-Shutdown Date: 2025-06-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Meta</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Meta-Llama-3-70B-Instruct-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Meta-Llama-3-8B-Instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Meta-Llama-3-8B-Instruct
-Deprecation Date: 2025-06-30
-Shutdown Date: 2025-06-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Meta</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Meta-Llama-3-8B-Instruct-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Meta-Llama-3.1-70B-Instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Meta-Llama-3.1-70B-Instruct
-Deprecation Date: 2025-06-30
-Shutdown Date: 2025-06-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Meta</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Meta-Llama-3.1-70B-Instruct-2025-06-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: MAI-DS-R1</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: MAI-DS-R1
-Deprecation Date: 2026-02-27
-Shutdown Date: 2026-02-27
-First Observed: 2026-03-06
-Last Observed: 2026-03-26
-
-Microsoft</description>
-      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
-      <guid isPermaLink="false">Azure-MAI-DS-R1-2026-02-27-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Phi-3-medium-4k-instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Phi-3-medium-4k-instruct
-Deprecation Date: 2025-08-30
-Shutdown Date: 2025-08-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Microsoft</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Phi-3-medium-4k-instruct-2025-08-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Phi-3-medium-128k-instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Phi-3-medium-128k-instruct
-Deprecation Date: 2025-08-30
-Shutdown Date: 2025-08-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Microsoft</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Phi-3-medium-128k-instruct-2025-08-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Phi-3-mini-4k-instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Phi-3-mini-4k-instruct
-Deprecation Date: 2025-08-30
-Shutdown Date: 2025-08-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Microsoft</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Phi-3-mini-4k-instruct-2025-08-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Phi-3-mini-128k-instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Phi-3-mini-128k-instruct
-Deprecation Date: 2025-08-30
-Shutdown Date: 2025-08-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Microsoft</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Phi-3-mini-128k-instruct-2025-08-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Phi-3-small-8k-instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Phi-3-small-8k-instruct
-Deprecation Date: 2025-08-30
-Shutdown Date: 2025-08-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Microsoft</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Phi-3-small-8k-instruct-2025-08-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Phi-3-small-128k-instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Phi-3-small-128k-instruct
-Deprecation Date: 2025-08-30
-Shutdown Date: 2025-08-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Microsoft</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Phi-3-small-128k-instruct-2025-08-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Phi-3.5-mini-instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Phi-3.5-mini-instruct
-Deprecation Date: 2025-08-30
-Shutdown Date: 2025-08-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Microsoft</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Phi-3.5-mini-instruct-2025-08-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Phi-3.5-MoE-instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Phi-3.5-MoE-instruct
-Deprecation Date: 2025-08-30
-Shutdown Date: 2025-08-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Microsoft</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Phi-3.5-MoE-instruct-2025-08-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Phi-3.5-vision-instruct</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Phi-3.5-vision-instruct
-Deprecation Date: 2025-08-30
-Shutdown Date: 2025-08-30
-First Observed: 2026-02-01
-Last Observed: 2026-02-01
-
-Microsoft</description>
-      <pubDate>Sun, 01 Feb 2026 04:25:16 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Phi-3.5-vision-instruct-2025-08-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Mistral-Nemo</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Mistral-Nemo
-Deprecation Date: 2026-01-30
-Shutdown Date: 2026-01-30
-First Observed: 2026-02-01
-Last Observed: 2026-03-26
-
-Mistral AI</description>
-      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Mistral-Nemo-2026-01-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Mistral-large-2411</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Mistral-large-2411
-Deprecation Date: 2026-01-30
-Shutdown Date: 2026-01-30
-First Observed: 2026-02-01
-Last Observed: 2026-03-26
-
-Mistral AI</description>
-      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Mistral-large-2411-2026-01-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Mistral-ocr-2503</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Mistral-ocr-2503
-Deprecation Date: 2026-01-30
-Shutdown Date: 2026-01-30
-First Observed: 2026-02-01
-Last Observed: 2026-03-26
-
-Mistral AI</description>
-      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Mistral-ocr-2503-2026-01-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Mistral-small</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Mistral-small
-Deprecation Date: 2025-07-31
-Shutdown Date: 2025-07-31
-First Observed: 2026-02-01
-Last Observed: 2026-03-26
-
-Mistral AI</description>
-      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Mistral-small-2025-07-31-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Mistral-large-2407</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Mistral-large-2407
-Deprecation Date: 2025-05-13
-Shutdown Date: 2025-05-13
-First Observed: 2026-02-01
-Last Observed: 2026-03-26
-
-Mistral AI</description>
-      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Mistral-large-2407-2025-05-13-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Mistral-large</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Mistral-large
-Deprecation Date: 2025-04-15
-Shutdown Date: 2025-04-15
-First Observed: 2026-02-01
-Last Observed: 2026-03-26
-
-Mistral AI</description>
-      <pubDate>Thu, 26 Mar 2026 16:12:10 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Mistral-large-2025-04-15-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Kimi-k2-thinking</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Kimi-k2-thinking
-Deprecation Date: 2026-03-29
-Shutdown Date: 2026-03-29
-First Observed: 2026-02-25
-Last Observed: 2026-04-02
-
-Moonshot AI</description>
-      <pubDate>Thu, 02 Apr 2026 04:31:38 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Kimi-k2-thinking-2026-03-29-e3b0c442</guid>
     </item>
   </channel>
 </rss>
