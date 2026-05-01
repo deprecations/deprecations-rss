@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Tue, 28 Apr 2026 05:32:49 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 21:43:36 GMT</lastBuildDate>
     <item>
       <title>OpenAI: computer-use-preview-2025-03-11</title>
       <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
@@ -13,11 +13,25 @@ Model ID: computer-use-preview-2025-03-11
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-computer-use-preview-2025-03-11-2026-07-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: computer-use-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: computer-use-preview
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-07-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-computer-use-preview-2026-07-23-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-4o-audio-preview-2024-12-17</title>
@@ -27,10 +41,10 @@ Model ID: gpt-4o-audio-preview-2024-12-17
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-audio-preview-2024-12-17-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -41,10 +55,10 @@ Model ID: gpt-4o-mini-audio-preview-2024-12-17
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-mini-audio-preview-2024-12-17-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -55,10 +69,10 @@ Model ID: gpt-4o-mini-realtime-preview-2024-12-17
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-mini-realtime-preview-2024-12-17-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -69,10 +83,10 @@ Model ID: gpt-4o-mini-search-preview-2025-03-11
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-mini-search-preview-2025-03-11-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -83,10 +97,10 @@ Model ID: gpt-4o-mini-tts-2025-03-20
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-mini-tts-2025-03-20-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -97,10 +111,10 @@ Model ID: gpt-4o-search-preview-2025-03-11
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-search-preview-2025-03-11-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -111,10 +125,10 @@ Model ID: gpt-5-chat-latest
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-5-chat-latest-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -125,10 +139,10 @@ Model ID: gpt-5-codex
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-5-codex-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -139,10 +153,10 @@ Model ID: gpt-5.1-chat-latest
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-5.1-chat-latest-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -153,10 +167,10 @@ Model ID: gpt-5.1-codex
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-5.1-codex-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -167,10 +181,10 @@ Model ID: gpt-5.1-codex-max
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-5.1-codex-max-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -181,10 +195,10 @@ Model ID: gpt-5.1-codex-mini
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-5.1-codex-mini-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -195,10 +209,10 @@ Model ID: gpt-audio-mini-2025-10-06
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-audio-mini-2025-10-06-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -209,10 +223,10 @@ Model ID: gpt-realtime-mini-2025-10-06
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-realtime-mini-2025-10-06-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -223,11 +237,25 @@ Model ID: o3-deep-research-2025-06-26
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-o3-deep-research-2025-06-26-2026-07-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: o3-deep-research</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: o3-deep-research
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-07-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-o3-deep-research-2026-07-23-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: o4-mini-deep-research-2025-06-26</title>
@@ -237,11 +265,25 @@ Model ID: o4-mini-deep-research-2025-06-26
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-o4-mini-deep-research-2025-06-26-2026-07-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: o4-mini-deep-research</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: o4-mini-deep-research
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-07-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-o4-mini-deep-research-2026-07-23-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-5.2-codex</title>
@@ -251,10 +293,10 @@ Model ID: gpt-5.2-codex
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-5.2-codex-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -265,11 +307,39 @@ Model ID: gpt-3.5-turbo-0125
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-0125-2026-10-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-3.5-turbo</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-3.5-turbo
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-10-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-2026-10-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-3.5-turbo-completions</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-3.5-turbo-completions
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-10-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-completions-2026-10-23-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-4-0613</title>
@@ -279,11 +349,53 @@ Model ID: gpt-4-0613
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4-0613-2026-10-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-10-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-2026-10-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4-0613-completions</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4-0613-completions
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-10-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-0613-completions-2026-10-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4-completions</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4-completions
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-10-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-completions-2026-10-23-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-4-1106-preview</title>
@@ -293,10 +405,10 @@ Model ID: gpt-4-1106-preview
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-03-26
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4-1106-preview-2026-10-23-e3b0c442</guid>
     </item>
     <item>
@@ -307,11 +419,39 @@ Model ID: gpt-4-turbo
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4-turbo-2026-10-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4-turbo-2024-04-09</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4-turbo-2024-04-09
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-10-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-turbo-2024-04-09-2026-10-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4-turbo-completions</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4-turbo-completions
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-10-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4-turbo-completions-2026-10-23-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-4.1-nano</title>
@@ -321,11 +461,25 @@ Model ID: gpt-4.1-nano
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4.1-nano-2026-10-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4.1-nano-2025-04-14</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4.1-nano-2025-04-14
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-10-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4.1-nano-2025-04-14-2026-10-23-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-4o-2024-05-13</title>
@@ -335,10 +489,10 @@ Model ID: gpt-4o-2024-05-13
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-2024-05-13-2026-10-23-e3b0c442</guid>
     </item>
     <item>
@@ -349,10 +503,10 @@ Model ID: gpt-image-1
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-image-1-2026-10-23-e3b0c442</guid>
     </item>
     <item>
@@ -363,11 +517,25 @@ Model ID: o1-2024-12-17
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-o1-2024-12-17-2026-10-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: o1</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: o1
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-10-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-o1-2026-10-23-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: o1-pro-2025-03-19</title>
@@ -377,11 +545,25 @@ Model ID: o1-pro-2025-03-19
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-o1-pro-2025-03-19-2026-10-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: o1-pro</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: o1-pro
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-10-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-o1-pro-2026-10-23-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: o3-mini-2025-01-31</title>
@@ -391,11 +573,25 @@ Model ID: o3-mini-2025-01-31
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-o3-mini-2025-01-31-2026-10-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: o3-mini</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: o3-mini
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-10-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-o3-mini-2026-10-23-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: ft-o4-mini-2025-04-16</title>
@@ -405,10 +601,10 @@ Model ID: ft-o4-mini-2025-04-16
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-ft-o4-mini-2025-04-16-2026-10-23-e3b0c442</guid>
     </item>
     <item>
@@ -419,11 +615,25 @@ Model ID: o4-mini-2025-04-16
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-o4-mini-2025-04-16-2026-10-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: o4-mini</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: o4-mini
+Deprecation Date: 2026-04-22
+Shutdown Date: 2026-10-23
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-o4-mini-2026-10-23-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: ft-gpt-3.5-turbo</title>
@@ -433,10 +643,10 @@ Model ID: ft-gpt-3.5-turbo
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-ft-gpt-3.5-turbo-2026-10-23-e3b0c442</guid>
     </item>
     <item>
@@ -447,10 +657,10 @@ Model ID: ft-gpt-4
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-ft-gpt-4-2026-10-23-e3b0c442</guid>
     </item>
     <item>
@@ -461,10 +671,10 @@ Model ID: ft-gpt-4.1-nano-2025-04-14
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-ft-gpt-4.1-nano-2025-04-14-2026-10-23-e3b0c442</guid>
     </item>
     <item>
@@ -475,10 +685,10 @@ Model ID: ft-babbage-002
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-ft-babbage-002-2026-10-23-e3b0c442</guid>
     </item>
     <item>
@@ -489,10 +699,10 @@ Model ID: ft-davinci-002
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-10-23
 First Observed: 2026-04-23
-Last Observed: 2026-04-23
+Last Observed: 2026-05-01
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Thu, 23 Apr 2026 04:51:54 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-ft-davinci-002-2026-10-23-e3b0c442</guid>
     </item>
     <item>
@@ -503,10 +713,10 @@ Model ID: sora-2
 Deprecation Date: 2026-03-24
 Shutdown Date: 2026-09-24
 First Observed: 2026-03-27
-Last Observed: 2026-03-27
+Last Observed: 2026-05-01
 
 On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
-      <pubDate>Fri, 27 Mar 2026 04:35:42 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-sora-2-2026-09-24-e3b0c442</guid>
     </item>
     <item>
@@ -517,10 +727,10 @@ Model ID: sora-2-pro
 Deprecation Date: 2026-03-24
 Shutdown Date: 2026-09-24
 First Observed: 2026-03-27
-Last Observed: 2026-03-27
+Last Observed: 2026-05-01
 
 On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
-      <pubDate>Fri, 27 Mar 2026 04:35:42 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-sora-2-pro-2026-09-24-e3b0c442</guid>
     </item>
     <item>
@@ -531,10 +741,10 @@ Model ID: sora-2-2025-10-06
 Deprecation Date: 2026-03-24
 Shutdown Date: 2026-09-24
 First Observed: 2026-03-27
-Last Observed: 2026-03-27
+Last Observed: 2026-05-01
 
 On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
-      <pubDate>Fri, 27 Mar 2026 04:35:42 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-sora-2-2025-10-06-2026-09-24-e3b0c442</guid>
     </item>
     <item>
@@ -545,10 +755,10 @@ Model ID: sora-2-2025-12-08
 Deprecation Date: 2026-03-24
 Shutdown Date: 2026-09-24
 First Observed: 2026-03-27
-Last Observed: 2026-03-27
+Last Observed: 2026-05-01
 
 On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
-      <pubDate>Fri, 27 Mar 2026 04:35:42 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-sora-2-2025-12-08-2026-09-24-e3b0c442</guid>
     </item>
     <item>
@@ -559,10 +769,10 @@ Model ID: sora-2-pro-2025-10-06
 Deprecation Date: 2026-03-24
 Shutdown Date: 2026-09-24
 First Observed: 2026-03-27
-Last Observed: 2026-03-27
+Last Observed: 2026-05-01
 
 On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
-      <pubDate>Fri, 27 Mar 2026 04:35:42 GMT</pubDate>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-sora-2-pro-2025-10-06-2026-09-24-e3b0c442</guid>
     </item>
     <item>
@@ -1739,209 +1949,508 @@ Last Observed: 2026-03-26
       <guid isPermaLink="false">Anthropic-claude-instant-1.2-2024-11-06-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: gemini-robotics-er-1.6-preview</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260414</link>
+      <title>Google: gemini-3-pro-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-3-models</link>
       <description>Provider: Google
-Model ID: gemini-robotics-er-1.6-preview
-Deprecation Date: 2026-04-14
-First Observed: 2026-04-15
-Last Observed: 2026-04-15
+Model ID: gemini-3-pro-preview
+Deprecation Date: 2026-03-09
+Shutdown Date: 2026-03-09
+First Observed: 2026-02-27
+Last Observed: 2026-05-01
 
-Released gemini-robotics-er-1.6-preview , our updated robotics model.
-It now has new capabilities like instrument reading, improved spatial and
-physical reasoning capabilities. To learn more, see Gemini Robotics-ER page and the blog .</description>
-      <pubDate>Wed, 15 Apr 2026 04:47:23 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-robotics-er-1.6-preview-e3b0c442</guid>
+Gemini deprecations table: Gemini 3 models. Release date: 2025-11-18. Shutdown date: 2026-03-09. Recommended replacement: gemini-3.1-pro-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-3-pro-preview-2026-03-09-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: gemini-robotics-er-1.5-preview</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260414</link>
+      <title>Google: gemini-2.5-pro</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-pro-models</link>
       <description>Provider: Google
-Model ID: gemini-robotics-er-1.5-preview
-Deprecation Date: 2026-04-14
-First Observed: 2026-04-15
-Last Observed: 2026-04-15
+Model ID: gemini-2.5-pro
+Deprecation Date: 2026-06-17
+Shutdown Date: 2026-06-17
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
 
-Deprecation announcement: The gemini-robotics-er-1.5-preview model
-will be shut down on April 30, 2026 at 9AM
-PST.</description>
-      <pubDate>Wed, 15 Apr 2026 04:47:23 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-robotics-er-1.5-preview-e3b0c442</guid>
+Gemini deprecations table: Gemini 2.5 Pro models. Release date: 2025-06-17. Shutdown date: 2026-06-17. Recommended replacement: gemini-3.1-pro-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-pro-2026-06-17-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: gemini-embedding-2-preview</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260310</link>
+      <title>Google: gemini-2.5-pro-preview-03-25</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-pro-models</link>
       <description>Provider: Google
-Model ID: gemini-embedding-2-preview
-Deprecation Date: 2026-03-10
-First Observed: 2026-03-12
-Last Observed: 2026-03-12
+Model ID: gemini-2.5-pro-preview-03-25
+Deprecation Date: 2025-12-02
+Shutdown Date: 2025-12-02
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
 
-Released gemini-embedding-2-preview , our first multimodal embedding model.
-It supports text, image, video, audio, and PDF inputs,
-mapping all modalities into a unified embedding space. To learn more, see Embeddings .</description>
-      <pubDate>Thu, 12 Mar 2026 04:07:19 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-embedding-2-preview-e3b0c442</guid>
+Gemini deprecations table: Gemini 2.5 Pro models. Release date: 2025-03-03. Shutdown date: 2025-12-02. Recommended replacement: gemini-3.1-pro-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-pro-preview-03-25-2025-12-02-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.5-pro-preview-05-06</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-pro-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.5-pro-preview-05-06
+Deprecation Date: 2025-12-02
+Shutdown Date: 2025-12-02
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Gemini 2.5 Pro models. Release date: 2025-05-06. Shutdown date: 2025-12-02. Recommended replacement: gemini-3.1-pro-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-pro-preview-05-06-2025-12-02-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.5-pro-preview-06-05</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-pro-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.5-pro-preview-06-05
+Deprecation Date: 2025-12-02
+Shutdown Date: 2025-12-02
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Gemini 2.5 Pro models. Release date: 2025-06-05. Shutdown date: 2025-12-02. Recommended replacement: gemini-3.1-pro-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-pro-preview-06-05-2025-12-02-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.5-flash</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.5-flash
+Deprecation Date: 2026-06-17
+Shutdown Date: 2026-06-17
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-06-17. Shutdown date: 2026-06-17. Recommended replacement: gemini-3-flash-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-2026-06-17-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.5-flash-image</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.5-flash-image
+Deprecation Date: 2026-10-02
+Shutdown Date: 2026-10-02
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-10-02. Shutdown date: 2026-10-02. Recommended replacement: gemini-3.1-flash-image-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-image-2026-10-02-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.5-flash-lite</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.5-flash-lite
+Deprecation Date: 2026-07-22
+Shutdown Date: 2026-07-22
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-07-22. Shutdown date: 2026-07-22. Recommended replacement: gemini-3.1-flash-lite-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-lite-2026-07-22-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.5-flash-lite-preview-09-2025</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260310</link>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-lite-preview-09-2025
-Deprecation Date: 2026-03-10
+Deprecation Date: 2026-03-31
+Shutdown Date: 2026-03-31
 First Observed: 2026-03-12
-Last Observed: 2026-03-12
+Last Observed: 2026-05-01
 
-Deprecation announcement: The gemini-2.5-flash-lite-preview-09-2025 model
-will be shut down on March 31, 2026.</description>
-      <pubDate>Thu, 12 Mar 2026 04:07:19 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-lite-preview-09-2025-e3b0c442</guid>
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-09-25. Shutdown date: 2026-03-31. Recommended replacement: gemini-3.1-flash-lite-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-lite-preview-09-2025-2026-03-31-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: gemini-3-pro-preview</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260226</link>
+      <title>Google: gemini-2.5-flash-preview-05-20</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models</link>
       <description>Provider: Google
-Model ID: gemini-3-pro-preview
-Deprecation Date: 2026-02-26
-First Observed: 2026-02-27
-Last Observed: 2026-02-27
+Model ID: gemini-2.5-flash-preview-05-20
+Deprecation Date: 2025-11-18
+Shutdown Date: 2025-11-18
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
 
-Deprecation announcement: Gemini 3 Pro Preview ( gemini-3-pro-preview )
-will be shut down March 9, 2026.</description>
-      <pubDate>Fri, 27 Feb 2026 04:06:58 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-3-pro-preview-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.0-flash</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260218</link>
-      <description>Provider: Google
-Model ID: gemini-2.0-flash
-Deprecation Date: 2026-02-18
-First Observed: 2026-02-20
-Last Observed: 2026-02-20
-
-Deprecation announcement: The following models will be shut down June 1, 2026: gemini-2.0-flash gemini-2.0-flash-001 gemini-2.0-flash-lite gemini-2.0-flash-lite-001</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:02 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.0-flash-001</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260218</link>
-      <description>Provider: Google
-Model ID: gemini-2.0-flash-001
-Deprecation Date: 2026-02-18
-First Observed: 2026-02-20
-Last Observed: 2026-02-20
-
-Deprecation announcement: The following models will be shut down June 1, 2026: gemini-2.0-flash gemini-2.0-flash-001 gemini-2.0-flash-lite gemini-2.0-flash-lite-001</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:02 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-001-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.0-flash-lite</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260218</link>
-      <description>Provider: Google
-Model ID: gemini-2.0-flash-lite
-Deprecation Date: 2026-02-18
-First Observed: 2026-02-20
-Last Observed: 2026-02-20
-
-Deprecation announcement: The following models will be shut down June 1, 2026: gemini-2.0-flash gemini-2.0-flash-001 gemini-2.0-flash-lite gemini-2.0-flash-lite-001</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:02 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.0-flash-lite-001</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260218</link>
-      <description>Provider: Google
-Model ID: gemini-2.0-flash-lite-001
-Deprecation Date: 2026-02-18
-First Observed: 2026-02-20
-Last Observed: 2026-02-20
-
-Deprecation announcement: The following models will be shut down June 1, 2026: gemini-2.0-flash gemini-2.0-flash-001 gemini-2.0-flash-lite gemini-2.0-flash-lite-001</description>
-      <pubDate>Fri, 20 Feb 2026 04:09:02 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-001-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.5-flash-preview-09-25</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260115</link>
-      <description>Provider: Google
-Model ID: gemini-2.5-flash-preview-09-25
-Deprecation Date: 2026-01-15
-First Observed: 2026-01-16
-Last Observed: 2026-01-16
-
-Insufficient information provided in the deprecation notice to complete analysis.</description>
-      <pubDate>Fri, 16 Jan 2026 03:24:29 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-09-25-68660377</guid>
-    </item>
-    <item>
-      <title>Google: imagen-4.0-generate-preview-06-06</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260115</link>
-      <description>Provider: Google
-Model ID: imagen-4.0-generate-preview-06-06
-Deprecation Date: 2026-01-15
-First Observed: 2026-01-16
-Last Observed: 2026-01-16
-
-Insufficient information provided in the deprecation notice. Unable to extract specific details about model deprecation.</description>
-      <pubDate>Fri, 16 Jan 2026 03:24:29 GMT</pubDate>
-      <guid isPermaLink="false">Google-imagen-4.0-generate-preview-06-06-f7a59ecd</guid>
-    </item>
-    <item>
-      <title>Google: imagen-4.0-ultra-generate-preview-06-06</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260115</link>
-      <description>Provider: Google
-Model ID: imagen-4.0-ultra-generate-preview-06-06
-Deprecation Date: 2026-01-15
-First Observed: 2026-01-16
-Last Observed: 2026-01-16
-
-Insufficient information provided in the deprecation notice to extract specific details.</description>
-      <pubDate>Fri, 16 Jan 2026 03:24:29 GMT</pubDate>
-      <guid isPermaLink="false">Google-imagen-4.0-ultra-generate-preview-06-06-1357e0cc</guid>
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-05-20. Shutdown date: 2025-11-18. Recommended replacement: gemini-3-flash-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-05-20-2025-11-18-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.5-flash-image-preview</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20260115</link>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-image-preview
 Deprecation Date: 2026-01-15
+Shutdown Date: 2026-01-15
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-05-01
 
-The gemini-2.5-flash-image-preview model has been shut down.</description>
-      <pubDate>Thu, 26 Mar 2026 13:07:23 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-image-preview-e3b0c442</guid>
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-05-07. Shutdown date: 2026-01-15. Recommended replacement: gemini-2.5-flash-image.</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-image-preview-2026-01-15-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: veo-3.0-fast-generate-preview</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251111</link>
+      <title>Google: gemini-2.5-flash-preview-09-25</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models</link>
       <description>Provider: Google
-Model ID: veo-3.0-fast-generate-preview
-Deprecation Date: 2025-11-11
-Shutdown Date: 2025-11-12
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Model ID: gemini-2.5-flash-preview-09-25
+Deprecation Date: 2026-02-17
+Shutdown Date: 2026-02-17
+First Observed: 2026-01-16
+Last Observed: 2026-05-01
 
-November 12: veo-3.0-fast-generate-preview veo-3.0-generate-preview</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-veo-3.0-fast-generate-preview-2025-11-12-e3b0c442</guid>
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-09-25. Shutdown date: 2026-02-17. Recommended replacement: gemini-3-flash-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-09-25-2026-02-17-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.0-flash</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.0-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-flash
+Deprecation Date: 2026-06-01
+Shutdown Date: 2026-06-01
+First Observed: 2026-02-20
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Gemini 2.0 models. Release date: 2025-02-05. Shutdown date: 2026-06-01. Recommended replacement: gemini-2.5-flash.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-2026-06-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.0-flash-001</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.0-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-flash-001
+Deprecation Date: 2026-06-01
+Shutdown Date: 2026-06-01
+First Observed: 2026-02-20
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Gemini 2.0 models. Release date: 2025-02-05. Shutdown date: 2026-06-01. Recommended replacement: gemini-2.5-flash.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-001-2026-06-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.0-flash-lite</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.0-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-flash-lite
+Deprecation Date: 2026-06-01
+Shutdown Date: 2026-06-01
+First Observed: 2026-02-20
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Gemini 2.0 models. Release date: 2025-02-25. Shutdown date: 2026-06-01. Recommended replacement: gemini-2.5-flash-lite.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-2026-06-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.0-flash-lite-001</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.0-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-flash-lite-001
+Deprecation Date: 2026-06-01
+Shutdown Date: 2026-06-01
+First Observed: 2026-02-20
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Gemini 2.0 models. Release date: 2025-02-25. Shutdown date: 2026-06-01. Recommended replacement: gemini-2.5-flash-lite.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-001-2026-06-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.0-flash-preview-image-generation</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.0-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-flash-preview-image-generation
+Deprecation Date: 2025-11-14
+Shutdown Date: 2025-11-14
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Gemini 2.0 models. Release date: 2025-05-07. Shutdown date: 2025-11-14. Recommended replacement: gemini-2.5-flash-image.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-preview-image-generation-2025-11-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.0-flash-lite-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.0-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-flash-lite-preview
+Deprecation Date: 2025-12-09
+Shutdown Date: 2025-12-09
+First Observed: 2026-03-26
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Gemini 2.0 models. Release date: 2025-02-05. Shutdown date: 2025-12-09. Recommended replacement: gemini-2.5-flash-lite.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-preview-2025-12-09-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.0-flash-lite-preview-02-05</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.0-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-flash-lite-preview-02-05
+Deprecation Date: 2025-12-09
+Shutdown Date: 2025-12-09
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Gemini 2.0 models. Release date: 2025-02-05. Shutdown date: 2025-12-09. Recommended replacement: gemini-2.5-flash-lite.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-preview-02-05-2025-12-09-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.0-flash-live-001</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#live-api-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.0-flash-live-001
+Deprecation Date: 2025-12-09
+Shutdown Date: 2025-12-09
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Live API models. Release date: 2025-04-09. Shutdown date: 2025-12-09. Recommended replacement: gemini-3.1-flash-live-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-live-001-2025-12-09-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-live-2.5-flash-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#live-api-models</link>
+      <description>Provider: Google
+Model ID: gemini-live-2.5-flash-preview
+Deprecation Date: 2025-12-09
+Shutdown Date: 2025-12-09
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Live API models. Release date: 2025-06-17. Shutdown date: 2025-12-09. Recommended replacement: gemini-3.1-flash-live-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-live-2.5-flash-preview-2025-12-09-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-embedding-001</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#embedding-models</link>
+      <description>Provider: Google
+Model ID: gemini-embedding-001
+Deprecation Date: 2026-07-14
+Shutdown Date: 2026-07-14
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Embedding models. Release date: 2025-07-14. Shutdown date: 2026-07-14.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-embedding-001-2026-07-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: text-embedding-004</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#embedding-models</link>
+      <description>Provider: Google
+Model ID: text-embedding-004
+Deprecation Date: 2026-01-14
+Shutdown Date: 2026-01-14
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Embedding models. Release date: 2024-04-09. Shutdown date: 2026-01-14. Recommended replacement: gemini-embedding-001.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-text-embedding-004-2026-01-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: embedding-001</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#embedding-models</link>
+      <description>Provider: Google
+Model ID: embedding-001
+Deprecation Date: 2025-10-30
+Shutdown Date: 2025-10-30
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Embedding models. Release date: 2024-04-09. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-001.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-embedding-001-2025-10-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: embedding-gecko-001</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#embedding-models</link>
+      <description>Provider: Google
+Model ID: embedding-gecko-001
+Deprecation Date: 2025-10-30
+Shutdown Date: 2025-10-30
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-001.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-embedding-gecko-001-2025-10-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-embedding-exp</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#embedding-models</link>
+      <description>Provider: Google
+Model ID: gemini-embedding-exp
+Deprecation Date: 2025-10-30
+Shutdown Date: 2025-10-30
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-001.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-embedding-exp-2025-10-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-embedding-exp-03-07</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#embedding-models</link>
+      <description>Provider: Google
+Model ID: gemini-embedding-exp-03-07
+Deprecation Date: 2025-10-30
+Shutdown Date: 2025-10-30
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-001.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-embedding-exp-03-07-2025-10-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: imagen-4.0-generate-001</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#imagen-models</link>
+      <description>Provider: Google
+Model ID: imagen-4.0-generate-001
+Deprecation Date: 2026-06-24
+Shutdown Date: 2026-06-24
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-06-24. Recommended replacement: gemini-3-pro-image-preview, gemini-2.5-flash-image.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-imagen-4.0-generate-001-2026-06-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: imagen-4.0-ultra-generate-001</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#imagen-models</link>
+      <description>Provider: Google
+Model ID: imagen-4.0-ultra-generate-001
+Deprecation Date: 2026-06-24
+Shutdown Date: 2026-06-24
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-06-24. Recommended replacement: gemini-3-pro-image-preview, gemini-2.5-flash-image.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-imagen-4.0-ultra-generate-001-2026-06-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: imagen-4.0-fast-generate-001</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#imagen-models</link>
+      <description>Provider: Google
+Model ID: imagen-4.0-fast-generate-001
+Deprecation Date: 2026-06-24
+Shutdown Date: 2026-06-24
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-06-24. Recommended replacement: gemini-3-pro-image-preview, gemini-2.5-flash-image.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-imagen-4.0-fast-generate-001-2026-06-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: imagen-3.0-generate-002</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#imagen-models</link>
+      <description>Provider: Google
+Model ID: imagen-3.0-generate-002
+Deprecation Date: 2025-11-10
+Shutdown Date: 2025-11-10
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Imagen models. Release date: 2025-02-06. Shutdown date: 2025-11-10. Recommended replacement: imagen-4.0-generate-001.</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Google-imagen-3.0-generate-002-2025-11-10-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: imagen-4.0-generate-preview-06-06</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#imagen-models</link>
+      <description>Provider: Google
+Model ID: imagen-4.0-generate-preview-06-06
+Deprecation Date: 2026-02-17
+Shutdown Date: 2026-02-17
+First Observed: 2026-01-16
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-02-17. Recommended replacement: imagen-4.0-generate-001.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-imagen-4.0-generate-preview-06-06-2026-02-17-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: imagen-4.0-ultra-generate-preview-06-06</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#imagen-models</link>
+      <description>Provider: Google
+Model ID: imagen-4.0-ultra-generate-preview-06-06
+Deprecation Date: 2026-02-17
+Shutdown Date: 2026-02-17
+First Observed: 2026-01-16
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-02-17. Recommended replacement: imagen-4.0-ultra-generate-001.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-imagen-4.0-ultra-generate-preview-06-06-2026-02-17-e3b0c442</guid>
     </item>
     <item>
       <title>Google: veo-3.0-generate-preview</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251111</link>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#veo-models</link>
       <description>Provider: Google
 Model ID: veo-3.0-generate-preview
-Deprecation Date: 2025-11-11
+Deprecation Date: 2025-11-12
 Shutdown Date: 2025-11-12
 First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Last Observed: 2026-05-01
 
-November 12: veo-3.0-fast-generate-preview veo-3.0-generate-preview</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+Gemini deprecations table: Veo models. Release date: 2025-07-31. Shutdown date: 2025-11-12. Recommended replacement: veo-3.1-generate-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
       <guid isPermaLink="false">Google-veo-3.0-generate-preview-2025-11-12-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: veo-3.0-fast-generate-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#veo-models</link>
+      <description>Provider: Google
+Model ID: veo-3.0-fast-generate-preview
+Deprecation Date: 2025-11-12
+Shutdown Date: 2025-11-12
+First Observed: 2025-12-05
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Veo models. Release date: 2025-07-31. Shutdown date: 2025-11-12. Recommended replacement: veo-3.1-fast-generate-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-veo-3.0-fast-generate-preview-2025-11-12-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-robotics-er-1.5-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#robotics-models</link>
+      <description>Provider: Google
+Model ID: gemini-robotics-er-1.5-preview
+Deprecation Date: 2026-04-30
+Shutdown Date: 2026-04-30
+First Observed: 2026-04-15
+Last Observed: 2026-05-01
+
+Gemini deprecations table: Robotics models. Release date: 2025-09-25. Shutdown date: 2026-04-30. Recommended replacement: gemini-robotics-er-1.6-preview.</description>
+      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-robotics-er-1.5-preview-2026-04-30-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.0-flash-exp-image-generation</title>
@@ -1949,38 +2458,13 @@ November 12: veo-3.0-fast-generate-preview veo-3.0-generate-preview</description
       <description>Provider: Google
 Model ID: gemini-2.0-flash-exp-image-generation
 Deprecation Date: 2025-11-11
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Shutdown Date: 2025-11-14
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-gemini-2.0-flash-exp-image-generation</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-exp-image-generation-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.0-flash-preview-image-generation</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251111</link>
-      <description>Provider: Google
-Model ID: gemini-2.0-flash-preview-image-generation
-Deprecation Date: 2025-11-11
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-gemini-2.0-flash-preview-image-generation</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-preview-image-generation-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: imagen-3.0-generate-002</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251110</link>
-      <description>Provider: Google
-Model ID: imagen-3.0-generate-002
-Deprecation Date: 2025-11-10
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-The following model is shut down: imagen-3.0-generate-002 Use Imagen 4 instead. Refer to the Gemini deprecations table for more details.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-imagen-3.0-generate-002-e3b0c442</guid>
+Deprecation announcement: The following models will be shut down: November 12: veo-3.0-fast-generate-preview veo-3.0-generate-preview November 14: gemini-2.0-flash-exp-image-generation gemini-2.0-flash-preview-image-generation</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-exp-image-generation-2025-11-14-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.5-flash-lite-preview-06-17</title>
@@ -1988,25 +2472,13 @@ The following model is shut down: imagen-3.0-generate-002 Use Imagen 4 instead. 
       <description>Provider: Google
 Model ID: gemini-2.5-flash-lite-preview-06-17
 Deprecation Date: 2025-11-04
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Shutdown Date: 2025-11-18
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-gemini-2.5-flash-lite-preview-06-17</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-lite-preview-06-17-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.5-flash-preview-05-20</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
-      <description>Provider: Google
-Model ID: gemini-2.5-flash-preview-05-20
-Deprecation Date: 2025-11-04
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-gemini-2.5-flash-preview-05-20</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-05-20-e3b0c442</guid>
+Deprecation announcement: The following models will be shut down: November 18th: gemini-2.5-flash-lite-preview-06-17 gemini-2.5-flash-preview-05-20 December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05 December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-lite-preview-06-17-2025-11-18-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.0-flash-thinking-exp</title>
@@ -2015,11 +2487,11 @@ gemini-2.5-flash-preview-05-20</description>
 Model ID: gemini-2.0-flash-thinking-exp
 Deprecation Date: 2025-11-04
 Shutdown Date: 2025-12-02
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
+Deprecation announcement: The following models will be shut down: November 18th: gemini-2.5-flash-lite-preview-06-17 gemini-2.5-flash-preview-05-20 December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05 December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.0-flash-thinking-exp-2025-12-02-e3b0c442</guid>
     </item>
     <item>
@@ -2028,12 +2500,13 @@ December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 
       <description>Provider: Google
 Model ID: gemini-2.0-flash-thinking-exp-01-21
 Deprecation Date: 2025-11-04
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Shutdown Date: 2025-12-02
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-gemini-2.0-flash-thinking-exp-01-21</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-thinking-exp-01-21-e3b0c442</guid>
+Deprecation announcement: The following models will be shut down: November 18th: gemini-2.5-flash-lite-preview-06-17 gemini-2.5-flash-preview-05-20 December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05 December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-thinking-exp-01-21-2025-12-02-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.0-flash-thinking-exp-1219</title>
@@ -2041,81 +2514,13 @@ gemini-2.0-flash-thinking-exp-01-21</description>
       <description>Provider: Google
 Model ID: gemini-2.0-flash-thinking-exp-1219
 Deprecation Date: 2025-11-04
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-gemini-2.0-flash-thinking-exp-1219</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-thinking-exp-1219-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.5-pro-preview-03-25</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
-      <description>Provider: Google
-Model ID: gemini-2.5-pro-preview-03-25
-Deprecation Date: 2025-11-04
 Shutdown Date: 2025-12-02
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-pro-preview-03-25-2025-12-02-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.5-pro-preview-05-06</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
-      <description>Provider: Google
-Model ID: gemini-2.5-pro-preview-05-06
-Deprecation Date: 2025-11-04
-Shutdown Date: 2025-12-02
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-pro-preview-05-06-2025-12-02-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.5-pro-preview-06-05</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
-      <description>Provider: Google
-Model ID: gemini-2.5-pro-preview-06-05
-Deprecation Date: 2025-11-04
-Shutdown Date: 2025-12-02
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-pro-preview-06-05-2025-12-02-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.0-flash-lite-preview</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
-      <description>Provider: Google
-Model ID: gemini-2.0-flash-lite-preview
-Deprecation Date: 2025-11-04
-Shutdown Date: 2025-12-09
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
-
-December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
-      <pubDate>Thu, 26 Mar 2026 13:07:23 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-preview-2025-12-09-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.0-flash-lite-preview-02-05</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251104</link>
-      <description>Provider: Google
-Model ID: gemini-2.0-flash-lite-preview-02-05
-Deprecation Date: 2025-11-04
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-gemini-2.0-flash-lite-preview-02-05</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-lite-preview-02-05-e3b0c442</guid>
+Deprecation announcement: The following models will be shut down: November 18th: gemini-2.5-flash-lite-preview-06-17 gemini-2.5-flash-preview-05-20 December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05 December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.0-flash-thinking-exp-1219-2025-12-02-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.0-flash-exp</title>
@@ -2124,11 +2529,11 @@ gemini-2.0-flash-lite-preview-02-05</description>
 Model ID: gemini-2.0-flash-exp
 Deprecation Date: 2025-11-04
 Shutdown Date: 2025-12-09
-First Observed: 2026-01-29
-Last Observed: 2026-01-29
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
-      <pubDate>Thu, 29 Jan 2026 04:02:00 GMT</pubDate>
+Deprecation announcement: The following models will be shut down: November 18th: gemini-2.5-flash-lite-preview-06-17 gemini-2.5-flash-preview-05-20 December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05 December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.0-flash-exp-2025-12-09-e3b0c442</guid>
     </item>
     <item>
@@ -2138,11 +2543,11 @@ December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 
 Model ID: gemini-2.0-pro-exp
 Deprecation Date: 2025-11-04
 Shutdown Date: 2025-12-09
-First Observed: 2026-01-29
-Last Observed: 2026-01-29
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
-      <pubDate>Thu, 29 Jan 2026 04:02:00 GMT</pubDate>
+Deprecation announcement: The following models will be shut down: November 18th: gemini-2.5-flash-lite-preview-06-17 gemini-2.5-flash-preview-05-20 December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05 December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.0-pro-exp-2025-12-09-e3b0c442</guid>
     </item>
     <item>
@@ -2152,11 +2557,11 @@ December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 
 Model ID: gemini-2.0-pro-exp-02-05
 Deprecation Date: 2025-11-04
 Shutdown Date: 2025-12-09
-First Observed: 2026-01-29
-Last Observed: 2026-01-29
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
-      <pubDate>Thu, 29 Jan 2026 04:02:00 GMT</pubDate>
+Deprecation announcement: The following models will be shut down: November 18th: gemini-2.5-flash-lite-preview-06-17 gemini-2.5-flash-preview-05-20 December 2nd: gemini-2.0-flash-thinking-exp gemini-2.0-flash-thinking-exp-01-21 gemini-2.0-flash-thinking-exp-1219 gemini-2.5-pro-preview-03-25 gemini-2.5-pro-preview-05-06 gemini-2.5-pro-preview-06-05 December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 gemini-2.0-flash-exp gemini-2.0-pro-exp gemini-2.0-pro-exp-02-05</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.0-pro-exp-02-05-2025-12-09-e3b0c442</guid>
     </item>
     <item>
@@ -2165,12 +2570,13 @@ December 9th: gemini-2.0-flash-lite-preview gemini-2.0-flash-lite-preview-02-05 
       <description>Provider: Google
 Model ID: gemini-2.5-flash-preview-native-audio-dialog
 Deprecation Date: 2025-10-20
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Shutdown Date: 2025-10-20
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-gemini-2.5-flash-preview-native-audio-dialog</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-native-audio-dialog-e3b0c442</guid>
+The following Gemini Live API models are now shut down: gemini-2.5-flash-preview-native-audio-dialog gemini-2.5-flash-exp-native-audio-thinking-dialog You can use gemini-2.5-flash-native-audio-preview-09-2025 instead.</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-native-audio-dialog-2025-10-20-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.5-flash-exp-native-audio-thinking-dialog</title>
@@ -2178,119 +2584,69 @@ gemini-2.5-flash-preview-native-audio-dialog</description>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-exp-native-audio-thinking-dialog
 Deprecation Date: 2025-10-20
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Shutdown Date: 2025-10-20
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-gemini-2.5-flash-exp-native-audio-thinking-dialog</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-exp-native-audio-thinking-dialog-e3b0c442</guid>
+The following Gemini Live API models are now shut down: gemini-2.5-flash-preview-native-audio-dialog gemini-2.5-flash-exp-native-audio-thinking-dialog You can use gemini-2.5-flash-native-audio-preview-09-2025 instead.</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-exp-native-audio-thinking-dialog-2025-10-20-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: gemini-2.5-flash-native-audio-preview-09-2025</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251020</link>
+      <title>Google: gemini-1.5-pro</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20250929</link>
       <description>Provider: Google
-Model ID: gemini-2.5-flash-native-audio-preview-09-2025
-Deprecation Date: 2025-10-20
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Model ID: gemini-1.5-pro
+Deprecation Date: 2025-09-29
+Shutdown Date: 2025-09-29
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-You can use gemini-2.5-flash-native-audio-preview-09-2025 instead.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-native-audio-preview-09-2025-e3b0c442</guid>
+The following Gemini 1.5 models are now shut down: gemini-1.5-pro gemini-1.5-flash-8b gemini-1.5-flash</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-1.5-pro-2025-09-29-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: gemini-2.0-flash-live-001</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251020</link>
+      <title>Google: gemini-1.5-flash-8b</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20250929</link>
       <description>Provider: Google
-Model ID: gemini-2.0-flash-live-001
-Deprecation Date: 2025-10-20
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Model ID: gemini-1.5-flash-8b
+Deprecation Date: 2025-09-29
+Shutdown Date: 2025-09-29
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-Deprecation announcement: Shut down for gemini-2.0-flash-live-001 and gemini-live-2.5-flash-preview coming December 09, 2025.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.0-flash-live-001-e3b0c442</guid>
+The following Gemini 1.5 models are now shut down: gemini-1.5-pro gemini-1.5-flash-8b gemini-1.5-flash</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-1.5-flash-8b-2025-09-29-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: gemini-live-2.5-flash-preview</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20251020</link>
+      <title>Google: gemini-1.5-flash</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20250929</link>
       <description>Provider: Google
-Model ID: gemini-live-2.5-flash-preview
-Deprecation Date: 2025-10-20
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Model ID: gemini-1.5-flash
+Deprecation Date: 2025-09-29
+Shutdown Date: 2025-09-29
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-Deprecation announcement: Shut down for gemini-2.0-flash-live-001 and gemini-live-2.5-flash-preview coming December 09, 2025.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-live-2.5-flash-preview-e3b0c442</guid>
+The following Gemini 1.5 models are now shut down: gemini-1.5-pro gemini-1.5-flash-8b gemini-1.5-flash</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-1.5-flash-2025-09-29-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: gemini-embedding-exp-03-07</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20250916</link>
+      <title>Google: gemini-2.5-pro-exp-03-25</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20250626</link>
       <description>Provider: Google
-Model ID: gemini-embedding-exp-03-07
-Deprecation Date: 2025-09-16
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Model ID: gemini-2.5-pro-exp-03-25
+Deprecation Date: 2025-06-26
+Shutdown Date: 2025-06-26
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-gemini-embedding-exp-03-07 ( gemini-embedding-exp )</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-embedding-exp-03-07-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-embedding-exp</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20250916</link>
-      <description>Provider: Google
-Model ID: gemini-embedding-exp
-Deprecation Date: 2025-09-16
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-gemini-embedding-exp-03-07 ( gemini-embedding-exp )</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-embedding-exp-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-embedding-001</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20250714</link>
-      <description>Provider: Google
-Model ID: gemini-embedding-001
-Deprecation Date: 2025-07-14
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Released gemini-embedding-001 , the stable version of our
-text embedding model. To learn more, see embeddings . The gemini-embedding-exp-03-07 model will be deprecated on August 14, 2025.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-embedding-001-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.5-pro</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20250617</link>
-      <description>Provider: Google
-Model ID: gemini-2.5-pro
-Deprecation Date: 2025-06-17
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Released gemini-2.5-pro , the stable version of our most powerful
-model, now with adaptive thinking. To learn more, see Gemini 2.5 Pro and Thinking . gemini-2.5-pro-preview-05-06 will be redirected to gemini-2.5-pro on June 26, 2025.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-pro-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.5-flash</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20250617</link>
-      <description>Provider: Google
-Model ID: gemini-2.5-flash
-Deprecation Date: 2025-06-17
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-Released gemini-2.5-flash , our first stable 2.5 Flash model. To learn
-more, see Gemini 2.5 Flash . gemini-2.5-flash-preview-04-17 will be deprecated on July 15, 2025.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-e3b0c442</guid>
+gemini-2.5-pro-exp-03-25 is shut down.</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-pro-exp-03-25-2025-06-26-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.5-flash-preview-04-17</title>
@@ -2298,28 +2654,13 @@ more, see Gemini 2.5 Flash . gemini-2.5-flash-preview-04-17 will be deprecated o
       <description>Provider: Google
 Model ID: gemini-2.5-flash-preview-04-17
 Deprecation Date: 2025-06-17
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Shutdown Date: 2025-07-15
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-Released gemini-2.5-flash , our first stable 2.5 Flash model. To learn
-more, see Gemini 2.5 Flash . gemini-2.5-flash-preview-04-17 will be deprecated on July 15, 2025.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-04-17-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-1.5-flash</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog#20250527</link>
-      <description>Provider: Google
-Model ID: gemini-1.5-flash
-Deprecation Date: 2025-05-27
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
-
-The last available tuning model, Gemini 1.5 Flash 001, has been shut down.
-Tuning is no longer supported on any models.
-SeeFine tuning with the Gemini API.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-1.5-flash-e3b0c442</guid>
+Released gemini-2.5-flash , our first stable 2.5 Flash model. To learn more, see Gemini 2.5 Flash . gemini-2.5-flash-preview-04-17 will be deprecated on July 15, 2025.</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-preview-04-17-2025-07-15-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-1.0-pro</title>
@@ -2327,12 +2668,13 @@ SeeFine tuning with the Gemini API.</description>
       <description>Provider: Google
 Model ID: gemini-1.0-pro
 Deprecation Date: 2025-02-18
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Shutdown Date: 2025-02-18
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
-Gemini 1.0 Pro is no longer supported. For the list of supported models, seeGemini models.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-1.0-pro-e3b0c442</guid>
+Gemini 1.0 Pro is no longer supported. For the list of supported models, see Gemini models .</description>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-1.0-pro-2025-02-18-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-1.0-pro-vision</title>
@@ -2340,12 +2682,13 @@ Gemini 1.0 Pro is no longer supported. For the list of supported models, seeGemi
       <description>Provider: Google
 Model ID: gemini-1.0-pro-vision
 Deprecation Date: 2024-07-12
-First Observed: 2025-12-05
-Last Observed: 2025-12-05
+Shutdown Date: 2024-07-12
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
 
 Support for Gemini 1.0 Pro Vision removed from Google AI services and tools.</description>
-      <pubDate>Fri, 05 Dec 2025 16:52:41 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-1.0-pro-vision-e3b0c442</guid>
+      <pubDate>Fri, 01 May 2026 21:41:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-1.0-pro-vision-2024-07-12-e3b0c442</guid>
     </item>
     <item>
       <title>Google Vertex: claude-3-haiku</title>
@@ -2793,6 +3136,182 @@ Model ID meta.llama3-2-90b-instruct-v1:0. (Llama 3.2 90B Instruct). entered lega
       <guid isPermaLink="false">AWS_Bedrock-meta.llama3-2-90b-instruct-v10-2026-07-07-e3b0c442</guid>
     </item>
     <item>
+      <title>Cohere: embed-english-v2.0</title>
+      <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
+      <description>Provider: Cohere
+Model ID: embed-english-v2.0
+Deprecation Date: 2026-04-04
+Shutdown Date: 2026-04-04
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-embed-english-v2.0-2026-04-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: embed-english-light-v2.0</title>
+      <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
+      <description>Provider: Cohere
+Model ID: embed-english-light-v2.0
+Deprecation Date: 2026-04-04
+Shutdown Date: 2026-04-04
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-embed-english-light-v2.0-2026-04-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: embed-multilingual-v2.0</title>
+      <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
+      <description>Provider: Cohere
+Model ID: embed-multilingual-v2.0
+Deprecation Date: 2026-04-04
+Shutdown Date: 2026-04-04
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-embed-multilingual-v2.0-2026-04-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: c4ai-aya-expanse-8b</title>
+      <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
+      <description>Provider: Cohere
+Model ID: c4ai-aya-expanse-8b
+Deprecation Date: 2026-04-04
+Shutdown Date: 2026-04-04
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-c4ai-aya-expanse-8b-2026-04-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: c4ai-aya-vision-8b</title>
+      <link>https://docs.cohere.com/docs/deprecations#2026-04-04-embed-v2-0-aya-expanse-8b</link>
+      <description>Provider: Cohere
+Model ID: c4ai-aya-vision-8b
+Deprecation Date: 2026-04-04
+Shutdown Date: 2026-04-04
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Effective April 4th, 2026, the following models will be retired: * `embed-english-v2.0` * `embed-english-light-v2.0` * `embed-multilingual-v2.0` * `c4ai-aya-expanse-8b` * `c4ai-aya-vision-8b` We encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities: * Embedding tasks alternatives: * `embed-english-v3.0` * `embed-multilingual-v3.0` * `embed-v4.0` * Chat tasks alternatives: * `command-r7b-12-2024` * `command-a-03-2025` * `comm...</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-c4ai-aya-vision-8b-2026-04-04-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: command-r-03-2024</title>
+      <link>https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning</link>
+      <description>Provider: Cohere
+Model ID: command-r-03-2024
+Deprecation Date: 2025-09-15
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a...</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-command-r-03-2024-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: command-r</title>
+      <link>https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning</link>
+      <description>Provider: Cohere
+Model ID: command-r
+Deprecation Date: 2025-09-15
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a...</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-command-r-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: command-r-plus-04-2024</title>
+      <link>https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning</link>
+      <description>Provider: Cohere
+Model ID: command-r-plus-04-2024
+Deprecation Date: 2025-09-15
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a...</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-command-r-plus-04-2024-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: command-r-plus</title>
+      <link>https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning</link>
+      <description>Provider: Cohere
+Model ID: command-r-plus
+Deprecation Date: 2025-09-15
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a...</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-command-r-plus-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: command-light</title>
+      <link>https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning</link>
+      <description>Provider: Cohere
+Model ID: command-light
+Deprecation Date: 2025-09-15
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a...</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-command-light-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: command</title>
+      <link>https://docs.cohere.com/docs/deprecations#2025-09-15-various-older-command-models-a-number-of-endpoints-all-of-fine-tuning</link>
+      <description>Provider: Cohere
+Model ID: command
+Deprecation Date: 2025-09-15
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Effective September 15, 2025, the following deprecations will roll out. Deprecated Models: * `command-r-03-2024`  (and the alias `command-r`) * `command-r-plus-04-2024`  (and the alias `command-r-plus`) * `command-light` * `command` * `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives). For command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a...</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-command-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: rerank-english-v2.0</title>
+      <link>https://docs.cohere.com/docs/deprecations#2024-12-02-rerank-v2-0</link>
+      <description>Provider: Cohere
+Model ID: rerank-english-v2.0
+Deprecation Date: 2024-12-02
+Shutdown Date: 2025-04-30
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family. Fine-tuned models created from these base models are not affected by this deprecation. | Shutdown Date | Deprecated Model           | Deprecated Model Price | Recommended Replacement | | ------------- | -------------------------- | ---------------------- | ----------------------- | | 2025-04-30    | `rerank-english-v2.0`      | \$1.00 / 1K searches   | `rerank-v3.5`         ...</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-rerank-english-v2.0-2025-04-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Cohere: rerank-multilingual-v2.0</title>
+      <link>https://docs.cohere.com/docs/deprecations#2024-12-02-rerank-v2-0</link>
+      <description>Provider: Cohere
+Model ID: rerank-multilingual-v2.0
+Deprecation Date: 2024-12-02
+Shutdown Date: 2025-04-30
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family. Fine-tuned models created from these base models are not affected by this deprecation. | Shutdown Date | Deprecated Model           | Deprecated Model Price | Recommended Replacement | | ------------- | -------------------------- | ---------------------- | ----------------------- | | 2025-04-30    | `rerank-english-v2.0`      | \$1.00 / 1K searches   | `rerank-v3.5`         ...</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Cohere-rerank-multilingual-v2.0-2025-04-30-e3b0c442</guid>
+    </item>
+    <item>
       <title>Azure: codex-mini</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -2923,14 +3442,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-4o-transcribe-diarize
-Deprecation Date: 2027-04-16
-Shutdown Date: 2027-04-16
+Deprecation Date: 2026-10-15
+Shutdown Date: 2026-10-15
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-05-01
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-4o-transcribe-diarize-2027-04-16-e3b0c442</guid>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4o-transcribe-diarize-2026-10-15-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-5</title>
@@ -2951,14 +3470,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-5-chat
-Deprecation Date: 2026-05-13
-Shutdown Date: 2026-05-13
+Deprecation Date: 2026-06-09
+Shutdown Date: 2026-06-09
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-05-01
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-5-chat-2026-05-13-e3b0c442</guid>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5-chat-2026-06-09-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-5-codex</title>
@@ -3035,14 +3554,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-5.1-chat
-Deprecation Date: 2026-05-13
-Shutdown Date: 2026-05-13
+Deprecation Date: 2026-06-09
+Shutdown Date: 2026-06-09
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-05-01
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-5.1-chat-2026-05-13-e3b0c442</guid>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.1-chat-2026-06-09-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-5.1-codex</title>
@@ -3105,14 +3624,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-5.2-chat
-Deprecation Date: 2026-05-13
-Shutdown Date: 2026-05-13
+Deprecation Date: 2026-06-09
+Shutdown Date: 2026-06-09
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-05-01
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-5.2-chat-2026-05-13-e3b0c442</guid>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.2-chat-2026-06-09-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-5.2-codex</title>
@@ -3133,14 +3652,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-5.3-chat
-Deprecation Date: 2026-06-03
-Shutdown Date: 2026-06-03
+Deprecation Date: 2026-06-09
+Shutdown Date: 2026-06-09
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-05-01
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-5.3-chat-2026-06-03-e3b0c442</guid>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.3-chat-2026-06-09-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-5.3-codex</title>
@@ -3259,14 +3778,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-audio-mini
-Deprecation Date: 2027-04-07
-Shutdown Date: 2027-04-07
+Deprecation Date: 2026-07-23
+Shutdown Date: 2026-07-23
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-05-01
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-audio-mini-2027-04-07-e3b0c442</guid>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-audio-mini-2026-07-23-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-image-1</title>
@@ -3357,14 +3876,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-realtime-mini
-Deprecation Date: 2027-04-07
-Shutdown Date: 2027-04-07
+Deprecation Date: 2026-07-23
+Shutdown Date: 2026-07-23
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-05-01
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-realtime-mini-2027-04-07-e3b0c442</guid>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-realtime-mini-2026-07-23-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o1</title>
@@ -3511,42 +4030,42 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: tts
-Deprecation Date: 2026-06-18
-Shutdown Date: 2026-06-18
+Deprecation Date: 2026-12-15
+Shutdown Date: 2026-12-15
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-05-01
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-tts-2026-06-18-e3b0c442</guid>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-tts-2026-12-15-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: tts-hd</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: tts-hd
-Deprecation Date: 2026-06-18
-Shutdown Date: 2026-06-18
+Deprecation Date: 2026-12-15
+Shutdown Date: 2026-12-15
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-05-01
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-tts-hd-2026-06-18-e3b0c442</guid>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-tts-hd-2026-12-15-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: whisper</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: whisper
-Deprecation Date: 2026-06-18
-Shutdown Date: 2026-06-18
+Deprecation Date: 2026-12-15
+Shutdown Date: 2026-12-15
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-05-01
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-whisper-2026-06-18-e3b0c442</guid>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-whisper-2026-12-15-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: model-router</title>
@@ -3717,6 +4236,20 @@ Anthropic</description>
       <guid isPermaLink="false">Azure-claude-opus-4-6-2027-02-02-e3b0c442</guid>
     </item>
     <item>
+      <title>Azure: claude-opus-4-7</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: claude-opus-4-7
+Deprecation Date: 2027-04-06
+Shutdown Date: 2027-04-06
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Anthropic</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-opus-4-7-2027-04-06-e3b0c442</guid>
+    </item>
+    <item>
       <title>Azure: claude-sonnet-4-5</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -3785,6 +4318,188 @@ Last Observed: 2026-04-25
 Cohere</description>
       <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-rerank-v3.5-2026-05-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: FW-DeepSeek-V3.1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: FW-DeepSeek-V3.1
+Deprecation Date: 2026-07-01
+Shutdown Date: 2026-07-01
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Fireworks</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-DeepSeek-V3.1-2026-07-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: FW-DeepSeek-V3.2</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: FW-DeepSeek-V3.2
+Deprecation Date: 2026-07-01
+Shutdown Date: 2026-07-01
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Fireworks</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-DeepSeek-V3.2-2026-07-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: FW-GLM-4.7</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: FW-GLM-4.7
+Deprecation Date: 2026-07-01
+Shutdown Date: 2026-07-01
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Fireworks</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-GLM-4.7-2026-07-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: FW-GLM-5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: FW-GLM-5
+Deprecation Date: 2026-07-01
+Shutdown Date: 2026-07-01
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Fireworks</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-GLM-5-2026-07-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: FW-GLM-5.1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: FW-GLM-5.1
+Deprecation Date: 2026-08-01
+Shutdown Date: 2026-08-01
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Fireworks</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-GLM-5.1-2026-08-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: FW-GPT-OSS-120B</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: FW-GPT-OSS-120B
+Deprecation Date: 2026-07-01
+Shutdown Date: 2026-07-01
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Fireworks</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-GPT-OSS-120B-2026-07-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: FW-Kimi-K2-Instruct-0905</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: FW-Kimi-K2-Instruct-0905
+Deprecation Date: 2026-07-01
+Shutdown Date: 2026-07-01
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Fireworks</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-Kimi-K2-Instruct-0905-2026-07-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: FW-Kimi-K2-Thinking</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: FW-Kimi-K2-Thinking
+Deprecation Date: 2026-07-01
+Shutdown Date: 2026-07-01
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Fireworks</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-Kimi-K2-Thinking-2026-07-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: FW-Kimi-K2.5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: FW-Kimi-K2.5
+Deprecation Date: 2026-07-01
+Shutdown Date: 2026-07-01
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Fireworks</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-Kimi-K2.5-2026-07-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: FW-MiniMax-M2.5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: FW-MiniMax-M2.5
+Deprecation Date: 2026-07-01
+Shutdown Date: 2026-07-01
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Fireworks</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-MiniMax-M2.5-2026-07-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: FW-Qwen3-14B</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: FW-Qwen3-14B
+Deprecation Date: 2026-07-01
+Shutdown Date: 2026-07-01
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Fireworks</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-Qwen3-14B-2026-07-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: FW-Qwen3.5-122B-A10B</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: FW-Qwen3.5-122B-A10B
+Deprecation Date: 2026-08-01
+Shutdown Date: 2026-08-01
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Fireworks</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-Qwen3.5-122B-A10B-2026-08-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: FW-Qwen3.5-397B-A17B</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: FW-Qwen3.5-397B-A17B
+Deprecation Date: 2026-08-01
+Shutdown Date: 2026-08-01
+First Observed: 2026-05-01
+Last Observed: 2026-05-01
+
+Fireworks</description>
+      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-Qwen3.5-397B-A17B-2026-08-01-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Llama-3.2-11B-Vision-Instruct</title>

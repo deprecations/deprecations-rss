@@ -5,116 +5,61 @@ from pathlib import Path
 from src.scrapers.google_scraper import GoogleScraper
 
 
-def test_extracts_models_with_proper_separation():
-    """Each model ID should be extracted separately, not concatenated."""
-    fixture_path = Path(__file__).parent / "fixtures" / "google_changelog.html"
-    html_content = fixture_path.read_text()
+def load_fixture() -> str:
+    fixture_path = Path(__file__).parent / "fixtures" / "google_deprecations.html"
+    return fixture_path.read_text()
 
+
+def test_extracts_only_rows_with_concrete_shutdown_dates():
+    """Rows without dated shutdowns are lifecycle notes, not feed items."""
     scraper = GoogleScraper()
-    items = scraper.extract_structured_deprecations(html_content)
+    items = scraper.extract_structured_deprecations(load_fixture())
+    model_ids = {item.model_id for item in items}
 
-    model_ids = [item.model_id for item in items]
+    assert model_ids == {
+        "gemini-2.5-pro",
+        "gemini-2.5-pro-preview-05-06",
+        "imagen-4.0-generate-001",
+    }
+    assert "gemini-3.1-pro-preview" not in model_ids
+    assert "veo-3.0-generate-001" not in model_ids
 
-    assert len(model_ids) > 0, "Should extract at least one model"
 
-    for model_id in model_ids:
-        # Models should not have concatenated gemini/veo/imagen names
-        if "gemini" in model_id:
-            assert model_id.count("gemini") == 1, (
-                f"Model ID '{model_id}' appears to be concatenated"
-            )
-        if "veo" in model_id:
-            assert model_id.count("veo") == 1, (
-                f"Model ID '{model_id}' appears to be concatenated"
-            )
-        if "imagen" in model_id:
-            assert model_id.count("imagen") == 1, (
-                f"Model ID '{model_id}' appears to be concatenated"
-            )
+def test_extracts_shutdown_dates_and_replacements():
+    """Google deprecation table fields should map cleanly to output fields."""
+    scraper = GoogleScraper()
+    items = {
+        item.model_id: item
+        for item in scraper.extract_structured_deprecations(load_fixture())
+    }
 
-    expected_models = [
-        "gemini-2.5-flash-lite-preview-06-17",
-        "gemini-2.5-flash-preview-05-20",
+    assert items["gemini-2.5-pro"].shutdown_date == "2026-06-17"
+    assert items["gemini-2.5-pro"].replacement_models == ["gemini-3.1-pro-preview"]
+    assert items["imagen-4.0-generate-001"].replacement_models == [
+        "gemini-3-pro-image-preview",
+        "gemini-2.5-flash-image",
     ]
 
-    for expected_model in expected_models:
-        assert expected_model in model_ids, (
-            f"Expected model '{expected_model}' not found in results"
-        )
 
-
-def test_creates_separate_deprecation_items_for_each_model():
-    """Each model should get its own DeprecationItem."""
-    fixture_path = Path(__file__).parent / "fixtures" / "google_changelog.html"
-    html_content = fixture_path.read_text()
-
+def test_preserves_table_section_context_and_url():
+    """Context should identify the source table without changelog noise."""
     scraper = GoogleScraper()
-    items = scraper.extract_structured_deprecations(html_content)
+    items = {
+        item.model_id: item
+        for item in scraper.extract_structured_deprecations(load_fixture())
+    }
 
-    nov_4_items = [item for item in items if item.announcement_date == "2025-11-04"]
-
-    assert len(nov_4_items) >= 2, (
-        f"Expected at least 2 items from Nov 4, got {len(nov_4_items)}"
-    )
-
-    nov_4_model_ids = [item.model_id for item in nov_4_items]
-    assert len(nov_4_model_ids) == len(set(nov_4_model_ids)), (
-        "Model IDs should be unique"
-    )
+    pro_item = items["gemini-2.5-pro"]
+    assert "Gemini deprecations table: Gemini 2.5 Pro" in pro_item.deprecation_context
+    assert pro_item.url.endswith("#gemini-2-5-pro")
 
 
-def test_extracts_model_ids_correctly():
-    """Model IDs should be properly formatted and not concatenated."""
-    fixture_path = Path(__file__).parent / "fixtures" / "google_changelog.html"
-    html_content = fixture_path.read_text()
-
+def test_model_ids_are_not_concatenated():
+    """Each table row should create a clean single model ID."""
     scraper = GoogleScraper()
-    items = scraper.extract_structured_deprecations(html_content)
+    items = scraper.extract_structured_deprecations(load_fixture())
 
     for item in items:
-        assert len(item.model_id) < 100, (
-            f"Model ID '{item.model_id}' appears to be concatenated"
-        )
-
-        if "gemini" in item.model_id:
-            assert item.model_id.count("gemini") == 1, (
-                f"Model ID '{item.model_id}' has duplicate 'gemini'"
-            )
-
-
-def test_handles_code_tags_in_lists():
-    """Model IDs in <code> tags within <li> should be extracted separately."""
-    fixture_path = Path(__file__).parent / "fixtures" / "google_changelog.html"
-    html_content = fixture_path.read_text()
-
-    scraper = GoogleScraper()
-    items = scraper.extract_structured_deprecations(html_content)
-
-    model_ids = [item.model_id for item in items]
-
-    assert "gemini-2.5-flash-lite-preview-06-17" in model_ids
-    assert "gemini-2.5-flash-preview-05-20" in model_ids
-
-
-def test_preserves_deprecation_context():
-    """Context should be preserved for each model without concatenation."""
-    fixture_path = Path(__file__).parent / "fixtures" / "google_changelog.html"
-    html_content = fixture_path.read_text()
-
-    scraper = GoogleScraper()
-    items = scraper.extract_structured_deprecations(html_content)
-
-    # Filter to items that were extracted from code tags (not fallback patterns)
-    code_based_items = [
-        item
-        for item in items
-        if any(
-            keyword in item.deprecation_context.lower()
-            for keyword in ["deprecated", "will be deprecated"]
-        )
-    ]
-
-    for item in code_based_items:
-        assert len(item.deprecation_context) > 0, (
-            f"Model {item.model_id} has no context"
-        )
+        assert len(item.model_id) < 100
+        assert item.model_id.count("gemini") <= 1
+        assert item.model_id.count("imagen") <= 1

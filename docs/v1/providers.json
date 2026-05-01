@@ -12,7 +12,7 @@
   {
     "provider": "Google",
     "label": "Google AI/Gemini Deprecations",
-    "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    "url": "https://ai.google.dev/gemini-api/docs/deprecations"
   },
   {
     "provider": "Google Vertex",

@@ -17,9 +17,16 @@ def is_markdown(content: str) -> bool:
     stripped = content.lstrip()
     if not stripped:
         return False
-    if stripped.startswith("<!doctype html") or stripped.startswith("<html"):
+
+    lowered = stripped[:200].lower()
+    if lowered.startswith("<!doctype html") or lowered.startswith("<html"):
         return False
-    return stripped.startswith(("#", "***", "---", "####", "###"))
+
+    return bool(
+        stripped.startswith(("#", "***", "---", "####", "###"))
+        or re.search(r"^#{1,6}\s+\S", content, re.MULTILINE)
+        or re.search(r"^\s*>\s*For clean Markdown", content, re.MULTILINE)
+    )
 
 
 def slugify_heading(text: str) -> str:
@@ -77,7 +84,30 @@ def parse_markdown_table(block_lines: list[str]) -> tuple[list[str], list[list[s
 
     def split_row(row: str) -> list[str]:
         stripped = row.strip().strip("|")
-        return [cell.strip() for cell in stripped.split("|")]
+        cells: list[str] = []
+        current: list[str] = []
+        index = 0
+
+        while index < len(stripped):
+            char = stripped[index]
+            if (
+                char == "\\"
+                and index + 1 < len(stripped)
+                and stripped[index + 1] == "|"
+            ):
+                current.append("|")
+                index += 2
+                continue
+            if char == "|":
+                cells.append("".join(current).strip())
+                current = []
+                index += 1
+                continue
+            current.append(char)
+            index += 1
+
+        cells.append("".join(current).strip())
+        return cells
 
     headers = split_row(block_lines[0])
     rows = [split_row(row) for row in block_lines[2:] if row.strip()]

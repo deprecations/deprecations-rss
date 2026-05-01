@@ -33,6 +33,14 @@ class AzureFoundryScraper(EnhancedBaseScraper):
                 headers.append(th.get_text(strip=True).upper())
 
             header_text = " ".join(headers).upper()
+            if (
+                "TRAINING RETIREMENT" in header_text
+                and "DEPLOYMENT RETIREMENT" in header_text
+            ):
+                # This table describes fine-tuning lifecycle for base model families,
+                # not retirement of the base models themselves.
+                continue
+
             keywords = ["MODEL", "RETIREMENT", "DEPRECATION", "LEGACY"]
             if not any(keyword in header_text for keyword in keywords):
                 continue
@@ -107,7 +115,7 @@ class AzureFoundryScraper(EnhancedBaseScraper):
                     )
                 )
 
-        return items
+        return self._merge_duplicate_models(items)
 
     def _extract_model_id_from_cell(self, cell: Any) -> str:
         """Extract a stable model identifier from a model table cell."""
@@ -190,6 +198,44 @@ class AzureFoundryScraper(EnhancedBaseScraper):
         if context:
             return context
         return f"Model lifecycle retirement information for {model_id}"
+
+    def _merge_duplicate_models(
+        self, items: list[DeprecationItem]
+    ) -> list[DeprecationItem]:
+        """Collapse Azure rows to one record per model using earliest dates."""
+        by_model: dict[str, DeprecationItem] = {}
+
+        for item in items:
+            existing = by_model.get(item.model_id)
+            if existing is None:
+                by_model[item.model_id] = item
+                continue
+
+            existing.announcement_date = self._earliest_date(
+                existing.announcement_date, item.announcement_date
+            )
+            existing.shutdown_date = self._earliest_date(
+                existing.shutdown_date, item.shutdown_date
+            )
+            existing.deprecation_date = existing.announcement_date
+
+            if item.deprecation_context not in existing.deprecation_context:
+                existing.deprecation_context += (
+                    f" Additional Azure row collapsed: {item.deprecation_context}"
+                )
+
+            if not existing.replacement_models and item.replacement_models:
+                existing.replacement_models = item.replacement_models
+
+        return list(by_model.values())
+
+    def _earliest_date(self, left: str, right: str) -> str:
+        """Return the earliest non-empty ISO date."""
+        if not left:
+            return right
+        if not right:
+            return left
+        return left if left <= right else right
 
     def extract_unstructured_deprecations(self, html: str) -> List[DeprecationItem]:
         """Azure AI Foundry page has structured tables, so this is not needed."""
