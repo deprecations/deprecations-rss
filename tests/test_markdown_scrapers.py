@@ -57,6 +57,29 @@ def test_openai_extracts_aliases_and_strips_replacement_footnotes():
         assert item.replacement_models == ["gpt-5", "gpt-4.1"]
 
 
+def test_openai_extracts_escaped_pipe_aliases_and_substitute_models():
+    """OpenAI markdown tables can use escaped pipes and Substitute model headers."""
+    markdown = """
+# Deprecations
+
+## Deprecation history
+
+### 2026-04-22: Legacy GPT model snapshots
+
+| Shutdown date | Model snapshot | Substitute model |
+| ------------- | -------------- | ---------------- |
+| 2026-10-23 | `gpt-4-0613` \\| `gpt-4`, `gpt-4-completions` | `gpt-4.1` |
+"""
+
+    items = OpenAIScraper().extract_structured_deprecations(markdown)
+    by_model = {item.model_id: item for item in items}
+
+    assert set(by_model) == {"gpt-4-0613", "gpt-4", "gpt-4-completions"}
+    for item in by_model.values():
+        assert item.shutdown_date == "2026-10-23"
+        assert item.replacement_models == ["gpt-4.1"]
+
+
 def test_anthropic_extracts_from_markdown_history():
     """Anthropic markdown history tables should produce correct dates and replacements."""
     markdown = """
@@ -86,6 +109,31 @@ On October 28, 2025, Anthropic notified developers using Claude Sonnet 3.7 model
     assert items[0].announcement_date == "2025-10-28"
     assert items[0].shutdown_date == "2026-02-19"
     assert items[0].replacement_models == ["claude-opus-4-6"]
+
+
+def test_cohere_detects_readme_style_markdown_preamble():
+    """ReadMe markdown can start with advisory blockquotes before the H1."""
+    markdown = """
+> For clean Markdown of any page, append .md to the page URL.
+> For a complete documentation index, see https://docs.cohere.com/llms.txt.
+
+# Deprecations
+
+### 2026-04-04: Embed v2.0, Aya Expanse 8B
+
+Effective April 4th, 2026, the following models will be retired:
+
+* `embed-english-v2.0`
+
+* Embedding tasks alternatives:
+  * `embed-v4.0`
+"""
+
+    items = CohereScraper().extract_structured_deprecations(markdown)
+
+    assert len(items) == 1
+    assert items[0].model_id == "embed-english-v2.0"
+    assert items[0].replacement_models == ["embed-v4.0"]
 
 
 def test_cohere_extracts_concrete_models_without_llm():

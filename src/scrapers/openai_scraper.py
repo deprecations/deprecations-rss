@@ -114,13 +114,17 @@ class OpenAIScraper(EnhancedBaseScraper):
         for idx, header in enumerate(header_text):
             if "SHUTDOWN" in header or "EOL" in header:
                 shutdown_idx = idx
+            elif (
+                "REPLACEMENT" in header
+                or "RECOMMENDED" in header
+                or "SUBSTITUTE" in header
+            ):
+                replacement_idx = idx
             elif "DEPRECATED MODEL" in header and "PRICE" not in header:
                 model_idx = idx
             elif ("MODEL" in header or "SYSTEM" in header) and "PRICE" not in header:
                 if model_idx is None:
                     model_idx = idx
-            elif "REPLACEMENT" in header or "RECOMMENDED" in header:
-                replacement_idx = idx
 
         if shutdown_idx is None and model_idx is None and len(header_text) >= 3:
             shutdown_idx = 0
@@ -205,7 +209,7 @@ class OpenAIScraper(EnhancedBaseScraper):
 
     def _parse_markdown_replacements(self, replacement_cell: str) -> list[str] | None:
         """Parse replacement model IDs from markdown cell text."""
-        if not replacement_cell or replacement_cell in {"—", "-", "N/A"}:
+        if not replacement_cell or replacement_cell.strip() in {"—", "-", "---", "N/A"}:
             return None
 
         code_spans = [
