@@ -24,12 +24,6 @@ metadata (model IDs, shutdown dates, providers).
 https://deprecations.info/feed.json
 ```
 
-### Raw API Endpoint
-Direct access to all deprecation data. Useful in scripts or custom integrations.
-```
-https://deprecations.info/api/v1/deprecations.json
-```
-
 
 ## What We Track
 We check these pages daily:
