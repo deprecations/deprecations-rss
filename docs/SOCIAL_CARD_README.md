@@ -4,8 +4,9 @@ This directory contains the social card implementation for the AI Deprecations F
 
 ## Files
 
-- `social-card.html` - HTML template for the social card that matches the site design
-- `social-card.png` - Generated social card image (1200x630px)
+- `social-card.jpeg` - Social preview image used by Open Graph and Twitter cards
+- `social-card.html` - HTML template for the generated fallback social card
+- `social-card.png` - Generated fallback social card image (1200x630px)
 
 ## Generating the Social Card Image
 
@@ -42,14 +43,14 @@ The social card is automatically included in the HTML via Open Graph and Twitter
 
 ```html
 <!-- Open Graph -->
-<meta property="og:image" content="https://deprecations.info/social-card.png">
+<meta property="og:image" content="https://deprecations.info/social-card.jpeg">
 
 <!-- Twitter -->
-<meta property="twitter:image" content="https://deprecations.info/social-card.png">
+<meta property="twitter:image" content="https://deprecations.info/social-card.jpeg">
 ```
 
 ## Dimensions
 
-- **Size**: 1200x630 pixels (standard social media image size)
+- **Size**: 1731x909 pixels
 - **Aspect Ratio**: 1.91:1
-- **Format**: PNG with transparency support
+- **Format**: JPEG
