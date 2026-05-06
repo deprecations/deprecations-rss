@@ -253,14 +253,11 @@ def save_provider_pages():
 
 
 def save_run_status(status_file: str | os.PathLike[str], provider_failures: list[dict]):
-    """Save provider-level scrape status for CI to evaluate after commit/push."""
+    """Save provider-level failures for the workflow to check after committing."""
     output_file = Path(status_file)
-    output_file.parent.mkdir(parents=True, exist_ok=True)
     payload = {
-        "status": "partial_failure" if provider_failures else "success",
         "failure_count": len(provider_failures),
         "provider_failures": provider_failures,
-        "generated_at": datetime.now(timezone.utc).isoformat(),
     }
     with open(output_file, "w", encoding="utf-8") as file:
         json.dump(payload, file, indent=2)

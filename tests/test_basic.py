@@ -1,5 +1,6 @@
 """Basic smoke tests to ensure nothing is broken."""
 
+import json
 import subprocess
 import sys
 from pathlib import Path
@@ -207,7 +208,7 @@ def test_missing_shutdown_dates_keep_current_valid_items(monkeypatch):
 
 
 def test_save_run_status_records_provider_failures(tmp_path):
-    """CI status file should capture provider failures without failing the scrape step."""
+    """Workflow status file should capture provider failures for delayed failure."""
     from src.main import save_run_status
 
     status_file = tmp_path / "scrape-status.json"
@@ -221,10 +222,40 @@ def test_save_run_status_records_provider_failures(tmp_path):
 
     save_run_status(status_file, provider_failures)
 
-    payload = __import__("json").loads(status_file.read_text())
-    assert payload["status"] == "partial_failure"
+    payload = json.loads(status_file.read_text())
     assert payload["failure_count"] == 1
     assert payload["provider_failures"] == provider_failures
+
+
+def test_check_scrape_status_fails_after_recorded_provider_failures(
+    tmp_path, monkeypatch
+):
+    """Status checker should fail the workflow after data has been committed."""
+    from src.check_scrape_status import main as check_scrape_status
+
+    status_file = tmp_path / "scrape-status.json"
+    summary_file = tmp_path / "summary.md"
+    status_file.write_text(
+        json.dumps(
+            {
+                "provider_failures": [
+                    {"provider": "Cohere", "message": "Missing shutdown dates"}
+                ]
+            }
+        )
+    )
+    monkeypatch.setenv("SCRAPE_OUTCOME", "success")
+    monkeypatch.setenv("SCRAPE_STATUS_FILE", str(status_file))
+    monkeypatch.setenv("GITHUB_STEP_SUMMARY", str(summary_file))
+
+    try:
+        check_scrape_status()
+    except SystemExit as exc:
+        assert "1 provider scrape failure" in str(exc)
+    else:
+        assert False, "Expected SystemExit"
+
+    assert "**Cohere**: Missing shutdown dates" in summary_file.read_text()
 
 
 def test_rss_feed_last_build_date_is_deterministic_from_data():

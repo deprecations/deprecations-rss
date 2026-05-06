@@ -153,4 +153,3 @@ cache/
 
 # uv
 .venv/
-uv.lock
