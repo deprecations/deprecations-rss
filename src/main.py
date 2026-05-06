@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import hashlib
 import json
-import os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -252,25 +251,9 @@ def save_provider_pages():
     print(f"Provider metadata saved to {output_file}")
 
 
-def save_run_status(status_file: str | os.PathLike[str], provider_failures: list[dict]):
-    """Save provider-level scrape status for CI to evaluate after commit/push."""
-    output_file = Path(status_file)
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    payload = {
-        "status": "partial_failure" if provider_failures else "success",
-        "failure_count": len(provider_failures),
-        "provider_failures": provider_failures,
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-    }
-    with open(output_file, "w", encoding="utf-8") as file:
-        json.dump(payload, file, indent=2)
-    print(f"Run status saved to {output_file}")
-
-
 if __name__ == "__main__":
     print("Scraping...")
 
-    status_file = os.environ.get("SCRAPE_STATUS_FILE", "")
     existing_data = read_existing_data()
     scraped_data, provider_failures = scrape_all(existing_data)
     scraped_data = apply_observation_metadata(scraped_data, existing_data)
@@ -299,10 +282,8 @@ if __name__ == "__main__":
     save_raw_api(normalized_data)
     save_provider_pages()
 
-    if status_file:
-        save_run_status(status_file, provider_failures)
-
     if provider_failures:
-        print(f"! Recorded {len(provider_failures)} provider-level scrape failures")
+        print(f"✗ Recorded {len(provider_failures)} provider-level scrape failures")
+        raise SystemExit(1)
 
     print("✓ All feeds generated successfully")

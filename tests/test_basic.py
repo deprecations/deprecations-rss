@@ -206,27 +206,6 @@ def test_missing_shutdown_dates_keep_current_valid_items(monkeypatch):
     ]
 
 
-def test_save_run_status_records_provider_failures(tmp_path):
-    """CI status file should capture provider failures without failing the scrape step."""
-    from src.main import save_run_status
-
-    status_file = tmp_path / "scrape-status.json"
-    provider_failures = [
-        {
-            "provider": "Cohere",
-            "kind": "validation",
-            "message": "Missing shutdown dates for 2 model IDs: a, b",
-        }
-    ]
-
-    save_run_status(status_file, provider_failures)
-
-    payload = __import__("json").loads(status_file.read_text())
-    assert payload["status"] == "partial_failure"
-    assert payload["failure_count"] == 1
-    assert payload["provider_failures"] == provider_failures
-
-
 def test_rss_feed_last_build_date_is_deterministic_from_data():
     """Regenerating RSS without data changes should not rewrite lastBuildDate."""
     from src.rss_gen import create_rss_feed
