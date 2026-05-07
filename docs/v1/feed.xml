@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 01 May 2026 21:43:36 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 05:33:30 GMT</lastBuildDate>
     <item>
       <title>OpenAI: computer-use-preview-2025-03-11</title>
       <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
@@ -125,10 +125,10 @@ Model ID: gpt-5-chat-latest
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-05-01
+Last Observed: 2026-05-07
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <pubDate>Thu, 07 May 2026 05:33:29 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-5-chat-latest-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -153,10 +153,10 @@ Model ID: gpt-5.1-chat-latest
 Deprecation Date: 2026-04-22
 Shutdown Date: 2026-07-23
 First Observed: 2026-04-23
-Last Observed: 2026-05-01
+Last Observed: 2026-05-07
 
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <pubDate>Thu, 07 May 2026 05:33:29 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-5.1-chat-latest-2026-07-23-e3b0c442</guid>
     </item>
     <item>
@@ -1967,14 +1967,14 @@ Gemini deprecations table: Gemini 3 models. Release date: 2025-11-18. Shutdown d
       <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-pro-models</link>
       <description>Provider: Google
 Model ID: gemini-2.5-pro
-Deprecation Date: 2026-06-17
-Shutdown Date: 2026-06-17
+Deprecation Date: 2026-10-16
+Shutdown Date: 2026-10-16
 First Observed: 2025-12-05
-Last Observed: 2026-05-01
+Last Observed: 2026-05-07
 
-Gemini deprecations table: Gemini 2.5 Pro models. Release date: 2025-06-17. Shutdown date: 2026-06-17. Recommended replacement: gemini-3.1-pro-preview.</description>
-      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-pro-2026-06-17-e3b0c442</guid>
+Gemini deprecations table: Gemini 2.5 Pro models. Release date: 2025-06-17. Shutdown date: 2026-10-16. Recommended replacement: gemini-3.1-pro-preview.</description>
+      <pubDate>Thu, 07 May 2026 05:33:30 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-pro-2026-10-16-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.5-pro-preview-03-25</title>
@@ -2023,14 +2023,14 @@ Gemini deprecations table: Gemini 2.5 Pro models. Release date: 2025-06-05. Shut
       <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash
-Deprecation Date: 2026-06-17
-Shutdown Date: 2026-06-17
+Deprecation Date: 2026-10-16
+Shutdown Date: 2026-10-16
 First Observed: 2025-12-05
-Last Observed: 2026-05-01
+Last Observed: 2026-05-07
 
-Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-06-17. Shutdown date: 2026-06-17. Recommended replacement: gemini-3-flash-preview.</description>
-      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-2026-06-17-e3b0c442</guid>
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-06-17. Shutdown date: 2026-10-16. Recommended replacement: gemini-3-flash-preview.</description>
+      <pubDate>Thu, 07 May 2026 05:33:30 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-2026-10-16-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.5-flash-image</title>
@@ -2051,14 +2051,14 @@ Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-10-02. Sh
       <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models</link>
       <description>Provider: Google
 Model ID: gemini-2.5-flash-lite
-Deprecation Date: 2026-07-22
-Shutdown Date: 2026-07-22
+Deprecation Date: 2026-10-16
+Shutdown Date: 2026-10-16
 First Observed: 2026-05-01
-Last Observed: 2026-05-01
+Last Observed: 2026-05-07
 
-Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-07-22. Shutdown date: 2026-07-22. Recommended replacement: gemini-3.1-flash-lite-preview.</description>
-      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-lite-2026-07-22-e3b0c442</guid>
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-07-22. Shutdown date: 2026-10-16. Recommended replacement: gemini-3.1-flash-lite-preview.</description>
+      <pubDate>Thu, 07 May 2026 05:33:30 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-flash-lite-2026-10-16-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.5-flash-lite-preview-09-2025</title>

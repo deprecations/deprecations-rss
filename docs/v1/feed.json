@@ -201,7 +201,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
       "title": "OpenAI: gpt-5-chat-latest",
       "content_text": "",
-      "date_published": "2026-05-01T21:39:21.869016+00:00",
+      "date_published": "2026-05-07T05:33:29.275381+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-5-chat-latest",
@@ -209,10 +209,10 @@
         "deprecation_date": "2026-04-22",
         "announcement_date": "2026-04-23",
         "replacement_models": [
-          "gpt-5.3-chat-latest"
+          "gpt-5.5"
         ],
         "first_observed": "2026-04-23",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-05-07"
       },
       "tags": [
         "OpenAI",
@@ -247,7 +247,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
       "title": "OpenAI: gpt-5.1-chat-latest",
       "content_text": "",
-      "date_published": "2026-05-01T21:39:21.869046+00:00",
+      "date_published": "2026-05-07T05:33:29.275403+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-5.1-chat-latest",
@@ -255,10 +255,10 @@
         "deprecation_date": "2026-04-22",
         "announcement_date": "2026-04-23",
         "replacement_models": [
-          "gpt-5.3-chat-latest"
+          "gpt-5.5"
         ],
         "first_observed": "2026-04-23",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-05-07"
       },
       "tags": [
         "OpenAI",
@@ -3237,18 +3237,18 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-pro-models",
       "title": "Google: gemini-2.5-pro",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.811332+00:00",
+      "date_published": "2026-05-07T05:33:30.715200+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-pro",
-        "shutdown_date": "2026-06-17",
-        "deprecation_date": "2026-06-17",
+        "shutdown_date": "2026-10-16",
+        "deprecation_date": "2026-10-16",
         "announcement_date": "2025-12-05",
         "replacement_models": [
           "gemini-3.1-pro-preview"
         ],
         "first_observed": "2025-12-05",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-05-07"
       },
       "tags": [
         "Google",
@@ -3329,18 +3329,18 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models",
       "title": "Google: gemini-2.5-flash",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.812091+00:00",
+      "date_published": "2026-05-07T05:33:30.715563+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash",
-        "shutdown_date": "2026-06-17",
-        "deprecation_date": "2026-06-17",
+        "shutdown_date": "2026-10-16",
+        "deprecation_date": "2026-10-16",
         "announcement_date": "2025-12-05",
         "replacement_models": [
           "gemini-3-flash-preview"
         ],
         "first_observed": "2025-12-05",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-05-07"
       },
       "tags": [
         "Google",
@@ -3375,18 +3375,18 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models",
       "title": "Google: gemini-2.5-flash-lite",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.812419+00:00",
+      "date_published": "2026-05-07T05:33:30.715675+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash-lite",
-        "shutdown_date": "2026-07-22",
-        "deprecation_date": "2026-07-22",
+        "shutdown_date": "2026-10-16",
+        "deprecation_date": "2026-10-16",
         "announcement_date": "2026-05-01",
         "replacement_models": [
           "gemini-3.1-flash-lite-preview"
         ],
         "first_observed": "2026-05-01",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-05-07"
       },
       "tags": [
         "Google",
