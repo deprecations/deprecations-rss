@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 07 May 2026 05:33:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 04:54:37 GMT</lastBuildDate>
     <item>
       <title>OpenAI: computer-use-preview-2025-03-11</title>
       <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
@@ -776,34 +776,6 @@ On March 24th, 2026, we notified developers using the Videos API and Sora 2 vide
       <guid isPermaLink="false">OpenAI-sora-2-pro-2025-10-06-2026-09-24-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: chatgpt-4o-latest</title>
-      <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
-      <description>Provider: OpenAI
-Model ID: chatgpt-4o-latest
-Deprecation Date: 2025-11-18
-Shutdown Date: 2026-02-17
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
-
-On November 18th, 2025, we notified developers using `chatgpt-4o-latest` model snapshot of its deprecation and removal from the API on February 17, 2026.</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-chatgpt-4o-latest-2026-02-17-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: codex-mini-latest</title>
-      <link>https://platform.openai.com/docs/deprecations#2025-11-17-codex-mini-latest-model-snapshot</link>
-      <description>Provider: OpenAI
-Model ID: codex-mini-latest
-Deprecation Date: 2025-11-17
-Shutdown Date: 2026-02-12
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
-
-On November 17th, 2025, we notified developers using `codex-mini-latest` model of its deprecation and removal from the API on February 12, 2026. As part of this deprecation, we will no longer support our legacy local shell tool, which is only available for use with `codex-mini-latest`. For new use cases, please use our latest shell tool.</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-codex-mini-latest-2026-02-12-e3b0c442</guid>
-    </item>
-    <item>
       <title>OpenAI: dall-e-2</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-14-dalle-model-snapshots</link>
       <description>Provider: OpenAI
@@ -1026,6 +998,34 @@ Last Observed: 2026-03-26
 In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
       <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-mini-audio-preview-2026-05-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: chatgpt-4o-latest</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
+      <description>Provider: OpenAI
+Model ID: chatgpt-4o-latest
+Deprecation Date: 2025-11-18
+Shutdown Date: 2026-02-17
+First Observed: 2026-03-26
+Last Observed: 2026-03-26
+
+On November 18th, 2025, we notified developers using `chatgpt-4o-latest` model snapshot of its deprecation and removal from the API on February 17, 2026.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-chatgpt-4o-latest-2026-02-17-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: codex-mini-latest</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-11-17-codex-mini-latest-model-snapshot</link>
+      <description>Provider: OpenAI
+Model ID: codex-mini-latest
+Deprecation Date: 2025-11-17
+Shutdown Date: 2026-02-12
+First Observed: 2026-03-26
+Last Observed: 2026-03-26
+
+On November 17th, 2025, we notified developers using `codex-mini-latest` model of its deprecation and removal from the API on February 12, 2026. As part of this deprecation, we will no longer support our legacy local shell tool, which is only available for use with `codex-mini-latest`. For new use cases, please use our latest shell tool.</description>
+      <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-codex-mini-latest-2026-02-12-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-4o-realtime-preview-2024-10-01</title>
@@ -1949,6 +1949,34 @@ Last Observed: 2026-03-26
       <guid isPermaLink="false">Anthropic-claude-instant-1.2-2024-11-06-e3b0c442</guid>
     </item>
     <item>
+      <title>Google: gemini-3.1-flash-lite</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-3-models</link>
+      <description>Provider: Google
+Model ID: gemini-3.1-flash-lite
+Deprecation Date: 2027-05-07
+Shutdown Date: 2027-05-07
+First Observed: 2026-05-08
+Last Observed: 2026-05-08
+
+Gemini deprecations table: Gemini 3 models. Release date: 2026-05-07. Shutdown date: 2027-05-07.</description>
+      <pubDate>Fri, 08 May 2026 04:54:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-3.1-flash-lite-2027-05-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-3.1-flash-lite-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-3-models</link>
+      <description>Provider: Google
+Model ID: gemini-3.1-flash-lite-preview
+Deprecation Date: 2026-05-25
+Shutdown Date: 2026-05-25
+First Observed: 2026-05-08
+Last Observed: 2026-05-08
+
+Gemini deprecations table: Gemini 3 models. Release date: 2026-03-03. Shutdown date: 2026-05-25. Recommended replacement: gemini-3.1-flash-lite.</description>
+      <pubDate>Fri, 08 May 2026 04:54:37 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-3.1-flash-lite-preview-2026-05-25-e3b0c442</guid>
+    </item>
+    <item>
       <title>Google: gemini-3-pro-preview</title>
       <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-3-models</link>
       <description>Provider: Google
@@ -2054,10 +2082,10 @@ Model ID: gemini-2.5-flash-lite
 Deprecation Date: 2026-10-16
 Shutdown Date: 2026-10-16
 First Observed: 2026-05-01
-Last Observed: 2026-05-07
+Last Observed: 2026-05-08
 
-Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-07-22. Shutdown date: 2026-10-16. Recommended replacement: gemini-3.1-flash-lite-preview.</description>
-      <pubDate>Thu, 07 May 2026 05:33:30 GMT</pubDate>
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-07-22. Shutdown date: 2026-10-16. Recommended replacement: gemini-3.1-flash-lite.</description>
+      <pubDate>Fri, 08 May 2026 04:54:37 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.5-flash-lite-2026-10-16-e3b0c442</guid>
     </item>
     <item>
@@ -2068,10 +2096,10 @@ Model ID: gemini-2.5-flash-lite-preview-09-2025
 Deprecation Date: 2026-03-31
 Shutdown Date: 2026-03-31
 First Observed: 2026-03-12
-Last Observed: 2026-05-01
+Last Observed: 2026-05-08
 
-Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-09-25. Shutdown date: 2026-03-31. Recommended replacement: gemini-3.1-flash-lite-preview.</description>
-      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-09-25. Shutdown date: 2026-03-31. Recommended replacement: gemini-3.1-flash-lite.</description>
+      <pubDate>Fri, 08 May 2026 04:54:37 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.5-flash-lite-preview-09-2025-2026-03-31-e3b0c442</guid>
     </item>
     <item>
