@@ -5431,6 +5431,46 @@
       ]
     },
     {
+      "id": "xai-grok-4-1-fast",
+      "url": "https://docs.x.ai/developers/models",
+      "title": "xAI: grok-4-1-fast",
+      "content_text": "",
+      "date_published": "2026-05-14T05:50:03.803838+00:00",
+      "_deprecation": {
+        "provider": "xAI",
+        "model_id": "grok-4-1-fast",
+        "shutdown_date": "",
+        "deprecation_date": "2026-05-14",
+        "announcement_date": "2026-05-14",
+        "replacement_models": null,
+        "first_observed": "2026-05-14",
+        "last_observed": "2026-05-14"
+      },
+      "tags": [
+        "xAI"
+      ]
+    },
+    {
+      "id": "xai-grok-4.3",
+      "url": "https://docs.x.ai/developers/models",
+      "title": "xAI: grok-4.3",
+      "content_text": "",
+      "date_published": "2026-05-14T05:50:03.804094+00:00",
+      "_deprecation": {
+        "provider": "xAI",
+        "model_id": "grok-4.3",
+        "shutdown_date": "",
+        "deprecation_date": "2026-05-14",
+        "announcement_date": "2026-05-14",
+        "replacement_models": null,
+        "first_observed": "2026-05-14",
+        "last_observed": "2026-05-14"
+      },
+      "tags": [
+        "xAI"
+      ]
+    },
+    {
       "id": "azure-codex-mini",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: codex-mini",
