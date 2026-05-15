@@ -1318,7 +1318,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-11-14-dalle-model-snapshots",
       "title": "OpenAI: dall-e-2",
       "content_text": "",
-      "date_published": "2026-03-26T13:06:41.583970+00:00",
+      "date_published": "2026-05-15T05:56:41.155390+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "dall-e-2",
@@ -1326,11 +1326,12 @@
         "deprecation_date": "2025-11-14",
         "announcement_date": "2026-03-26",
         "replacement_models": [
+          "gpt-image-2",
           "gpt-image-1",
           "gpt-image-1-mini"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-05-15"
       },
       "tags": [
         "OpenAI",
@@ -1342,7 +1343,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-11-14-dalle-model-snapshots",
       "title": "OpenAI: dall-e-3",
       "content_text": "",
-      "date_published": "2026-03-26T13:06:41.584020+00:00",
+      "date_published": "2026-05-15T05:56:41.155401+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "dall-e-3",
@@ -1350,11 +1351,12 @@
         "deprecation_date": "2025-11-14",
         "announcement_date": "2026-03-26",
         "replacement_models": [
+          "gpt-image-2",
           "gpt-image-1",
           "gpt-image-1-mini"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-05-15"
       },
       "tags": [
         "OpenAI",
@@ -5435,7 +5437,7 @@
       "url": "https://docs.x.ai/developers/models",
       "title": "xAI: grok-4-1-fast",
       "content_text": "",
-      "date_published": "2026-05-14T05:50:03.803838+00:00",
+      "date_published": "2026-05-15T05:56:46.250275+00:00",
       "_deprecation": {
         "provider": "xAI",
         "model_id": "grok-4-1-fast",
@@ -5444,7 +5446,7 @@
         "announcement_date": "2026-05-14",
         "replacement_models": null,
         "first_observed": "2026-05-14",
-        "last_observed": "2026-05-14"
+        "last_observed": "2026-05-15"
       },
       "tags": [
         "xAI"

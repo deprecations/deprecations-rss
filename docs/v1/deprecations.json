@@ -906,34 +906,36 @@
     "model_id": "dall-e-2",
     "announcement_date": "2026-03-26",
     "shutdown_date": "2026-05-12",
+    "deprecation_date": "2025-11-14",
     "replacement_models": [
+      "gpt-image-2",
       "gpt-image-1",
       "gpt-image-1-mini"
     ],
     "deprecation_context": "On November 14th, 2025, we notified developers using DALL·E model snapshots of their deprecation and removal from the API on May 12, 2026.",
     "url": "https://platform.openai.com/docs/deprecations#2025-11-14-dalle-model-snapshots",
     "content_hash": "6cf7d40a9222a0a8",
-    "scraped_at": "2026-03-26T13:06:41.583970+00:00",
+    "scraped_at": "2026-05-15T05:56:41.155390+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-03-26",
-    "deprecation_date": "2025-11-14"
+    "last_observed": "2026-05-15"
   },
   {
     "provider": "OpenAI",
     "model_id": "dall-e-3",
     "announcement_date": "2026-03-26",
     "shutdown_date": "2026-05-12",
+    "deprecation_date": "2025-11-14",
     "replacement_models": [
+      "gpt-image-2",
       "gpt-image-1",
       "gpt-image-1-mini"
     ],
     "deprecation_context": "On November 14th, 2025, we notified developers using DALL·E model snapshots of their deprecation and removal from the API on May 12, 2026.",
     "url": "https://platform.openai.com/docs/deprecations#2025-11-14-dalle-model-snapshots",
     "content_hash": "e0dec0f006d9c0d9",
-    "scraped_at": "2026-03-26T13:06:41.584020+00:00",
+    "scraped_at": "2026-05-15T05:56:41.155401+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-03-26",
-    "deprecation_date": "2025-11-14"
+    "last_observed": "2026-05-15"
   },
   {
     "provider": "OpenAI",
@@ -3757,12 +3759,12 @@
     "shutdown_date": "",
     "deprecation_date": "2026-05-14",
     "replacement_models": null,
-    "deprecation_context": "[!NOTE]\n> Model retirement · May 15, 2026.\n>\n> Several older models will be retired on May 15 at 12:00 PM PT, including `grok-4-1-fast`, `grok-4-fast`, `grok-4`, `grok-code-fast-1`, and `grok-imagine-image-pro`. Requests to deprecated text model slugs will redirect to `grok-4.3` and will be charged at the standard `grok-4.3` pricing. See the [migration",
+    "deprecation_context": "[!NOTE]\n> Model retirement · May 15, 2026\n>\n> Several older models will be retired on May 15 at 12:00 PM PT, including `grok-4-1-fast`, `grok-4-fast`, `grok-4`, `grok-code-fast-1`, and `grok-imagine-image-pro`. Requests to deprecated text model slugs will redirect to `grok-4.3` and will be charged at the standard `grok-4.3` pricing. See the [migration",
     "url": "https://docs.x.ai/developers/models",
     "content_hash": "0c36b1ae0a4e6a42",
-    "scraped_at": "2026-05-14T05:50:03.803838+00:00",
+    "scraped_at": "2026-05-15T05:56:46.250275+00:00",
     "first_observed": "2026-05-14",
-    "last_observed": "2026-05-14"
+    "last_observed": "2026-05-15"
   },
   {
     "provider": "xAI",

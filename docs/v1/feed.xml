@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 14 May 2026 05:50:03 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 05:56:46 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5.2-chat-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
@@ -811,10 +811,10 @@ Model ID: dall-e-2
 Deprecation Date: 2025-11-14
 Shutdown Date: 2026-05-12
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-05-15
 
 On November 14th, 2025, we notified developers using DALL·E model snapshots of their deprecation and removal from the API on May 12, 2026.</description>
-      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <pubDate>Fri, 15 May 2026 05:56:41 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-dall-e-2-2026-05-12-e3b0c442</guid>
     </item>
     <item>
@@ -825,10 +825,10 @@ Model ID: dall-e-3
 Deprecation Date: 2025-11-14
 Shutdown Date: 2026-05-12
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-05-15
 
 On November 14th, 2025, we notified developers using DALL·E model snapshots of their deprecation and removal from the API on May 12, 2026.</description>
-      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+      <pubDate>Fri, 15 May 2026 05:56:41 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-dall-e-3-2026-05-12-e3b0c442</guid>
     </item>
     <item>
@@ -3374,13 +3374,13 @@ On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the de
 Model ID: grok-4-1-fast
 Deprecation Date: 2026-05-14
 First Observed: 2026-05-14
-Last Observed: 2026-05-14
+Last Observed: 2026-05-15
 
 [!NOTE]
-&gt; Model retirement · May 15, 2026.
+&gt; Model retirement · May 15, 2026
 &gt;
 &gt; Several older models will be retired on May 15 at 12:00 PM PT, including `grok-4-1-fast`, `grok-4-fast`, `grok-4`, `grok-code-fast-1`, and `grok-imagine-image-pro`. Requests to deprecated text model slugs will redirect to `grok-4.3` and will be charged at the standard `grok-4.3` pricing. See the [migration</description>
-      <pubDate>Thu, 14 May 2026 05:50:03 GMT</pubDate>
+      <pubDate>Fri, 15 May 2026 05:56:46 GMT</pubDate>
       <guid isPermaLink="false">xAI-grok-4-1-fast-e3b0c442</guid>
     </item>
     <item>
