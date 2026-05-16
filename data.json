@@ -129,19 +129,19 @@
   },
   {
     "provider": "OpenAI",
-    "model_id": "gpt-4o-mini-tts-2025-12-15",
-    "announcement_date": "2026-05-13",
+    "model_id": "gpt-4o-mini-tts-2025-03-20",
+    "announcement_date": "2026-05-16",
     "shutdown_date": "2026-07-23",
     "deprecation_date": "2026-04-22",
     "replacement_models": [
-      "gpt-realtime-2"
+      "gpt-4o-mini-tts-2025-12-15"
     ],
     "deprecation_context": "To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.",
     "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
-    "content_hash": "a0badee5a2f8ce36",
-    "scraped_at": "2026-05-13T05:50:52.581651+00:00",
-    "first_observed": "2026-05-13",
-    "last_observed": "2026-05-13"
+    "content_hash": "46f8ed5a5fd3c799",
+    "scraped_at": "2026-05-16T05:28:56.929183+00:00",
+    "first_observed": "2026-05-16",
+    "last_observed": "2026-05-16"
   },
   {
     "provider": "OpenAI",
