@@ -105,75 +105,6 @@
       ]
     },
     {
-      "id": "openai-gpt-4o-audio-preview-2024-12-17",
-      "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
-      "title": "OpenAI: gpt-4o-audio-preview-2024-12-17",
-      "content_text": "",
-      "date_published": "2026-05-13T05:50:52.581592+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-4o-audio-preview-2024-12-17",
-        "shutdown_date": "2026-07-23",
-        "deprecation_date": "2026-04-22",
-        "announcement_date": "2026-04-23",
-        "replacement_models": [
-          "gpt-audio-1.5"
-        ],
-        "first_observed": "2026-04-23",
-        "last_observed": "2026-05-13"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-4o-mini-audio-preview-2024-12-17",
-      "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
-      "title": "OpenAI: gpt-4o-mini-audio-preview-2024-12-17",
-      "content_text": "",
-      "date_published": "2026-05-13T05:50:52.581610+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-4o-mini-audio-preview-2024-12-17",
-        "shutdown_date": "2026-07-23",
-        "deprecation_date": "2026-04-22",
-        "announcement_date": "2026-04-23",
-        "replacement_models": [
-          "gpt-audio-mini"
-        ],
-        "first_observed": "2026-04-23",
-        "last_observed": "2026-05-13"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-4o-mini-realtime-preview-2024-12-17",
-      "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
-      "title": "OpenAI: gpt-4o-mini-realtime-preview-2024-12-17",
-      "content_text": "",
-      "date_published": "2026-05-01T21:39:21.868951+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-4o-mini-realtime-preview-2024-12-17",
-        "shutdown_date": "2026-07-23",
-        "deprecation_date": "2026-04-22",
-        "announcement_date": "2026-04-23",
-        "replacement_models": [
-          "gpt-realtime-mini"
-        ],
-        "first_observed": "2026-04-23",
-        "last_observed": "2026-05-01"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
       "id": "openai-gpt-4o-mini-search-preview-2025-03-11",
       "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
       "title": "OpenAI: gpt-4o-mini-search-preview-2025-03-11",
@@ -3421,7 +3352,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models",
       "title": "Google: gemini-2.5-flash",
       "content_text": "",
-      "date_published": "2026-05-07T05:33:30.715563+00:00",
+      "date_published": "2026-05-20T06:10:30.282624+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash",
@@ -3429,10 +3360,10 @@
         "deprecation_date": "2026-10-16",
         "announcement_date": "2025-12-05",
         "replacement_models": [
-          "gemini-3-flash-preview"
+          "gemini-3.5-flash"
         ],
         "first_observed": "2025-12-05",
-        "last_observed": "2026-05-07"
+        "last_observed": "2026-05-20"
       },
       "tags": [
         "Google",
@@ -3513,7 +3444,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models",
       "title": "Google: gemini-2.5-flash-preview-05-20",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.812719+00:00",
+      "date_published": "2026-05-20T06:10:30.282949+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash-preview-05-20",
@@ -3521,10 +3452,10 @@
         "deprecation_date": "2025-11-18",
         "announcement_date": "2025-12-05",
         "replacement_models": [
-          "gemini-3-flash-preview"
+          "gemini-3.5-flash"
         ],
         "first_observed": "2025-12-05",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-05-20"
       },
       "tags": [
         "Google",
@@ -3559,7 +3490,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models",
       "title": "Google: gemini-2.5-flash-preview-09-25",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.812991+00:00",
+      "date_published": "2026-05-20T06:10:30.283139+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash-preview-09-25",
@@ -3567,10 +3498,10 @@
         "deprecation_date": "2026-02-17",
         "announcement_date": "2026-01-16",
         "replacement_models": [
-          "gemini-3-flash-preview"
+          "gemini-3.5-flash"
         ],
         "first_observed": "2026-01-16",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-05-20"
       },
       "tags": [
         "Google",
