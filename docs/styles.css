@@ -96,6 +96,10 @@ header {
     background: #39594d;
 }
 
+.provider-badge.groq {
+    background: #f43e01;
+}
+
 .provider-badge.azure {
     background: #0078D4;
 }
@@ -911,6 +915,10 @@ footer a:hover {
     background: #39594d;
 }
 
+.filter-badge.groq {
+    background: #f43e01;
+}
+
 .filter-badge.azure {
     background: #0078D4;
 }
@@ -998,6 +1006,10 @@ footer a:hover {
 
 .provider.cohere {
     color: #b19cd9;
+}
+
+.provider.groq {
+    color: #f43e01;
 }
 
 .provider.aws {

@@ -21,7 +21,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://deprecations.info/">
     <meta property="og:title" content="AI Deprecations Feeds - Never miss an AI model shutdown again">
-    <meta property="og:description" content="Track AI model deprecations from OpenAI, Anthropic, Google Vertex AI, AWS Bedrock, and Cohere. Available as JSON API, JSON Feed, and RSS.">
+    <meta property="og:description" content="Track AI model deprecations from OpenAI, Anthropic, Google, AWS Bedrock, Cohere, Groq, xAI, Azure, and more. Available as JSON API, JSON Feed, and RSS.">
     <meta property="og:image" content="https://deprecations.info/social-card.jpeg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1731">
@@ -66,7 +66,7 @@
 
         <section class="intro">
             <p class="lead">
-                Track AI model deprecations from OpenAI, Anthropic, Google AI/Gemini, Google Vertex AI, AWS Bedrock, Cohere, and xAI.
+                Track AI model deprecations from OpenAI, Anthropic, Google AI/Gemini, Google Vertex AI, AWS Bedrock, Cohere, Groq, xAI, and Azure.
                 Available as <strong>JSON API</strong>, <strong>JSON Feed</strong>, and <strong>RSS</strong> - perfect
                 for programmatic access and automation.
                 When they announce a model is being shut down, it shows up here. That's it.
@@ -154,6 +154,7 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                 <button class="filter-badge anthropic" data-filter="anthropic">ANT</button>
                 <button class="filter-badge google" data-filter="google">GOO</button>
                 <button class="filter-badge cohere" data-filter="cohere">COH</button>
+                <button class="filter-badge groq" data-filter="groq">GRQ</button>
                 <button class="filter-badge google-vertex" data-filter="google-vertex">GCP</button>
                 <button class="filter-badge aws" data-filter="aws">AWS</button>
                 <button class="filter-badge xai" data-filter="xai">xAI</button>
@@ -269,6 +270,7 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                         'googlevertex': 'Google Vertex',
                         'googlevertexai': 'Google Vertex AI',
                         'cohere': 'Cohere',
+                        'groq': 'Groq',
                         'aws': 'AWS',
                         'awsbedrock': 'AWS Bedrock',
                         'xai': 'xAI',
@@ -384,6 +386,7 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                                 'googlevertex': 'google-vertex',
                                 'googlevertexai': 'google-vertex',
                                 'cohere': 'cohere',
+                                'groq': 'groq',
                                 'aws': 'aws',
                                 'awsbedrock': 'aws',
                                 'xai': 'xai',
@@ -1315,6 +1318,7 @@ end</code></pre>
                     'Google Vertex': { className: 'google-vertex', short: 'GCP' },
                     'AWS Bedrock': { className: 'aws', short: 'AWS' },
                     'Cohere': { className: 'cohere', short: 'COH' },
+                    'Groq': { className: 'groq', short: 'GRQ' },
                     'xAI': { className: 'xai', short: 'xAI' },
                     'Azure': { className: 'azure', short: 'AZR' },
                 };
