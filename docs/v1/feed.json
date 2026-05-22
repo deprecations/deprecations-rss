@@ -6636,6 +6636,29 @@
       ]
     },
     {
+      "id": "azure-mistral-document-ai-2505",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: mistral-document-ai-2505",
+      "content_text": "",
+      "date_published": "2026-05-22T06:09:45.354287+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "mistral-document-ai-2505",
+        "shutdown_date": "2026-05-31",
+        "deprecation_date": "2026-05-31",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "mistral-document-ai-2512"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "azure-kimi-k2.5",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Kimi-K2.5",
@@ -6650,6 +6673,27 @@
         "replacement_models": null,
         "first_observed": "2026-04-25",
         "last_observed": "2026-04-25"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-kimi-k2.6",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Kimi-K2.6",
+      "content_text": "",
+      "date_published": "2026-04-28T05:32:49.240812+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Kimi-K2.6",
+        "shutdown_date": "2027-04-16",
+        "deprecation_date": "2027-04-16",
+        "announcement_date": "2026-04-28",
+        "replacement_models": null,
+        "first_observed": "2026-04-28",
+        "last_observed": "2026-04-28"
       },
       "tags": [
         "Azure",
@@ -7379,27 +7423,6 @@
       "tags": [
         "Azure",
         "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-kimi-k2.6",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Kimi-K2.6",
-      "content_text": "",
-      "date_published": "2026-04-28T05:32:49.240812+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Kimi-K2.6",
-        "shutdown_date": "2027-04-16",
-        "deprecation_date": "2027-04-16",
-        "announcement_date": "2026-04-28",
-        "replacement_models": null,
-        "first_observed": "2026-04-28",
-        "last_observed": "2026-04-28"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2027"
       ]
     }
   ]

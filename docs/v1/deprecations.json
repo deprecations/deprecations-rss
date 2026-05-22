@@ -4560,6 +4560,22 @@
   },
   {
     "provider": "Azure",
+    "model_id": "mistral-document-ai-2505",
+    "announcement_date": "2026-05-22",
+    "shutdown_date": "2026-05-31",
+    "deprecation_date": "2026-05-31",
+    "replacement_models": [
+      "mistral-document-ai-2512"
+    ],
+    "deprecation_context": "Mistral AI",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "4d8e641795385988",
+    "scraped_at": "2026-05-22T06:09:45.354287+00:00",
+    "first_observed": "2026-05-22",
+    "last_observed": "2026-05-22"
+  },
+  {
+    "provider": "Azure",
     "model_id": "Kimi-K2.5",
     "announcement_date": "2026-04-25",
     "shutdown_date": "2027-01-26",
@@ -4571,6 +4587,20 @@
     "scraped_at": "2026-04-25T04:37:34.701813+00:00",
     "first_observed": "2026-04-25",
     "last_observed": "2026-04-25"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Kimi-K2.6",
+    "announcement_date": "2026-04-28",
+    "shutdown_date": "2027-04-16",
+    "deprecation_date": "2027-04-16",
+    "replacement_models": null,
+    "deprecation_context": "MoonshotAI",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "f4c17d9389908b02",
+    "scraped_at": "2026-04-28T05:32:49.240812+00:00",
+    "first_observed": "2026-04-28",
+    "last_observed": "2026-04-28"
   },
   {
     "provider": "Azure",
@@ -5058,19 +5088,5 @@
     "scraped_at": "2026-04-25T04:37:34.703869+00:00",
     "first_observed": "2026-03-25",
     "last_observed": "2026-04-25"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "Kimi-K2.6",
-    "announcement_date": "2026-04-28",
-    "shutdown_date": "2027-04-16",
-    "deprecation_date": "2027-04-16",
-    "replacement_models": null,
-    "deprecation_context": "MoonshotAI",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "f4c17d9389908b02",
-    "scraped_at": "2026-04-28T05:32:49.240812+00:00",
-    "first_observed": "2026-04-28",
-    "last_observed": "2026-04-28"
   }
 ]

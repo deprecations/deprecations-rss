@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 21 May 2026 06:12:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 06:09:45 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5.2-chat-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
@@ -4169,6 +4169,20 @@ Microsoft</description>
       <guid isPermaLink="false">Azure-model-router-2026-07-31-e3b0c442</guid>
     </item>
     <item>
+      <title>Azure: mistral-document-ai-2505</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: mistral-document-ai-2505
+Deprecation Date: 2026-05-31
+Shutdown Date: 2026-05-31
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+Mistral AI</description>
+      <pubDate>Fri, 22 May 2026 06:09:45 GMT</pubDate>
+      <guid isPermaLink="false">Azure-mistral-document-ai-2505-2026-05-31-e3b0c442</guid>
+    </item>
+    <item>
       <title>Azure: Kimi-K2.5</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -4181,6 +4195,20 @@ Last Observed: 2026-04-25
 MoonshotAI</description>
       <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-Kimi-K2.5-2027-01-26-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Kimi-K2.6</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Kimi-K2.6
+Deprecation Date: 2027-04-16
+Shutdown Date: 2027-04-16
+First Observed: 2026-04-28
+Last Observed: 2026-04-28
+
+MoonshotAI</description>
+      <pubDate>Tue, 28 Apr 2026 05:32:49 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Kimi-K2.6-2027-04-16-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: grok-3</title>
@@ -4657,20 +4685,6 @@ Last Observed: 2026-04-25
 Meta</description>
       <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-Meta-Llama-3.1-8B-Instruct-2026-06-13-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: Kimi-K2.6</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Kimi-K2.6
-Deprecation Date: 2027-04-16
-Shutdown Date: 2027-04-16
-First Observed: 2026-04-28
-Last Observed: 2026-04-28
-
-MoonshotAI</description>
-      <pubDate>Tue, 28 Apr 2026 05:32:49 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Kimi-K2.6-2027-04-16-e3b0c442</guid>
     </item>
   </channel>
 </rss>
