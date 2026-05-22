@@ -18,16 +18,14 @@ class XAIScraper(EnhancedBaseScraper):
     provider_name = "xAI"
     url = "https://docs.x.ai/developers/models"
     models_markdown_url = "https://docs.x.ai/developers/models.md"
-    migration_markdown_url = "https://docs.x.ai/developers/migration/models.md"
     requires_playwright = False
 
     def scrape(self) -> List[DeprecationItem]:
-        """Fetch markdown sources and return any explicit xAI deprecation notices."""
+        """Fetch current model markdown and return explicit xAI deprecation notices."""
         items: list[DeprecationItem] = []
-        for source_url in [self.models_markdown_url, self.migration_markdown_url]:
-            content = self.fetch_html(source_url)
-            items.extend(self.extract_structured_deprecations(content))
-            items.extend(self.extract_unstructured_deprecations(content))
+        content = self.fetch_html(self.models_markdown_url)
+        items.extend(self.extract_structured_deprecations(content))
+        items.extend(self.extract_unstructured_deprecations(content))
 
         seen = set()
         unique_items = []
