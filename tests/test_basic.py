@@ -28,6 +28,7 @@ def test_scraper_imports():
         from src.scrapers.google_vertex_scraper import GoogleVertexScraper  # noqa: F401
         from src.scrapers.aws_bedrock_scraper import AWSBedrockScraper  # noqa: F401
         from src.scrapers.cohere_scraper import CohereScraper  # noqa: F401
+        from src.scrapers.groq_scraper import GroqScraper  # noqa: F401
         from src.scrapers.xai_scraper import XAIScraper  # noqa: F401
         from src.scrapers.azure_foundry_scraper import AzureFoundryScraper  # noqa: F401
 

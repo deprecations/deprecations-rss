@@ -6,6 +6,7 @@ from .scrapers.google_scraper import GoogleScraper
 from .scrapers.google_vertex_scraper import GoogleVertexScraper
 from .scrapers.aws_bedrock_scraper import AWSBedrockScraper
 from .scrapers.cohere_scraper import CohereScraper
+from .scrapers.groq_scraper import GroqScraper
 from .scrapers.xai_scraper import XAIScraper
 from .scrapers.azure_foundry_scraper import AzureFoundryScraper
 
@@ -16,6 +17,7 @@ SCRAPERS = [
     GoogleVertexScraper,
     AWSBedrockScraper,
     CohereScraper,
+    GroqScraper,
     XAIScraper,
     AzureFoundryScraper,
 ]
@@ -50,6 +52,11 @@ TRACKED_PROVIDER_PAGES = [
         "provider": CohereScraper.provider_name,
         "label": "Cohere Deprecations",
         "url": CohereScraper.url,
+    },
+    {
+        "provider": GroqScraper.provider_name,
+        "label": "Groq Model Deprecations",
+        "url": GroqScraper.url,
     },
     {
         "provider": XAIScraper.provider_name,
