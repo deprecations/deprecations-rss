@@ -55,28 +55,32 @@
     <!-- Provider badges -->
     <g transform="translate(600, 350)">
       <!-- OpenAI -->
-      <rect x="-300" y="-15" width="80" height="30" rx="6" fill="#412991" />
-      <text x="-260" y="2" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" fill="white">OpenAI</text>
+      <rect x="-350" y="-15" width="80" height="30" rx="6" fill="#412991" />
+      <text x="-310" y="2" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" fill="white">OpenAI</text>
       
       <!-- Anthropic -->
-      <rect x="-200" y="-15" width="90" height="30" rx="6" fill="#d4a373" />
-      <text x="-155" y="2" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" fill="black">Anthropic</text>
+      <rect x="-250" y="-15" width="90" height="30" rx="6" fill="#d4a373" />
+      <text x="-205" y="2" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" fill="black">Anthropic</text>
       
       <!-- Cohere -->
-      <rect x="-90" y="-15" width="70" height="30" rx="6" fill="#39594d" />
-      <text x="-55" y="2" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" fill="white">Cohere</text>
+      <rect x="-140" y="-15" width="70" height="30" rx="6" fill="#39594d" />
+      <text x="-105" y="2" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" fill="white">Cohere</text>
+      
+      <!-- Groq -->
+      <rect x="-50" y="-15" width="60" height="30" rx="6" fill="#f43e01" />
+      <text x="-20" y="2" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" fill="white">Groq</text>
       
       <!-- Google -->
-      <rect x="0" y="-15" width="70" height="30" rx="6" fill="#4285F4" />
-      <text x="35" y="2" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" fill="white">Google</text>
+      <rect x="30" y="-15" width="70" height="30" rx="6" fill="#4285F4" />
+      <text x="65" y="2" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" fill="white">Google</text>
       
       <!-- AWS -->
-      <rect x="90" y="-15" width="60" height="30" rx="6" fill="#FF9900" />
-      <text x="120" y="2" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" fill="black">AWS</text>
+      <rect x="120" y="-15" width="60" height="30" rx="6" fill="#FF9900" />
+      <text x="150" y="2" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" fill="black">AWS</text>
       
       <!-- Azure -->
-      <rect x="170" y="-15" width="60" height="30" rx="6" fill="#0078D4" />
-      <text x="200" y="2" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" fill="white">Azure</text>
+      <rect x="200" y="-15" width="60" height="30" rx="6" fill="#0078D4" />
+      <text x="230" y="2" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600" fill="white">Azure</text>
     </g>
     
     <!-- URL -->

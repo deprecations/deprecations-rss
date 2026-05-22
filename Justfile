@@ -8,7 +8,7 @@ run:
     uv run python -m src.main
 
 server:
-    cd docs && python -m http.server {{port}}
+    cd docs && uv run python -m http.server {{port}}
 
 test:
     uv run pytest .

@@ -33,6 +33,7 @@ We check these pages daily:
 - [Google Vertex AI Deprecations](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models)
 - [AWS Bedrock Model Lifecycle](https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html)
 - [Cohere Deprecations](https://docs.cohere.com/docs/deprecations)
+- [Groq Model Deprecations](https://console.groq.com/docs/deprecations)
 - [xAI Models](https://docs.x.ai/docs/models)
 - [Azure AI Foundry Retirements](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement)
 

@@ -30,6 +30,11 @@
     "url": "https://docs.cohere.com/docs/deprecations"
   },
   {
+    "provider": "Groq",
+    "label": "Groq Model Deprecations",
+    "url": "https://console.groq.com/docs/deprecations"
+  },
+  {
     "provider": "xAI",
     "label": "xAI Models",
     "url": "https://docs.x.ai/developers/models"

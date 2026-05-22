@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 22 May 2026 06:09:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 16:30:40 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5.2-chat-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
@@ -3324,6 +3324,454 @@ Last Observed: 2026-05-01
 On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family. Fine-tuned models created from these base models are not affected by this deprecation. | Shutdown Date | Deprecated Model           | Deprecated Model Price | Recommended Replacement | | ------------- | -------------------------- | ---------------------- | ----------------------- | | 2025-04-30    | `rerank-english-v2.0`      | \$1.00 / 1K searches   | `rerank-v3.5`         ...</description>
       <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
       <guid isPermaLink="false">Cohere-rerank-multilingual-v2.0-2025-04-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: moonshotai/kimi-k2-instruct-0905</title>
+      <link>https://console.groq.com/docs/deprecations#april-15-2026-moonshotaikimik2instruct0905</link>
+      <description>Provider: Groq
+Model ID: moonshotai/kimi-k2-instruct-0905
+Deprecation Date: 2026-03-23
+Shutdown Date: 2026-04-15
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on March 23, 2026, we emailed users to announce the deprecation of `moonshotai/kimi-k2-instruct-0905` in favor of`openai/gpt-oss-120b`. The GPT-OSS 120B model delivers exceptional reasoning performance with faster inference, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-moonshotai/kimi-k2-instruct-0905-2026-04-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: meta-llama/llama-4-maverick-17b-128e-instruct</title>
+      <link>https://console.groq.com/docs/deprecations#march-9-2026-metallamallama4maverick17b128einstruct</link>
+      <description>Provider: Groq
+Model ID: meta-llama/llama-4-maverick-17b-128e-instruct
+Deprecation Date: 2026-02-20
+Shutdown Date: 2026-03-09
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on February 20, 2026, we emailed users to announce the deprecation of `meta-llama/llama-4-maverick-17b-128e-instruct` in favor of`openai/gpt-oss-120b`. The GPT-OSS 120B model delivers exceptional reasoning performance with faster inference, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-meta-llama/llama-4-maverick-17b-128e-instruct-2026-03-09-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: meta-llama/llama-guard-4-12b</title>
+      <link>https://console.groq.com/docs/deprecations#march-5-2026-metallamallamaguard412b</link>
+      <description>Provider: Groq
+Model ID: meta-llama/llama-guard-4-12b
+Deprecation Date: 2026-02-10
+Shutdown Date: 2026-03-05
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on February 10, 2026, we emailed users to announce the deprecation of `meta-llama/llama-guard-4-12b` in favor of`openai/gpt-oss-safeguard-20b`. The new GPT-OSS-Safeguard model delivers policy-following reasoning capabilities for Trust &amp; Safety workflows, enabling customizable content moderation with bring-your-own-policy support.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-meta-llama/llama-guard-4-12b-2026-03-05-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: playai-tts</title>
+      <link>https://console.groq.com/docs/deprecations#december-31-2025-playaitts-and-playaittsarabic</link>
+      <description>Provider: Groq
+Model ID: playai-tts
+Deprecation Date: 2025-12-23
+Shutdown Date: 2025-12-31
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on December 23, 2025, we emailed users to announce the deprecation of `playai-tts` and `playai-tts-arabic` in favor of the newer Orpheus text-to-speech models from Canopy Labs. The new Orpheus models deliver enhanced expressiveness with vocal direction controls, faster inference, and improved audio quality for your text-to-speech applications.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-playai-tts-2025-12-31-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: playai-tts-arabic</title>
+      <link>https://console.groq.com/docs/deprecations#december-31-2025-playaitts-and-playaittsarabic</link>
+      <description>Provider: Groq
+Model ID: playai-tts-arabic
+Deprecation Date: 2025-12-23
+Shutdown Date: 2025-12-31
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on December 23, 2025, we emailed users to announce the deprecation of `playai-tts` and `playai-tts-arabic` in favor of the newer Orpheus text-to-speech models from Canopy Labs. The new Orpheus models deliver enhanced expressiveness with vocal direction controls, faster inference, and improved audio quality for your text-to-speech applications.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-playai-tts-arabic-2025-12-31-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: moonshotai/kimi-k2-instruct</title>
+      <link>https://console.groq.com/docs/deprecations#october-10-2025-moonshotaikimik2instruct</link>
+      <description>Provider: Groq
+Model ID: moonshotai/kimi-k2-instruct
+Deprecation Date: 2025-09-10
+Shutdown Date: 2025-10-10
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on September 10, 2025, we emailed users to announce the deprecation of `moonshotai/kimi-k2-instruct` in favor of `moonshotai/kimi-k2-instruct-0905`. The newer Kimi K2 0905 model delivers a 256K context window and improved agentic coding capabilities at the same speed and price as the original Kimi K2 model.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-moonshotai/kimi-k2-instruct-2025-10-10-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: gemma2-9b-it</title>
+      <link>https://console.groq.com/docs/deprecations#october-8-2025-gemma29bit</link>
+      <description>Provider: Groq
+Model ID: gemma2-9b-it
+Deprecation Date: 2025-08-08
+Shutdown Date: 2025-10-08
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on August 8, 2025, we emailed users to announce the deprecation of `gemma2-9b-it` in favor of `llama-3.1-8b-instant`. The newer Llama 3.1 8B model delivers exceptional price-performance at the same speed as the Gemma 2 9B model.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-gemma2-9b-it-2025-10-08-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: deepseek-r1-distill-llama-70b</title>
+      <link>https://console.groq.com/docs/deprecations#october-2-2025-deepseekr1distillllama70b</link>
+      <description>Provider: Groq
+Model ID: deepseek-r1-distill-llama-70b
+Deprecation Date: 2025-09-02
+Shutdown Date: 2025-10-02
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on September 2, 2025, we emailed users to announce the deprecation of `deepseek-r1-distill-llama-70b` in favor of `llama-3.3-70b-versatile` or `openai/gpt-oss-120b`. The Llama 3.3 70B and GPT-OSS 120B models deliver exceptional performance, enabling your applications to harness state-of-the-art text generation with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-deepseek-r1-distill-llama-70b-2025-10-02-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama3-70b-8192</title>
+      <link>https://console.groq.com/docs/deprecations#august-30-2025-llama370b8192-and-llama38b8192</link>
+      <description>Provider: Groq
+Model ID: llama3-70b-8192
+Deprecation Date: 2025-05-31
+Shutdown Date: 2025-08-30
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on May 31, 2025, we emailed users to announce the deprecation of `llama3-70b-8192` and `llama3-8b-8192` in favor of`llama-3.3-70b-versatile` and `llama-3.1-8b-instant` respectively. The newer Llama 3.3 70B and Llama 3.1 8B models deliver exceptional performance, enabling your applications to harness state-of-the-art text generation with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama3-70b-8192-2025-08-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama3-8b-8192</title>
+      <link>https://console.groq.com/docs/deprecations#august-30-2025-llama370b8192-and-llama38b8192</link>
+      <description>Provider: Groq
+Model ID: llama3-8b-8192
+Deprecation Date: 2025-05-31
+Shutdown Date: 2025-08-30
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on May 31, 2025, we emailed users to announce the deprecation of `llama3-70b-8192` and `llama3-8b-8192` in favor of`llama-3.3-70b-versatile` and `llama-3.1-8b-instant` respectively. The newer Llama 3.3 70B and Llama 3.1 8B models deliver exceptional performance, enabling your applications to harness state-of-the-art text generation with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama3-8b-8192-2025-08-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: distil-whisper-large-v3-en</title>
+      <link>https://console.groq.com/docs/deprecations#august-23-2025-distil-whisper-large-v3-english</link>
+      <description>Provider: Groq
+Model ID: distil-whisper-large-v3-en
+Deprecation Date: 2026-05-22
+Shutdown Date: 2025-08-23
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, we are announcing the deprecation of `distil-whisper-large-v3-en` in favor of`whisper-large-v3-turbo`. Whisper Large V3 Turbo is a more performant model for speech recognition and transcription tasks, and supports more languages.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-distil-whisper-large-v3-en-2025-08-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: mistral-saba-24b</title>
+      <link>https://console.groq.com/docs/deprecations#july-30-2025-mistral-saba-24b</link>
+      <description>Provider: Groq
+Model ID: mistral-saba-24b
+Deprecation Date: 2026-05-22
+Shutdown Date: 2025-07-30
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, we are announcing the deprecation of `mistral-saba-24b` in favor of`qwen/qwen3-32b`. The new Qwen 3 32B model delivers exceptional performance, enabling your applications to harness state-of-the-art text generation with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-mistral-saba-24b-2025-07-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: qwen-qwq-32b</title>
+      <link>https://console.groq.com/docs/deprecations#july-14-2025-qwen-qwq-32b</link>
+      <description>Provider: Groq
+Model ID: qwen-qwq-32b
+Deprecation Date: 2026-05-22
+Shutdown Date: 2025-07-14
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, we are announcing the deprecation of `qwen-qwq-32b` in favor of`qwen/qwen3-32b`. The new Qwen 3 32B model delivers exceptional performance, enabling your applications to harness state-of-the-art text generation with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-qwen-qwq-32b-2025-07-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama-guard-3-8b</title>
+      <link>https://console.groq.com/docs/deprecations#june-6-2025-llama-guard-3</link>
+      <description>Provider: Groq
+Model ID: llama-guard-3-8b
+Deprecation Date: 2025-05-09
+Shutdown Date: 2025-06-06
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on May 9, 2025, we emailed users to announce the deprecation of `llama-guard-3-8b` in favor of`meta-llama/llama-guard-4-12b`. The new Llama Guard 4 model delivers exceptional multimodal performance, enabling your applications to harness state-of-the-art AI content moderation with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama-guard-3-8b-2025-06-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama-3.2-1b-preview</title>
+      <link>https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations</link>
+      <description>Provider: Groq
+Model ID: llama-3.2-1b-preview
+Deprecation Date: 2025-04-07
+Shutdown Date: 2025-04-14
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on April 7, 2025, we emailed users to announce the deprecation of several older preview models in favor of Meta's Llama 4 suite. The new Llama 4 Scout and Maverick models deliver exceptional multimodal performance that outpaces our previous offerings, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama-3.2-1b-preview-2025-04-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama-3.2-3b-preview</title>
+      <link>https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations</link>
+      <description>Provider: Groq
+Model ID: llama-3.2-3b-preview
+Deprecation Date: 2025-04-07
+Shutdown Date: 2025-04-14
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on April 7, 2025, we emailed users to announce the deprecation of several older preview models in favor of Meta's Llama 4 suite. The new Llama 4 Scout and Maverick models deliver exceptional multimodal performance that outpaces our previous offerings, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama-3.2-3b-preview-2025-04-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama-3.2-11b-vision-preview</title>
+      <link>https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations</link>
+      <description>Provider: Groq
+Model ID: llama-3.2-11b-vision-preview
+Deprecation Date: 2025-04-07
+Shutdown Date: 2025-04-14
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on April 7, 2025, we emailed users to announce the deprecation of several older preview models in favor of Meta's Llama 4 suite. The new Llama 4 Scout and Maverick models deliver exceptional multimodal performance that outpaces our previous offerings, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama-3.2-11b-vision-preview-2025-04-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama-3.2-90b-vision-preview</title>
+      <link>https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations</link>
+      <description>Provider: Groq
+Model ID: llama-3.2-90b-vision-preview
+Deprecation Date: 2025-04-07
+Shutdown Date: 2025-04-14
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on April 7, 2025, we emailed users to announce the deprecation of several older preview models in favor of Meta's Llama 4 suite. The new Llama 4 Scout and Maverick models deliver exceptional multimodal performance that outpaces our previous offerings, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama-3.2-90b-vision-preview-2025-04-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: deepseek-r1-distill-qwen-32b</title>
+      <link>https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations</link>
+      <description>Provider: Groq
+Model ID: deepseek-r1-distill-qwen-32b
+Deprecation Date: 2025-04-07
+Shutdown Date: 2025-04-14
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on April 7, 2025, we emailed users to announce the deprecation of several older preview models in favor of Meta's Llama 4 suite. The new Llama 4 Scout and Maverick models deliver exceptional multimodal performance that outpaces our previous offerings, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-deepseek-r1-distill-qwen-32b-2025-04-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: qwen-2.5-32b</title>
+      <link>https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations</link>
+      <description>Provider: Groq
+Model ID: qwen-2.5-32b
+Deprecation Date: 2025-04-07
+Shutdown Date: 2025-04-14
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on April 7, 2025, we emailed users to announce the deprecation of several older preview models in favor of Meta's Llama 4 suite. The new Llama 4 Scout and Maverick models deliver exceptional multimodal performance that outpaces our previous offerings, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-qwen-2.5-32b-2025-04-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: qwen-2.5-coder-32b</title>
+      <link>https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations</link>
+      <description>Provider: Groq
+Model ID: qwen-2.5-coder-32b
+Deprecation Date: 2025-04-07
+Shutdown Date: 2025-04-14
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on April 7, 2025, we emailed users to announce the deprecation of several older preview models in favor of Meta's Llama 4 suite. The new Llama 4 Scout and Maverick models deliver exceptional multimodal performance that outpaces our previous offerings, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-qwen-2.5-coder-32b-2025-04-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama-3.3-70b-specdec</title>
+      <link>https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations</link>
+      <description>Provider: Groq
+Model ID: llama-3.3-70b-specdec
+Deprecation Date: 2025-04-07
+Shutdown Date: 2025-04-14
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on April 7, 2025, we emailed users to announce the deprecation of several older preview models in favor of Meta's Llama 4 suite. The new Llama 4 Scout and Maverick models deliver exceptional multimodal performance that outpaces our previous offerings, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama-3.3-70b-specdec-2025-04-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: deepseek-r1-distill-llama-70b-specdec</title>
+      <link>https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations</link>
+      <description>Provider: Groq
+Model ID: deepseek-r1-distill-llama-70b-specdec
+Deprecation Date: 2025-04-07
+Shutdown Date: 2025-04-14
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In line with our commitment to bringing you cutting-edge models, on April 7, 2025, we emailed users to announce the deprecation of several older preview models in favor of Meta's Llama 4 suite. The new Llama 4 Scout and Maverick models deliver exceptional multimodal performance that outpaces our previous offerings, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-deepseek-r1-distill-llama-70b-specdec-2025-04-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: mixtral-8x7b-32768</title>
+      <link>https://console.groq.com/docs/deprecations#march-20-2025-mixtral-8x7b</link>
+      <description>Provider: Groq
+Model ID: mixtral-8x7b-32768
+Deprecation Date: 2026-05-22
+Shutdown Date: 2025-03-20
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+On March 5, 2025, we emailed all users of the `mixtral-8x7b-32768` model that we would be deprecating this model ID in favor of newer, more performant models. The recommended replacement models offer superior multilingual capabilities and performance for various tasks from text generation to translation.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-mixtral-8x7b-32768-2025-03-20-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama-3.1-70b-versatile</title>
+      <link>https://console.groq.com/docs/deprecations#january-24-2025-llama-31-70b-and-llama-31-70b-speculative-decoding</link>
+      <description>Provider: Groq
+Model ID: llama-3.1-70b-versatile
+Deprecation Date: 2026-05-22
+Shutdown Date: 2025-01-24
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+On December 6, 2024, in partnership with Meta, we released `llama-3.3-70b-versatile` and `llama-3.3-70b-specdec`, and notified users that we would deprecate their 3.1 counterparts in favor of hosting Llama 3.3 with significant quality improvements for a better experience. To facilitate a smooth transition, we will maintain the current `llama-3.1-70b-versatile` and `llama-3.1-70b-specdec` model IDs until December 20, 2024\. At that time, requests to these model IDs will automatically upgrade to t...</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama-3.1-70b-versatile-2025-01-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama-3.1-70b-specdec</title>
+      <link>https://console.groq.com/docs/deprecations#january-24-2025-llama-31-70b-and-llama-31-70b-speculative-decoding</link>
+      <description>Provider: Groq
+Model ID: llama-3.1-70b-specdec
+Deprecation Date: 2026-05-22
+Shutdown Date: 2025-01-24
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+On December 6, 2024, in partnership with Meta, we released `llama-3.3-70b-versatile` and `llama-3.3-70b-specdec`, and notified users that we would deprecate their 3.1 counterparts in favor of hosting Llama 3.3 with significant quality improvements for a better experience. To facilitate a smooth transition, we will maintain the current `llama-3.1-70b-versatile` and `llama-3.1-70b-specdec` model IDs until December 20, 2024\. At that time, requests to these model IDs will automatically upgrade to t...</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama-3.1-70b-specdec-2025-01-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama3-groq-8b-8192-tool-use-preview</title>
+      <link>https://console.groq.com/docs/deprecations#january-6-2025-llama-3-groq-tool-use-models</link>
+      <description>Provider: Groq
+Model ID: llama3-groq-8b-8192-tool-use-preview
+Deprecation Date: 2026-05-22
+Shutdown Date: 2025-01-06
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+On January 6th, we deprecated our preview versions of Llama 3 fine-tuned for tool use, `llama3-groq-8b-8192-tool-use-preview` and `llama3-groq-70b-8192-tool-use-preview`, from GroqCloud™ in favor of transitioning users to our production-ready `llama-3.30-70b-versatile` model. Users of the tool use models were notified about the upcoming deprecation via email. The recommended replacement model, `llama-3.3-70b-versatile`, offers superior tool use capabilities and we strongly encourage users to mig...</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama3-groq-8b-8192-tool-use-preview-2025-01-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama3-groq-70b-8192-tool-use-preview</title>
+      <link>https://console.groq.com/docs/deprecations#january-6-2025-llama-3-groq-tool-use-models</link>
+      <description>Provider: Groq
+Model ID: llama3-groq-70b-8192-tool-use-preview
+Deprecation Date: 2026-05-22
+Shutdown Date: 2025-01-06
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+On January 6th, we deprecated our preview versions of Llama 3 fine-tuned for tool use, `llama3-groq-8b-8192-tool-use-preview` and `llama3-groq-70b-8192-tool-use-preview`, from GroqCloud™ in favor of transitioning users to our production-ready `llama-3.30-70b-versatile` model. Users of the tool use models were notified about the upcoming deprecation via email. The recommended replacement model, `llama-3.3-70b-versatile`, offers superior tool use capabilities and we strongly encourage users to mig...</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama3-groq-70b-8192-tool-use-preview-2025-01-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: gemma-7b-it</title>
+      <link>https://console.groq.com/docs/deprecations#december-18-2024-gemma-7b</link>
+      <description>Provider: Groq
+Model ID: gemma-7b-it
+Deprecation Date: 2026-05-22
+Shutdown Date: 2024-12-18
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+On December 11, 2024, we emailed all Gemma 7B users that we would deprecate it in favor of keeping the Gemma 9B model as it offers better performance.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-gemma-7b-it-2024-12-18-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama-3.2-90b-text-preview</title>
+      <link>https://console.groq.com/docs/deprecations#november-25-2024-llama-32-90b-text-preview</link>
+      <description>Provider: Groq
+Model ID: llama-3.2-90b-text-preview
+Deprecation Date: 2026-05-22
+Shutdown Date: 2024-11-25
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In November 2024, we emailed all Llama 3.2 90B Text Preview users that we would deprecate it in favor of hosting the Llama 3.2 90B Vision Preview model for vision capabilities.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama-3.2-90b-text-preview-2024-11-25-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llava-v1.5-7b-4096-preview</title>
+      <link>https://console.groq.com/docs/deprecations#october-18-2024-llava-15-7b-and-llama-32-11b-text-preview</link>
+      <description>Provider: Groq
+Model ID: llava-v1.5-7b-4096-preview
+Deprecation Date: 2026-05-22
+Shutdown Date: 2024-10-28
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In September 2024, we made Meta's Llama 3.2 vision models available on GroqCloud and emailed all LLaVA 1.5 7B and Llama 3.2 11B Text Preview users that we would deprecate it in favor of hosting Llama 3.2 11B Vision for better performance and more robust vision capabilities.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llava-v1.5-7b-4096-preview-2024-10-28-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: llama-3.2-11b-text-preview</title>
+      <link>https://console.groq.com/docs/deprecations#october-18-2024-llava-15-7b-and-llama-32-11b-text-preview</link>
+      <description>Provider: Groq
+Model ID: llama-3.2-11b-text-preview
+Deprecation Date: 2026-05-22
+Shutdown Date: 2024-10-28
+First Observed: 2026-05-22
+Last Observed: 2026-05-22
+
+In September 2024, we made Meta's Llama 3.2 vision models available on GroqCloud and emailed all LLaVA 1.5 7B and Llama 3.2 11B Text Preview users that we would deprecate it in favor of hosting Llama 3.2 11B Vision for better performance and more robust vision capabilities.</description>
+      <pubDate>Fri, 22 May 2026 16:30:40 GMT</pubDate>
+      <guid isPermaLink="false">Groq-llama-3.2-11b-text-preview-2024-10-28-e3b0c442</guid>
     </item>
     <item>
       <title>xAI: grok-4-1-fast</title>

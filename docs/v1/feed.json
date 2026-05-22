@@ -5364,6 +5364,750 @@
       ]
     },
     {
+      "id": "groq-moonshotai/kimi-k2-instruct-0905",
+      "url": "https://console.groq.com/docs/deprecations#april-15-2026-moonshotaikimik2instruct0905",
+      "title": "Groq: moonshotai/kimi-k2-instruct-0905",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.109049+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "moonshotai/kimi-k2-instruct-0905",
+        "shutdown_date": "2026-04-15",
+        "deprecation_date": "2026-03-23",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "openai/gpt-oss-120b"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "groq-meta-llama/llama-4-maverick-17b-128e-instruct",
+      "url": "https://console.groq.com/docs/deprecations#march-9-2026-metallamallama4maverick17b128einstruct",
+      "title": "Groq: meta-llama/llama-4-maverick-17b-128e-instruct",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.109215+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "meta-llama/llama-4-maverick-17b-128e-instruct",
+        "shutdown_date": "2026-03-09",
+        "deprecation_date": "2026-02-20",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "openai/gpt-oss-120b"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "groq-meta-llama/llama-guard-4-12b",
+      "url": "https://console.groq.com/docs/deprecations#march-5-2026-metallamallamaguard412b",
+      "title": "Groq: meta-llama/llama-guard-4-12b",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.109338+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "meta-llama/llama-guard-4-12b",
+        "shutdown_date": "2026-03-05",
+        "deprecation_date": "2026-02-10",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "openai/gpt-oss-safeguard-20b"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "groq-playai-tts",
+      "url": "https://console.groq.com/docs/deprecations#december-31-2025-playaitts-and-playaittsarabic",
+      "title": "Groq: playai-tts",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.109464+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "playai-tts",
+        "shutdown_date": "2025-12-31",
+        "deprecation_date": "2025-12-23",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "canopylabs/orpheus-v1-english"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-playai-tts-arabic",
+      "url": "https://console.groq.com/docs/deprecations#december-31-2025-playaitts-and-playaittsarabic",
+      "title": "Groq: playai-tts-arabic",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.109504+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "playai-tts-arabic",
+        "shutdown_date": "2025-12-31",
+        "deprecation_date": "2025-12-23",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "canopylabs/orpheus-arabic-saudi"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-moonshotai/kimi-k2-instruct",
+      "url": "https://console.groq.com/docs/deprecations#october-10-2025-moonshotaikimik2instruct",
+      "title": "Groq: moonshotai/kimi-k2-instruct",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.109617+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "moonshotai/kimi-k2-instruct",
+        "shutdown_date": "2025-10-10",
+        "deprecation_date": "2025-09-10",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "openai/gpt-oss-120b"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-gemma2-9b-it",
+      "url": "https://console.groq.com/docs/deprecations#october-8-2025-gemma29bit",
+      "title": "Groq: gemma2-9b-it",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.109726+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "gemma2-9b-it",
+        "shutdown_date": "2025-10-08",
+        "deprecation_date": "2025-08-08",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "llama-3.1-8b-instant"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-deepseek-r1-distill-llama-70b",
+      "url": "https://console.groq.com/docs/deprecations#october-2-2025-deepseekr1distillllama70b",
+      "title": "Groq: deepseek-r1-distill-llama-70b",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.109846+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "deepseek-r1-distill-llama-70b",
+        "shutdown_date": "2025-10-02",
+        "deprecation_date": "2025-09-02",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "llama-3.3-70b-versatile",
+          "openai/gpt-oss-120b"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-llama3-70b-8192",
+      "url": "https://console.groq.com/docs/deprecations#august-30-2025-llama370b8192-and-llama38b8192",
+      "title": "Groq: llama3-70b-8192",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.109963+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama3-70b-8192",
+        "shutdown_date": "2025-08-30",
+        "deprecation_date": "2025-05-31",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "llama-3.3-70b-versatile"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-llama3-8b-8192",
+      "url": "https://console.groq.com/docs/deprecations#august-30-2025-llama370b8192-and-llama38b8192",
+      "title": "Groq: llama3-8b-8192",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.110002+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama3-8b-8192",
+        "shutdown_date": "2025-08-30",
+        "deprecation_date": "2025-05-31",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "llama-3.1-8b-instant"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-distil-whisper-large-v3-en",
+      "url": "https://console.groq.com/docs/deprecations#august-23-2025-distil-whisper-large-v3-english",
+      "title": "Groq: distil-whisper-large-v3-en",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.110235+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "distil-whisper-large-v3-en",
+        "shutdown_date": "2025-08-23",
+        "deprecation_date": "2026-05-22",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "whisper-large-v3-turbo"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-mistral-saba-24b",
+      "url": "https://console.groq.com/docs/deprecations#july-30-2025-mistral-saba-24b",
+      "title": "Groq: mistral-saba-24b",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.110341+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "mistral-saba-24b",
+        "shutdown_date": "2025-07-30",
+        "deprecation_date": "2026-05-22",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "qwen/qwen3-32b"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-qwen-qwq-32b",
+      "url": "https://console.groq.com/docs/deprecations#july-14-2025-qwen-qwq-32b",
+      "title": "Groq: qwen-qwq-32b",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.110438+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "qwen-qwq-32b",
+        "shutdown_date": "2025-07-14",
+        "deprecation_date": "2026-05-22",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "qwen/qwen3-32b"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-llama-guard-3-8b",
+      "url": "https://console.groq.com/docs/deprecations#june-6-2025-llama-guard-3",
+      "title": "Groq: llama-guard-3-8b",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.110542+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama-guard-3-8b",
+        "shutdown_date": "2025-06-06",
+        "deprecation_date": "2025-05-09",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "meta-llama/llama-guard-4-12b"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-llama-3.2-1b-preview",
+      "url": "https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations",
+      "title": "Groq: llama-3.2-1b-preview",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.110825+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama-3.2-1b-preview",
+        "shutdown_date": "2025-04-14",
+        "deprecation_date": "2025-04-07",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "llama-3.1-8b-instant"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-llama-3.2-3b-preview",
+      "url": "https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations",
+      "title": "Groq: llama-3.2-3b-preview",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.110867+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama-3.2-3b-preview",
+        "shutdown_date": "2025-04-14",
+        "deprecation_date": "2025-04-07",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "llama-3.1-8b-instant"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-llama-3.2-11b-vision-preview",
+      "url": "https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations",
+      "title": "Groq: llama-3.2-11b-vision-preview",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.110908+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama-3.2-11b-vision-preview",
+        "shutdown_date": "2025-04-14",
+        "deprecation_date": "2025-04-07",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "meta-llama/llama-4-scout-17b-16e-instruct"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-llama-3.2-90b-vision-preview",
+      "url": "https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations",
+      "title": "Groq: llama-3.2-90b-vision-preview",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.110947+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama-3.2-90b-vision-preview",
+        "shutdown_date": "2025-04-14",
+        "deprecation_date": "2025-04-07",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "meta-llama/llama-4-scout-17b-16e-instruct"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-deepseek-r1-distill-qwen-32b",
+      "url": "https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations",
+      "title": "Groq: deepseek-r1-distill-qwen-32b",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.110986+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "deepseek-r1-distill-qwen-32b",
+        "shutdown_date": "2025-04-14",
+        "deprecation_date": "2025-04-07",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "qwen-qwq-32b"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-qwen-2.5-32b",
+      "url": "https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations",
+      "title": "Groq: qwen-2.5-32b",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.111029+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "qwen-2.5-32b",
+        "shutdown_date": "2025-04-14",
+        "deprecation_date": "2025-04-07",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "qwen-qwq-32b",
+          "meta-llama/llama-4-scout-17b-16e-instruct"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-qwen-2.5-coder-32b",
+      "url": "https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations",
+      "title": "Groq: qwen-2.5-coder-32b",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.111069+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "qwen-2.5-coder-32b",
+        "shutdown_date": "2025-04-14",
+        "deprecation_date": "2025-04-07",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "qwen-qwq-32b",
+          "openai/gpt-oss-120b"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-llama-3.3-70b-specdec",
+      "url": "https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations",
+      "title": "Groq: llama-3.3-70b-specdec",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.111112+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama-3.3-70b-specdec",
+        "shutdown_date": "2025-04-14",
+        "deprecation_date": "2025-04-07",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "meta-llama/llama-4-scout-17b-16e-instruct",
+          "llama-3.3-70b-versatile"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-deepseek-r1-distill-llama-70b-specdec",
+      "url": "https://console.groq.com/docs/deprecations#april-14-2025-multiple-model-deprecations",
+      "title": "Groq: deepseek-r1-distill-llama-70b-specdec",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.111156+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "deepseek-r1-distill-llama-70b-specdec",
+        "shutdown_date": "2025-04-14",
+        "deprecation_date": "2025-04-07",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "deepseek-r1-distill-llama-70b",
+          "deepseek-r1-distill-qwen-32b"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-mixtral-8x7b-32768",
+      "url": "https://console.groq.com/docs/deprecations#march-20-2025-mixtral-8x7b",
+      "title": "Groq: mixtral-8x7b-32768",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.111383+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "mixtral-8x7b-32768",
+        "shutdown_date": "2025-03-20",
+        "deprecation_date": "2026-05-22",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "mistral-saba-24b",
+          "llama-3.3-70b-versatile"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-llama-3.1-70b-versatile",
+      "url": "https://console.groq.com/docs/deprecations#january-24-2025-llama-31-70b-and-llama-31-70b-speculative-decoding",
+      "title": "Groq: llama-3.1-70b-versatile",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.111517+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama-3.1-70b-versatile",
+        "shutdown_date": "2025-01-24",
+        "deprecation_date": "2026-05-22",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "llama-3.3-70b-versatile"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-llama-3.1-70b-specdec",
+      "url": "https://console.groq.com/docs/deprecations#january-24-2025-llama-31-70b-and-llama-31-70b-speculative-decoding",
+      "title": "Groq: llama-3.1-70b-specdec",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.111554+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama-3.1-70b-specdec",
+        "shutdown_date": "2025-01-24",
+        "deprecation_date": "2026-05-22",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "llama-3.3-70b-specdec"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-llama3-groq-8b-8192-tool-use-preview",
+      "url": "https://console.groq.com/docs/deprecations#january-6-2025-llama-3-groq-tool-use-models",
+      "title": "Groq: llama3-groq-8b-8192-tool-use-preview",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.111717+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama3-groq-8b-8192-tool-use-preview",
+        "shutdown_date": "2025-01-06",
+        "deprecation_date": "2026-05-22",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "llama-3.3-70b-versatile"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-llama3-groq-70b-8192-tool-use-preview",
+      "url": "https://console.groq.com/docs/deprecations#january-6-2025-llama-3-groq-tool-use-models",
+      "title": "Groq: llama3-groq-70b-8192-tool-use-preview",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.111762+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama3-groq-70b-8192-tool-use-preview",
+        "shutdown_date": "2025-01-06",
+        "deprecation_date": "2026-05-22",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "llama-3.3-70b-versatile"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "groq-gemma-7b-it",
+      "url": "https://console.groq.com/docs/deprecations#december-18-2024-gemma-7b",
+      "title": "Groq: gemma-7b-it",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.111869+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "gemma-7b-it",
+        "shutdown_date": "2024-12-18",
+        "deprecation_date": "2026-05-22",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "gemma2-9b-it"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2024"
+      ]
+    },
+    {
+      "id": "groq-llama-3.2-90b-text-preview",
+      "url": "https://console.groq.com/docs/deprecations#november-25-2024-llama-32-90b-text-preview",
+      "title": "Groq: llama-3.2-90b-text-preview",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.112013+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama-3.2-90b-text-preview",
+        "shutdown_date": "2024-11-25",
+        "deprecation_date": "2026-05-22",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "llama-3.2-90b-vision-preview",
+          "llama-3.1-70b-versatile"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2024"
+      ]
+    },
+    {
+      "id": "groq-llava-v1.5-7b-4096-preview",
+      "url": "https://console.groq.com/docs/deprecations#october-18-2024-llava-15-7b-and-llama-32-11b-text-preview",
+      "title": "Groq: llava-v1.5-7b-4096-preview",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.112165+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llava-v1.5-7b-4096-preview",
+        "shutdown_date": "2024-10-28",
+        "deprecation_date": "2026-05-22",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "llama-3.2-11b-vision-preview"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2024"
+      ]
+    },
+    {
+      "id": "groq-llama-3.2-11b-text-preview",
+      "url": "https://console.groq.com/docs/deprecations#october-18-2024-llava-15-7b-and-llama-32-11b-text-preview",
+      "title": "Groq: llama-3.2-11b-text-preview",
+      "content_text": "",
+      "date_published": "2026-05-22T16:30:40.112222+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama-3.2-11b-text-preview",
+        "shutdown_date": "2024-10-28",
+        "deprecation_date": "2026-05-22",
+        "announcement_date": "2026-05-22",
+        "replacement_models": [
+          "llama-3.2-11b-vision-preview",
+          "llama-3.1-8b-instant"
+        ],
+        "first_observed": "2026-05-22",
+        "last_observed": "2026-05-22"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2024"
+      ]
+    },
+    {
       "id": "xai-grok-4-1-fast",
       "url": "https://docs.x.ai/developers/models",
       "title": "xAI: grok-4-1-fast",
