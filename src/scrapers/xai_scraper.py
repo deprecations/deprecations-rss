@@ -18,24 +18,80 @@ class XAIScraper(EnhancedBaseScraper):
     provider_name = "xAI"
     url = "https://docs.x.ai/developers/models"
     models_markdown_url = "https://docs.x.ai/developers/models.md"
-    migration_markdown_url = "https://docs.x.ai/developers/migration/models.md"
     requires_playwright = False
 
-    def scrape(self) -> List[DeprecationItem]:
-        """Fetch markdown sources and return any explicit xAI deprecation notices."""
-        items: list[DeprecationItem] = []
-        for source_url in [self.models_markdown_url, self.migration_markdown_url]:
-            content = self.fetch_html(source_url)
-            items.extend(self.extract_structured_deprecations(content))
-            items.extend(self.extract_unstructured_deprecations(content))
+    may_15_retirement_context = (
+        "[!NOTE]\n"
+        "> Model retirement · May 15, 2026\n"
+        ">\n"
+        "> Several older models will be retired on May 15 at 12:00 PM PT, "
+        "including `grok-4-1-fast`, `grok-4-fast`, `grok-4`, "
+        "`grok-code-fast-1`, and `grok-imagine-image-pro`. Requests to "
+        "deprecated text model slugs will redirect to `grok-4.3` and will be "
+        "charged at the standard `grok-4.3` pricing. See the [migration "
+        "guide](/developers/migration/may-15-retirement) for details."
+    )
+    may_15_retired_models = [
+        "grok-4-1-fast",
+        "grok-4-fast",
+        "grok-4",
+        "grok-code-fast-1",
+        "grok-imagine-image-pro",
+    ]
 
-        seen = set()
-        unique_items = []
+    def scrape(self) -> List[DeprecationItem]:
+        """Fetch current model markdown and return explicit xAI deprecation notices."""
+        items: list[DeprecationItem] = []
+        content = self.fetch_html(self.models_markdown_url)
+        items.extend(self.extract_structured_deprecations(content))
+        items.extend(self.extract_unstructured_deprecations(content))
+
+        # xAI removes historical retirement notes from the live models page. Keep
+        # notices that this project previously observed so feed/API history stays
+        # complete even after the provider page rolls forward.
+        items.extend(self._historical_deprecations())
+
+        return self._dedupe_items(items)
+
+    def _dedupe_items(self, items: list[DeprecationItem]) -> list[DeprecationItem]:
+        """Deduplicate by provider/model, keeping the richest notice."""
+        deduped: dict[tuple[str, str], DeprecationItem] = {}
+
+        def quality(item: DeprecationItem) -> tuple[int, int, int, int]:
+            return (
+                int(bool(item.deprecation_date)),
+                int(bool(item.shutdown_date)),
+                int(bool(item.replacement_models)),
+                len(item.deprecation_context or ""),
+            )
+
         for item in items:
-            if (item.provider, item.model_id) not in seen:
-                seen.add((item.provider, item.model_id))
-                unique_items.append(item)
-        return unique_items
+            key = (item.provider, item.model_id)
+            existing = deduped.get(key)
+            if existing is None or quality(item) > quality(existing):
+                deduped[key] = item
+
+        return list(deduped.values())
+
+    def _historical_deprecations(self) -> list[DeprecationItem]:
+        """Return xAI retirement notices observed before they left the live page."""
+        items: list[DeprecationItem] = []
+        for model_id in self.may_15_retired_models:
+            is_text_model = not model_id.startswith("grok-imagine-")
+            items.append(
+                DeprecationItem(
+                    provider=self.provider_name,
+                    model_id=model_id,
+                    announcement_date="2026-05-14",
+                    shutdown_date="2026-05-15",
+                    deprecation_date="2026-05-15",
+                    replacement_models=["grok-4.3"] if is_text_model else None,
+                    deprecation_context=self.may_15_retirement_context,
+                    url=self.url,
+                    scraped_at="2026-05-15T05:56:46.250275+00:00",
+                )
+            )
+        return items
 
     def extract_structured_deprecations(self, html: str) -> List[DeprecationItem]:
         """Extract deprecations from xAI markdown or HTML pages."""
@@ -89,6 +145,41 @@ class XAIScraper(EnhancedBaseScraper):
                         )
                     )
 
+        # Retirement notes often put all affected IDs in one comma-separated
+        # "including ..." clause. Expand the full list instead of capturing only
+        # the first ID near the word "deprecated".
+        retirement_patterns = [
+            r"\b(?:retired|deprecated|obsolete)\b[^\n.]{0,240}\bincluding\s+([^\n.]+)",
+            r"\bincluding\s+([^\n.]+)\b(?:will be|are|were)\s+(?:retired|deprecated|obsolete)",
+        ]
+        for pattern in retirement_patterns:
+            for match in re.finditer(pattern, content, re.IGNORECASE):
+                context_start = max(0, match.start() - 160)
+                context_end = min(len(content), match.end() + 240)
+                context = content[context_start:context_end].strip()
+                date = self.parse_date(context)
+                for model_id in extract_code_spans(match.group(1)):
+                    if not model_id.startswith("grok-"):
+                        continue
+                    is_text_model = not model_id.startswith("grok-imagine-")
+                    replacement_models = None
+                    if is_text_model and re.search(
+                        r"redirect\s+to\s+`grok-4\.3`", context, re.IGNORECASE
+                    ):
+                        replacement_models = ["grok-4.3"]
+                    items.append(
+                        DeprecationItem(
+                            provider=self.provider_name,
+                            model_id=model_id,
+                            announcement_date="",
+                            shutdown_date=date,
+                            deprecation_date=date,
+                            replacement_models=replacement_models,
+                            deprecation_context=context,
+                            url=self.url,
+                        )
+                    )
+
         # Migration docs may mention concrete deprecated models in prose.
         prose_patterns = [
             r"`(grok-[a-z0-9\-.]+)`[^\n]{0,120}\bdeprecated\b",
@@ -102,6 +193,12 @@ class XAIScraper(EnhancedBaseScraper):
                 context_start = max(0, match.start() - 120)
                 context_end = min(len(content), match.end() + 120)
                 context = content[context_start:context_end].strip()
+                if re.search(
+                    rf"\b(?:redirect|migrat(?:e|ion)|replace(?:d|ment)?|alternative|use)\b[^\n]{{0,40}}`{re.escape(model_id)}`",
+                    context,
+                    re.IGNORECASE,
+                ):
+                    continue
                 items.append(
                     DeprecationItem(
                         provider=self.provider_name,
@@ -115,7 +212,7 @@ class XAIScraper(EnhancedBaseScraper):
                 )
 
         # The current public markdown explicitly describes the workflow but names no deprecated models.
-        return items
+        return self._dedupe_items(items)
 
     def _has_deprecation_indicator(self, row_element) -> bool:
         """Check if a table row has a deprecation indicator."""

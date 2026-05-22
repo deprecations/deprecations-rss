@@ -3708,29 +3708,79 @@
     "provider": "xAI",
     "model_id": "grok-4-1-fast",
     "announcement_date": "2026-05-14",
-    "shutdown_date": "",
-    "deprecation_date": "2026-05-14",
-    "replacement_models": null,
-    "deprecation_context": "[!NOTE]\n> Model retirement \u00b7 May 15, 2026\n>\n> Several older models will be retired on May 15 at 12:00 PM PT, including `grok-4-1-fast`, `grok-4-fast`, `grok-4`, `grok-code-fast-1`, and `grok-imagine-image-pro`. Requests to deprecated text model slugs will redirect to `grok-4.3` and will be charged at the standard `grok-4.3` pricing. See the [migration",
+    "shutdown_date": "2026-05-15",
+    "deprecation_date": "2026-05-15",
+    "replacement_models": [
+      "grok-4.3"
+    ],
+    "deprecation_context": "[!NOTE]\n> Model retirement \u00b7 May 15, 2026\n>\n> Several older models will be retired on May 15 at 12:00 PM PT, including `grok-4-1-fast`, `grok-4-fast`, `grok-4`, `grok-code-fast-1`, and `grok-imagine-image-pro`. Requests to deprecated text model slugs will redirect to `grok-4.3` and will be charged at the standard `grok-4.3` pricing. See the [migration guide](/developers/migration/may-15-retirement) for details.",
     "url": "https://docs.x.ai/developers/models",
-    "content_hash": "0c36b1ae0a4e6a42",
+    "content_hash": "d347fd39e5b73f8f",
     "scraped_at": "2026-05-15T05:56:46.250275+00:00",
     "first_observed": "2026-05-14",
     "last_observed": "2026-05-15"
   },
   {
     "provider": "xAI",
-    "model_id": "grok-4.3",
+    "model_id": "grok-4-fast",
     "announcement_date": "2026-05-14",
-    "shutdown_date": "",
-    "deprecation_date": "2026-05-14",
-    "replacement_models": null,
-    "deprecation_context": "M PT, including `grok-4-1-fast`, `grok-4-fast`, `grok-4`, `grok-code-fast-1`, and `grok-imagine-image-pro`. Requests to deprecated text model slugs will redirect to `grok-4.3` and will be charged at the standard `grok-4.3` pricing. See the [migration guide](/developers/migration/may-15-retirement) for details.\n\n## Which model should I choos",
+    "shutdown_date": "2026-05-15",
+    "deprecation_date": "2026-05-15",
+    "replacement_models": [
+      "grok-4.3"
+    ],
+    "deprecation_context": "[!NOTE]\n> Model retirement \u00b7 May 15, 2026\n>\n> Several older models will be retired on May 15 at 12:00 PM PT, including `grok-4-1-fast`, `grok-4-fast`, `grok-4`, `grok-code-fast-1`, and `grok-imagine-image-pro`. Requests to deprecated text model slugs will redirect to `grok-4.3` and will be charged at the standard `grok-4.3` pricing. See the [migration guide](/developers/migration/may-15-retirement) for details.",
     "url": "https://docs.x.ai/developers/models",
-    "content_hash": "c4cb5b036f9f72c6",
-    "scraped_at": "2026-05-14T05:50:03.804094+00:00",
+    "content_hash": "0954cd89a9648fbd",
+    "scraped_at": "2026-05-15T05:56:46.250275+00:00",
     "first_observed": "2026-05-14",
-    "last_observed": "2026-05-14"
+    "last_observed": "2026-05-15"
+  },
+  {
+    "provider": "xAI",
+    "model_id": "grok-4",
+    "announcement_date": "2026-05-14",
+    "shutdown_date": "2026-05-15",
+    "deprecation_date": "2026-05-15",
+    "replacement_models": [
+      "grok-4.3"
+    ],
+    "deprecation_context": "[!NOTE]\n> Model retirement \u00b7 May 15, 2026\n>\n> Several older models will be retired on May 15 at 12:00 PM PT, including `grok-4-1-fast`, `grok-4-fast`, `grok-4`, `grok-code-fast-1`, and `grok-imagine-image-pro`. Requests to deprecated text model slugs will redirect to `grok-4.3` and will be charged at the standard `grok-4.3` pricing. See the [migration guide](/developers/migration/may-15-retirement) for details.",
+    "url": "https://docs.x.ai/developers/models",
+    "content_hash": "437ed645d5c4f765",
+    "scraped_at": "2026-05-15T05:56:46.250275+00:00",
+    "first_observed": "2026-05-14",
+    "last_observed": "2026-05-15"
+  },
+  {
+    "provider": "xAI",
+    "model_id": "grok-code-fast-1",
+    "announcement_date": "2026-05-14",
+    "shutdown_date": "2026-05-15",
+    "deprecation_date": "2026-05-15",
+    "replacement_models": [
+      "grok-4.3"
+    ],
+    "deprecation_context": "[!NOTE]\n> Model retirement \u00b7 May 15, 2026\n>\n> Several older models will be retired on May 15 at 12:00 PM PT, including `grok-4-1-fast`, `grok-4-fast`, `grok-4`, `grok-code-fast-1`, and `grok-imagine-image-pro`. Requests to deprecated text model slugs will redirect to `grok-4.3` and will be charged at the standard `grok-4.3` pricing. See the [migration guide](/developers/migration/may-15-retirement) for details.",
+    "url": "https://docs.x.ai/developers/models",
+    "content_hash": "754e0e0afe641c10",
+    "scraped_at": "2026-05-15T05:56:46.250275+00:00",
+    "first_observed": "2026-05-14",
+    "last_observed": "2026-05-15"
+  },
+  {
+    "provider": "xAI",
+    "model_id": "grok-imagine-image-pro",
+    "announcement_date": "2026-05-14",
+    "shutdown_date": "2026-05-15",
+    "deprecation_date": "2026-05-15",
+    "replacement_models": null,
+    "deprecation_context": "[!NOTE]\n> Model retirement \u00b7 May 15, 2026\n>\n> Several older models will be retired on May 15 at 12:00 PM PT, including `grok-4-1-fast`, `grok-4-fast`, `grok-4`, `grok-code-fast-1`, and `grok-imagine-image-pro`. Requests to deprecated text model slugs will redirect to `grok-4.3` and will be charged at the standard `grok-4.3` pricing. See the [migration guide](/developers/migration/may-15-retirement) for details.",
+    "url": "https://docs.x.ai/developers/models",
+    "content_hash": "2f2f2d797b8a25cf",
+    "scraped_at": "2026-05-15T05:56:46.250275+00:00",
+    "first_observed": "2026-05-14",
+    "last_observed": "2026-05-15"
   },
   {
     "provider": "Azure",

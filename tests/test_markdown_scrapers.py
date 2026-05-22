@@ -268,3 +268,34 @@ We may transition a `deprecated` model to `obsolete` and discontinue serving the
     scraper = XAIScraper()
     assert scraper.extract_structured_deprecations(markdown) == []
     assert scraper.extract_unstructured_deprecations(markdown) == []
+
+
+def test_xai_retirement_note_expands_all_models_without_redirect_target():
+    """The May 15 xAI retirement note lists several models in one sentence."""
+    markdown = "# Models\n\n" + XAIScraper.may_15_retirement_context
+
+    items = XAIScraper().extract_structured_deprecations(markdown)
+
+    assert [item.model_id for item in items] == XAIScraper.may_15_retired_models
+    assert "grok-4.3" not in {item.model_id for item in items}
+    assert all(item.deprecation_date == "2026-05-15" for item in items)
+    assert all(item.shutdown_date == "2026-05-15" for item in items)
+    assert items[0].replacement_models == ["grok-4.3"]
+    assert items[-1].replacement_models is None
+
+
+def test_xai_scrape_preserves_historical_may_15_retirements(monkeypatch):
+    """Historical xAI notices remain even after the live models page drops them."""
+    markdown = """# Models
+
+| Model | Context |
+| --- | --- |
+| grok-4.3 | 1M |
+"""
+    scraper = XAIScraper()
+    monkeypatch.setattr(scraper, "fetch_html", lambda _url: markdown)
+
+    items = scraper.scrape()
+
+    assert [item.model_id for item in items] == XAIScraper.may_15_retired_models
+    assert all(item.deprecation_date == "2026-05-15" for item in items)

@@ -5372,35 +5372,108 @@
       "_deprecation": {
         "provider": "xAI",
         "model_id": "grok-4-1-fast",
-        "shutdown_date": "",
-        "deprecation_date": "2026-05-14",
+        "shutdown_date": "2026-05-15",
+        "deprecation_date": "2026-05-15",
+        "announcement_date": "2026-05-14",
+        "replacement_models": [
+          "grok-4.3"
+        ],
+        "first_observed": "2026-05-14",
+        "last_observed": "2026-05-15"
+      },
+      "tags": [
+        "xAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "xai-grok-4-fast",
+      "url": "https://docs.x.ai/developers/models",
+      "title": "xAI: grok-4-fast",
+      "content_text": "",
+      "date_published": "2026-05-15T05:56:46.250275+00:00",
+      "_deprecation": {
+        "provider": "xAI",
+        "model_id": "grok-4-fast",
+        "shutdown_date": "2026-05-15",
+        "deprecation_date": "2026-05-15",
+        "announcement_date": "2026-05-14",
+        "replacement_models": [
+          "grok-4.3"
+        ],
+        "first_observed": "2026-05-14",
+        "last_observed": "2026-05-15"
+      },
+      "tags": [
+        "xAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "xai-grok-4",
+      "url": "https://docs.x.ai/developers/models",
+      "title": "xAI: grok-4",
+      "content_text": "",
+      "date_published": "2026-05-15T05:56:46.250275+00:00",
+      "_deprecation": {
+        "provider": "xAI",
+        "model_id": "grok-4",
+        "shutdown_date": "2026-05-15",
+        "deprecation_date": "2026-05-15",
+        "announcement_date": "2026-05-14",
+        "replacement_models": [
+          "grok-4.3"
+        ],
+        "first_observed": "2026-05-14",
+        "last_observed": "2026-05-15"
+      },
+      "tags": [
+        "xAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "xai-grok-code-fast-1",
+      "url": "https://docs.x.ai/developers/models",
+      "title": "xAI: grok-code-fast-1",
+      "content_text": "",
+      "date_published": "2026-05-15T05:56:46.250275+00:00",
+      "_deprecation": {
+        "provider": "xAI",
+        "model_id": "grok-code-fast-1",
+        "shutdown_date": "2026-05-15",
+        "deprecation_date": "2026-05-15",
+        "announcement_date": "2026-05-14",
+        "replacement_models": [
+          "grok-4.3"
+        ],
+        "first_observed": "2026-05-14",
+        "last_observed": "2026-05-15"
+      },
+      "tags": [
+        "xAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "xai-grok-imagine-image-pro",
+      "url": "https://docs.x.ai/developers/models",
+      "title": "xAI: grok-imagine-image-pro",
+      "content_text": "",
+      "date_published": "2026-05-15T05:56:46.250275+00:00",
+      "_deprecation": {
+        "provider": "xAI",
+        "model_id": "grok-imagine-image-pro",
+        "shutdown_date": "2026-05-15",
+        "deprecation_date": "2026-05-15",
         "announcement_date": "2026-05-14",
         "replacement_models": null,
         "first_observed": "2026-05-14",
         "last_observed": "2026-05-15"
       },
       "tags": [
-        "xAI"
-      ]
-    },
-    {
-      "id": "xai-grok-4.3",
-      "url": "https://docs.x.ai/developers/models",
-      "title": "xAI: grok-4.3",
-      "content_text": "",
-      "date_published": "2026-05-14T05:50:03.804094+00:00",
-      "_deprecation": {
-        "provider": "xAI",
-        "model_id": "grok-4.3",
-        "shutdown_date": "",
-        "deprecation_date": "2026-05-14",
-        "announcement_date": "2026-05-14",
-        "replacement_models": null,
-        "first_observed": "2026-05-14",
-        "last_observed": "2026-05-14"
-      },
-      "tags": [
-        "xAI"
+        "xAI",
+        "shutdown-2026"
       ]
     },
     {
