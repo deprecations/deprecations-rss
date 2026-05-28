@@ -2225,22 +2225,6 @@
   },
   {
     "provider": "Google",
-    "model_id": "gemini-3.1-flash-lite-preview",
-    "announcement_date": "2026-05-08",
-    "shutdown_date": "2026-05-25",
-    "deprecation_date": "2026-05-25",
-    "replacement_models": [
-      "gemini-3.1-flash-lite"
-    ],
-    "deprecation_context": "Gemini deprecations table: Gemini 3 models. Release date: 2026-03-03. Shutdown date: 2026-05-25. Recommended replacement: gemini-3.1-flash-lite.",
-    "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-3-models",
-    "content_hash": "a9d2f0ca25350fbe",
-    "scraped_at": "2026-05-08T04:54:37.838121+00:00",
-    "first_observed": "2026-05-08",
-    "last_observed": "2026-05-08"
-  },
-  {
-    "provider": "Google",
     "model_id": "gemini-3-pro-preview",
     "announcement_date": "2026-02-27",
     "shutdown_date": "2026-03-09",
@@ -2254,6 +2238,22 @@
     "scraped_at": "2026-05-01T21:43:36.810852+00:00",
     "first_observed": "2026-02-27",
     "last_observed": "2026-05-01"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-3.1-flash-lite-preview",
+    "announcement_date": "2026-05-08",
+    "shutdown_date": "2026-05-25",
+    "deprecation_date": "2026-05-25",
+    "replacement_models": [
+      "gemini-3.1-flash-lite"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 3 models. Release date: 2026-03-03. Shutdown date: 2026-05-25. Recommended replacement: gemini-3.1-flash-lite.",
+    "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-3-models",
+    "content_hash": "a9d2f0ca25350fbe",
+    "scraped_at": "2026-05-08T04:54:37.838121+00:00",
+    "first_observed": "2026-05-08",
+    "last_observed": "2026-05-08"
   },
   {
     "provider": "Google",
