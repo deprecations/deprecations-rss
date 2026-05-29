@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Wed, 27 May 2026 06:23:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 06:16:20 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5.2-chat-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
@@ -1690,10 +1690,10 @@ Model ID: claude-opus-4-20250514
 Deprecation Date: 2026-04-14
 Shutdown Date: 2026-06-15
 First Observed: 2026-04-15
-Last Observed: 2026-04-17
+Last Observed: 2026-05-29
 
 On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.</description>
-      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
+      <pubDate>Fri, 29 May 2026 06:16:18 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-opus-4-20250514-2026-06-15-e3b0c442</guid>
     </item>
     <item>
@@ -1788,10 +1788,10 @@ Model ID: claude-3-opus-20240229
 Deprecation Date: 2025-06-30
 Shutdown Date: 2026-01-05
 First Observed: 2026-03-26
-Last Observed: 2026-04-17
+Last Observed: 2026-05-29
 
 &lt;Note&gt; This model was retired January 5, 2026. &lt;/Note&gt; On June 30, 2025, Anthropic notified developers using Claude Opus 3 model of its upcoming retirement.</description>
-      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
+      <pubDate>Fri, 29 May 2026 06:16:18 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-opus-20240229-2026-01-05-e3b0c442</guid>
     </item>
     <item>
@@ -1802,10 +1802,10 @@ Model ID: claude-2.0
 Deprecation Date: 2025-01-21
 Shutdown Date: 2025-07-21
 First Observed: 2026-03-26
-Last Observed: 2026-04-17
+Last Observed: 2026-05-29
 
 &lt;Note&gt; These models were retired July 21, 2025. &lt;/Note&gt; On January 21, 2025, Anthropic notified developers using Claude 2, Claude 2.1, and Claude Sonnet 3 models of their upcoming retirements.</description>
-      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
+      <pubDate>Fri, 29 May 2026 06:16:18 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-2.0-2025-07-21-e3b0c442</guid>
     </item>
     <item>
@@ -1816,10 +1816,10 @@ Model ID: claude-2.1
 Deprecation Date: 2025-01-21
 Shutdown Date: 2025-07-21
 First Observed: 2026-03-26
-Last Observed: 2026-04-17
+Last Observed: 2026-05-29
 
 &lt;Note&gt; These models were retired July 21, 2025. &lt;/Note&gt; On January 21, 2025, Anthropic notified developers using Claude 2, Claude 2.1, and Claude Sonnet 3 models of their upcoming retirements.</description>
-      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
+      <pubDate>Fri, 29 May 2026 06:16:18 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-2.1-2025-07-21-e3b0c442</guid>
     </item>
     <item>
@@ -1947,6 +1947,34 @@ Last Observed: 2026-05-08
 Gemini deprecations table: Gemini 3 models. Release date: 2026-05-07. Shutdown date: 2027-05-07.</description>
       <pubDate>Fri, 08 May 2026 04:54:37 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-3.1-flash-lite-2027-05-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-3.1-flash-image-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-3-models</link>
+      <description>Provider: Google
+Model ID: gemini-3.1-flash-image-preview
+Deprecation Date: 2026-06-25
+Shutdown Date: 2026-06-25
+First Observed: 2026-05-29
+Last Observed: 2026-05-29
+
+Gemini deprecations table: Gemini 3 models. Release date: 2026-02-26. Shutdown date: 2026-06-25. Recommended replacement: gemini-3.1-flash-image.</description>
+      <pubDate>Fri, 29 May 2026 06:16:20 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-3.1-flash-image-preview-2026-06-25-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-3-pro-image-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-3-models</link>
+      <description>Provider: Google
+Model ID: gemini-3-pro-image-preview
+Deprecation Date: 2026-06-25
+Shutdown Date: 2026-06-25
+First Observed: 2026-05-29
+Last Observed: 2026-05-29
+
+Gemini deprecations table: Gemini 3 models. Release date: 2025-11-20. Shutdown date: 2026-06-25. Recommended replacement: gemini-3-pro-image.</description>
+      <pubDate>Fri, 29 May 2026 06:16:20 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-3-pro-image-preview-2026-06-25-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-3-pro-preview</title>

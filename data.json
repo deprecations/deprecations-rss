@@ -1928,14 +1928,14 @@
     "shutdown_date": "2026-06-15",
     "deprecation_date": "2026-04-14",
     "replacement_models": [
-      "claude-opus-4-7"
+      "claude-opus-4-8"
     ],
     "deprecation_context": "On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.",
     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-04-14-claude-sonnet-4-and-claude-opus-4-models",
     "content_hash": "ea215d951e6382ab",
-    "scraped_at": "2026-04-17T04:50:48.598455+00:00",
+    "scraped_at": "2026-05-29T06:16:18.532538+00:00",
     "first_observed": "2026-04-15",
-    "last_observed": "2026-04-17"
+    "last_observed": "2026-05-29"
   },
   {
     "provider": "Anthropic",
@@ -2040,14 +2040,14 @@
     "shutdown_date": "2026-01-05",
     "deprecation_date": "2025-06-30",
     "replacement_models": [
-      "claude-opus-4-7"
+      "claude-opus-4-8"
     ],
     "deprecation_context": "<Note> This model was retired January 5, 2026. </Note> On June 30, 2025, Anthropic notified developers using Claude Opus 3 model of its upcoming retirement.",
     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-06-30-claude-opus-3-model",
     "content_hash": "f05fdc4a8221d16d",
-    "scraped_at": "2026-04-17T04:50:48.598743+00:00",
+    "scraped_at": "2026-05-29T06:16:18.532842+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-04-17"
+    "last_observed": "2026-05-29"
   },
   {
     "provider": "Anthropic",
@@ -2056,14 +2056,14 @@
     "shutdown_date": "2025-07-21",
     "deprecation_date": "2025-01-21",
     "replacement_models": [
-      "claude-opus-4-7"
+      "claude-opus-4-8"
     ],
     "deprecation_context": "<Note> These models were retired July 21, 2025. </Note> On January 21, 2025, Anthropic notified developers using Claude 2, Claude 2.1, and Claude Sonnet 3 models of their upcoming retirements.",
     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models",
     "content_hash": "8c697ef2b96ee609",
-    "scraped_at": "2026-04-17T04:50:48.598790+00:00",
+    "scraped_at": "2026-05-29T06:16:18.532916+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-04-17"
+    "last_observed": "2026-05-29"
   },
   {
     "provider": "Anthropic",
@@ -2072,14 +2072,14 @@
     "shutdown_date": "2025-07-21",
     "deprecation_date": "2025-01-21",
     "replacement_models": [
-      "claude-opus-4-7"
+      "claude-opus-4-8"
     ],
     "deprecation_context": "<Note> These models were retired July 21, 2025. </Note> On January 21, 2025, Anthropic notified developers using Claude 2, Claude 2.1, and Claude Sonnet 3 models of their upcoming retirements.",
     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-01-21-claude-2-claude-2-1-and-claude-sonnet-3-models",
     "content_hash": "e37921e6e321d1c2",
-    "scraped_at": "2026-04-17T04:50:48.598813+00:00",
+    "scraped_at": "2026-05-29T06:16:18.532934+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-04-17"
+    "last_observed": "2026-05-29"
   },
   {
     "provider": "Anthropic",
@@ -2222,6 +2222,38 @@
     "scraped_at": "2026-05-08T04:54:37.837979+00:00",
     "first_observed": "2026-05-08",
     "last_observed": "2026-05-08"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-3.1-flash-image-preview",
+    "announcement_date": "2026-05-29",
+    "shutdown_date": "2026-06-25",
+    "deprecation_date": "2026-06-25",
+    "replacement_models": [
+      "gemini-3.1-flash-image"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 3 models. Release date: 2026-02-26. Shutdown date: 2026-06-25. Recommended replacement: gemini-3.1-flash-image.",
+    "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-3-models",
+    "content_hash": "6cc01444b9e468c6",
+    "scraped_at": "2026-05-29T06:16:20.066522+00:00",
+    "first_observed": "2026-05-29",
+    "last_observed": "2026-05-29"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-3-pro-image-preview",
+    "announcement_date": "2026-05-29",
+    "shutdown_date": "2026-06-25",
+    "deprecation_date": "2026-06-25",
+    "replacement_models": [
+      "gemini-3-pro-image"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 3 models. Release date: 2025-11-20. Shutdown date: 2026-06-25. Recommended replacement: gemini-3-pro-image.",
+    "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-3-models",
+    "content_hash": "0b86b38a5f0d8922",
+    "scraped_at": "2026-05-29T06:16:20.066615+00:00",
+    "first_observed": "2026-05-29",
+    "last_observed": "2026-05-29"
   },
   {
     "provider": "Google",
