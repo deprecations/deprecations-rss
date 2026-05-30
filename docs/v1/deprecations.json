@@ -2613,13 +2613,15 @@
     "announcement_date": "2025-12-05",
     "shutdown_date": "2026-07-14",
     "deprecation_date": "2026-07-14",
-    "replacement_models": null,
-    "deprecation_context": "Gemini deprecations table: Embedding models. Release date: 2025-07-14. Shutdown date: 2026-07-14.",
+    "replacement_models": [
+      "gemini-embedding-2"
+    ],
+    "deprecation_context": "Gemini deprecations table: Embedding models. Release date: 2025-07-14. Shutdown date: 2026-07-14. Recommended replacement: gemini-embedding-2.",
     "url": "https://ai.google.dev/gemini-api/docs/deprecations#embedding-models",
     "content_hash": "d5844c73290161b7",
-    "scraped_at": "2026-05-01T21:43:36.815121+00:00",
+    "scraped_at": "2026-05-30T05:50:05.167760+00:00",
     "first_observed": "2025-12-05",
-    "last_observed": "2026-05-01"
+    "last_observed": "2026-05-30"
   },
   {
     "provider": "Google",
@@ -2628,14 +2630,14 @@
     "shutdown_date": "2026-01-14",
     "deprecation_date": "2026-01-14",
     "replacement_models": [
-      "gemini-embedding-001"
+      "gemini-embedding-2"
     ],
-    "deprecation_context": "Gemini deprecations table: Embedding models. Release date: 2024-04-09. Shutdown date: 2026-01-14. Recommended replacement: gemini-embedding-001.",
+    "deprecation_context": "Gemini deprecations table: Embedding models. Release date: 2024-04-09. Shutdown date: 2026-01-14. Recommended replacement: gemini-embedding-2.",
     "url": "https://ai.google.dev/gemini-api/docs/deprecations#embedding-models",
     "content_hash": "0e9799854657595b",
-    "scraped_at": "2026-05-01T21:43:36.815257+00:00",
+    "scraped_at": "2026-05-30T05:50:05.167813+00:00",
     "first_observed": "2026-05-01",
-    "last_observed": "2026-05-01"
+    "last_observed": "2026-05-30"
   },
   {
     "provider": "Google",
@@ -2644,14 +2646,14 @@
     "shutdown_date": "2025-10-30",
     "deprecation_date": "2025-10-30",
     "replacement_models": [
-      "gemini-embedding-001"
+      "gemini-embedding-2"
     ],
-    "deprecation_context": "Gemini deprecations table: Embedding models. Release date: 2024-04-09. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-001.",
+    "deprecation_context": "Gemini deprecations table: Embedding models. Release date: 2024-04-09. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-2.",
     "url": "https://ai.google.dev/gemini-api/docs/deprecations#embedding-models",
     "content_hash": "887ccfb53324069d",
-    "scraped_at": "2026-05-01T21:43:36.815415+00:00",
+    "scraped_at": "2026-05-30T05:50:05.167877+00:00",
     "first_observed": "2026-05-01",
-    "last_observed": "2026-05-01"
+    "last_observed": "2026-05-30"
   },
   {
     "provider": "Google",
@@ -2660,14 +2662,14 @@
     "shutdown_date": "2025-10-30",
     "deprecation_date": "2025-10-30",
     "replacement_models": [
-      "gemini-embedding-001"
+      "gemini-embedding-2"
     ],
-    "deprecation_context": "Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-001.",
+    "deprecation_context": "Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-2.",
     "url": "https://ai.google.dev/gemini-api/docs/deprecations#embedding-models",
     "content_hash": "62ad77277267c0a6",
-    "scraped_at": "2026-05-01T21:43:36.815516+00:00",
+    "scraped_at": "2026-05-30T05:50:05.167915+00:00",
     "first_observed": "2026-05-01",
-    "last_observed": "2026-05-01"
+    "last_observed": "2026-05-30"
   },
   {
     "provider": "Google",
@@ -2676,14 +2678,14 @@
     "shutdown_date": "2025-10-30",
     "deprecation_date": "2025-10-30",
     "replacement_models": [
-      "gemini-embedding-001"
+      "gemini-embedding-2"
     ],
-    "deprecation_context": "Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-001.",
+    "deprecation_context": "Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-2.",
     "url": "https://ai.google.dev/gemini-api/docs/deprecations#embedding-models",
     "content_hash": "37a64c8f379d3e44",
-    "scraped_at": "2026-05-01T21:43:36.815615+00:00",
+    "scraped_at": "2026-05-30T05:50:05.167953+00:00",
     "first_observed": "2025-12-05",
-    "last_observed": "2026-05-01"
+    "last_observed": "2026-05-30"
   },
   {
     "provider": "Google",
@@ -2692,14 +2694,14 @@
     "shutdown_date": "2025-10-30",
     "deprecation_date": "2025-10-30",
     "replacement_models": [
-      "gemini-embedding-001"
+      "gemini-embedding-2"
     ],
-    "deprecation_context": "Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-001.",
+    "deprecation_context": "Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-2.",
     "url": "https://ai.google.dev/gemini-api/docs/deprecations#embedding-models",
     "content_hash": "d3ff4ac737be58ed",
-    "scraped_at": "2026-05-01T21:43:36.815714+00:00",
+    "scraped_at": "2026-05-30T05:50:05.167992+00:00",
     "first_observed": "2025-12-05",
-    "last_observed": "2026-05-01"
+    "last_observed": "2026-05-30"
   },
   {
     "provider": "Google",

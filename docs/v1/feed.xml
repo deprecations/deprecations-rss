@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 29 May 2026 06:16:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 05:50:05 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5.2-chat-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
@@ -2292,10 +2292,10 @@ Model ID: gemini-embedding-001
 Deprecation Date: 2026-07-14
 Shutdown Date: 2026-07-14
 First Observed: 2025-12-05
-Last Observed: 2026-05-01
+Last Observed: 2026-05-30
 
-Gemini deprecations table: Embedding models. Release date: 2025-07-14. Shutdown date: 2026-07-14.</description>
-      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+Gemini deprecations table: Embedding models. Release date: 2025-07-14. Shutdown date: 2026-07-14. Recommended replacement: gemini-embedding-2.</description>
+      <pubDate>Sat, 30 May 2026 05:50:05 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-embedding-001-2026-07-14-e3b0c442</guid>
     </item>
     <item>
@@ -2306,10 +2306,10 @@ Model ID: text-embedding-004
 Deprecation Date: 2026-01-14
 Shutdown Date: 2026-01-14
 First Observed: 2026-05-01
-Last Observed: 2026-05-01
+Last Observed: 2026-05-30
 
-Gemini deprecations table: Embedding models. Release date: 2024-04-09. Shutdown date: 2026-01-14. Recommended replacement: gemini-embedding-001.</description>
-      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+Gemini deprecations table: Embedding models. Release date: 2024-04-09. Shutdown date: 2026-01-14. Recommended replacement: gemini-embedding-2.</description>
+      <pubDate>Sat, 30 May 2026 05:50:05 GMT</pubDate>
       <guid isPermaLink="false">Google-text-embedding-004-2026-01-14-e3b0c442</guid>
     </item>
     <item>
@@ -2320,10 +2320,10 @@ Model ID: embedding-001
 Deprecation Date: 2025-10-30
 Shutdown Date: 2025-10-30
 First Observed: 2026-05-01
-Last Observed: 2026-05-01
+Last Observed: 2026-05-30
 
-Gemini deprecations table: Embedding models. Release date: 2024-04-09. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-001.</description>
-      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+Gemini deprecations table: Embedding models. Release date: 2024-04-09. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-2.</description>
+      <pubDate>Sat, 30 May 2026 05:50:05 GMT</pubDate>
       <guid isPermaLink="false">Google-embedding-001-2025-10-30-e3b0c442</guid>
     </item>
     <item>
@@ -2334,10 +2334,10 @@ Model ID: embedding-gecko-001
 Deprecation Date: 2025-10-30
 Shutdown Date: 2025-10-30
 First Observed: 2026-05-01
-Last Observed: 2026-05-01
+Last Observed: 2026-05-30
 
-Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-001.</description>
-      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-2.</description>
+      <pubDate>Sat, 30 May 2026 05:50:05 GMT</pubDate>
       <guid isPermaLink="false">Google-embedding-gecko-001-2025-10-30-e3b0c442</guid>
     </item>
     <item>
@@ -2348,10 +2348,10 @@ Model ID: gemini-embedding-exp
 Deprecation Date: 2025-10-30
 Shutdown Date: 2025-10-30
 First Observed: 2025-12-05
-Last Observed: 2026-05-01
+Last Observed: 2026-05-30
 
-Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-001.</description>
-      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-2.</description>
+      <pubDate>Sat, 30 May 2026 05:50:05 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-embedding-exp-2025-10-30-e3b0c442</guid>
     </item>
     <item>
@@ -2362,10 +2362,10 @@ Model ID: gemini-embedding-exp-03-07
 Deprecation Date: 2025-10-30
 Shutdown Date: 2025-10-30
 First Observed: 2025-12-05
-Last Observed: 2026-05-01
+Last Observed: 2026-05-30
 
-Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-001.</description>
-      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
+Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-2.</description>
+      <pubDate>Sat, 30 May 2026 05:50:05 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-embedding-exp-03-07-2025-10-30-e3b0c442</guid>
     </item>
     <item>
