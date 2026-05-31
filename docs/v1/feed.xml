@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Sat, 30 May 2026 05:50:05 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 06:21:03 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5.2-chat-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
@@ -2870,6 +2870,34 @@ is optimized for the following use cases: Task automation, such as interactive c
       <guid isPermaLink="false">Google_Vertex-claude-3-opus-2025-08-01-e3b0c442</guid>
     </item>
     <item>
+      <title>AWS Bedrock: ai21.jamba-1-5-large-v1:0</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: ai21.jamba-1-5-large-v1:0
+Deprecation Date: 2026-05-26
+Shutdown Date: 2026-11-26
+First Observed: 2026-05-31
+Last Observed: 2026-05-31
+
+Model ID ai21.jamba-1-5-large-v1:0. (Jamba 1.5 Large). entered legacy status on 2026-05-26. and will reach end-of-life on 2026-11-26.</description>
+      <pubDate>Sun, 31 May 2026 06:21:03 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-ai21.jamba-1-5-large-v10-2026-11-26-e3b0c442</guid>
+    </item>
+    <item>
+      <title>AWS Bedrock: ai21.jamba-1-5-mini-v1:0</title>
+      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
+      <description>Provider: AWS Bedrock
+Model ID: ai21.jamba-1-5-mini-v1:0
+Deprecation Date: 2026-05-26
+Shutdown Date: 2026-11-26
+First Observed: 2026-05-31
+Last Observed: 2026-05-31
+
+Model ID ai21.jamba-1-5-mini-v1:0. (Jamba 1.5 Mini). entered legacy status on 2026-05-26. and will reach end-of-life on 2026-11-26.</description>
+      <pubDate>Sun, 31 May 2026 06:21:03 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-ai21.jamba-1-5-mini-v10-2026-11-26-e3b0c442</guid>
+    </item>
+    <item>
       <title>AWS Bedrock: amazon.nova-canvas-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
@@ -2954,18 +2982,18 @@ Model ID amazon.titan-image-generator-v2:0. (Titan Image Generator G1 v2). enter
       <guid isPermaLink="false">AWS_Bedrock-amazon.titan-image-generator-v20-2026-06-30-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: amazon.titan-tg1-large</title>
+      <title>AWS Bedrock: anthropic.claude-sonnet-4-20250514-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: amazon.titan-tg1-large
-Deprecation Date: 2025-02-08
-Shutdown Date: 2025-10-27
-First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Model ID: anthropic.claude-sonnet-4-20250514-v1:0
+Deprecation Date: 2026-04-14
+Shutdown Date: 2026-10-14
+First Observed: 2026-04-17
+Last Observed: 2026-04-17
 
-Model ID amazon.titan-tg1-large. (Titan Text Large). entered legacy status on 2025-02-08. and will reach end-of-life on 2025-10-27.</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:33 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-amazon.titan-tg1-large-2025-10-27-e3b0c442</guid>
+Model ID anthropic.claude-sonnet-4-20250514-v1:0. (Claude Sonnet 4). entered legacy status on 2026-04-14. and will reach end-of-life on 2026-10-14.</description>
+      <pubDate>Fri, 17 Apr 2026 04:50:50 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-sonnet-4-20250514-v10-2026-10-14-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: anthropic.claude-3-haiku-20240307-v1:0</title>
@@ -3064,20 +3092,6 @@ Last Observed: 2026-03-26
 Model ID anthropic.claude-opus-4-20250514-v1:0. (Claude Opus 4). entered legacy status on 2025-10-01. and will reach end-of-life on 2026-05-31.</description>
       <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-opus-4-20250514-v10-2026-05-31-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: anthropic.claude-sonnet-4-20250514-v1:0</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: anthropic.claude-sonnet-4-20250514-v1:0
-Deprecation Date: 2026-04-14
-Shutdown Date: 2026-10-14
-First Observed: 2026-04-17
-Last Observed: 2026-04-17
-
-Model ID anthropic.claude-sonnet-4-20250514-v1:0. (Claude Sonnet 4). entered legacy status on 2026-04-14. and will reach end-of-life on 2026-10-14.</description>
-      <pubDate>Fri, 17 Apr 2026 04:50:50 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-sonnet-4-20250514-v10-2026-10-14-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: cohere.command-r-v1:0</title>
