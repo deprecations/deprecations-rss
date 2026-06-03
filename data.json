@@ -1,6 +1,54 @@
 [
   {
     "provider": "OpenAI",
+    "model_id": "gpt-image-1-mini",
+    "announcement_date": "2026-06-03",
+    "shutdown_date": "2026-12-01",
+    "deprecation_date": "2026-06-02",
+    "replacement_models": [
+      "gpt-image-2"
+    ],
+    "deprecation_context": "On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations",
+    "content_hash": "3a31e6c414ef2575",
+    "scraped_at": "2026-06-03T06:54:48.896903+00:00",
+    "first_observed": "2026-06-03",
+    "last_observed": "2026-06-03"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "gpt-image-1.5",
+    "announcement_date": "2026-06-03",
+    "shutdown_date": "2026-12-01",
+    "deprecation_date": "2026-06-02",
+    "replacement_models": [
+      "gpt-image-2"
+    ],
+    "deprecation_context": "On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations",
+    "content_hash": "17b9a4a8cf404d56",
+    "scraped_at": "2026-06-03T06:54:48.896984+00:00",
+    "first_observed": "2026-06-03",
+    "last_observed": "2026-06-03"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "chatgpt-image-latest",
+    "announcement_date": "2026-06-03",
+    "shutdown_date": "2026-12-01",
+    "deprecation_date": "2026-06-02",
+    "replacement_models": [
+      "gpt-image-2"
+    ],
+    "deprecation_context": "On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations",
+    "content_hash": "1fdbc55ff9dc5ffb",
+    "scraped_at": "2026-06-03T06:54:48.897023+00:00",
+    "first_observed": "2026-06-03",
+    "last_observed": "2026-06-03"
+  },
+  {
+    "provider": "OpenAI",
     "model_id": "gpt-5.2-chat-latest",
     "announcement_date": "2026-05-13",
     "shutdown_date": "2026-08-10",
@@ -4456,15 +4504,15 @@
     "provider": "Azure",
     "model_id": "gpt-4o-mini-tts",
     "announcement_date": "2026-04-25",
-    "shutdown_date": "2026-06-01",
-    "deprecation_date": "2026-06-01",
+    "shutdown_date": "2026-10-15",
+    "deprecation_date": "2026-10-15",
     "replacement_models": null,
     "deprecation_context": "Azure OpenAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "0c6f5c5f1837e2f9",
-    "scraped_at": "2026-04-25T04:37:34.697604+00:00",
+    "content_hash": "5a9ef53ac13c8240",
+    "scraped_at": "2026-06-03T06:54:53.301588+00:00",
     "first_observed": "2026-04-25",
-    "last_observed": "2026-04-25"
+    "last_observed": "2026-06-03"
   },
   {
     "provider": "Azure",
@@ -4856,15 +4904,15 @@
     "provider": "Azure",
     "model_id": "gpt-image-1",
     "announcement_date": "2026-04-25",
-    "shutdown_date": "2026-05-15",
-    "deprecation_date": "2026-05-15",
+    "shutdown_date": "2026-10-23",
+    "deprecation_date": "2026-10-23",
     "replacement_models": null,
     "deprecation_context": "Azure OpenAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "4af01fe2bcb869c3",
-    "scraped_at": "2026-04-25T04:37:34.699234+00:00",
+    "content_hash": "816f38ec5b60b140",
+    "scraped_at": "2026-06-03T06:54:53.302627+00:00",
     "first_observed": "2026-04-25",
-    "last_observed": "2026-04-25"
+    "last_observed": "2026-06-03"
   },
   {
     "provider": "Azure",
@@ -5068,15 +5116,15 @@
     "provider": "Azure",
     "model_id": "sora-2",
     "announcement_date": "2026-04-25",
-    "shutdown_date": "2026-06-23",
-    "deprecation_date": "2026-06-23",
+    "shutdown_date": "2026-07-15",
+    "deprecation_date": "2026-07-15",
     "replacement_models": null,
     "deprecation_context": "Azure OpenAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "5535eaa5bc6e1337",
-    "scraped_at": "2026-05-21T06:12:35.647248+00:00",
+    "content_hash": "9147cb9b66bbb393",
+    "scraped_at": "2026-06-03T06:54:53.303158+00:00",
     "first_observed": "2026-04-25",
-    "last_observed": "2026-05-21"
+    "last_observed": "2026-06-03"
   },
   {
     "provider": "Azure",

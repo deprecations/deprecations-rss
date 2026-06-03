@@ -4,7 +4,49 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Tue, 02 Jun 2026 06:43:38 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 06:54:53 GMT</lastBuildDate>
+    <item>
+      <title>OpenAI: gpt-image-1-mini</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations</link>
+      <description>Provider: OpenAI
+Model ID: gpt-image-1-mini
+Deprecation Date: 2026-06-02
+Shutdown Date: 2026-12-01
+First Observed: 2026-06-03
+Last Observed: 2026-06-03
+
+On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.</description>
+      <pubDate>Wed, 03 Jun 2026 06:54:48 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-image-1-mini-2026-12-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-image-1.5</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations</link>
+      <description>Provider: OpenAI
+Model ID: gpt-image-1.5
+Deprecation Date: 2026-06-02
+Shutdown Date: 2026-12-01
+First Observed: 2026-06-03
+Last Observed: 2026-06-03
+
+On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.</description>
+      <pubDate>Wed, 03 Jun 2026 06:54:48 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-image-1.5-2026-12-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: chatgpt-image-latest</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations</link>
+      <description>Provider: OpenAI
+Model ID: chatgpt-image-latest
+Deprecation Date: 2026-06-02
+Shutdown Date: 2026-12-01
+First Observed: 2026-06-03
+Last Observed: 2026-06-03
+
+On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.</description>
+      <pubDate>Wed, 03 Jun 2026 06:54:48 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-chatgpt-image-latest-2026-12-01-e3b0c442</guid>
+    </item>
     <item>
       <title>OpenAI: gpt-5.2-chat-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
@@ -4003,14 +4045,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-4o-mini-tts
-Deprecation Date: 2026-06-01
-Shutdown Date: 2026-06-01
+Deprecation Date: 2026-10-15
+Shutdown Date: 2026-10-15
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-06-03
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-4o-mini-tts-2026-06-01-e3b0c442</guid>
+      <pubDate>Wed, 03 Jun 2026 06:54:53 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4o-mini-tts-2026-10-15-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-4o-transcribe</title>
@@ -4395,14 +4437,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-image-1
-Deprecation Date: 2026-05-15
-Shutdown Date: 2026-05-15
+Deprecation Date: 2026-10-23
+Shutdown Date: 2026-10-23
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-06-03
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-image-1-2026-05-15-e3b0c442</guid>
+      <pubDate>Wed, 03 Jun 2026 06:54:53 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-image-1-2026-10-23-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-image-1-mini</title>
@@ -4605,14 +4647,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: sora-2
-Deprecation Date: 2026-06-23
-Shutdown Date: 2026-06-23
+Deprecation Date: 2026-07-15
+Shutdown Date: 2026-07-15
 First Observed: 2026-04-25
-Last Observed: 2026-05-21
+Last Observed: 2026-06-03
 
 Azure OpenAI</description>
-      <pubDate>Thu, 21 May 2026 06:12:35 GMT</pubDate>
-      <guid isPermaLink="false">Azure-sora-2-2026-06-23-e3b0c442</guid>
+      <pubDate>Wed, 03 Jun 2026 06:54:53 GMT</pubDate>
+      <guid isPermaLink="false">Azure-sora-2-2026-07-15-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: text-embedding-3-large</title>
