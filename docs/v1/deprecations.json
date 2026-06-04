@@ -1,6 +1,48 @@
 [
   {
     "provider": "OpenAI",
+    "model_id": "Reusable prompts",
+    "announcement_date": "2026-06-04",
+    "shutdown_date": "2026-06-03",
+    "deprecation_date": "2026-06-03",
+    "replacement_models": null,
+    "deprecation_context": "On June 3, 2026, we notified developers using reusable prompts in the dashboard and API that reusable prompt objects are being deprecated.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-06-03-reusable-prompts",
+    "content_hash": "1275f0acdf917329",
+    "scraped_at": "2026-06-04T06:44:35.486372+00:00",
+    "first_observed": "2026-06-04",
+    "last_observed": "2026-06-04"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "Evals platform",
+    "announcement_date": "2026-06-04",
+    "shutdown_date": "2026-06-03",
+    "deprecation_date": "2026-06-03",
+    "replacement_models": null,
+    "deprecation_context": "On June 3, 2026, we notified developers using the Evals platform that the product is being deprecated.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-06-03-evals-platform",
+    "content_hash": "5d10de52bd1b04bc",
+    "scraped_at": "2026-06-04T06:44:35.486542+00:00",
+    "first_observed": "2026-06-04",
+    "last_observed": "2026-06-04"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "Agent Builder",
+    "announcement_date": "2026-06-04",
+    "shutdown_date": "2026-06-03",
+    "deprecation_date": "2026-06-03",
+    "replacement_models": null,
+    "deprecation_context": "On June 3, 2026, we notified developers using Agent Builder that the product is being deprecated. ChatKit remains available.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-06-03-agent-builder",
+    "content_hash": "16c26ad7bfc78b3d",
+    "scraped_at": "2026-06-04T06:44:35.486631+00:00",
+    "first_observed": "2026-06-04",
+    "last_observed": "2026-06-04"
+  },
+  {
+    "provider": "OpenAI",
     "model_id": "gpt-image-1-mini",
     "announcement_date": "2026-06-03",
     "shutdown_date": "2026-12-01",
@@ -3183,14 +3225,14 @@
     "model_id": "claude-3-5-sonnet-v2",
     "announcement_date": "2026-03-26",
     "shutdown_date": "2026-02-19",
+    "deprecation_date": "2025-08-20",
     "replacement_models": null,
-    "deprecation_context": "Claude 3.5 Sonnet v2 is deprecated as of August 20, 2025 and\nwill be shut down on February 19, 2026 . Claude 3.5 Sonnet v2 is\navailable to existing customers only. Claude 3.5 Sonnet v2 is a state-of-the-art model for real-world\nsoftware engineering tasks and agentic capabilities. Try in Vertex AI Model ID claude-3-5-sonnet-v2 Launch stage GA Supported inputs & outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output tokens: 8,000 Capabilities Supported Batch predictions Prompt caching Function calling Count tokens Not supported Extended thinking Usage types Supported Fixed quota Provisioned Throughput Not supported Technical specifications Images Limitation and specifications: See Vision in Anthropic's documentation Documents Limitation and specifications: See PDF support in Anthropic's documentation Knowledge cutoff date August 2024 Versions claude-3-5-sonnet-v2 Launch stage: Generally available Release date: October 22, 2024 Supported regions Model availability (Includes fixed quota & Provisioned Throughput) United States us-east5 Europe europe-west1 Global global endpoint ML processing United States Multi-region Europe Multi-region Quota limits us-east5: QPM: 90 TPM: 540,000 (input and output) Context length: 200,000 europe-west1: QPM: 55 TPM: 330,000 (input and output) Context length: 200,000 global endpoint: QPM: 25 TPM: 140,000 (input and output) Context length: 200,000 Pricing See Pricing .",
+    "deprecation_context": "Claude 3.5 Sonnet v2 is deprecated as of August 20, 2025 and\nwill be shut down on February 19, 2026 . Claude 3.5 Sonnet v2 is\navailable to existing customers only. Claude 3.5 Sonnet v2 is a state-of-the-art model for real-world\nsoftware engineering tasks and agentic capabilities. Try in Agent Platform Model ID claude-3-5-sonnet-v2 Launch stage GA Supported inputs & outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output tokens: 8,000 Capabilities Supported Batch predictions Prompt caching Function calling Count tokens Not supported Extended thinking Usage types Supported Fixed quota Provisioned Throughput Not supported Technical specifications Images Limitation and specifications: See Vision in Anthropic's documentation Documents Limitation and specifications: See PDF support in Anthropic's documentation Knowledge cutoff date August 2024 Versions claude-3-5-sonnet-v2 Launch stage: Generally available Release date: October 22, 2024 Supported regions Model availability (Includes fixed quota & Provisioned Throughput) United States us-east5 Europe europe-west1 Global global endpoint ML processing United States Multi-region Europe Multi-region Quota limits us-east5: QPM: 90 TPM: 540,000 (input and output) Context length: 200,000 europe-west1: QPM: 55 TPM: 330,000 (input and output) Context length: 200,000 global endpoint: QPM: 25 TPM: 140,000 (input and output) Context length: 200,000 Pricing See Pricing .",
     "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-3-5-v2",
     "content_hash": "3e593494efaeaf2a",
-    "scraped_at": "2026-03-26T14:36:36.785436+00:00",
+    "scraped_at": "2026-06-04T06:44:37.901064+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-03-26",
-    "deprecation_date": "2025-08-20"
+    "last_observed": "2026-06-04"
   },
   {
     "provider": "Google Vertex",
@@ -5212,6 +5254,68 @@
   },
   {
     "provider": "Azure",
+    "model_id": "DeepSeek-R1",
+    "announcement_date": "2026-06-04",
+    "shutdown_date": "2026-08-13",
+    "deprecation_date": "2026-08-13",
+    "replacement_models": null,
+    "deprecation_context": "DeepSeek",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "a54fce85831f423f",
+    "scraped_at": "2026-06-04T06:44:39.516163+00:00",
+    "first_observed": "2026-06-04",
+    "last_observed": "2026-06-04"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "DeepSeek-R1-0528",
+    "announcement_date": "2026-06-04",
+    "shutdown_date": "2026-07-13",
+    "deprecation_date": "2026-07-13",
+    "replacement_models": null,
+    "deprecation_context": "DeepSeek",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "1e990cec9af97534",
+    "scraped_at": "2026-06-04T06:44:39.516208+00:00",
+    "first_observed": "2026-06-04",
+    "last_observed": "2026-06-04"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "DeepSeek-V3-0324",
+    "announcement_date": "2026-06-04",
+    "shutdown_date": "2026-07-13",
+    "deprecation_date": "2026-07-13",
+    "replacement_models": [
+      "DeepSeek-V4-Flash",
+      "DeepSeek-V4-Pro"
+    ],
+    "deprecation_context": "DeepSeek",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "d35e03089b23577b",
+    "scraped_at": "2026-06-04T06:44:39.516252+00:00",
+    "first_observed": "2026-06-04",
+    "last_observed": "2026-06-04"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "DeepSeek-V3.1",
+    "announcement_date": "2026-06-04",
+    "shutdown_date": "2026-07-13",
+    "deprecation_date": "2026-07-13",
+    "replacement_models": [
+      "DeepSeek-V4-Flash",
+      "DeepSeek-V4-Pro"
+    ],
+    "deprecation_context": "DeepSeek",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "35df81badbbfd8d3",
+    "scraped_at": "2026-06-04T06:44:39.516295+00:00",
+    "first_observed": "2026-06-04",
+    "last_observed": "2026-06-04"
+  },
+  {
+    "provider": "Azure",
     "model_id": "model-router",
     "announcement_date": "2026-04-25",
     "shutdown_date": "2026-07-31",
@@ -5754,5 +5858,63 @@
     "scraped_at": "2026-04-25T04:37:34.703869+00:00",
     "first_observed": "2026-03-25",
     "last_observed": "2026-04-25"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "tsuzumi-7b",
+    "announcement_date": "2026-06-04",
+    "shutdown_date": "2026-08-31",
+    "deprecation_date": "2026-08-31",
+    "replacement_models": [
+      "tsuzumi2"
+    ],
+    "deprecation_context": "NTT Data",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "a7e06fe63ff35156",
+    "scraped_at": "2026-06-04T06:44:39.519853+00:00",
+    "first_observed": "2026-06-04",
+    "last_observed": "2026-06-04"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Stable-Diffusion-3.5-Large",
+    "announcement_date": "2026-06-04",
+    "shutdown_date": "2026-08-31",
+    "deprecation_date": "2026-08-31",
+    "replacement_models": null,
+    "deprecation_context": "StabilityAI",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "1967705b1ee9d503",
+    "scraped_at": "2026-06-04T06:44:39.519959+00:00",
+    "first_observed": "2026-06-04",
+    "last_observed": "2026-06-04"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Stable-Image-Core",
+    "announcement_date": "2026-06-04",
+    "shutdown_date": "2026-08-31",
+    "deprecation_date": "2026-08-31",
+    "replacement_models": null,
+    "deprecation_context": "StabilityAI",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "f11b86b7ca5fefbb",
+    "scraped_at": "2026-06-04T06:44:39.520000+00:00",
+    "first_observed": "2026-06-04",
+    "last_observed": "2026-06-04"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Stable-Image-Ultra",
+    "announcement_date": "2026-06-04",
+    "shutdown_date": "2026-08-31",
+    "deprecation_date": "2026-08-31",
+    "replacement_models": null,
+    "deprecation_context": "StabilityAI",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "1dd9f177ddff8545",
+    "scraped_at": "2026-06-04T06:44:39.520038+00:00",
+    "first_observed": "2026-06-04",
+    "last_observed": "2026-06-04"
   }
 ]

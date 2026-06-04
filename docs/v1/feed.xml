@@ -4,7 +4,49 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Wed, 03 Jun 2026 06:54:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 06:44:39 GMT</lastBuildDate>
+    <item>
+      <title>OpenAI: Reusable prompts</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-06-03-reusable-prompts</link>
+      <description>Provider: OpenAI
+Model ID: Reusable prompts
+Deprecation Date: 2026-06-03
+Shutdown Date: 2026-06-03
+First Observed: 2026-06-04
+Last Observed: 2026-06-04
+
+On June 3, 2026, we notified developers using reusable prompts in the dashboard and API that reusable prompt objects are being deprecated.</description>
+      <pubDate>Thu, 04 Jun 2026 06:44:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-Reusable_prompts-2026-06-03-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: Evals platform</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-06-03-evals-platform</link>
+      <description>Provider: OpenAI
+Model ID: Evals platform
+Deprecation Date: 2026-06-03
+Shutdown Date: 2026-06-03
+First Observed: 2026-06-04
+Last Observed: 2026-06-04
+
+On June 3, 2026, we notified developers using the Evals platform that the product is being deprecated.</description>
+      <pubDate>Thu, 04 Jun 2026 06:44:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-Evals_platform-2026-06-03-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: Agent Builder</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-06-03-agent-builder</link>
+      <description>Provider: OpenAI
+Model ID: Agent Builder
+Deprecation Date: 2026-06-03
+Shutdown Date: 2026-06-03
+First Observed: 2026-06-04
+Last Observed: 2026-06-04
+
+On June 3, 2026, we notified developers using Agent Builder that the product is being deprecated. ChatKit remains available.</description>
+      <pubDate>Thu, 04 Jun 2026 06:44:35 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-Agent_Builder-2026-06-03-e3b0c442</guid>
+    </item>
     <item>
       <title>OpenAI: gpt-image-1-mini</title>
       <link>https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations</link>
@@ -2834,13 +2876,13 @@ Model ID: claude-3-5-sonnet-v2
 Deprecation Date: 2025-08-20
 Shutdown Date: 2026-02-19
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-06-04
 
 Claude 3.5 Sonnet v2 is deprecated as of August 20, 2025 and
 will be shut down on February 19, 2026 . Claude 3.5 Sonnet v2 is
 available to existing customers only. Claude 3.5 Sonnet v2 is a state-of-the-art model for real-world
-software engineering tasks and agentic capabilities. Try in Vertex AI Model ID claude-3-5-sonnet-v2 Launch stage GA Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output tokens: 8,000 Capabilities S...</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+software engineering tasks and agentic capabilities. Try in Agent Platform Model ID claude-3-5-sonnet-v2 Launch stage GA Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output tokens: 8,000 Capabilit...</description>
+      <pubDate>Thu, 04 Jun 2026 06:44:37 GMT</pubDate>
       <guid isPermaLink="false">Google_Vertex-claude-3-5-sonnet-v2-2026-02-19-e3b0c442</guid>
     </item>
     <item>
@@ -4741,6 +4783,62 @@ Azure OpenAI</description>
       <guid isPermaLink="false">Azure-whisper-2026-12-15-e3b0c442</guid>
     </item>
     <item>
+      <title>Azure: DeepSeek-R1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: DeepSeek-R1
+Deprecation Date: 2026-08-13
+Shutdown Date: 2026-08-13
+First Observed: 2026-06-04
+Last Observed: 2026-06-04
+
+DeepSeek</description>
+      <pubDate>Thu, 04 Jun 2026 06:44:39 GMT</pubDate>
+      <guid isPermaLink="false">Azure-DeepSeek-R1-2026-08-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: DeepSeek-R1-0528</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: DeepSeek-R1-0528
+Deprecation Date: 2026-07-13
+Shutdown Date: 2026-07-13
+First Observed: 2026-06-04
+Last Observed: 2026-06-04
+
+DeepSeek</description>
+      <pubDate>Thu, 04 Jun 2026 06:44:39 GMT</pubDate>
+      <guid isPermaLink="false">Azure-DeepSeek-R1-0528-2026-07-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: DeepSeek-V3-0324</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: DeepSeek-V3-0324
+Deprecation Date: 2026-07-13
+Shutdown Date: 2026-07-13
+First Observed: 2026-06-04
+Last Observed: 2026-06-04
+
+DeepSeek</description>
+      <pubDate>Thu, 04 Jun 2026 06:44:39 GMT</pubDate>
+      <guid isPermaLink="false">Azure-DeepSeek-V3-0324-2026-07-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: DeepSeek-V3.1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: DeepSeek-V3.1
+Deprecation Date: 2026-07-13
+Shutdown Date: 2026-07-13
+First Observed: 2026-06-04
+Last Observed: 2026-06-04
+
+DeepSeek</description>
+      <pubDate>Thu, 04 Jun 2026 06:44:39 GMT</pubDate>
+      <guid isPermaLink="false">Azure-DeepSeek-V3.1-2026-07-13-e3b0c442</guid>
+    </item>
+    <item>
       <title>Azure: model-router</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -5271,6 +5369,62 @@ Last Observed: 2026-04-25
 Meta</description>
       <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-Meta-Llama-3.1-8B-Instruct-2026-06-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: tsuzumi-7b</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: tsuzumi-7b
+Deprecation Date: 2026-08-31
+Shutdown Date: 2026-08-31
+First Observed: 2026-06-04
+Last Observed: 2026-06-04
+
+NTT Data</description>
+      <pubDate>Thu, 04 Jun 2026 06:44:39 GMT</pubDate>
+      <guid isPermaLink="false">Azure-tsuzumi-7b-2026-08-31-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Stable-Diffusion-3.5-Large</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Stable-Diffusion-3.5-Large
+Deprecation Date: 2026-08-31
+Shutdown Date: 2026-08-31
+First Observed: 2026-06-04
+Last Observed: 2026-06-04
+
+StabilityAI</description>
+      <pubDate>Thu, 04 Jun 2026 06:44:39 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Stable-Diffusion-3.5-Large-2026-08-31-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Stable-Image-Core</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Stable-Image-Core
+Deprecation Date: 2026-08-31
+Shutdown Date: 2026-08-31
+First Observed: 2026-06-04
+Last Observed: 2026-06-04
+
+StabilityAI</description>
+      <pubDate>Thu, 04 Jun 2026 06:44:39 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Stable-Image-Core-2026-08-31-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Stable-Image-Ultra</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Stable-Image-Ultra
+Deprecation Date: 2026-08-31
+Shutdown Date: 2026-08-31
+First Observed: 2026-06-04
+Last Observed: 2026-06-04
+
+StabilityAI</description>
+      <pubDate>Thu, 04 Jun 2026 06:44:39 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Stable-Image-Ultra-2026-08-31-e3b0c442</guid>
     </item>
   </channel>
 </rss>
