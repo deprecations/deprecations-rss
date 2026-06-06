@@ -2013,6 +2013,22 @@
   },
   {
     "provider": "Anthropic",
+    "model_id": "claude-opus-4-1-20250805",
+    "announcement_date": "2026-06-06",
+    "shutdown_date": "2026-08-05",
+    "deprecation_date": "2026-06-05",
+    "replacement_models": [
+      "claude-opus-4-8"
+    ],
+    "deprecation_context": "On June 5, 2026, Anthropic notified developers using Claude Opus 4.1 of its upcoming retirement on the Claude API.",
+    "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-06-05-claude-opus-4-1-model",
+    "content_hash": "bfc002941177e947",
+    "scraped_at": "2026-06-06T05:55:27.950602+00:00",
+    "first_observed": "2026-06-06",
+    "last_observed": "2026-06-06"
+  },
+  {
+    "provider": "Anthropic",
     "model_id": "claude-opus-4-20250514",
     "announcement_date": "2026-04-15",
     "shutdown_date": "2026-06-15",
@@ -5879,42 +5895,42 @@
     "provider": "Azure",
     "model_id": "Stable-Diffusion-3.5-Large",
     "announcement_date": "2026-06-04",
-    "shutdown_date": "2026-08-31",
-    "deprecation_date": "2026-08-31",
+    "shutdown_date": "2026-07-31",
+    "deprecation_date": "2026-07-31",
     "replacement_models": null,
     "deprecation_context": "StabilityAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "1967705b1ee9d503",
-    "scraped_at": "2026-06-04T06:44:39.519959+00:00",
+    "content_hash": "148240acd0842872",
+    "scraped_at": "2026-06-06T05:55:41.408161+00:00",
     "first_observed": "2026-06-04",
-    "last_observed": "2026-06-04"
+    "last_observed": "2026-06-06"
   },
   {
     "provider": "Azure",
     "model_id": "Stable-Image-Core",
     "announcement_date": "2026-06-04",
-    "shutdown_date": "2026-08-31",
-    "deprecation_date": "2026-08-31",
+    "shutdown_date": "2026-07-31",
+    "deprecation_date": "2026-07-31",
     "replacement_models": null,
     "deprecation_context": "StabilityAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "f11b86b7ca5fefbb",
-    "scraped_at": "2026-06-04T06:44:39.520000+00:00",
+    "content_hash": "8fc91c0f48742f2c",
+    "scraped_at": "2026-06-06T05:55:41.408206+00:00",
     "first_observed": "2026-06-04",
-    "last_observed": "2026-06-04"
+    "last_observed": "2026-06-06"
   },
   {
     "provider": "Azure",
     "model_id": "Stable-Image-Ultra",
     "announcement_date": "2026-06-04",
-    "shutdown_date": "2026-08-31",
-    "deprecation_date": "2026-08-31",
+    "shutdown_date": "2026-07-31",
+    "deprecation_date": "2026-07-31",
     "replacement_models": null,
     "deprecation_context": "StabilityAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "1dd9f177ddff8545",
-    "scraped_at": "2026-06-04T06:44:39.520038+00:00",
+    "content_hash": "0b07873f7fcf0ed5",
+    "scraped_at": "2026-06-06T05:55:41.408246+00:00",
     "first_observed": "2026-06-04",
-    "last_observed": "2026-06-04"
+    "last_observed": "2026-06-06"
   }
 ]

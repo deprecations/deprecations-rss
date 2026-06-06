@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 04 Jun 2026 06:44:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 05:55:41 GMT</lastBuildDate>
     <item>
       <title>OpenAI: Reusable prompts</title>
       <link>https://platform.openai.com/docs/deprecations#2026-06-03-reusable-prompts</link>
@@ -1765,6 +1765,20 @@ Last Observed: 2026-03-26
 </description>
       <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-code-cushman-001-2023-03-23-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Anthropic: claude-opus-4-1-20250805</title>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-06-05-claude-opus-4-1-model</link>
+      <description>Provider: Anthropic
+Model ID: claude-opus-4-1-20250805
+Deprecation Date: 2026-06-05
+Shutdown Date: 2026-08-05
+First Observed: 2026-06-06
+Last Observed: 2026-06-06
+
+On June 5, 2026, Anthropic notified developers using Claude Opus 4.1 of its upcoming retirement on the Claude API.</description>
+      <pubDate>Sat, 06 Jun 2026 05:55:27 GMT</pubDate>
+      <guid isPermaLink="false">Anthropic-claude-opus-4-1-20250805-2026-08-05-e3b0c442</guid>
     </item>
     <item>
       <title>Anthropic: claude-opus-4-20250514</title>
@@ -5389,42 +5403,42 @@ NTT Data</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Stable-Diffusion-3.5-Large
-Deprecation Date: 2026-08-31
-Shutdown Date: 2026-08-31
+Deprecation Date: 2026-07-31
+Shutdown Date: 2026-07-31
 First Observed: 2026-06-04
-Last Observed: 2026-06-04
+Last Observed: 2026-06-06
 
 StabilityAI</description>
-      <pubDate>Thu, 04 Jun 2026 06:44:39 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Stable-Diffusion-3.5-Large-2026-08-31-e3b0c442</guid>
+      <pubDate>Sat, 06 Jun 2026 05:55:41 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Stable-Diffusion-3.5-Large-2026-07-31-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Stable-Image-Core</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Stable-Image-Core
-Deprecation Date: 2026-08-31
-Shutdown Date: 2026-08-31
+Deprecation Date: 2026-07-31
+Shutdown Date: 2026-07-31
 First Observed: 2026-06-04
-Last Observed: 2026-06-04
+Last Observed: 2026-06-06
 
 StabilityAI</description>
-      <pubDate>Thu, 04 Jun 2026 06:44:39 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Stable-Image-Core-2026-08-31-e3b0c442</guid>
+      <pubDate>Sat, 06 Jun 2026 05:55:41 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Stable-Image-Core-2026-07-31-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Stable-Image-Ultra</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Stable-Image-Ultra
-Deprecation Date: 2026-08-31
-Shutdown Date: 2026-08-31
+Deprecation Date: 2026-07-31
+Shutdown Date: 2026-07-31
 First Observed: 2026-06-04
-Last Observed: 2026-06-04
+Last Observed: 2026-06-06
 
 StabilityAI</description>
-      <pubDate>Thu, 04 Jun 2026 06:44:39 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Stable-Image-Ultra-2026-08-31-e3b0c442</guid>
+      <pubDate>Sat, 06 Jun 2026 05:55:41 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Stable-Image-Ultra-2026-07-31-e3b0c442</guid>
     </item>
   </channel>
 </rss>
