@@ -27,6 +27,7 @@ class CohereScraper(EnhancedBaseScraper):
     markdown_url = "https://docs.cohere.com/docs/deprecations.md"
     requires_playwright = False
     require_shutdown_dates = False
+    request_timeout = 60.0
 
     def get_source_url(self) -> str:
         """Prefer the markdown source for deterministic parsing."""

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+import time
 from datetime import datetime
 from typing import Any, List
 
@@ -19,6 +20,9 @@ class EnhancedBaseScraper:
     url: str = ""
     requires_playwright: bool = False
     require_shutdown_dates: bool = False
+    request_timeout: float = 30.0
+    fetch_retries: int = 3
+    fetch_retry_backoff_seconds: float = 1.0
 
     def __init__(self):
         self.headers = {
@@ -31,7 +35,7 @@ class EnhancedBaseScraper:
             "Upgrade-Insecure-Requests": "1",
         }
         self.client = httpx.Client(
-            timeout=30, headers=self.headers, follow_redirects=True
+            timeout=self.request_timeout, headers=self.headers, follow_redirects=True
         )
         self.cache_manager = CacheManager()
 
@@ -40,10 +44,34 @@ class EnhancedBaseScraper:
         return self.url
 
     def fetch_with_httpx(self, url: str) -> str:
-        """Fetch content using httpx."""
-        response = self.client.get(url)
-        response.raise_for_status()
-        return response.text
+        """Fetch content using httpx, retrying transient network failures."""
+        retryable_status_codes = {408, 425, 429, 500, 502, 503, 504}
+
+        for attempt in range(1, self.fetch_retries + 1):
+            try:
+                response = self.client.get(url)
+                response.raise_for_status()
+                return response.text
+            except httpx.HTTPStatusError as exc:
+                status_code = exc.response.status_code
+                should_retry = status_code in retryable_status_codes
+                if not should_retry or attempt == self.fetch_retries:
+                    raise
+                print(
+                    f"  → Fetch attempt {attempt} for {self.provider_name} "
+                    f"returned HTTP {status_code}; retrying"
+                )
+            except (httpx.TimeoutException, httpx.TransportError) as exc:
+                if attempt == self.fetch_retries:
+                    raise
+                print(
+                    f"  → Fetch attempt {attempt} for {self.provider_name} "
+                    f"failed: {exc}; retrying"
+                )
+
+            time.sleep(self.fetch_retry_backoff_seconds * attempt)
+
+        raise RuntimeError("unreachable fetch retry state")
 
     def fetch_html(self, url: str) -> str:
         """Fetch provider content, using cache if available."""

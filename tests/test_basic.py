@@ -208,6 +208,31 @@ def test_missing_shutdown_dates_keep_current_valid_items(monkeypatch):
     ]
 
 
+def test_base_scraper_retries_transient_read_timeouts():
+    """Transient provider read timeouts should be retried before failing the scrape."""
+    import httpx
+
+    from src.base_scraper import EnhancedBaseScraper
+
+    class FlakyClient:
+        def __init__(self):
+            self.calls = 0
+
+        def get(self, url):
+            self.calls += 1
+            if self.calls == 1:
+                raise httpx.ReadTimeout("temporary timeout")
+            return httpx.Response(200, text="ok", request=httpx.Request("GET", url))
+
+    scraper = EnhancedBaseScraper()
+    scraper.client = FlakyClient()
+    scraper.fetch_retries = 2
+    scraper.fetch_retry_backoff_seconds = 0
+
+    assert scraper.fetch_with_httpx("https://example.com") == "ok"
+    assert scraper.client.calls == 2
+
+
 def test_save_run_status_records_provider_failures(tmp_path):
     """Workflow status file should capture provider failures for delayed failure."""
     from src.main import save_run_status
