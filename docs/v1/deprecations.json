@@ -5498,15 +5498,17 @@
     "provider": "Azure",
     "model_id": "claude-opus-4-1",
     "announcement_date": "2026-04-28",
-    "shutdown_date": "2026-10-19",
-    "deprecation_date": "2026-10-19",
-    "replacement_models": null,
+    "shutdown_date": "2026-08-05",
+    "deprecation_date": "2026-08-05",
+    "replacement_models": [
+      "claude-opus-4-8"
+    ],
     "deprecation_context": "Anthropic",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "5fdcae66807669ac",
-    "scraped_at": "2026-04-28T05:32:49.239159+00:00",
+    "content_hash": "80076d34a130307e",
+    "scraped_at": "2026-06-13T06:18:53.680343+00:00",
     "first_observed": "2026-04-28",
-    "last_observed": "2026-04-28"
+    "last_observed": "2026-06-13"
   },
   {
     "provider": "Azure",
@@ -5622,6 +5624,34 @@
     "scraped_at": "2026-04-25T04:37:34.703256+00:00",
     "first_observed": "2026-01-14",
     "last_observed": "2026-04-25"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "DeepSeek-V4-Flash",
+    "announcement_date": "2026-06-13",
+    "shutdown_date": "2026-08-20",
+    "deprecation_date": "2026-08-20",
+    "replacement_models": null,
+    "deprecation_context": "DeepSeek",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "eb69b5919664f0d5",
+    "scraped_at": "2026-06-13T06:18:53.681007+00:00",
+    "first_observed": "2026-06-13",
+    "last_observed": "2026-06-13"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "DeepSeek-V4-Pro",
+    "announcement_date": "2026-06-13",
+    "shutdown_date": "2026-08-20",
+    "deprecation_date": "2026-08-20",
+    "replacement_models": null,
+    "deprecation_context": "DeepSeek",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "48927da6293127ed",
+    "scraped_at": "2026-06-13T06:18:53.681048+00:00",
+    "first_observed": "2026-06-13",
+    "last_observed": "2026-06-13"
   },
   {
     "provider": "Azure",

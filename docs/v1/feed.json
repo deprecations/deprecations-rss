@@ -7991,16 +7991,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: claude-opus-4-1",
       "content_text": "",
-      "date_published": "2026-04-28T05:32:49.239159+00:00",
+      "date_published": "2026-06-13T06:18:53.680343+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "claude-opus-4-1",
-        "shutdown_date": "2026-10-19",
-        "deprecation_date": "2026-10-19",
+        "shutdown_date": "2026-08-05",
+        "deprecation_date": "2026-08-05",
         "announcement_date": "2026-04-28",
-        "replacement_models": null,
+        "replacement_models": [
+          "claude-opus-4-8"
+        ],
         "first_observed": "2026-04-28",
-        "last_observed": "2026-04-28"
+        "last_observed": "2026-06-13"
       },
       "tags": [
         "Azure",
@@ -8172,6 +8174,48 @@
         ],
         "first_observed": "2026-01-14",
         "last_observed": "2026-04-25"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-deepseek-v4-flash",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: DeepSeek-V4-Flash",
+      "content_text": "",
+      "date_published": "2026-06-13T06:18:53.681007+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "DeepSeek-V4-Flash",
+        "shutdown_date": "2026-08-20",
+        "deprecation_date": "2026-08-20",
+        "announcement_date": "2026-06-13",
+        "replacement_models": null,
+        "first_observed": "2026-06-13",
+        "last_observed": "2026-06-13"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-deepseek-v4-pro",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: DeepSeek-V4-Pro",
+      "content_text": "",
+      "date_published": "2026-06-13T06:18:53.681048+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "DeepSeek-V4-Pro",
+        "shutdown_date": "2026-08-20",
+        "deprecation_date": "2026-08-20",
+        "announcement_date": "2026-06-13",
+        "replacement_models": null,
+        "first_observed": "2026-06-13",
+        "last_observed": "2026-06-13"
       },
       "tags": [
         "Azure",

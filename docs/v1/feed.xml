@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Sat, 06 Jun 2026 05:55:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 06:18:53 GMT</lastBuildDate>
     <item>
       <title>OpenAI: Reusable prompts</title>
       <link>https://platform.openai.com/docs/deprecations#2026-06-03-reusable-prompts</link>
@@ -5011,14 +5011,14 @@ Anthropic</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: claude-opus-4-1
-Deprecation Date: 2026-10-19
-Shutdown Date: 2026-10-19
+Deprecation Date: 2026-08-05
+Shutdown Date: 2026-08-05
 First Observed: 2026-04-28
-Last Observed: 2026-04-28
+Last Observed: 2026-06-13
 
 Anthropic</description>
-      <pubDate>Tue, 28 Apr 2026 05:32:49 GMT</pubDate>
-      <guid isPermaLink="false">Azure-claude-opus-4-1-2026-10-19-e3b0c442</guid>
+      <pubDate>Sat, 13 Jun 2026 06:18:53 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-opus-4-1-2026-08-05-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: claude-opus-4-5</title>
@@ -5131,6 +5131,34 @@ Last Observed: 2026-04-25
 Cohere</description>
       <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-rerank-v3.5-2026-05-14-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: DeepSeek-V4-Flash</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: DeepSeek-V4-Flash
+Deprecation Date: 2026-08-20
+Shutdown Date: 2026-08-20
+First Observed: 2026-06-13
+Last Observed: 2026-06-13
+
+DeepSeek</description>
+      <pubDate>Sat, 13 Jun 2026 06:18:53 GMT</pubDate>
+      <guid isPermaLink="false">Azure-DeepSeek-V4-Flash-2026-08-20-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: DeepSeek-V4-Pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: DeepSeek-V4-Pro
+Deprecation Date: 2026-08-20
+Shutdown Date: 2026-08-20
+First Observed: 2026-06-13
+Last Observed: 2026-06-13
+
+DeepSeek</description>
+      <pubDate>Sat, 13 Jun 2026 06:18:53 GMT</pubDate>
+      <guid isPermaLink="false">Azure-DeepSeek-V4-Pro-2026-08-20-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: FW-DeepSeek-V3.1</title>
