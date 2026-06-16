@@ -1,6 +1,102 @@
 [
   {
     "provider": "OpenAI",
+    "model_id": "gpt-5-2025-08-07",
+    "announcement_date": "2026-06-16",
+    "shutdown_date": "2026-12-11",
+    "deprecation_date": "2026-06-11",
+    "replacement_models": [
+      "gpt-5.5"
+    ],
+    "deprecation_context": "On June 11, 2026, we notified developers using older GPT-5 and o3 model snapshots of their deprecation and removal from the API on December 11, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations",
+    "content_hash": "1abcca82e7c6bb55",
+    "scraped_at": "2026-06-16T07:28:54.010810+00:00",
+    "first_observed": "2026-06-16",
+    "last_observed": "2026-06-16"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "gpt-5-mini-2025-08-07",
+    "announcement_date": "2026-06-16",
+    "shutdown_date": "2026-12-11",
+    "deprecation_date": "2026-06-11",
+    "replacement_models": [
+      "gpt-5.4-mini"
+    ],
+    "deprecation_context": "On June 11, 2026, we notified developers using older GPT-5 and o3 model snapshots of their deprecation and removal from the API on December 11, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations",
+    "content_hash": "2b228853fce5d267",
+    "scraped_at": "2026-06-16T07:28:54.010872+00:00",
+    "first_observed": "2026-06-16",
+    "last_observed": "2026-06-16"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "gpt-5-nano-2025-08-07",
+    "announcement_date": "2026-06-16",
+    "shutdown_date": "2026-12-11",
+    "deprecation_date": "2026-06-11",
+    "replacement_models": [
+      "gpt-5.4-nano"
+    ],
+    "deprecation_context": "On June 11, 2026, we notified developers using older GPT-5 and o3 model snapshots of their deprecation and removal from the API on December 11, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations",
+    "content_hash": "a8baf26ebb3e6221",
+    "scraped_at": "2026-06-16T07:28:54.010913+00:00",
+    "first_observed": "2026-06-16",
+    "last_observed": "2026-06-16"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "gpt-5-pro-2025-10-06",
+    "announcement_date": "2026-06-16",
+    "shutdown_date": "2026-12-11",
+    "deprecation_date": "2026-06-11",
+    "replacement_models": [
+      "gpt-5.5-pro"
+    ],
+    "deprecation_context": "On June 11, 2026, we notified developers using older GPT-5 and o3 model snapshots of their deprecation and removal from the API on December 11, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations",
+    "content_hash": "498b86930474362e",
+    "scraped_at": "2026-06-16T07:28:54.010944+00:00",
+    "first_observed": "2026-06-16",
+    "last_observed": "2026-06-16"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "o3-2025-04-16",
+    "announcement_date": "2026-06-16",
+    "shutdown_date": "2026-12-11",
+    "deprecation_date": "2026-06-11",
+    "replacement_models": [
+      "gpt-5.5"
+    ],
+    "deprecation_context": "On June 11, 2026, we notified developers using older GPT-5 and o3 model snapshots of their deprecation and removal from the API on December 11, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations",
+    "content_hash": "d83330c0dbf7f26f",
+    "scraped_at": "2026-06-16T07:28:54.010975+00:00",
+    "first_observed": "2026-06-16",
+    "last_observed": "2026-06-16"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "o3-pro-2025-06-10",
+    "announcement_date": "2026-06-16",
+    "shutdown_date": "2026-12-11",
+    "deprecation_date": "2026-06-11",
+    "replacement_models": [
+      "gpt-5.5-pro"
+    ],
+    "deprecation_context": "On June 11, 2026, we notified developers using older GPT-5 and o3 model snapshots of their deprecation and removal from the API on December 11, 2026.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations",
+    "content_hash": "5f9b6b9c20a15e7e",
+    "scraped_at": "2026-06-16T07:28:54.011003+00:00",
+    "first_observed": "2026-06-16",
+    "last_observed": "2026-06-16"
+  },
+  {
+    "provider": "OpenAI",
     "model_id": "Reusable prompts",
     "announcement_date": "2026-06-04",
     "shutdown_date": "2026-06-03",
@@ -2036,12 +2132,12 @@
     "replacement_models": [
       "claude-opus-4-8"
     ],
-    "deprecation_context": "On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.",
+    "deprecation_context": "<Note> These models were retired June 15, 2026. </Note> On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.",
     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-04-14-claude-sonnet-4-and-claude-opus-4-models",
     "content_hash": "ea215d951e6382ab",
-    "scraped_at": "2026-05-29T06:16:18.532538+00:00",
+    "scraped_at": "2026-06-16T07:28:54.123241+00:00",
     "first_observed": "2026-04-15",
-    "last_observed": "2026-05-29"
+    "last_observed": "2026-06-16"
   },
   {
     "provider": "Anthropic",
@@ -2052,12 +2148,12 @@
     "replacement_models": [
       "claude-sonnet-4-6"
     ],
-    "deprecation_context": "On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.",
+    "deprecation_context": "<Note> These models were retired June 15, 2026. </Note> On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.",
     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-04-14-claude-sonnet-4-and-claude-opus-4-models",
     "content_hash": "db0da81783bd76b6",
-    "scraped_at": "2026-04-15T04:47:22.761879+00:00",
+    "scraped_at": "2026-06-16T07:28:54.123216+00:00",
     "first_observed": "2026-04-15",
-    "last_observed": "2026-04-15"
+    "last_observed": "2026-06-16"
   },
   {
     "provider": "Anthropic",
@@ -2813,52 +2909,49 @@
     "provider": "Google",
     "model_id": "imagen-4.0-generate-001",
     "announcement_date": "2026-05-01",
-    "shutdown_date": "2026-06-24",
-    "deprecation_date": "2026-06-24",
+    "shutdown_date": "2026-08-17",
+    "deprecation_date": "2026-08-17",
     "replacement_models": [
-      "gemini-3-pro-image-preview",
-      "gemini-2.5-flash-image"
+      "gemini-3.1-flash-image"
     ],
-    "deprecation_context": "Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-06-24. Recommended replacement: gemini-3-pro-image-preview, gemini-2.5-flash-image.",
+    "deprecation_context": "Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-08-17. Recommended replacement: gemini-3.1-flash-image.",
     "url": "https://ai.google.dev/gemini-api/docs/deprecations#imagen-models",
-    "content_hash": "0c7252b63e3ce811",
-    "scraped_at": "2026-05-01T21:43:36.815981+00:00",
+    "content_hash": "7957b9c9b2faccf2",
+    "scraped_at": "2026-06-16T07:28:55.342305+00:00",
     "first_observed": "2026-05-01",
-    "last_observed": "2026-05-01"
+    "last_observed": "2026-06-16"
   },
   {
     "provider": "Google",
     "model_id": "imagen-4.0-ultra-generate-001",
     "announcement_date": "2026-05-01",
-    "shutdown_date": "2026-06-24",
-    "deprecation_date": "2026-06-24",
+    "shutdown_date": "2026-08-17",
+    "deprecation_date": "2026-08-17",
     "replacement_models": [
-      "gemini-3-pro-image-preview",
-      "gemini-2.5-flash-image"
+      "gemini-3.1-flash-image"
     ],
-    "deprecation_context": "Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-06-24. Recommended replacement: gemini-3-pro-image-preview, gemini-2.5-flash-image.",
+    "deprecation_context": "Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-08-17. Recommended replacement: gemini-3.1-flash-image.",
     "url": "https://ai.google.dev/gemini-api/docs/deprecations#imagen-models",
-    "content_hash": "0664f2cf2f1ba3b4",
-    "scraped_at": "2026-05-01T21:43:36.816114+00:00",
+    "content_hash": "4fb562f0ca0bb877",
+    "scraped_at": "2026-06-16T07:28:55.342383+00:00",
     "first_observed": "2026-05-01",
-    "last_observed": "2026-05-01"
+    "last_observed": "2026-06-16"
   },
   {
     "provider": "Google",
     "model_id": "imagen-4.0-fast-generate-001",
     "announcement_date": "2026-05-01",
-    "shutdown_date": "2026-06-24",
-    "deprecation_date": "2026-06-24",
+    "shutdown_date": "2026-08-17",
+    "deprecation_date": "2026-08-17",
     "replacement_models": [
-      "gemini-3-pro-image-preview",
-      "gemini-2.5-flash-image"
+      "gemini-3.1-flash-image"
     ],
-    "deprecation_context": "Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-06-24. Recommended replacement: gemini-3-pro-image-preview, gemini-2.5-flash-image.",
+    "deprecation_context": "Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-08-17. Recommended replacement: gemini-3.1-flash-image.",
     "url": "https://ai.google.dev/gemini-api/docs/deprecations#imagen-models",
-    "content_hash": "2a9204b7421569a7",
-    "scraped_at": "2026-05-01T21:43:36.816246+00:00",
+    "content_hash": "70e1e1eed82f6b67",
+    "scraped_at": "2026-06-16T07:28:55.342459+00:00",
     "first_observed": "2026-05-01",
-    "last_observed": "2026-05-01"
+    "last_observed": "2026-06-16"
   },
   {
     "provider": "Google",
@@ -2907,6 +3000,54 @@
     "scraped_at": "2026-05-01T21:43:36.816783+00:00",
     "first_observed": "2026-01-16",
     "last_observed": "2026-05-01"
+  },
+  {
+    "provider": "Google",
+    "model_id": "veo-3.0-generate-001",
+    "announcement_date": "2026-06-16",
+    "shutdown_date": "2026-06-30",
+    "deprecation_date": "2026-06-30",
+    "replacement_models": [
+      "veo-3.1-generate-preview"
+    ],
+    "deprecation_context": "Gemini deprecations table: Veo models. Release date: 2025-09-09. Shutdown date: 2026-06-30. Recommended replacement: veo-3.1-generate-preview.",
+    "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
+    "content_hash": "62e5ee4183b93de7",
+    "scraped_at": "2026-06-16T07:28:55.342867+00:00",
+    "first_observed": "2026-06-16",
+    "last_observed": "2026-06-16"
+  },
+  {
+    "provider": "Google",
+    "model_id": "veo-3.0-fast-generate-001",
+    "announcement_date": "2026-06-16",
+    "shutdown_date": "2026-06-30",
+    "deprecation_date": "2026-06-30",
+    "replacement_models": [
+      "veo-3.1-fast-generate-preview"
+    ],
+    "deprecation_context": "Gemini deprecations table: Veo models. Release date: 2025-09-09. Shutdown date: 2026-06-30. Recommended replacement: veo-3.1-fast-generate-preview.",
+    "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
+    "content_hash": "4cea25f0529fff36",
+    "scraped_at": "2026-06-16T07:28:55.342948+00:00",
+    "first_observed": "2026-06-16",
+    "last_observed": "2026-06-16"
+  },
+  {
+    "provider": "Google",
+    "model_id": "veo-2.0-generate-001",
+    "announcement_date": "2026-06-16",
+    "shutdown_date": "2026-06-30",
+    "deprecation_date": "2026-06-30",
+    "replacement_models": [
+      "veo-3.1-generate-preview"
+    ],
+    "deprecation_context": "Gemini deprecations table: Veo models. Release date: 2025-04-09. Shutdown date: 2026-06-30. Recommended replacement: veo-3.1-generate-preview.",
+    "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
+    "content_hash": "bcc492549f89c203",
+    "scraped_at": "2026-06-16T07:28:55.343027+00:00",
+    "first_observed": "2026-06-16",
+    "last_observed": "2026-06-16"
   },
   {
     "provider": "Google",

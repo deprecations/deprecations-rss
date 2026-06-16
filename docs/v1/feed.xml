@@ -4,7 +4,91 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Sat, 13 Jun 2026 06:18:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 07:28:55 GMT</lastBuildDate>
+    <item>
+      <title>OpenAI: gpt-5-2025-08-07</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations</link>
+      <description>Provider: OpenAI
+Model ID: gpt-5-2025-08-07
+Deprecation Date: 2026-06-11
+Shutdown Date: 2026-12-11
+First Observed: 2026-06-16
+Last Observed: 2026-06-16
+
+On June 11, 2026, we notified developers using older GPT-5 and o3 model snapshots of their deprecation and removal from the API on December 11, 2026.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:54 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-5-2025-08-07-2026-12-11-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-5-mini-2025-08-07</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations</link>
+      <description>Provider: OpenAI
+Model ID: gpt-5-mini-2025-08-07
+Deprecation Date: 2026-06-11
+Shutdown Date: 2026-12-11
+First Observed: 2026-06-16
+Last Observed: 2026-06-16
+
+On June 11, 2026, we notified developers using older GPT-5 and o3 model snapshots of their deprecation and removal from the API on December 11, 2026.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:54 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-5-mini-2025-08-07-2026-12-11-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-5-nano-2025-08-07</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations</link>
+      <description>Provider: OpenAI
+Model ID: gpt-5-nano-2025-08-07
+Deprecation Date: 2026-06-11
+Shutdown Date: 2026-12-11
+First Observed: 2026-06-16
+Last Observed: 2026-06-16
+
+On June 11, 2026, we notified developers using older GPT-5 and o3 model snapshots of their deprecation and removal from the API on December 11, 2026.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:54 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-5-nano-2025-08-07-2026-12-11-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-5-pro-2025-10-06</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations</link>
+      <description>Provider: OpenAI
+Model ID: gpt-5-pro-2025-10-06
+Deprecation Date: 2026-06-11
+Shutdown Date: 2026-12-11
+First Observed: 2026-06-16
+Last Observed: 2026-06-16
+
+On June 11, 2026, we notified developers using older GPT-5 and o3 model snapshots of their deprecation and removal from the API on December 11, 2026.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:54 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-5-pro-2025-10-06-2026-12-11-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: o3-2025-04-16</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations</link>
+      <description>Provider: OpenAI
+Model ID: o3-2025-04-16
+Deprecation Date: 2026-06-11
+Shutdown Date: 2026-12-11
+First Observed: 2026-06-16
+Last Observed: 2026-06-16
+
+On June 11, 2026, we notified developers using older GPT-5 and o3 model snapshots of their deprecation and removal from the API on December 11, 2026.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:54 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-o3-2025-04-16-2026-12-11-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: o3-pro-2025-06-10</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations</link>
+      <description>Provider: OpenAI
+Model ID: o3-pro-2025-06-10
+Deprecation Date: 2026-06-11
+Shutdown Date: 2026-12-11
+First Observed: 2026-06-16
+Last Observed: 2026-06-16
+
+On June 11, 2026, we notified developers using older GPT-5 and o3 model snapshots of their deprecation and removal from the API on December 11, 2026.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:54 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-o3-pro-2025-06-10-2026-12-11-e3b0c442</guid>
+    </item>
     <item>
       <title>OpenAI: Reusable prompts</title>
       <link>https://platform.openai.com/docs/deprecations#2026-06-03-reusable-prompts</link>
@@ -1788,10 +1872,10 @@ Model ID: claude-opus-4-20250514
 Deprecation Date: 2026-04-14
 Shutdown Date: 2026-06-15
 First Observed: 2026-04-15
-Last Observed: 2026-05-29
+Last Observed: 2026-06-16
 
-On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.</description>
-      <pubDate>Fri, 29 May 2026 06:16:18 GMT</pubDate>
+&lt;Note&gt; These models were retired June 15, 2026. &lt;/Note&gt; On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:54 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-opus-4-20250514-2026-06-15-e3b0c442</guid>
     </item>
     <item>
@@ -1802,10 +1886,10 @@ Model ID: claude-sonnet-4-20250514
 Deprecation Date: 2026-04-14
 Shutdown Date: 2026-06-15
 First Observed: 2026-04-15
-Last Observed: 2026-04-15
+Last Observed: 2026-06-16
 
-On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.</description>
-      <pubDate>Wed, 15 Apr 2026 04:47:22 GMT</pubDate>
+&lt;Note&gt; These models were retired June 15, 2026. &lt;/Note&gt; On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:54 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-sonnet-4-20250514-2026-06-15-e3b0c442</guid>
     </item>
     <item>
@@ -2471,42 +2555,42 @@ Gemini deprecations table: Embedding models. Shutdown date: 2025-10-30. Recommen
       <link>https://ai.google.dev/gemini-api/docs/deprecations#imagen-models</link>
       <description>Provider: Google
 Model ID: imagen-4.0-generate-001
-Deprecation Date: 2026-06-24
-Shutdown Date: 2026-06-24
+Deprecation Date: 2026-08-17
+Shutdown Date: 2026-08-17
 First Observed: 2026-05-01
-Last Observed: 2026-05-01
+Last Observed: 2026-06-16
 
-Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-06-24. Recommended replacement: gemini-3-pro-image-preview, gemini-2.5-flash-image.</description>
-      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
-      <guid isPermaLink="false">Google-imagen-4.0-generate-001-2026-06-24-e3b0c442</guid>
+Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-08-17. Recommended replacement: gemini-3.1-flash-image.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:55 GMT</pubDate>
+      <guid isPermaLink="false">Google-imagen-4.0-generate-001-2026-08-17-e3b0c442</guid>
     </item>
     <item>
       <title>Google: imagen-4.0-ultra-generate-001</title>
       <link>https://ai.google.dev/gemini-api/docs/deprecations#imagen-models</link>
       <description>Provider: Google
 Model ID: imagen-4.0-ultra-generate-001
-Deprecation Date: 2026-06-24
-Shutdown Date: 2026-06-24
+Deprecation Date: 2026-08-17
+Shutdown Date: 2026-08-17
 First Observed: 2026-05-01
-Last Observed: 2026-05-01
+Last Observed: 2026-06-16
 
-Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-06-24. Recommended replacement: gemini-3-pro-image-preview, gemini-2.5-flash-image.</description>
-      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
-      <guid isPermaLink="false">Google-imagen-4.0-ultra-generate-001-2026-06-24-e3b0c442</guid>
+Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-08-17. Recommended replacement: gemini-3.1-flash-image.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:55 GMT</pubDate>
+      <guid isPermaLink="false">Google-imagen-4.0-ultra-generate-001-2026-08-17-e3b0c442</guid>
     </item>
     <item>
       <title>Google: imagen-4.0-fast-generate-001</title>
       <link>https://ai.google.dev/gemini-api/docs/deprecations#imagen-models</link>
       <description>Provider: Google
 Model ID: imagen-4.0-fast-generate-001
-Deprecation Date: 2026-06-24
-Shutdown Date: 2026-06-24
+Deprecation Date: 2026-08-17
+Shutdown Date: 2026-08-17
 First Observed: 2026-05-01
-Last Observed: 2026-05-01
+Last Observed: 2026-06-16
 
-Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-06-24. Recommended replacement: gemini-3-pro-image-preview, gemini-2.5-flash-image.</description>
-      <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
-      <guid isPermaLink="false">Google-imagen-4.0-fast-generate-001-2026-06-24-e3b0c442</guid>
+Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-08-17. Recommended replacement: gemini-3.1-flash-image.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:55 GMT</pubDate>
+      <guid isPermaLink="false">Google-imagen-4.0-fast-generate-001-2026-08-17-e3b0c442</guid>
     </item>
     <item>
       <title>Google: imagen-3.0-generate-002</title>
@@ -2549,6 +2633,48 @@ Last Observed: 2026-05-01
 Gemini deprecations table: Imagen models. Release date: 2025-06-24. Shutdown date: 2026-02-17. Recommended replacement: imagen-4.0-ultra-generate-001.</description>
       <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
       <guid isPermaLink="false">Google-imagen-4.0-ultra-generate-preview-06-06-2026-02-17-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: veo-3.0-generate-001</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#veo-models</link>
+      <description>Provider: Google
+Model ID: veo-3.0-generate-001
+Deprecation Date: 2026-06-30
+Shutdown Date: 2026-06-30
+First Observed: 2026-06-16
+Last Observed: 2026-06-16
+
+Gemini deprecations table: Veo models. Release date: 2025-09-09. Shutdown date: 2026-06-30. Recommended replacement: veo-3.1-generate-preview.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:55 GMT</pubDate>
+      <guid isPermaLink="false">Google-veo-3.0-generate-001-2026-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: veo-3.0-fast-generate-001</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#veo-models</link>
+      <description>Provider: Google
+Model ID: veo-3.0-fast-generate-001
+Deprecation Date: 2026-06-30
+Shutdown Date: 2026-06-30
+First Observed: 2026-06-16
+Last Observed: 2026-06-16
+
+Gemini deprecations table: Veo models. Release date: 2025-09-09. Shutdown date: 2026-06-30. Recommended replacement: veo-3.1-fast-generate-preview.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:55 GMT</pubDate>
+      <guid isPermaLink="false">Google-veo-3.0-fast-generate-001-2026-06-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: veo-2.0-generate-001</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#veo-models</link>
+      <description>Provider: Google
+Model ID: veo-2.0-generate-001
+Deprecation Date: 2026-06-30
+Shutdown Date: 2026-06-30
+First Observed: 2026-06-16
+Last Observed: 2026-06-16
+
+Gemini deprecations table: Veo models. Release date: 2025-04-09. Shutdown date: 2026-06-30. Recommended replacement: veo-3.1-generate-preview.</description>
+      <pubDate>Tue, 16 Jun 2026 07:28:55 GMT</pubDate>
+      <guid isPermaLink="false">Google-veo-2.0-generate-001-2026-06-30-e3b0c442</guid>
     </item>
     <item>
       <title>Google: veo-3.0-generate-preview</title>

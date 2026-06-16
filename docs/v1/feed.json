@@ -13,6 +13,144 @@
   "language": "en-US",
   "items": [
     {
+      "id": "openai-gpt-5-2025-08-07",
+      "url": "https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations",
+      "title": "OpenAI: gpt-5-2025-08-07",
+      "content_text": "",
+      "date_published": "2026-06-16T07:28:54.010810+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-5-2025-08-07",
+        "shutdown_date": "2026-12-11",
+        "deprecation_date": "2026-06-11",
+        "announcement_date": "2026-06-16",
+        "replacement_models": [
+          "gpt-5.5"
+        ],
+        "first_observed": "2026-06-16",
+        "last_observed": "2026-06-16"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-5-mini-2025-08-07",
+      "url": "https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations",
+      "title": "OpenAI: gpt-5-mini-2025-08-07",
+      "content_text": "",
+      "date_published": "2026-06-16T07:28:54.010872+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-5-mini-2025-08-07",
+        "shutdown_date": "2026-12-11",
+        "deprecation_date": "2026-06-11",
+        "announcement_date": "2026-06-16",
+        "replacement_models": [
+          "gpt-5.4-mini"
+        ],
+        "first_observed": "2026-06-16",
+        "last_observed": "2026-06-16"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-5-nano-2025-08-07",
+      "url": "https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations",
+      "title": "OpenAI: gpt-5-nano-2025-08-07",
+      "content_text": "",
+      "date_published": "2026-06-16T07:28:54.010913+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-5-nano-2025-08-07",
+        "shutdown_date": "2026-12-11",
+        "deprecation_date": "2026-06-11",
+        "announcement_date": "2026-06-16",
+        "replacement_models": [
+          "gpt-5.4-nano"
+        ],
+        "first_observed": "2026-06-16",
+        "last_observed": "2026-06-16"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-5-pro-2025-10-06",
+      "url": "https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations",
+      "title": "OpenAI: gpt-5-pro-2025-10-06",
+      "content_text": "",
+      "date_published": "2026-06-16T07:28:54.010944+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-5-pro-2025-10-06",
+        "shutdown_date": "2026-12-11",
+        "deprecation_date": "2026-06-11",
+        "announcement_date": "2026-06-16",
+        "replacement_models": [
+          "gpt-5.5-pro"
+        ],
+        "first_observed": "2026-06-16",
+        "last_observed": "2026-06-16"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-o3-2025-04-16",
+      "url": "https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations",
+      "title": "OpenAI: o3-2025-04-16",
+      "content_text": "",
+      "date_published": "2026-06-16T07:28:54.010975+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "o3-2025-04-16",
+        "shutdown_date": "2026-12-11",
+        "deprecation_date": "2026-06-11",
+        "announcement_date": "2026-06-16",
+        "replacement_models": [
+          "gpt-5.5"
+        ],
+        "first_observed": "2026-06-16",
+        "last_observed": "2026-06-16"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-o3-pro-2025-06-10",
+      "url": "https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations",
+      "title": "OpenAI: o3-pro-2025-06-10",
+      "content_text": "",
+      "date_published": "2026-06-16T07:28:54.011003+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "o3-pro-2025-06-10",
+        "shutdown_date": "2026-12-11",
+        "deprecation_date": "2026-06-11",
+        "announcement_date": "2026-06-16",
+        "replacement_models": [
+          "gpt-5.5-pro"
+        ],
+        "first_observed": "2026-06-16",
+        "last_observed": "2026-06-16"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "openai-reusable-prompts",
       "url": "https://platform.openai.com/docs/deprecations#2026-06-03-reusable-prompts",
       "title": "OpenAI: Reusable prompts",
@@ -2934,7 +3072,7 @@
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-04-14-claude-sonnet-4-and-claude-opus-4-models",
       "title": "Anthropic: claude-opus-4-20250514",
       "content_text": "",
-      "date_published": "2026-05-29T06:16:18.532538+00:00",
+      "date_published": "2026-06-16T07:28:54.123241+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-opus-4-20250514",
@@ -2945,7 +3083,7 @@
           "claude-opus-4-8"
         ],
         "first_observed": "2026-04-15",
-        "last_observed": "2026-05-29"
+        "last_observed": "2026-06-16"
       },
       "tags": [
         "Anthropic",
@@ -2957,7 +3095,7 @@
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-04-14-claude-sonnet-4-and-claude-opus-4-models",
       "title": "Anthropic: claude-sonnet-4-20250514",
       "content_text": "",
-      "date_published": "2026-04-15T04:47:22.761879+00:00",
+      "date_published": "2026-06-16T07:28:54.123216+00:00",
       "_deprecation": {
         "provider": "Anthropic",
         "model_id": "claude-sonnet-4-20250514",
@@ -2968,7 +3106,7 @@
           "claude-sonnet-4-6"
         ],
         "first_observed": "2026-04-15",
-        "last_observed": "2026-04-15"
+        "last_observed": "2026-06-16"
       },
       "tags": [
         "Anthropic",
@@ -4059,19 +4197,18 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#imagen-models",
       "title": "Google: imagen-4.0-generate-001",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.815981+00:00",
+      "date_published": "2026-06-16T07:28:55.342305+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "imagen-4.0-generate-001",
-        "shutdown_date": "2026-06-24",
-        "deprecation_date": "2026-06-24",
+        "shutdown_date": "2026-08-17",
+        "deprecation_date": "2026-08-17",
         "announcement_date": "2026-05-01",
         "replacement_models": [
-          "gemini-3-pro-image-preview",
-          "gemini-2.5-flash-image"
+          "gemini-3.1-flash-image"
         ],
         "first_observed": "2026-05-01",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-06-16"
       },
       "tags": [
         "Google",
@@ -4083,19 +4220,18 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#imagen-models",
       "title": "Google: imagen-4.0-ultra-generate-001",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.816114+00:00",
+      "date_published": "2026-06-16T07:28:55.342383+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "imagen-4.0-ultra-generate-001",
-        "shutdown_date": "2026-06-24",
-        "deprecation_date": "2026-06-24",
+        "shutdown_date": "2026-08-17",
+        "deprecation_date": "2026-08-17",
         "announcement_date": "2026-05-01",
         "replacement_models": [
-          "gemini-3-pro-image-preview",
-          "gemini-2.5-flash-image"
+          "gemini-3.1-flash-image"
         ],
         "first_observed": "2026-05-01",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-06-16"
       },
       "tags": [
         "Google",
@@ -4107,19 +4243,18 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#imagen-models",
       "title": "Google: imagen-4.0-fast-generate-001",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.816246+00:00",
+      "date_published": "2026-06-16T07:28:55.342459+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "imagen-4.0-fast-generate-001",
-        "shutdown_date": "2026-06-24",
-        "deprecation_date": "2026-06-24",
+        "shutdown_date": "2026-08-17",
+        "deprecation_date": "2026-08-17",
         "announcement_date": "2026-05-01",
         "replacement_models": [
-          "gemini-3-pro-image-preview",
-          "gemini-2.5-flash-image"
+          "gemini-3.1-flash-image"
         ],
         "first_observed": "2026-05-01",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-06-16"
       },
       "tags": [
         "Google",
@@ -4189,6 +4324,75 @@
         ],
         "first_observed": "2026-01-16",
         "last_observed": "2026-05-01"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-veo-3.0-generate-001",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
+      "title": "Google: veo-3.0-generate-001",
+      "content_text": "",
+      "date_published": "2026-06-16T07:28:55.342867+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-3.0-generate-001",
+        "shutdown_date": "2026-06-30",
+        "deprecation_date": "2026-06-30",
+        "announcement_date": "2026-06-16",
+        "replacement_models": [
+          "veo-3.1-generate-preview"
+        ],
+        "first_observed": "2026-06-16",
+        "last_observed": "2026-06-16"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-veo-3.0-fast-generate-001",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
+      "title": "Google: veo-3.0-fast-generate-001",
+      "content_text": "",
+      "date_published": "2026-06-16T07:28:55.342948+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-3.0-fast-generate-001",
+        "shutdown_date": "2026-06-30",
+        "deprecation_date": "2026-06-30",
+        "announcement_date": "2026-06-16",
+        "replacement_models": [
+          "veo-3.1-fast-generate-preview"
+        ],
+        "first_observed": "2026-06-16",
+        "last_observed": "2026-06-16"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-veo-2.0-generate-001",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
+      "title": "Google: veo-2.0-generate-001",
+      "content_text": "",
+      "date_published": "2026-06-16T07:28:55.343027+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-2.0-generate-001",
+        "shutdown_date": "2026-06-30",
+        "deprecation_date": "2026-06-30",
+        "announcement_date": "2026-06-16",
+        "replacement_models": [
+          "veo-3.1-generate-preview"
+        ],
+        "first_observed": "2026-06-16",
+        "last_observed": "2026-06-16"
       },
       "tags": [
         "Google",
