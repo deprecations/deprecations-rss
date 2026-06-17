@@ -1,10 +1,12 @@
 """AWS Bedrock deprecations scraper with individual model extraction."""
 
+import re
 from datetime import datetime
 from typing import List
 from bs4 import BeautifulSoup
 
 from ..base_scraper import EnhancedBaseScraper
+from ..markdown_utils import is_markdown
 from ..models import DeprecationItem
 
 
@@ -13,10 +15,20 @@ class AWSBedrockScraper(EnhancedBaseScraper):
 
     provider_name = "AWS Bedrock"
     url = "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html"
+    markdown_url = (
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.md"
+    )
     requires_playwright = False
 
+    def get_source_url(self) -> str:
+        """Prefer AWS's markdown source to avoid HTML page fetch failures."""
+        return self.markdown_url
+
     def extract_structured_deprecations(self, html: str) -> List[DeprecationItem]:
-        """Extract deprecations from AWS Bedrock lifecycle tables."""
+        """Extract deprecations from AWS Bedrock lifecycle tables or markdown."""
+        if is_markdown(html):
+            return self._extract_from_markdown(html)
+
         items: list[DeprecationItem] = []
         soup = BeautifulSoup(html, "html.parser")
 
@@ -133,6 +145,114 @@ class AWSBedrockScraper(EnhancedBaseScraper):
                 )
 
         return self._merge_duplicate_models(items)
+
+    def _extract_from_markdown(self, content: str) -> list[DeprecationItem]:
+        """Extract lifecycle records from AWS's generated markdown source."""
+        items: list[DeprecationItem] = []
+        for record in self._markdown_records(content):
+            items.extend(self._extract_markdown_record(record))
+        return self._merge_duplicate_models(items)
+
+    def _markdown_records(self, content: str) -> list[list[str]]:
+        """Split the AWS markdown lifecycle list into provider/model records."""
+        records: list[list[str]] = []
+        current: list[str] = []
+
+        for line in content.splitlines():
+            if re.match(r"^- \*\*.+\*\*$", line):
+                if current:
+                    records.append(current)
+                current = [line]
+                continue
+            if current:
+                if line.startswith("  - ") or not line.strip():
+                    current.append(line)
+                else:
+                    records.append(current)
+                    current = []
+
+        if current:
+            records.append(current)
+
+        return records
+
+    def _extract_markdown_record(self, record: list[str]) -> list[DeprecationItem]:
+        """Extract one markdown lifecycle list record into one or more schedules."""
+        model_name = ""
+        model_id = ""
+        replacement_models: list[str] | None = None
+        standalone_legacy_date = ""
+        standalone_eol_date = ""
+        schedules: list[tuple[str, str]] = []
+
+        for line in record[1:]:
+            match = re.match(r"^\s+- \*\*(?P<key>[^*]+):\*\*\s*(?P<value>.*)$", line)
+            if not match:
+                continue
+
+            key = match.group("key").strip().lower()
+            raw_value = match.group("value")
+            value = self._clean_markdown_value(raw_value)
+            if key == "model name":
+                model_name = value
+            elif key == "model id":
+                model_id = value
+            elif key == "legacy date":
+                standalone_legacy_date = self.parse_date(value)
+            elif key == "eol date":
+                standalone_eol_date = self.parse_date(value)
+            elif key == "regions":
+                legacy_date = self._extract_markdown_inline_date(
+                    raw_value, "Legacy date"
+                )
+                eol_date = self._extract_markdown_inline_date(raw_value, "EOL date")
+                if legacy_date or eol_date:
+                    schedules.append((legacy_date, eol_date))
+            elif "recommended" in key and "model id" in key:
+                replacement_models = self.parse_replacements(value)
+
+        if standalone_legacy_date or standalone_eol_date:
+            schedules.append((standalone_legacy_date, standalone_eol_date))
+
+        if not model_id:
+            return []
+
+        items: list[DeprecationItem] = []
+        for legacy_date, eol_date in schedules:
+            if not (legacy_date or eol_date):
+                continue
+            items.append(
+                DeprecationItem(
+                    provider=self.provider_name,
+                    model_id=model_id,
+                    announcement_date=legacy_date or eol_date,
+                    shutdown_date=eol_date or legacy_date,
+                    replacement_models=replacement_models,
+                    deprecation_context=self._build_context(
+                        model_id,
+                        model_name,
+                        legacy_date,
+                        eol_date,
+                        replacement_models,
+                    ),
+                    url=self.url,
+                )
+            )
+
+        return items
+
+    def _extract_markdown_inline_date(self, value: str, label: str) -> str:
+        """Extract a bolded inline date field from a markdown list item."""
+        pattern = rf"\*\*{re.escape(label)}:\*\*\s*(.*?)(?=\s*/\s*\*\*|$)"
+        match = re.search(pattern, value)
+        if not match:
+            return ""
+        return self.parse_date(self._clean_markdown_value(match.group(1)))
+
+    def _clean_markdown_value(self, value: str) -> str:
+        """Remove lightweight markdown formatting from a lifecycle field value."""
+        cleaned = re.sub(r"\*\*([^*]+)\*\*", r"\1", value)
+        return cleaned.replace("\\+", "+").strip()
 
     def _build_active_model_id_map(self, content) -> dict[str, str]:
         """Map active model version labels to Bedrock model IDs."""

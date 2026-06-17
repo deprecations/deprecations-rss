@@ -21,7 +21,52 @@ def test_scraper_initialization():
         scraper.url
         == "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html"
     )
+    assert scraper.get_source_url() == (
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.md"
+    )
     assert scraper.requires_playwright is False
+
+
+def test_extracts_from_markdown_source():
+    """Should parse the AWS markdown source used by the scheduled scraper."""
+    scraper = AWSBedrockScraper()
+    markdown = r"""
+# Model lifecycle
+
+- **Anthropic**
+  - **Model name:** Claude 3.5 Sonnet
+  - **Model ID:** anthropic.claude-3-5-sonnet-20240620-v1:0
+  - **Regions:** ap-northeast-1, ap-southeast-2 / **Legacy date:** January 30, 2026 / **EOL date:** July 30, 2026 / **Public extended access start date:** April 30, 2026
+  - **Regions:** eu-central-2 / **Legacy date:** August 25, 2025 / **EOL date:** June 1, 2026 / **Public extended access start date:** December 1, 2025
+
+- **Cohere**
+  - **Model name:** Command R\+
+  - **Model ID:** cohere.command-r-plus-v1:0
+  - **Regions:** us-east-1, us-west-2
+  - **Legacy date:** February 19, 2026
+  - **EOL date:** August 19, 2026
+  - **Public extended access start date:** May 19, 2026
+"""
+
+    items = scraper.extract_structured_deprecations(markdown)
+
+    assert {item.model_id for item in items} == {
+        "anthropic.claude-3-5-sonnet-20240620-v1:0",
+        "cohere.command-r-plus-v1:0",
+    }
+    sonnet = next(
+        item
+        for item in items
+        if item.model_id == "anthropic.claude-3-5-sonnet-20240620-v1:0"
+    )
+    assert sonnet.announcement_date == "2025-08-25"
+    assert sonnet.shutdown_date == "2026-06-01"
+    assert "Additional regional schedule" in sonnet.deprecation_context
+
+    command_r_plus = next(
+        item for item in items if item.model_id == "cohere.command-r-plus-v1:0"
+    )
+    assert "Command R+" in command_r_plus.deprecation_context
 
 
 def test_extracts_true_model_ids_from_active_lookup(fixture_html):
