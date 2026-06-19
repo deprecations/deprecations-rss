@@ -5792,11 +5792,105 @@
       ]
     },
     {
+      "id": "groq-llama-3.1-8b-instant",
+      "url": "https://console.groq.com/docs/deprecations#august-16-2026-llama318binstant-and-llama3370bversatile",
+      "title": "Groq: llama-3.1-8b-instant",
+      "content_text": "",
+      "date_published": "2026-06-19T07:08:41.111333+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama-3.1-8b-instant",
+        "shutdown_date": "2026-08-16",
+        "deprecation_date": "2026-06-17",
+        "announcement_date": "2026-06-19",
+        "replacement_models": [
+          "openai/gpt-oss-20b"
+        ],
+        "first_observed": "2026-06-19",
+        "last_observed": "2026-06-19"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "groq-llama-3.3-70b-versatile",
+      "url": "https://console.groq.com/docs/deprecations#august-16-2026-llama318binstant-and-llama3370bversatile",
+      "title": "Groq: llama-3.3-70b-versatile",
+      "content_text": "",
+      "date_published": "2026-06-19T07:08:41.111389+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "llama-3.3-70b-versatile",
+        "shutdown_date": "2026-08-16",
+        "deprecation_date": "2026-06-17",
+        "announcement_date": "2026-06-19",
+        "replacement_models": [
+          "openai/gpt-oss-120b",
+          "qwen/qwen3.6-27b"
+        ],
+        "first_observed": "2026-06-19",
+        "last_observed": "2026-06-19"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "groq-qwen/qwen3-32b",
+      "url": "https://console.groq.com/docs/deprecations#july-17-2026-qwenqwen332b-and-metallamallama4scout17b16einstruct",
+      "title": "Groq: qwen/qwen3-32b",
+      "content_text": "",
+      "date_published": "2026-06-19T07:08:41.111521+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "qwen/qwen3-32b",
+        "shutdown_date": "2026-07-17",
+        "deprecation_date": "2026-06-17",
+        "announcement_date": "2026-06-19",
+        "replacement_models": [
+          "openai/gpt-oss-120b"
+        ],
+        "first_observed": "2026-06-19",
+        "last_observed": "2026-06-19"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "groq-meta-llama/llama-4-scout-17b-16e-instruct",
+      "url": "https://console.groq.com/docs/deprecations#july-17-2026-qwenqwen332b-and-metallamallama4scout17b16einstruct",
+      "title": "Groq: meta-llama/llama-4-scout-17b-16e-instruct",
+      "content_text": "",
+      "date_published": "2026-06-19T07:08:41.111561+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "shutdown_date": "2026-07-17",
+        "deprecation_date": "2026-06-17",
+        "announcement_date": "2026-06-19",
+        "replacement_models": [
+          "openai/gpt-oss-120b",
+          "qwen/qwen3.6-27b"
+        ],
+        "first_observed": "2026-06-19",
+        "last_observed": "2026-06-19"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "groq-moonshotai/kimi-k2-instruct-0905",
       "url": "https://console.groq.com/docs/deprecations#april-15-2026-moonshotaikimik2instruct0905",
       "title": "Groq: moonshotai/kimi-k2-instruct-0905",
       "content_text": "",
-      "date_published": "2026-05-22T16:30:40.109049+00:00",
+      "date_published": "2026-06-19T07:08:41.111660+00:00",
       "_deprecation": {
         "provider": "Groq",
         "model_id": "moonshotai/kimi-k2-instruct-0905",
@@ -5807,7 +5901,7 @@
           "openai/gpt-oss-120b"
         ],
         "first_observed": "2026-05-22",
-        "last_observed": "2026-05-22"
+        "last_observed": "2026-06-19"
       },
       "tags": [
         "Groq",
@@ -5819,7 +5913,7 @@
       "url": "https://console.groq.com/docs/deprecations#march-9-2026-metallamallama4maverick17b128einstruct",
       "title": "Groq: meta-llama/llama-4-maverick-17b-128e-instruct",
       "content_text": "",
-      "date_published": "2026-05-22T16:30:40.109215+00:00",
+      "date_published": "2026-06-19T07:08:41.111773+00:00",
       "_deprecation": {
         "provider": "Groq",
         "model_id": "meta-llama/llama-4-maverick-17b-128e-instruct",
@@ -5830,7 +5924,7 @@
           "openai/gpt-oss-120b"
         ],
         "first_observed": "2026-05-22",
-        "last_observed": "2026-05-22"
+        "last_observed": "2026-06-19"
       },
       "tags": [
         "Groq",
@@ -5842,7 +5936,7 @@
       "url": "https://console.groq.com/docs/deprecations#march-5-2026-metallamallamaguard412b",
       "title": "Groq: meta-llama/llama-guard-4-12b",
       "content_text": "",
-      "date_published": "2026-05-22T16:30:40.109338+00:00",
+      "date_published": "2026-06-19T07:08:41.111866+00:00",
       "_deprecation": {
         "provider": "Groq",
         "model_id": "meta-llama/llama-guard-4-12b",
@@ -5853,7 +5947,7 @@
           "openai/gpt-oss-safeguard-20b"
         ],
         "first_observed": "2026-05-22",
-        "last_observed": "2026-05-22"
+        "last_observed": "2026-06-19"
       },
       "tags": [
         "Groq",
@@ -5981,7 +6075,7 @@
       "url": "https://console.groq.com/docs/deprecations#august-30-2025-llama370b8192-and-llama38b8192",
       "title": "Groq: llama3-70b-8192",
       "content_text": "",
-      "date_published": "2026-05-22T16:30:40.109963+00:00",
+      "date_published": "2026-06-19T07:08:41.112342+00:00",
       "_deprecation": {
         "provider": "Groq",
         "model_id": "llama3-70b-8192",
@@ -5992,7 +6086,7 @@
           "llama-3.3-70b-versatile"
         ],
         "first_observed": "2026-05-22",
-        "last_observed": "2026-05-22"
+        "last_observed": "2026-06-19"
       },
       "tags": [
         "Groq",
@@ -6004,7 +6098,7 @@
       "url": "https://console.groq.com/docs/deprecations#august-30-2025-llama370b8192-and-llama38b8192",
       "title": "Groq: llama3-8b-8192",
       "content_text": "",
-      "date_published": "2026-05-22T16:30:40.110002+00:00",
+      "date_published": "2026-06-19T07:08:41.112377+00:00",
       "_deprecation": {
         "provider": "Groq",
         "model_id": "llama3-8b-8192",
@@ -6015,7 +6109,7 @@
           "llama-3.1-8b-instant"
         ],
         "first_observed": "2026-05-22",
-        "last_observed": "2026-05-22"
+        "last_observed": "2026-06-19"
       },
       "tags": [
         "Groq",
@@ -6027,7 +6121,7 @@
       "url": "https://console.groq.com/docs/deprecations#august-23-2025-distil-whisper-large-v3-english",
       "title": "Groq: distil-whisper-large-v3-en",
       "content_text": "",
-      "date_published": "2026-05-22T16:30:40.110235+00:00",
+      "date_published": "2026-06-19T07:08:41.112577+00:00",
       "_deprecation": {
         "provider": "Groq",
         "model_id": "distil-whisper-large-v3-en",
@@ -6038,7 +6132,7 @@
           "whisper-large-v3-turbo"
         ],
         "first_observed": "2026-05-22",
-        "last_observed": "2026-05-22"
+        "last_observed": "2026-06-19"
       },
       "tags": [
         "Groq",
@@ -6050,7 +6144,7 @@
       "url": "https://console.groq.com/docs/deprecations#july-30-2025-mistral-saba-24b",
       "title": "Groq: mistral-saba-24b",
       "content_text": "",
-      "date_published": "2026-05-22T16:30:40.110341+00:00",
+      "date_published": "2026-06-19T07:08:41.112667+00:00",
       "_deprecation": {
         "provider": "Groq",
         "model_id": "mistral-saba-24b",
@@ -6061,7 +6155,7 @@
           "qwen/qwen3-32b"
         ],
         "first_observed": "2026-05-22",
-        "last_observed": "2026-05-22"
+        "last_observed": "2026-06-19"
       },
       "tags": [
         "Groq",
@@ -6073,7 +6167,7 @@
       "url": "https://console.groq.com/docs/deprecations#july-14-2025-qwen-qwq-32b",
       "title": "Groq: qwen-qwq-32b",
       "content_text": "",
-      "date_published": "2026-05-22T16:30:40.110438+00:00",
+      "date_published": "2026-06-19T07:08:41.112760+00:00",
       "_deprecation": {
         "provider": "Groq",
         "model_id": "qwen-qwq-32b",
@@ -6084,7 +6178,7 @@
           "qwen/qwen3-32b"
         ],
         "first_observed": "2026-05-22",
-        "last_observed": "2026-05-22"
+        "last_observed": "2026-06-19"
       },
       "tags": [
         "Groq",
@@ -6096,7 +6190,7 @@
       "url": "https://console.groq.com/docs/deprecations#june-6-2025-llama-guard-3",
       "title": "Groq: llama-guard-3-8b",
       "content_text": "",
-      "date_published": "2026-05-22T16:30:40.110542+00:00",
+      "date_published": "2026-06-19T07:08:41.112847+00:00",
       "_deprecation": {
         "provider": "Groq",
         "model_id": "llama-guard-3-8b",
@@ -6107,7 +6201,7 @@
           "meta-llama/llama-guard-4-12b"
         ],
         "first_observed": "2026-05-22",
-        "last_observed": "2026-05-22"
+        "last_observed": "2026-06-19"
       },
       "tags": [
         "Groq",
@@ -7864,16 +7958,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: DeepSeek-R1",
       "content_text": "",
-      "date_published": "2026-06-04T06:44:39.516163+00:00",
+      "date_published": "2026-06-19T07:08:41.873960+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "DeepSeek-R1",
         "shutdown_date": "2026-08-13",
         "deprecation_date": "2026-08-13",
         "announcement_date": "2026-06-04",
-        "replacement_models": null,
+        "replacement_models": [
+          "DeepSeek-V4-Pro"
+        ],
         "first_observed": "2026-06-04",
-        "last_observed": "2026-06-04"
+        "last_observed": "2026-06-19"
       },
       "tags": [
         "Azure",
@@ -7885,16 +7981,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: DeepSeek-R1-0528",
       "content_text": "",
-      "date_published": "2026-06-04T06:44:39.516208+00:00",
+      "date_published": "2026-06-19T07:08:41.874002+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "DeepSeek-R1-0528",
         "shutdown_date": "2026-07-13",
         "deprecation_date": "2026-07-13",
         "announcement_date": "2026-06-04",
-        "replacement_models": null,
+        "replacement_models": [
+          "DeepSeek-V4-Pro"
+        ],
         "first_observed": "2026-06-04",
-        "last_observed": "2026-06-04"
+        "last_observed": "2026-06-19"
       },
       "tags": [
         "Azure",
@@ -7906,7 +8004,7 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: DeepSeek-V3-0324",
       "content_text": "",
-      "date_published": "2026-06-04T06:44:39.516252+00:00",
+      "date_published": "2026-06-19T07:08:41.874040+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "DeepSeek-V3-0324",
@@ -7914,11 +8012,10 @@
         "deprecation_date": "2026-07-13",
         "announcement_date": "2026-06-04",
         "replacement_models": [
-          "DeepSeek-V4-Flash",
-          "DeepSeek-V4-Pro"
+          "DeepSeek-V4-Flash"
         ],
         "first_observed": "2026-06-04",
-        "last_observed": "2026-06-04"
+        "last_observed": "2026-06-19"
       },
       "tags": [
         "Azure",
@@ -7930,7 +8027,7 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: DeepSeek-V3.1",
       "content_text": "",
-      "date_published": "2026-06-04T06:44:39.516295+00:00",
+      "date_published": "2026-06-19T07:08:41.874080+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "DeepSeek-V3.1",
@@ -7938,11 +8035,10 @@
         "deprecation_date": "2026-07-13",
         "announcement_date": "2026-06-04",
         "replacement_models": [
-          "DeepSeek-V4-Flash",
-          "DeepSeek-V4-Pro"
+          "DeepSeek-V4-Flash"
         ],
         "first_observed": "2026-06-04",
-        "last_observed": "2026-06-04"
+        "last_observed": "2026-06-19"
       },
       "tags": [
         "Azure",

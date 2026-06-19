@@ -4001,6 +4001,72 @@
   },
   {
     "provider": "Groq",
+    "model_id": "llama-3.1-8b-instant",
+    "announcement_date": "2026-06-19",
+    "shutdown_date": "2026-08-16",
+    "deprecation_date": "2026-06-17",
+    "replacement_models": [
+      "openai/gpt-oss-20b"
+    ],
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on June 17, 2026, we emailed users to announce the deprecation of `llama-3.1-8b-instant` and `llama-3.3-70b-versatile`. We recommend migrating to `openai/gpt-oss-20b` (for Llama 3.1 8B Instant) and `openai/gpt-oss-120b` or `qwen/qwen3.6-27b` (for Llama 3.3 70B Versatile), which deliver exceptional performance with faster inference. This deprecation applies to free and developer-tier usage; enterprise customers with a committed-spend contract are not affected.",
+    "url": "https://console.groq.com/docs/deprecations#august-16-2026-llama318binstant-and-llama3370bversatile",
+    "content_hash": "37fdf444f8fca93a",
+    "scraped_at": "2026-06-19T07:08:41.111333+00:00",
+    "first_observed": "2026-06-19",
+    "last_observed": "2026-06-19"
+  },
+  {
+    "provider": "Groq",
+    "model_id": "llama-3.3-70b-versatile",
+    "announcement_date": "2026-06-19",
+    "shutdown_date": "2026-08-16",
+    "deprecation_date": "2026-06-17",
+    "replacement_models": [
+      "openai/gpt-oss-120b",
+      "qwen/qwen3.6-27b"
+    ],
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on June 17, 2026, we emailed users to announce the deprecation of `llama-3.1-8b-instant` and `llama-3.3-70b-versatile`. We recommend migrating to `openai/gpt-oss-20b` (for Llama 3.1 8B Instant) and `openai/gpt-oss-120b` or `qwen/qwen3.6-27b` (for Llama 3.3 70B Versatile), which deliver exceptional performance with faster inference. This deprecation applies to free and developer-tier usage; enterprise customers with a committed-spend contract are not affected.",
+    "url": "https://console.groq.com/docs/deprecations#august-16-2026-llama318binstant-and-llama3370bversatile",
+    "content_hash": "ac8d327c9ee064b8",
+    "scraped_at": "2026-06-19T07:08:41.111389+00:00",
+    "first_observed": "2026-06-19",
+    "last_observed": "2026-06-19"
+  },
+  {
+    "provider": "Groq",
+    "model_id": "qwen/qwen3-32b",
+    "announcement_date": "2026-06-19",
+    "shutdown_date": "2026-07-17",
+    "deprecation_date": "2026-06-17",
+    "replacement_models": [
+      "openai/gpt-oss-120b"
+    ],
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on June 17, 2026, we emailed users to announce the deprecation of `qwen/qwen3-32b` and `meta-llama/llama-4-scout-17b-16e-instruct`. We recommend migrating to `openai/gpt-oss-120b` (for Qwen 3 32B) and `openai/gpt-oss-120b` or `qwen/qwen3.6-27b` (for Llama 4 Scout 17B), which deliver exceptional performance with faster inference. This deprecation applies to free and developer-tier usage; enterprise customers with a committed-spend contract are not affected.",
+    "url": "https://console.groq.com/docs/deprecations#july-17-2026-qwenqwen332b-and-metallamallama4scout17b16einstruct",
+    "content_hash": "e529247cedd6d3f1",
+    "scraped_at": "2026-06-19T07:08:41.111521+00:00",
+    "first_observed": "2026-06-19",
+    "last_observed": "2026-06-19"
+  },
+  {
+    "provider": "Groq",
+    "model_id": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "announcement_date": "2026-06-19",
+    "shutdown_date": "2026-07-17",
+    "deprecation_date": "2026-06-17",
+    "replacement_models": [
+      "openai/gpt-oss-120b",
+      "qwen/qwen3.6-27b"
+    ],
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on June 17, 2026, we emailed users to announce the deprecation of `qwen/qwen3-32b` and `meta-llama/llama-4-scout-17b-16e-instruct`. We recommend migrating to `openai/gpt-oss-120b` (for Qwen 3 32B) and `openai/gpt-oss-120b` or `qwen/qwen3.6-27b` (for Llama 4 Scout 17B), which deliver exceptional performance with faster inference. This deprecation applies to free and developer-tier usage; enterprise customers with a committed-spend contract are not affected.",
+    "url": "https://console.groq.com/docs/deprecations#july-17-2026-qwenqwen332b-and-metallamallama4scout17b16einstruct",
+    "content_hash": "bb7457b7d2fca5b8",
+    "scraped_at": "2026-06-19T07:08:41.111561+00:00",
+    "first_observed": "2026-06-19",
+    "last_observed": "2026-06-19"
+  },
+  {
+    "provider": "Groq",
     "model_id": "moonshotai/kimi-k2-instruct-0905",
     "announcement_date": "2026-05-22",
     "shutdown_date": "2026-04-15",
@@ -4008,12 +4074,12 @@
     "replacement_models": [
       "openai/gpt-oss-120b"
     ],
-    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on March 23, 2026, we emailed users to announce the deprecation of `moonshotai/kimi-k2-instruct-0905` in favor of`openai/gpt-oss-120b`. The GPT-OSS 120B model delivers exceptional reasoning performance with faster inference, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.",
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on March 23, 2026, we emailed users to announce the deprecation of `moonshotai/kimi-k2-instruct-0905` in favor of `openai/gpt-oss-120b`. The GPT-OSS 120B model delivers exceptional reasoning performance with faster inference, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.",
     "url": "https://console.groq.com/docs/deprecations#april-15-2026-moonshotaikimik2instruct0905",
     "content_hash": "2488f2cd1668f7dd",
-    "scraped_at": "2026-05-22T16:30:40.109049+00:00",
+    "scraped_at": "2026-06-19T07:08:41.111660+00:00",
     "first_observed": "2026-05-22",
-    "last_observed": "2026-05-22"
+    "last_observed": "2026-06-19"
   },
   {
     "provider": "Groq",
@@ -4024,12 +4090,12 @@
     "replacement_models": [
       "openai/gpt-oss-120b"
     ],
-    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on February 20, 2026, we emailed users to announce the deprecation of `meta-llama/llama-4-maverick-17b-128e-instruct` in favor of`openai/gpt-oss-120b`. The GPT-OSS 120B model delivers exceptional reasoning performance with faster inference, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.",
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on February 20, 2026, we emailed users to announce the deprecation of `meta-llama/llama-4-maverick-17b-128e-instruct` in favor of `openai/gpt-oss-120b`. The GPT-OSS 120B model delivers exceptional reasoning performance with faster inference, enabling your applications to harness state-of-the-art AI capabilities with unparalleled speed on our platform.",
     "url": "https://console.groq.com/docs/deprecations#march-9-2026-metallamallama4maverick17b128einstruct",
     "content_hash": "000ade64d4b6a876",
-    "scraped_at": "2026-05-22T16:30:40.109215+00:00",
+    "scraped_at": "2026-06-19T07:08:41.111773+00:00",
     "first_observed": "2026-05-22",
-    "last_observed": "2026-05-22"
+    "last_observed": "2026-06-19"
   },
   {
     "provider": "Groq",
@@ -4040,12 +4106,12 @@
     "replacement_models": [
       "openai/gpt-oss-safeguard-20b"
     ],
-    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on February 10, 2026, we emailed users to announce the deprecation of `meta-llama/llama-guard-4-12b` in favor of`openai/gpt-oss-safeguard-20b`. The new GPT-OSS-Safeguard model delivers policy-following reasoning capabilities for Trust & Safety workflows, enabling customizable content moderation with bring-your-own-policy support.",
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on February 10, 2026, we emailed users to announce the deprecation of `meta-llama/llama-guard-4-12b` in favor of `openai/gpt-oss-safeguard-20b`. The new GPT-OSS-Safeguard model delivers policy-following reasoning capabilities for Trust & Safety workflows, enabling customizable content moderation with bring-your-own-policy support.",
     "url": "https://console.groq.com/docs/deprecations#march-5-2026-metallamallamaguard412b",
     "content_hash": "dc90a2036d6aaa88",
-    "scraped_at": "2026-05-22T16:30:40.109338+00:00",
+    "scraped_at": "2026-06-19T07:08:41.111866+00:00",
     "first_observed": "2026-05-22",
-    "last_observed": "2026-05-22"
+    "last_observed": "2026-06-19"
   },
   {
     "provider": "Groq",
@@ -4137,12 +4203,12 @@
     "replacement_models": [
       "llama-3.3-70b-versatile"
     ],
-    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on May 31, 2025, we emailed users to announce the deprecation of `llama3-70b-8192` and `llama3-8b-8192` in favor of`llama-3.3-70b-versatile` and `llama-3.1-8b-instant` respectively. The newer Llama 3.3 70B and Llama 3.1 8B models deliver exceptional performance, enabling your applications to harness state-of-the-art text generation with unparalleled speed on our platform.",
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on May 31, 2025, we emailed users to announce the deprecation of `llama3-70b-8192` and `llama3-8b-8192` in favor of `llama-3.3-70b-versatile` and `llama-3.1-8b-instant` respectively. The newer Llama 3.3 70B and Llama 3.1 8B models deliver exceptional performance, enabling your applications to harness state-of-the-art text generation with unparalleled speed on our platform.",
     "url": "https://console.groq.com/docs/deprecations#august-30-2025-llama370b8192-and-llama38b8192",
     "content_hash": "d35146aa749de59a",
-    "scraped_at": "2026-05-22T16:30:40.109963+00:00",
+    "scraped_at": "2026-06-19T07:08:41.112342+00:00",
     "first_observed": "2026-05-22",
-    "last_observed": "2026-05-22"
+    "last_observed": "2026-06-19"
   },
   {
     "provider": "Groq",
@@ -4153,12 +4219,12 @@
     "replacement_models": [
       "llama-3.1-8b-instant"
     ],
-    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on May 31, 2025, we emailed users to announce the deprecation of `llama3-70b-8192` and `llama3-8b-8192` in favor of`llama-3.3-70b-versatile` and `llama-3.1-8b-instant` respectively. The newer Llama 3.3 70B and Llama 3.1 8B models deliver exceptional performance, enabling your applications to harness state-of-the-art text generation with unparalleled speed on our platform.",
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on May 31, 2025, we emailed users to announce the deprecation of `llama3-70b-8192` and `llama3-8b-8192` in favor of `llama-3.3-70b-versatile` and `llama-3.1-8b-instant` respectively. The newer Llama 3.3 70B and Llama 3.1 8B models deliver exceptional performance, enabling your applications to harness state-of-the-art text generation with unparalleled speed on our platform.",
     "url": "https://console.groq.com/docs/deprecations#august-30-2025-llama370b8192-and-llama38b8192",
     "content_hash": "7ae66418342e9de5",
-    "scraped_at": "2026-05-22T16:30:40.110002+00:00",
+    "scraped_at": "2026-06-19T07:08:41.112377+00:00",
     "first_observed": "2026-05-22",
-    "last_observed": "2026-05-22"
+    "last_observed": "2026-06-19"
   },
   {
     "provider": "Groq",
@@ -4169,12 +4235,12 @@
     "replacement_models": [
       "whisper-large-v3-turbo"
     ],
-    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, we are announcing the deprecation of `distil-whisper-large-v3-en` in favor of`whisper-large-v3-turbo`. Whisper Large V3 Turbo is a more performant model for speech recognition and transcription tasks, and supports more languages.",
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, we are announcing the deprecation of `distil-whisper-large-v3-en` in favor of `whisper-large-v3-turbo`. Whisper Large V3 Turbo is a more performant model for speech recognition and transcription tasks, and supports more languages.",
     "url": "https://console.groq.com/docs/deprecations#august-23-2025-distil-whisper-large-v3-english",
     "content_hash": "f0ea43ae75d76697",
-    "scraped_at": "2026-05-22T16:30:40.110235+00:00",
+    "scraped_at": "2026-06-19T07:08:41.112577+00:00",
     "first_observed": "2026-05-22",
-    "last_observed": "2026-05-22"
+    "last_observed": "2026-06-19"
   },
   {
     "provider": "Groq",
@@ -4185,12 +4251,12 @@
     "replacement_models": [
       "qwen/qwen3-32b"
     ],
-    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, we are announcing the deprecation of `mistral-saba-24b` in favor of`qwen/qwen3-32b`. The new Qwen 3 32B model delivers exceptional performance, enabling your applications to harness state-of-the-art text generation with unparalleled speed on our platform.",
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, we are announcing the deprecation of `mistral-saba-24b` in favor of `qwen/qwen3-32b`. The new Qwen 3 32B model delivers exceptional performance, enabling your applications to harness state-of-the-art text generation with unparalleled speed on our platform.",
     "url": "https://console.groq.com/docs/deprecations#july-30-2025-mistral-saba-24b",
     "content_hash": "cf25ad1bfa1b4671",
-    "scraped_at": "2026-05-22T16:30:40.110341+00:00",
+    "scraped_at": "2026-06-19T07:08:41.112667+00:00",
     "first_observed": "2026-05-22",
-    "last_observed": "2026-05-22"
+    "last_observed": "2026-06-19"
   },
   {
     "provider": "Groq",
@@ -4201,12 +4267,12 @@
     "replacement_models": [
       "qwen/qwen3-32b"
     ],
-    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, we are announcing the deprecation of `qwen-qwq-32b` in favor of`qwen/qwen3-32b`. The new Qwen 3 32B model delivers exceptional performance, enabling your applications to harness state-of-the-art text generation with unparalleled speed on our platform.",
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, we are announcing the deprecation of `qwen-qwq-32b` in favor of `qwen/qwen3-32b`. The new Qwen 3 32B model delivers exceptional performance, enabling your applications to harness state-of-the-art text generation with unparalleled speed on our platform.",
     "url": "https://console.groq.com/docs/deprecations#july-14-2025-qwen-qwq-32b",
     "content_hash": "abf61ce04a206d1c",
-    "scraped_at": "2026-05-22T16:30:40.110438+00:00",
+    "scraped_at": "2026-06-19T07:08:41.112760+00:00",
     "first_observed": "2026-05-22",
-    "last_observed": "2026-05-22"
+    "last_observed": "2026-06-19"
   },
   {
     "provider": "Groq",
@@ -4217,12 +4283,12 @@
     "replacement_models": [
       "meta-llama/llama-guard-4-12b"
     ],
-    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on May 9, 2025, we emailed users to announce the deprecation of `llama-guard-3-8b` in favor of`meta-llama/llama-guard-4-12b`. The new Llama Guard 4 model delivers exceptional multimodal performance, enabling your applications to harness state-of-the-art AI content moderation with unparalleled speed on our platform.",
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, on May 9, 2025, we emailed users to announce the deprecation of `llama-guard-3-8b` in favor of `meta-llama/llama-guard-4-12b`. The new Llama Guard 4 model delivers exceptional multimodal performance, enabling your applications to harness state-of-the-art AI content moderation with unparalleled speed on our platform.",
     "url": "https://console.groq.com/docs/deprecations#june-6-2025-llama-guard-3",
     "content_hash": "5941b2e28d008b7b",
-    "scraped_at": "2026-05-22T16:30:40.110542+00:00",
+    "scraped_at": "2026-06-19T07:08:41.112847+00:00",
     "first_observed": "2026-05-22",
-    "last_observed": "2026-05-22"
+    "last_observed": "2026-06-19"
   },
   {
     "provider": "Groq",
@@ -5415,13 +5481,15 @@
     "announcement_date": "2026-06-04",
     "shutdown_date": "2026-08-13",
     "deprecation_date": "2026-08-13",
-    "replacement_models": null,
+    "replacement_models": [
+      "DeepSeek-V4-Pro"
+    ],
     "deprecation_context": "DeepSeek",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
     "content_hash": "a54fce85831f423f",
-    "scraped_at": "2026-06-04T06:44:39.516163+00:00",
+    "scraped_at": "2026-06-19T07:08:41.873960+00:00",
     "first_observed": "2026-06-04",
-    "last_observed": "2026-06-04"
+    "last_observed": "2026-06-19"
   },
   {
     "provider": "Azure",
@@ -5429,13 +5497,15 @@
     "announcement_date": "2026-06-04",
     "shutdown_date": "2026-07-13",
     "deprecation_date": "2026-07-13",
-    "replacement_models": null,
+    "replacement_models": [
+      "DeepSeek-V4-Pro"
+    ],
     "deprecation_context": "DeepSeek",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
     "content_hash": "1e990cec9af97534",
-    "scraped_at": "2026-06-04T06:44:39.516208+00:00",
+    "scraped_at": "2026-06-19T07:08:41.874002+00:00",
     "first_observed": "2026-06-04",
-    "last_observed": "2026-06-04"
+    "last_observed": "2026-06-19"
   },
   {
     "provider": "Azure",
@@ -5444,15 +5514,14 @@
     "shutdown_date": "2026-07-13",
     "deprecation_date": "2026-07-13",
     "replacement_models": [
-      "DeepSeek-V4-Flash",
-      "DeepSeek-V4-Pro"
+      "DeepSeek-V4-Flash"
     ],
     "deprecation_context": "DeepSeek",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
     "content_hash": "d35e03089b23577b",
-    "scraped_at": "2026-06-04T06:44:39.516252+00:00",
+    "scraped_at": "2026-06-19T07:08:41.874040+00:00",
     "first_observed": "2026-06-04",
-    "last_observed": "2026-06-04"
+    "last_observed": "2026-06-19"
   },
   {
     "provider": "Azure",
@@ -5461,15 +5530,14 @@
     "shutdown_date": "2026-07-13",
     "deprecation_date": "2026-07-13",
     "replacement_models": [
-      "DeepSeek-V4-Flash",
-      "DeepSeek-V4-Pro"
+      "DeepSeek-V4-Flash"
     ],
     "deprecation_context": "DeepSeek",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
     "content_hash": "35df81badbbfd8d3",
-    "scraped_at": "2026-06-04T06:44:39.516295+00:00",
+    "scraped_at": "2026-06-19T07:08:41.874080+00:00",
     "first_observed": "2026-06-04",
-    "last_observed": "2026-06-04"
+    "last_observed": "2026-06-19"
   },
   {
     "provider": "Azure",
