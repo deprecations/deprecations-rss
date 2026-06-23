@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 19 Jun 2026 07:08:41 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 06:09:09 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5-2025-08-07</title>
       <link>https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations</link>
@@ -4241,14 +4241,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-4o
-Deprecation Date: 2026-10-01
-Shutdown Date: 2026-10-01
+Deprecation Date: 2026-03-31
+Shutdown Date: 2026-03-31
 First Observed: 2026-04-25
-Last Observed: 2026-04-28
+Last Observed: 2026-06-23
 
 Azure OpenAI</description>
-      <pubDate>Tue, 28 Apr 2026 05:32:49 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-4o-2026-10-01-e3b0c442</guid>
+      <pubDate>Tue, 23 Jun 2026 06:09:09 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4o-2026-03-31-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-4o-mini</title>
@@ -4339,14 +4339,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-5-chat
-Deprecation Date: 2026-06-29
-Shutdown Date: 2026-06-29
+Deprecation Date: 2026-05-13
+Shutdown Date: 2026-05-13
 First Observed: 2026-04-25
-Last Observed: 2026-05-27
+Last Observed: 2026-06-23
 
 Azure OpenAI</description>
-      <pubDate>Wed, 27 May 2026 06:23:02 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-5-chat-2026-06-29-e3b0c442</guid>
+      <pubDate>Tue, 23 Jun 2026 06:09:09 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5-chat-2026-05-13-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-5-codex</title>
@@ -4493,14 +4493,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-5.2-chat
-Deprecation Date: 2026-06-29
-Shutdown Date: 2026-06-29
+Deprecation Date: 2026-05-13
+Shutdown Date: 2026-05-13
 First Observed: 2026-04-25
-Last Observed: 2026-05-27
+Last Observed: 2026-06-23
 
 Azure OpenAI</description>
-      <pubDate>Wed, 27 May 2026 06:23:02 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-5.2-chat-2026-06-29-e3b0c442</guid>
+      <pubDate>Tue, 23 Jun 2026 06:09:09 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.2-chat-2026-05-13-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-5.2-codex</title>
