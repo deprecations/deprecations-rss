@@ -8071,18 +8071,19 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: mistral-document-ai-2505",
       "content_text": "",
-      "date_published": "2026-05-22T06:09:45.354287+00:00",
+      "date_published": "2026-06-24T06:08:53.232516+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "mistral-document-ai-2505",
-        "shutdown_date": "2026-05-31",
-        "deprecation_date": "2026-05-31",
+        "shutdown_date": "2026-07-15",
+        "deprecation_date": "2026-07-15",
         "announcement_date": "2026-05-22",
         "replacement_models": [
-          "mistral-document-ai-2512"
+          "mistral-document-ai-2512",
+          "mistral-ocr-4-0"
         ],
         "first_observed": "2026-05-22",
-        "last_observed": "2026-05-22"
+        "last_observed": "2026-06-24"
       },
       "tags": [
         "Azure",
