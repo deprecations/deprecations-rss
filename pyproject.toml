@@ -13,6 +13,10 @@ dependencies = [
     "httpx>=0.27.0",
     "beautifulsoup4>=4.12.3",
     "lxml>=4.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
     "ruff>=0.8.0",
     "ipython>=9.4.0",
     "pytest>=8.0.0",
@@ -30,4 +34,3 @@ markers = [
     "slow: marks tests that hit live external sources",
     "integration: marks integration-style tests",
 ]
-
