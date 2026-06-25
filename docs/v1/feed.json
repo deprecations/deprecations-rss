@@ -4893,7 +4893,7 @@
       "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-3-5-v2",
       "title": "Google Vertex: claude-3-5-sonnet-v2",
       "content_text": "",
-      "date_published": "2026-06-04T06:44:37.901064+00:00",
+      "date_published": "2026-06-25T06:09:17.805997+00:00",
       "_deprecation": {
         "provider": "Google Vertex",
         "model_id": "claude-3-5-sonnet-v2",
@@ -4902,7 +4902,7 @@
         "announcement_date": "2026-03-26",
         "replacement_models": null,
         "first_observed": "2026-03-26",
-        "last_observed": "2026-06-04"
+        "last_observed": "2026-06-25"
       },
       "tags": [
         "Google Vertex",

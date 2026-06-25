@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Wed, 24 Jun 2026 06:08:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 06:09:17 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5-2025-08-07</title>
       <link>https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations</link>
@@ -3016,13 +3016,13 @@ Model ID: claude-3-5-sonnet-v2
 Deprecation Date: 2025-08-20
 Shutdown Date: 2026-02-19
 First Observed: 2026-03-26
-Last Observed: 2026-06-04
+Last Observed: 2026-06-25
 
 Claude 3.5 Sonnet v2 is deprecated as of August 20, 2025 and
 will be shut down on February 19, 2026 . Claude 3.5 Sonnet v2 is
 available to existing customers only. Claude 3.5 Sonnet v2 is a state-of-the-art model for real-world
-software engineering tasks and agentic capabilities. Try in Agent Platform Model ID claude-3-5-sonnet-v2 Launch stage GA Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output tokens: 8,000 Capabilit...</description>
-      <pubDate>Thu, 04 Jun 2026 06:44:37 GMT</pubDate>
+software engineering tasks and agentic capabilities. Try in Agent Studio Model ID claude-3-5-sonnet-v2 Launch stage GA Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output tokens: 8,000 Capabilitie...</description>
+      <pubDate>Thu, 25 Jun 2026 06:09:17 GMT</pubDate>
       <guid isPermaLink="false">Google_Vertex-claude-3-5-sonnet-v2-2026-02-19-e3b0c442</guid>
     </item>
     <item>
