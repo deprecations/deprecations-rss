@@ -799,7 +799,7 @@ end
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md). Found a bug? Provider changed their
 page format? Open an
-[issue](https://github.com/leblancfg/deprecations-rss/issues), or submit a PR!
+[issue](https://github.com/deprecations/deprecations-rss/issues), or submit a PR!
 
 
 ## Sponsors
