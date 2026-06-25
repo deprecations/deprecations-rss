@@ -530,7 +530,7 @@ import requests
 from datetime import datetime
 
 # Fetch the JSON feed
-response = requests.get('https://deprecations.info/feed.json')
+response = requests.get('https://deprecations.info/v1/feed.json')
 feed = response.json()
 
 # Your GitHub token and repo
@@ -1119,7 +1119,7 @@ sendDiscordAlerts().catch(console.error);</code></pre>
 # Install on RHEL/CentOS: yum install jq
 
 WEBHOOK_URL="https://discord.com/api/webhooks/YOUR_WEBHOOK_URL"
-FEED_URL="https://deprecations.info/feed.json"
+FEED_URL="https://deprecations.info/v1/feed.json"
 
 # Parse JSON feed and send to Discord
 curl -s "$FEED_URL" | jq -r '.items[0:3] | .[] |
