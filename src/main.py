@@ -116,7 +116,7 @@ def read_existing_data() -> list[dict]:
     try:
         with open(data_file, encoding="utf-8") as file:
             return json.load(file)
-    except (json.JSONDecodeError, IOError):
+    except json.JSONDecodeError, IOError:
         return []
 
 
