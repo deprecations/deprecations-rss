@@ -16,7 +16,7 @@
     <link rel="alternate" type="application/rss+xml" title="AI Model Deprecations RSS Feed" href="v1/feed.xml">
     <link rel="icon"
         href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔔</text></svg>">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://deprecations.info/">
@@ -26,7 +26,7 @@
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1731">
     <meta property="og:image:height" content="909">
-    
+
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://deprecations.info/">
@@ -144,10 +144,10 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
         <section class="data-preview">
             <h2>Upcoming Model Shutdowns</h2>
             <p class="preview-intro">
-                Real-time data showing AI models scheduled for deprecation, sorted by urgency. 
+                Real-time data showing AI models scheduled for deprecation, sorted by urgency.
                 Only showing models with confirmed shutdown dates that haven't occurred yet.
             </p>
-            
+
             <div class="filter-badges">
                 <button class="filter-badge now active" data-filter="now">NOW</button>
                 <button class="filter-badge openai" data-filter="openai">OAI</button>
@@ -179,19 +179,56 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                 </table>
             </div>
 
-            <script>
-                let allDeprecations = [];
-                let filteredDeprecations = [];
-                let activeFilters = new Set(['now']);
+	            <script>
+	                let allDeprecations = [];
+	                let filteredDeprecations = [];
+	                let activeFilters = new Set(['now']);
 
-                // Load deprecations data from JSON
-                async function loadDeprecations() {
-                    try {
+	                function clearElement(element) {
+	                    element.replaceChildren();
+	                }
+
+	                function appendTextCell(row, className, text) {
+	                    const td = document.createElement('td');
+	                    if (className) td.className = className;
+	                    td.textContent = text;
+	                    row.appendChild(td);
+	                    return td;
+	                }
+
+	                function appendNoDataRow(tbody, message, subtext) {
+	                    const row = document.createElement('tr');
+	                    const cell = document.createElement('td');
+	                    cell.colSpan = 6;
+	                    cell.className = 'no-data-cell';
+	                    const wrapper = document.createElement('div');
+	                    wrapper.className = 'no-data-message';
+	                    const text = document.createElement('p');
+	                    text.textContent = message;
+	                    wrapper.appendChild(text);
+	                    if (subtext) {
+	                        const subtextElement = document.createElement('p');
+	                        subtextElement.className = 'no-data-subtext';
+	                        subtextElement.textContent = subtext;
+	                        wrapper.appendChild(subtextElement);
+	                    }
+	                    cell.appendChild(wrapper);
+	                    row.appendChild(cell);
+	                    tbody.appendChild(row);
+	                }
+
+	                function safeClassToken(value) {
+	                    return String(value || '').toLowerCase().replace(/[^a-z0-9-]/g, '');
+	                }
+
+	                // Load deprecations data from JSON
+	                async function loadDeprecations() {
+	                    try {
                         const response = await fetch('v1/deprecations.json');
                         const data = await response.json();
                         const today = new Date();
                         today.setHours(0, 0, 0, 0);
-                        
+
                         // Load ALL deprecations, including those without shutdown dates
                         allDeprecations = data.map(item => ({
                             ...item,
@@ -199,7 +236,7 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                             status: getStatus(item.shutdown_date),
                             daysRemaining: item.shutdown_date ? getDaysRemaining(item.shutdown_date) : Infinity
                         }));
-                        
+
                         // Sort by: 1) days remaining (soonest first), 2) deprecation date (newest first)
                         allDeprecations.sort((a, b) => {
                             // First sort by days remaining
@@ -211,33 +248,27 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                             const dateB = new Date(b.deprecation_date || b.announcement_date || 0);
                             return dateB - dateA;
                         });
-                        
-                        applyFilters();
-                    } catch (error) {
-                        console.error('Failed to load deprecations:', error);
-                        document.getElementById('tableBody').innerHTML = `
-                            <tr>
-                                <td colspan="6" class="no-data-cell">
-                                    <div class="no-data-message">
-                                        <p>Failed to load deprecation data. Please try refreshing the page.</p>
-                                    </div>
-                                </td>
-                            </tr>
-                        `;
-                    }
-                }
+
+	                        applyFilters();
+	                    } catch (error) {
+	                        console.error('Failed to load deprecations:', error);
+	                        const tbody = document.getElementById('tableBody');
+	                        clearElement(tbody);
+	                        appendNoDataRow(tbody, 'Failed to load deprecation data. Please try refreshing the page.');
+	                    }
+	                }
 
 
                 function getStatus(shutdownDate) {
                     if (!shutdownDate) return 'deprecated';
-                    
+
                     const today = new Date();
                     today.setHours(0, 0, 0, 0);
                     const shutdown = new Date(shutdownDate);
                     shutdown.setHours(0, 0, 0, 0);
-                    
+
                     const daysLeft = Math.ceil((shutdown - today) / (1000 * 60 * 60 * 24));
-                    
+
                     if (shutdown <= today) {
                         return 'shutdown';
                     } else if (daysLeft <= 14 ) {
@@ -251,12 +282,12 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
 
                 function getDaysRemaining(shutdownDate) {
                     if (!shutdownDate) return null;
-                    
+
                     const today = new Date();
                     today.setHours(0, 0, 0, 0);
                     const shutdown = new Date(shutdownDate);
                     shutdown.setHours(0, 0, 0, 0);
-                    
+
                     const daysLeft = Math.ceil((shutdown - today) / (1000 * 60 * 60 * 24));
                     return daysLeft;
                 }
@@ -276,13 +307,13 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                         'xai': 'xAI',
                         'azure': 'Azure OpenAI'
                     };
-                    
+
                     // Try exact match first
                     const normalized = provider.toLowerCase().replace(/[\s-_]/g, '');
                     if (providerNames[normalized]) {
                         return providerNames[normalized];
                     }
-                    
+
                     // Clean up provider name if no match found
                     return provider
                         .replace(/([a-z])([A-Z])/g, '$1 $2') // Add space between camelCase
@@ -295,18 +326,18 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                         tr.className = 'hidden-row';
                         tr.style.display = 'none';
                     }
-                    
+
                     // Make row clickable if URL exists
                     if (deprecation.url) {
                         tr.style.cursor = 'pointer';
                         tr.onclick = () => window.open(deprecation.url, '_blank');
                         tr.title = 'Click to view deprecation details';
                     }
-                    
-                    const providerClass = deprecation.provider.toLowerCase();
-                    let statusClass, statusText;
-                    const daysLeft = getDaysRemaining(deprecation.shutdown_date);
-                    
+
+	                    const providerClass = safeClassToken(deprecation.provider);
+	                    let statusClass, statusText;
+	                    const daysLeft = getDaysRemaining(deprecation.shutdown_date);
+
                     switch(deprecation.status) {
                         case 'shutdown':
                             statusClass = 'shutdown';
@@ -324,33 +355,48 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                             statusClass = 'deprecated';
                             statusText = 'Deprecated';
                     }
-                    
+
                     // Format days left display
-                    let daysDisplay = '';
-                    if (daysLeft !== null) {
-                        if (daysLeft <= 0) {
-                            daysDisplay = '<span class="days-critical">Expired</span>';
-                        } else if (daysLeft === 1) {
-                            daysDisplay = '<span class="days-critical">1 day</span>';
-                        } else if (daysLeft <= 7) {
-                            daysDisplay = `<span class="days-critical">${daysLeft} days</span>`;
-                        } else if (daysLeft <= 30) {
-                            daysDisplay = `<span class="days-warning">${daysLeft} days</span>`;
-                        } else {
-                            daysDisplay = `<span class="days-normal">${daysLeft} days</span>`;
-                        }
-                    }
-                    
-                    tr.innerHTML = `
-                        <td class="provider ${providerClass}">${formatProviderName(deprecation.provider)}</td>
-                        <td class="model-name">${deprecation.model_id || 'N/A'}</td>
-                        <td class="announcement-date">${formatDate(deprecation.deprecation_date || deprecation.announcement_date)}</td>
-                        <td class="shutdown-date">${formatDate(deprecation.shutdown_date)}</td>
-                        <td class="days-remaining">${daysDisplay}</td>
-                        <td><span class="status-badge ${statusClass}">${statusText}</span></td>
-                    `;
-                    return tr;
-                }
+	                    let daysClass = '';
+	                    let daysText = '';
+	                    if (daysLeft !== null) {
+	                        if (daysLeft <= 0) {
+	                            daysClass = 'days-critical';
+	                            daysText = 'Expired';
+	                        } else if (daysLeft === 1) {
+	                            daysClass = 'days-critical';
+	                            daysText = '1 day';
+	                        } else if (daysLeft <= 7) {
+	                            daysClass = 'days-critical';
+	                            daysText = `${daysLeft} days`;
+	                        } else if (daysLeft <= 30) {
+	                            daysClass = 'days-warning';
+	                            daysText = `${daysLeft} days`;
+	                        } else {
+	                            daysClass = 'days-normal';
+	                            daysText = `${daysLeft} days`;
+	                        }
+	                    }
+
+	                    appendTextCell(tr, `provider ${providerClass}`, formatProviderName(deprecation.provider));
+	                    appendTextCell(tr, 'model-name', deprecation.model_id || 'N/A');
+	                    appendTextCell(tr, 'announcement-date', formatDate(deprecation.deprecation_date || deprecation.announcement_date));
+	                    appendTextCell(tr, 'shutdown-date', formatDate(deprecation.shutdown_date));
+	                    const daysCell = appendTextCell(tr, 'days-remaining', '');
+	                    if (daysText) {
+	                        const daysSpan = document.createElement('span');
+	                        daysSpan.className = daysClass;
+	                        daysSpan.textContent = daysText;
+	                        daysCell.appendChild(daysSpan);
+	                    }
+	                    const statusCell = document.createElement('td');
+	                    const statusBadge = document.createElement('span');
+	                    statusBadge.className = `status-badge ${statusClass}`;
+	                    statusBadge.textContent = statusText;
+	                    statusCell.appendChild(statusBadge);
+	                    tr.appendChild(statusCell);
+	                    return tr;
+	                }
 
                 function formatDate(dateStr) {
                     if (!dateStr) return 'TBD';
@@ -365,7 +411,7 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                 function applyFilters() {
                     const today = new Date();
                     today.setHours(0, 0, 0, 0);
-                    
+
                     if (activeFilters.has('now')) {
                         // NOW filter: only future deprecations with valid shutdown dates
                         filteredDeprecations = allDeprecations.filter(item => {
@@ -377,7 +423,7 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                         // Provider filters: show all deprecations for selected providers
                         filteredDeprecations = allDeprecations.filter(item => {
                             const normalizedProvider = item.provider.toLowerCase().replace(/[\s-_]/g, '');
-                            
+
                             // Map provider names to filter values
                             const providerMap = {
                                 'openai': 'openai',
@@ -393,38 +439,24 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                                 'azure': 'azure',
                                 'azureopenai': 'azure'
                             };
-                            
+
                             const mappedProvider = providerMap[normalizedProvider] || normalizedProvider;
                             return activeFilters.has(mappedProvider);
                         });
                     }
-                    
+
                     displayFilteredRows();
                 }
 
-                function displayFilteredRows() {
-                    const tbody = document.getElementById('tableBody');
-                    tbody.innerHTML = ''; // Clear existing content
+	                function displayFilteredRows() {
+	                    const tbody = document.getElementById('tableBody');
+	                    clearElement(tbody);
 
-                    // Handle case when no deprecations exist
-                    if (filteredDeprecations.length === 0) {
-                        const noDataRow = document.createElement('tr');
-                        noDataRow.innerHTML = `
-                            <td colspan="6" class="no-data-cell">
-                                <div class="no-data-message">
-                                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <line x1="12" y1="8" x2="12" y2="12"></line>
-                                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
-                                    </svg>
-                                    <p>No deprecations found</p>
-                                    <p class="no-data-subtext">Try selecting different providers or the NOW filter.</p>
-                                </div>
-                            </td>
-                        `;
-                        tbody.appendChild(noDataRow);
-                        return;
-                    }
+	                    // Handle case when no deprecations exist
+	                    if (filteredDeprecations.length === 0) {
+	                        appendNoDataRow(tbody, 'No deprecations found', 'Try selecting different providers or the NOW filter.');
+	                        return;
+	                    }
 
                     // Display all filtered deprecations
                     for (const deprecation of filteredDeprecations) {
@@ -444,16 +476,16 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                 // Set up filter badge event handlers
                 function setupFilterHandlers() {
                     const filterBadges = document.querySelectorAll('.filter-badge');
-                    
+
                     filterBadges.forEach(badge => {
                         badge.addEventListener('click', function() {
                             const filter = this.dataset.filter;
-                            
+
                             if (filter === 'now') {
                                 // NOW is exclusive - clear all other filters
                                 activeFilters.clear();
                                 activeFilters.add('now');
-                                
+
                                 // Update UI
                                 filterBadges.forEach(b => b.classList.remove('active'));
                                 this.classList.add('active');
@@ -463,7 +495,7 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                                     activeFilters.clear();
                                     document.querySelector('.filter-badge.now').classList.remove('active');
                                 }
-                                
+
                                 // Toggle the selected provider
                                 if (activeFilters.has(filter)) {
                                     activeFilters.delete(filter);
@@ -472,14 +504,14 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                                     activeFilters.add(filter);
                                     this.classList.add('active');
                                 }
-                                
+
                                 // If no providers selected, default to NOW
                                 if (activeFilters.size === 0) {
                                     activeFilters.add('now');
                                     document.querySelector('.filter-badge.now').classList.add('active');
                                 }
                             }
-                            
+
                             applyFilters();
                         });
                     });
@@ -540,11 +572,11 @@ REPO = 'owner/repo'
 for item in feed['items']:
     # Check if this affects your models (customize this list)
     models_i_use = ['gpt-4', 'claude-2', 'text-davinci-003']
-    
+
     # Access structured data from _deprecation extension
     model = item.get('_deprecation', {}).get('model_id', '')
     shutdown_date = item.get('_deprecation', {}).get('shutdown_date', '')
-    
+
     if any(m in item['title'].lower() or m in model.lower() for m in models_i_use):
         # Create GitHub issue
         issue = {
@@ -566,13 +598,13 @@ for item in feed['items']:
 ''',
             'labels': ['deprecation', 'urgent', 'ai-models']
         }
-        
+
         response = requests.post(
             f'https://api.github.com/repos/{REPO}/issues',
             json=issue,
             headers={'Authorization': f'token {GITHUB_TOKEN}'}
         )
-        
+
         if response.status_code == 201:
             print(f"Created issue: {response.json()['html_url']}")</code></pre>
                         <pre class="code-content" data-lang="typescript" style="display: none;"><code class="language-typescript">// Install dependencies:
@@ -587,19 +619,19 @@ const octokit = new Octokit({ auth: 'your_token_here' });
 async function checkDeprecations() {
     const response = await fetch('https://deprecations.info/v1/feed.json');
     const feed = await response.json();
-    
+
     // Models you use in your codebase
     const modelsInUse = ['gpt-4', 'claude-2', 'text-davinci-003'];
-    
+
     for (const item of feed.items) {
         // Access structured data from _deprecation extension
         const model = item._deprecation?.model_id || '';
         const shutdownDate = item._deprecation?.shutdown_date || '';
-        
+
         const affectsUs = modelsInUse.some(m =>
             item.title.toLowerCase().includes(m) || model.toLowerCase().includes(m)
         );
-        
+
         if (affectsUs) {
             // Create GitHub issue
             const issue = await octokit.issues.create({
@@ -622,7 +654,7 @@ ${item.content_text}
 - [ ] Deploy changes before deprecation date`,
                 labels: ['deprecation', 'urgent', 'ai-models']
             });
-            
+
             console.log(`Created issue: ${issue.data.html_url}`);
         }
     }
@@ -700,7 +732,7 @@ feed['items'].each do |item|
   # Access structured data
   model = item.dig('_deprecation', 'model_id') || ''
   shutdown_date = item.dig('_deprecation', 'shutdown_date') || ''
-  
+
   # Check if this affects our models
   if models_in_use.any? { |m| item['title'].downcase.include?(m) || model.downcase.include?(m) }
     # Create GitHub issue
@@ -709,14 +741,14 @@ feed['items'].each do |item|
       "Model Deprecation: #{item['title']}",
       &lt;&lt;~BODY
         ## Deprecation Notice
-        
+
         #{item['content_text']}
-        
+
         **Model ID:** #{model}
         **Shutdown Date:** #{shutdown_date}
         **Source:** #{item['url']}
         **Date detected:** #{DateTime.now.iso8601}
-        
+
         ### Action Required
         - [ ] Identify affected code
         - [ ] Plan migration
@@ -726,7 +758,7 @@ feed['items'].each do |item|
       ,
       labels: ['deprecation', 'urgent', 'ai-models']
     )
-    
+
     puts "Created issue: #{issue.html_url}"
   end
 end</code></pre>
@@ -780,7 +812,7 @@ for entry in feed.entries[:3]:  # Last 3 entries
     msg['Subject'] = f'AI Model Deprecation Alert: {entry.title}'
     msg['From'] = EMAIL
     msg['To'] = ', '.join(TEAM_EMAILS)
-    
+
     html = f'''
     &lt;html&gt;
     &lt;body style="font-family: Arial, sans-serif;"&gt;
@@ -801,15 +833,15 @@ for entry in feed.entries[:3]:  # Last 3 entries
     &lt;/body&gt;
     &lt;/html&gt;
     '''
-    
+
     msg.attach(MIMEText(html, 'html'))
-    
+
     # Send email
     with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
         server.starttls()
         server.login(EMAIL, PASSWORD)
         server.send_message(msg)
-    
+
     print(f"Email sent for: {entry.title}")</code></pre>
                         <pre class="code-content" data-lang="typescript" style="display: none;"><code class="language-typescript">// Install dependencies:
 // npm install nodemailer
@@ -833,7 +865,7 @@ async function sendDeprecationAlerts() {
     const response = await fetch('https://deprecations.info/v1/feed.json');
     const feed = await response.json();
     const teamEmails = ['dev1@example.com', 'dev2@example.com'];
-    
+
     // Process recent entries
     for (const item of feed.items.slice(0, 3)) {
         const mailOptions = {
@@ -863,7 +895,7 @@ async function sendDeprecationAlerts() {
                 &lt;/html&gt;
             `
         };
-        
+
         await transporter.sendMail(mailOptions);
         console.log(`Email sent for: ${item.title}`);
     }
@@ -957,7 +989,7 @@ feed['items'].first(3).each do |item|
     from 'your-email@example.com'
     to team_emails.join(', ')
     subject "AI Model Deprecation Alert: #{item['title']}"
-    
+
     html_part do
       content_type 'text/html; charset=UTF-8'
       body &lt;&lt;~HTML
@@ -984,7 +1016,7 @@ feed['items'].first(3).each do |item|
       HTML
     end
   end
-  
+
   puts "Email sent for: #{item['title']}"
 end</code></pre>
                     </div>
@@ -1053,9 +1085,9 @@ for entry in feed.entries[:3]:  # Check last 3 entries
         }],
         "content": "@here New model deprecation detected!"
     }
-    
+
     response = requests.post(WEBHOOK_URL, json=embed)
-    
+
     if response.status_code == 204:
         print(f"Discord notification sent for: {entry.title}")
     else:
@@ -1073,7 +1105,7 @@ const WEBHOOK_URL = 'https://discord.com/api/webhooks/YOUR_WEBHOOK_URL';
 
 async function sendDiscordAlerts() {
     const feed = await parser.parseURL('https://deprecations.info/v1/feed.xml');
-    
+
     for (const item of feed.items.slice(0, 3)) {
         const embed = {
             embeds: [{
@@ -1100,7 +1132,7 @@ async function sendDiscordAlerts() {
             }],
             content: '@here New model deprecation detected!'
         };
-        
+
         try {
             await axios.post(WEBHOOK_URL, embed);
             console.log(`Discord notification sent for: ${item.title}`);
@@ -1195,7 +1227,7 @@ feed['items'].first(3).each do |item|
   provider = item.dig('_deprecation', 'provider') || 'Unknown'
   model = item.dig('_deprecation', 'model_id') || 'N/A'
   shutdown_date = item.dig('_deprecation', 'shutdown_date') || 'TBD'
-  
+
   # Create Discord embed
   payload = {
     content: '@here New model deprecation detected!',
@@ -1232,18 +1264,18 @@ feed['items'].first(3).each do |item|
       }
     }]
   }
-  
+
   # Send to Discord
   uri = URI(webhook_url)
   http = Net::HTTP.new(uri.host, uri.port)
   http.use_ssl = true
-  
+
   request = Net::HTTP::Post.new(uri)
   request['Content-Type'] = 'application/json'
   request.body = payload.to_json
-  
+
   response = http.request(request)
-  
+
   if response.code == '204'
     puts "Discord notification sent for: #{item['title']}"
   else
@@ -1326,24 +1358,46 @@ end</code></pre>
                 try {
                     const response = await fetch('v1/providers.json');
                     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                    const providers = await response.json();
+	                    const providers = await response.json();
 
-                    list.innerHTML = providers
-                        .map(provider => `<li><a href="${provider.url}" target="_blank">${provider.label}</a></li>`)
-                        .join('');
+	                    clearElement(list);
+	                    for (const provider of providers) {
+	                        const item = document.createElement('li');
+	                        const link = document.createElement('a');
+	                        link.href = provider.url;
+	                        link.target = '_blank';
+	                        link.rel = 'noopener';
+	                        link.textContent = provider.label;
+	                        item.appendChild(link);
+	                        list.appendChild(item);
+	                    }
 
-                    badges.innerHTML = providers
-                        .map(provider => {
-                            const meta = badgeMeta[provider.provider] || { className: '', short: provider.provider.slice(0, 3).toUpperCase() };
-                            return `<a href="${provider.url}" target="_blank" rel="noopener" title="${provider.provider}" class="provider-badge ${meta.className}">${meta.short}</a>`;
-                        })
-                        .join('');
-                } catch (error) {
-                    console.error('Failed to load provider pages', error);
-                    list.innerHTML = '<li>Provider list unavailable.</li>';
-                    badges.innerHTML = '<span class="provider-badge">ERR</span>';
-                }
-            }
+	                    clearElement(badges);
+	                    for (const provider of providers) {
+	                        const providerName = String(provider.provider || '');
+	                        const meta = badgeMeta[providerName] || { className: '', short: providerName.slice(0, 3).toUpperCase() };
+	                        const badge = document.createElement('a');
+	                        badge.href = provider.url;
+	                        badge.target = '_blank';
+	                        badge.rel = 'noopener';
+	                        badge.title = providerName;
+	                        badge.className = `provider-badge ${safeClassToken(meta.className)}`;
+	                        badge.textContent = meta.short;
+	                        badges.appendChild(badge);
+	                    }
+	                } catch (error) {
+	                    console.error('Failed to load provider pages', error);
+	                    clearElement(list);
+	                    const item = document.createElement('li');
+	                    item.textContent = 'Provider list unavailable.';
+	                    list.appendChild(item);
+	                    clearElement(badges);
+	                    const badge = document.createElement('span');
+	                    badge.className = 'provider-badge';
+	                    badge.textContent = 'ERR';
+	                    badges.appendChild(badge);
+	                }
+	            }
 
             document.addEventListener('DOMContentLoaded', loadProviderPages);
         </script>
