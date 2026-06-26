@@ -1,10 +1,10 @@
 # AI Deprecations RSS
 [![RSS
-Feed](https://badges.ws/badge/RSS-Feed-orange?style=flat&logo=RSS)](https://deprecations.info/rss/v1/feed.xml)
+Feed](https://badges.ws/badge/RSS-Feed-orange?style=flat&logo=RSS)](https://deprecations.info/v1/feed.xml)
 [![JSON
-Feed](https://badges.ws/badge/JSON-Feed-green?style=flat&logo=RSS)](https://deprecations.info/feed.json)
+Feed](https://badges.ws/badge/JSON-Feed-green?style=flat&logo=RSS)](https://deprecations.info/v1/feed.json)
 [![Raw
-JSON](https://badges.ws/badge/Raw-JSON-blue?style=flat&logo=JSON)](https://deprecations.info/api/v1/deprecations.json)
+JSON](https://badges.ws/badge/Raw-JSON-blue?style=flat&logo=JSON)](https://deprecations.info/v1/deprecations.json)
 
 Never miss an AI model shutdown again. Track AI model deprecation announcements
 from major AI providers via JSON API, JSON Feed, or RSS.
@@ -14,14 +14,14 @@ from major AI providers via JSON API, JSON Feed, or RSS.
 ### RSS Feed (For feed readers)
 Traditional RSS format for feed readers like Feedly.
 ```
-https://deprecations.info/rss/v1/feed.xml
+https://deprecations.info/v1/feed.xml
 ```
 
 ### JSON Feed
 Recommended for programmatic access. Structured JSON format with extracted
 metadata (model IDs, shutdown dates, providers).
 ```
-https://deprecations.info/feed.json
+https://deprecations.info/v1/feed.json
 ```
 
 
@@ -72,7 +72,7 @@ Use [Blogtrottr](https://blogtrottr.com) or [FeedRabbit](https://feedrabbit.com)
 
 ### Slack Notifications
 ```
-/feed subscribe https://deprecations.info/rss/v1/feed.xml
+/feed subscribe https://deprecations.info/v1/feed.xml
 ```
 
 
@@ -92,7 +92,7 @@ import requests
 from datetime import datetime
 
 # Parse the RSS feed
-feed = feedparser.parse('https://deprecations.info/rss/v1/feed.xml')
+feed = feedparser.parse('https://deprecations.info/v1/feed.xml')
 
 # Your GitHub token and repo
 GITHUB_TOKEN = 'your_token_here'
@@ -144,7 +144,7 @@ const parser = new Parser();
 const octokit = new Octokit({ auth: 'your_token_here' });
 
 async function checkDeprecations() {
-  const feed = await parser.parseURL('https://deprecations.info/rss/v1/feed.xml');
+  const feed = await parser.parseURL('https://deprecations.info/v1/feed.xml');
   
   // Models you use in your codebase
   const modelsInUse = ['gpt-4', 'claude-2', 'text-davinci-003'];
@@ -191,7 +191,7 @@ checkDeprecations().catch(console.error);
 #!/bin/bash
 
 # Fetch and parse RSS feed
-FEED_URL="https://deprecations.info/rss/v1/feed.xml"
+FEED_URL="https://deprecations.info/v1/feed.xml"
 GITHUB_TOKEN="your_token_here"
 REPO="owner/repo"
 
@@ -246,7 +246,7 @@ repo = 'owner/repo'
 models_in_use = ['gpt-4', 'claude-2', 'text-davinci-003']
 
 # Parse RSS feed
-rss = RSS::Parser.parse(URI.open('https://deprecations.info/rss/v1/feed.xml'))
+rss = RSS::Parser.parse(URI.open('https://deprecations.info/v1/feed.xml'))
 
 rss.items.each do |item|
   # Check if this affects our models
@@ -419,7 +419,7 @@ FROM_EMAIL="your-email@example.com"
 TO_EMAILS="dev1@example.com,dev2@example.com"
 
 # Fetch JSON feed
-FEED_URL="https://deprecations.info/feed.json"
+FEED_URL="https://deprecations.info/v1/feed.json"
 
 # Parse JSON and send emails for recent items
 curl -s "$FEED_URL" | jq -r '.items[0:3] | .[] | "\(.title)|\(.content_text)|\(.url)|\(._deprecation.model_id // "N/A")|\(._deprecation.shutdown_date // "TBD")"' | \
@@ -661,7 +661,7 @@ sendDiscordAlerts().catch(console.error);
 #!/bin/bash
 
 WEBHOOK_URL="https://discord.com/api/webhooks/YOUR_WEBHOOK_URL"
-FEED_URL="https://deprecations.info/feed.json"
+FEED_URL="https://deprecations.info/v1/feed.json"
 
 # Parse JSON feed and send to Discord
 curl -s "$FEED_URL" | jq -r '.items[0:3] | .[] | "\(.title)|\(.content_text)|\(.url)|\(._deprecation.provider // "Unknown")|\(._deprecation.model_id // "")|\(._deprecation.shutdown_date // "")"' | \
