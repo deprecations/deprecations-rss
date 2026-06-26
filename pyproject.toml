@@ -3,7 +3,7 @@ name = "deprecations-rss"
 version = "0.1.0"
 description = "Daily-updated RSS feed tracking AI model deprecations"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.14"
 license = {text = "MIT"}
 authors = [
     {name = "leblancfg"},

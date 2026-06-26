@@ -796,6 +796,12 @@ end
 </details>
 
 
+## Development Runtime
+
+This app targets Python 3.14. Use `uv python install 3.14` before running
+local scraper or test commands.
+
+
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md). Found a bug? Provider changed their
 page format? Open an
