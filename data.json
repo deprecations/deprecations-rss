@@ -3605,15 +3605,15 @@
     "provider": "AWS Bedrock",
     "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0",
     "announcement_date": "2026-03-26",
-    "shutdown_date": "2026-06-01",
+    "shutdown_date": "2026-07-30",
     "deprecation_date": "2026-01-30",
     "replacement_models": null,
-    "deprecation_context": "Model ID anthropic.claude-3-5-sonnet-20240620-v1:0. (Claude 3.5 Sonnet). entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30. Additional regional schedule: Model ID anthropic.claude-3-5-sonnet-20240620-v1:0. (Claude 3.5 Sonnet). entered legacy status on 2025-08-25. and will reach end-of-life on 2026-06-01.",
+    "deprecation_context": "Model ID anthropic.claude-3-5-sonnet-20240620-v1:0. (Claude 3.5 Sonnet). entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30.",
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
     "content_hash": "468075bf18a265f8",
-    "scraped_at": "2026-04-07T04:35:26.608592+00:00",
+    "scraped_at": "2026-07-01T06:35:28.840079+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-04-07"
+    "last_observed": "2026-07-01"
   },
   {
     "provider": "AWS Bedrock",
@@ -3642,34 +3642,6 @@
     "scraped_at": "2026-05-13T05:50:55.489628+00:00",
     "first_observed": "2026-03-26",
     "last_observed": "2026-05-13"
-  },
-  {
-    "provider": "AWS Bedrock",
-    "model_id": "anthropic.claude-3-5-haiku-20241022-v1:0",
-    "announcement_date": "2026-03-26",
-    "shutdown_date": "2026-06-19",
-    "replacement_models": null,
-    "deprecation_context": "Model ID anthropic.claude-3-5-haiku-20241022-v1:0. (Claude 3.5 Haiku). entered legacy status on 2025-12-19. and will reach end-of-life on 2026-06-19.",
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-    "content_hash": "a8f171bd02affcd6",
-    "scraped_at": "2026-03-26T18:47:23.937965+00:00",
-    "first_observed": "2026-03-26",
-    "last_observed": "2026-03-26",
-    "deprecation_date": "2025-12-19"
-  },
-  {
-    "provider": "AWS Bedrock",
-    "model_id": "anthropic.claude-opus-4-20250514-v1:0",
-    "announcement_date": "2026-03-26",
-    "shutdown_date": "2026-05-31",
-    "replacement_models": null,
-    "deprecation_context": "Model ID anthropic.claude-opus-4-20250514-v1:0. (Claude Opus 4). entered legacy status on 2025-10-01. and will reach end-of-life on 2026-05-31.",
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-    "content_hash": "4a8b2f26ac28d2d0",
-    "scraped_at": "2026-03-26T18:47:23.938040+00:00",
-    "first_observed": "2026-03-26",
-    "last_observed": "2026-03-26",
-    "deprecation_date": "2025-10-01"
   },
   {
     "provider": "AWS Bedrock",
@@ -3768,6 +3740,20 @@
     "first_observed": "2026-03-26",
     "last_observed": "2026-03-26",
     "deprecation_date": "2026-01-07"
+  },
+  {
+    "provider": "AWS Bedrock",
+    "model_id": "twelvelabs.marengo-embed-2-7-v1:0",
+    "announcement_date": "2026-07-01",
+    "shutdown_date": "2026-11-30",
+    "deprecation_date": "2026-05-29",
+    "replacement_models": null,
+    "deprecation_context": "Model ID twelvelabs.marengo-embed-2-7-v1:0. (Marengo Embed v2.7). entered legacy status on 2026-05-29. and will reach end-of-life on 2026-11-30.",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+    "content_hash": "4b19c6a864398fda",
+    "scraped_at": "2026-07-01T06:35:28.840553+00:00",
+    "first_observed": "2026-07-01",
+    "last_observed": "2026-07-01"
   },
   {
     "provider": "Cohere",
