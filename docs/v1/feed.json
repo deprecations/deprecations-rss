@@ -4101,6 +4101,29 @@
       ]
     },
     {
+      "id": "google-embedding-2-preview",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations#embedding-models",
+      "title": "Google: embedding-2-preview",
+      "content_text": "",
+      "date_published": "2026-07-03T05:55:23.338067+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "embedding-2-preview",
+        "shutdown_date": "2026-08-10",
+        "deprecation_date": "2026-08-10",
+        "announcement_date": "2026-07-03",
+        "replacement_models": [
+          "gemini-embedding-2"
+        ],
+        "first_observed": "2026-07-03",
+        "last_observed": "2026-07-03"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "google-embedding-001",
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#embedding-models",
       "title": "Google: embedding-001",
