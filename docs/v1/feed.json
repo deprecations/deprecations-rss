@@ -4853,7 +4853,7 @@
       "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#haiku-3",
       "title": "Google Vertex: claude-3-haiku",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:36.784288+00:00",
+      "date_published": "2026-07-08T05:23:08.902789+00:00",
       "_deprecation": {
         "provider": "Google Vertex",
         "model_id": "claude-3-haiku",
@@ -4862,7 +4862,7 @@
         "announcement_date": "2026-03-26",
         "replacement_models": null,
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-07-08"
       },
       "tags": [
         "Google Vertex",
@@ -4874,7 +4874,7 @@
       "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#haiku-3-5",
       "title": "Google Vertex: claude-3-5-haiku",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:36.784674+00:00",
+      "date_published": "2026-07-08T05:23:08.903113+00:00",
       "_deprecation": {
         "provider": "Google Vertex",
         "model_id": "claude-3-5-haiku",
@@ -4883,7 +4883,7 @@
         "announcement_date": "2026-03-26",
         "replacement_models": null,
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-07-08"
       },
       "tags": [
         "Google Vertex",
@@ -4895,7 +4895,7 @@
       "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-3-7",
       "title": "Google Vertex: claude-3-7-sonnet",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:36.785056+00:00",
+      "date_published": "2026-07-08T05:23:08.903460+00:00",
       "_deprecation": {
         "provider": "Google Vertex",
         "model_id": "claude-3-7-sonnet",
@@ -4904,7 +4904,7 @@
         "announcement_date": "2026-03-26",
         "replacement_models": null,
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-07-08"
       },
       "tags": [
         "Google Vertex",
@@ -4916,7 +4916,7 @@
       "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-3-5-v2",
       "title": "Google Vertex: claude-3-5-sonnet-v2",
       "content_text": "",
-      "date_published": "2026-06-25T06:09:17.805997+00:00",
+      "date_published": "2026-07-08T05:23:08.903764+00:00",
       "_deprecation": {
         "provider": "Google Vertex",
         "model_id": "claude-3-5-sonnet-v2",
@@ -4925,7 +4925,7 @@
         "announcement_date": "2026-03-26",
         "replacement_models": null,
         "first_observed": "2026-03-26",
-        "last_observed": "2026-06-25"
+        "last_observed": "2026-07-08"
       },
       "tags": [
         "Google Vertex",
@@ -4937,7 +4937,7 @@
       "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-3-5",
       "title": "Google Vertex: claude-3-5-sonnet",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:36.785808+00:00",
+      "date_published": "2026-07-08T05:23:08.904066+00:00",
       "_deprecation": {
         "provider": "Google Vertex",
         "model_id": "claude-3-5-sonnet",
@@ -4946,7 +4946,7 @@
         "announcement_date": "2026-03-26",
         "replacement_models": null,
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-07-08"
       },
       "tags": [
         "Google Vertex",
@@ -5000,7 +5000,7 @@
       "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#claude-opus",
       "title": "Google Vertex: claude-3-opus",
       "content_text": "",
-      "date_published": "2026-03-26T14:36:36.786721+00:00",
+      "date_published": "2026-07-08T05:23:08.904809+00:00",
       "_deprecation": {
         "provider": "Google Vertex",
         "model_id": "claude-3-opus",
@@ -5009,7 +5009,7 @@
         "announcement_date": "2026-03-26",
         "replacement_models": null,
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-07-08"
       },
       "tags": [
         "Google Vertex",
@@ -7454,16 +7454,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-audio-mini",
       "content_text": "",
-      "date_published": "2026-05-01T21:39:32.795695+00:00",
+      "date_published": "2026-07-08T05:23:11.509203+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-audio-mini",
-        "shutdown_date": "2026-07-23",
-        "deprecation_date": "2026-07-23",
+        "shutdown_date": "2026-09-21",
+        "deprecation_date": "2026-09-21",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-07-08"
       },
       "tags": [
         "Azure",
@@ -7643,16 +7643,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-realtime-mini",
       "content_text": "",
-      "date_published": "2026-05-01T21:39:32.796194+00:00",
+      "date_published": "2026-07-08T05:23:11.509624+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-realtime-mini",
-        "shutdown_date": "2026-07-23",
-        "deprecation_date": "2026-07-23",
+        "shutdown_date": "2026-09-21",
+        "deprecation_date": "2026-09-21",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-07-08"
       },
       "tags": [
         "Azure",
@@ -7664,16 +7664,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o1",
       "content_text": "",
-      "date_published": "2026-04-25T04:37:34.699615+00:00",
+      "date_published": "2026-07-08T05:23:11.509701+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o1",
-        "shutdown_date": "2026-07-15",
-        "deprecation_date": "2026-07-15",
+        "shutdown_date": "2026-09-16",
+        "deprecation_date": "2026-09-16",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-04-25"
+        "last_observed": "2026-07-08"
       },
       "tags": [
         "Azure",
@@ -7748,18 +7748,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o3-mini",
       "content_text": "",
-      "date_published": "2026-04-25T04:37:34.699838+00:00",
+      "date_published": "2026-07-08T05:23:11.509858+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o3-mini",
-        "shutdown_date": "2026-08-02",
-        "deprecation_date": "2026-08-02",
+        "shutdown_date": "2026-10-01",
+        "deprecation_date": "2026-10-01",
         "announcement_date": "2026-04-25",
         "replacement_models": [
           "o4-mini"
         ],
         "first_observed": "2026-04-25",
-        "last_observed": "2026-04-25"
+        "last_observed": "2026-07-08"
       },
       "tags": [
         "Azure",
@@ -8048,20 +8048,108 @@
       ]
     },
     {
+      "id": "azure-deepseek-v4-flash",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: DeepSeek-V4-Flash",
+      "content_text": "",
+      "date_published": "2026-06-13T06:18:53.681007+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "DeepSeek-V4-Flash",
+        "shutdown_date": "2026-08-20",
+        "deprecation_date": "2026-08-20",
+        "announcement_date": "2026-06-13",
+        "replacement_models": null,
+        "first_observed": "2026-06-13",
+        "last_observed": "2026-06-13"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-deepseek-v4-pro",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: DeepSeek-V4-Pro",
+      "content_text": "",
+      "date_published": "2026-06-13T06:18:53.681048+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "DeepSeek-V4-Pro",
+        "shutdown_date": "2026-08-20",
+        "deprecation_date": "2026-08-20",
+        "announcement_date": "2026-06-13",
+        "replacement_models": null,
+        "first_observed": "2026-06-13",
+        "last_observed": "2026-06-13"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "azure-model-router",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: model-router",
       "content_text": "",
-      "date_published": "2026-05-21T06:12:35.648351+00:00",
+      "date_published": "2026-07-08T05:23:11.511460+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "model-router",
-        "shutdown_date": "2026-07-31",
-        "deprecation_date": "2026-07-31",
+        "shutdown_date": "2026-08-30",
+        "deprecation_date": "2026-08-30",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-05-21"
+        "last_observed": "2026-07-08"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-mai-image-2e",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: MAI-Image-2e",
+      "content_text": "",
+      "date_published": "2026-07-08T05:23:11.511587+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "MAI-Image-2e",
+        "shutdown_date": "2026-08-15",
+        "deprecation_date": "2026-08-15",
+        "announcement_date": "2026-07-08",
+        "replacement_models": [
+          "MAI-Image-2.5-Flash"
+        ],
+        "first_observed": "2026-07-08",
+        "last_observed": "2026-07-08"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-mai-image-2",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: MAI-Image-2",
+      "content_text": "",
+      "date_published": "2026-07-08T05:23:11.511629+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "MAI-Image-2",
+        "shutdown_date": "2026-08-15",
+        "deprecation_date": "2026-08-15",
+        "announcement_date": "2026-07-08",
+        "replacement_models": [
+          "MAI-Image-2.5"
+        ],
+        "first_observed": "2026-07-08",
+        "last_observed": "2026-07-08"
       },
       "tags": [
         "Azure",
@@ -8484,48 +8572,6 @@
       ]
     },
     {
-      "id": "azure-deepseek-v4-flash",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: DeepSeek-V4-Flash",
-      "content_text": "",
-      "date_published": "2026-06-13T06:18:53.681007+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "DeepSeek-V4-Flash",
-        "shutdown_date": "2026-08-20",
-        "deprecation_date": "2026-08-20",
-        "announcement_date": "2026-06-13",
-        "replacement_models": null,
-        "first_observed": "2026-06-13",
-        "last_observed": "2026-06-13"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-deepseek-v4-pro",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: DeepSeek-V4-Pro",
-      "content_text": "",
-      "date_published": "2026-06-13T06:18:53.681048+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "DeepSeek-V4-Pro",
-        "shutdown_date": "2026-08-20",
-        "deprecation_date": "2026-08-20",
-        "announcement_date": "2026-06-13",
-        "replacement_models": null,
-        "first_observed": "2026-06-13",
-        "last_observed": "2026-06-13"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
       "id": "azure-fw-deepseek-v3.1",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: FW-DeepSeek-V3.1",
@@ -8897,6 +8943,30 @@
         "replacement_models": null,
         "first_observed": "2026-03-25",
         "last_observed": "2026-04-25"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-timegen-1",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: TimeGEN-1",
+      "content_text": "",
+      "date_published": "2026-07-08T05:23:11.514576+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "TimeGEN-1",
+        "shutdown_date": "2026-08-31",
+        "deprecation_date": "2026-08-31",
+        "announcement_date": "2026-07-08",
+        "replacement_models": [
+          "TimeGPT-1",
+          "TimegGPT-2.1"
+        ],
+        "first_observed": "2026-07-08",
+        "last_observed": "2026-07-08"
       },
       "tags": [
         "Azure",

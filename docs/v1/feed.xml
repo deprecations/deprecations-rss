@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 03 Jul 2026 05:55:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 05:23:11 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5-2025-08-07</title>
       <link>https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations</link>
@@ -2978,13 +2978,13 @@ Model ID: claude-3-haiku
 Deprecation Date: 2026-02-23
 Shutdown Date: 2026-08-23
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-07-08
 
-Anthropic's Claude 3 Haiku is deprecated as of February 23, 2026 and will be shut down on August 23, 2026 . Anthropic's Claude 3 Haiku is available to
-existing customers only. Anthropic's Claude 3 Haiku is Anthropic's fastest vision and text model for
+Anthropic's Claude 3 Haiku on Google Cloud is deprecated as of February 23, 2026 and will be shut down on August 23, 2026 . Anthropic's Claude 3 Haiku on Google Cloud is available to
+existing customers only. Anthropic's Claude 3 Haiku on Google Cloud is Anthropic's fastest vision and text model for
 near-instant responses to basic queries, meant for seamless AI experiences
-mimicking human interactions. Model ID claude-3-haiku Launch stage deprecated Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum inpu...</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+mimicking human interactions. Model ID claude-3-haiku Launch stage deprecated Supported inputs &amp; outputs Inputs: Text , Code ...</description>
+      <pubDate>Wed, 08 Jul 2026 05:23:08 GMT</pubDate>
       <guid isPermaLink="false">Google_Vertex-claude-3-haiku-2026-08-23-e3b0c442</guid>
     </item>
     <item>
@@ -2995,14 +2995,14 @@ Model ID: claude-3-5-haiku
 Deprecation Date: 2026-01-05
 Shutdown Date: 2026-07-05
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-07-08
 
-Claude 3.5 Haiku is deprecated as of January 5, 2026 and
-will be shut down on July 5, 2026 . Claude 3.5 Haiku is
-available to existing customers only. Claude 3.5 Haiku, the next
+Claude 3.5 Haiku on Google Cloud is deprecated as of January 5, 2026 and
+will be shut down on July 5, 2026 . Claude 3.5 Haiku on Google Cloud is
+available to existing customers only. Claude 3.5 Haiku on Google Cloud, the next
 generation of Anthropic's fastest and most cost-effective model, is
-optimal for use cases where speed and affordability matter. View model card in Model Garden Model ID claude-3-5-haiku Launch stage deprecated Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000...</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+optimal for use cases where speed and affordability matter. View model card in Model Garden Model ID claude-3-5-haiku Launch stage deprecated Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs:...</description>
+      <pubDate>Wed, 08 Jul 2026 05:23:08 GMT</pubDate>
       <guid isPermaLink="false">Google_Vertex-claude-3-5-haiku-2026-07-05-e3b0c442</guid>
     </item>
     <item>
@@ -3013,13 +3013,13 @@ Model ID: claude-3-7-sonnet
 Deprecation Date: 2025-11-11
 Shutdown Date: 2026-05-11
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-07-08
 
-Claude 3.7 Sonnet is deprecated as of November 11, 2025 and
-will be shut down on May 11, 2026 . Claude 3.7 Sonnet is
-available to existing customers only. Claude 3.7 Sonnet is a state-of-the-art model for real-world
-software engineering tasks and agentic capabilities. Model ID claude-3-7-sonnet Launch stage deprecated Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output tokens: 128,000 Capabilities Supported Batch predict...</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+Claude 3.7 Sonnet on Google Cloud is deprecated as of November 11, 2025 and
+will be shut down on May 11, 2026 . Claude 3.7 Sonnet on Google Cloud is
+available to existing customers only. Claude 3.7 Sonnet on Google Cloud is a state-of-the-art model for real-world
+software engineering tasks and agentic capabilities. Model ID claude-3-7-sonnet Launch stage deprecated Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output toke...</description>
+      <pubDate>Wed, 08 Jul 2026 05:23:08 GMT</pubDate>
       <guid isPermaLink="false">Google_Vertex-claude-3-7-sonnet-2026-05-11-e3b0c442</guid>
     </item>
     <item>
@@ -3030,13 +3030,13 @@ Model ID: claude-3-5-sonnet-v2
 Deprecation Date: 2025-08-20
 Shutdown Date: 2026-02-19
 First Observed: 2026-03-26
-Last Observed: 2026-06-25
+Last Observed: 2026-07-08
 
-Claude 3.5 Sonnet v2 is deprecated as of August 20, 2025 and
-will be shut down on February 19, 2026 . Claude 3.5 Sonnet v2 is
-available to existing customers only. Claude 3.5 Sonnet v2 is a state-of-the-art model for real-world
-software engineering tasks and agentic capabilities. Try in Agent Studio Model ID claude-3-5-sonnet-v2 Launch stage GA Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output tokens: 8,000 Capabilitie...</description>
-      <pubDate>Thu, 25 Jun 2026 06:09:17 GMT</pubDate>
+Claude 3.5 Sonnet v2 on Google Cloud is deprecated as of August 20, 2025 and
+will be shut down on February 19, 2026 . Claude 3.5 Sonnet v2 on Google Cloud is
+available to existing customers only. Claude 3.5 Sonnet v2 on Google Cloud is a state-of-the-art model for real-world
+software engineering tasks and agentic capabilities. Try in Agent Studio Model ID claude-3-5-sonnet-v2 Launch stage GA Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: ...</description>
+      <pubDate>Wed, 08 Jul 2026 05:23:08 GMT</pubDate>
       <guid isPermaLink="false">Google_Vertex-claude-3-5-sonnet-v2-2026-02-19-e3b0c442</guid>
     </item>
     <item>
@@ -3047,14 +3047,14 @@ Model ID: claude-3-5-sonnet
 Deprecation Date: 2025-08-20
 Shutdown Date: 2026-02-19
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-07-08
 
-Claude 3.5 Sonnet is deprecated as of August 20, 2025 and
-will be shut down on February 19, 2026 . Claude 3.5 Sonnet is
-available to existing customers only. Claude 3.5 Sonnet outperforms Anthropic's
-Claude 3 Opus on a wide range of Anthropic's evaluations with the
-speed and cost of Anthropic's mid-tier model, Claude 3 Sonnet. Model ID claude-3-5-sonnet Launch stage GA Supported inputs &amp; outputs Inputs: Text , Code , Images Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output ...</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+Claude 3.5 Sonnet on Google Cloud is deprecated as of August 20, 2025 and
+will be shut down on February 19, 2026 . Claude 3.5 Sonnet on Google Cloud is
+available to existing customers only. Claude 3.5 Sonnet on Google Cloud outperforms Anthropic's
+Claude 3 Opus on Google Cloud on a wide range of Anthropic's evaluations with the
+speed and cost of Anthropic's mid-tier model, Claude 3 Sonnet on Google Cloud. Model ID claude-3-5-sonnet Launch stage GA Supported inputs &amp; outputs Inputs: Text , Code ,...</description>
+      <pubDate>Wed, 08 Jul 2026 05:23:08 GMT</pubDate>
       <guid isPermaLink="false">Google_Vertex-claude-3-5-sonnet-2026-02-19-e3b0c442</guid>
     </item>
     <item>
@@ -3097,14 +3097,14 @@ Model ID: claude-3-opus
 Deprecation Date: 2025-06-30
 Shutdown Date: 2025-08-01
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-07-08
 
-Anthropic's Claude 3 Opus is deprecated as of June 30, 2025 and will be shut down on August 1, 2025 . Claude 3 Opus is available to
-existing customers only. Anthropic's Claude 3 Opus is a powerful AI model with top-level performance on highly
+Anthropic's Claude 3 Opus on Google Cloud is deprecated as of June 30, 2025 and will be shut down on August 1, 2025 . Claude 3 Opus on Google Cloud is available to
+existing customers only. Anthropic's Claude 3 Opus on Google Cloud is a powerful AI model with top-level performance on highly
 complex tasks. It can navigate open-ended prompts and sight-unseen scenarios
-with remarkable fluency and human-like understanding. Claude 3 Opus
-is optimized for the following use cases: Task automation, such as interactive coding and planning, or running c...</description>
-      <pubDate>Thu, 26 Mar 2026 14:36:36 GMT</pubDate>
+with remarkable fluency and human-like understanding. Claude 3 Opus on Google Cloud
+is optimized for the following use cases: Task a...</description>
+      <pubDate>Wed, 08 Jul 2026 05:23:08 GMT</pubDate>
       <guid isPermaLink="false">Google_Vertex-claude-3-opus-2025-08-01-e3b0c442</guid>
     </item>
     <item>
@@ -4647,14 +4647,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-audio-mini
-Deprecation Date: 2026-07-23
-Shutdown Date: 2026-07-23
+Deprecation Date: 2026-09-21
+Shutdown Date: 2026-09-21
 First Observed: 2026-04-25
-Last Observed: 2026-05-01
+Last Observed: 2026-07-08
 
 Azure OpenAI</description>
-      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-audio-mini-2026-07-23-e3b0c442</guid>
+      <pubDate>Wed, 08 Jul 2026 05:23:11 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-audio-mini-2026-09-21-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-chat-latest</title>
@@ -4773,28 +4773,28 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-realtime-mini
-Deprecation Date: 2026-07-23
-Shutdown Date: 2026-07-23
+Deprecation Date: 2026-09-21
+Shutdown Date: 2026-09-21
 First Observed: 2026-04-25
-Last Observed: 2026-05-01
+Last Observed: 2026-07-08
 
 Azure OpenAI</description>
-      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-realtime-mini-2026-07-23-e3b0c442</guid>
+      <pubDate>Wed, 08 Jul 2026 05:23:11 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-realtime-mini-2026-09-21-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o1</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: o1
-Deprecation Date: 2026-07-15
-Shutdown Date: 2026-07-15
+Deprecation Date: 2026-09-16
+Shutdown Date: 2026-09-16
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-07-08
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-o1-2026-07-15-e3b0c442</guid>
+      <pubDate>Wed, 08 Jul 2026 05:23:11 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o1-2026-09-16-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o1-pro</title>
@@ -4843,14 +4843,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: o3-mini
-Deprecation Date: 2026-08-02
-Shutdown Date: 2026-08-02
+Deprecation Date: 2026-10-01
+Shutdown Date: 2026-10-01
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-07-08
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-o3-mini-2026-08-02-e3b0c442</guid>
+      <pubDate>Wed, 08 Jul 2026 05:23:11 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o3-mini-2026-10-01-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o3-pro</title>
@@ -5035,18 +5035,74 @@ DeepSeek</description>
       <guid isPermaLink="false">Azure-DeepSeek-V3.1-2026-07-13-e3b0c442</guid>
     </item>
     <item>
+      <title>Azure: DeepSeek-V4-Flash</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: DeepSeek-V4-Flash
+Deprecation Date: 2026-08-20
+Shutdown Date: 2026-08-20
+First Observed: 2026-06-13
+Last Observed: 2026-06-13
+
+DeepSeek</description>
+      <pubDate>Sat, 13 Jun 2026 06:18:53 GMT</pubDate>
+      <guid isPermaLink="false">Azure-DeepSeek-V4-Flash-2026-08-20-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: DeepSeek-V4-Pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: DeepSeek-V4-Pro
+Deprecation Date: 2026-08-20
+Shutdown Date: 2026-08-20
+First Observed: 2026-06-13
+Last Observed: 2026-06-13
+
+DeepSeek</description>
+      <pubDate>Sat, 13 Jun 2026 06:18:53 GMT</pubDate>
+      <guid isPermaLink="false">Azure-DeepSeek-V4-Pro-2026-08-20-e3b0c442</guid>
+    </item>
+    <item>
       <title>Azure: model-router</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: model-router
-Deprecation Date: 2026-07-31
-Shutdown Date: 2026-07-31
+Deprecation Date: 2026-08-30
+Shutdown Date: 2026-08-30
 First Observed: 2026-04-25
-Last Observed: 2026-05-21
+Last Observed: 2026-07-08
 
 Microsoft</description>
-      <pubDate>Thu, 21 May 2026 06:12:35 GMT</pubDate>
-      <guid isPermaLink="false">Azure-model-router-2026-07-31-e3b0c442</guid>
+      <pubDate>Wed, 08 Jul 2026 05:23:11 GMT</pubDate>
+      <guid isPermaLink="false">Azure-model-router-2026-08-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: MAI-Image-2e</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: MAI-Image-2e
+Deprecation Date: 2026-08-15
+Shutdown Date: 2026-08-15
+First Observed: 2026-07-08
+Last Observed: 2026-07-08
+
+Microsoft</description>
+      <pubDate>Wed, 08 Jul 2026 05:23:11 GMT</pubDate>
+      <guid isPermaLink="false">Azure-MAI-Image-2e-2026-08-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: MAI-Image-2</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: MAI-Image-2
+Deprecation Date: 2026-08-15
+Shutdown Date: 2026-08-15
+First Observed: 2026-07-08
+Last Observed: 2026-07-08
+
+Microsoft</description>
+      <pubDate>Wed, 08 Jul 2026 05:23:11 GMT</pubDate>
+      <guid isPermaLink="false">Azure-MAI-Image-2-2026-08-15-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: mistral-document-ai-2505</title>
@@ -5315,34 +5371,6 @@ Cohere</description>
       <guid isPermaLink="false">Azure-Cohere-rerank-v3.5-2026-05-14-e3b0c442</guid>
     </item>
     <item>
-      <title>Azure: DeepSeek-V4-Flash</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: DeepSeek-V4-Flash
-Deprecation Date: 2026-08-20
-Shutdown Date: 2026-08-20
-First Observed: 2026-06-13
-Last Observed: 2026-06-13
-
-DeepSeek</description>
-      <pubDate>Sat, 13 Jun 2026 06:18:53 GMT</pubDate>
-      <guid isPermaLink="false">Azure-DeepSeek-V4-Flash-2026-08-20-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: DeepSeek-V4-Pro</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: DeepSeek-V4-Pro
-Deprecation Date: 2026-08-20
-Shutdown Date: 2026-08-20
-First Observed: 2026-06-13
-Last Observed: 2026-06-13
-
-DeepSeek</description>
-      <pubDate>Sat, 13 Jun 2026 06:18:53 GMT</pubDate>
-      <guid isPermaLink="false">Azure-DeepSeek-V4-Pro-2026-08-20-e3b0c442</guid>
-    </item>
-    <item>
       <title>Azure: FW-DeepSeek-V3.1</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -5593,6 +5621,20 @@ Last Observed: 2026-04-25
 Meta</description>
       <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-Meta-Llama-3.1-8B-Instruct-2026-06-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: TimeGEN-1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: TimeGEN-1
+Deprecation Date: 2026-08-31
+Shutdown Date: 2026-08-31
+First Observed: 2026-07-08
+Last Observed: 2026-07-08
+
+Nixtla</description>
+      <pubDate>Wed, 08 Jul 2026 05:23:11 GMT</pubDate>
+      <guid isPermaLink="false">Azure-TimeGEN-1-2026-08-31-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: tsuzumi-7b</title>
