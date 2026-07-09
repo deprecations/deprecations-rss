@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Wed, 08 Jul 2026 05:23:11 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 06:07:02 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5-2025-08-07</title>
       <link>https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations</link>
@@ -3206,18 +3206,18 @@ Model ID amazon.nova-sonic-v1:0. (Nova Sonic). entered legacy status on 2026-03-
       <guid isPermaLink="false">AWS_Bedrock-amazon.nova-sonic-v10-2026-09-14-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: amazon.titan-image-generator-v2:0</title>
+      <title>AWS Bedrock: anthropic.claude-opus-4-1-20250805-v1:0</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: amazon.titan-image-generator-v2:0
-Deprecation Date: 2025-12-30
-Shutdown Date: 2026-06-30
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Model ID: anthropic.claude-opus-4-1-20250805-v1:0
+Deprecation Date: 2026-07-08
+Shutdown Date: 2027-01-08
+First Observed: 2026-07-09
+Last Observed: 2026-07-09
 
-Model ID amazon.titan-image-generator-v2:0. (Titan Image Generator G1 v2). entered legacy status on 2025-12-30. and will reach end-of-life on 2026-06-30.</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-amazon.titan-image-generator-v20-2026-06-30-e3b0c442</guid>
+Model ID anthropic.claude-opus-4-1-20250805-v1:0. (Claude Opus 4.1). entered legacy status on 2026-07-08. and will reach end-of-life on 2027-01-08.</description>
+      <pubDate>Thu, 09 Jul 2026 06:07:00 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-opus-4-1-20250805-v10-2027-01-08-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: anthropic.claude-sonnet-4-20250514-v1:0</title>
@@ -3330,76 +3330,6 @@ Last Observed: 2026-03-26
 Model ID cohere.command-r-plus-v1:0. (Command R+). entered legacy status on 2026-02-19. and will reach end-of-life on 2026-08-19.</description>
       <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
       <guid isPermaLink="false">AWS_Bedrock-cohere.command-r-plus-v10-2026-08-19-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: meta.llama3-1-405b-instruct-v1:0</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: meta.llama3-1-405b-instruct-v1:0
-Deprecation Date: 2026-01-07
-Shutdown Date: 2026-07-07
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
-
-Model ID meta.llama3-1-405b-instruct-v1:0. (Llama 3.1 405B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07.</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-meta.llama3-1-405b-instruct-v10-2026-07-07-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: meta.llama3-2-11b-instruct-v1:0</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: meta.llama3-2-11b-instruct-v1:0
-Deprecation Date: 2026-01-07
-Shutdown Date: 2026-07-07
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
-
-Model ID meta.llama3-2-11b-instruct-v1:0. (Llama 3.2 11B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07.</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-meta.llama3-2-11b-instruct-v10-2026-07-07-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: meta.llama3-2-1b-instruct-v1:0</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: meta.llama3-2-1b-instruct-v1:0
-Deprecation Date: 2026-01-07
-Shutdown Date: 2026-07-07
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
-
-Model ID meta.llama3-2-1b-instruct-v1:0. (Llama 3.2 1B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07.</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-meta.llama3-2-1b-instruct-v10-2026-07-07-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: meta.llama3-2-3b-instruct-v1:0</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: meta.llama3-2-3b-instruct-v1:0
-Deprecation Date: 2026-01-07
-Shutdown Date: 2026-07-07
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
-
-Model ID meta.llama3-2-3b-instruct-v1:0. (Llama 3.2 3B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07.</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-meta.llama3-2-3b-instruct-v10-2026-07-07-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: meta.llama3-2-90b-instruct-v1:0</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: meta.llama3-2-90b-instruct-v1:0
-Deprecation Date: 2026-01-07
-Shutdown Date: 2026-07-07
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
-
-Model ID meta.llama3-2-90b-instruct-v1:0. (Llama 3.2 90B Instruct). entered legacy status on 2026-01-07. and will reach end-of-life on 2026-07-07.</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-meta.llama3-2-90b-instruct-v10-2026-07-07-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: twelvelabs.marengo-embed-2-7-v1:0</title>
@@ -4661,14 +4591,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-chat-latest
-Deprecation Date: 2026-11-05
-Shutdown Date: 2026-11-05
+Deprecation Date: 2026-08-05
+Shutdown Date: 2026-08-05
 First Observed: 2026-05-21
-Last Observed: 2026-05-21
+Last Observed: 2026-07-09
 
 Azure OpenAI</description>
-      <pubDate>Thu, 21 May 2026 06:12:35 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-chat-latest-2026-11-05-e3b0c442</guid>
+      <pubDate>Thu, 09 Jul 2026 06:07:02 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-chat-latest-2026-08-05-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-image-1</title>
@@ -4769,18 +4699,46 @@ Azure OpenAI</description>
       <guid isPermaLink="false">Azure-gpt-realtime-2-2027-05-06-e3b0c442</guid>
     </item>
     <item>
+      <title>Azure: gpt-realtime-2.1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-realtime-2.1
+Deprecation Date: 2027-06-25
+Shutdown Date: 2027-06-25
+First Observed: 2026-07-09
+Last Observed: 2026-07-09
+
+Azure OpenAI</description>
+      <pubDate>Thu, 09 Jul 2026 06:07:02 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-realtime-2.1-2027-06-25-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-realtime-2.1-mini</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-realtime-2.1-mini
+Deprecation Date: 2027-06-25
+Shutdown Date: 2027-06-25
+First Observed: 2026-07-09
+Last Observed: 2026-07-09
+
+Azure OpenAI</description>
+      <pubDate>Thu, 09 Jul 2026 06:07:02 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-realtime-2.1-mini-2027-06-25-e3b0c442</guid>
+    </item>
+    <item>
       <title>Azure: gpt-realtime-mini</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-realtime-mini
-Deprecation Date: 2026-09-21
-Shutdown Date: 2026-09-21
+Deprecation Date: 2026-07-23
+Shutdown Date: 2026-07-23
 First Observed: 2026-04-25
-Last Observed: 2026-07-08
+Last Observed: 2026-07-09
 
 Azure OpenAI</description>
-      <pubDate>Wed, 08 Jul 2026 05:23:11 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-realtime-mini-2026-09-21-e3b0c442</guid>
+      <pubDate>Thu, 09 Jul 2026 06:07:02 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-realtime-mini-2026-07-23-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o1</title>

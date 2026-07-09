@@ -5164,24 +5164,24 @@
       ]
     },
     {
-      "id": "aws-bedrock-amazon.titan-image-generator-v20",
+      "id": "aws-bedrock-anthropic.claude-opus-4-1-20250805-v10",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: amazon.titan-image-generator-v2:0",
+      "title": "AWS Bedrock: anthropic.claude-opus-4-1-20250805-v1:0",
       "content_text": "",
-      "date_published": "2026-03-26T18:47:23.937126+00:00",
+      "date_published": "2026-07-09T06:07:00.012308+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
-        "model_id": "amazon.titan-image-generator-v2:0",
-        "shutdown_date": "2026-06-30",
-        "deprecation_date": "2025-12-30",
-        "announcement_date": "2026-03-26",
+        "model_id": "anthropic.claude-opus-4-1-20250805-v1:0",
+        "shutdown_date": "2027-01-08",
+        "deprecation_date": "2026-07-08",
+        "announcement_date": "2026-07-09",
         "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "first_observed": "2026-07-09",
+        "last_observed": "2026-07-09"
       },
       "tags": [
         "AWS Bedrock",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
@@ -5342,111 +5342,6 @@
         "model_id": "cohere.command-r-plus-v1:0",
         "shutdown_date": "2026-08-19",
         "deprecation_date": "2026-02-19",
-        "announcement_date": "2026-03-26",
-        "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-meta.llama3-1-405b-instruct-v10",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: meta.llama3-1-405b-instruct-v1:0",
-      "content_text": "",
-      "date_published": "2026-03-26T18:47:23.938266+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "meta.llama3-1-405b-instruct-v1:0",
-        "shutdown_date": "2026-07-07",
-        "deprecation_date": "2026-01-07",
-        "announcement_date": "2026-03-26",
-        "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-meta.llama3-2-11b-instruct-v10",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: meta.llama3-2-11b-instruct-v1:0",
-      "content_text": "",
-      "date_published": "2026-03-26T18:47:23.938486+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "meta.llama3-2-11b-instruct-v1:0",
-        "shutdown_date": "2026-07-07",
-        "deprecation_date": "2026-01-07",
-        "announcement_date": "2026-03-26",
-        "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-meta.llama3-2-1b-instruct-v10",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: meta.llama3-2-1b-instruct-v1:0",
-      "content_text": "",
-      "date_published": "2026-03-26T18:47:23.938340+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "meta.llama3-2-1b-instruct-v1:0",
-        "shutdown_date": "2026-07-07",
-        "deprecation_date": "2026-01-07",
-        "announcement_date": "2026-03-26",
-        "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-meta.llama3-2-3b-instruct-v10",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: meta.llama3-2-3b-instruct-v1:0",
-      "content_text": "",
-      "date_published": "2026-03-26T18:47:23.938413+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "meta.llama3-2-3b-instruct-v1:0",
-        "shutdown_date": "2026-07-07",
-        "deprecation_date": "2026-01-07",
-        "announcement_date": "2026-03-26",
-        "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-meta.llama3-2-90b-instruct-v10",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: meta.llama3-2-90b-instruct-v1:0",
-      "content_text": "",
-      "date_published": "2026-03-26T18:47:23.938558+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "meta.llama3-2-90b-instruct-v1:0",
-        "shutdown_date": "2026-07-07",
-        "deprecation_date": "2026-01-07",
         "announcement_date": "2026-03-26",
         "replacement_models": null,
         "first_observed": "2026-03-26",
@@ -7475,16 +7370,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-chat-latest",
       "content_text": "",
-      "date_published": "2026-05-21T06:12:35.646701+00:00",
+      "date_published": "2026-07-09T06:07:02.362260+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-chat-latest",
-        "shutdown_date": "2026-11-05",
-        "deprecation_date": "2026-11-05",
+        "shutdown_date": "2026-08-05",
+        "deprecation_date": "2026-08-05",
         "announcement_date": "2026-05-21",
         "replacement_models": null,
         "first_observed": "2026-05-21",
-        "last_observed": "2026-05-21"
+        "last_observed": "2026-07-09"
       },
       "tags": [
         "Azure",
@@ -7639,20 +7534,62 @@
       ]
     },
     {
+      "id": "azure-gpt-realtime-2.1",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-realtime-2.1",
+      "content_text": "",
+      "date_published": "2026-07-09T06:07:02.362566+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-realtime-2.1",
+        "shutdown_date": "2027-06-25",
+        "deprecation_date": "2027-06-25",
+        "announcement_date": "2026-07-09",
+        "replacement_models": null,
+        "first_observed": "2026-07-09",
+        "last_observed": "2026-07-09"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-gpt-realtime-2.1-mini",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-realtime-2.1-mini",
+      "content_text": "",
+      "date_published": "2026-07-09T06:07:02.362599+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-realtime-2.1-mini",
+        "shutdown_date": "2027-06-25",
+        "deprecation_date": "2027-06-25",
+        "announcement_date": "2026-07-09",
+        "replacement_models": null,
+        "first_observed": "2026-07-09",
+        "last_observed": "2026-07-09"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "azure-gpt-realtime-mini",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-realtime-mini",
       "content_text": "",
-      "date_published": "2026-07-08T05:23:11.509624+00:00",
+      "date_published": "2026-07-09T06:07:02.362629+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-realtime-mini",
-        "shutdown_date": "2026-09-21",
-        "deprecation_date": "2026-09-21",
+        "shutdown_date": "2026-07-23",
+        "deprecation_date": "2026-07-23",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-07-08"
+        "last_observed": "2026-07-09"
       },
       "tags": [
         "Azure",
