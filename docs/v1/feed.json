@@ -7303,6 +7303,69 @@
       ]
     },
     {
+      "id": "azure-gpt-5.6-luna",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-5.6-luna",
+      "content_text": "",
+      "date_published": "2026-07-10T06:05:43.916843+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-5.6-luna",
+        "shutdown_date": "2027-07-09",
+        "deprecation_date": "2027-07-09",
+        "announcement_date": "2026-07-10",
+        "replacement_models": null,
+        "first_observed": "2026-07-10",
+        "last_observed": "2026-07-10"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-gpt-5.6-sol",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-5.6-sol",
+      "content_text": "",
+      "date_published": "2026-07-10T06:05:43.916882+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-5.6-sol",
+        "shutdown_date": "2027-07-09",
+        "deprecation_date": "2027-07-09",
+        "announcement_date": "2026-07-10",
+        "replacement_models": null,
+        "first_observed": "2026-07-10",
+        "last_observed": "2026-07-10"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-gpt-5.6-terra",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-5.6-terra",
+      "content_text": "",
+      "date_published": "2026-07-10T06:05:43.916921+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-5.6-terra",
+        "shutdown_date": "2027-07-09",
+        "deprecation_date": "2027-07-09",
+        "announcement_date": "2026-07-10",
+        "replacement_models": null,
+        "first_observed": "2026-07-10",
+        "last_observed": "2026-07-10"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "azure-gpt-audio",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-audio",
@@ -7893,6 +7956,27 @@
       ]
     },
     {
+      "id": "azure-cohere-command-a-plus-05-2026",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Cohere-command-a-plus-05-2026",
+      "content_text": "",
+      "date_published": "2026-07-10T06:05:43.918805+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Cohere-command-a-plus-05-2026",
+        "shutdown_date": "2026-10-13",
+        "deprecation_date": "2026-10-13",
+        "announcement_date": "2026-07-10",
+        "replacement_models": null,
+        "first_observed": "2026-07-10",
+        "last_observed": "2026-07-10"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "azure-deepseek-r1",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: DeepSeek-R1",
@@ -7989,20 +8073,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: DeepSeek-V4-Flash",
       "content_text": "",
-      "date_published": "2026-06-13T06:18:53.681007+00:00",
+      "date_published": "2026-07-10T06:05:43.919218+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "DeepSeek-V4-Flash",
-        "shutdown_date": "2026-08-20",
-        "deprecation_date": "2026-08-20",
+        "shutdown_date": "2027-08-20",
+        "deprecation_date": "2027-08-20",
         "announcement_date": "2026-06-13",
         "replacement_models": null,
         "first_observed": "2026-06-13",
-        "last_observed": "2026-06-13"
+        "last_observed": "2026-07-10"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
@@ -8010,20 +8094,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: DeepSeek-V4-Pro",
       "content_text": "",
-      "date_published": "2026-06-13T06:18:53.681048+00:00",
+      "date_published": "2026-07-10T06:05:43.919260+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "DeepSeek-V4-Pro",
-        "shutdown_date": "2026-08-20",
-        "deprecation_date": "2026-08-20",
+        "shutdown_date": "2027-08-20",
+        "deprecation_date": "2027-08-20",
         "announcement_date": "2026-06-13",
         "replacement_models": null,
         "first_observed": "2026-06-13",
-        "last_observed": "2026-06-13"
+        "last_observed": "2026-07-10"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
@@ -8157,6 +8241,27 @@
       "tags": [
         "Azure",
         "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-kimi-k2.7-code",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Kimi-K2.7-Code",
+      "content_text": "",
+      "date_published": "2026-07-10T06:05:43.920040+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Kimi-K2.7-Code",
+        "shutdown_date": "2026-10-03",
+        "deprecation_date": "2026-10-03",
+        "announcement_date": "2026-07-10",
+        "replacement_models": null,
+        "first_observed": "2026-07-10",
+        "last_observed": "2026-07-10"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
       ]
     },
     {
