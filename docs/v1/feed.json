@@ -8073,20 +8073,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: DeepSeek-V4-Flash",
       "content_text": "",
-      "date_published": "2026-07-10T06:05:43.919218+00:00",
+      "date_published": "2026-07-14T04:52:53.409601+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "DeepSeek-V4-Flash",
-        "shutdown_date": "2027-08-20",
-        "deprecation_date": "2027-08-20",
+        "shutdown_date": "2028-02-20",
+        "deprecation_date": "2028-02-20",
         "announcement_date": "2026-06-13",
         "replacement_models": null,
         "first_observed": "2026-06-13",
-        "last_observed": "2026-07-10"
+        "last_observed": "2026-07-14"
       },
       "tags": [
         "Azure",
-        "shutdown-2027"
+        "shutdown-2028"
       ]
     },
     {
@@ -8094,20 +8094,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: DeepSeek-V4-Pro",
       "content_text": "",
-      "date_published": "2026-07-10T06:05:43.919260+00:00",
+      "date_published": "2026-07-14T04:52:53.409665+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "DeepSeek-V4-Pro",
-        "shutdown_date": "2027-08-20",
-        "deprecation_date": "2027-08-20",
+        "shutdown_date": "2028-02-20",
+        "deprecation_date": "2028-02-20",
         "announcement_date": "2026-06-13",
         "replacement_models": null,
         "first_observed": "2026-06-13",
-        "last_observed": "2026-07-10"
+        "last_observed": "2026-07-14"
       },
       "tags": [
         "Azure",
-        "shutdown-2027"
+        "shutdown-2028"
       ]
     },
     {
