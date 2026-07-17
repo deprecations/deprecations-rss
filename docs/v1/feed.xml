@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 16 Jul 2026 05:12:12 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 05:15:19 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5-2025-08-07</title>
       <link>https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations</link>
@@ -5123,14 +5123,14 @@ Microsoft</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: mistral-document-ai-2505
-Deprecation Date: 2026-08-17
-Shutdown Date: 2026-08-17
+Deprecation Date: 2026-07-20
+Shutdown Date: 2026-07-20
 First Observed: 2026-05-22
-Last Observed: 2026-07-16
+Last Observed: 2026-07-17
 
 Mistral AI</description>
-      <pubDate>Thu, 16 Jul 2026 05:12:12 GMT</pubDate>
-      <guid isPermaLink="false">Azure-mistral-document-ai-2505-2026-08-17-e3b0c442</guid>
+      <pubDate>Fri, 17 Jul 2026 05:15:19 GMT</pubDate>
+      <guid isPermaLink="false">Azure-mistral-document-ai-2505-2026-07-20-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Kimi-K2.5</title>
