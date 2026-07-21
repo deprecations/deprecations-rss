@@ -13,6 +13,213 @@
   "language": "en-US",
   "items": [
     {
+      "id": "openai-gpt-realtime",
+      "url": "https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models",
+      "title": "OpenAI: gpt-realtime",
+      "content_text": "",
+      "date_published": "2026-07-21T05:22:17.646538+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-realtime",
+        "shutdown_date": "2027-01-20",
+        "deprecation_date": "2026-07-20",
+        "announcement_date": "2026-07-21",
+        "replacement_models": [
+          "gpt-realtime-2.1"
+        ],
+        "first_observed": "2026-07-21",
+        "last_observed": "2026-07-21"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "openai-gpt-audio",
+      "url": "https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models",
+      "title": "OpenAI: gpt-audio",
+      "content_text": "",
+      "date_published": "2026-07-21T05:22:17.646656+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-audio",
+        "shutdown_date": "2027-01-20",
+        "deprecation_date": "2026-07-20",
+        "announcement_date": "2026-07-21",
+        "replacement_models": [
+          "gpt-audio-1.5"
+        ],
+        "first_observed": "2026-07-21",
+        "last_observed": "2026-07-21"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-audio",
+      "url": "https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models",
+      "title": "OpenAI: gpt-4o-audio",
+      "content_text": "",
+      "date_published": "2026-07-21T05:22:17.646702+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-audio",
+        "shutdown_date": "2027-01-20",
+        "deprecation_date": "2026-07-20",
+        "announcement_date": "2026-07-21",
+        "replacement_models": [
+          "gpt-audio-1.5"
+        ],
+        "first_observed": "2026-07-21",
+        "last_observed": "2026-07-21"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-realtime",
+      "url": "https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models",
+      "title": "OpenAI: gpt-4o-realtime",
+      "content_text": "",
+      "date_published": "2026-07-21T05:22:17.646736+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-realtime",
+        "shutdown_date": "2027-01-20",
+        "deprecation_date": "2026-07-20",
+        "announcement_date": "2026-07-21",
+        "replacement_models": [
+          "gpt-realtime-2.1"
+        ],
+        "first_observed": "2026-07-21",
+        "last_observed": "2026-07-21"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "openai-gpt-realtime-mini",
+      "url": "https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models",
+      "title": "OpenAI: gpt-realtime-mini",
+      "content_text": "",
+      "date_published": "2026-07-21T05:22:17.646770+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-realtime-mini",
+        "shutdown_date": "2027-01-20",
+        "deprecation_date": "2026-07-20",
+        "announcement_date": "2026-07-21",
+        "replacement_models": [
+          "gpt-realtime-2.1-mini"
+        ],
+        "first_observed": "2026-07-21",
+        "last_observed": "2026-07-21"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "openai-gpt-audio-mini",
+      "url": "https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models",
+      "title": "OpenAI: gpt-audio-mini",
+      "content_text": "",
+      "date_published": "2026-07-21T05:22:17.646800+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-audio-mini",
+        "shutdown_date": "2027-01-20",
+        "deprecation_date": "2026-07-20",
+        "announcement_date": "2026-07-21",
+        "replacement_models": [
+          "gpt-audio-1.5"
+        ],
+        "first_observed": "2026-07-21",
+        "last_observed": "2026-07-21"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-mini-realtime",
+      "url": "https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models",
+      "title": "OpenAI: gpt-4o-mini-realtime",
+      "content_text": "",
+      "date_published": "2026-07-21T05:22:17.646828+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-mini-realtime",
+        "shutdown_date": "2027-01-20",
+        "deprecation_date": "2026-07-20",
+        "announcement_date": "2026-07-21",
+        "replacement_models": [
+          "gpt-realtime-2.1-mini"
+        ],
+        "first_observed": "2026-07-21",
+        "last_observed": "2026-07-21"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-mini-audio",
+      "url": "https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models",
+      "title": "OpenAI: gpt-4o-mini-audio",
+      "content_text": "",
+      "date_published": "2026-07-21T05:22:17.646855+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-mini-audio",
+        "shutdown_date": "2027-01-20",
+        "deprecation_date": "2026-07-20",
+        "announcement_date": "2026-07-21",
+        "replacement_models": [
+          "gpt-audio-1.5"
+        ],
+        "first_observed": "2026-07-21",
+        "last_observed": "2026-07-21"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-mini-transcribe-2025-03-20",
+      "url": "https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models",
+      "title": "OpenAI: gpt-4o-mini-transcribe-2025-03-20",
+      "content_text": "",
+      "date_published": "2026-07-21T05:22:17.646882+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-mini-transcribe-2025-03-20",
+        "shutdown_date": "2027-01-20",
+        "deprecation_date": "2026-07-20",
+        "announcement_date": "2026-07-21",
+        "replacement_models": [
+          "gpt-4o-mini-transcribe-2025-12-15"
+        ],
+        "first_observed": "2026-07-21",
+        "last_observed": "2026-07-21"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "openai-gpt-5-2025-08-07",
       "url": "https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations",
       "title": "OpenAI: gpt-5-2025-08-07",

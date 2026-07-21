@@ -4,7 +4,133 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 17 Jul 2026 05:15:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 05:22:17 GMT</lastBuildDate>
+    <item>
+      <title>OpenAI: gpt-realtime</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-realtime
+Deprecation Date: 2026-07-20
+Shutdown Date: 2027-01-20
+First Observed: 2026-07-21
+Last Observed: 2026-07-21
+
+On July 20, 2026, we notified developers using legacy audio, realtime, and transcription model families and snapshots of their deprecation and removal from the API on January 20, 2027.</description>
+      <pubDate>Tue, 21 Jul 2026 05:22:17 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-realtime-2027-01-20-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-audio</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-audio
+Deprecation Date: 2026-07-20
+Shutdown Date: 2027-01-20
+First Observed: 2026-07-21
+Last Observed: 2026-07-21
+
+On July 20, 2026, we notified developers using legacy audio, realtime, and transcription model families and snapshots of their deprecation and removal from the API on January 20, 2027.</description>
+      <pubDate>Tue, 21 Jul 2026 05:22:17 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-audio-2027-01-20-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-audio</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-audio
+Deprecation Date: 2026-07-20
+Shutdown Date: 2027-01-20
+First Observed: 2026-07-21
+Last Observed: 2026-07-21
+
+On July 20, 2026, we notified developers using legacy audio, realtime, and transcription model families and snapshots of their deprecation and removal from the API on January 20, 2027.</description>
+      <pubDate>Tue, 21 Jul 2026 05:22:17 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-audio-2027-01-20-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-realtime</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-realtime
+Deprecation Date: 2026-07-20
+Shutdown Date: 2027-01-20
+First Observed: 2026-07-21
+Last Observed: 2026-07-21
+
+On July 20, 2026, we notified developers using legacy audio, realtime, and transcription model families and snapshots of their deprecation and removal from the API on January 20, 2027.</description>
+      <pubDate>Tue, 21 Jul 2026 05:22:17 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-realtime-2027-01-20-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-realtime-mini</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-realtime-mini
+Deprecation Date: 2026-07-20
+Shutdown Date: 2027-01-20
+First Observed: 2026-07-21
+Last Observed: 2026-07-21
+
+On July 20, 2026, we notified developers using legacy audio, realtime, and transcription model families and snapshots of their deprecation and removal from the API on January 20, 2027.</description>
+      <pubDate>Tue, 21 Jul 2026 05:22:17 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-realtime-mini-2027-01-20-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-audio-mini</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-audio-mini
+Deprecation Date: 2026-07-20
+Shutdown Date: 2027-01-20
+First Observed: 2026-07-21
+Last Observed: 2026-07-21
+
+On July 20, 2026, we notified developers using legacy audio, realtime, and transcription model families and snapshots of their deprecation and removal from the API on January 20, 2027.</description>
+      <pubDate>Tue, 21 Jul 2026 05:22:17 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-audio-mini-2027-01-20-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-mini-realtime</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-mini-realtime
+Deprecation Date: 2026-07-20
+Shutdown Date: 2027-01-20
+First Observed: 2026-07-21
+Last Observed: 2026-07-21
+
+On July 20, 2026, we notified developers using legacy audio, realtime, and transcription model families and snapshots of their deprecation and removal from the API on January 20, 2027.</description>
+      <pubDate>Tue, 21 Jul 2026 05:22:17 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-mini-realtime-2027-01-20-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-mini-audio</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-mini-audio
+Deprecation Date: 2026-07-20
+Shutdown Date: 2027-01-20
+First Observed: 2026-07-21
+Last Observed: 2026-07-21
+
+On July 20, 2026, we notified developers using legacy audio, realtime, and transcription model families and snapshots of their deprecation and removal from the API on January 20, 2027.</description>
+      <pubDate>Tue, 21 Jul 2026 05:22:17 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-mini-audio-2027-01-20-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-mini-transcribe-2025-03-20</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-mini-transcribe-2025-03-20
+Deprecation Date: 2026-07-20
+Shutdown Date: 2027-01-20
+First Observed: 2026-07-21
+Last Observed: 2026-07-21
+
+On July 20, 2026, we notified developers using legacy audio, realtime, and transcription model families and snapshots of their deprecation and removal from the API on January 20, 2027.</description>
+      <pubDate>Tue, 21 Jul 2026 05:22:17 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-mini-transcribe-2025-03-20-2027-01-20-e3b0c442</guid>
+    </item>
     <item>
       <title>OpenAI: gpt-5-2025-08-07</title>
       <link>https://platform.openai.com/docs/deprecations#2026-06-11-gpt-5-and-o3-model-deprecations</link>
