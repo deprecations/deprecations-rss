@@ -3693,16 +3693,18 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-3-models",
       "title": "Google: gemini-3.1-flash-lite",
       "content_text": "",
-      "date_published": "2026-05-08T04:54:37.837979+00:00",
+      "date_published": "2026-07-22T05:20:56.357435+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-3.1-flash-lite",
         "shutdown_date": "2027-05-07",
         "deprecation_date": "2027-05-07",
         "announcement_date": "2026-05-08",
-        "replacement_models": null,
+        "replacement_models": [
+          "gemini-3.5-flash-lite"
+        ],
         "first_observed": "2026-05-08",
-        "last_observed": "2026-05-08"
+        "last_observed": "2026-07-22"
       },
       "tags": [
         "Google",
@@ -3898,7 +3900,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models",
       "title": "Google: gemini-2.5-flash",
       "content_text": "",
-      "date_published": "2026-05-20T06:10:30.282624+00:00",
+      "date_published": "2026-07-22T05:20:56.358506+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash",
@@ -3906,10 +3908,10 @@
         "deprecation_date": "2026-10-16",
         "announcement_date": "2025-12-05",
         "replacement_models": [
-          "gemini-3.5-flash"
+          "gemini-3.6-flash"
         ],
         "first_observed": "2025-12-05",
-        "last_observed": "2026-05-20"
+        "last_observed": "2026-07-22"
       },
       "tags": [
         "Google",
@@ -3990,7 +3992,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models",
       "title": "Google: gemini-2.5-flash-preview-05-20",
       "content_text": "",
-      "date_published": "2026-05-20T06:10:30.282949+00:00",
+      "date_published": "2026-07-22T05:20:56.358844+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash-preview-05-20",
@@ -3998,10 +4000,10 @@
         "deprecation_date": "2025-11-18",
         "announcement_date": "2025-12-05",
         "replacement_models": [
-          "gemini-3.5-flash"
+          "gemini-3.6-flash"
         ],
         "first_observed": "2025-12-05",
-        "last_observed": "2026-05-20"
+        "last_observed": "2026-07-22"
       },
       "tags": [
         "Google",
@@ -4036,7 +4038,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models",
       "title": "Google: gemini-2.5-flash-preview-09-25",
       "content_text": "",
-      "date_published": "2026-05-20T06:10:30.283139+00:00",
+      "date_published": "2026-07-22T05:20:56.358997+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.5-flash-preview-09-25",
@@ -4044,10 +4046,10 @@
         "deprecation_date": "2026-02-17",
         "announcement_date": "2026-01-16",
         "replacement_models": [
-          "gemini-3.5-flash"
+          "gemini-3.6-flash"
         ],
         "first_observed": "2026-01-16",
-        "last_observed": "2026-05-20"
+        "last_observed": "2026-07-22"
       },
       "tags": [
         "Google",
@@ -4059,7 +4061,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.0-models",
       "title": "Google: gemini-2.0-flash",
       "content_text": "",
-      "date_published": "2026-06-02T06:43:38.540373+00:00",
+      "date_published": "2026-07-22T05:20:56.359159+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.0-flash",
@@ -4067,10 +4069,10 @@
         "deprecation_date": "2026-06-01",
         "announcement_date": "2026-02-20",
         "replacement_models": [
-          "gemini-3.5-flash"
+          "gemini-3.6-flash"
         ],
         "first_observed": "2026-02-20",
-        "last_observed": "2026-06-02"
+        "last_observed": "2026-07-22"
       },
       "tags": [
         "Google",
@@ -4082,7 +4084,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.0-models",
       "title": "Google: gemini-2.0-flash-001",
       "content_text": "",
-      "date_published": "2026-06-02T06:43:38.540456+00:00",
+      "date_published": "2026-07-22T05:20:56.359237+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.0-flash-001",
@@ -4090,10 +4092,10 @@
         "deprecation_date": "2026-06-01",
         "announcement_date": "2026-02-20",
         "replacement_models": [
-          "gemini-3.5-flash"
+          "gemini-3.6-flash"
         ],
         "first_observed": "2026-02-20",
-        "last_observed": "2026-06-02"
+        "last_observed": "2026-07-22"
       },
       "tags": [
         "Google",
@@ -8909,16 +8911,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: FW-GLM-5.1",
       "content_text": "",
-      "date_published": "2026-05-01T21:39:32.801653+00:00",
+      "date_published": "2026-07-22T05:20:59.888506+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "FW-GLM-5.1",
-        "shutdown_date": "2026-08-01",
-        "deprecation_date": "2026-08-01",
+        "shutdown_date": "2026-08-07",
+        "deprecation_date": "2026-08-07",
         "announcement_date": "2026-05-01",
         "replacement_models": null,
         "first_observed": "2026-05-01",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-07-22"
       },
       "tags": [
         "Azure",
@@ -9014,16 +9016,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: FW-MiniMax-M2.5",
       "content_text": "",
-      "date_published": "2026-05-01T21:39:32.801954+00:00",
+      "date_published": "2026-07-22T05:20:59.888747+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "FW-MiniMax-M2.5",
-        "shutdown_date": "2026-07-01",
-        "deprecation_date": "2026-07-01",
+        "shutdown_date": "2026-08-07",
+        "deprecation_date": "2026-08-07",
         "announcement_date": "2026-05-01",
         "replacement_models": null,
         "first_observed": "2026-05-01",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-07-22"
       },
       "tags": [
         "Azure",

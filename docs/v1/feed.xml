@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Tue, 21 Jul 2026 05:22:17 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 05:20:59 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-realtime</title>
       <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
@@ -2250,10 +2250,10 @@ Model ID: gemini-3.1-flash-lite
 Deprecation Date: 2027-05-07
 Shutdown Date: 2027-05-07
 First Observed: 2026-05-08
-Last Observed: 2026-05-08
+Last Observed: 2026-07-22
 
-Gemini deprecations table: Gemini 3 models. Release date: 2026-05-07. Shutdown date: 2027-05-07.</description>
-      <pubDate>Fri, 08 May 2026 04:54:37 GMT</pubDate>
+Gemini deprecations table: Gemini 3 models. Release date: 2026-05-07. Shutdown date: 2027-05-07. Recommended replacement: gemini-3.5-flash-lite.</description>
+      <pubDate>Wed, 22 Jul 2026 05:20:56 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-3.1-flash-lite-2027-05-07-e3b0c442</guid>
     </item>
     <item>
@@ -2376,10 +2376,10 @@ Model ID: gemini-2.5-flash
 Deprecation Date: 2026-10-16
 Shutdown Date: 2026-10-16
 First Observed: 2025-12-05
-Last Observed: 2026-05-20
+Last Observed: 2026-07-22
 
-Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-06-17. Shutdown date: 2026-10-16. Recommended replacement: gemini-3.5-flash.</description>
-      <pubDate>Wed, 20 May 2026 06:10:30 GMT</pubDate>
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-06-17. Shutdown date: 2026-10-16. Recommended replacement: gemini-3.6-flash.</description>
+      <pubDate>Wed, 22 Jul 2026 05:20:56 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.5-flash-2026-10-16-e3b0c442</guid>
     </item>
     <item>
@@ -2432,10 +2432,10 @@ Model ID: gemini-2.5-flash-preview-05-20
 Deprecation Date: 2025-11-18
 Shutdown Date: 2025-11-18
 First Observed: 2025-12-05
-Last Observed: 2026-05-20
+Last Observed: 2026-07-22
 
-Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-05-20. Shutdown date: 2025-11-18. Recommended replacement: gemini-3.5-flash.</description>
-      <pubDate>Wed, 20 May 2026 06:10:30 GMT</pubDate>
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-05-20. Shutdown date: 2025-11-18. Recommended replacement: gemini-3.6-flash.</description>
+      <pubDate>Wed, 22 Jul 2026 05:20:56 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.5-flash-preview-05-20-2025-11-18-e3b0c442</guid>
     </item>
     <item>
@@ -2460,10 +2460,10 @@ Model ID: gemini-2.5-flash-preview-09-25
 Deprecation Date: 2026-02-17
 Shutdown Date: 2026-02-17
 First Observed: 2026-01-16
-Last Observed: 2026-05-20
+Last Observed: 2026-07-22
 
-Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-09-25. Shutdown date: 2026-02-17. Recommended replacement: gemini-3.5-flash.</description>
-      <pubDate>Wed, 20 May 2026 06:10:30 GMT</pubDate>
+Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-09-25. Shutdown date: 2026-02-17. Recommended replacement: gemini-3.6-flash.</description>
+      <pubDate>Wed, 22 Jul 2026 05:20:56 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.5-flash-preview-09-25-2026-02-17-e3b0c442</guid>
     </item>
     <item>
@@ -2474,10 +2474,10 @@ Model ID: gemini-2.0-flash
 Deprecation Date: 2026-06-01
 Shutdown Date: 2026-06-01
 First Observed: 2026-02-20
-Last Observed: 2026-06-02
+Last Observed: 2026-07-22
 
-Gemini deprecations table: Gemini 2.0 models. Release date: 2025-02-05. Shutdown date: 2026-06-01. Recommended replacement: gemini-3.5-flash.</description>
-      <pubDate>Tue, 02 Jun 2026 06:43:38 GMT</pubDate>
+Gemini deprecations table: Gemini 2.0 models. Release date: 2025-02-05. Shutdown date: 2026-06-01. Recommended replacement: gemini-3.6-flash.</description>
+      <pubDate>Wed, 22 Jul 2026 05:20:56 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.0-flash-2026-06-01-e3b0c442</guid>
     </item>
     <item>
@@ -2488,10 +2488,10 @@ Model ID: gemini-2.0-flash-001
 Deprecation Date: 2026-06-01
 Shutdown Date: 2026-06-01
 First Observed: 2026-02-20
-Last Observed: 2026-06-02
+Last Observed: 2026-07-22
 
-Gemini deprecations table: Gemini 2.0 models. Release date: 2025-02-05. Shutdown date: 2026-06-01. Recommended replacement: gemini-3.5-flash.</description>
-      <pubDate>Tue, 02 Jun 2026 06:43:38 GMT</pubDate>
+Gemini deprecations table: Gemini 2.0 models. Release date: 2025-02-05. Shutdown date: 2026-06-01. Recommended replacement: gemini-3.6-flash.</description>
+      <pubDate>Wed, 22 Jul 2026 05:20:56 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.0-flash-001-2026-06-01-e3b0c442</guid>
     </item>
     <item>
@@ -5585,14 +5585,14 @@ Fireworks</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: FW-GLM-5.1
-Deprecation Date: 2026-08-01
-Shutdown Date: 2026-08-01
+Deprecation Date: 2026-08-07
+Shutdown Date: 2026-08-07
 First Observed: 2026-05-01
-Last Observed: 2026-05-01
+Last Observed: 2026-07-22
 
 Fireworks</description>
-      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
-      <guid isPermaLink="false">Azure-FW-GLM-5.1-2026-08-01-e3b0c442</guid>
+      <pubDate>Wed, 22 Jul 2026 05:20:59 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-GLM-5.1-2026-08-07-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: FW-GPT-OSS-120B</title>
@@ -5655,14 +5655,14 @@ Fireworks</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: FW-MiniMax-M2.5
-Deprecation Date: 2026-07-01
-Shutdown Date: 2026-07-01
+Deprecation Date: 2026-08-07
+Shutdown Date: 2026-08-07
 First Observed: 2026-05-01
-Last Observed: 2026-05-01
+Last Observed: 2026-07-22
 
 Fireworks</description>
-      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
-      <guid isPermaLink="false">Azure-FW-MiniMax-M2.5-2026-07-01-e3b0c442</guid>
+      <pubDate>Wed, 22 Jul 2026 05:20:59 GMT</pubDate>
+      <guid isPermaLink="false">Azure-FW-MiniMax-M2.5-2026-08-07-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: FW-Qwen3-14B</title>
