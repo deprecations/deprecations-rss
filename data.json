@@ -2963,17 +2963,17 @@
     "provider": "Google",
     "model_id": "gemini-embedding-001",
     "announcement_date": "2025-12-05",
-    "shutdown_date": "2026-07-14",
-    "deprecation_date": "2026-07-14",
+    "shutdown_date": "2028-05-14",
+    "deprecation_date": "2028-05-14",
     "replacement_models": [
       "gemini-embedding-2"
     ],
-    "deprecation_context": "Gemini deprecations table: Embedding models. Release date: 2025-07-14. Shutdown date: 2026-07-14. Recommended replacement: gemini-embedding-2.",
+    "deprecation_context": "Gemini deprecations table: Embedding models. Release date: 2025-07-14. Shutdown date: 2028-05-14. Recommended replacement: gemini-embedding-2.",
     "url": "https://ai.google.dev/gemini-api/docs/deprecations#embedding-models",
-    "content_hash": "d5844c73290161b7",
-    "scraped_at": "2026-05-30T05:50:05.167760+00:00",
+    "content_hash": "60b20dd8789e315b",
+    "scraped_at": "2026-07-24T05:21:42.292986+00:00",
     "first_observed": "2025-12-05",
-    "last_observed": "2026-05-30"
+    "last_observed": "2026-07-24"
   },
   {
     "provider": "Google",

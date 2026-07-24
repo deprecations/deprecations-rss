@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 23 Jul 2026 05:27:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 05:21:42 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-realtime</title>
       <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
@@ -2597,14 +2597,14 @@ Gemini deprecations table: Live API models. Release date: 2025-06-17. Shutdown d
       <link>https://ai.google.dev/gemini-api/docs/deprecations#embedding-models</link>
       <description>Provider: Google
 Model ID: gemini-embedding-001
-Deprecation Date: 2026-07-14
-Shutdown Date: 2026-07-14
+Deprecation Date: 2028-05-14
+Shutdown Date: 2028-05-14
 First Observed: 2025-12-05
-Last Observed: 2026-05-30
+Last Observed: 2026-07-24
 
-Gemini deprecations table: Embedding models. Release date: 2025-07-14. Shutdown date: 2026-07-14. Recommended replacement: gemini-embedding-2.</description>
-      <pubDate>Sat, 30 May 2026 05:50:05 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-embedding-001-2026-07-14-e3b0c442</guid>
+Gemini deprecations table: Embedding models. Release date: 2025-07-14. Shutdown date: 2028-05-14. Recommended replacement: gemini-embedding-2.</description>
+      <pubDate>Fri, 24 Jul 2026 05:21:42 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-embedding-001-2028-05-14-e3b0c442</guid>
     </item>
     <item>
       <title>Google: text-embedding-004</title>

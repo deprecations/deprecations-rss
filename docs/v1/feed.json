@@ -4272,22 +4272,22 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#embedding-models",
       "title": "Google: gemini-embedding-001",
       "content_text": "",
-      "date_published": "2026-05-30T05:50:05.167760+00:00",
+      "date_published": "2026-07-24T05:21:42.292986+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-embedding-001",
-        "shutdown_date": "2026-07-14",
-        "deprecation_date": "2026-07-14",
+        "shutdown_date": "2028-05-14",
+        "deprecation_date": "2028-05-14",
         "announcement_date": "2025-12-05",
         "replacement_models": [
           "gemini-embedding-2"
         ],
         "first_observed": "2025-12-05",
-        "last_observed": "2026-05-30"
+        "last_observed": "2026-07-24"
       },
       "tags": [
         "Google",
-        "shutdown-2026"
+        "shutdown-2028"
       ]
     },
     {
