@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 24 Jul 2026 05:21:42 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 05:16:05 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-realtime</title>
       <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
@@ -4255,28 +4255,28 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-4.1
-Deprecation Date: 2026-10-14
-Shutdown Date: 2026-10-14
+Deprecation Date: 2027-04-14
+Shutdown Date: 2027-04-14
 First Observed: 2026-04-25
-Last Observed: 2026-04-28
+Last Observed: 2026-07-25
 
 Azure OpenAI</description>
-      <pubDate>Tue, 28 Apr 2026 05:32:49 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-4.1-2026-10-14-e3b0c442</guid>
+      <pubDate>Sat, 25 Jul 2026 05:16:05 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4.1-2027-04-14-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-4.1-mini</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-4.1-mini
-Deprecation Date: 2026-10-14
-Shutdown Date: 2026-10-14
+Deprecation Date: 2027-04-14
+Shutdown Date: 2027-04-14
 First Observed: 2026-04-25
-Last Observed: 2026-04-28
+Last Observed: 2026-07-25
 
 Azure OpenAI</description>
-      <pubDate>Tue, 28 Apr 2026 05:32:49 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-4.1-mini-2026-10-14-e3b0c442</guid>
+      <pubDate>Sat, 25 Jul 2026 05:16:05 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4.1-mini-2027-04-14-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-4.1-nano</title>
@@ -4297,28 +4297,28 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-4o
-Deprecation Date: 2026-03-31
-Shutdown Date: 2026-03-31
+Deprecation Date: 2026-10-01
+Shutdown Date: 2026-10-01
 First Observed: 2026-04-25
-Last Observed: 2026-06-23
+Last Observed: 2026-07-25
 
 Azure OpenAI</description>
-      <pubDate>Tue, 23 Jun 2026 06:09:09 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-4o-2026-03-31-e3b0c442</guid>
+      <pubDate>Sat, 25 Jul 2026 05:16:05 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4o-2026-10-01-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-4o-mini</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-4o-mini
-Deprecation Date: 2026-10-01
-Shutdown Date: 2026-10-01
+Deprecation Date: 2027-04-14
+Shutdown Date: 2027-04-14
 First Observed: 2026-04-25
-Last Observed: 2026-04-28
+Last Observed: 2026-07-25
 
 Azure OpenAI</description>
-      <pubDate>Tue, 28 Apr 2026 05:32:49 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-4o-mini-2026-10-01-e3b0c442</guid>
+      <pubDate>Sat, 25 Jul 2026 05:16:05 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4o-mini-2027-04-14-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-4o-mini-transcribe</title>
@@ -4913,42 +4913,42 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: o1
-Deprecation Date: 2026-09-16
-Shutdown Date: 2026-09-16
+Deprecation Date: 2026-10-21
+Shutdown Date: 2026-10-21
 First Observed: 2026-04-25
-Last Observed: 2026-07-08
+Last Observed: 2026-07-25
 
 Azure OpenAI</description>
-      <pubDate>Wed, 08 Jul 2026 05:23:11 GMT</pubDate>
-      <guid isPermaLink="false">Azure-o1-2026-09-16-e3b0c442</guid>
+      <pubDate>Sat, 25 Jul 2026 05:16:05 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o1-2026-10-21-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o1-pro</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: o1-pro
-Deprecation Date: 2026-09-18
-Shutdown Date: 2026-09-18
+Deprecation Date: 2026-10-21
+Shutdown Date: 2026-10-21
 First Observed: 2026-05-21
-Last Observed: 2026-05-21
+Last Observed: 2026-07-25
 
 Azure OpenAI</description>
-      <pubDate>Thu, 21 May 2026 06:12:35 GMT</pubDate>
-      <guid isPermaLink="false">Azure-o1-pro-2026-09-18-e3b0c442</guid>
+      <pubDate>Sat, 25 Jul 2026 05:16:05 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o1-pro-2026-10-21-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o3</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: o3
-Deprecation Date: 2026-10-16
-Shutdown Date: 2026-10-16
+Deprecation Date: 2026-10-21
+Shutdown Date: 2026-10-21
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-07-25
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-o3-2026-10-16-e3b0c442</guid>
+      <pubDate>Sat, 25 Jul 2026 05:16:05 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o3-2026-10-21-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o3-deep-research</title>
@@ -5025,42 +5025,42 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: text-embedding-3-large
-Deprecation Date: 2027-04-15
-Shutdown Date: 2027-04-15
+Deprecation Date: 2028-02-09
+Shutdown Date: 2028-02-09
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-07-25
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-text-embedding-3-large-2027-04-15-e3b0c442</guid>
+      <pubDate>Sat, 25 Jul 2026 05:16:05 GMT</pubDate>
+      <guid isPermaLink="false">Azure-text-embedding-3-large-2028-02-09-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: text-embedding-3-small</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: text-embedding-3-small
-Deprecation Date: 2027-04-15
-Shutdown Date: 2027-04-15
+Deprecation Date: 2028-02-09
+Shutdown Date: 2028-02-09
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-07-25
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-text-embedding-3-small-2027-04-15-e3b0c442</guid>
+      <pubDate>Sat, 25 Jul 2026 05:16:05 GMT</pubDate>
+      <guid isPermaLink="false">Azure-text-embedding-3-small-2028-02-09-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: text-embedding-ada-002</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: text-embedding-ada-002
-Deprecation Date: 2027-04-15
-Shutdown Date: 2027-04-15
+Deprecation Date: 2028-02-09
+Shutdown Date: 2028-02-09
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-07-25
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-text-embedding-ada-002-2027-04-15-e3b0c442</guid>
+      <pubDate>Sat, 25 Jul 2026 05:16:05 GMT</pubDate>
+      <guid isPermaLink="false">Azure-text-embedding-ada-002-2028-02-09-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: tts</title>
