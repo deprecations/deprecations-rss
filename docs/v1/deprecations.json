@@ -2641,22 +2641,6 @@
   },
   {
     "provider": "Google",
-    "model_id": "gemini-2.5-pro",
-    "announcement_date": "2025-12-05",
-    "shutdown_date": "2026-10-16",
-    "deprecation_date": "2026-10-16",
-    "replacement_models": [
-      "gemini-3.1-pro-preview"
-    ],
-    "deprecation_context": "Gemini deprecations table: Gemini 2.5 Pro models. Release date: 2025-06-17. Shutdown date: 2026-10-16. Recommended replacement: gemini-3.1-pro-preview.",
-    "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-pro-models",
-    "content_hash": "9e23975d15b1354b",
-    "scraped_at": "2026-05-07T05:33:30.715200+00:00",
-    "first_observed": "2025-12-05",
-    "last_observed": "2026-05-07"
-  },
-  {
-    "provider": "Google",
     "model_id": "gemini-2.5-pro-preview-03-25",
     "announcement_date": "2025-12-05",
     "shutdown_date": "2025-12-02",
@@ -2705,22 +2689,6 @@
   },
   {
     "provider": "Google",
-    "model_id": "gemini-2.5-flash",
-    "announcement_date": "2025-12-05",
-    "shutdown_date": "2026-10-16",
-    "deprecation_date": "2026-10-16",
-    "replacement_models": [
-      "gemini-3.6-flash"
-    ],
-    "deprecation_context": "Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-06-17. Shutdown date: 2026-10-16. Recommended replacement: gemini-3.6-flash.",
-    "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models",
-    "content_hash": "e2982c1307cc6492",
-    "scraped_at": "2026-07-22T05:20:56.358506+00:00",
-    "first_observed": "2025-12-05",
-    "last_observed": "2026-07-22"
-  },
-  {
-    "provider": "Google",
     "model_id": "gemini-2.5-flash-image",
     "announcement_date": "2026-05-01",
     "shutdown_date": "2026-10-02",
@@ -2734,22 +2702,6 @@
     "scraped_at": "2026-05-01T21:43:36.812255+00:00",
     "first_observed": "2026-05-01",
     "last_observed": "2026-05-01"
-  },
-  {
-    "provider": "Google",
-    "model_id": "gemini-2.5-flash-lite",
-    "announcement_date": "2026-05-01",
-    "shutdown_date": "2026-10-16",
-    "deprecation_date": "2026-10-16",
-    "replacement_models": [
-      "gemini-3.1-flash-lite"
-    ],
-    "deprecation_context": "Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-07-22. Shutdown date: 2026-10-16. Recommended replacement: gemini-3.1-flash-lite.",
-    "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models",
-    "content_hash": "4d929dbccf587d9b",
-    "scraped_at": "2026-05-08T04:54:37.838854+00:00",
-    "first_observed": "2026-05-01",
-    "last_observed": "2026-05-08"
   },
   {
     "provider": "Google",
@@ -5433,15 +5385,15 @@
     "provider": "Azure",
     "model_id": "gpt-realtime-mini",
     "announcement_date": "2026-04-25",
-    "shutdown_date": "2027-04-06",
-    "deprecation_date": "2027-04-06",
+    "shutdown_date": "2026-09-21",
+    "deprecation_date": "2026-09-21",
     "replacement_models": null,
     "deprecation_context": "Azure OpenAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
     "content_hash": "caa539ff386d50af",
-    "scraped_at": "2026-07-31T05:37:13.531431+00:00",
+    "scraped_at": "2026-08-04T05:16:24.420351+00:00",
     "first_observed": "2026-04-25",
-    "last_observed": "2026-07-31"
+    "last_observed": "2026-08-04"
   },
   {
     "provider": "Azure",

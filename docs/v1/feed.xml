@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 31 Jul 2026 05:37:13 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 05:16:24 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-realtime</title>
       <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
@@ -2313,20 +2313,6 @@ Gemini deprecations table: Gemini 3 models. Release date: 2026-03-03. Shutdown d
       <guid isPermaLink="false">Google-gemini-3.1-flash-lite-preview-2026-05-25-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: gemini-2.5-pro</title>
-      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-pro-models</link>
-      <description>Provider: Google
-Model ID: gemini-2.5-pro
-Deprecation Date: 2026-10-16
-Shutdown Date: 2026-10-16
-First Observed: 2025-12-05
-Last Observed: 2026-05-07
-
-Gemini deprecations table: Gemini 2.5 Pro models. Release date: 2025-06-17. Shutdown date: 2026-10-16. Recommended replacement: gemini-3.1-pro-preview.</description>
-      <pubDate>Thu, 07 May 2026 05:33:30 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-pro-2026-10-16-e3b0c442</guid>
-    </item>
-    <item>
       <title>Google: gemini-2.5-pro-preview-03-25</title>
       <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-pro-models</link>
       <description>Provider: Google
@@ -2369,20 +2355,6 @@ Gemini deprecations table: Gemini 2.5 Pro models. Release date: 2025-06-05. Shut
       <guid isPermaLink="false">Google-gemini-2.5-pro-preview-06-05-2025-12-02-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: gemini-2.5-flash</title>
-      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models</link>
-      <description>Provider: Google
-Model ID: gemini-2.5-flash
-Deprecation Date: 2026-10-16
-Shutdown Date: 2026-10-16
-First Observed: 2025-12-05
-Last Observed: 2026-07-22
-
-Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-06-17. Shutdown date: 2026-10-16. Recommended replacement: gemini-3.6-flash.</description>
-      <pubDate>Wed, 22 Jul 2026 05:20:56 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-2026-10-16-e3b0c442</guid>
-    </item>
-    <item>
       <title>Google: gemini-2.5-flash-image</title>
       <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models</link>
       <description>Provider: Google
@@ -2395,20 +2367,6 @@ Last Observed: 2026-05-01
 Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-10-02. Shutdown date: 2026-10-02. Recommended replacement: gemini-3.1-flash-image-preview.</description>
       <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-2.5-flash-image-2026-10-02-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Google: gemini-2.5-flash-lite</title>
-      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-flash-models</link>
-      <description>Provider: Google
-Model ID: gemini-2.5-flash-lite
-Deprecation Date: 2026-10-16
-Shutdown Date: 2026-10-16
-First Observed: 2026-05-01
-Last Observed: 2026-05-08
-
-Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-07-22. Shutdown date: 2026-10-16. Recommended replacement: gemini-3.1-flash-lite.</description>
-      <pubDate>Fri, 08 May 2026 04:54:37 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-2.5-flash-lite-2026-10-16-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.5-flash-lite-preview-09-2025</title>
@@ -4913,14 +4871,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-realtime-mini
-Deprecation Date: 2027-04-06
-Shutdown Date: 2027-04-06
+Deprecation Date: 2026-09-21
+Shutdown Date: 2026-09-21
 First Observed: 2026-04-25
-Last Observed: 2026-07-31
+Last Observed: 2026-08-04
 
 Azure OpenAI</description>
-      <pubDate>Fri, 31 Jul 2026 05:37:13 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-realtime-mini-2027-04-06-e3b0c442</guid>
+      <pubDate>Tue, 04 Aug 2026 05:16:24 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-realtime-mini-2026-09-21-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o1</title>
