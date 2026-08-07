@@ -4006,12 +4006,12 @@
     "replacement_models": [
       "rerank-v3.5"
     ],
-    "deprecation_context": "On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family. Fine-tuned models created from these base models are not affected by this deprecation. | Shutdown Date | Deprecated Model           | Deprecated Model Price | Recommended Replacement | | ------------- | -------------------------- | ---------------------- | ----------------------- | | 2025-04-30    | `rerank-english-v2.0`      | \\$1.00 / 1K searches   | `rerank-v3.5`           | | 2025-04-30    | `rerank-multilingual-v2.0` | \\$1.00 / 1K searches   | `rerank-v3.5`           | # Best Practices: 1. Regularly check our documentation for updates on announcements regarding the status of models. 2. Test applications with newer models well before the shutdown date of your current model. 3. Update any production code to use an active model as soon as possible. 4. Contact [support@cohere.ai](mailto:support@cohere.ai) if you need any assistance with migration or have any questions.",
+    "deprecation_context": "On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family. Fine-tuned models created from these base models are not affected by this deprecation. | Shutdown Date | Deprecated Model           | Deprecated Model Price | Recommended Replacement | | ------------- | -------------------------- | ---------------------- | ----------------------- | | 2025-04-30    | `rerank-english-v2.0`      | \\$1.00 / 1K searches   | `rerank-v3.5`           | | 2025-04-30    | `rerank-multilingual-v2.0` | \\$1.00 / 1K searches   | `rerank-v3.5`           | # Best Practices 1. Regularly check our documentation for updates on announcements regarding the status of models. 2. Test applications with newer models well before the shutdown date of your current model. 3. Update any production code to use an active model as soon as possible. 4. Contact [support@cohere.ai](mailto:support@cohere.ai) if you need any assistance with migration or have any questions.",
     "url": "https://docs.cohere.com/docs/deprecations#2024-12-02-rerank-v2-0",
     "content_hash": "8514ec8565d5661f",
-    "scraped_at": "2026-05-01T21:39:32.667519+00:00",
+    "scraped_at": "2026-08-07T04:26:33.708202+00:00",
     "first_observed": "2026-05-01",
-    "last_observed": "2026-05-01"
+    "last_observed": "2026-08-07"
   },
   {
     "provider": "Cohere",
@@ -4022,12 +4022,12 @@
     "replacement_models": [
       "rerank-v3.5"
     ],
-    "deprecation_context": "On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family. Fine-tuned models created from these base models are not affected by this deprecation. | Shutdown Date | Deprecated Model           | Deprecated Model Price | Recommended Replacement | | ------------- | -------------------------- | ---------------------- | ----------------------- | | 2025-04-30    | `rerank-english-v2.0`      | \\$1.00 / 1K searches   | `rerank-v3.5`           | | 2025-04-30    | `rerank-multilingual-v2.0` | \\$1.00 / 1K searches   | `rerank-v3.5`           | # Best Practices: 1. Regularly check our documentation for updates on announcements regarding the status of models. 2. Test applications with newer models well before the shutdown date of your current model. 3. Update any production code to use an active model as soon as possible. 4. Contact [support@cohere.ai](mailto:support@cohere.ai) if you need any assistance with migration or have any questions.",
+    "deprecation_context": "On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family. Fine-tuned models created from these base models are not affected by this deprecation. | Shutdown Date | Deprecated Model           | Deprecated Model Price | Recommended Replacement | | ------------- | -------------------------- | ---------------------- | ----------------------- | | 2025-04-30    | `rerank-english-v2.0`      | \\$1.00 / 1K searches   | `rerank-v3.5`           | | 2025-04-30    | `rerank-multilingual-v2.0` | \\$1.00 / 1K searches   | `rerank-v3.5`           | # Best Practices 1. Regularly check our documentation for updates on announcements regarding the status of models. 2. Test applications with newer models well before the shutdown date of your current model. 3. Update any production code to use an active model as soon as possible. 4. Contact [support@cohere.ai](mailto:support@cohere.ai) if you need any assistance with migration or have any questions.",
     "url": "https://docs.cohere.com/docs/deprecations#2024-12-02-rerank-v2-0",
     "content_hash": "d6c535dc8fc536cb",
-    "scraped_at": "2026-05-01T21:39:32.667541+00:00",
+    "scraped_at": "2026-08-07T04:26:33.708220+00:00",
     "first_observed": "2026-05-01",
-    "last_observed": "2026-05-01"
+    "last_observed": "2026-08-07"
   },
   {
     "provider": "Groq",

@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 06 Aug 2026 05:18:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 04:26:33 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-realtime</title>
       <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
@@ -3585,10 +3585,10 @@ Model ID: rerank-english-v2.0
 Deprecation Date: 2024-12-02
 Shutdown Date: 2025-04-30
 First Observed: 2026-05-01
-Last Observed: 2026-05-01
+Last Observed: 2026-08-07
 
 On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family. Fine-tuned models created from these base models are not affected by this deprecation. | Shutdown Date | Deprecated Model           | Deprecated Model Price | Recommended Replacement | | ------------- | -------------------------- | ---------------------- | ----------------------- | | 2025-04-30    | `rerank-english-v2.0`      | \$1.00 / 1K searches   | `rerank-v3.5`         ...</description>
-      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <pubDate>Fri, 07 Aug 2026 04:26:33 GMT</pubDate>
       <guid isPermaLink="false">Cohere-rerank-english-v2.0-2025-04-30-e3b0c442</guid>
     </item>
     <item>
@@ -3599,10 +3599,10 @@ Model ID: rerank-multilingual-v2.0
 Deprecation Date: 2024-12-02
 Shutdown Date: 2025-04-30
 First Observed: 2026-05-01
-Last Observed: 2026-05-01
+Last Observed: 2026-08-07
 
 On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family. Fine-tuned models created from these base models are not affected by this deprecation. | Shutdown Date | Deprecated Model           | Deprecated Model Price | Recommended Replacement | | ------------- | -------------------------- | ---------------------- | ----------------------- | | 2025-04-30    | `rerank-english-v2.0`      | \$1.00 / 1K searches   | `rerank-v3.5`         ...</description>
-      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
+      <pubDate>Fri, 07 Aug 2026 04:26:33 GMT</pubDate>
       <guid isPermaLink="false">Cohere-rerank-multilingual-v2.0-2025-04-30-e3b0c442</guid>
     </item>
     <item>

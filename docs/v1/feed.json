@@ -5787,7 +5787,7 @@
       "url": "https://docs.cohere.com/docs/deprecations#2024-12-02-rerank-v2-0",
       "title": "Cohere: rerank-english-v2.0",
       "content_text": "",
-      "date_published": "2026-05-01T21:39:32.667519+00:00",
+      "date_published": "2026-08-07T04:26:33.708202+00:00",
       "_deprecation": {
         "provider": "Cohere",
         "model_id": "rerank-english-v2.0",
@@ -5798,7 +5798,7 @@
           "rerank-v3.5"
         ],
         "first_observed": "2026-05-01",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-08-07"
       },
       "tags": [
         "Cohere",
@@ -5810,7 +5810,7 @@
       "url": "https://docs.cohere.com/docs/deprecations#2024-12-02-rerank-v2-0",
       "title": "Cohere: rerank-multilingual-v2.0",
       "content_text": "",
-      "date_published": "2026-05-01T21:39:32.667541+00:00",
+      "date_published": "2026-08-07T04:26:33.708220+00:00",
       "_deprecation": {
         "provider": "Cohere",
         "model_id": "rerank-multilingual-v2.0",
@@ -5821,7 +5821,7 @@
           "rerank-v3.5"
         ],
         "first_observed": "2026-05-01",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-08-07"
       },
       "tags": [
         "Cohere",
