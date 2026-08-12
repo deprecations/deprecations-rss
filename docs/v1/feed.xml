@@ -300,34 +300,6 @@ On June 2, 2026, we notified developers using older GPT Image models of their de
       <guid isPermaLink="false">OpenAI-chatgpt-image-latest-2026-12-01-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: gpt-5.2-chat-latest</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
-      <description>Provider: OpenAI
-Model ID: gpt-5.2-chat-latest
-Deprecation Date: 2026-05-08
-Shutdown Date: 2026-08-10
-First Observed: 2026-05-13
-Last Observed: 2026-07-23
-
-On May 8th, 2026, we notified developers using `gpt-5.2-chat-latest` and `gpt-5.3-chat-latest` model snapshots of their deprecation and removal from the API.</description>
-      <pubDate>Thu, 23 Jul 2026 05:27:05 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-gpt-5.2-chat-latest-2026-08-10-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: gpt-5.3-chat-latest</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
-      <description>Provider: OpenAI
-Model ID: gpt-5.3-chat-latest
-Deprecation Date: 2026-05-08
-Shutdown Date: 2026-08-10
-First Observed: 2026-05-13
-Last Observed: 2026-07-23
-
-On May 8th, 2026, we notified developers using `gpt-5.2-chat-latest` and `gpt-5.3-chat-latest` model snapshots of their deprecation and removal from the API.</description>
-      <pubDate>Thu, 23 Jul 2026 05:27:05 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-gpt-5.3-chat-latest-2026-08-10-e3b0c442</guid>
-    </item>
-    <item>
       <title>OpenAI: gpt-3.5-turbo-0125</title>
       <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
       <description>Provider: OpenAI
@@ -858,6 +830,34 @@ Last Observed: 2026-08-05
 To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
       <pubDate>Wed, 05 Aug 2026 05:16:13 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-1106-2026-09-28-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-5.2-chat-latest</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-5.2-chat-latest
+Deprecation Date: 2026-05-08
+Shutdown Date: 2026-08-10
+First Observed: 2026-05-13
+Last Observed: 2026-07-23
+
+On May 8th, 2026, we notified developers using `gpt-5.2-chat-latest` and `gpt-5.3-chat-latest` model snapshots of their deprecation and removal from the API.</description>
+      <pubDate>Thu, 23 Jul 2026 05:27:05 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-5.2-chat-latest-2026-08-10-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-5.3-chat-latest</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-5.3-chat-latest
+Deprecation Date: 2026-05-08
+Shutdown Date: 2026-08-10
+First Observed: 2026-05-13
+Last Observed: 2026-07-23
+
+On May 8th, 2026, we notified developers using `gpt-5.2-chat-latest` and `gpt-5.3-chat-latest` model snapshots of their deprecation and removal from the API.</description>
+      <pubDate>Thu, 23 Jul 2026 05:27:05 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-5.3-chat-latest-2026-08-10-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: computer-use-preview-2025-03-11</title>
