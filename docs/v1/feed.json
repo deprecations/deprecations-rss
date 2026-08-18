@@ -5367,104 +5367,20 @@
       ]
     },
     {
-      "id": "aws-bedrock-anthropic.claude-3-sonnet-20240229-v10",
+      "id": "aws-bedrock-us-east-1,-us-west-2",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: anthropic.claude-3-sonnet-20240229-v1:0",
+      "title": "AWS Bedrock: us-east-1, us-west-2",
       "content_text": "",
-      "date_published": "2026-03-26T18:47:23.937362+00:00",
+      "date_published": "2026-08-18T02:56:15.748988+00:00",
       "_deprecation": {
         "provider": "AWS Bedrock",
-        "model_id": "anthropic.claude-3-sonnet-20240229-v1:0",
-        "shutdown_date": "2026-07-30",
-        "deprecation_date": "2026-01-30",
-        "announcement_date": "2026-03-26",
+        "model_id": "us-east-1, us-west-2",
+        "shutdown_date": "2026-05-19",
+        "deprecation_date": "2026-08-19",
+        "announcement_date": "2026-08-18",
         "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-anthropic.claude-3-5-sonnet-20240620-v10",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: anthropic.claude-3-5-sonnet-20240620-v1:0",
-      "content_text": "",
-      "date_published": "2026-07-01T06:35:28.840079+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0",
-        "shutdown_date": "2026-07-30",
-        "deprecation_date": "2026-01-30",
-        "announcement_date": "2026-03-26",
-        "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-07-01"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-anthropic.claude-3-5-sonnet-20241022-v20",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: anthropic.claude-3-5-sonnet-20241022-v2:0",
-      "content_text": "",
-      "date_published": "2026-04-07T04:35:26.608693+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0",
-        "shutdown_date": "2026-07-30",
-        "deprecation_date": "2026-01-30",
-        "announcement_date": "2026-03-26",
-        "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-04-07"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-anthropic.claude-3-7-sonnet-20250219-v10",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: anthropic.claude-3-7-sonnet-20250219-v1:0",
-      "content_text": "",
-      "date_published": "2026-05-13T05:50:55.489628+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "anthropic.claude-3-7-sonnet-20250219-v1:0",
-        "shutdown_date": "2026-07-30",
-        "deprecation_date": "2026-01-30",
-        "announcement_date": "2026-03-26",
-        "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-05-13"
-      },
-      "tags": [
-        "AWS Bedrock",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "aws-bedrock-cohere.command-r-v10",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-      "title": "AWS Bedrock: cohere.command-r-v1:0",
-      "content_text": "",
-      "date_published": "2026-03-26T18:47:23.938192+00:00",
-      "_deprecation": {
-        "provider": "AWS Bedrock",
-        "model_id": "cohere.command-r-v1:0",
-        "shutdown_date": "2026-08-19",
-        "deprecation_date": "2026-02-19",
-        "announcement_date": "2026-03-26",
-        "replacement_models": null,
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "first_observed": "2026-08-18",
+        "last_observed": "2026-08-18"
       },
       "tags": [
         "AWS Bedrock",
@@ -8315,6 +8231,29 @@
         ],
         "first_observed": "2026-07-08",
         "last_observed": "2026-07-08"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-mai-transcribe-1",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: MAI-Transcribe-1",
+      "content_text": "",
+      "date_published": "2026-08-18T02:56:19.308437+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "MAI-Transcribe-1",
+        "shutdown_date": "2026-09-15",
+        "deprecation_date": "2026-09-15",
+        "announcement_date": "2026-08-18",
+        "replacement_models": [
+          "MAI-Transcribe-1.5"
+        ],
+        "first_observed": "2026-08-18",
+        "last_observed": "2026-08-18"
       },
       "tags": [
         "Azure",

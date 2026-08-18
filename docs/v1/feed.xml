@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 07 Aug 2026 04:26:33 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 02:56:19 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-realtime</title>
       <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
@@ -3332,74 +3332,18 @@ Model ID anthropic.claude-3-haiku-20240307-v1:0. (Claude 3 Haiku). entered legac
       <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-3-haiku-20240307-v10-2026-09-10-e3b0c442</guid>
     </item>
     <item>
-      <title>AWS Bedrock: anthropic.claude-3-sonnet-20240229-v1:0</title>
+      <title>AWS Bedrock: us-east-1, us-west-2</title>
       <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
       <description>Provider: AWS Bedrock
-Model ID: anthropic.claude-3-sonnet-20240229-v1:0
-Deprecation Date: 2026-01-30
-Shutdown Date: 2026-07-30
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Model ID: us-east-1, us-west-2
+Deprecation Date: 2026-08-19
+Shutdown Date: 2026-05-19
+First Observed: 2026-08-18
+Last Observed: 2026-08-18
 
-Model ID anthropic.claude-3-sonnet-20240229-v1:0. (Claude 3 Sonnet). entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30.</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-3-sonnet-20240229-v10-2026-07-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: anthropic.claude-3-5-sonnet-20240620-v1:0</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: anthropic.claude-3-5-sonnet-20240620-v1:0
-Deprecation Date: 2026-01-30
-Shutdown Date: 2026-07-30
-First Observed: 2026-03-26
-Last Observed: 2026-07-01
-
-Model ID anthropic.claude-3-5-sonnet-20240620-v1:0. (Claude 3.5 Sonnet). entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30.</description>
-      <pubDate>Wed, 01 Jul 2026 06:35:28 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-3-5-sonnet-20240620-v10-2026-07-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: anthropic.claude-3-5-sonnet-20241022-v2:0</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: anthropic.claude-3-5-sonnet-20241022-v2:0
-Deprecation Date: 2026-01-30
-Shutdown Date: 2026-07-30
-First Observed: 2026-03-26
-Last Observed: 2026-04-07
-
-Model ID anthropic.claude-3-5-sonnet-20241022-v2:0. (Claude 3.5 Sonnet v2). entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30.</description>
-      <pubDate>Tue, 07 Apr 2026 04:35:26 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-3-5-sonnet-20241022-v20-2026-07-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: anthropic.claude-3-7-sonnet-20250219-v1:0</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: anthropic.claude-3-7-sonnet-20250219-v1:0
-Deprecation Date: 2026-01-30
-Shutdown Date: 2026-07-30
-First Observed: 2026-03-26
-Last Observed: 2026-05-13
-
-Model ID anthropic.claude-3-7-sonnet-20250219-v1:0. (Claude 3.7 Sonnet). entered legacy status on 2026-01-30. and will reach end-of-life on 2026-07-30.</description>
-      <pubDate>Wed, 13 May 2026 05:50:55 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-anthropic.claude-3-7-sonnet-20250219-v10-2026-07-30-e3b0c442</guid>
-    </item>
-    <item>
-      <title>AWS Bedrock: cohere.command-r-v1:0</title>
-      <link>https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html</link>
-      <description>Provider: AWS Bedrock
-Model ID: cohere.command-r-v1:0
-Deprecation Date: 2026-02-19
-Shutdown Date: 2026-08-19
-First Observed: 2026-03-26
-Last Observed: 2026-03-26
-
-Model ID cohere.command-r-v1:0. (Command R). entered legacy status on 2026-02-19. and will reach end-of-life on 2026-08-19.</description>
-      <pubDate>Thu, 26 Mar 2026 18:47:23 GMT</pubDate>
-      <guid isPermaLink="false">AWS_Bedrock-cohere.command-r-v10-2026-08-19-e3b0c442</guid>
+Model ID us-east-1, us-west-2. (cohere.command-r-v1:0). entered legacy status on 2026-08-19. and will reach end-of-life on 2026-05-19.</description>
+      <pubDate>Tue, 18 Aug 2026 02:56:15 GMT</pubDate>
+      <guid isPermaLink="false">AWS_Bedrock-us-east-1,_us-west-2-2026-05-19-e3b0c442</guid>
     </item>
     <item>
       <title>AWS Bedrock: cohere.command-r-plus-v1:0</title>
@@ -5201,6 +5145,20 @@ Last Observed: 2026-07-08
 Microsoft</description>
       <pubDate>Wed, 08 Jul 2026 05:23:11 GMT</pubDate>
       <guid isPermaLink="false">Azure-MAI-Image-2-2026-08-15-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: MAI-Transcribe-1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: MAI-Transcribe-1
+Deprecation Date: 2026-09-15
+Shutdown Date: 2026-09-15
+First Observed: 2026-08-18
+Last Observed: 2026-08-18
+
+Microsoft</description>
+      <pubDate>Tue, 18 Aug 2026 02:56:19 GMT</pubDate>
+      <guid isPermaLink="false">Azure-MAI-Transcribe-1-2026-09-15-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: mistral-document-ai-2505</title>
