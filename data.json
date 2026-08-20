@@ -4683,15 +4683,15 @@
     "provider": "Azure",
     "model_id": "gpt-4.1-nano",
     "announcement_date": "2026-04-25",
-    "shutdown_date": "2026-10-14",
-    "deprecation_date": "2026-10-14",
+    "shutdown_date": "2027-04-14",
+    "deprecation_date": "2027-04-14",
     "replacement_models": null,
     "deprecation_context": "Azure OpenAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "9a44c2c274df1b3e",
-    "scraped_at": "2026-04-28T05:32:49.233318+00:00",
+    "content_hash": "0b76b1cf22741564",
+    "scraped_at": "2026-08-20T02:57:40.628628+00:00",
     "first_observed": "2026-04-25",
-    "last_observed": "2026-04-28"
+    "last_observed": "2026-08-20"
   },
   {
     "provider": "Azure",
@@ -5607,13 +5607,29 @@
     "announcement_date": "2026-06-13",
     "shutdown_date": "2028-02-20",
     "deprecation_date": "2028-02-20",
-    "replacement_models": null,
+    "replacement_models": [
+      "DeepSeek-V4-Flash-0731"
+    ],
     "deprecation_context": "DeepSeek",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
     "content_hash": "ffc311ae35bbda2b",
-    "scraped_at": "2026-07-14T04:52:53.409601+00:00",
+    "scraped_at": "2026-08-20T02:57:40.630968+00:00",
     "first_observed": "2026-06-13",
-    "last_observed": "2026-07-14"
+    "last_observed": "2026-08-20"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "DeepSeek-V4-Flash-0731",
+    "announcement_date": "2026-08-20",
+    "shutdown_date": "2026-12-03",
+    "deprecation_date": "2026-12-03",
+    "replacement_models": null,
+    "deprecation_context": "DeepSeek",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "5f2bf0575cf81010",
+    "scraped_at": "2026-08-20T02:57:40.630992+00:00",
+    "first_observed": "2026-08-20",
+    "last_observed": "2026-08-20"
   },
   {
     "provider": "Azure",

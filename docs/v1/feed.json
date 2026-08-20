@@ -6763,20 +6763,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-4.1-nano",
       "content_text": "",
-      "date_published": "2026-04-28T05:32:49.233318+00:00",
+      "date_published": "2026-08-20T02:57:40.628628+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-4.1-nano",
-        "shutdown_date": "2026-10-14",
-        "deprecation_date": "2026-10-14",
+        "shutdown_date": "2027-04-14",
+        "deprecation_date": "2027-04-14",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-04-28"
+        "last_observed": "2026-08-20"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
@@ -8133,20 +8133,43 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: DeepSeek-V4-Flash",
       "content_text": "",
-      "date_published": "2026-07-14T04:52:53.409601+00:00",
+      "date_published": "2026-08-20T02:57:40.630968+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "DeepSeek-V4-Flash",
         "shutdown_date": "2028-02-20",
         "deprecation_date": "2028-02-20",
         "announcement_date": "2026-06-13",
-        "replacement_models": null,
+        "replacement_models": [
+          "DeepSeek-V4-Flash-0731"
+        ],
         "first_observed": "2026-06-13",
-        "last_observed": "2026-07-14"
+        "last_observed": "2026-08-20"
       },
       "tags": [
         "Azure",
         "shutdown-2028"
+      ]
+    },
+    {
+      "id": "azure-deepseek-v4-flash-0731",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: DeepSeek-V4-Flash-0731",
+      "content_text": "",
+      "date_published": "2026-08-20T02:57:40.630992+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "DeepSeek-V4-Flash-0731",
+        "shutdown_date": "2026-12-03",
+        "deprecation_date": "2026-12-03",
+        "announcement_date": "2026-08-20",
+        "replacement_models": null,
+        "first_observed": "2026-08-20",
+        "last_observed": "2026-08-20"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
       ]
     },
     {
