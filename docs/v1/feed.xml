@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 20 Aug 2026 02:57:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 13:55:33 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-realtime</title>
       <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
@@ -2789,6 +2789,20 @@ Gemini deprecations table: Veo models. Release date: 2025-07-31. Shutdown date: 
       <guid isPermaLink="false">Google-veo-3.0-fast-generate-preview-2025-11-12-e3b0c442</guid>
     </item>
     <item>
+      <title>Google: gemini-omni-flash-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-omni-flash-models</link>
+      <description>Provider: Google
+Model ID: gemini-omni-flash-preview
+Deprecation Date: 2026-09-30
+Shutdown Date: 2026-09-30
+First Observed: 2026-08-28
+Last Observed: 2026-08-28
+
+Gemini deprecations table: Gemini Omni Flash models. Release date: 2026-06-30. Shutdown date: 2026-09-30. Recommended replacement: gemini-omni-1.1-flash.</description>
+      <pubDate>Fri, 28 Aug 2026 13:55:30 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-omni-flash-preview-2026-09-30-e3b0c442</guid>
+    </item>
+    <item>
       <title>Google: gemini-robotics-er-1.6-preview</title>
       <link>https://ai.google.dev/gemini-api/docs/deprecations#robotics-models</link>
       <description>Provider: Google
@@ -5007,6 +5021,20 @@ Azure OpenAI</description>
       <guid isPermaLink="false">Azure-whisper-2026-12-15-e3b0c442</guid>
     </item>
     <item>
+      <title>Azure: Cohere-parse-v5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Cohere-parse-v5
+Deprecation Date: 2026-12-15
+Shutdown Date: 2026-12-15
+First Observed: 2026-08-28
+Last Observed: 2026-08-28
+
+Cohere</description>
+      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Cohere-parse-v5-2026-12-15-e3b0c442</guid>
+    </item>
+    <item>
       <title>Azure: Cohere-command-a-plus-05-2026</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -5315,88 +5343,18 @@ xAI</description>
       <guid isPermaLink="false">Azure-grok-4-fast-reasoning-2026-05-01-e3b0c442</guid>
     </item>
     <item>
-      <title>Azure: claude-haiku-4-5</title>
+      <title>Azure: claude-sonnet-5</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
-Model ID: claude-haiku-4-5
-Deprecation Date: 2026-10-19
-Shutdown Date: 2026-10-19
-First Observed: 2026-04-28
-Last Observed: 2026-04-28
+Model ID: claude-sonnet-5
+Deprecation Date: 2027-06-30
+Shutdown Date: 2027-06-30
+First Observed: 2026-08-28
+Last Observed: 2026-08-28
 
-Anthropic</description>
-      <pubDate>Tue, 28 Apr 2026 05:32:49 GMT</pubDate>
-      <guid isPermaLink="false">Azure-claude-haiku-4-5-2026-10-19-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: claude-opus-4-1</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: claude-opus-4-1
-Deprecation Date: 2026-08-05
-Shutdown Date: 2026-08-05
-First Observed: 2026-04-28
-Last Observed: 2026-08-06
-
-Anthropic</description>
-      <pubDate>Thu, 06 Aug 2026 05:18:28 GMT</pubDate>
-      <guid isPermaLink="false">Azure-claude-opus-4-1-2026-08-05-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: claude-opus-4-5</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: claude-opus-4-5
-Deprecation Date: 2026-10-19
-Shutdown Date: 2026-10-19
-First Observed: 2026-04-28
-Last Observed: 2026-04-28
-
-Anthropic</description>
-      <pubDate>Tue, 28 Apr 2026 05:32:49 GMT</pubDate>
-      <guid isPermaLink="false">Azure-claude-opus-4-5-2026-10-19-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: claude-opus-4-6</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: claude-opus-4-6
-Deprecation Date: 2027-02-02
-Shutdown Date: 2027-02-02
-First Observed: 2026-04-28
-Last Observed: 2026-04-28
-
-Anthropic</description>
-      <pubDate>Tue, 28 Apr 2026 05:32:49 GMT</pubDate>
-      <guid isPermaLink="false">Azure-claude-opus-4-6-2027-02-02-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: claude-opus-4-7</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: claude-opus-4-7
-Deprecation Date: 2027-04-06
-Shutdown Date: 2027-04-06
-First Observed: 2026-05-01
-Last Observed: 2026-05-01
-
-Anthropic</description>
-      <pubDate>Fri, 01 May 2026 21:39:32 GMT</pubDate>
-      <guid isPermaLink="false">Azure-claude-opus-4-7-2027-04-06-e3b0c442</guid>
-    </item>
-    <item>
-      <title>Azure: claude-sonnet-4-5</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: claude-sonnet-4-5
-Deprecation Date: 2026-10-19
-Shutdown Date: 2026-10-19
-First Observed: 2026-04-28
-Last Observed: 2026-04-28
-
-Anthropic</description>
-      <pubDate>Tue, 28 Apr 2026 05:32:49 GMT</pubDate>
-      <guid isPermaLink="false">Azure-claude-sonnet-4-5-2026-10-19-e3b0c442</guid>
+Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
+      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-sonnet-5-2027-06-30-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: claude-sonnet-4-6</title>
@@ -5406,11 +5364,123 @@ Model ID: claude-sonnet-4-6
 Deprecation Date: 2027-02-10
 Shutdown Date: 2027-02-10
 First Observed: 2026-04-28
-Last Observed: 2026-04-28
+Last Observed: 2026-08-28
 
-Anthropic</description>
-      <pubDate>Tue, 28 Apr 2026 05:32:49 GMT</pubDate>
+Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
+      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
       <guid isPermaLink="false">Azure-claude-sonnet-4-6-2027-02-10-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: claude-sonnet-4-5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: claude-sonnet-4-5
+Deprecation Date: 2026-10-19
+Shutdown Date: 2026-10-19
+First Observed: 2026-04-28
+Last Observed: 2026-08-28
+
+Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
+      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-sonnet-4-5-2026-10-19-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: claude-opus-5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: claude-opus-5
+Deprecation Date: 2027-07-08
+Shutdown Date: 2027-07-08
+First Observed: 2026-08-28
+Last Observed: 2026-08-28
+
+Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
+      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-opus-5-2027-07-08-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: claude-opus-4-8</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: claude-opus-4-8
+Deprecation Date: 2027-09-01
+Shutdown Date: 2027-09-01
+First Observed: 2026-08-28
+Last Observed: 2026-08-28
+
+Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
+      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-opus-4-8-2027-09-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: claude-opus-4-7</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: claude-opus-4-7
+Deprecation Date: 2027-04-06
+Shutdown Date: 2027-04-06
+First Observed: 2026-05-01
+Last Observed: 2026-08-28
+
+Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
+      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-opus-4-7-2027-04-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: claude-opus-4-6</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: claude-opus-4-6
+Deprecation Date: 2027-02-02
+Shutdown Date: 2027-02-02
+First Observed: 2026-04-28
+Last Observed: 2026-08-28
+
+Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
+      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-opus-4-6-2027-02-02-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: claude-opus-4-5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: claude-opus-4-5
+Deprecation Date: 2026-10-19
+Shutdown Date: 2026-10-19
+First Observed: 2026-04-28
+Last Observed: 2026-08-28
+
+Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
+      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-opus-4-5-2026-10-19-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: claude-haiku-4-5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: claude-haiku-4-5
+Deprecation Date: 2026-10-19
+Shutdown Date: 2026-10-19
+First Observed: 2026-04-28
+Last Observed: 2026-08-28
+
+Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
+      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-haiku-4-5-2026-10-19-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: claude-fable-5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: claude-fable-5
+Deprecation Date: 2027-12-05
+Shutdown Date: 2027-12-05
+First Observed: 2026-08-28
+Last Observed: 2026-08-28
+
+Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
+      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-fable-5-2027-12-05-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Cohere-command-r-08-2024</title>
