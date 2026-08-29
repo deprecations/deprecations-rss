@@ -8259,6 +8259,69 @@
       ]
     },
     {
+      "id": "azure-mai-image-2.5-pro",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: MAI-Image-2.5-Pro",
+      "content_text": "",
+      "date_published": "2026-08-29T08:42:43.483688+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "MAI-Image-2.5-Pro",
+        "shutdown_date": "2026-10-01",
+        "deprecation_date": "2026-10-01",
+        "announcement_date": "2026-08-29",
+        "replacement_models": null,
+        "first_observed": "2026-08-29",
+        "last_observed": "2026-08-29"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-mai-image-2.5-flash",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: MAI-Image-2.5-Flash",
+      "content_text": "",
+      "date_published": "2026-08-29T08:42:43.483729+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "MAI-Image-2.5-Flash",
+        "shutdown_date": "2026-10-01",
+        "deprecation_date": "2026-10-01",
+        "announcement_date": "2026-08-29",
+        "replacement_models": null,
+        "first_observed": "2026-08-29",
+        "last_observed": "2026-08-29"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-mai-image-2.5",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: MAI-Image-2.5",
+      "content_text": "",
+      "date_published": "2026-08-29T08:42:43.483773+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "MAI-Image-2.5",
+        "shutdown_date": "2026-10-01",
+        "deprecation_date": "2026-10-01",
+        "announcement_date": "2026-08-29",
+        "replacement_models": null,
+        "first_observed": "2026-08-29",
+        "last_observed": "2026-08-29"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "azure-mai-image-2e",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: MAI-Image-2e",

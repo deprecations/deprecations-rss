@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 28 Aug 2026 13:55:33 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 08:42:43 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-realtime</title>
       <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
@@ -5159,6 +5159,48 @@ Last Observed: 2026-07-08
 Microsoft</description>
       <pubDate>Wed, 08 Jul 2026 05:23:11 GMT</pubDate>
       <guid isPermaLink="false">Azure-model-router-2026-08-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: MAI-Image-2.5-Pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: MAI-Image-2.5-Pro
+Deprecation Date: 2026-10-01
+Shutdown Date: 2026-10-01
+First Observed: 2026-08-29
+Last Observed: 2026-08-29
+
+Microsoft</description>
+      <pubDate>Sat, 29 Aug 2026 08:42:43 GMT</pubDate>
+      <guid isPermaLink="false">Azure-MAI-Image-2.5-Pro-2026-10-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: MAI-Image-2.5-Flash</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: MAI-Image-2.5-Flash
+Deprecation Date: 2026-10-01
+Shutdown Date: 2026-10-01
+First Observed: 2026-08-29
+Last Observed: 2026-08-29
+
+Microsoft</description>
+      <pubDate>Sat, 29 Aug 2026 08:42:43 GMT</pubDate>
+      <guid isPermaLink="false">Azure-MAI-Image-2.5-Flash-2026-10-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: MAI-Image-2.5</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: MAI-Image-2.5
+Deprecation Date: 2026-10-01
+Shutdown Date: 2026-10-01
+First Observed: 2026-08-29
+Last Observed: 2026-08-29
+
+Microsoft</description>
+      <pubDate>Sat, 29 Aug 2026 08:42:43 GMT</pubDate>
+      <guid isPermaLink="false">Azure-MAI-Image-2.5-2026-10-01-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: MAI-Image-2e</title>
