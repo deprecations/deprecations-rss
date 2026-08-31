@@ -13,6 +13,102 @@
   "language": "en-US",
   "items": [
     {
+      "id": "openai-whisper-1",
+      "url": "https://platform.openai.com/docs/deprecations#2026-08-26-transcription-models",
+      "title": "OpenAI: whisper-1",
+      "content_text": "",
+      "date_published": "2026-08-31T08:14:52.253217+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "whisper-1",
+        "shutdown_date": "2027-02-26",
+        "deprecation_date": "2026-08-26",
+        "announcement_date": "2026-08-31",
+        "replacement_models": [
+          "gpt-live-transcribe",
+          "gpt-transcribe"
+        ],
+        "first_observed": "2026-08-31",
+        "last_observed": "2026-08-31"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-transcribe",
+      "url": "https://platform.openai.com/docs/deprecations#2026-08-26-transcription-models",
+      "title": "OpenAI: gpt-4o-transcribe",
+      "content_text": "",
+      "date_published": "2026-08-31T08:14:52.253291+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-transcribe",
+        "shutdown_date": "2027-02-26",
+        "deprecation_date": "2026-08-26",
+        "announcement_date": "2026-08-31",
+        "replacement_models": [
+          "gpt-live-transcribe",
+          "gpt-transcribe"
+        ],
+        "first_observed": "2026-08-31",
+        "last_observed": "2026-08-31"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-mini-transcribe",
+      "url": "https://platform.openai.com/docs/deprecations#2026-08-26-transcription-models",
+      "title": "OpenAI: gpt-4o-mini-transcribe",
+      "content_text": "",
+      "date_published": "2026-08-31T08:14:52.253330+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-mini-transcribe",
+        "shutdown_date": "2027-02-26",
+        "deprecation_date": "2026-08-26",
+        "announcement_date": "2026-08-31",
+        "replacement_models": [
+          "gpt-live-transcribe",
+          "gpt-transcribe"
+        ],
+        "first_observed": "2026-08-31",
+        "last_observed": "2026-08-31"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "openai-gpt-4o-transcribe-diarize",
+      "url": "https://platform.openai.com/docs/deprecations#2026-08-26-transcription-models",
+      "title": "OpenAI: gpt-4o-transcribe-diarize",
+      "content_text": "",
+      "date_published": "2026-08-31T08:14:52.253358+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-4o-transcribe-diarize",
+        "shutdown_date": "2027-02-26",
+        "deprecation_date": "2026-08-26",
+        "announcement_date": "2026-08-31",
+        "replacement_models": [
+          "gpt-live-transcribe",
+          "gpt-transcribe"
+        ],
+        "first_observed": "2026-08-31",
+        "last_observed": "2026-08-31"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "openai-gpt-realtime",
       "url": "https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models",
       "title": "OpenAI: gpt-realtime",

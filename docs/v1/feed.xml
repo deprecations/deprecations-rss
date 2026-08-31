@@ -4,7 +4,63 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Sat, 29 Aug 2026 08:42:43 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 08:14:52 GMT</lastBuildDate>
+    <item>
+      <title>OpenAI: whisper-1</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-08-26-transcription-models</link>
+      <description>Provider: OpenAI
+Model ID: whisper-1
+Deprecation Date: 2026-08-26
+Shutdown Date: 2027-02-26
+First Observed: 2026-08-31
+Last Observed: 2026-08-31
+
+On August 26, 2026, we notified developers using `whisper-1`, `gpt-4o-transcribe`, `gpt-4o-mini-transcribe`, and `gpt-4o-transcribe-diarize` of their deprecation and removal from the API on February 26, 2027. For information about the recommended replacements, see the [transcription guide](https://developers.openai.com/api/docs/guides/transcription).</description>
+      <pubDate>Mon, 31 Aug 2026 08:14:52 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-whisper-1-2027-02-26-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-transcribe</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-08-26-transcription-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-transcribe
+Deprecation Date: 2026-08-26
+Shutdown Date: 2027-02-26
+First Observed: 2026-08-31
+Last Observed: 2026-08-31
+
+On August 26, 2026, we notified developers using `whisper-1`, `gpt-4o-transcribe`, `gpt-4o-mini-transcribe`, and `gpt-4o-transcribe-diarize` of their deprecation and removal from the API on February 26, 2027. For information about the recommended replacements, see the [transcription guide](https://developers.openai.com/api/docs/guides/transcription).</description>
+      <pubDate>Mon, 31 Aug 2026 08:14:52 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-transcribe-2027-02-26-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-mini-transcribe</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-08-26-transcription-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-mini-transcribe
+Deprecation Date: 2026-08-26
+Shutdown Date: 2027-02-26
+First Observed: 2026-08-31
+Last Observed: 2026-08-31
+
+On August 26, 2026, we notified developers using `whisper-1`, `gpt-4o-transcribe`, `gpt-4o-mini-transcribe`, and `gpt-4o-transcribe-diarize` of their deprecation and removal from the API on February 26, 2027. For information about the recommended replacements, see the [transcription guide](https://developers.openai.com/api/docs/guides/transcription).</description>
+      <pubDate>Mon, 31 Aug 2026 08:14:52 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-mini-transcribe-2027-02-26-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-4o-transcribe-diarize</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-08-26-transcription-models</link>
+      <description>Provider: OpenAI
+Model ID: gpt-4o-transcribe-diarize
+Deprecation Date: 2026-08-26
+Shutdown Date: 2027-02-26
+First Observed: 2026-08-31
+Last Observed: 2026-08-31
+
+On August 26, 2026, we notified developers using `whisper-1`, `gpt-4o-transcribe`, `gpt-4o-mini-transcribe`, and `gpt-4o-transcribe-diarize` of their deprecation and removal from the API on February 26, 2027. For information about the recommended replacements, see the [transcription guide](https://developers.openai.com/api/docs/guides/transcription).</description>
+      <pubDate>Mon, 31 Aug 2026 08:14:52 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-4o-transcribe-diarize-2027-02-26-e3b0c442</guid>
+    </item>
     <item>
       <title>OpenAI: gpt-realtime</title>
       <link>https://platform.openai.com/docs/deprecations#2026-07-20-legacy-audio-realtime-and-transcription-models</link>
