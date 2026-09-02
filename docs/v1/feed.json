@@ -8876,6 +8876,29 @@
       ]
     },
     {
+      "id": "azure-claude-opus-4-1",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: claude-opus-4-1",
+      "content_text": "",
+      "date_published": "2026-09-02T06:53:40.819246+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "claude-opus-4-1",
+        "shutdown_date": "2026-08-05",
+        "deprecation_date": "2026-08-05",
+        "announcement_date": "2026-09-02",
+        "replacement_models": [
+          "claude-opus-5"
+        ],
+        "first_observed": "2026-09-02",
+        "last_observed": "2026-09-02"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "azure-claude-haiku-4-5",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: claude-haiku-4-5",

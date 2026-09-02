@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Mon, 31 Aug 2026 08:14:52 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 06:53:40 GMT</lastBuildDate>
     <item>
       <title>OpenAI: whisper-1</title>
       <link>https://platform.openai.com/docs/deprecations#2026-08-26-transcription-models</link>
@@ -5551,6 +5551,20 @@ Last Observed: 2026-08-28
 Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
       <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
       <guid isPermaLink="false">Azure-claude-opus-4-5-2026-10-19-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: claude-opus-4-1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: claude-opus-4-1
+Deprecation Date: 2026-08-05
+Shutdown Date: 2026-08-05
+First Observed: 2026-09-02
+Last Observed: 2026-09-02
+
+Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
+      <pubDate>Wed, 02 Sep 2026 06:53:40 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-opus-4-1-2026-08-05-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: claude-haiku-4-5</title>
