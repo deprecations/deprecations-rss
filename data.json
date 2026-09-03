@@ -6142,6 +6142,20 @@
   },
   {
     "provider": "Azure",
+    "model_id": "claude-fable-5-1",
+    "announcement_date": "2026-09-03",
+    "shutdown_date": "2027-12-05",
+    "deprecation_date": "2027-12-05",
+    "replacement_models": null,
+    "deprecation_context": "Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "dda96a104d862571",
+    "scraped_at": "2026-09-03T06:57:08.275981+00:00",
+    "first_observed": "2026-09-03",
+    "last_observed": "2026-09-03"
+  },
+  {
+    "provider": "Azure",
     "model_id": "claude-fable-5",
     "announcement_date": "2026-08-28",
     "shutdown_date": "2027-12-05",

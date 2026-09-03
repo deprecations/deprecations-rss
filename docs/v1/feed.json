@@ -8920,6 +8920,27 @@
       ]
     },
     {
+      "id": "azure-claude-fable-5-1",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: claude-fable-5-1",
+      "content_text": "",
+      "date_published": "2026-09-03T06:57:08.275981+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "claude-fable-5-1",
+        "shutdown_date": "2027-12-05",
+        "deprecation_date": "2027-12-05",
+        "announcement_date": "2026-09-03",
+        "replacement_models": null,
+        "first_observed": "2026-09-03",
+        "last_observed": "2026-09-03"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "azure-claude-fable-5",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: claude-fable-5",
