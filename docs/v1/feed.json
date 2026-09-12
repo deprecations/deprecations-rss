@@ -13,6 +13,29 @@
   "language": "en-US",
   "items": [
     {
+      "id": "openai-gpt-5.4-cyber",
+      "url": "https://platform.openai.com/docs/deprecations#2026-09-11-gpt-5-4-cyber",
+      "title": "OpenAI: gpt-5.4-cyber",
+      "content_text": "",
+      "date_published": "2026-09-12T06:57:32.054605+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-5.4-cyber",
+        "shutdown_date": "2026-10-01",
+        "deprecation_date": "2026-09-11",
+        "announcement_date": "2026-09-12",
+        "replacement_models": [
+          "gpt-5.6-cyber"
+        ],
+        "first_observed": "2026-09-12",
+        "last_observed": "2026-09-12"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "openai-whisper-1",
       "url": "https://platform.openai.com/docs/deprecations#2026-08-26-transcription-models",
       "title": "OpenAI: whisper-1",
@@ -2087,7 +2110,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
       "title": "OpenAI: gpt-4o-realtime-preview",
       "content_text": "",
-      "date_published": "2026-03-26T13:06:41.584709+00:00",
+      "date_published": "2026-09-12T06:57:32.058310+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-4o-realtime-preview",
@@ -2098,7 +2121,7 @@
           "gpt-realtime-1.5"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "OpenAI",
@@ -2110,7 +2133,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
       "title": "OpenAI: gpt-4o-realtime-preview-2025-06-03",
       "content_text": "",
-      "date_published": "2026-03-26T13:06:41.584753+00:00",
+      "date_published": "2026-09-12T06:57:32.058324+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-4o-realtime-preview-2025-06-03",
@@ -2121,7 +2144,7 @@
           "gpt-realtime-1.5"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "OpenAI",
@@ -2133,7 +2156,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
       "title": "OpenAI: gpt-4o-realtime-preview-2024-12-17",
       "content_text": "",
-      "date_published": "2026-03-26T13:06:41.584793+00:00",
+      "date_published": "2026-09-12T06:57:32.058335+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-4o-realtime-preview-2024-12-17",
@@ -2144,7 +2167,7 @@
           "gpt-realtime-1.5"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "OpenAI",
@@ -2156,7 +2179,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
       "title": "OpenAI: gpt-4o-mini-realtime-preview",
       "content_text": "",
-      "date_published": "2026-03-26T13:06:41.584832+00:00",
+      "date_published": "2026-09-12T06:57:32.058346+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-4o-mini-realtime-preview",
@@ -2167,7 +2190,7 @@
           "gpt-realtime-mini"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "OpenAI",
@@ -2179,7 +2202,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
       "title": "OpenAI: gpt-4o-audio-preview",
       "content_text": "",
-      "date_published": "2026-03-26T13:06:41.584871+00:00",
+      "date_published": "2026-09-12T06:57:32.058356+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-4o-audio-preview",
@@ -2190,7 +2213,7 @@
           "gpt-audio-1.5"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "OpenAI",
@@ -2202,7 +2225,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-09-15-gpt-4o-realtime-preview-models",
       "title": "OpenAI: gpt-4o-mini-audio-preview",
       "content_text": "",
-      "date_published": "2026-03-26T13:06:41.584909+00:00",
+      "date_published": "2026-09-12T06:57:32.058365+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-4o-mini-audio-preview",
@@ -2213,7 +2236,7 @@
           "gpt-audio-mini"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "OpenAI",
@@ -2225,7 +2248,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2025-06-10-gpt-4o-realtime-preview-2024-10-01",
       "title": "OpenAI: gpt-4o-realtime-preview-2024-10-01",
       "content_text": "",
-      "date_published": "2026-03-26T13:06:41.585015+00:00",
+      "date_published": "2026-09-12T06:57:32.058510+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-4o-realtime-preview-2024-10-01",
@@ -2236,7 +2259,7 @@
           "gpt-realtime-1.5"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-03-26"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "OpenAI",
@@ -7606,18 +7629,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o1",
       "content_text": "",
-      "date_published": "2026-07-25T05:16:05.258290+00:00",
+      "date_published": "2026-09-12T06:57:36.994759+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o1",
-        "shutdown_date": "2026-10-21",
-        "deprecation_date": "2026-10-21",
+        "shutdown_date": "2026-11-19",
+        "deprecation_date": "2026-11-19",
         "announcement_date": "2026-04-25",
         "replacement_models": [
           "gpt-5.6-sol"
         ],
         "first_observed": "2026-04-25",
-        "last_observed": "2026-07-25"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "Azure",
@@ -7629,18 +7652,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o1-pro",
       "content_text": "",
-      "date_published": "2026-07-25T05:16:05.258331+00:00",
+      "date_published": "2026-09-12T06:57:36.994804+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o1-pro",
-        "shutdown_date": "2026-10-21",
-        "deprecation_date": "2026-10-21",
+        "shutdown_date": "2026-11-19",
+        "deprecation_date": "2026-11-19",
         "announcement_date": "2026-05-21",
         "replacement_models": [
           "gpt-5.6-sol"
         ],
         "first_observed": "2026-05-21",
-        "last_observed": "2026-07-25"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "Azure",
@@ -7652,18 +7675,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o3",
       "content_text": "",
-      "date_published": "2026-07-25T05:16:05.258375+00:00",
+      "date_published": "2026-09-12T06:57:36.994847+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o3",
-        "shutdown_date": "2026-10-21",
-        "deprecation_date": "2026-10-21",
+        "shutdown_date": "2026-11-19",
+        "deprecation_date": "2026-11-19",
         "announcement_date": "2026-04-25",
         "replacement_models": [
           "gpt-5.6-sol"
         ],
         "first_observed": "2026-04-25",
-        "last_observed": "2026-07-25"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "Azure",
@@ -7675,16 +7698,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o3-deep-research",
       "content_text": "",
-      "date_published": "2026-04-25T04:37:34.699782+00:00",
+      "date_published": "2026-09-12T06:57:36.994888+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o3-deep-research",
-        "shutdown_date": "2026-12-26",
-        "deprecation_date": "2026-12-26",
+        "shutdown_date": "2026-11-19",
+        "deprecation_date": "2026-11-19",
         "announcement_date": "2026-04-25",
-        "replacement_models": null,
+        "replacement_models": [
+          "gpt-5.6-sol"
+        ],
         "first_observed": "2026-04-25",
-        "last_observed": "2026-04-25"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "Azure",
@@ -7696,18 +7721,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o3-mini",
       "content_text": "",
-      "date_published": "2026-07-08T05:23:11.509858+00:00",
+      "date_published": "2026-09-12T06:57:36.994929+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o3-mini",
-        "shutdown_date": "2026-10-01",
-        "deprecation_date": "2026-10-01",
+        "shutdown_date": "2026-11-19",
+        "deprecation_date": "2026-11-19",
         "announcement_date": "2026-04-25",
         "replacement_models": [
-          "o4-mini"
+          "gpt-5.6-terra"
         ],
         "first_observed": "2026-04-25",
-        "last_observed": "2026-07-08"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "Azure",
@@ -7719,16 +7744,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o3-pro",
       "content_text": "",
-      "date_published": "2026-07-31T05:37:13.531706+00:00",
+      "date_published": "2026-09-12T06:57:36.995003+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o3-pro",
-        "shutdown_date": "2026-12-17",
-        "deprecation_date": "2026-12-17",
+        "shutdown_date": "2026-11-19",
+        "deprecation_date": "2026-11-19",
         "announcement_date": "2026-04-25",
-        "replacement_models": null,
+        "replacement_models": [
+          "gpt-5.6-sol"
+        ],
         "first_observed": "2026-04-25",
-        "last_observed": "2026-07-31"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "Azure",
@@ -7740,16 +7767,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o4-mini",
       "content_text": "",
-      "date_published": "2026-04-28T05:32:49.236320+00:00",
+      "date_published": "2026-09-12T06:57:36.995050+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o4-mini",
-        "shutdown_date": "2026-10-16",
-        "deprecation_date": "2026-10-16",
+        "shutdown_date": "2026-11-19",
+        "deprecation_date": "2026-11-19",
         "announcement_date": "2026-04-25",
-        "replacement_models": null,
+        "replacement_models": [
+          "gpt-5.6-terra"
+        ],
         "first_observed": "2026-04-25",
-        "last_observed": "2026-04-28"
+        "last_observed": "2026-09-12"
       },
       "tags": [
         "Azure",

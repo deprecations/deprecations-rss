@@ -4,7 +4,21 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 11 Sep 2026 07:04:55 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 06:57:36 GMT</lastBuildDate>
+    <item>
+      <title>OpenAI: gpt-5.4-cyber</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-09-11-gpt-5-4-cyber</link>
+      <description>Provider: OpenAI
+Model ID: gpt-5.4-cyber
+Deprecation Date: 2026-09-11
+Shutdown Date: 2026-10-01
+First Observed: 2026-09-12
+Last Observed: 2026-09-12
+
+The `gpt-5.4-cyber` model is deprecated and will be removed from the API on October 1, 2026. Migrate to `gpt-5.6-cyber` before the shutdown date.</description>
+      <pubDate>Sat, 12 Sep 2026 06:57:32 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-5.4-cyber-2026-10-01-e3b0c442</guid>
+    </item>
     <item>
       <title>OpenAI: whisper-1</title>
       <link>https://platform.openai.com/docs/deprecations#2026-08-26-transcription-models</link>
@@ -1273,10 +1287,10 @@ Model ID: gpt-4o-realtime-preview
 Deprecation Date: 2025-09-15
 Shutdown Date: 2026-05-07
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-09-12
 
-In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
-      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+In September, 2025, we notified developers using `gpt-4o-realtime-preview` models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Sat, 12 Sep 2026 06:57:32 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2026-05-07-e3b0c442</guid>
     </item>
     <item>
@@ -1287,10 +1301,10 @@ Model ID: gpt-4o-realtime-preview-2025-06-03
 Deprecation Date: 2025-09-15
 Shutdown Date: 2026-05-07
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-09-12
 
-In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
-      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+In September, 2025, we notified developers using `gpt-4o-realtime-preview` models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Sat, 12 Sep 2026 06:57:32 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2025-06-03-2026-05-07-e3b0c442</guid>
     </item>
     <item>
@@ -1301,10 +1315,10 @@ Model ID: gpt-4o-realtime-preview-2024-12-17
 Deprecation Date: 2025-09-15
 Shutdown Date: 2026-05-07
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-09-12
 
-In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
-      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+In September, 2025, we notified developers using `gpt-4o-realtime-preview` models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Sat, 12 Sep 2026 06:57:32 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2024-12-17-2026-05-07-e3b0c442</guid>
     </item>
     <item>
@@ -1315,10 +1329,10 @@ Model ID: gpt-4o-mini-realtime-preview
 Deprecation Date: 2025-09-15
 Shutdown Date: 2026-05-07
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-09-12
 
-In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
-      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+In September, 2025, we notified developers using `gpt-4o-realtime-preview` models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Sat, 12 Sep 2026 06:57:32 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-mini-realtime-preview-2026-05-07-e3b0c442</guid>
     </item>
     <item>
@@ -1329,10 +1343,10 @@ Model ID: gpt-4o-audio-preview
 Deprecation Date: 2025-09-15
 Shutdown Date: 2026-05-07
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-09-12
 
-In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
-      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+In September, 2025, we notified developers using `gpt-4o-realtime-preview` models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Sat, 12 Sep 2026 06:57:32 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-audio-preview-2026-05-07-e3b0c442</guid>
     </item>
     <item>
@@ -1343,10 +1357,10 @@ Model ID: gpt-4o-mini-audio-preview
 Deprecation Date: 2025-09-15
 Shutdown Date: 2026-05-07
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-09-12
 
-In September, 2025, we notified developers using gpt-4o-realtime-preview models of their deprecation and removal from the API in six months.</description>
-      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+In September, 2025, we notified developers using `gpt-4o-realtime-preview` models of their deprecation and removal from the API in six months.</description>
+      <pubDate>Sat, 12 Sep 2026 06:57:32 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-mini-audio-preview-2026-05-07-e3b0c442</guid>
     </item>
     <item>
@@ -1357,10 +1371,10 @@ Model ID: gpt-4o-realtime-preview-2024-10-01
 Deprecation Date: 2025-06-10
 Shutdown Date: 2025-10-10
 First Observed: 2026-03-26
-Last Observed: 2026-03-26
+Last Observed: 2026-09-12
 
-On June 10th, 2025, we notified developers using gpt-4o-realtime-preview-2024-10-01 of its deprecation and removal from the API in three months.</description>
-      <pubDate>Thu, 26 Mar 2026 13:06:41 GMT</pubDate>
+On June 10th, 2025, we notified developers using `gpt-4o-realtime-preview-2024-10-01` of its deprecation and removal from the API in three months.</description>
+      <pubDate>Sat, 12 Sep 2026 06:57:32 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-4o-realtime-preview-2024-10-01-2025-10-10-e3b0c442</guid>
     </item>
     <item>
@@ -4731,98 +4745,98 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: o1
-Deprecation Date: 2026-10-21
-Shutdown Date: 2026-10-21
+Deprecation Date: 2026-11-19
+Shutdown Date: 2026-11-19
 First Observed: 2026-04-25
-Last Observed: 2026-07-25
+Last Observed: 2026-09-12
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Jul 2026 05:16:05 GMT</pubDate>
-      <guid isPermaLink="false">Azure-o1-2026-10-21-e3b0c442</guid>
+      <pubDate>Sat, 12 Sep 2026 06:57:36 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o1-2026-11-19-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o1-pro</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: o1-pro
-Deprecation Date: 2026-10-21
-Shutdown Date: 2026-10-21
+Deprecation Date: 2026-11-19
+Shutdown Date: 2026-11-19
 First Observed: 2026-05-21
-Last Observed: 2026-07-25
+Last Observed: 2026-09-12
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Jul 2026 05:16:05 GMT</pubDate>
-      <guid isPermaLink="false">Azure-o1-pro-2026-10-21-e3b0c442</guid>
+      <pubDate>Sat, 12 Sep 2026 06:57:36 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o1-pro-2026-11-19-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o3</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: o3
-Deprecation Date: 2026-10-21
-Shutdown Date: 2026-10-21
+Deprecation Date: 2026-11-19
+Shutdown Date: 2026-11-19
 First Observed: 2026-04-25
-Last Observed: 2026-07-25
+Last Observed: 2026-09-12
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Jul 2026 05:16:05 GMT</pubDate>
-      <guid isPermaLink="false">Azure-o3-2026-10-21-e3b0c442</guid>
+      <pubDate>Sat, 12 Sep 2026 06:57:36 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o3-2026-11-19-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o3-deep-research</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: o3-deep-research
-Deprecation Date: 2026-12-26
-Shutdown Date: 2026-12-26
+Deprecation Date: 2026-11-19
+Shutdown Date: 2026-11-19
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-09-12
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-o3-deep-research-2026-12-26-e3b0c442</guid>
+      <pubDate>Sat, 12 Sep 2026 06:57:36 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o3-deep-research-2026-11-19-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o3-mini</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: o3-mini
-Deprecation Date: 2026-10-01
-Shutdown Date: 2026-10-01
+Deprecation Date: 2026-11-19
+Shutdown Date: 2026-11-19
 First Observed: 2026-04-25
-Last Observed: 2026-07-08
+Last Observed: 2026-09-12
 
 Azure OpenAI</description>
-      <pubDate>Wed, 08 Jul 2026 05:23:11 GMT</pubDate>
-      <guid isPermaLink="false">Azure-o3-mini-2026-10-01-e3b0c442</guid>
+      <pubDate>Sat, 12 Sep 2026 06:57:36 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o3-mini-2026-11-19-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o3-pro</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: o3-pro
-Deprecation Date: 2026-12-17
-Shutdown Date: 2026-12-17
+Deprecation Date: 2026-11-19
+Shutdown Date: 2026-11-19
 First Observed: 2026-04-25
-Last Observed: 2026-07-31
+Last Observed: 2026-09-12
 
 Azure OpenAI</description>
-      <pubDate>Fri, 31 Jul 2026 05:37:13 GMT</pubDate>
-      <guid isPermaLink="false">Azure-o3-pro-2026-12-17-e3b0c442</guid>
+      <pubDate>Sat, 12 Sep 2026 06:57:36 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o3-pro-2026-11-19-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: o4-mini</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: o4-mini
-Deprecation Date: 2026-10-16
-Shutdown Date: 2026-10-16
+Deprecation Date: 2026-11-19
+Shutdown Date: 2026-11-19
 First Observed: 2026-04-25
-Last Observed: 2026-04-28
+Last Observed: 2026-09-12
 
 Azure OpenAI</description>
-      <pubDate>Tue, 28 Apr 2026 05:32:49 GMT</pubDate>
-      <guid isPermaLink="false">Azure-o4-mini-2026-10-16-e3b0c442</guid>
+      <pubDate>Sat, 12 Sep 2026 06:57:36 GMT</pubDate>
+      <guid isPermaLink="false">Azure-o4-mini-2026-11-19-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: sora-2</title>
