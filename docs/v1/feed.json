@@ -4249,7 +4249,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#live-api-models",
       "title": "Google: gemini-2.0-flash-live-001",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.814360+00:00",
+      "date_published": "2026-09-16T07:21:42.675571+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.0-flash-live-001",
@@ -4257,10 +4257,10 @@
         "deprecation_date": "2025-12-09",
         "announcement_date": "2025-12-05",
         "replacement_models": [
-          "gemini-3.1-flash-live-preview"
+          "gemini-3.8-live"
         ],
         "first_observed": "2025-12-05",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-09-16"
       },
       "tags": [
         "Google",
@@ -4272,7 +4272,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#live-api-models",
       "title": "Google: gemini-live-2.5-flash-preview",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.814597+00:00",
+      "date_published": "2026-09-16T07:21:42.675746+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-live-2.5-flash-preview",
@@ -4280,10 +4280,10 @@
         "deprecation_date": "2025-12-09",
         "announcement_date": "2025-12-05",
         "replacement_models": [
-          "gemini-3.1-flash-live-preview"
+          "gemini-3.8-live"
         ],
         "first_observed": "2025-12-05",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-09-16"
       },
       "tags": [
         "Google",
