@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Wed, 16 Sep 2026 07:21:42 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 07:17:39 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5.4-cyber</title>
       <link>https://platform.openai.com/docs/deprecations#2026-09-11-gpt-5-4-cyber</link>
@@ -4087,14 +4087,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-4.1-nano
-Deprecation Date: 2027-04-14
-Shutdown Date: 2027-04-14
+Deprecation Date: 2026-10-14
+Shutdown Date: 2026-10-14
 First Observed: 2026-04-25
-Last Observed: 2026-08-20
+Last Observed: 2026-09-17
 
 Azure OpenAI</description>
-      <pubDate>Thu, 20 Aug 2026 02:57:40 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-4.1-nano-2027-04-14-e3b0c442</guid>
+      <pubDate>Thu, 17 Sep 2026 07:17:39 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4.1-nano-2026-10-14-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-4o</title>
@@ -4605,14 +4605,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-image-1.5
-Deprecation Date: 2027-06-16
-Shutdown Date: 2027-06-16
+Deprecation Date: 2026-12-16
+Shutdown Date: 2026-12-16
 First Observed: 2026-04-25
-Last Observed: 2026-07-31
+Last Observed: 2026-09-17
 
 Azure OpenAI</description>
-      <pubDate>Fri, 31 Jul 2026 05:37:13 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-image-1.5-2027-06-16-e3b0c442</guid>
+      <pubDate>Thu, 17 Sep 2026 07:17:39 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-image-1.5-2026-12-16-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-image-2</title>
@@ -4955,14 +4955,14 @@ Cohere</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Cohere-command-a-plus-05-2026
-Deprecation Date: 2026-10-13
-Shutdown Date: 2026-10-13
+Deprecation Date: 2026-10-16
+Shutdown Date: 2026-10-16
 First Observed: 2026-07-10
-Last Observed: 2026-07-10
+Last Observed: 2026-09-17
 
 Cohere</description>
-      <pubDate>Fri, 10 Jul 2026 06:05:43 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Cohere-command-a-plus-05-2026-2026-10-13-e3b0c442</guid>
+      <pubDate>Thu, 17 Sep 2026 07:17:39 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Cohere-command-a-plus-05-2026-2026-10-16-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: DeepSeek-R1</title>

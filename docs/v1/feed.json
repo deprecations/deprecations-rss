@@ -6632,20 +6632,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-4.1-nano",
       "content_text": "",
-      "date_published": "2026-08-20T02:57:40.628628+00:00",
+      "date_published": "2026-09-17T07:17:39.665106+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-4.1-nano",
-        "shutdown_date": "2027-04-14",
-        "deprecation_date": "2027-04-14",
+        "shutdown_date": "2026-10-14",
+        "deprecation_date": "2026-10-14",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-08-20"
+        "last_observed": "2026-09-17"
       },
       "tags": [
         "Azure",
-        "shutdown-2027"
+        "shutdown-2026"
       ]
     },
     {
@@ -7419,20 +7419,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-image-1.5",
       "content_text": "",
-      "date_published": "2026-07-31T05:37:13.531185+00:00",
+      "date_published": "2026-09-17T07:17:39.666607+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-image-1.5",
-        "shutdown_date": "2027-06-16",
-        "deprecation_date": "2027-06-16",
+        "shutdown_date": "2026-12-16",
+        "deprecation_date": "2026-12-16",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-07-31"
+        "last_observed": "2026-09-17"
       },
       "tags": [
         "Azure",
-        "shutdown-2027"
+        "shutdown-2026"
       ]
     },
     {
@@ -7958,16 +7958,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Cohere-command-a-plus-05-2026",
       "content_text": "",
-      "date_published": "2026-07-10T06:05:43.918805+00:00",
+      "date_published": "2026-09-17T07:17:39.668008+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Cohere-command-a-plus-05-2026",
-        "shutdown_date": "2026-10-13",
-        "deprecation_date": "2026-10-13",
+        "shutdown_date": "2026-10-16",
+        "deprecation_date": "2026-10-16",
         "announcement_date": "2026-07-10",
         "replacement_models": null,
         "first_observed": "2026-07-10",
-        "last_observed": "2026-07-10"
+        "last_observed": "2026-09-17"
       },
       "tags": [
         "Azure",
