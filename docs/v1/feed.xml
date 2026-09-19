@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 17 Sep 2026 07:17:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 07:06:56 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5.4-cyber</title>
       <link>https://platform.openai.com/docs/deprecations#2026-09-11-gpt-5-4-cyber</link>
@@ -4087,14 +4087,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-4.1-nano
-Deprecation Date: 2026-10-14
-Shutdown Date: 2026-10-14
+Deprecation Date: 2027-04-14
+Shutdown Date: 2027-04-14
 First Observed: 2026-04-25
-Last Observed: 2026-09-17
+Last Observed: 2026-09-19
 
 Azure OpenAI</description>
-      <pubDate>Thu, 17 Sep 2026 07:17:39 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-4.1-nano-2026-10-14-e3b0c442</guid>
+      <pubDate>Sat, 19 Sep 2026 07:06:56 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4.1-nano-2027-04-14-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-4o</title>

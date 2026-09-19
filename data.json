@@ -4601,15 +4601,15 @@
     "provider": "Azure",
     "model_id": "gpt-4.1-nano",
     "announcement_date": "2026-04-25",
-    "shutdown_date": "2026-10-14",
-    "deprecation_date": "2026-10-14",
+    "shutdown_date": "2027-04-14",
+    "deprecation_date": "2027-04-14",
     "replacement_models": null,
     "deprecation_context": "Azure OpenAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "9a44c2c274df1b3e",
-    "scraped_at": "2026-09-17T07:17:39.665106+00:00",
+    "content_hash": "0b76b1cf22741564",
+    "scraped_at": "2026-09-19T07:06:56.682429+00:00",
     "first_observed": "2026-04-25",
-    "last_observed": "2026-09-17"
+    "last_observed": "2026-09-19"
   },
   {
     "provider": "Azure",
