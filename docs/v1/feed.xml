@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Sat, 19 Sep 2026 07:06:56 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 07:32:14 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5.4-cyber</title>
       <link>https://platform.openai.com/docs/deprecations#2026-09-11-gpt-5-4-cyber</link>
@@ -3450,6 +3450,48 @@ Last Observed: 2026-08-07
 On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family. Fine-tuned models created from these base models are not affected by this deprecation. | Shutdown Date | Deprecated Model           | Deprecated Model Price | Recommended Replacement | | ------------- | -------------------------- | ---------------------- | ----------------------- | | 2025-04-30    | `rerank-english-v2.0`      | \$1.00 / 1K searches   | `rerank-v3.5`         ...</description>
       <pubDate>Fri, 07 Aug 2026 04:26:33 GMT</pubDate>
       <guid isPermaLink="false">Cohere-rerank-multilingual-v2.0-2025-04-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: groq/compound</title>
+      <link>https://console.groq.com/docs/deprecations#september-21-2026-groqcompound-and-groqcompoundmini</link>
+      <description>Provider: Groq
+Model ID: groq/compound
+Deprecation Date: 2026-09-21
+Shutdown Date: 2026-09-21
+First Observed: 2026-09-20
+Last Observed: 2026-09-20
+
+On August 24, 2026, we announced the deprecation of `groq/compound` and `groq/compound-mini`. Both systems will be decommissioned on September 21, 2026\. Beginning on that date, requests to these model IDs will return errors. Historical overviews are available for [Compound](https://console.groq.com/docs/compound/systems/compound) and [Compound Mini](https://console.groq.com/docs/compound/systems/compound-mini), along with the [Compound changelog](https://console.groq.com/docs/changelog/compound...</description>
+      <pubDate>Sun, 20 Sep 2026 07:32:14 GMT</pubDate>
+      <guid isPermaLink="false">Groq-groq/compound-2026-09-21-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: groq/compound-mini</title>
+      <link>https://console.groq.com/docs/deprecations#september-21-2026-groqcompound-and-groqcompoundmini</link>
+      <description>Provider: Groq
+Model ID: groq/compound-mini
+Deprecation Date: 2026-09-21
+Shutdown Date: 2026-09-21
+First Observed: 2026-09-20
+Last Observed: 2026-09-20
+
+On August 24, 2026, we announced the deprecation of `groq/compound` and `groq/compound-mini`. Both systems will be decommissioned on September 21, 2026\. Beginning on that date, requests to these model IDs will return errors. Historical overviews are available for [Compound](https://console.groq.com/docs/compound/systems/compound) and [Compound Mini](https://console.groq.com/docs/compound/systems/compound-mini), along with the [Compound changelog](https://console.groq.com/docs/changelog/compound...</description>
+      <pubDate>Sun, 20 Sep 2026 07:32:14 GMT</pubDate>
+      <guid isPermaLink="false">Groq-groq/compound-mini-2026-09-21-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Groq: qwen/qwen3.6-27b</title>
+      <link>https://console.groq.com/docs/deprecations#september-14-2026-qwenqwen3627b</link>
+      <description>Provider: Groq
+Model ID: qwen/qwen3.6-27b
+Deprecation Date: 2026-09-20
+Shutdown Date: 2026-09-14
+First Observed: 2026-09-20
+Last Observed: 2026-09-20
+
+In line with our commitment to bringing you cutting-edge models, we announced the deprecation of `qwen/qwen3.6-27b` in favor of `qwen/qwen3.8-27b`. Qwen 3.8 27B is the direct successor: a 27B multimodal model with the same 131K context window, thinking and instruct modes, tunable reasoning effort, tool use, and JSON mode. This deprecation applies to free and developer-tier usage; enterprise customers with a committed-spend contract are not affected.</description>
+      <pubDate>Sun, 20 Sep 2026 07:32:14 GMT</pubDate>
+      <guid isPermaLink="false">Groq-qwen/qwen3.6-27b-2026-09-14-e3b0c442</guid>
     </item>
     <item>
       <title>Groq: llama-3.1-8b-instant</title>

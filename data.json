@@ -3893,6 +3893,50 @@
   },
   {
     "provider": "Groq",
+    "model_id": "groq/compound",
+    "announcement_date": "2026-09-20",
+    "shutdown_date": "2026-09-21",
+    "deprecation_date": "2026-09-21",
+    "replacement_models": null,
+    "deprecation_context": "On August 24, 2026, we announced the deprecation of `groq/compound` and `groq/compound-mini`. Both systems will be decommissioned on September 21, 2026\\. Beginning on that date, requests to these model IDs will return errors. Historical overviews are available for [Compound](https://console.groq.com/docs/compound/systems/compound) and [Compound Mini](https://console.groq.com/docs/compound/systems/compound-mini), along with the [Compound changelog](https://console.groq.com/docs/changelog/compound).",
+    "url": "https://console.groq.com/docs/deprecations#september-21-2026-groqcompound-and-groqcompoundmini",
+    "content_hash": "a0ace1ba5aafee55",
+    "scraped_at": "2026-09-20T07:32:14.345391+00:00",
+    "first_observed": "2026-09-20",
+    "last_observed": "2026-09-20"
+  },
+  {
+    "provider": "Groq",
+    "model_id": "groq/compound-mini",
+    "announcement_date": "2026-09-20",
+    "shutdown_date": "2026-09-21",
+    "deprecation_date": "2026-09-21",
+    "replacement_models": null,
+    "deprecation_context": "On August 24, 2026, we announced the deprecation of `groq/compound` and `groq/compound-mini`. Both systems will be decommissioned on September 21, 2026\\. Beginning on that date, requests to these model IDs will return errors. Historical overviews are available for [Compound](https://console.groq.com/docs/compound/systems/compound) and [Compound Mini](https://console.groq.com/docs/compound/systems/compound-mini), along with the [Compound changelog](https://console.groq.com/docs/changelog/compound).",
+    "url": "https://console.groq.com/docs/deprecations#september-21-2026-groqcompound-and-groqcompoundmini",
+    "content_hash": "d9ecf09146c05e82",
+    "scraped_at": "2026-09-20T07:32:14.345450+00:00",
+    "first_observed": "2026-09-20",
+    "last_observed": "2026-09-20"
+  },
+  {
+    "provider": "Groq",
+    "model_id": "qwen/qwen3.6-27b",
+    "announcement_date": "2026-09-20",
+    "shutdown_date": "2026-09-14",
+    "deprecation_date": "2026-09-20",
+    "replacement_models": [
+      "qwen/qwen3.8-27b"
+    ],
+    "deprecation_context": "In line with our commitment to bringing you cutting-edge models, we announced the deprecation of `qwen/qwen3.6-27b` in favor of `qwen/qwen3.8-27b`. Qwen 3.8 27B is the direct successor: a 27B multimodal model with the same 131K context window, thinking and instruct modes, tunable reasoning effort, tool use, and JSON mode. This deprecation applies to free and developer-tier usage; enterprise customers with a committed-spend contract are not affected.",
+    "url": "https://console.groq.com/docs/deprecations#september-14-2026-qwenqwen3627b",
+    "content_hash": "95f67e25c464c94e",
+    "scraped_at": "2026-09-20T07:32:14.345673+00:00",
+    "first_observed": "2026-09-20",
+    "last_observed": "2026-09-20"
+  },
+  {
+    "provider": "Groq",
     "model_id": "llama-3.1-8b-instant",
     "announcement_date": "2026-06-19",
     "shutdown_date": "2026-08-16",

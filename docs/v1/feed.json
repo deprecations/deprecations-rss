@@ -5614,6 +5614,71 @@
       ]
     },
     {
+      "id": "groq-groq/compound",
+      "url": "https://console.groq.com/docs/deprecations#september-21-2026-groqcompound-and-groqcompoundmini",
+      "title": "Groq: groq/compound",
+      "content_text": "",
+      "date_published": "2026-09-20T07:32:14.345391+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "groq/compound",
+        "shutdown_date": "2026-09-21",
+        "deprecation_date": "2026-09-21",
+        "announcement_date": "2026-09-20",
+        "replacement_models": null,
+        "first_observed": "2026-09-20",
+        "last_observed": "2026-09-20"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "groq-groq/compound-mini",
+      "url": "https://console.groq.com/docs/deprecations#september-21-2026-groqcompound-and-groqcompoundmini",
+      "title": "Groq: groq/compound-mini",
+      "content_text": "",
+      "date_published": "2026-09-20T07:32:14.345450+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "groq/compound-mini",
+        "shutdown_date": "2026-09-21",
+        "deprecation_date": "2026-09-21",
+        "announcement_date": "2026-09-20",
+        "replacement_models": null,
+        "first_observed": "2026-09-20",
+        "last_observed": "2026-09-20"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "groq-qwen/qwen3.6-27b",
+      "url": "https://console.groq.com/docs/deprecations#september-14-2026-qwenqwen3627b",
+      "title": "Groq: qwen/qwen3.6-27b",
+      "content_text": "",
+      "date_published": "2026-09-20T07:32:14.345673+00:00",
+      "_deprecation": {
+        "provider": "Groq",
+        "model_id": "qwen/qwen3.6-27b",
+        "shutdown_date": "2026-09-14",
+        "deprecation_date": "2026-09-20",
+        "announcement_date": "2026-09-20",
+        "replacement_models": [
+          "qwen/qwen3.8-27b"
+        ],
+        "first_observed": "2026-09-20",
+        "last_observed": "2026-09-20"
+      },
+      "tags": [
+        "Groq",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "groq-llama-3.1-8b-instant",
       "url": "https://console.groq.com/docs/deprecations#august-16-2026-llama318binstant-and-llama3370bversatile",
       "title": "Groq: llama-3.1-8b-instant",
