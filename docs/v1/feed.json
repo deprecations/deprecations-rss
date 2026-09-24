@@ -6697,20 +6697,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-4.1-nano",
       "content_text": "",
-      "date_published": "2026-09-19T07:06:56.682429+00:00",
+      "date_published": "2026-09-24T07:21:08.581695+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-4.1-nano",
-        "shutdown_date": "2027-04-14",
-        "deprecation_date": "2027-04-14",
+        "shutdown_date": "2026-10-14",
+        "deprecation_date": "2026-10-14",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-09-19"
+        "last_observed": "2026-09-24"
       },
       "tags": [
         "Azure",
-        "shutdown-2027"
+        "shutdown-2026"
       ]
     },
     {
@@ -6718,18 +6718,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-4o",
       "content_text": "",
-      "date_published": "2026-07-25T05:16:05.255977+00:00",
+      "date_published": "2026-09-24T07:21:08.581749+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-4o",
-        "shutdown_date": "2026-10-01",
-        "deprecation_date": "2026-10-01",
+        "shutdown_date": "2026-12-09",
+        "deprecation_date": "2026-12-09",
         "announcement_date": "2026-04-25",
         "replacement_models": [
-          "gpt-5.1"
+          "gpt-5.6-sol"
         ],
         "first_observed": "2026-04-25",
-        "last_observed": "2026-07-25"
+        "last_observed": "2026-09-24"
       },
       "tags": [
         "Azure",
@@ -7603,27 +7603,6 @@
       "tags": [
         "Azure",
         "shutdown-2027"
-      ]
-    },
-    {
-      "id": "azure-gpt-realtime-2",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: gpt-realtime-2",
-      "content_text": "",
-      "date_published": "2026-07-23T05:27:11.081557+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "gpt-realtime-2",
-        "shutdown_date": "2026-08-31",
-        "deprecation_date": "2026-08-31",
-        "announcement_date": "2026-05-21",
-        "replacement_models": null,
-        "first_observed": "2026-05-21",
-        "last_observed": "2026-07-23"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
       ]
     },
     {

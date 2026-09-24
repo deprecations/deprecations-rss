@@ -4645,31 +4645,31 @@
     "provider": "Azure",
     "model_id": "gpt-4.1-nano",
     "announcement_date": "2026-04-25",
-    "shutdown_date": "2027-04-14",
-    "deprecation_date": "2027-04-14",
+    "shutdown_date": "2026-10-14",
+    "deprecation_date": "2026-10-14",
     "replacement_models": null,
     "deprecation_context": "Azure OpenAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "0b76b1cf22741564",
-    "scraped_at": "2026-09-19T07:06:56.682429+00:00",
+    "content_hash": "9a44c2c274df1b3e",
+    "scraped_at": "2026-09-24T07:21:08.581695+00:00",
     "first_observed": "2026-04-25",
-    "last_observed": "2026-09-19"
+    "last_observed": "2026-09-24"
   },
   {
     "provider": "Azure",
     "model_id": "gpt-4o",
     "announcement_date": "2026-04-25",
-    "shutdown_date": "2026-10-01",
-    "deprecation_date": "2026-10-01",
+    "shutdown_date": "2026-12-09",
+    "deprecation_date": "2026-12-09",
     "replacement_models": [
-      "gpt-5.1"
+      "gpt-5.6-sol"
     ],
     "deprecation_context": "Azure OpenAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "4714699adf95570e",
-    "scraped_at": "2026-07-25T05:16:05.255977+00:00",
+    "content_hash": "1814834da6b13961",
+    "scraped_at": "2026-09-24T07:21:08.581749+00:00",
     "first_observed": "2026-04-25",
-    "last_observed": "2026-07-25"
+    "last_observed": "2026-09-24"
   },
   {
     "provider": "Azure",
@@ -5252,20 +5252,6 @@
     "scraped_at": "2026-07-31T05:37:13.531291+00:00",
     "first_observed": "2026-04-25",
     "last_observed": "2026-07-31"
-  },
-  {
-    "provider": "Azure",
-    "model_id": "gpt-realtime-2",
-    "announcement_date": "2026-05-21",
-    "shutdown_date": "2026-08-31",
-    "deprecation_date": "2026-08-31",
-    "replacement_models": null,
-    "deprecation_context": "Azure OpenAI",
-    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "04e08a7a71f4e80e",
-    "scraped_at": "2026-07-23T05:27:11.081557+00:00",
-    "first_observed": "2026-05-21",
-    "last_observed": "2026-07-23"
   },
   {
     "provider": "Azure",
