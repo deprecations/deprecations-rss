@@ -546,7 +546,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations",
       "title": "OpenAI: gpt-image-1-mini",
       "content_text": "",
-      "date_published": "2026-06-03T06:54:48.896903+00:00",
+      "date_published": "2026-09-29T08:00:01.001707+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-image-1-mini",
@@ -554,10 +554,11 @@
         "deprecation_date": "2026-06-02",
         "announcement_date": "2026-06-03",
         "replacement_models": [
-          "gpt-image-2"
+          "gpt-image-2.5-sunburst",
+          "gpt-image-2.5-flare"
         ],
         "first_observed": "2026-06-03",
-        "last_observed": "2026-06-03"
+        "last_observed": "2026-09-29"
       },
       "tags": [
         "OpenAI",
@@ -569,7 +570,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations",
       "title": "OpenAI: gpt-image-1.5",
       "content_text": "",
-      "date_published": "2026-06-03T06:54:48.896984+00:00",
+      "date_published": "2026-09-29T08:00:01.001744+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-image-1.5",
@@ -577,10 +578,11 @@
         "deprecation_date": "2026-06-02",
         "announcement_date": "2026-06-03",
         "replacement_models": [
-          "gpt-image-2"
+          "gpt-image-2.5-sunburst",
+          "gpt-image-2.5-flare"
         ],
         "first_observed": "2026-06-03",
-        "last_observed": "2026-06-03"
+        "last_observed": "2026-09-29"
       },
       "tags": [
         "OpenAI",
@@ -592,7 +594,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations",
       "title": "OpenAI: chatgpt-image-latest",
       "content_text": "",
-      "date_published": "2026-06-03T06:54:48.897023+00:00",
+      "date_published": "2026-09-29T08:00:01.001774+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "chatgpt-image-latest",
@@ -600,10 +602,11 @@
         "deprecation_date": "2026-06-02",
         "announcement_date": "2026-06-03",
         "replacement_models": [
-          "gpt-image-2"
+          "gpt-image-2.5-sunburst",
+          "gpt-image-2.5-flare"
         ],
         "first_observed": "2026-06-03",
-        "last_observed": "2026-06-03"
+        "last_observed": "2026-09-29"
       },
       "tags": [
         "OpenAI",
@@ -937,7 +940,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
       "title": "OpenAI: gpt-image-1",
       "content_text": "",
-      "date_published": "2026-05-13T05:50:52.581907+00:00",
+      "date_published": "2026-09-29T08:00:01.002184+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-image-1",
@@ -945,10 +948,11 @@
         "deprecation_date": "2026-04-22",
         "announcement_date": "2026-04-23",
         "replacement_models": [
-          "gpt-image-2"
+          "gpt-image-2.5-sunburst",
+          "gpt-image-2.5-flare"
         ],
         "first_observed": "2026-04-23",
-        "last_observed": "2026-05-13"
+        "last_observed": "2026-09-29"
       },
       "tags": [
         "OpenAI",

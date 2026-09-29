@@ -374,14 +374,15 @@
     "shutdown_date": "2026-12-01",
     "deprecation_date": "2026-06-02",
     "replacement_models": [
-      "gpt-image-2"
+      "gpt-image-2.5-sunburst",
+      "gpt-image-2.5-flare"
     ],
     "deprecation_context": "On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.",
     "url": "https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations",
     "content_hash": "3a31e6c414ef2575",
-    "scraped_at": "2026-06-03T06:54:48.896903+00:00",
+    "scraped_at": "2026-09-29T08:00:01.001707+00:00",
     "first_observed": "2026-06-03",
-    "last_observed": "2026-06-03"
+    "last_observed": "2026-09-29"
   },
   {
     "provider": "OpenAI",
@@ -390,14 +391,15 @@
     "shutdown_date": "2026-12-01",
     "deprecation_date": "2026-06-02",
     "replacement_models": [
-      "gpt-image-2"
+      "gpt-image-2.5-sunburst",
+      "gpt-image-2.5-flare"
     ],
     "deprecation_context": "On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.",
     "url": "https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations",
     "content_hash": "17b9a4a8cf404d56",
-    "scraped_at": "2026-06-03T06:54:48.896984+00:00",
+    "scraped_at": "2026-09-29T08:00:01.001744+00:00",
     "first_observed": "2026-06-03",
-    "last_observed": "2026-06-03"
+    "last_observed": "2026-09-29"
   },
   {
     "provider": "OpenAI",
@@ -406,14 +408,15 @@
     "shutdown_date": "2026-12-01",
     "deprecation_date": "2026-06-02",
     "replacement_models": [
-      "gpt-image-2"
+      "gpt-image-2.5-sunburst",
+      "gpt-image-2.5-flare"
     ],
     "deprecation_context": "On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.",
     "url": "https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations",
     "content_hash": "1fdbc55ff9dc5ffb",
-    "scraped_at": "2026-06-03T06:54:48.897023+00:00",
+    "scraped_at": "2026-09-29T08:00:01.001774+00:00",
     "first_observed": "2026-06-03",
-    "last_observed": "2026-06-03"
+    "last_observed": "2026-09-29"
   },
   {
     "provider": "OpenAI",
@@ -646,14 +649,15 @@
     "shutdown_date": "2026-10-23",
     "deprecation_date": "2026-04-22",
     "replacement_models": [
-      "gpt-image-2"
+      "gpt-image-2.5-sunburst",
+      "gpt-image-2.5-flare"
     ],
     "deprecation_context": "To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.",
     "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
     "content_hash": "55a981c6faea7977",
-    "scraped_at": "2026-05-13T05:50:52.581907+00:00",
+    "scraped_at": "2026-09-29T08:00:01.002184+00:00",
     "first_observed": "2026-04-23",
-    "last_observed": "2026-05-13"
+    "last_observed": "2026-09-29"
   },
   {
     "provider": "OpenAI",
