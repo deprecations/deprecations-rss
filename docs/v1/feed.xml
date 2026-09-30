@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Tue, 29 Sep 2026 08:00:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 08:08:22 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5.4-cyber</title>
       <link>https://platform.openai.com/docs/deprecations#2026-09-11-gpt-5-4-cyber</link>
@@ -13,10 +13,10 @@ Model ID: gpt-5.4-cyber
 Deprecation Date: 2026-09-11
 Shutdown Date: 2026-10-01
 First Observed: 2026-09-12
-Last Observed: 2026-09-12
+Last Observed: 2026-09-30
 
-The `gpt-5.4-cyber` model is deprecated and will be removed from the API on October 1, 2026. Migrate to `gpt-5.6-cyber` before the shutdown date.</description>
-      <pubDate>Sat, 12 Sep 2026 06:57:32 GMT</pubDate>
+The `gpt-5.4-cyber` model is deprecated and will be removed from the API on October 1, 2026. Migrate to the most capable cyber model available to you before the shutdown date.</description>
+      <pubDate>Wed, 30 Sep 2026 08:08:14 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-5.4-cyber-2026-10-01-e3b0c442</guid>
     </item>
     <item>
@@ -368,6 +368,34 @@ Last Observed: 2026-09-29
 On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.</description>
       <pubDate>Tue, 29 Sep 2026 08:00:01 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-chatgpt-image-latest-2026-12-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-5.2-chat-latest</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-5.2-chat-latest
+Deprecation Date: 2026-05-08
+Shutdown Date: 2026-08-10
+First Observed: 2026-05-13
+Last Observed: 2026-07-23
+
+On May 8th, 2026, we notified developers using `gpt-5.2-chat-latest` and `gpt-5.3-chat-latest` model snapshots of their deprecation and removal from the API.</description>
+      <pubDate>Thu, 23 Jul 2026 05:27:05 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-5.2-chat-latest-2026-08-10-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-5.3-chat-latest</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-5.3-chat-latest
+Deprecation Date: 2026-05-08
+Shutdown Date: 2026-08-10
+First Observed: 2026-05-13
+Last Observed: 2026-07-23
+
+On May 8th, 2026, we notified developers using `gpt-5.2-chat-latest` and `gpt-5.3-chat-latest` model snapshots of their deprecation and removal from the API.</description>
+      <pubDate>Thu, 23 Jul 2026 05:27:05 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-5.3-chat-latest-2026-08-10-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-3.5-turbo-0125</title>
@@ -776,160 +804,6 @@ To improve reliability and make it easier for developers to choose the right mod
       <guid isPermaLink="false">OpenAI-ft-davinci-002-2026-10-23-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: sora-2</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
-      <description>Provider: OpenAI
-Model ID: sora-2
-Deprecation Date: 2026-03-24
-Shutdown Date: 2026-09-24
-First Observed: 2026-03-27
-Last Observed: 2026-05-01
-
-On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
-      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-sora-2-2026-09-24-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: sora-2-pro</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
-      <description>Provider: OpenAI
-Model ID: sora-2-pro
-Deprecation Date: 2026-03-24
-Shutdown Date: 2026-09-24
-First Observed: 2026-03-27
-Last Observed: 2026-05-01
-
-On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
-      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-sora-2-pro-2026-09-24-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: sora-2-2025-10-06</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
-      <description>Provider: OpenAI
-Model ID: sora-2-2025-10-06
-Deprecation Date: 2026-03-24
-Shutdown Date: 2026-09-24
-First Observed: 2026-03-27
-Last Observed: 2026-05-01
-
-On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
-      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-sora-2-2025-10-06-2026-09-24-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: sora-2-2025-12-08</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
-      <description>Provider: OpenAI
-Model ID: sora-2-2025-12-08
-Deprecation Date: 2026-03-24
-Shutdown Date: 2026-09-24
-First Observed: 2026-03-27
-Last Observed: 2026-05-01
-
-On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
-      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-sora-2-2025-12-08-2026-09-24-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: sora-2-pro-2025-10-06</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
-      <description>Provider: OpenAI
-Model ID: sora-2-pro-2025-10-06
-Deprecation Date: 2026-03-24
-Shutdown Date: 2026-09-24
-First Observed: 2026-03-27
-Last Observed: 2026-05-01
-
-On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
-      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-sora-2-pro-2025-10-06-2026-09-24-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: gpt-3.5-turbo-instruct</title>
-      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
-      <description>Provider: OpenAI
-Model ID: gpt-3.5-turbo-instruct
-Deprecation Date: 2025-09-26
-Shutdown Date: 2026-09-28
-First Observed: 2026-03-26
-Last Observed: 2026-08-05
-
-To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Wed, 05 Aug 2026 05:16:13 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-instruct-2026-09-28-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: babbage-002</title>
-      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
-      <description>Provider: OpenAI
-Model ID: babbage-002
-Deprecation Date: 2025-09-26
-Shutdown Date: 2026-09-28
-First Observed: 2026-03-26
-Last Observed: 2026-08-05
-
-To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Wed, 05 Aug 2026 05:16:13 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-babbage-002-2026-09-28-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: davinci-002</title>
-      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
-      <description>Provider: OpenAI
-Model ID: davinci-002
-Deprecation Date: 2025-09-26
-Shutdown Date: 2026-09-28
-First Observed: 2026-03-26
-Last Observed: 2026-08-05
-
-To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Wed, 05 Aug 2026 05:16:13 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-davinci-002-2026-09-28-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: gpt-3.5-turbo-1106</title>
-      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
-      <description>Provider: OpenAI
-Model ID: gpt-3.5-turbo-1106
-Deprecation Date: 2025-09-26
-Shutdown Date: 2026-09-28
-First Observed: 2026-03-26
-Last Observed: 2026-08-05
-
-To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Wed, 05 Aug 2026 05:16:13 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-1106-2026-09-28-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: gpt-5.2-chat-latest</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
-      <description>Provider: OpenAI
-Model ID: gpt-5.2-chat-latest
-Deprecation Date: 2026-05-08
-Shutdown Date: 2026-08-10
-First Observed: 2026-05-13
-Last Observed: 2026-07-23
-
-On May 8th, 2026, we notified developers using `gpt-5.2-chat-latest` and `gpt-5.3-chat-latest` model snapshots of their deprecation and removal from the API.</description>
-      <pubDate>Thu, 23 Jul 2026 05:27:05 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-gpt-5.2-chat-latest-2026-08-10-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: gpt-5.3-chat-latest</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots</link>
-      <description>Provider: OpenAI
-Model ID: gpt-5.3-chat-latest
-Deprecation Date: 2026-05-08
-Shutdown Date: 2026-08-10
-First Observed: 2026-05-13
-Last Observed: 2026-07-23
-
-On May 8th, 2026, we notified developers using `gpt-5.2-chat-latest` and `gpt-5.3-chat-latest` model snapshots of their deprecation and removal from the API.</description>
-      <pubDate>Thu, 23 Jul 2026 05:27:05 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-gpt-5.3-chat-latest-2026-08-10-e3b0c442</guid>
-    </item>
-    <item>
       <title>OpenAI: computer-use-preview-2025-03-11</title>
       <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots-july-2026-shutdown</link>
       <description>Provider: OpenAI
@@ -1168,6 +1042,76 @@ On April 22, 2026, we announced the deprecation of the following older OpenAI mo
       <guid isPermaLink="false">OpenAI-gpt-5.2-codex-2026-07-23-e3b0c442</guid>
     </item>
     <item>
+      <title>OpenAI: sora-2</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
+      <description>Provider: OpenAI
+Model ID: sora-2
+Deprecation Date: 2026-03-24
+Shutdown Date: 2026-09-24
+First Observed: 2026-03-27
+Last Observed: 2026-05-01
+
+On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-sora-2-2026-09-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: sora-2-pro</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
+      <description>Provider: OpenAI
+Model ID: sora-2-pro
+Deprecation Date: 2026-03-24
+Shutdown Date: 2026-09-24
+First Observed: 2026-03-27
+Last Observed: 2026-05-01
+
+On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-sora-2-pro-2026-09-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: sora-2-2025-10-06</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
+      <description>Provider: OpenAI
+Model ID: sora-2-2025-10-06
+Deprecation Date: 2026-03-24
+Shutdown Date: 2026-09-24
+First Observed: 2026-03-27
+Last Observed: 2026-05-01
+
+On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-sora-2-2025-10-06-2026-09-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: sora-2-2025-12-08</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
+      <description>Provider: OpenAI
+Model ID: sora-2-2025-12-08
+Deprecation Date: 2026-03-24
+Shutdown Date: 2026-09-24
+First Observed: 2026-03-27
+Last Observed: 2026-05-01
+
+On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-sora-2-2025-12-08-2026-09-24-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: sora-2-pro-2025-10-06</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api</link>
+      <description>Provider: OpenAI
+Model ID: sora-2-pro-2025-10-06
+Deprecation Date: 2026-03-24
+Shutdown Date: 2026-09-24
+First Observed: 2026-03-27
+Last Observed: 2026-05-01
+
+On March 24th, 2026, we notified developers using the Videos API and Sora 2 video generation model aliases and snapshots of their deprecation and removal from the API on September 24, 2026.</description>
+      <pubDate>Fri, 01 May 2026 21:39:21 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-sora-2-pro-2025-10-06-2026-09-24-e3b0c442</guid>
+    </item>
+    <item>
       <title>OpenAI: chatgpt-4o-latest</title>
       <link>https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot</link>
       <description>Provider: OpenAI
@@ -1222,6 +1166,62 @@ Last Observed: 2026-05-15
 On November 14th, 2025, we notified developers using DALL·E model snapshots of their deprecation and removal from the API on May 12, 2026.</description>
       <pubDate>Fri, 15 May 2026 05:56:41 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-dall-e-3-2026-05-12-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-3.5-turbo-instruct</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-3.5-turbo-instruct
+Deprecation Date: 2025-09-26
+Shutdown Date: 2026-09-28
+First Observed: 2026-03-26
+Last Observed: 2026-08-05
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Wed, 05 Aug 2026 05:16:13 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-instruct-2026-09-28-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: babbage-002</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: babbage-002
+Deprecation Date: 2025-09-26
+Shutdown Date: 2026-09-28
+First Observed: 2026-03-26
+Last Observed: 2026-08-05
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Wed, 05 Aug 2026 05:16:13 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-babbage-002-2026-09-28-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: davinci-002</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: davinci-002
+Deprecation Date: 2025-09-26
+Shutdown Date: 2026-09-28
+First Observed: 2026-03-26
+Last Observed: 2026-08-05
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Wed, 05 Aug 2026 05:16:13 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-davinci-002-2026-09-28-e3b0c442</guid>
+    </item>
+    <item>
+      <title>OpenAI: gpt-3.5-turbo-1106</title>
+      <link>https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots</link>
+      <description>Provider: OpenAI
+Model ID: gpt-3.5-turbo-1106
+Deprecation Date: 2025-09-26
+Shutdown Date: 2026-09-28
+First Observed: 2026-03-26
+Last Observed: 2026-08-05
+
+To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
+      <pubDate>Wed, 05 Aug 2026 05:16:13 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-1106-2026-09-28-e3b0c442</guid>
     </item>
     <item>
       <title>OpenAI: gpt-4-0314</title>
@@ -2831,6 +2831,48 @@ Gemini deprecations table: Veo models. Release date: 2025-04-09. Shutdown date: 
       <guid isPermaLink="false">Google-veo-2.0-generate-001-2026-06-30-e3b0c442</guid>
     </item>
     <item>
+      <title>Google: veo-3.1-lite-generate-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#veo-models</link>
+      <description>Provider: Google
+Model ID: veo-3.1-lite-generate-preview
+Deprecation Date: 2026-10-22
+Shutdown Date: 2026-10-22
+First Observed: 2026-09-30
+Last Observed: 2026-09-30
+
+Gemini deprecations table: Veo models. Release date: 2026-03-31. Shutdown date: 2026-10-22. Recommended replacement: gemini-omni-1.1-flash.</description>
+      <pubDate>Wed, 30 Sep 2026 08:08:16 GMT</pubDate>
+      <guid isPermaLink="false">Google-veo-3.1-lite-generate-preview-2026-10-22-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: veo-3.1-generate-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#veo-models</link>
+      <description>Provider: Google
+Model ID: veo-3.1-generate-preview
+Deprecation Date: 2026-10-22
+Shutdown Date: 2026-10-22
+First Observed: 2026-09-30
+Last Observed: 2026-09-30
+
+Gemini deprecations table: Veo models. Release date: 2025-10-15. Shutdown date: 2026-10-22. Recommended replacement: gemini-omni-1.1-flash.</description>
+      <pubDate>Wed, 30 Sep 2026 08:08:16 GMT</pubDate>
+      <guid isPermaLink="false">Google-veo-3.1-generate-preview-2026-10-22-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: veo-3.1-fast-generate-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#veo-models</link>
+      <description>Provider: Google
+Model ID: veo-3.1-fast-generate-preview
+Deprecation Date: 2026-10-22
+Shutdown Date: 2026-10-22
+First Observed: 2026-09-30
+Last Observed: 2026-09-30
+
+Gemini deprecations table: Veo models. Release date: 2025-10-15. Shutdown date: 2026-10-22. Recommended replacement: gemini-omni-1.1-flash.</description>
+      <pubDate>Wed, 30 Sep 2026 08:08:16 GMT</pubDate>
+      <guid isPermaLink="false">Google-veo-3.1-fast-generate-preview-2026-10-22-e3b0c442</guid>
+    </item>
+    <item>
       <title>Google: veo-3.0-generate-preview</title>
       <link>https://ai.google.dev/gemini-api/docs/deprecations#veo-models</link>
       <description>Provider: Google
@@ -2859,20 +2901,6 @@ Gemini deprecations table: Veo models. Release date: 2025-07-31. Shutdown date: 
       <guid isPermaLink="false">Google-veo-3.0-fast-generate-preview-2025-11-12-e3b0c442</guid>
     </item>
     <item>
-      <title>Google: gemini-omni-flash-preview</title>
-      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-omni-flash-models</link>
-      <description>Provider: Google
-Model ID: gemini-omni-flash-preview
-Deprecation Date: 2026-09-30
-Shutdown Date: 2026-09-30
-First Observed: 2026-08-28
-Last Observed: 2026-08-28
-
-Gemini deprecations table: Gemini Omni Flash models. Release date: 2026-06-30. Shutdown date: 2026-09-30. Recommended replacement: gemini-omni-1.1-flash.</description>
-      <pubDate>Fri, 28 Aug 2026 13:55:30 GMT</pubDate>
-      <guid isPermaLink="false">Google-gemini-omni-flash-preview-2026-09-30-e3b0c442</guid>
-    </item>
-    <item>
       <title>Google: gemini-robotics-er-1.6-preview</title>
       <link>https://ai.google.dev/gemini-api/docs/deprecations#robotics-models</link>
       <description>Provider: Google
@@ -2899,6 +2927,20 @@ Last Observed: 2026-05-01
 Gemini deprecations table: Robotics models. Release date: 2025-09-25. Shutdown date: 2026-04-30. Recommended replacement: gemini-robotics-er-1.6-preview.</description>
       <pubDate>Fri, 01 May 2026 21:43:36 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-robotics-er-1.5-preview-2026-04-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-omni-flash-preview</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog#20260827</link>
+      <description>Provider: Google
+Model ID: gemini-omni-flash-preview
+Deprecation Date: 2026-08-27
+Shutdown Date: 2026-09-30
+First Observed: 2026-08-28
+Last Observed: 2026-09-30
+
+Gemini Omni Flash generally available (GA) : Released gemini-omni-1.1-flash , the GA version of our fast, conversational video generation and editing model. This release includes significant new capabilities: Video extension : Seamlessly extend existing videos by generating continuations at the end of a clip using the extend task or directly with a prompt. Interpolation (first + last frame) : Generate a video transitioning between two images using the image_to_video task with up to 2 images. Res...</description>
+      <pubDate>Wed, 30 Sep 2026 08:08:16 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-omni-flash-preview-2026-09-30-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.0-flash-exp-image-generation</title>
@@ -5361,14 +5403,14 @@ Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Host
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: claude-sonnet-4-5
-Deprecation Date: 2026-10-19
-Shutdown Date: 2026-10-19
+Deprecation Date: 2026-11-15
+Shutdown Date: 2026-11-15
 First Observed: 2026-04-28
-Last Observed: 2026-08-28
+Last Observed: 2026-09-30
 
 Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
-      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
-      <guid isPermaLink="false">Azure-claude-sonnet-4-5-2026-10-19-e3b0c442</guid>
+      <pubDate>Wed, 30 Sep 2026 08:08:22 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-sonnet-4-5-2026-11-15-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: claude-opus-5</title>
@@ -5431,14 +5473,14 @@ Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Host
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: claude-opus-4-5
-Deprecation Date: 2026-10-19
-Shutdown Date: 2026-10-19
+Deprecation Date: 2026-11-24
+Shutdown Date: 2026-11-24
 First Observed: 2026-04-28
-Last Observed: 2026-08-28
+Last Observed: 2026-09-30
 
 Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
-      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
-      <guid isPermaLink="false">Azure-claude-opus-4-5-2026-10-19-e3b0c442</guid>
+      <pubDate>Wed, 30 Sep 2026 08:08:22 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-opus-4-5-2026-11-24-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: claude-opus-4-1</title>
@@ -5459,14 +5501,14 @@ Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Host
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: claude-haiku-4-5
-Deprecation Date: 2026-10-19
-Shutdown Date: 2026-10-19
+Deprecation Date: 2026-11-15
+Shutdown Date: 2026-11-15
 First Observed: 2026-04-28
-Last Observed: 2026-08-28
+Last Observed: 2026-09-30
 
 Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
-      <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
-      <guid isPermaLink="false">Azure-claude-haiku-4-5-2026-10-19-e3b0c442</guid>
+      <pubDate>Wed, 30 Sep 2026 08:08:22 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-haiku-4-5-2026-11-15-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: claude-fable-5-1</title>

@@ -17,7 +17,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2026-09-11-gpt-5-4-cyber",
       "title": "OpenAI: gpt-5.4-cyber",
       "content_text": "",
-      "date_published": "2026-09-12T06:57:32.054605+00:00",
+      "date_published": "2026-09-30T08:08:14.804297+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-5.4-cyber",
@@ -25,10 +25,10 @@
         "deprecation_date": "2026-09-11",
         "announcement_date": "2026-09-12",
         "replacement_models": [
-          "gpt-5.6-cyber"
+          "The most capable cyber model available to you."
         ],
         "first_observed": "2026-09-12",
-        "last_observed": "2026-09-12"
+        "last_observed": "2026-09-30"
       },
       "tags": [
         "OpenAI",
@@ -607,6 +607,52 @@
         ],
         "first_observed": "2026-06-03",
         "last_observed": "2026-09-29"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-5.2-chat-latest",
+      "url": "https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots",
+      "title": "OpenAI: gpt-5.2-chat-latest",
+      "content_text": "",
+      "date_published": "2026-07-23T05:27:05.098168+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-5.2-chat-latest",
+        "shutdown_date": "2026-08-10",
+        "deprecation_date": "2026-05-08",
+        "announcement_date": "2026-05-13",
+        "replacement_models": [
+          "gpt-5.6-sol"
+        ],
+        "first_observed": "2026-05-13",
+        "last_observed": "2026-07-23"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-5.3-chat-latest",
+      "url": "https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots",
+      "title": "OpenAI: gpt-5.3-chat-latest",
+      "content_text": "",
+      "date_published": "2026-07-23T05:27:05.098198+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-5.3-chat-latest",
+        "shutdown_date": "2026-08-10",
+        "deprecation_date": "2026-05-08",
+        "announcement_date": "2026-05-13",
+        "replacement_models": [
+          "gpt-5.6-sol"
+        ],
+        "first_observed": "2026-05-13",
+        "last_observed": "2026-07-23"
       },
       "tags": [
         "OpenAI",
@@ -1284,249 +1330,6 @@
       ]
     },
     {
-      "id": "openai-sora-2",
-      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
-      "title": "OpenAI: sora-2",
-      "content_text": "",
-      "date_published": "2026-05-01T21:39:21.869964+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "sora-2",
-        "shutdown_date": "2026-09-24",
-        "deprecation_date": "2026-03-24",
-        "announcement_date": "2026-03-27",
-        "replacement_models": null,
-        "first_observed": "2026-03-27",
-        "last_observed": "2026-05-01"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-sora-2-pro",
-      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
-      "title": "OpenAI: sora-2-pro",
-      "content_text": "",
-      "date_published": "2026-05-01T21:39:21.869986+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "sora-2-pro",
-        "shutdown_date": "2026-09-24",
-        "deprecation_date": "2026-03-24",
-        "announcement_date": "2026-03-27",
-        "replacement_models": null,
-        "first_observed": "2026-03-27",
-        "last_observed": "2026-05-01"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-sora-2-2025-10-06",
-      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
-      "title": "OpenAI: sora-2-2025-10-06",
-      "content_text": "",
-      "date_published": "2026-05-01T21:39:21.870005+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "sora-2-2025-10-06",
-        "shutdown_date": "2026-09-24",
-        "deprecation_date": "2026-03-24",
-        "announcement_date": "2026-03-27",
-        "replacement_models": null,
-        "first_observed": "2026-03-27",
-        "last_observed": "2026-05-01"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-sora-2-2025-12-08",
-      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
-      "title": "OpenAI: sora-2-2025-12-08",
-      "content_text": "",
-      "date_published": "2026-05-01T21:39:21.870021+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "sora-2-2025-12-08",
-        "shutdown_date": "2026-09-24",
-        "deprecation_date": "2026-03-24",
-        "announcement_date": "2026-03-27",
-        "replacement_models": null,
-        "first_observed": "2026-03-27",
-        "last_observed": "2026-05-01"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-sora-2-pro-2025-10-06",
-      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
-      "title": "OpenAI: sora-2-pro-2025-10-06",
-      "content_text": "",
-      "date_published": "2026-05-01T21:39:21.870035+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "sora-2-pro-2025-10-06",
-        "shutdown_date": "2026-09-24",
-        "deprecation_date": "2026-03-24",
-        "announcement_date": "2026-03-27",
-        "replacement_models": null,
-        "first_observed": "2026-03-27",
-        "last_observed": "2026-05-01"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-3.5-turbo-instruct",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
-      "title": "OpenAI: gpt-3.5-turbo-instruct",
-      "content_text": "",
-      "date_published": "2026-08-05T05:16:13.449112+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-3.5-turbo-instruct",
-        "shutdown_date": "2026-09-28",
-        "deprecation_date": "2025-09-26",
-        "announcement_date": "2026-03-26",
-        "replacement_models": [
-          "gpt-5.6-terra"
-        ],
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-08-05"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-babbage-002",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
-      "title": "OpenAI: babbage-002",
-      "content_text": "",
-      "date_published": "2026-08-05T05:16:13.449125+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "babbage-002",
-        "shutdown_date": "2026-09-28",
-        "deprecation_date": "2025-09-26",
-        "announcement_date": "2026-03-26",
-        "replacement_models": [
-          "gpt-5.6-terra"
-        ],
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-08-05"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-davinci-002",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
-      "title": "OpenAI: davinci-002",
-      "content_text": "",
-      "date_published": "2026-08-05T05:16:13.449134+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "davinci-002",
-        "shutdown_date": "2026-09-28",
-        "deprecation_date": "2025-09-26",
-        "announcement_date": "2026-03-26",
-        "replacement_models": [
-          "gpt-5.6-terra"
-        ],
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-08-05"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-3.5-turbo-1106",
-      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
-      "title": "OpenAI: gpt-3.5-turbo-1106",
-      "content_text": "",
-      "date_published": "2026-08-05T05:16:13.449144+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-3.5-turbo-1106",
-        "shutdown_date": "2026-09-28",
-        "deprecation_date": "2025-09-26",
-        "announcement_date": "2026-03-26",
-        "replacement_models": [
-          "gpt-5.6-terra"
-        ],
-        "first_observed": "2026-03-26",
-        "last_observed": "2026-08-05"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-5.2-chat-latest",
-      "url": "https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots",
-      "title": "OpenAI: gpt-5.2-chat-latest",
-      "content_text": "",
-      "date_published": "2026-07-23T05:27:05.098168+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-5.2-chat-latest",
-        "shutdown_date": "2026-08-10",
-        "deprecation_date": "2026-05-08",
-        "announcement_date": "2026-05-13",
-        "replacement_models": [
-          "gpt-5.6-sol"
-        ],
-        "first_observed": "2026-05-13",
-        "last_observed": "2026-07-23"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "openai-gpt-5.3-chat-latest",
-      "url": "https://platform.openai.com/docs/deprecations#2026-05-08-gpt-5-2-chat-latest-and-gpt-5-3-chat-latest-model-snapshots",
-      "title": "OpenAI: gpt-5.3-chat-latest",
-      "content_text": "",
-      "date_published": "2026-07-23T05:27:05.098198+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-5.3-chat-latest",
-        "shutdown_date": "2026-08-10",
-        "deprecation_date": "2026-05-08",
-        "announcement_date": "2026-05-13",
-        "replacement_models": [
-          "gpt-5.6-sol"
-        ],
-        "first_observed": "2026-05-13",
-        "last_observed": "2026-07-23"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
       "id": "openai-computer-use-preview-2025-03-11",
       "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots-july-2026-shutdown",
       "title": "OpenAI: computer-use-preview-2025-03-11",
@@ -1918,6 +1721,111 @@
       ]
     },
     {
+      "id": "openai-sora-2",
+      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+      "title": "OpenAI: sora-2",
+      "content_text": "",
+      "date_published": "2026-05-01T21:39:21.869964+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "sora-2",
+        "shutdown_date": "2026-09-24",
+        "deprecation_date": "2026-03-24",
+        "announcement_date": "2026-03-27",
+        "replacement_models": null,
+        "first_observed": "2026-03-27",
+        "last_observed": "2026-05-01"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-sora-2-pro",
+      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+      "title": "OpenAI: sora-2-pro",
+      "content_text": "",
+      "date_published": "2026-05-01T21:39:21.869986+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "sora-2-pro",
+        "shutdown_date": "2026-09-24",
+        "deprecation_date": "2026-03-24",
+        "announcement_date": "2026-03-27",
+        "replacement_models": null,
+        "first_observed": "2026-03-27",
+        "last_observed": "2026-05-01"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-sora-2-2025-10-06",
+      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+      "title": "OpenAI: sora-2-2025-10-06",
+      "content_text": "",
+      "date_published": "2026-05-01T21:39:21.870005+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "sora-2-2025-10-06",
+        "shutdown_date": "2026-09-24",
+        "deprecation_date": "2026-03-24",
+        "announcement_date": "2026-03-27",
+        "replacement_models": null,
+        "first_observed": "2026-03-27",
+        "last_observed": "2026-05-01"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-sora-2-2025-12-08",
+      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+      "title": "OpenAI: sora-2-2025-12-08",
+      "content_text": "",
+      "date_published": "2026-05-01T21:39:21.870021+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "sora-2-2025-12-08",
+        "shutdown_date": "2026-09-24",
+        "deprecation_date": "2026-03-24",
+        "announcement_date": "2026-03-27",
+        "replacement_models": null,
+        "first_observed": "2026-03-27",
+        "last_observed": "2026-05-01"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-sora-2-pro-2025-10-06",
+      "url": "https://platform.openai.com/docs/deprecations#2026-03-24-sora-2-video-generation-models-and-videos-api",
+      "title": "OpenAI: sora-2-pro-2025-10-06",
+      "content_text": "",
+      "date_published": "2026-05-01T21:39:21.870035+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "sora-2-pro-2025-10-06",
+        "shutdown_date": "2026-09-24",
+        "deprecation_date": "2026-03-24",
+        "announcement_date": "2026-03-27",
+        "replacement_models": null,
+        "first_observed": "2026-03-27",
+        "last_observed": "2026-05-01"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "openai-chatgpt-4o-latest",
       "url": "https://platform.openai.com/docs/deprecations#2025-11-18-chatgpt-4o-latest-snapshot",
       "title": "OpenAI: chatgpt-4o-latest",
@@ -2007,6 +1915,98 @@
         ],
         "first_observed": "2026-03-26",
         "last_observed": "2026-05-15"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-3.5-turbo-instruct",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
+      "title": "OpenAI: gpt-3.5-turbo-instruct",
+      "content_text": "",
+      "date_published": "2026-08-05T05:16:13.449112+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-3.5-turbo-instruct",
+        "shutdown_date": "2026-09-28",
+        "deprecation_date": "2025-09-26",
+        "announcement_date": "2026-03-26",
+        "replacement_models": [
+          "gpt-5.6-terra"
+        ],
+        "first_observed": "2026-03-26",
+        "last_observed": "2026-08-05"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-babbage-002",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
+      "title": "OpenAI: babbage-002",
+      "content_text": "",
+      "date_published": "2026-08-05T05:16:13.449125+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "babbage-002",
+        "shutdown_date": "2026-09-28",
+        "deprecation_date": "2025-09-26",
+        "announcement_date": "2026-03-26",
+        "replacement_models": [
+          "gpt-5.6-terra"
+        ],
+        "first_observed": "2026-03-26",
+        "last_observed": "2026-08-05"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-davinci-002",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
+      "title": "OpenAI: davinci-002",
+      "content_text": "",
+      "date_published": "2026-08-05T05:16:13.449134+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "davinci-002",
+        "shutdown_date": "2026-09-28",
+        "deprecation_date": "2025-09-26",
+        "announcement_date": "2026-03-26",
+        "replacement_models": [
+          "gpt-5.6-terra"
+        ],
+        "first_observed": "2026-03-26",
+        "last_observed": "2026-08-05"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-3.5-turbo-1106",
+      "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
+      "title": "OpenAI: gpt-3.5-turbo-1106",
+      "content_text": "",
+      "date_published": "2026-08-05T05:16:13.449144+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-3.5-turbo-1106",
+        "shutdown_date": "2026-09-28",
+        "deprecation_date": "2025-09-26",
+        "announcement_date": "2026-03-26",
+        "replacement_models": [
+          "gpt-5.6-terra"
+        ],
+        "first_observed": "2026-03-26",
+        "last_observed": "2026-08-05"
       },
       "tags": [
         "OpenAI",
@@ -4663,6 +4663,75 @@
       ]
     },
     {
+      "id": "google-veo-3.1-lite-generate-preview",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
+      "title": "Google: veo-3.1-lite-generate-preview",
+      "content_text": "",
+      "date_published": "2026-09-30T08:08:16.746213+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-3.1-lite-generate-preview",
+        "shutdown_date": "2026-10-22",
+        "deprecation_date": "2026-10-22",
+        "announcement_date": "2026-09-30",
+        "replacement_models": [
+          "gemini-omni-1.1-flash"
+        ],
+        "first_observed": "2026-09-30",
+        "last_observed": "2026-09-30"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-veo-3.1-generate-preview",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
+      "title": "Google: veo-3.1-generate-preview",
+      "content_text": "",
+      "date_published": "2026-09-30T08:08:16.746279+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-3.1-generate-preview",
+        "shutdown_date": "2026-10-22",
+        "deprecation_date": "2026-10-22",
+        "announcement_date": "2026-09-30",
+        "replacement_models": [
+          "gemini-omni-1.1-flash"
+        ],
+        "first_observed": "2026-09-30",
+        "last_observed": "2026-09-30"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-veo-3.1-fast-generate-preview",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
+      "title": "Google: veo-3.1-fast-generate-preview",
+      "content_text": "",
+      "date_published": "2026-09-30T08:08:16.746349+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-3.1-fast-generate-preview",
+        "shutdown_date": "2026-10-22",
+        "deprecation_date": "2026-10-22",
+        "announcement_date": "2026-09-30",
+        "replacement_models": [
+          "gemini-omni-1.1-flash"
+        ],
+        "first_observed": "2026-09-30",
+        "last_observed": "2026-09-30"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "google-veo-3.0-generate-preview",
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
       "title": "Google: veo-3.0-generate-preview",
@@ -4709,29 +4778,6 @@
       ]
     },
     {
-      "id": "google-gemini-omni-flash-preview",
-      "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-omni-flash-models",
-      "title": "Google: gemini-omni-flash-preview",
-      "content_text": "",
-      "date_published": "2026-08-28T13:55:30.493013+00:00",
-      "_deprecation": {
-        "provider": "Google",
-        "model_id": "gemini-omni-flash-preview",
-        "shutdown_date": "2026-09-30",
-        "deprecation_date": "2026-09-30",
-        "announcement_date": "2026-08-28",
-        "replacement_models": [
-          "gemini-omni-1.1-flash"
-        ],
-        "first_observed": "2026-08-28",
-        "last_observed": "2026-08-28"
-      },
-      "tags": [
-        "Google",
-        "shutdown-2026"
-      ]
-    },
-    {
       "id": "google-gemini-robotics-er-1.6-preview",
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#robotics-models",
       "title": "Google: gemini-robotics-er-1.6-preview",
@@ -4771,6 +4817,27 @@
         ],
         "first_observed": "2026-04-15",
         "last_observed": "2026-05-01"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-omni-flash-preview",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog#20260827",
+      "title": "Google: gemini-omni-flash-preview",
+      "content_text": "",
+      "date_published": "2026-09-30T08:08:16.793580+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-omni-flash-preview",
+        "shutdown_date": "2026-09-30",
+        "deprecation_date": "2026-08-27",
+        "announcement_date": "2026-08-28",
+        "replacement_models": null,
+        "first_observed": "2026-08-28",
+        "last_observed": "2026-09-30"
       },
       "tags": [
         "Google",
@@ -8600,16 +8667,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: claude-sonnet-4-5",
       "content_text": "",
-      "date_published": "2026-08-28T13:55:33.561251+00:00",
+      "date_published": "2026-09-30T08:08:22.151261+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "claude-sonnet-4-5",
-        "shutdown_date": "2026-10-19",
-        "deprecation_date": "2026-10-19",
+        "shutdown_date": "2026-11-15",
+        "deprecation_date": "2026-11-15",
         "announcement_date": "2026-04-28",
         "replacement_models": null,
         "first_observed": "2026-04-28",
-        "last_observed": "2026-08-28"
+        "last_observed": "2026-09-30"
       },
       "tags": [
         "Azure",
@@ -8705,16 +8772,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: claude-opus-4-5",
       "content_text": "",
-      "date_published": "2026-08-28T13:55:33.561657+00:00",
+      "date_published": "2026-09-30T08:08:22.151602+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "claude-opus-4-5",
-        "shutdown_date": "2026-10-19",
-        "deprecation_date": "2026-10-19",
+        "shutdown_date": "2026-11-24",
+        "deprecation_date": "2026-11-24",
         "announcement_date": "2026-04-28",
         "replacement_models": null,
         "first_observed": "2026-04-28",
-        "last_observed": "2026-08-28"
+        "last_observed": "2026-09-30"
       },
       "tags": [
         "Azure",
@@ -8749,16 +8816,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: claude-haiku-4-5",
       "content_text": "",
-      "date_published": "2026-08-28T13:55:33.561714+00:00",
+      "date_published": "2026-09-30T08:08:22.151698+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "claude-haiku-4-5",
-        "shutdown_date": "2026-10-19",
-        "deprecation_date": "2026-10-19",
+        "shutdown_date": "2026-11-15",
+        "deprecation_date": "2026-11-15",
         "announcement_date": "2026-04-28",
         "replacement_models": null,
         "first_observed": "2026-04-28",
-        "last_observed": "2026-08-28"
+        "last_observed": "2026-09-30"
       },
       "tags": [
         "Azure",
