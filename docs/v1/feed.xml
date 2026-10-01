@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Wed, 30 Sep 2026 08:08:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 08:27:53 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5.4-cyber</title>
       <link>https://platform.openai.com/docs/deprecations#2026-09-11-gpt-5-4-cyber</link>
@@ -2061,6 +2061,20 @@ Last Observed: 2026-06-16
       <guid isPermaLink="false">Anthropic-claude-opus-4-20250514-2026-06-15-e3b0c442</guid>
     </item>
     <item>
+      <title>Anthropic: claude-sonnet-4-5-20250929</title>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-09-30-claude-sonnet-4-5-model</link>
+      <description>Provider: Anthropic
+Model ID: claude-sonnet-4-5-20250929
+Deprecation Date: 2026-09-30
+Shutdown Date: 2026-11-30
+First Observed: 2026-10-01
+Last Observed: 2026-10-01
+
+On September 30, 2026, Anthropic notified developers using Claude Sonnet 4.5 of its upcoming retirement on the Claude API.</description>
+      <pubDate>Thu, 01 Oct 2026 08:27:52 GMT</pubDate>
+      <guid isPermaLink="false">Anthropic-claude-sonnet-4-5-20250929-2026-11-30-e3b0c442</guid>
+    </item>
+    <item>
       <title>Anthropic: claude-sonnet-4-20250514</title>
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-04-14-claude-sonnet-4-and-claude-opus-4-models</link>
       <description>Provider: Anthropic
@@ -2367,6 +2381,20 @@ Last Observed: 2026-05-08
 Gemini deprecations table: Gemini 3 models. Release date: 2026-03-03. Shutdown date: 2026-05-25. Recommended replacement: gemini-3.1-flash-lite.</description>
       <pubDate>Fri, 08 May 2026 04:54:37 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-3.1-flash-lite-preview-2026-05-25-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google: gemini-2.5-computer-use-preview-10-2025</title>
+      <link>https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-pro-models</link>
+      <description>Provider: Google
+Model ID: gemini-2.5-computer-use-preview-10-2025
+Deprecation Date: 2026-07-28
+Shutdown Date: 2026-07-28
+First Observed: 2026-10-01
+Last Observed: 2026-10-01
+
+Gemini deprecations table: Gemini 2.5 Pro models. Release date: 2025-10-07. Shutdown date: 2026-07-28. Recommended replacement: gemini-3.8-flash.</description>
+      <pubDate>Thu, 01 Oct 2026 08:27:53 GMT</pubDate>
+      <guid isPermaLink="false">Google-gemini-2.5-computer-use-preview-10-2025-2026-07-28-e3b0c442</guid>
     </item>
     <item>
       <title>Google: gemini-2.5-pro-preview-03-25</title>

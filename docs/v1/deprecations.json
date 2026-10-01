@@ -2357,6 +2357,22 @@
   },
   {
     "provider": "Anthropic",
+    "model_id": "claude-sonnet-4-5-20250929",
+    "announcement_date": "2026-10-01",
+    "shutdown_date": "2026-11-30",
+    "deprecation_date": "2026-09-30",
+    "replacement_models": [
+      "claude-sonnet-5-5"
+    ],
+    "deprecation_context": "On September 30, 2026, Anthropic notified developers using Claude Sonnet 4.5 of its upcoming retirement on the Claude API.",
+    "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-09-30-claude-sonnet-4-5-model",
+    "content_hash": "9a99446567abe1f0",
+    "scraped_at": "2026-10-01T08:27:52.213356+00:00",
+    "first_observed": "2026-10-01",
+    "last_observed": "2026-10-01"
+  },
+  {
+    "provider": "Anthropic",
     "model_id": "claude-sonnet-4-20250514",
     "announcement_date": "2026-04-15",
     "shutdown_date": "2026-06-15",
@@ -2706,6 +2722,22 @@
     "scraped_at": "2026-05-08T04:54:37.838121+00:00",
     "first_observed": "2026-05-08",
     "last_observed": "2026-05-08"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-computer-use-preview-10-2025",
+    "announcement_date": "2026-10-01",
+    "shutdown_date": "2026-07-28",
+    "deprecation_date": "2026-07-28",
+    "replacement_models": [
+      "gemini-3.8-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.5 Pro models. Release date: 2025-10-07. Shutdown date: 2026-07-28. Recommended replacement: gemini-3.8-flash.",
+    "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.5-pro-models",
+    "content_hash": "ea0c5ff035efdabb",
+    "scraped_at": "2026-10-01T08:27:53.398301+00:00",
+    "first_observed": "2026-10-01",
+    "last_observed": "2026-10-01"
   },
   {
     "provider": "Google",
