@@ -1,6 +1,118 @@
 [
   {
     "provider": "OpenAI",
+    "model_id": "gpt-5.3-codex",
+    "announcement_date": "2026-10-02",
+    "shutdown_date": "2027-04-01",
+    "deprecation_date": "2026-10-01",
+    "replacement_models": [
+      "gpt-6-sol"
+    ],
+    "deprecation_context": "The following models are deprecated and will be removed from the API on April 1, 2027, with six months' notice. Migrate to the recommended replacements before the shutdown date.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-10-01-gpt-5-3-codex-gpt-5-1-gpt-5-4-nano",
+    "content_hash": "8cd5f74112960773",
+    "scraped_at": "2026-10-02T08:03:17.325006+00:00",
+    "first_observed": "2026-10-02",
+    "last_observed": "2026-10-02"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "gpt-5.4-nano",
+    "announcement_date": "2026-10-02",
+    "shutdown_date": "2027-04-01",
+    "deprecation_date": "2026-10-01",
+    "replacement_models": [
+      "gpt-6-luna"
+    ],
+    "deprecation_context": "The following models are deprecated and will be removed from the API on April 1, 2027, with six months' notice. Migrate to the recommended replacements before the shutdown date.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-10-01-gpt-5-3-codex-gpt-5-1-gpt-5-4-nano",
+    "content_hash": "43c08c42cee08085",
+    "scraped_at": "2026-10-02T08:03:17.325084+00:00",
+    "first_observed": "2026-10-02",
+    "last_observed": "2026-10-02"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "gpt-5.1",
+    "announcement_date": "2026-10-02",
+    "shutdown_date": "2027-04-01",
+    "deprecation_date": "2026-10-01",
+    "replacement_models": [
+      "gpt-6-sol"
+    ],
+    "deprecation_context": "The following models are deprecated and will be removed from the API on April 1, 2027, with six months' notice. Migrate to the recommended replacements before the shutdown date.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-10-01-gpt-5-3-codex-gpt-5-1-gpt-5-4-nano",
+    "content_hash": "ee07e8056c3b1d8f",
+    "scraped_at": "2026-10-02T08:03:17.325125+00:00",
+    "first_observed": "2026-10-02",
+    "last_observed": "2026-10-02"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "tts-1",
+    "announcement_date": "2026-10-02",
+    "shutdown_date": "2027-01-06",
+    "deprecation_date": "2026-10-01",
+    "replacement_models": [
+      "gpt-realtime-2.1-mini"
+    ],
+    "deprecation_context": "The following text-to-speech models are deprecated and will be removed from the API on January 6, 2027, with at least three months' notice. Migrate to `gpt-realtime-2.1-mini` before the shutdown date. See the [Realtime API guide](https://developers.openai.com/api/docs/guides/realtime) to plan your migration.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-10-01-text-to-speech-models",
+    "content_hash": "0f58f2781189e5b4",
+    "scraped_at": "2026-10-02T08:03:17.325253+00:00",
+    "first_observed": "2026-10-02",
+    "last_observed": "2026-10-02"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "tts-1-hd",
+    "announcement_date": "2026-10-02",
+    "shutdown_date": "2027-01-06",
+    "deprecation_date": "2026-10-01",
+    "replacement_models": [
+      "gpt-realtime-2.1-mini"
+    ],
+    "deprecation_context": "The following text-to-speech models are deprecated and will be removed from the API on January 6, 2027, with at least three months' notice. Migrate to `gpt-realtime-2.1-mini` before the shutdown date. See the [Realtime API guide](https://developers.openai.com/api/docs/guides/realtime) to plan your migration.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-10-01-text-to-speech-models",
+    "content_hash": "9dad36506dbb039b",
+    "scraped_at": "2026-10-02T08:03:17.325297+00:00",
+    "first_observed": "2026-10-02",
+    "last_observed": "2026-10-02"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "gpt-4o-mini-tts-2025-03-20",
+    "announcement_date": "2026-10-02",
+    "shutdown_date": "2027-01-06",
+    "deprecation_date": "2026-10-01",
+    "replacement_models": [
+      "gpt-realtime-2.1-mini"
+    ],
+    "deprecation_context": "The following text-to-speech models are deprecated and will be removed from the API on January 6, 2027, with at least three months' notice. Migrate to `gpt-realtime-2.1-mini` before the shutdown date. See the [Realtime API guide](https://developers.openai.com/api/docs/guides/realtime) to plan your migration.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-10-01-text-to-speech-models",
+    "content_hash": "000a3b54feb800d0",
+    "scraped_at": "2026-10-02T08:03:17.325332+00:00",
+    "first_observed": "2026-10-02",
+    "last_observed": "2026-10-02"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "gpt-4o-mini-tts-2025-12-15",
+    "announcement_date": "2026-10-02",
+    "shutdown_date": "2027-01-06",
+    "deprecation_date": "2026-10-01",
+    "replacement_models": [
+      "gpt-realtime-2.1-mini"
+    ],
+    "deprecation_context": "The following text-to-speech models are deprecated and will be removed from the API on January 6, 2027, with at least three months' notice. Migrate to `gpt-realtime-2.1-mini` before the shutdown date. See the [Realtime API guide](https://developers.openai.com/api/docs/guides/realtime) to plan your migration.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-10-01-text-to-speech-models",
+    "content_hash": "8744c2cc402c53f4",
+    "scraped_at": "2026-10-02T08:03:17.325360+00:00",
+    "first_observed": "2026-10-02",
+    "last_observed": "2026-10-02"
+  },
+  {
+    "provider": "OpenAI",
     "model_id": "gpt-5.4-cyber",
     "announcement_date": "2026-09-12",
     "shutdown_date": "2026-10-01",
@@ -6010,15 +6122,17 @@
     "provider": "Azure",
     "model_id": "claude-sonnet-4-5",
     "announcement_date": "2026-04-28",
-    "shutdown_date": "2026-11-15",
-    "deprecation_date": "2026-11-15",
-    "replacement_models": null,
+    "shutdown_date": "2026-11-30",
+    "deprecation_date": "2026-11-30",
+    "replacement_models": [
+      "claude-sonnet-5-5"
+    ],
     "deprecation_context": "Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "3c2db6d728468f10",
-    "scraped_at": "2026-09-30T08:08:22.151261+00:00",
+    "content_hash": "3ecd748f12779fa4",
+    "scraped_at": "2026-10-02T08:03:21.546661+00:00",
     "first_observed": "2026-04-28",
-    "last_observed": "2026-09-30"
+    "last_observed": "2026-10-02"
   },
   {
     "provider": "Azure",
