@@ -174,29 +174,6 @@
       ]
     },
     {
-      "id": "openai-gpt-5.4-cyber",
-      "url": "https://platform.openai.com/docs/deprecations#2026-09-11-gpt-5-4-cyber",
-      "title": "OpenAI: gpt-5.4-cyber",
-      "content_text": "",
-      "date_published": "2026-09-30T08:08:14.804297+00:00",
-      "_deprecation": {
-        "provider": "OpenAI",
-        "model_id": "gpt-5.4-cyber",
-        "shutdown_date": "2026-10-01",
-        "deprecation_date": "2026-09-11",
-        "announcement_date": "2026-09-12",
-        "replacement_models": [
-          "The most capable cyber model available to you."
-        ],
-        "first_observed": "2026-09-12",
-        "last_observed": "2026-09-30"
-      },
-      "tags": [
-        "OpenAI",
-        "shutdown-2026"
-      ]
-    },
-    {
       "id": "openai-whisper-1",
       "url": "https://platform.openai.com/docs/deprecations#2026-08-26-transcription-models",
       "title": "OpenAI: whisper-1",
@@ -768,6 +745,29 @@
         ],
         "first_observed": "2026-06-03",
         "last_observed": "2026-09-29"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "openai-gpt-5.4-cyber",
+      "url": "https://platform.openai.com/docs/deprecations#2026-09-11-gpt-5-4-cyber",
+      "title": "OpenAI: gpt-5.4-cyber",
+      "content_text": "",
+      "date_published": "2026-09-30T08:08:14.804297+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-5.4-cyber",
+        "shutdown_date": "2026-10-01",
+        "deprecation_date": "2026-09-11",
+        "announcement_date": "2026-09-12",
+        "replacement_models": [
+          "The most capable cyber model available to you."
+        ],
+        "first_observed": "2026-09-12",
+        "last_observed": "2026-09-30"
       },
       "tags": [
         "OpenAI",

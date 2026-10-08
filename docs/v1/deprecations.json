@@ -113,22 +113,6 @@
   },
   {
     "provider": "OpenAI",
-    "model_id": "gpt-5.4-cyber",
-    "announcement_date": "2026-09-12",
-    "shutdown_date": "2026-10-01",
-    "deprecation_date": "2026-09-11",
-    "replacement_models": [
-      "The most capable cyber model available to you."
-    ],
-    "deprecation_context": "The `gpt-5.4-cyber` model is deprecated and will be removed from the API on October 1, 2026. Migrate to the most capable cyber model available to you before the shutdown date.",
-    "url": "https://platform.openai.com/docs/deprecations#2026-09-11-gpt-5-4-cyber",
-    "content_hash": "f3dc6c3141174206",
-    "scraped_at": "2026-09-30T08:08:14.804297+00:00",
-    "first_observed": "2026-09-12",
-    "last_observed": "2026-09-30"
-  },
-  {
-    "provider": "OpenAI",
     "model_id": "whisper-1",
     "announcement_date": "2026-08-31",
     "shutdown_date": "2027-02-26",
@@ -529,6 +513,22 @@
     "scraped_at": "2026-09-29T08:00:01.001774+00:00",
     "first_observed": "2026-06-03",
     "last_observed": "2026-09-29"
+  },
+  {
+    "provider": "OpenAI",
+    "model_id": "gpt-5.4-cyber",
+    "announcement_date": "2026-09-12",
+    "shutdown_date": "2026-10-01",
+    "deprecation_date": "2026-09-11",
+    "replacement_models": [
+      "The most capable cyber model available to you."
+    ],
+    "deprecation_context": "The `gpt-5.4-cyber` model is deprecated and will be removed from the API on October 1, 2026. Migrate to the most capable cyber model available to you before the shutdown date.",
+    "url": "https://platform.openai.com/docs/deprecations#2026-09-11-gpt-5-4-cyber",
+    "content_hash": "f3dc6c3141174206",
+    "scraped_at": "2026-09-30T08:08:14.804297+00:00",
+    "first_observed": "2026-09-12",
+    "last_observed": "2026-09-30"
   },
   {
     "provider": "OpenAI",
