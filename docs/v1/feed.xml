@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 09 Oct 2026 08:35:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 08:11:34 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-5.3-codex</title>
       <link>https://platform.openai.com/docs/deprecations#2026-10-01-gpt-5-3-codex-gpt-5-1-gpt-5-4-nano</link>
@@ -2180,10 +2180,10 @@ Model ID: claude-sonnet-4-20250514
 Deprecation Date: 2026-04-14
 Shutdown Date: 2026-06-15
 First Observed: 2026-04-15
-Last Observed: 2026-06-16
+Last Observed: 2026-10-10
 
 &lt;Note&gt; These models were retired June 15, 2026. &lt;/Note&gt; On April 14, 2026, Anthropic notified developers using Claude Sonnet 4 and Claude Opus 4 models of their upcoming retirement on the Claude API.</description>
-      <pubDate>Tue, 16 Jun 2026 07:28:54 GMT</pubDate>
+      <pubDate>Sat, 10 Oct 2026 08:11:34 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-sonnet-4-20250514-2026-06-15-e3b0c442</guid>
     </item>
     <item>
@@ -2194,10 +2194,10 @@ Model ID: claude-3-7-sonnet-20250219
 Deprecation Date: 2025-10-28
 Shutdown Date: 2026-02-19
 First Observed: 2026-03-26
-Last Observed: 2026-04-17
+Last Observed: 2026-10-10
 
 &lt;Note&gt; This model was retired February 19, 2026. &lt;/Note&gt; On October 28, 2025, Anthropic notified developers using Claude Sonnet 3.7 model of its upcoming retirement on the Claude API.</description>
-      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
+      <pubDate>Sat, 10 Oct 2026 08:11:34 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-7-sonnet-20250219-2026-02-19-e3b0c442</guid>
     </item>
     <item>
@@ -2236,10 +2236,10 @@ Model ID: claude-3-5-sonnet-20240620
 Deprecation Date: 2025-08-13
 Shutdown Date: 2025-10-28
 First Observed: 2026-03-26
-Last Observed: 2026-04-17
+Last Observed: 2026-10-10
 
 &lt;Note&gt; These models were retired October 28, 2025. &lt;/Note&gt; On August 13, 2025, Anthropic notified developers using Claude Sonnet 3.5 models of their upcoming retirement.</description>
-      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
+      <pubDate>Sat, 10 Oct 2026 08:11:34 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-5-sonnet-20240620-2025-10-28-e3b0c442</guid>
     </item>
     <item>
@@ -2250,10 +2250,10 @@ Model ID: claude-3-5-sonnet-20241022
 Deprecation Date: 2025-08-13
 Shutdown Date: 2025-10-28
 First Observed: 2026-03-26
-Last Observed: 2026-04-17
+Last Observed: 2026-10-10
 
 &lt;Note&gt; These models were retired October 28, 2025. &lt;/Note&gt; On August 13, 2025, Anthropic notified developers using Claude Sonnet 3.5 models of their upcoming retirement.</description>
-      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
+      <pubDate>Sat, 10 Oct 2026 08:11:34 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-5-sonnet-20241022-2025-10-28-e3b0c442</guid>
     </item>
     <item>
@@ -2306,10 +2306,10 @@ Model ID: claude-3-sonnet-20240229
 Deprecation Date: 2025-01-21
 Shutdown Date: 2025-07-21
 First Observed: 2026-03-26
-Last Observed: 2026-04-17
+Last Observed: 2026-10-10
 
 &lt;Note&gt; These models were retired July 21, 2025. &lt;/Note&gt; On January 21, 2025, Anthropic notified developers using Claude 2, Claude 2.1, and Claude Sonnet 3 models of their upcoming retirements.</description>
-      <pubDate>Fri, 17 Apr 2026 04:50:48 GMT</pubDate>
+      <pubDate>Sat, 10 Oct 2026 08:11:34 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-3-sonnet-20240229-2025-07-21-e3b0c442</guid>
     </item>
     <item>
