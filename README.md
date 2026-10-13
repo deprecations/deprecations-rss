@@ -80,6 +80,21 @@ Use [Blogtrottr](https://blogtrottr.com) or [FeedRabbit](https://feedrabbit.com)
 Want to do more than just read notifications? Here are some examples to get you
 started with automated workflows.
 
+### Scan Your Codebase for Models You're About to Lose
+
+Already know you use AI models and want to find out *which* ones before they
+disappear? [llm-sunset](https://github.com/Ashveil1/llm-sunset) is a
+zero-dependency CLI and GitHub Action built on this feed:
+
+```bash
+pipx run llm-sunset
+```
+
+It scans your repo for model IDs, prints the shutdown date, the days left and
+the recommended replacement, and can fail CI when a model retires within N days.
+No API keys, no server, and your code never leaves your machine. Handy when
+OpenAI shuts down a batch of models on short notice.
+
 ### Create GitHub Issue on Deprecation
 Automatically create a GitHub issue when a model you use is being deprecated.
 
