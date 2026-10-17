@@ -9128,6 +9128,27 @@
       ]
     },
     {
+      "id": "azure-claude-opus-5-5-fast",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: claude-opus-5-5-fast",
+      "content_text": "",
+      "date_published": "2026-10-17T06:41:16.128603+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "claude-opus-5-5-fast",
+        "shutdown_date": "2027-01-15",
+        "deprecation_date": "2027-01-15",
+        "announcement_date": "2026-10-17",
+        "replacement_models": null,
+        "first_observed": "2026-10-17",
+        "last_observed": "2026-10-17"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "azure-claude-opus-5",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: claude-opus-5",
@@ -9483,6 +9504,75 @@
         "replacement_models": null,
         "first_observed": "2026-03-25",
         "last_observed": "2026-04-25"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-ministral-3b",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Ministral-3B",
+      "content_text": "",
+      "date_published": "2026-10-17T06:41:16.130340+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Ministral-3B",
+        "shutdown_date": "2026-12-09",
+        "deprecation_date": "2026-12-09",
+        "announcement_date": "2026-10-17",
+        "replacement_models": [
+          "ministral-ministral-4b-instruct"
+        ],
+        "first_observed": "2026-10-17",
+        "last_observed": "2026-10-17"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-mistral-medium-2505",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: mistral-medium-2505",
+      "content_text": "",
+      "date_published": "2026-10-17T06:41:16.130397+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "mistral-medium-2505",
+        "shutdown_date": "2026-12-09",
+        "deprecation_date": "2026-12-09",
+        "announcement_date": "2026-10-17",
+        "replacement_models": [
+          "mistral-medium-3-5"
+        ],
+        "first_observed": "2026-10-17",
+        "last_observed": "2026-10-17"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-mistral-small-2503",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: mistral-small-2503",
+      "content_text": "",
+      "date_published": "2026-10-17T06:41:16.130441+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "mistral-small-2503",
+        "shutdown_date": "2026-12-09",
+        "deprecation_date": "2026-12-09",
+        "announcement_date": "2026-10-17",
+        "replacement_models": [
+          "mistral-small-4-119b-2603"
+        ],
+        "first_observed": "2026-10-17",
+        "last_observed": "2026-10-17"
       },
       "tags": [
         "Azure",

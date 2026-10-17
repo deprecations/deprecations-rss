@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 15 Oct 2026 07:05:37 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 06:41:16 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-4o-2024-08-06</title>
       <link>https://platform.openai.com/docs/deprecations#2026-10-14-gpt-4-series-model-deprecations</link>
@@ -5679,6 +5679,20 @@ Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Host
       <guid isPermaLink="false">Azure-claude-sonnet-4-5-2026-11-30-e3b0c442</guid>
     </item>
     <item>
+      <title>Azure: claude-opus-5-5-fast</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: claude-opus-5-5-fast
+Deprecation Date: 2027-01-15
+Shutdown Date: 2027-01-15
+First Observed: 2026-10-17
+Last Observed: 2026-10-17
+
+Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
+      <pubDate>Sat, 17 Oct 2026 06:41:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-opus-5-5-fast-2027-01-15-e3b0c442</guid>
+    </item>
+    <item>
       <title>Azure: claude-opus-5</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -5915,6 +5929,48 @@ Last Observed: 2026-04-25
 Meta</description>
       <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-Meta-Llama-3.1-8B-Instruct-2026-06-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Ministral-3B</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Ministral-3B
+Deprecation Date: 2026-12-09
+Shutdown Date: 2026-12-09
+First Observed: 2026-10-17
+Last Observed: 2026-10-17
+
+Mistral AI</description>
+      <pubDate>Sat, 17 Oct 2026 06:41:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Ministral-3B-2026-12-09-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: mistral-medium-2505</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: mistral-medium-2505
+Deprecation Date: 2026-12-09
+Shutdown Date: 2026-12-09
+First Observed: 2026-10-17
+Last Observed: 2026-10-17
+
+Mistral AI</description>
+      <pubDate>Sat, 17 Oct 2026 06:41:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-mistral-medium-2505-2026-12-09-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: mistral-small-2503</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: mistral-small-2503
+Deprecation Date: 2026-12-09
+Shutdown Date: 2026-12-09
+First Observed: 2026-10-17
+Last Observed: 2026-10-17
+
+Mistral AI</description>
+      <pubDate>Sat, 17 Oct 2026 06:41:16 GMT</pubDate>
+      <guid isPermaLink="false">Azure-mistral-small-2503-2026-12-09-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: TimeGEN-1</title>
