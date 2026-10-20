@@ -4438,7 +4438,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.0-models",
       "title": "Google: gemini-2.0-flash-lite-preview",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.813956+00:00",
+      "date_published": "2026-10-20T07:16:08.394081+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.0-flash-lite-preview",
@@ -4446,10 +4446,10 @@
         "deprecation_date": "2025-12-09",
         "announcement_date": "2026-03-26",
         "replacement_models": [
-          "gemini-2.5-flash-lite"
+          "gemini-3.1-flash-lite"
         ],
         "first_observed": "2026-03-26",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-10-20"
       },
       "tags": [
         "Google",
@@ -4461,7 +4461,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#gemini-2.0-models",
       "title": "Google: gemini-2.0-flash-lite-preview-02-05",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.814091+00:00",
+      "date_published": "2026-10-20T07:16:08.394159+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-2.0-flash-lite-preview-02-05",
@@ -4469,10 +4469,10 @@
         "deprecation_date": "2025-12-09",
         "announcement_date": "2025-12-05",
         "replacement_models": [
-          "gemini-2.5-flash-lite"
+          "gemini-3.1-flash-lite"
         ],
         "first_observed": "2025-12-05",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-10-20"
       },
       "tags": [
         "Google",
@@ -4969,7 +4969,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#imagen-models",
       "title": "Google: imagen-3.0-generate-002",
       "content_text": "",
-      "date_published": "2026-05-01T21:39:32.406953+00:00",
+      "date_published": "2026-10-20T07:16:08.396652+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "imagen-3.0-generate-002",
@@ -4977,10 +4977,10 @@
         "deprecation_date": "2025-11-10",
         "announcement_date": "2025-12-05",
         "replacement_models": [
-          "imagen-4.0-generate-001"
+          "gemini-nano-banana-2.1"
         ],
         "first_observed": "2025-12-05",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-10-20"
       },
       "tags": [
         "Google",
@@ -4992,7 +4992,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#imagen-models",
       "title": "Google: imagen-4.0-generate-preview-06-06",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.816629+00:00",
+      "date_published": "2026-10-20T07:16:08.396743+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "imagen-4.0-generate-preview-06-06",
@@ -5000,10 +5000,10 @@
         "deprecation_date": "2026-02-17",
         "announcement_date": "2026-01-16",
         "replacement_models": [
-          "imagen-4.0-generate-001"
+          "gemini-nano-banana-2.1"
         ],
         "first_observed": "2026-01-16",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-10-20"
       },
       "tags": [
         "Google",
@@ -5015,7 +5015,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#imagen-models",
       "title": "Google: imagen-4.0-ultra-generate-preview-06-06",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.816783+00:00",
+      "date_published": "2026-10-20T07:16:08.396840+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "imagen-4.0-ultra-generate-preview-06-06",
@@ -5023,10 +5023,10 @@
         "deprecation_date": "2026-02-17",
         "announcement_date": "2026-01-16",
         "replacement_models": [
-          "imagen-4.0-ultra-generate-001"
+          "gemini-nano-banana-2.1"
         ],
         "first_observed": "2026-01-16",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-10-20"
       },
       "tags": [
         "Google",
@@ -5038,7 +5038,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
       "title": "Google: veo-3.0-generate-001",
       "content_text": "",
-      "date_published": "2026-06-16T07:28:55.342867+00:00",
+      "date_published": "2026-10-20T07:16:08.397019+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "veo-3.0-generate-001",
@@ -5046,10 +5046,10 @@
         "deprecation_date": "2026-06-30",
         "announcement_date": "2026-06-16",
         "replacement_models": [
-          "veo-3.1-generate-preview"
+          "gemini-omni-1.1-flash"
         ],
         "first_observed": "2026-06-16",
-        "last_observed": "2026-06-16"
+        "last_observed": "2026-10-20"
       },
       "tags": [
         "Google",
@@ -5061,7 +5061,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
       "title": "Google: veo-3.0-fast-generate-001",
       "content_text": "",
-      "date_published": "2026-06-16T07:28:55.342948+00:00",
+      "date_published": "2026-10-20T07:16:08.397102+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "veo-3.0-fast-generate-001",
@@ -5069,10 +5069,10 @@
         "deprecation_date": "2026-06-30",
         "announcement_date": "2026-06-16",
         "replacement_models": [
-          "veo-3.1-fast-generate-preview"
+          "gemini-omni-1.1-flash"
         ],
         "first_observed": "2026-06-16",
-        "last_observed": "2026-06-16"
+        "last_observed": "2026-10-20"
       },
       "tags": [
         "Google",
@@ -5084,7 +5084,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
       "title": "Google: veo-2.0-generate-001",
       "content_text": "",
-      "date_published": "2026-06-16T07:28:55.343027+00:00",
+      "date_published": "2026-10-20T07:16:08.397186+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "veo-2.0-generate-001",
@@ -5092,10 +5092,10 @@
         "deprecation_date": "2026-06-30",
         "announcement_date": "2026-06-16",
         "replacement_models": [
-          "veo-3.1-generate-preview"
+          "gemini-omni-1.1-flash"
         ],
         "first_observed": "2026-06-16",
-        "last_observed": "2026-06-16"
+        "last_observed": "2026-10-20"
       },
       "tags": [
         "Google",
@@ -5176,7 +5176,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
       "title": "Google: veo-3.0-generate-preview",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.817475+00:00",
+      "date_published": "2026-10-20T07:16:08.397520+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "veo-3.0-generate-preview",
@@ -5184,10 +5184,10 @@
         "deprecation_date": "2025-11-12",
         "announcement_date": "2025-12-05",
         "replacement_models": [
-          "veo-3.1-generate-preview"
+          "gemini-omni-1.1-flash"
         ],
         "first_observed": "2025-12-05",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-10-20"
       },
       "tags": [
         "Google",
@@ -5199,7 +5199,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#veo-models",
       "title": "Google: veo-3.0-fast-generate-preview",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.817610+00:00",
+      "date_published": "2026-10-20T07:16:08.397597+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "veo-3.0-fast-generate-preview",
@@ -5207,10 +5207,10 @@
         "deprecation_date": "2025-11-12",
         "announcement_date": "2025-12-05",
         "replacement_models": [
-          "veo-3.1-fast-generate-preview"
+          "gemini-omni-1.1-flash"
         ],
         "first_observed": "2025-12-05",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-10-20"
       },
       "tags": [
         "Google",
@@ -5268,7 +5268,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations#robotics-models",
       "title": "Google: gemini-robotics-er-1.5-preview",
       "content_text": "",
-      "date_published": "2026-05-01T21:43:36.818151+00:00",
+      "date_published": "2026-10-20T07:16:08.398310+00:00",
       "_deprecation": {
         "provider": "Google",
         "model_id": "gemini-robotics-er-1.5-preview",
@@ -5276,10 +5276,10 @@
         "deprecation_date": "2026-04-30",
         "announcement_date": "2026-04-15",
         "replacement_models": [
-          "gemini-robotics-er-1.6-preview"
+          "gemini-robotics-er-2-preview"
         ],
         "first_observed": "2026-04-15",
-        "last_observed": "2026-05-01"
+        "last_observed": "2026-10-20"
       },
       "tags": [
         "Google",
