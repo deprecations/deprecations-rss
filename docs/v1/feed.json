@@ -9511,6 +9511,111 @@
       ]
     },
     {
+      "id": "azure-phi-4",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Phi-4",
+      "content_text": "",
+      "date_published": "2026-10-21T07:12:26.260015+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Phi-4",
+        "shutdown_date": "2027-01-17",
+        "deprecation_date": "2027-01-17",
+        "announcement_date": "2026-10-21",
+        "replacement_models": null,
+        "first_observed": "2026-10-21",
+        "last_observed": "2026-10-21"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-phi-4-mini-instruct",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Phi-4-mini-instruct",
+      "content_text": "",
+      "date_published": "2026-10-21T07:12:26.260058+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Phi-4-mini-instruct",
+        "shutdown_date": "2027-01-17",
+        "deprecation_date": "2027-01-17",
+        "announcement_date": "2026-10-21",
+        "replacement_models": null,
+        "first_observed": "2026-10-21",
+        "last_observed": "2026-10-21"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-phi-4-mini-reasoning",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Phi-4-mini-reasoning",
+      "content_text": "",
+      "date_published": "2026-10-21T07:12:26.260100+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Phi-4-mini-reasoning",
+        "shutdown_date": "2027-01-17",
+        "deprecation_date": "2027-01-17",
+        "announcement_date": "2026-10-21",
+        "replacement_models": null,
+        "first_observed": "2026-10-21",
+        "last_observed": "2026-10-21"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-phi-4-multimodal-instruct",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Phi-4-multimodal-instruct",
+      "content_text": "",
+      "date_published": "2026-10-21T07:12:26.260141+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Phi-4-multimodal-instruct",
+        "shutdown_date": "2027-01-17",
+        "deprecation_date": "2027-01-17",
+        "announcement_date": "2026-10-21",
+        "replacement_models": null,
+        "first_observed": "2026-10-21",
+        "last_observed": "2026-10-21"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-phi-4-reasoning",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Phi-4-reasoning",
+      "content_text": "",
+      "date_published": "2026-10-21T07:12:26.260182+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Phi-4-reasoning",
+        "shutdown_date": "2027-01-17",
+        "deprecation_date": "2027-01-17",
+        "announcement_date": "2026-10-21",
+        "replacement_models": null,
+        "first_observed": "2026-10-21",
+        "last_observed": "2026-10-21"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "azure-ministral-3b",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Ministral-3B",

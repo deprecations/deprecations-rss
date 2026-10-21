@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Tue, 20 Oct 2026 07:16:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 07:12:26 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-4o-2024-08-06</title>
       <link>https://platform.openai.com/docs/deprecations#2026-10-14-gpt-4-series-model-deprecations</link>
@@ -5929,6 +5929,76 @@ Last Observed: 2026-04-25
 Meta</description>
       <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
       <guid isPermaLink="false">Azure-Meta-Llama-3.1-8B-Instruct-2026-06-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Phi-4</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Phi-4
+Deprecation Date: 2027-01-17
+Shutdown Date: 2027-01-17
+First Observed: 2026-10-21
+Last Observed: 2026-10-21
+
+Microsoft</description>
+      <pubDate>Wed, 21 Oct 2026 07:12:26 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Phi-4-2027-01-17-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Phi-4-mini-instruct</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Phi-4-mini-instruct
+Deprecation Date: 2027-01-17
+Shutdown Date: 2027-01-17
+First Observed: 2026-10-21
+Last Observed: 2026-10-21
+
+Microsoft</description>
+      <pubDate>Wed, 21 Oct 2026 07:12:26 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Phi-4-mini-instruct-2027-01-17-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Phi-4-mini-reasoning</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Phi-4-mini-reasoning
+Deprecation Date: 2027-01-17
+Shutdown Date: 2027-01-17
+First Observed: 2026-10-21
+Last Observed: 2026-10-21
+
+Microsoft</description>
+      <pubDate>Wed, 21 Oct 2026 07:12:26 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Phi-4-mini-reasoning-2027-01-17-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Phi-4-multimodal-instruct</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Phi-4-multimodal-instruct
+Deprecation Date: 2027-01-17
+Shutdown Date: 2027-01-17
+First Observed: 2026-10-21
+Last Observed: 2026-10-21
+
+Microsoft</description>
+      <pubDate>Wed, 21 Oct 2026 07:12:26 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Phi-4-multimodal-instruct-2027-01-17-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Phi-4-reasoning</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Phi-4-reasoning
+Deprecation Date: 2027-01-17
+Shutdown Date: 2027-01-17
+First Observed: 2026-10-21
+Last Observed: 2026-10-21
+
+Microsoft</description>
+      <pubDate>Wed, 21 Oct 2026 07:12:26 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Phi-4-reasoning-2027-01-17-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Ministral-3B</title>
