@@ -2588,28 +2588,28 @@
     "replacement_models": [
       "claude-sonnet-5-5"
     ],
-    "deprecation_context": "<Note> This model was retired February 19, 2026. </Note> On October 28, 2025, Anthropic notified developers using Claude Sonnet 3.7 model of its upcoming retirement on the Claude API.",
+    "deprecation_context": "<Note> This model was retired February 19, 2026. </Note> On October 28, 2025, Anthropic notified developers using Claude Sonnet 3.7 of its upcoming retirement on the Claude API.",
     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-10-28-claude-sonnet-3-7-model",
     "content_hash": "c8a4c9a555c15f9e",
-    "scraped_at": "2026-10-10T08:11:34.046777+00:00",
+    "scraped_at": "2026-10-22T07:14:23.557062+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-10-10"
+    "last_observed": "2026-10-22"
   },
   {
     "provider": "Anthropic",
     "model_id": "claude-3-5-haiku-20241022",
     "announcement_date": "2026-03-26",
     "shutdown_date": "2026-02-19",
+    "deprecation_date": "2025-12-19",
     "replacement_models": [
       "claude-haiku-4-5-20251001"
     ],
-    "deprecation_context": "<Note> This model was retired February 19, 2026. </Note> On December 19, 2025, Anthropic notified developers using Claude Haiku 3.5 model of its upcoming retirement on the Claude API.",
+    "deprecation_context": "<Note> This model was retired February 19, 2026. </Note> On December 19, 2025, Anthropic notified developers using Claude Haiku 3.5 of its upcoming retirement on the Claude API.",
     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-12-19-claude-haiku-3-5-model",
     "content_hash": "0cb5d027d6b4f624",
-    "scraped_at": "2026-03-26T14:36:35.249145+00:00",
+    "scraped_at": "2026-10-22T07:14:23.557009+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-03-26",
-    "deprecation_date": "2025-12-19"
+    "last_observed": "2026-10-22"
   },
   {
     "provider": "Anthropic",
@@ -2620,12 +2620,12 @@
     "replacement_models": [
       "claude-haiku-4-5-20251001"
     ],
-    "deprecation_context": "<Note> This model was retired April 20, 2026. </Note> On February 19, 2026, Anthropic notified developers using Claude Haiku 3 model of its upcoming retirement on the Claude API.",
+    "deprecation_context": "<Note> This model was retired April 20, 2026. </Note> On February 19, 2026, Anthropic notified developers using Claude Haiku 3 of its upcoming retirement on the Claude API.",
     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-02-19-claude-haiku-3-model",
     "content_hash": "a60adbdb8218920c",
-    "scraped_at": "2026-04-21T04:49:55.100982+00:00",
+    "scraped_at": "2026-10-22T07:14:23.556953+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-04-21"
+    "last_observed": "2026-10-22"
   },
   {
     "provider": "Anthropic",
@@ -2668,12 +2668,12 @@
     "replacement_models": [
       "claude-opus-4-8"
     ],
-    "deprecation_context": "<Note> This model was retired January 5, 2026. </Note> On June 30, 2025, Anthropic notified developers using Claude Opus 3 model of its upcoming retirement.",
+    "deprecation_context": "<Note> This model was retired January 5, 2026. </Note> On June 30, 2025, Anthropic notified developers using Claude Opus 3 of its upcoming retirement.",
     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2025-06-30-claude-opus-3-model",
     "content_hash": "f05fdc4a8221d16d",
-    "scraped_at": "2026-05-29T06:16:18.532842+00:00",
+    "scraped_at": "2026-10-22T07:14:23.557223+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-05-29"
+    "last_observed": "2026-10-22"
   },
   {
     "provider": "Anthropic",
@@ -6197,6 +6197,34 @@
   },
   {
     "provider": "Azure",
+    "model_id": "grok-4-1-fast-non-reasoning",
+    "announcement_date": "2026-10-22",
+    "shutdown_date": "2027-05-19",
+    "deprecation_date": "2027-05-19",
+    "replacement_models": null,
+    "deprecation_context": "xAI",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "548e94de80191622",
+    "scraped_at": "2026-10-22T07:14:31.488924+00:00",
+    "first_observed": "2026-10-22",
+    "last_observed": "2026-10-22"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "grok-4-1-fast-reasoning",
+    "announcement_date": "2026-10-22",
+    "shutdown_date": "2027-05-19",
+    "deprecation_date": "2027-05-19",
+    "replacement_models": null,
+    "deprecation_context": "xAI",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "965bdfc31bcf8286",
+    "scraped_at": "2026-10-22T07:14:31.488966+00:00",
+    "first_observed": "2026-10-22",
+    "last_observed": "2026-10-22"
+  },
+  {
+    "provider": "Azure",
     "model_id": "grok-4-20-non-reasoning",
     "announcement_date": "2026-04-25",
     "shutdown_date": "2027-04-06",
@@ -6488,6 +6516,40 @@
   },
   {
     "provider": "Azure",
+    "model_id": "Cohere-embed-v3-english",
+    "announcement_date": "2026-10-22",
+    "shutdown_date": "2027-02-15",
+    "deprecation_date": "2027-02-15",
+    "replacement_models": [
+      "Cohere-Embed-V5-Fast",
+      "Cohere-Embed-V5-Pro"
+    ],
+    "deprecation_context": "Cohere",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "14a5c4febbba7a4d",
+    "scraped_at": "2026-10-22T07:14:31.490704+00:00",
+    "first_observed": "2026-10-22",
+    "last_observed": "2026-10-22"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Cohere-embed-v3-multilingual",
+    "announcement_date": "2026-10-22",
+    "shutdown_date": "2027-02-15",
+    "deprecation_date": "2027-02-15",
+    "replacement_models": [
+      "Cohere-Embed-V5-Fast",
+      "Cohere-Embed-V5-Pro"
+    ],
+    "deprecation_context": "Cohere",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "667293e92c2e88c3",
+    "scraped_at": "2026-10-22T07:14:31.490747+00:00",
+    "first_observed": "2026-10-22",
+    "last_observed": "2026-10-22"
+  },
+  {
+    "provider": "Azure",
     "model_id": "Llama-3.2-11B-Vision-Instruct",
     "announcement_date": "2026-02-25",
     "shutdown_date": "2026-06-13",
@@ -6513,6 +6575,34 @@
     "scraped_at": "2026-04-25T04:37:34.703662+00:00",
     "first_observed": "2026-02-25",
     "last_observed": "2026-04-25"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Llama-3.3-70B-Instruct",
+    "announcement_date": "2026-10-22",
+    "shutdown_date": "2027-01-31",
+    "deprecation_date": "2027-01-31",
+    "replacement_models": null,
+    "deprecation_context": "Meta",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "65c9934ff20b7272",
+    "scraped_at": "2026-10-22T07:14:31.490940+00:00",
+    "first_observed": "2026-10-22",
+    "last_observed": "2026-10-22"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+    "announcement_date": "2026-10-22",
+    "shutdown_date": "2026-11-19",
+    "deprecation_date": "2026-11-19",
+    "replacement_models": null,
+    "deprecation_context": "Meta",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "34b909caf47c8bea",
+    "scraped_at": "2026-10-22T07:14:31.490979+00:00",
+    "first_observed": "2026-10-22",
+    "last_observed": "2026-10-22"
   },
   {
     "provider": "Azure",
@@ -6662,17 +6752,17 @@
     "provider": "Azure",
     "model_id": "mistral-small-2503",
     "announcement_date": "2026-10-17",
-    "shutdown_date": "2026-12-09",
-    "deprecation_date": "2026-12-09",
+    "shutdown_date": "2027-02-15",
+    "deprecation_date": "2027-02-15",
     "replacement_models": [
-      "mistral-small-4-119b-2603"
+      "mistralai-mistral-small-4-119b-2603"
     ],
     "deprecation_context": "Mistral AI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "44ab25bf9f1603f0",
-    "scraped_at": "2026-10-17T06:41:16.130441+00:00",
+    "content_hash": "f4d3721947bba77f",
+    "scraped_at": "2026-10-22T07:14:31.491761+00:00",
     "first_observed": "2026-10-17",
-    "last_observed": "2026-10-17"
+    "last_observed": "2026-10-22"
   },
   {
     "provider": "Azure",
