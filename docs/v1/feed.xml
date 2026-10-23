@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 22 Oct 2026 07:14:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 07:06:09 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-4o-2024-08-06</title>
       <link>https://platform.openai.com/docs/deprecations#2026-10-14-gpt-4-series-model-deprecations</link>
@@ -5287,6 +5287,48 @@ Cohere</description>
       <guid isPermaLink="false">Azure-Cohere-parse-v5-2026-12-15-e3b0c442</guid>
     </item>
     <item>
+      <title>Azure: Cohere-rerank-v4.0-fast</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Cohere-rerank-v4.0-fast
+Deprecation Date: 2027-09-13
+Shutdown Date: 2027-09-13
+First Observed: 2026-10-23
+Last Observed: 2026-10-23
+
+Cohere</description>
+      <pubDate>Fri, 23 Oct 2026 07:06:09 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Cohere-rerank-v4.0-fast-2027-09-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Cohere-rerank-v4.0-pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Cohere-rerank-v4.0-pro
+Deprecation Date: 2027-09-13
+Shutdown Date: 2027-09-13
+First Observed: 2026-10-23
+Last Observed: 2026-10-23
+
+Cohere</description>
+      <pubDate>Fri, 23 Oct 2026 07:06:09 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Cohere-rerank-v4.0-pro-2027-09-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: cohere-command-a</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: cohere-command-a
+Deprecation Date: 2027-02-15
+Shutdown Date: 2027-02-15
+First Observed: 2026-10-23
+Last Observed: 2026-10-23
+
+Cohere</description>
+      <pubDate>Fri, 23 Oct 2026 07:06:09 GMT</pubDate>
+      <guid isPermaLink="false">Azure-cohere-command-a-2027-02-15-e3b0c442</guid>
+    </item>
+    <item>
       <title>Azure: Cohere-command-a-plus-05-2026</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
@@ -5299,6 +5341,20 @@ Last Observed: 2026-09-17
 Cohere</description>
       <pubDate>Thu, 17 Sep 2026 07:17:39 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-command-a-plus-05-2026-2026-10-16-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: embed-v-4-0</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: embed-v-4-0
+Deprecation Date: 2027-06-01
+Shutdown Date: 2027-06-01
+First Observed: 2026-10-23
+Last Observed: 2026-10-23
+
+Cohere</description>
+      <pubDate>Fri, 23 Oct 2026 07:06:09 GMT</pubDate>
+      <guid isPermaLink="false">Azure-embed-v-4-0-2027-06-01-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: DeepSeek-R1</title>
@@ -5355,6 +5411,34 @@ Last Observed: 2026-06-19
 DeepSeek</description>
       <pubDate>Fri, 19 Jun 2026 07:08:41 GMT</pubDate>
       <guid isPermaLink="false">Azure-DeepSeek-V3.1-2026-07-13-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: DeepSeek-V3.2</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: DeepSeek-V3.2
+Deprecation Date: 2027-11-01
+Shutdown Date: 2027-11-01
+First Observed: 2026-10-23
+Last Observed: 2026-10-23
+
+DeepSeek</description>
+      <pubDate>Fri, 23 Oct 2026 07:06:09 GMT</pubDate>
+      <guid isPermaLink="false">Azure-DeepSeek-V3.2-2027-11-01-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: DeepSeek-V3.2-Speciale</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: DeepSeek-V3.2-Speciale
+Deprecation Date: 2027-11-01
+Shutdown Date: 2027-11-01
+First Observed: 2026-10-23
+Last Observed: 2026-10-23
+
+DeepSeek</description>
+      <pubDate>Fri, 23 Oct 2026 07:06:09 GMT</pubDate>
+      <guid isPermaLink="false">Azure-DeepSeek-V3.2-Speciale-2027-11-01-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: DeepSeek-V4-Flash</title>
@@ -5543,14 +5627,28 @@ MoonshotAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Kimi-K2.7-Code
-Deprecation Date: 2026-10-03
-Shutdown Date: 2026-10-03
+Deprecation Date: 2027-04-16
+Shutdown Date: 2027-04-16
 First Observed: 2026-07-10
-Last Observed: 2026-07-10
+Last Observed: 2026-10-23
 
 MoonshotAI</description>
-      <pubDate>Fri, 10 Jul 2026 06:05:43 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Kimi-K2.7-Code-2026-10-03-e3b0c442</guid>
+      <pubDate>Fri, 23 Oct 2026 07:06:09 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Kimi-K2.7-Code-2027-04-16-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: gpt-oss-120b</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: gpt-oss-120b
+Deprecation Date: 2027-09-15
+Shutdown Date: 2027-09-15
+First Observed: 2026-10-23
+Last Observed: 2026-10-23
+
+OpenAI-OSS</description>
+      <pubDate>Fri, 23 Oct 2026 07:06:09 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-oss-120b-2027-09-15-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: grok-3</title>
@@ -5896,10 +5994,10 @@ Model ID: Cohere-embed-v3-english
 Deprecation Date: 2027-02-15
 Shutdown Date: 2027-02-15
 First Observed: 2026-10-22
-Last Observed: 2026-10-22
+Last Observed: 2026-10-23
 
 Cohere</description>
-      <pubDate>Thu, 22 Oct 2026 07:14:31 GMT</pubDate>
+      <pubDate>Fri, 23 Oct 2026 07:06:09 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-embed-v3-english-2027-02-15-e3b0c442</guid>
     </item>
     <item>
@@ -5910,10 +6008,10 @@ Model ID: Cohere-embed-v3-multilingual
 Deprecation Date: 2027-02-15
 Shutdown Date: 2027-02-15
 First Observed: 2026-10-22
-Last Observed: 2026-10-22
+Last Observed: 2026-10-23
 
 Cohere</description>
-      <pubDate>Thu, 22 Oct 2026 07:14:31 GMT</pubDate>
+      <pubDate>Fri, 23 Oct 2026 07:06:09 GMT</pubDate>
       <guid isPermaLink="false">Azure-Cohere-embed-v3-multilingual-2027-02-15-e3b0c442</guid>
     </item>
     <item>

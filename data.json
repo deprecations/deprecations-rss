@@ -5880,6 +5880,52 @@
   },
   {
     "provider": "Azure",
+    "model_id": "Cohere-rerank-v4.0-fast",
+    "announcement_date": "2026-10-23",
+    "shutdown_date": "2027-09-13",
+    "deprecation_date": "2027-09-13",
+    "replacement_models": [
+      "Cohere-rerank-v5-fast"
+    ],
+    "deprecation_context": "Cohere",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "6a2524537d680408",
+    "scraped_at": "2026-10-23T07:06:09.536115+00:00",
+    "first_observed": "2026-10-23",
+    "last_observed": "2026-10-23"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Cohere-rerank-v4.0-pro",
+    "announcement_date": "2026-10-23",
+    "shutdown_date": "2027-09-13",
+    "deprecation_date": "2027-09-13",
+    "replacement_models": [
+      "Cohere-rerank-v5-pro"
+    ],
+    "deprecation_context": "Cohere",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "f1a7414d0eba1dad",
+    "scraped_at": "2026-10-23T07:06:09.536156+00:00",
+    "first_observed": "2026-10-23",
+    "last_observed": "2026-10-23"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "cohere-command-a",
+    "announcement_date": "2026-10-23",
+    "shutdown_date": "2027-02-15",
+    "deprecation_date": "2027-02-15",
+    "replacement_models": null,
+    "deprecation_context": "Cohere",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "bd1f352974987a80",
+    "scraped_at": "2026-10-23T07:06:09.536213+00:00",
+    "first_observed": "2026-10-23",
+    "last_observed": "2026-10-23"
+  },
+  {
+    "provider": "Azure",
     "model_id": "Cohere-command-a-plus-05-2026",
     "announcement_date": "2026-07-10",
     "shutdown_date": "2026-10-16",
@@ -5891,6 +5937,23 @@
     "scraped_at": "2026-09-17T07:17:39.668008+00:00",
     "first_observed": "2026-07-10",
     "last_observed": "2026-09-17"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "embed-v-4-0",
+    "announcement_date": "2026-10-23",
+    "shutdown_date": "2027-06-01",
+    "deprecation_date": "2027-06-01",
+    "replacement_models": [
+      "Coher-embed-v5-fast",
+      "Cohere-embed-v5-pro"
+    ],
+    "deprecation_context": "Cohere",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "cf37a16625c7e026",
+    "scraped_at": "2026-10-23T07:06:09.536297+00:00",
+    "first_observed": "2026-10-23",
+    "last_observed": "2026-10-23"
   },
   {
     "provider": "Azure",
@@ -5955,6 +6018,38 @@
     "scraped_at": "2026-06-19T07:08:41.874080+00:00",
     "first_observed": "2026-06-04",
     "last_observed": "2026-06-19"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "DeepSeek-V3.2",
+    "announcement_date": "2026-10-23",
+    "shutdown_date": "2027-11-01",
+    "deprecation_date": "2027-11-01",
+    "replacement_models": [
+      "DeepSeek-V4.1-Flash"
+    ],
+    "deprecation_context": "DeepSeek",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "08aa65c85af6e276",
+    "scraped_at": "2026-10-23T07:06:09.536676+00:00",
+    "first_observed": "2026-10-23",
+    "last_observed": "2026-10-23"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "DeepSeek-V3.2-Speciale",
+    "announcement_date": "2026-10-23",
+    "shutdown_date": "2027-11-01",
+    "deprecation_date": "2027-11-01",
+    "replacement_models": [
+      "DeepSeek-V4-Pro"
+    ],
+    "deprecation_context": "DeepSeek",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "2886737d1d72b146",
+    "scraped_at": "2026-10-23T07:06:09.536730+00:00",
+    "first_observed": "2026-10-23",
+    "last_observed": "2026-10-23"
   },
   {
     "provider": "Azure",
@@ -6153,15 +6248,29 @@
     "provider": "Azure",
     "model_id": "Kimi-K2.7-Code",
     "announcement_date": "2026-07-10",
-    "shutdown_date": "2026-10-03",
-    "deprecation_date": "2026-10-03",
+    "shutdown_date": "2027-04-16",
+    "deprecation_date": "2027-04-16",
     "replacement_models": null,
     "deprecation_context": "MoonshotAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "66cd2866a85f2c17",
-    "scraped_at": "2026-07-10T06:05:43.920040+00:00",
+    "content_hash": "3f76729e82fef0cf",
+    "scraped_at": "2026-10-23T07:06:09.538034+00:00",
     "first_observed": "2026-07-10",
-    "last_observed": "2026-07-10"
+    "last_observed": "2026-10-23"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "gpt-oss-120b",
+    "announcement_date": "2026-10-23",
+    "shutdown_date": "2027-09-15",
+    "deprecation_date": "2027-09-15",
+    "replacement_models": null,
+    "deprecation_context": "OpenAI-OSS",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "3a5ba575c57ee38c",
+    "scraped_at": "2026-10-23T07:06:09.538193+00:00",
+    "first_observed": "2026-10-23",
+    "last_observed": "2026-10-23"
   },
   {
     "provider": "Azure",
@@ -6521,15 +6630,15 @@
     "shutdown_date": "2027-02-15",
     "deprecation_date": "2027-02-15",
     "replacement_models": [
-      "Cohere-Embed-V5-Fast",
-      "Cohere-Embed-V5-Pro"
+      "Cohere-embed-v5-fast",
+      "Cohere-embed-v5-pro"
     ],
     "deprecation_context": "Cohere",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
     "content_hash": "14a5c4febbba7a4d",
-    "scraped_at": "2026-10-22T07:14:31.490704+00:00",
+    "scraped_at": "2026-10-23T07:06:09.540639+00:00",
     "first_observed": "2026-10-22",
-    "last_observed": "2026-10-22"
+    "last_observed": "2026-10-23"
   },
   {
     "provider": "Azure",
@@ -6538,15 +6647,15 @@
     "shutdown_date": "2027-02-15",
     "deprecation_date": "2027-02-15",
     "replacement_models": [
-      "Cohere-Embed-V5-Fast",
-      "Cohere-Embed-V5-Pro"
+      "Cohere-embed-v5-fast",
+      "Cohere-embed-v5-pro"
     ],
     "deprecation_context": "Cohere",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
     "content_hash": "667293e92c2e88c3",
-    "scraped_at": "2026-10-22T07:14:31.490747+00:00",
+    "scraped_at": "2026-10-23T07:06:09.540696+00:00",
     "first_observed": "2026-10-22",
-    "last_observed": "2026-10-22"
+    "last_observed": "2026-10-23"
   },
   {
     "provider": "Azure",
