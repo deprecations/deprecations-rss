@@ -10080,6 +10080,27 @@
       ]
     },
     {
+      "id": "azure-claude-mythos-5-1",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: claude-mythos-5-1",
+      "content_text": "",
+      "date_published": "2026-10-26T07:30:29.041004+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "claude-mythos-5-1",
+        "shutdown_date": "2027-09-01",
+        "deprecation_date": "2027-09-01",
+        "announcement_date": "2026-10-26",
+        "replacement_models": null,
+        "first_observed": "2026-10-26",
+        "last_observed": "2026-10-26"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "azure-cohere-command-r-08-2024",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Cohere-command-r-08-2024",

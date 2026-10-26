@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Sat, 24 Oct 2026 06:57:09 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 07:30:29 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-4o-2024-08-06</title>
       <link>https://platform.openai.com/docs/deprecations#2026-10-14-gpt-4-series-model-deprecations</link>
@@ -6279,6 +6279,20 @@ Last Observed: 2026-08-28
 Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
       <pubDate>Fri, 28 Aug 2026 13:55:33 GMT</pubDate>
       <guid isPermaLink="false">Azure-claude-fable-5-2027-12-05-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: claude-mythos-5-1</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: claude-mythos-5-1
+Deprecation Date: 2027-09-01
+Shutdown Date: 2027-09-01
+First Observed: 2026-10-26
+Last Observed: 2026-10-26
+
+Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
+      <pubDate>Mon, 26 Oct 2026 07:30:29 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-mythos-5-1-2027-09-01-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Cohere-command-r-08-2024</title>
