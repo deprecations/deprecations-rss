@@ -1275,86 +1275,6 @@
   },
   {
     "provider": "OpenAI",
-    "model_id": "ft-gpt-3.5-turbo",
-    "announcement_date": "2026-04-23",
-    "shutdown_date": "2026-10-23",
-    "deprecation_date": "2026-04-22",
-    "replacement_models": [
-      "gpt-5.6-terra"
-    ],
-    "deprecation_context": "On April 22, 2026, we announced the deprecation of the following older OpenAI models. Access to these models was shut down on October 23, 2026.",
-    "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
-    "content_hash": "56cccd7d42d33e7b",
-    "scraped_at": "2026-10-24T06:57:05.477544+00:00",
-    "first_observed": "2026-04-23",
-    "last_observed": "2026-10-24"
-  },
-  {
-    "provider": "OpenAI",
-    "model_id": "ft-gpt-4",
-    "announcement_date": "2026-04-23",
-    "shutdown_date": "2026-10-23",
-    "deprecation_date": "2026-04-22",
-    "replacement_models": [
-      "gpt-5.6-sol"
-    ],
-    "deprecation_context": "On April 22, 2026, we announced the deprecation of the following older OpenAI models. Access to these models was shut down on October 23, 2026.",
-    "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
-    "content_hash": "afeb72021dd9dfb9",
-    "scraped_at": "2026-10-24T06:57:05.477568+00:00",
-    "first_observed": "2026-04-23",
-    "last_observed": "2026-10-24"
-  },
-  {
-    "provider": "OpenAI",
-    "model_id": "ft-gpt-4.1-nano-2025-04-14",
-    "announcement_date": "2026-04-23",
-    "shutdown_date": "2026-10-23",
-    "deprecation_date": "2026-04-22",
-    "replacement_models": [
-      "gpt-5.6-luna"
-    ],
-    "deprecation_context": "On April 22, 2026, we announced the deprecation of the following older OpenAI models. Access to these models was shut down on October 23, 2026.",
-    "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
-    "content_hash": "e0f4d75398046174",
-    "scraped_at": "2026-10-24T06:57:05.477589+00:00",
-    "first_observed": "2026-04-23",
-    "last_observed": "2026-10-24"
-  },
-  {
-    "provider": "OpenAI",
-    "model_id": "ft-babbage-002",
-    "announcement_date": "2026-04-23",
-    "shutdown_date": "2026-10-23",
-    "deprecation_date": "2026-04-22",
-    "replacement_models": [
-      "gpt-5.6-terra"
-    ],
-    "deprecation_context": "On April 22, 2026, we announced the deprecation of the following older OpenAI models. Access to these models was shut down on October 23, 2026.",
-    "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
-    "content_hash": "875b4a305dc7e676",
-    "scraped_at": "2026-10-24T06:57:05.477611+00:00",
-    "first_observed": "2026-04-23",
-    "last_observed": "2026-10-24"
-  },
-  {
-    "provider": "OpenAI",
-    "model_id": "ft-davinci-002",
-    "announcement_date": "2026-04-23",
-    "shutdown_date": "2026-10-23",
-    "deprecation_date": "2026-04-22",
-    "replacement_models": [
-      "gpt-5.6-terra"
-    ],
-    "deprecation_context": "On April 22, 2026, we announced the deprecation of the following older OpenAI models. Access to these models was shut down on October 23, 2026.",
-    "url": "https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots",
-    "content_hash": "47779aff2ec07bfe",
-    "scraped_at": "2026-10-24T06:57:05.477632+00:00",
-    "first_observed": "2026-04-23",
-    "last_observed": "2026-10-24"
-  },
-  {
-    "provider": "OpenAI",
     "model_id": "computer-use-preview-2025-03-11",
     "announcement_date": "2026-04-23",
     "shutdown_date": "2026-07-23",
@@ -1772,12 +1692,12 @@
     "replacement_models": [
       "gpt-5.6-terra"
     ],
-    "deprecation_context": "To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.",
+    "deprecation_context": "To improve reliability and make it easier for developers to choose the right models, we deprecated a set of older OpenAI models with declining usage. Access to these models was shut down on September 28, 2026.",
     "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
     "content_hash": "e9f97f6b413c07d2",
-    "scraped_at": "2026-08-05T05:16:13.449112+00:00",
+    "scraped_at": "2026-10-27T07:26:27.198443+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-08-05"
+    "last_observed": "2026-10-27"
   },
   {
     "provider": "OpenAI",
@@ -1788,12 +1708,12 @@
     "replacement_models": [
       "gpt-5.6-terra"
     ],
-    "deprecation_context": "To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.",
+    "deprecation_context": "To improve reliability and make it easier for developers to choose the right models, we deprecated a set of older OpenAI models with declining usage. Access to these models was shut down on September 28, 2026.",
     "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
     "content_hash": "4ee1743646dbc19d",
-    "scraped_at": "2026-08-05T05:16:13.449125+00:00",
+    "scraped_at": "2026-10-27T07:26:27.198455+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-08-05"
+    "last_observed": "2026-10-27"
   },
   {
     "provider": "OpenAI",
@@ -1804,12 +1724,12 @@
     "replacement_models": [
       "gpt-5.6-terra"
     ],
-    "deprecation_context": "To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.",
+    "deprecation_context": "To improve reliability and make it easier for developers to choose the right models, we deprecated a set of older OpenAI models with declining usage. Access to these models was shut down on September 28, 2026.",
     "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
     "content_hash": "f1f769d6cadd5522",
-    "scraped_at": "2026-08-05T05:16:13.449134+00:00",
+    "scraped_at": "2026-10-27T07:26:27.198465+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-08-05"
+    "last_observed": "2026-10-27"
   },
   {
     "provider": "OpenAI",
@@ -1820,12 +1740,12 @@
     "replacement_models": [
       "gpt-5.6-terra"
     ],
-    "deprecation_context": "To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.",
+    "deprecation_context": "To improve reliability and make it easier for developers to choose the right models, we deprecated a set of older OpenAI models with declining usage. Access to these models was shut down on September 28, 2026.",
     "url": "https://platform.openai.com/docs/deprecations#2025-09-26-legacy-gpt-model-snapshots",
     "content_hash": "d678f185586d4571",
-    "scraped_at": "2026-08-05T05:16:13.449144+00:00",
+    "scraped_at": "2026-10-27T07:26:27.198475+00:00",
     "first_observed": "2026-03-26",
-    "last_observed": "2026-08-05"
+    "last_observed": "2026-10-27"
   },
   {
     "provider": "OpenAI",

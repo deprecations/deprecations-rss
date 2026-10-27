@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Mon, 26 Oct 2026 07:30:29 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 07:26:27 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-4o-2024-08-06</title>
       <link>https://platform.openai.com/docs/deprecations#2026-10-14-gpt-4-series-model-deprecations</link>
@@ -1112,76 +1112,6 @@ On April 22, 2026, we announced the deprecation of the following older OpenAI mo
       <guid isPermaLink="false">OpenAI-o4-mini-2026-10-23-e3b0c442</guid>
     </item>
     <item>
-      <title>OpenAI: ft-gpt-3.5-turbo</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
-      <description>Provider: OpenAI
-Model ID: ft-gpt-3.5-turbo
-Deprecation Date: 2026-04-22
-Shutdown Date: 2026-10-23
-First Observed: 2026-04-23
-Last Observed: 2026-10-24
-
-On April 22, 2026, we announced the deprecation of the following older OpenAI models. Access to these models was shut down on October 23, 2026.</description>
-      <pubDate>Sat, 24 Oct 2026 06:57:05 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-ft-gpt-3.5-turbo-2026-10-23-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: ft-gpt-4</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
-      <description>Provider: OpenAI
-Model ID: ft-gpt-4
-Deprecation Date: 2026-04-22
-Shutdown Date: 2026-10-23
-First Observed: 2026-04-23
-Last Observed: 2026-10-24
-
-On April 22, 2026, we announced the deprecation of the following older OpenAI models. Access to these models was shut down on October 23, 2026.</description>
-      <pubDate>Sat, 24 Oct 2026 06:57:05 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-ft-gpt-4-2026-10-23-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: ft-gpt-4.1-nano-2025-04-14</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
-      <description>Provider: OpenAI
-Model ID: ft-gpt-4.1-nano-2025-04-14
-Deprecation Date: 2026-04-22
-Shutdown Date: 2026-10-23
-First Observed: 2026-04-23
-Last Observed: 2026-10-24
-
-On April 22, 2026, we announced the deprecation of the following older OpenAI models. Access to these models was shut down on October 23, 2026.</description>
-      <pubDate>Sat, 24 Oct 2026 06:57:05 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-ft-gpt-4.1-nano-2025-04-14-2026-10-23-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: ft-babbage-002</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
-      <description>Provider: OpenAI
-Model ID: ft-babbage-002
-Deprecation Date: 2026-04-22
-Shutdown Date: 2026-10-23
-First Observed: 2026-04-23
-Last Observed: 2026-10-24
-
-On April 22, 2026, we announced the deprecation of the following older OpenAI models. Access to these models was shut down on October 23, 2026.</description>
-      <pubDate>Sat, 24 Oct 2026 06:57:05 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-ft-babbage-002-2026-10-23-e3b0c442</guid>
-    </item>
-    <item>
-      <title>OpenAI: ft-davinci-002</title>
-      <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots</link>
-      <description>Provider: OpenAI
-Model ID: ft-davinci-002
-Deprecation Date: 2026-04-22
-Shutdown Date: 2026-10-23
-First Observed: 2026-04-23
-Last Observed: 2026-10-24
-
-On April 22, 2026, we announced the deprecation of the following older OpenAI models. Access to these models was shut down on October 23, 2026.</description>
-      <pubDate>Sat, 24 Oct 2026 06:57:05 GMT</pubDate>
-      <guid isPermaLink="false">OpenAI-ft-davinci-002-2026-10-23-e3b0c442</guid>
-    </item>
-    <item>
       <title>OpenAI: computer-use-preview-2025-03-11</title>
       <link>https://platform.openai.com/docs/deprecations#2026-04-22-legacy-gpt-model-snapshots-july-2026-shutdown</link>
       <description>Provider: OpenAI
@@ -1553,10 +1483,10 @@ Model ID: gpt-3.5-turbo-instruct
 Deprecation Date: 2025-09-26
 Shutdown Date: 2026-09-28
 First Observed: 2026-03-26
-Last Observed: 2026-08-05
+Last Observed: 2026-10-27
 
-To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Wed, 05 Aug 2026 05:16:13 GMT</pubDate>
+To improve reliability and make it easier for developers to choose the right models, we deprecated a set of older OpenAI models with declining usage. Access to these models was shut down on September 28, 2026.</description>
+      <pubDate>Tue, 27 Oct 2026 07:26:27 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-instruct-2026-09-28-e3b0c442</guid>
     </item>
     <item>
@@ -1567,10 +1497,10 @@ Model ID: babbage-002
 Deprecation Date: 2025-09-26
 Shutdown Date: 2026-09-28
 First Observed: 2026-03-26
-Last Observed: 2026-08-05
+Last Observed: 2026-10-27
 
-To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Wed, 05 Aug 2026 05:16:13 GMT</pubDate>
+To improve reliability and make it easier for developers to choose the right models, we deprecated a set of older OpenAI models with declining usage. Access to these models was shut down on September 28, 2026.</description>
+      <pubDate>Tue, 27 Oct 2026 07:26:27 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-babbage-002-2026-09-28-e3b0c442</guid>
     </item>
     <item>
@@ -1581,10 +1511,10 @@ Model ID: davinci-002
 Deprecation Date: 2025-09-26
 Shutdown Date: 2026-09-28
 First Observed: 2026-03-26
-Last Observed: 2026-08-05
+Last Observed: 2026-10-27
 
-To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Wed, 05 Aug 2026 05:16:13 GMT</pubDate>
+To improve reliability and make it easier for developers to choose the right models, we deprecated a set of older OpenAI models with declining usage. Access to these models was shut down on September 28, 2026.</description>
+      <pubDate>Tue, 27 Oct 2026 07:26:27 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-davinci-002-2026-09-28-e3b0c442</guid>
     </item>
     <item>
@@ -1595,10 +1525,10 @@ Model ID: gpt-3.5-turbo-1106
 Deprecation Date: 2025-09-26
 Shutdown Date: 2026-09-28
 First Observed: 2026-03-26
-Last Observed: 2026-08-05
+Last Observed: 2026-10-27
 
-To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models with declining usage over the next six to twelve months. Access to these models will be shut down on the dates below.</description>
-      <pubDate>Wed, 05 Aug 2026 05:16:13 GMT</pubDate>
+To improve reliability and make it easier for developers to choose the right models, we deprecated a set of older OpenAI models with declining usage. Access to these models was shut down on September 28, 2026.</description>
+      <pubDate>Tue, 27 Oct 2026 07:26:27 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-3.5-turbo-1106-2026-09-28-e3b0c442</guid>
     </item>
     <item>
