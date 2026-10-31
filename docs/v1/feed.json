@@ -7465,22 +7465,22 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-4o",
       "content_text": "",
-      "date_published": "2026-09-24T07:21:08.581749+00:00",
+      "date_published": "2026-10-31T08:05:48.194291+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-4o",
-        "shutdown_date": "2026-12-09",
-        "deprecation_date": "2026-12-09",
+        "shutdown_date": "2027-01-14",
+        "deprecation_date": "2027-01-14",
         "announcement_date": "2026-04-25",
         "replacement_models": [
-          "gpt-5.6-sol"
+          "gpt-5.1"
         ],
         "first_observed": "2026-04-25",
-        "last_observed": "2026-09-24"
+        "last_observed": "2026-10-31"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
@@ -7658,16 +7658,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-5-mini",
       "content_text": "",
-      "date_published": "2026-07-31T05:37:13.529889+00:00",
+      "date_published": "2026-10-31T08:05:48.194773+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-5-mini",
-        "shutdown_date": "2027-02-09",
-        "deprecation_date": "2027-02-09",
+        "shutdown_date": "2027-07-13",
+        "deprecation_date": "2027-07-13",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-07-31"
+        "last_observed": "2026-10-31"
       },
       "tags": [
         "Azure",
@@ -7721,16 +7721,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-5.1",
       "content_text": "",
-      "date_published": "2026-04-25T04:37:34.698216+00:00",
+      "date_published": "2026-10-31T08:05:48.194869+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-5.1",
-        "shutdown_date": "2027-05-15",
-        "deprecation_date": "2027-05-15",
+        "shutdown_date": "2027-07-13",
+        "deprecation_date": "2027-07-13",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-04-25"
+        "last_observed": "2026-10-31"
       },
       "tags": [
         "Azure",

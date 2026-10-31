@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Tue, 27 Oct 2026 07:26:27 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 08:05:48 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-4o-2024-08-06</title>
       <link>https://platform.openai.com/docs/deprecations#2026-10-14-gpt-4-series-model-deprecations</link>
@@ -4591,14 +4591,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-4o
-Deprecation Date: 2026-12-09
-Shutdown Date: 2026-12-09
+Deprecation Date: 2027-01-14
+Shutdown Date: 2027-01-14
 First Observed: 2026-04-25
-Last Observed: 2026-09-24
+Last Observed: 2026-10-31
 
 Azure OpenAI</description>
-      <pubDate>Thu, 24 Sep 2026 07:21:08 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-4o-2026-12-09-e3b0c442</guid>
+      <pubDate>Sat, 31 Oct 2026 08:05:48 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-4o-2027-01-14-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-4o-mini</title>
@@ -4717,14 +4717,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-5-mini
-Deprecation Date: 2027-02-09
-Shutdown Date: 2027-02-09
+Deprecation Date: 2027-07-13
+Shutdown Date: 2027-07-13
 First Observed: 2026-04-25
-Last Observed: 2026-07-31
+Last Observed: 2026-10-31
 
 Azure OpenAI</description>
-      <pubDate>Fri, 31 Jul 2026 05:37:13 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-5-mini-2027-02-09-e3b0c442</guid>
+      <pubDate>Sat, 31 Oct 2026 08:05:48 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5-mini-2027-07-13-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-5-nano</title>
@@ -4759,14 +4759,14 @@ Azure OpenAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: gpt-5.1
-Deprecation Date: 2027-05-15
-Shutdown Date: 2027-05-15
+Deprecation Date: 2027-07-13
+Shutdown Date: 2027-07-13
 First Observed: 2026-04-25
-Last Observed: 2026-04-25
+Last Observed: 2026-10-31
 
 Azure OpenAI</description>
-      <pubDate>Sat, 25 Apr 2026 04:37:34 GMT</pubDate>
-      <guid isPermaLink="false">Azure-gpt-5.1-2027-05-15-e3b0c442</guid>
+      <pubDate>Sat, 31 Oct 2026 08:05:48 GMT</pubDate>
+      <guid isPermaLink="false">Azure-gpt-5.1-2027-07-13-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-5.1-chat</title>
