@@ -4322,6 +4322,27 @@
       ]
     },
     {
+      "id": "google-vertex-claude-sonnet-4-5",
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-4-5",
+      "title": "Google Vertex: claude-sonnet-4-5",
+      "content_text": "",
+      "date_published": "2026-11-05T09:06:04.347069+00:00",
+      "_deprecation": {
+        "provider": "Google Vertex",
+        "model_id": "claude-sonnet-4-5",
+        "shutdown_date": "2026-11-30",
+        "deprecation_date": "2026-09-29",
+        "announcement_date": "2026-11-05",
+        "replacement_models": null,
+        "first_observed": "2026-11-05",
+        "last_observed": "2026-11-05"
+      },
+      "tags": [
+        "Google Vertex",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "google-vertex-claude-3-haiku",
       "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#haiku-3",
       "title": "Google Vertex: claude-3-haiku",

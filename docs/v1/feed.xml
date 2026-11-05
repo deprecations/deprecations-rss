@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Sat, 31 Oct 2026 08:05:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 09:06:04 GMT</lastBuildDate>
     <item>
       <title>OpenAI: gpt-4o-2024-08-06</title>
       <link>https://platform.openai.com/docs/deprecations#2026-10-14-gpt-4-series-model-deprecations</link>
@@ -2619,6 +2619,24 @@ Last Observed: 2026-03-26
 &lt;Note&gt; These models were retired November 6, 2024. &lt;/Note&gt; On September 4, 2024, Anthropic notified developers using Claude 1 and Instant models of their upcoming retirements.</description>
       <pubDate>Thu, 26 Mar 2026 14:36:35 GMT</pubDate>
       <guid isPermaLink="false">Anthropic-claude-instant-1.2-2024-11-06-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google Vertex: claude-sonnet-4-5</title>
+      <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-4-5</link>
+      <description>Provider: Google Vertex
+Model ID: claude-sonnet-4-5
+Deprecation Date: 2026-09-29
+Shutdown Date: 2026-11-30
+First Observed: 2026-11-05
+Last Observed: 2026-11-05
+
+Anthropic's Claude Sonnet 4.5 on Google Cloud is deprecated as of September 29, 2026 and will
+be shut down on November 30, 2026 . Anthropic's Claude Sonnet 4.5 on Google Cloud is available
+to existing customers only. Anthropic's Claude Sonnet 4.5 on Google Cloud is Anthropic's Sonnet-class model for powering
+real-world agents, with capabilities in coding, computer use, cybersecurity, and
+working with office files like spreadsheets. Try in Agent Studio View model card in Model Garden Model ID cla...</description>
+      <pubDate>Thu, 05 Nov 2026 09:06:04 GMT</pubDate>
+      <guid isPermaLink="false">Google_Vertex-claude-sonnet-4-5-2026-11-30-e3b0c442</guid>
     </item>
     <item>
       <title>Google Vertex: claude-3-haiku</title>
