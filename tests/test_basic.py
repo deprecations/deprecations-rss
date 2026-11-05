@@ -208,6 +208,57 @@ def test_missing_shutdown_dates_keep_current_valid_items(monkeypatch):
     ]
 
 
+def test_provider_dropping_to_zero_items_keeps_cached_items(monkeypatch):
+    """A provider that suddenly scrapes nothing is a failure, not an empty provider."""
+    from src import main
+
+    class EmptyScraper:
+        provider_name = "Fake"
+        require_shutdown_dates = True
+
+        def scrape(self):
+            return []
+
+    monkeypatch.setattr(main, "SCRAPERS", [EmptyScraper])
+
+    cached = {
+        "provider": "Fake",
+        "model_id": "cached-model",
+        "announcement_date": "2025-01-01",
+        "shutdown_date": "2025-06-01",
+        "replacement_models": None,
+        "deprecation_context": "cached",
+        "url": "https://example.com/cached",
+    }
+
+    result, failures = main.scrape_all([cached])
+
+    assert result == [cached]
+    assert failures == [
+        {
+            "provider": "Fake",
+            "kind": "empty",
+            "message": "Scraped 0 deprecations, previously 1",
+        }
+    ]
+
+
+def test_new_provider_without_items_is_not_a_failure(monkeypatch):
+    """Zero items without any history is not treated as a broken scraper."""
+    from src import main
+
+    class EmptyScraper:
+        provider_name = "Fake"
+        require_shutdown_dates = True
+
+        def scrape(self):
+            return []
+
+    monkeypatch.setattr(main, "SCRAPERS", [EmptyScraper])
+
+    assert main.scrape_all([]) == ([], [])
+
+
 def test_base_scraper_retries_transient_read_timeouts():
     """Transient provider read timeouts should be retried before failing the scrape."""
     import httpx
