@@ -4,7 +4,21 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 05 Nov 2026 09:06:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 08:59:32 GMT</lastBuildDate>
+    <item>
+      <title>OpenAI: gpt-5.5-cyber-preview</title>
+      <link>https://platform.openai.com/docs/deprecations#2026-11-05-gpt-5-5-cyber</link>
+      <description>Provider: OpenAI
+Model ID: gpt-5.5-cyber-preview
+Deprecation Date: 2026-11-05
+Shutdown Date: 2027-02-01
+First Observed: 2026-11-06
+Last Observed: 2026-11-06
+
+The `gpt-5.5-cyber-preview` model is deprecated and will be removed from the API on February 1, 2027. Migrate to the most capable cyber model available to you before the shutdown date.</description>
+      <pubDate>Fri, 06 Nov 2026 08:59:26 GMT</pubDate>
+      <guid isPermaLink="false">OpenAI-gpt-5.5-cyber-preview-2027-02-01-e3b0c442</guid>
+    </item>
     <item>
       <title>OpenAI: gpt-4o-2024-08-06</title>
       <link>https://platform.openai.com/docs/deprecations#2026-10-14-gpt-4-series-model-deprecations</link>
@@ -685,10 +699,10 @@ Model ID: gpt-image-1-mini
 Deprecation Date: 2026-06-02
 Shutdown Date: 2026-12-01
 First Observed: 2026-06-03
-Last Observed: 2026-09-29
+Last Observed: 2026-11-06
 
 On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.</description>
-      <pubDate>Tue, 29 Sep 2026 08:00:01 GMT</pubDate>
+      <pubDate>Fri, 06 Nov 2026 08:59:26 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-image-1-mini-2026-12-01-e3b0c442</guid>
     </item>
     <item>
@@ -699,10 +713,10 @@ Model ID: gpt-image-1.5
 Deprecation Date: 2026-06-02
 Shutdown Date: 2026-12-01
 First Observed: 2026-06-03
-Last Observed: 2026-09-29
+Last Observed: 2026-11-06
 
 On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.</description>
-      <pubDate>Tue, 29 Sep 2026 08:00:01 GMT</pubDate>
+      <pubDate>Fri, 06 Nov 2026 08:59:26 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-image-1.5-2026-12-01-e3b0c442</guid>
     </item>
     <item>
@@ -713,10 +727,10 @@ Model ID: gpt-image-1.5-2025-12-16
 Deprecation Date: 2026-06-02
 Shutdown Date: 2026-12-01
 First Observed: 2026-10-24
-Last Observed: 2026-10-24
+Last Observed: 2026-11-06
 
 On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.</description>
-      <pubDate>Sat, 24 Oct 2026 06:57:05 GMT</pubDate>
+      <pubDate>Fri, 06 Nov 2026 08:59:26 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-gpt-image-1.5-2025-12-16-2026-12-01-e3b0c442</guid>
     </item>
     <item>
@@ -727,10 +741,10 @@ Model ID: chatgpt-image-latest
 Deprecation Date: 2026-06-02
 Shutdown Date: 2026-12-01
 First Observed: 2026-06-03
-Last Observed: 2026-09-29
+Last Observed: 2026-11-06
 
 On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.</description>
-      <pubDate>Tue, 29 Sep 2026 08:00:01 GMT</pubDate>
+      <pubDate>Fri, 06 Nov 2026 08:59:26 GMT</pubDate>
       <guid isPermaLink="false">OpenAI-chatgpt-image-latest-2026-12-01-e3b0c442</guid>
     </item>
     <item>
@@ -4883,6 +4897,20 @@ Last Observed: 2026-07-17
 Mistral AI</description>
       <pubDate>Fri, 17 Jul 2026 05:15:19 GMT</pubDate>
       <guid isPermaLink="false">Azure-mistral-document-ai-2505-2026-07-20-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: mistral-document-ai-2512</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: mistral-document-ai-2512
+Deprecation Date: 2027-02-15
+Shutdown Date: 2027-02-15
+First Observed: 2026-11-06
+Last Observed: 2026-11-06
+
+Mistral AI</description>
+      <pubDate>Fri, 06 Nov 2026 08:59:32 GMT</pubDate>
+      <guid isPermaLink="false">Azure-mistral-document-ai-2512-2027-02-15-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Kimi-K2.5</title>

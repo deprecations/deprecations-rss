@@ -13,6 +13,29 @@
   "language": "en-US",
   "items": [
     {
+      "id": "openai-gpt-5.5-cyber-preview",
+      "url": "https://platform.openai.com/docs/deprecations#2026-11-05-gpt-5-5-cyber",
+      "title": "OpenAI: gpt-5.5-cyber-preview",
+      "content_text": "",
+      "date_published": "2026-11-06T08:59:26.969742+00:00",
+      "_deprecation": {
+        "provider": "OpenAI",
+        "model_id": "gpt-5.5-cyber-preview",
+        "shutdown_date": "2027-02-01",
+        "deprecation_date": "2026-11-05",
+        "announcement_date": "2026-11-06",
+        "replacement_models": [
+          "The most capable cyber model available to you."
+        ],
+        "first_observed": "2026-11-06",
+        "last_observed": "2026-11-06"
+      },
+      "tags": [
+        "OpenAI",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "openai-gpt-4o-2024-08-06",
       "url": "https://platform.openai.com/docs/deprecations#2026-10-14-gpt-4-series-model-deprecations",
       "title": "OpenAI: gpt-4o-2024-08-06",
@@ -1124,7 +1147,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations",
       "title": "OpenAI: gpt-image-1-mini",
       "content_text": "",
-      "date_published": "2026-09-29T08:00:01.001707+00:00",
+      "date_published": "2026-11-06T08:59:26.972284+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-image-1-mini",
@@ -1132,11 +1155,11 @@
         "deprecation_date": "2026-06-02",
         "announcement_date": "2026-06-03",
         "replacement_models": [
-          "gpt-image-2.5-sunburst",
-          "gpt-image-2.5-flare"
+          "gpt-image-2.6-sunburst",
+          "gpt-image-2.6-flare"
         ],
         "first_observed": "2026-06-03",
-        "last_observed": "2026-09-29"
+        "last_observed": "2026-11-06"
       },
       "tags": [
         "OpenAI",
@@ -1148,7 +1171,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations",
       "title": "OpenAI: gpt-image-1.5",
       "content_text": "",
-      "date_published": "2026-09-29T08:00:01.001744+00:00",
+      "date_published": "2026-11-06T08:59:26.972318+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-image-1.5",
@@ -1156,11 +1179,11 @@
         "deprecation_date": "2026-06-02",
         "announcement_date": "2026-06-03",
         "replacement_models": [
-          "gpt-image-2.5-sunburst",
-          "gpt-image-2.5-flare"
+          "gpt-image-2.6-sunburst",
+          "gpt-image-2.6-flare"
         ],
         "first_observed": "2026-06-03",
-        "last_observed": "2026-09-29"
+        "last_observed": "2026-11-06"
       },
       "tags": [
         "OpenAI",
@@ -1172,7 +1195,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations",
       "title": "OpenAI: gpt-image-1.5-2025-12-16",
       "content_text": "",
-      "date_published": "2026-10-24T06:57:05.476739+00:00",
+      "date_published": "2026-11-06T08:59:26.972322+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "gpt-image-1.5-2025-12-16",
@@ -1180,11 +1203,11 @@
         "deprecation_date": "2026-06-02",
         "announcement_date": "2026-10-24",
         "replacement_models": [
-          "gpt-image-2.5-sunburst",
-          "gpt-image-2.5-flare"
+          "gpt-image-2.6-sunburst",
+          "gpt-image-2.6-flare"
         ],
         "first_observed": "2026-10-24",
-        "last_observed": "2026-10-24"
+        "last_observed": "2026-11-06"
       },
       "tags": [
         "OpenAI",
@@ -1196,7 +1219,7 @@
       "url": "https://platform.openai.com/docs/deprecations#2026-06-02-gpt-image-model-deprecations",
       "title": "OpenAI: chatgpt-image-latest",
       "content_text": "",
-      "date_published": "2026-09-29T08:00:01.001774+00:00",
+      "date_published": "2026-11-06T08:59:26.972351+00:00",
       "_deprecation": {
         "provider": "OpenAI",
         "model_id": "chatgpt-image-latest",
@@ -1204,11 +1227,11 @@
         "deprecation_date": "2026-06-02",
         "announcement_date": "2026-06-03",
         "replacement_models": [
-          "gpt-image-2.5-sunburst",
-          "gpt-image-2.5-flare"
+          "gpt-image-2.6-sunburst",
+          "gpt-image-2.6-flare"
         ],
         "first_observed": "2026-06-03",
-        "last_observed": "2026-09-29"
+        "last_observed": "2026-11-06"
       },
       "tags": [
         "OpenAI",
@@ -7848,6 +7871,29 @@
       "tags": [
         "Azure",
         "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-mistral-document-ai-2512",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: mistral-document-ai-2512",
+      "content_text": "",
+      "date_published": "2026-11-06T08:59:32.208138+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "mistral-document-ai-2512",
+        "shutdown_date": "2027-02-15",
+        "deprecation_date": "2027-02-15",
+        "announcement_date": "2026-11-06",
+        "replacement_models": [
+          "mistral-ocr-4-0"
+        ],
+        "first_observed": "2026-11-06",
+        "last_observed": "2026-11-06"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
       ]
     },
     {
