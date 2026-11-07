@@ -7960,6 +7960,27 @@
       ]
     },
     {
+      "id": "azure-kimi-k3.1-pro",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Kimi-K3.1-Pro",
+      "content_text": "",
+      "date_published": "2026-11-07T08:28:15.355093+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Kimi-K3.1-Pro",
+        "shutdown_date": "2027-11-04",
+        "deprecation_date": "2027-11-04",
+        "announcement_date": "2026-11-07",
+        "replacement_models": null,
+        "first_observed": "2026-11-07",
+        "last_observed": "2026-11-07"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "azure-gpt-oss-120b",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-oss-120b",
