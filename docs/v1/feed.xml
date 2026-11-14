@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Tue, 10 Nov 2026 09:24:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 08:42:36 GMT</lastBuildDate>
     <item>
       <title>Anthropic: claude-opus-4-1-20250805</title>
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-06-05-claude-opus-4-1-model</link>
@@ -2890,14 +2890,14 @@ Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Host
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: claude-opus-4-5
-Deprecation Date: 2026-11-24
-Shutdown Date: 2026-11-24
+Deprecation Date: 2027-02-22
+Shutdown Date: 2027-02-22
 First Observed: 2026-04-28
-Last Observed: 2026-09-30
+Last Observed: 2026-11-14
 
 Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
-      <pubDate>Wed, 30 Sep 2026 08:08:22 GMT</pubDate>
-      <guid isPermaLink="false">Azure-claude-opus-4-5-2026-11-24-e3b0c442</guid>
+      <pubDate>Sat, 14 Nov 2026 08:42:36 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-opus-4-5-2027-02-22-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: claude-opus-4-1</title>
@@ -2918,14 +2918,14 @@ Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Host
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: claude-haiku-4-5
-Deprecation Date: 2026-11-15
-Shutdown Date: 2026-11-15
+Deprecation Date: 2027-02-22
+Shutdown Date: 2027-02-22
 First Observed: 2026-04-28
-Last Observed: 2026-09-30
+Last Observed: 2026-11-14
 
 Anthropic Microsoft Foundry offers Claude models intwo versions: Version 1: Hosted on Anthropic infrastructureVersion 2: Hosted on Azure</description>
-      <pubDate>Wed, 30 Sep 2026 08:08:22 GMT</pubDate>
-      <guid isPermaLink="false">Azure-claude-haiku-4-5-2026-11-15-e3b0c442</guid>
+      <pubDate>Sat, 14 Nov 2026 08:42:36 GMT</pubDate>
+      <guid isPermaLink="false">Azure-claude-haiku-4-5-2027-02-22-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: claude-fable-5-1</title>
@@ -3201,10 +3201,10 @@ Model ID: Codestral-2501
 Deprecation Date: 2027-02-15
 Shutdown Date: 2027-02-15
 First Observed: 2026-10-24
-Last Observed: 2026-10-24
+Last Observed: 2026-11-14
 
 Mistral AI</description>
-      <pubDate>Sat, 24 Oct 2026 06:57:09 GMT</pubDate>
+      <pubDate>Sat, 14 Nov 2026 08:42:36 GMT</pubDate>
       <guid isPermaLink="false">Azure-Codestral-2501-2027-02-15-e3b0c442</guid>
     </item>
     <item>

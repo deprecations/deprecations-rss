@@ -4522,20 +4522,22 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: claude-opus-4-5",
       "content_text": "",
-      "date_published": "2026-09-30T08:08:22.151602+00:00",
+      "date_published": "2026-11-14T08:42:36.135663+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "claude-opus-4-5",
-        "shutdown_date": "2026-11-24",
-        "deprecation_date": "2026-11-24",
+        "shutdown_date": "2027-02-22",
+        "deprecation_date": "2027-02-22",
         "announcement_date": "2026-04-28",
-        "replacement_models": null,
+        "replacement_models": [
+          "claude-opus-5-5"
+        ],
         "first_observed": "2026-04-28",
-        "last_observed": "2026-09-30"
+        "last_observed": "2026-11-14"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
@@ -4566,20 +4568,22 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: claude-haiku-4-5",
       "content_text": "",
-      "date_published": "2026-09-30T08:08:22.151698+00:00",
+      "date_published": "2026-11-14T08:42:36.135780+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "claude-haiku-4-5",
-        "shutdown_date": "2026-11-15",
-        "deprecation_date": "2026-11-15",
+        "shutdown_date": "2027-02-22",
+        "deprecation_date": "2027-02-22",
         "announcement_date": "2026-04-28",
-        "replacement_models": null,
+        "replacement_models": [
+          "claude-haiku-5-5"
+        ],
         "first_observed": "2026-04-28",
-        "last_observed": "2026-09-30"
+        "last_observed": "2026-11-14"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
@@ -4995,16 +4999,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Codestral-2501",
       "content_text": "",
-      "date_published": "2026-10-24T06:57:09.744801+00:00",
+      "date_published": "2026-11-14T08:42:36.137096+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Codestral-2501",
         "shutdown_date": "2027-02-15",
         "deprecation_date": "2027-02-15",
         "announcement_date": "2026-10-24",
-        "replacement_models": null,
+        "replacement_models": [
+          "mistral-large-4-latest"
+        ],
         "first_observed": "2026-10-24",
-        "last_observed": "2026-10-24"
+        "last_observed": "2026-11-14"
       },
       "tags": [
         "Azure",
