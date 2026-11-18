@@ -2606,20 +2606,6 @@ MoonshotAI</description>
       <guid isPermaLink="false">Azure-Kimi-K2.7-Code-2027-04-16-e3b0c442</guid>
     </item>
     <item>
-      <title>Azure: Kimi-K3.1-Pro</title>
-      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
-      <description>Provider: Azure
-Model ID: Kimi-K3.1-Pro
-Deprecation Date: 2027-11-04
-Shutdown Date: 2027-11-04
-First Observed: 2026-11-07
-Last Observed: 2026-11-07
-
-MoonshotAI</description>
-      <pubDate>Sat, 07 Nov 2026 08:28:15 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Kimi-K3.1-Pro-2027-11-04-e3b0c442</guid>
-    </item>
-    <item>
       <title>Azure: gpt-oss-120b</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
