@@ -1997,16 +1997,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: codex-mini",
       "content_text": "",
-      "date_published": "2026-04-25T04:37:34.696976+00:00",
+      "date_published": "2026-11-19T09:58:12.069564+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "codex-mini",
-        "shutdown_date": "2026-11-15",
-        "deprecation_date": "2026-11-15",
+        "shutdown_date": "2026-11-17",
+        "deprecation_date": "2026-11-17",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-04-25"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -2125,20 +2125,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-4o-mini-transcribe",
       "content_text": "",
-      "date_published": "2026-05-21T06:12:35.645612+00:00",
+      "date_published": "2026-11-19T09:58:12.069864+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-4o-mini-transcribe",
-        "shutdown_date": "2026-10-15",
-        "deprecation_date": "2026-10-15",
+        "shutdown_date": "2027-01-20",
+        "deprecation_date": "2027-01-20",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-05-21"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
@@ -2146,20 +2146,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-4o-mini-tts",
       "content_text": "",
-      "date_published": "2026-06-03T06:54:53.301588+00:00",
+      "date_published": "2026-11-19T09:58:12.069919+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-4o-mini-tts",
-        "shutdown_date": "2026-10-15",
-        "deprecation_date": "2026-10-15",
+        "shutdown_date": "2027-01-20",
+        "deprecation_date": "2027-01-20",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-06-03"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
@@ -2167,20 +2167,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-4o-transcribe",
       "content_text": "",
-      "date_published": "2026-05-21T06:12:35.645764+00:00",
+      "date_published": "2026-11-19T09:58:12.069998+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-4o-transcribe",
-        "shutdown_date": "2026-10-15",
-        "deprecation_date": "2026-10-15",
+        "shutdown_date": "2027-02-26",
+        "deprecation_date": "2027-02-26",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-05-21"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
@@ -2223,29 +2223,6 @@
       "tags": [
         "Azure",
         "shutdown-2027"
-      ]
-    },
-    {
-      "id": "azure-gpt-5-chat",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: gpt-5-chat",
-      "content_text": "",
-      "date_published": "2026-06-23T06:09:09.778962+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "gpt-5-chat",
-        "shutdown_date": "2026-05-13",
-        "deprecation_date": "2026-05-13",
-        "announcement_date": "2026-04-25",
-        "replacement_models": [
-          "gpt-chat-latest"
-        ],
-        "first_observed": "2026-04-25",
-        "last_observed": "2026-06-23"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
       ]
     },
     {
@@ -2354,29 +2331,6 @@
       ]
     },
     {
-      "id": "azure-gpt-5.1-chat",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: gpt-5.1-chat",
-      "content_text": "",
-      "date_published": "2026-05-27T06:23:02.982193+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "gpt-5.1-chat",
-        "shutdown_date": "2026-06-29",
-        "deprecation_date": "2026-06-29",
-        "announcement_date": "2026-04-25",
-        "replacement_models": [
-          "gpt-chat-latest"
-        ],
-        "first_observed": "2026-04-25",
-        "last_observed": "2026-05-27"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
       "id": "azure-gpt-5.1-codex",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-5.1-codex",
@@ -2461,29 +2415,6 @@
       ]
     },
     {
-      "id": "azure-gpt-5.2-chat",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: gpt-5.2-chat",
-      "content_text": "",
-      "date_published": "2026-06-23T06:09:09.779362+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "gpt-5.2-chat",
-        "shutdown_date": "2026-05-13",
-        "deprecation_date": "2026-05-13",
-        "announcement_date": "2026-04-25",
-        "replacement_models": [
-          "gpt-chat-latest"
-        ],
-        "first_observed": "2026-04-25",
-        "last_observed": "2026-06-23"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
       "id": "azure-gpt-5.2-codex",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-5.2-codex",
@@ -2502,29 +2433,6 @@
       "tags": [
         "Azure",
         "shutdown-2027"
-      ]
-    },
-    {
-      "id": "azure-gpt-5.3-chat",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: gpt-5.3-chat",
-      "content_text": "",
-      "date_published": "2026-05-27T06:23:02.982549+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "gpt-5.3-chat",
-        "shutdown_date": "2026-06-29",
-        "deprecation_date": "2026-06-29",
-        "announcement_date": "2026-04-25",
-        "replacement_models": [
-          "gpt-chat-latest"
-        ],
-        "first_observed": "2026-04-25",
-        "last_observed": "2026-05-27"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
       ]
     },
     {
@@ -2717,6 +2625,111 @@
       ]
     },
     {
+      "id": "azure-gpt-6-astra",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-6-astra",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.070552+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-6-astra",
+        "shutdown_date": "2028-01-11",
+        "deprecation_date": "2028-01-11",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2028"
+      ]
+    },
+    {
+      "id": "azure-gpt-6-luna",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-6-luna",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.070575+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-6-luna",
+        "shutdown_date": "2028-03-11",
+        "deprecation_date": "2028-03-11",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2028"
+      ]
+    },
+    {
+      "id": "azure-gpt-6-sol",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-6-sol",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.070599+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-6-sol",
+        "shutdown_date": "2028-03-11",
+        "deprecation_date": "2028-03-11",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2028"
+      ]
+    },
+    {
+      "id": "azure-gpt-6.1-sol",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-6.1-sol",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.070620+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-6.1-sol",
+        "shutdown_date": "2028-03-11",
+        "deprecation_date": "2028-03-11",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2028"
+      ]
+    },
+    {
+      "id": "azure-gpt-6.1-terra",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-6.1-terra",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.070643+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-6.1-terra",
+        "shutdown_date": "2027-10-26",
+        "deprecation_date": "2027-10-26",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "azure-gpt-audio",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-audio",
@@ -2805,16 +2818,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-image-1",
       "content_text": "",
-      "date_published": "2026-06-03T06:54:53.302627+00:00",
+      "date_published": "2026-11-19T09:58:12.070874+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-image-1",
-        "shutdown_date": "2026-10-23",
-        "deprecation_date": "2026-10-23",
+        "shutdown_date": "2026-10-28",
+        "deprecation_date": "2026-10-28",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-06-03"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -2847,20 +2860,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-image-1.5",
       "content_text": "",
-      "date_published": "2026-09-17T07:17:39.666607+00:00",
+      "date_published": "2026-11-19T09:58:12.070920+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-image-1.5",
-        "shutdown_date": "2026-12-16",
-        "deprecation_date": "2026-12-16",
+        "shutdown_date": "2027-06-16",
+        "deprecation_date": "2027-06-16",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-09-17"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
@@ -2924,6 +2937,48 @@
       "tags": [
         "Azure",
         "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-gpt-live-1",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-live-1",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.071036+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-live-1",
+        "shutdown_date": "2027-09-10",
+        "deprecation_date": "2027-09-10",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-gpt-live-transcribe",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-live-transcribe",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.071064+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-live-transcribe",
+        "shutdown_date": "2028-02-01",
+        "deprecation_date": "2028-02-01",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2028"
       ]
     },
     {
@@ -2996,16 +3051,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-realtime-2.1",
       "content_text": "",
-      "date_published": "2026-07-09T06:07:02.362566+00:00",
+      "date_published": "2026-11-19T09:58:12.071167+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-realtime-2.1",
-        "shutdown_date": "2027-06-25",
-        "deprecation_date": "2027-06-25",
+        "shutdown_date": "2027-07-31",
+        "deprecation_date": "2027-07-31",
         "announcement_date": "2026-07-09",
         "replacement_models": null,
         "first_observed": "2026-07-09",
-        "last_observed": "2026-07-09"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3017,16 +3072,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-realtime-2.1-mini",
       "content_text": "",
-      "date_published": "2026-07-09T06:07:02.362599+00:00",
+      "date_published": "2026-11-19T09:58:12.071191+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-realtime-2.1-mini",
-        "shutdown_date": "2027-06-25",
-        "deprecation_date": "2027-06-25",
+        "shutdown_date": "2027-07-31",
+        "deprecation_date": "2027-07-31",
         "announcement_date": "2026-07-09",
         "replacement_models": null,
         "first_observed": "2026-07-09",
-        "last_observed": "2026-07-09"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3038,20 +3093,83 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: gpt-realtime-mini",
       "content_text": "",
-      "date_published": "2026-08-04T05:16:24.420351+00:00",
+      "date_published": "2026-11-19T09:58:12.071224+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "gpt-realtime-mini",
-        "shutdown_date": "2026-09-21",
-        "deprecation_date": "2026-09-21",
+        "shutdown_date": "2027-04-06",
+        "deprecation_date": "2027-04-06",
         "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-08-04"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-gpt-realtime-translate",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-realtime-translate",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.071279+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-realtime-translate",
+        "shutdown_date": "2027-11-09",
+        "deprecation_date": "2027-11-09",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-gpt-realtime-whisper",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-realtime-whisper",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.071305+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-realtime-whisper",
+        "shutdown_date": "2027-11-09",
+        "deprecation_date": "2027-11-09",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-gpt-transcribe",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: gpt-transcribe",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.071329+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "gpt-transcribe",
+        "shutdown_date": "2028-02-01",
+        "deprecation_date": "2028-02-01",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2028"
       ]
     },
     {
@@ -3059,18 +3177,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o1",
       "content_text": "",
-      "date_published": "2026-09-12T06:57:36.994759+00:00",
+      "date_published": "2026-11-19T09:58:12.071358+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o1",
         "shutdown_date": "2026-11-19",
         "deprecation_date": "2026-11-19",
         "announcement_date": "2026-04-25",
-        "replacement_models": [
-          "gpt-5.6-sol"
-        ],
+        "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-09-12"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3082,18 +3198,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o1-pro",
       "content_text": "",
-      "date_published": "2026-09-12T06:57:36.994804+00:00",
+      "date_published": "2026-11-19T09:58:12.071388+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o1-pro",
         "shutdown_date": "2026-11-19",
         "deprecation_date": "2026-11-19",
         "announcement_date": "2026-05-21",
-        "replacement_models": [
-          "gpt-5.6-sol"
-        ],
+        "replacement_models": null,
         "first_observed": "2026-05-21",
-        "last_observed": "2026-09-12"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3105,18 +3219,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o3",
       "content_text": "",
-      "date_published": "2026-09-12T06:57:36.994847+00:00",
+      "date_published": "2026-11-19T09:58:12.071418+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o3",
         "shutdown_date": "2026-11-19",
         "deprecation_date": "2026-11-19",
         "announcement_date": "2026-04-25",
-        "replacement_models": [
-          "gpt-5.6-sol"
-        ],
+        "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-09-12"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3128,18 +3240,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o3-deep-research",
       "content_text": "",
-      "date_published": "2026-09-12T06:57:36.994888+00:00",
+      "date_published": "2026-11-19T09:58:12.071446+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o3-deep-research",
         "shutdown_date": "2026-11-19",
         "deprecation_date": "2026-11-19",
         "announcement_date": "2026-04-25",
-        "replacement_models": [
-          "gpt-5.6-sol"
-        ],
+        "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-09-12"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3151,18 +3261,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o3-mini",
       "content_text": "",
-      "date_published": "2026-09-12T06:57:36.994929+00:00",
+      "date_published": "2026-11-19T09:58:12.071475+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o3-mini",
         "shutdown_date": "2026-11-19",
         "deprecation_date": "2026-11-19",
         "announcement_date": "2026-04-25",
-        "replacement_models": [
-          "gpt-5.6-terra"
-        ],
+        "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-09-12"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3174,18 +3282,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o3-pro",
       "content_text": "",
-      "date_published": "2026-09-12T06:57:36.995003+00:00",
+      "date_published": "2026-11-19T09:58:12.071503+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o3-pro",
         "shutdown_date": "2026-11-19",
         "deprecation_date": "2026-11-19",
         "announcement_date": "2026-04-25",
-        "replacement_models": [
-          "gpt-5.6-sol"
-        ],
+        "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-09-12"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3197,39 +3303,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: o4-mini",
       "content_text": "",
-      "date_published": "2026-09-12T06:57:36.995050+00:00",
+      "date_published": "2026-11-19T09:58:12.071531+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "o4-mini",
         "shutdown_date": "2026-11-19",
         "deprecation_date": "2026-11-19",
         "announcement_date": "2026-04-25",
-        "replacement_models": [
-          "gpt-5.6-terra"
-        ],
-        "first_observed": "2026-04-25",
-        "last_observed": "2026-09-12"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-sora-2",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: sora-2",
-      "content_text": "",
-      "date_published": "2026-06-03T06:54:53.303158+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "sora-2",
-        "shutdown_date": "2026-07-15",
-        "deprecation_date": "2026-07-15",
-        "announcement_date": "2026-04-25",
         "replacement_models": null,
         "first_observed": "2026-04-25",
-        "last_observed": "2026-06-03"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3447,6 +3530,48 @@
       ]
     },
     {
+      "id": "azure-cohere-embed-v5-fast",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Cohere-Embed-V5-Fast",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.072000+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Cohere-Embed-V5-Fast",
+        "shutdown_date": "2027-01-23",
+        "deprecation_date": "2027-01-23",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-cohere-embed-v5-pro",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Cohere-Embed-V5-Pro",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.072030+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Cohere-Embed-V5-Pro",
+        "shutdown_date": "2027-01-23",
+        "deprecation_date": "2027-01-23",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "azure-cohere-parse-v5",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Cohere-parse-v5",
@@ -3472,18 +3597,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Cohere-rerank-v4.0-fast",
       "content_text": "",
-      "date_published": "2026-10-23T07:06:09.536115+00:00",
+      "date_published": "2026-11-19T09:58:12.072088+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Cohere-rerank-v4.0-fast",
-        "shutdown_date": "2027-09-13",
-        "deprecation_date": "2027-09-13",
+        "shutdown_date": "2027-09-14",
+        "deprecation_date": "2027-09-14",
         "announcement_date": "2026-10-23",
         "replacement_models": [
           "Cohere-rerank-v5-fast"
         ],
         "first_observed": "2026-10-23",
-        "last_observed": "2026-10-23"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3495,18 +3620,60 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Cohere-rerank-v4.0-pro",
       "content_text": "",
-      "date_published": "2026-10-23T07:06:09.536156+00:00",
+      "date_published": "2026-11-19T09:58:12.072120+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Cohere-rerank-v4.0-pro",
-        "shutdown_date": "2027-09-13",
-        "deprecation_date": "2027-09-13",
+        "shutdown_date": "2027-09-14",
+        "deprecation_date": "2027-09-14",
         "announcement_date": "2026-10-23",
         "replacement_models": [
           "Cohere-rerank-v5-pro"
         ],
         "first_observed": "2026-10-23",
-        "last_observed": "2026-10-23"
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-cohere-rerank-v5-fast",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Cohere-rerank-v5-fast",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.072152+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Cohere-rerank-v5-fast",
+        "shutdown_date": "2027-02-12",
+        "deprecation_date": "2027-02-12",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-cohere-rerank-v5-pro",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Cohere-rerank-v5-pro",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.072181+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Cohere-rerank-v5-pro",
+        "shutdown_date": "2027-02-12",
+        "deprecation_date": "2027-02-12",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3580,114 +3747,22 @@
       ]
     },
     {
-      "id": "azure-deepseek-r1",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: DeepSeek-R1",
-      "content_text": "",
-      "date_published": "2026-06-19T07:08:41.873960+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "DeepSeek-R1",
-        "shutdown_date": "2026-08-13",
-        "deprecation_date": "2026-08-13",
-        "announcement_date": "2026-06-04",
-        "replacement_models": [
-          "DeepSeek-V4-Pro"
-        ],
-        "first_observed": "2026-06-04",
-        "last_observed": "2026-06-19"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-deepseek-r1-0528",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: DeepSeek-R1-0528",
-      "content_text": "",
-      "date_published": "2026-06-19T07:08:41.874002+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "DeepSeek-R1-0528",
-        "shutdown_date": "2026-07-13",
-        "deprecation_date": "2026-07-13",
-        "announcement_date": "2026-06-04",
-        "replacement_models": [
-          "DeepSeek-V4-Pro"
-        ],
-        "first_observed": "2026-06-04",
-        "last_observed": "2026-06-19"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-deepseek-v3-0324",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: DeepSeek-V3-0324",
-      "content_text": "",
-      "date_published": "2026-06-19T07:08:41.874040+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "DeepSeek-V3-0324",
-        "shutdown_date": "2026-07-13",
-        "deprecation_date": "2026-07-13",
-        "announcement_date": "2026-06-04",
-        "replacement_models": [
-          "DeepSeek-V4-Flash"
-        ],
-        "first_observed": "2026-06-04",
-        "last_observed": "2026-06-19"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-deepseek-v3.1",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: DeepSeek-V3.1",
-      "content_text": "",
-      "date_published": "2026-06-19T07:08:41.874080+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "DeepSeek-V3.1",
-        "shutdown_date": "2026-07-13",
-        "deprecation_date": "2026-07-13",
-        "announcement_date": "2026-06-04",
-        "replacement_models": [
-          "DeepSeek-V4-Flash"
-        ],
-        "first_observed": "2026-06-04",
-        "last_observed": "2026-06-19"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
       "id": "azure-deepseek-v3.2",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: DeepSeek-V3.2",
       "content_text": "",
-      "date_published": "2026-10-23T07:06:09.536676+00:00",
+      "date_published": "2026-11-19T09:58:12.072377+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "DeepSeek-V3.2",
-        "shutdown_date": "2027-11-01",
-        "deprecation_date": "2027-11-01",
+        "shutdown_date": "2027-11-02",
+        "deprecation_date": "2027-11-02",
         "announcement_date": "2026-10-23",
         "replacement_models": [
           "DeepSeek-V4.1-Flash"
         ],
         "first_observed": "2026-10-23",
-        "last_observed": "2026-10-23"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3722,18 +3797,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: DeepSeek-V4-Flash",
       "content_text": "",
-      "date_published": "2026-08-20T02:57:40.630968+00:00",
+      "date_published": "2026-11-19T09:58:12.072436+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "DeepSeek-V4-Flash",
-        "shutdown_date": "2028-02-20",
-        "deprecation_date": "2028-02-20",
+        "shutdown_date": "2028-02-22",
+        "deprecation_date": "2028-02-22",
         "announcement_date": "2026-06-13",
         "replacement_models": [
           "DeepSeek-V4-Flash-0731"
         ],
         "first_observed": "2026-06-13",
-        "last_observed": "2026-08-20"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3766,20 +3841,83 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: DeepSeek-V4-Pro",
       "content_text": "",
-      "date_published": "2026-07-14T04:52:53.409665+00:00",
+      "date_published": "2026-11-19T09:58:12.072487+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "DeepSeek-V4-Pro",
-        "shutdown_date": "2028-02-20",
-        "deprecation_date": "2028-02-20",
+        "shutdown_date": "2028-02-22",
+        "deprecation_date": "2028-02-22",
         "announcement_date": "2026-06-13",
         "replacement_models": null,
         "first_observed": "2026-06-13",
-        "last_observed": "2026-07-14"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
         "shutdown-2028"
+      ]
+    },
+    {
+      "id": "azure-deepseek-v4-pro-0813",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: DeepSeek-V4-Pro-0813",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.072513+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "DeepSeek-V4-Pro-0813",
+        "shutdown_date": "2026-12-15",
+        "deprecation_date": "2026-12-15",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-deepseek-v4.1-flash",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: DeepSeek-V4.1-Flash",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.072537+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "DeepSeek-V4.1-Flash",
+        "shutdown_date": "2026-12-15",
+        "deprecation_date": "2026-12-15",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-deepseek-v4.1-flash-1017",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: DeepSeek-V4.1-Flash-1017",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.072561+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "DeepSeek-V4.1-Flash-1017",
+        "shutdown_date": "2027-03-06",
+        "deprecation_date": "2027-03-06",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
       ]
     },
     {
@@ -3850,16 +3988,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: MAI-Image-2.5-Pro",
       "content_text": "",
-      "date_published": "2026-08-29T08:42:43.483688+00:00",
+      "date_published": "2026-11-19T09:58:12.072806+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "MAI-Image-2.5-Pro",
-        "shutdown_date": "2026-10-01",
-        "deprecation_date": "2026-10-01",
+        "shutdown_date": "2026-11-24",
+        "deprecation_date": "2026-11-24",
         "announcement_date": "2026-08-29",
         "replacement_models": null,
         "first_observed": "2026-08-29",
-        "last_observed": "2026-08-29"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3871,16 +4009,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: MAI-Image-2.5-Flash",
       "content_text": "",
-      "date_published": "2026-08-29T08:42:43.483729+00:00",
+      "date_published": "2026-11-19T09:58:12.072830+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "MAI-Image-2.5-Flash",
-        "shutdown_date": "2026-10-01",
-        "deprecation_date": "2026-10-01",
+        "shutdown_date": "2026-11-24",
+        "deprecation_date": "2026-11-24",
         "announcement_date": "2026-08-29",
         "replacement_models": null,
         "first_observed": "2026-08-29",
-        "last_observed": "2026-08-29"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3892,20 +4030,62 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: MAI-Image-2.5",
       "content_text": "",
-      "date_published": "2026-08-29T08:42:43.483773+00:00",
+      "date_published": "2026-11-19T09:58:12.072855+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "MAI-Image-2.5",
-        "shutdown_date": "2026-10-01",
-        "deprecation_date": "2026-10-01",
+        "shutdown_date": "2026-11-24",
+        "deprecation_date": "2026-11-24",
         "announcement_date": "2026-08-29",
         "replacement_models": null,
         "first_observed": "2026-08-29",
-        "last_observed": "2026-08-29"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
         "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-mai-image-2.6",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: MAI-Image-2.6",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.072878+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "MAI-Image-2.6",
+        "shutdown_date": "2027-05-01",
+        "deprecation_date": "2027-05-01",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-mai-image-2.6-flash",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: MAI-Image-2.6-Flash",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.072902+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "MAI-Image-2.6-Flash",
+        "shutdown_date": "2027-05-01",
+        "deprecation_date": "2027-05-01",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
       ]
     },
     {
@@ -3913,18 +4093,18 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: MAI-Image-2e",
       "content_text": "",
-      "date_published": "2026-07-08T05:23:11.511587+00:00",
+      "date_published": "2026-11-19T09:58:12.072932+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "MAI-Image-2e",
-        "shutdown_date": "2026-08-15",
-        "deprecation_date": "2026-08-15",
+        "shutdown_date": "2026-08-28",
+        "deprecation_date": "2026-08-28",
         "announcement_date": "2026-07-08",
         "replacement_models": [
           "MAI-Image-2.5-Flash"
         ],
         "first_observed": "2026-07-08",
-        "last_observed": "2026-07-08"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -3932,26 +4112,24 @@
       ]
     },
     {
-      "id": "azure-mai-image-2",
+      "id": "azure-mai-thinking-1",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: MAI-Image-2",
+      "title": "Azure: MAI-Thinking-1",
       "content_text": "",
-      "date_published": "2026-07-08T05:23:11.511629+00:00",
+      "date_published": "2026-11-19T09:58:12.072974+00:00",
       "_deprecation": {
         "provider": "Azure",
-        "model_id": "MAI-Image-2",
-        "shutdown_date": "2026-08-15",
-        "deprecation_date": "2026-08-15",
-        "announcement_date": "2026-07-08",
-        "replacement_models": [
-          "MAI-Image-2.5"
-        ],
-        "first_observed": "2026-07-08",
-        "last_observed": "2026-07-08"
+        "model_id": "MAI-Thinking-1",
+        "shutdown_date": "2027-03-02",
+        "deprecation_date": "2027-03-02",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
@@ -3978,27 +4156,45 @@
       ]
     },
     {
-      "id": "azure-mistral-document-ai-2505",
+      "id": "azure-mai-transcribe-2-streaming",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: mistral-document-ai-2505",
+      "title": "Azure: MAI-Transcribe-2-Streaming",
       "content_text": "",
-      "date_published": "2026-07-17T05:15:19.118862+00:00",
+      "date_published": "2026-11-19T09:58:12.073030+00:00",
       "_deprecation": {
         "provider": "Azure",
-        "model_id": "mistral-document-ai-2505",
-        "shutdown_date": "2026-07-20",
-        "deprecation_date": "2026-07-20",
-        "announcement_date": "2026-05-22",
-        "replacement_models": [
-          "mistral-document-ai-2512",
-          "mistral-ocr-4-0"
-        ],
-        "first_observed": "2026-05-22",
-        "last_observed": "2026-07-17"
+        "model_id": "MAI-Transcribe-2-Streaming",
+        "shutdown_date": "2026-12-04",
+        "deprecation_date": "2026-12-04",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
         "shutdown-2026"
+      ]
+    },
+    {
+      "id": "azure-microsoft-decision-1",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Microsoft-Decision-1",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.073055+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Microsoft-Decision-1",
+        "shutdown_date": "2027-02-04",
+        "deprecation_date": "2027-02-04",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
       ]
     },
     {
@@ -4018,6 +4214,27 @@
         ],
         "first_observed": "2026-11-06",
         "last_observed": "2026-11-06"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-mistral-ocr-4-0",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: mistral-ocr-4-0",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.073224+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "mistral-ocr-4-0",
+        "shutdown_date": "2027-10-01",
+        "deprecation_date": "2027-10-01",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -4106,52 +4323,6 @@
       "tags": [
         "Azure",
         "shutdown-2027"
-      ]
-    },
-    {
-      "id": "azure-grok-3",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: grok-3",
-      "content_text": "",
-      "date_published": "2026-04-25T04:37:34.702065+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "grok-3",
-        "shutdown_date": "2026-05-01",
-        "deprecation_date": "2026-05-01",
-        "announcement_date": "2026-04-02",
-        "replacement_models": [
-          "grok-4"
-        ],
-        "first_observed": "2026-04-02",
-        "last_observed": "2026-04-25"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-grok-3-mini",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: grok-3-mini",
-      "content_text": "",
-      "date_published": "2026-04-25T04:37:34.702124+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "grok-3-mini",
-        "shutdown_date": "2026-05-01",
-        "deprecation_date": "2026-05-01",
-        "announcement_date": "2026-04-02",
-        "replacement_models": [
-          "grok-4-1-fast-reasoning"
-        ],
-        "first_observed": "2026-04-02",
-        "last_observed": "2026-04-25"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
       ]
     },
     {
@@ -4260,49 +4431,66 @@
       ]
     },
     {
-      "id": "azure-grok-4-fast-non-reasoning",
+      "id": "azure-grok-4.3",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: grok-4-fast-non-reasoning",
+      "title": "Azure: grok-4.3",
       "content_text": "",
-      "date_published": "2026-04-25T04:37:34.702418+00:00",
+      "date_published": "2026-11-19T09:58:12.073599+00:00",
       "_deprecation": {
         "provider": "Azure",
-        "model_id": "grok-4-fast-non-reasoning",
-        "shutdown_date": "2026-05-01",
-        "deprecation_date": "2026-05-01",
-        "announcement_date": "2026-04-02",
-        "replacement_models": [
-          "grok-4-1-fast-non-reasoning"
-        ],
-        "first_observed": "2026-04-02",
-        "last_observed": "2026-04-25"
+        "model_id": "grok-4.3",
+        "shutdown_date": "2027-05-12",
+        "deprecation_date": "2027-05-12",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
-      "id": "azure-grok-4-fast-reasoning",
+      "id": "azure-grok-4.6",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: grok-4-fast-reasoning",
+      "title": "Azure: grok-4.6",
       "content_text": "",
-      "date_published": "2026-04-25T04:37:34.702475+00:00",
+      "date_published": "2026-11-19T09:58:12.073623+00:00",
       "_deprecation": {
         "provider": "Azure",
-        "model_id": "grok-4-fast-reasoning",
-        "shutdown_date": "2026-05-01",
-        "deprecation_date": "2026-05-01",
-        "announcement_date": "2026-04-02",
-        "replacement_models": [
-          "grok-4-1-fast-reasoning"
-        ],
-        "first_observed": "2026-04-02",
-        "last_observed": "2026-04-25"
+        "model_id": "grok-4.6",
+        "shutdown_date": "2027-08-24",
+        "deprecation_date": "2027-08-24",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-grok-4.7",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: grok-4.7",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.073646+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "grok-4.7",
+        "shutdown_date": "2027-10-05",
+        "deprecation_date": "2027-10-05",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
       ]
     },
     {
@@ -4520,29 +4708,6 @@
       ]
     },
     {
-      "id": "azure-claude-opus-4-1",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: claude-opus-4-1",
-      "content_text": "",
-      "date_published": "2026-09-02T06:53:40.819246+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "claude-opus-4-1",
-        "shutdown_date": "2026-08-05",
-        "deprecation_date": "2026-08-05",
-        "announcement_date": "2026-09-02",
-        "replacement_models": [
-          "claude-opus-5"
-        ],
-        "first_observed": "2026-09-02",
-        "last_observed": "2026-09-02"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
       "id": "azure-claude-haiku-4-5",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: claude-haiku-4-5",
@@ -4570,16 +4735,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: claude-fable-5-1",
       "content_text": "",
-      "date_published": "2026-09-03T06:57:08.275981+00:00",
+      "date_published": "2026-11-19T09:58:12.074302+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "claude-fable-5-1",
-        "shutdown_date": "2027-12-05",
-        "deprecation_date": "2027-12-05",
+        "shutdown_date": "2027-12-07",
+        "deprecation_date": "2027-12-07",
         "announcement_date": "2026-09-03",
         "replacement_models": null,
         "first_observed": "2026-09-03",
-        "last_observed": "2026-09-03"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -4591,16 +4756,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: claude-fable-5",
       "content_text": "",
-      "date_published": "2026-08-28T13:55:33.561826+00:00",
+      "date_published": "2026-11-19T09:58:12.074338+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "claude-fable-5",
-        "shutdown_date": "2027-12-05",
-        "deprecation_date": "2027-12-05",
+        "shutdown_date": "2027-12-07",
+        "deprecation_date": "2027-12-07",
         "announcement_date": "2026-08-28",
         "replacement_models": null,
         "first_observed": "2026-08-28",
-        "last_observed": "2026-08-28"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
@@ -4612,86 +4777,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: claude-mythos-5-1",
       "content_text": "",
-      "date_published": "2026-10-26T07:30:29.041004+00:00",
+      "date_published": "2026-11-19T09:58:12.074372+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "claude-mythos-5-1",
-        "shutdown_date": "2027-09-01",
-        "deprecation_date": "2027-09-01",
+        "shutdown_date": "2027-12-07",
+        "deprecation_date": "2027-12-07",
         "announcement_date": "2026-10-26",
         "replacement_models": null,
         "first_observed": "2026-10-26",
-        "last_observed": "2026-10-26"
+        "last_observed": "2026-11-19"
       },
       "tags": [
         "Azure",
         "shutdown-2027"
-      ]
-    },
-    {
-      "id": "azure-cohere-command-r-08-2024",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Cohere-command-r-08-2024",
-      "content_text": "",
-      "date_published": "2026-04-25T04:37:34.703141+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Cohere-command-r-08-2024",
-        "shutdown_date": "2026-05-12",
-        "deprecation_date": "2026-05-12",
-        "announcement_date": "2026-02-13",
-        "replacement_models": null,
-        "first_observed": "2026-02-13",
-        "last_observed": "2026-04-25"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-cohere-command-r-plus-08-2024",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Cohere-command-r-plus-08-2024",
-      "content_text": "",
-      "date_published": "2026-04-25T04:37:34.703198+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Cohere-command-r-plus-08-2024",
-        "shutdown_date": "2026-05-12",
-        "deprecation_date": "2026-05-12",
-        "announcement_date": "2026-02-13",
-        "replacement_models": null,
-        "first_observed": "2026-02-13",
-        "last_observed": "2026-04-25"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-cohere-rerank-v3.5",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Cohere-rerank-v3.5",
-      "content_text": "",
-      "date_published": "2026-04-25T04:37:34.703256+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Cohere-rerank-v3.5",
-        "shutdown_date": "2026-05-14",
-        "deprecation_date": "2026-05-14",
-        "announcement_date": "2026-01-14",
-        "replacement_models": [
-          "Cohere-rerank-v4.0-pro",
-          "Cohere-rerank-v4.0-fast"
-        ],
-        "first_observed": "2026-01-14",
-        "last_observed": "2026-04-25"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
       ]
     },
     {
@@ -4743,48 +4842,6 @@
       ]
     },
     {
-      "id": "azure-llama-3.2-11b-vision-instruct",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Llama-3.2-11B-Vision-Instruct",
-      "content_text": "",
-      "date_published": "2026-04-25T04:37:34.703584+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Llama-3.2-11B-Vision-Instruct",
-        "shutdown_date": "2026-06-13",
-        "deprecation_date": "2026-06-13",
-        "announcement_date": "2026-02-25",
-        "replacement_models": null,
-        "first_observed": "2026-02-25",
-        "last_observed": "2026-04-25"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-llama-3.2-90b-vision-instruct",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Llama-3.2-90B-Vision-Instruct",
-      "content_text": "",
-      "date_published": "2026-04-25T04:37:34.703662+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Llama-3.2-90B-Vision-Instruct",
-        "shutdown_date": "2026-06-13",
-        "deprecation_date": "2026-06-13",
-        "announcement_date": "2026-02-25",
-        "replacement_models": null,
-        "first_observed": "2026-02-25",
-        "last_observed": "2026-04-25"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
       "id": "azure-llama-4-scout-17b-16e-instruct",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Llama-4-Scout-17B-16E-Instruct",
@@ -4803,69 +4860,6 @@
       "tags": [
         "Azure",
         "shutdown-2027"
-      ]
-    },
-    {
-      "id": "azure-meta-llama-3.1-405b-instruct",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Meta-Llama-3.1-405B-Instruct",
-      "content_text": "",
-      "date_published": "2026-04-25T04:37:34.703764+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Meta-Llama-3.1-405B-Instruct",
-        "shutdown_date": "2026-06-13",
-        "deprecation_date": "2026-06-13",
-        "announcement_date": "2026-02-25",
-        "replacement_models": null,
-        "first_observed": "2026-02-25",
-        "last_observed": "2026-04-25"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-meta-llama-3.1-8b",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Meta-Llama-3.1-8B",
-      "content_text": "",
-      "date_published": "2026-04-25T04:37:34.703816+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Meta-Llama-3.1-8B",
-        "shutdown_date": "2026-06-13",
-        "deprecation_date": "2026-06-13",
-        "announcement_date": "2026-02-25",
-        "replacement_models": null,
-        "first_observed": "2026-02-25",
-        "last_observed": "2026-04-25"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-meta-llama-3.1-8b-instruct",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Meta-Llama-3.1-8B-Instruct",
-      "content_text": "",
-      "date_published": "2026-04-25T04:37:34.703869+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Meta-Llama-3.1-8B-Instruct",
-        "shutdown_date": "2026-06-13",
-        "deprecation_date": "2026-06-13",
-        "announcement_date": "2026-03-25",
-        "replacement_models": null,
-        "first_observed": "2026-03-25",
-        "last_observed": "2026-04-25"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
       ]
     },
     {
@@ -5043,6 +5037,27 @@
       ]
     },
     {
+      "id": "azure-mistral-medium-3-5",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: mistral-medium-3-5",
+      "content_text": "",
+      "date_published": "2026-11-19T09:58:12.074919+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "mistral-medium-3-5",
+        "shutdown_date": "2027-10-01",
+        "deprecation_date": "2027-10-01",
+        "announcement_date": "2026-11-19",
+        "replacement_models": null,
+        "first_observed": "2026-11-19",
+        "last_observed": "2026-11-19"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "azure-mistral-small-2503",
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: mistral-small-2503",
@@ -5106,69 +5121,6 @@
         ],
         "first_observed": "2026-06-04",
         "last_observed": "2026-06-04"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-stable-diffusion-3.5-large",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Stable-Diffusion-3.5-Large",
-      "content_text": "",
-      "date_published": "2026-06-06T05:55:41.408161+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Stable-Diffusion-3.5-Large",
-        "shutdown_date": "2026-07-31",
-        "deprecation_date": "2026-07-31",
-        "announcement_date": "2026-06-04",
-        "replacement_models": null,
-        "first_observed": "2026-06-04",
-        "last_observed": "2026-06-06"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-stable-image-core",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Stable-Image-Core",
-      "content_text": "",
-      "date_published": "2026-06-06T05:55:41.408206+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Stable-Image-Core",
-        "shutdown_date": "2026-07-31",
-        "deprecation_date": "2026-07-31",
-        "announcement_date": "2026-06-04",
-        "replacement_models": null,
-        "first_observed": "2026-06-04",
-        "last_observed": "2026-06-06"
-      },
-      "tags": [
-        "Azure",
-        "shutdown-2026"
-      ]
-    },
-    {
-      "id": "azure-stable-image-ultra",
-      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-      "title": "Azure: Stable-Image-Ultra",
-      "content_text": "",
-      "date_published": "2026-06-06T05:55:41.408246+00:00",
-      "_deprecation": {
-        "provider": "Azure",
-        "model_id": "Stable-Image-Ultra",
-        "shutdown_date": "2026-07-31",
-        "deprecation_date": "2026-07-31",
-        "announcement_date": "2026-06-04",
-        "replacement_models": null,
-        "first_observed": "2026-06-04",
-        "last_observed": "2026-06-06"
       },
       "tags": [
         "Azure",
