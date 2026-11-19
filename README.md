@@ -80,6 +80,19 @@ Use [Blogtrottr](https://blogtrottr.com) or [FeedRabbit](https://feedrabbit.com)
 Want to do more than just read notifications? Here are some examples to get you
 started with automated workflows.
 
+### Scan Your Codebase
+
+Find out *which* models need action before they
+disappear with [llm-sunset](https://github.com/Ashveil1/llm-sunset), a
+zero-dependency CLI and GitHub Action built on this feed:
+
+```bash
+pipx run llm-sunset
+```
+
+Will scan your repo for model IDs and print the shutdown date, the days left and
+the recommended replacement. Can fail CI when a model retires within `N` days.
+
 ### Create GitHub Issue on Deprecation
 Automatically create a GitHub issue when a model you use is being deprecated.
 
