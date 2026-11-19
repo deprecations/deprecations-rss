@@ -1,65 +1,56 @@
-"""Tests for Google AI scraper with fixture-based verification."""
+"""Tests for the Google AI scraper against an excerpt of the Markdoc source."""
 
 from pathlib import Path
 
 from src.scrapers.google_scraper import GoogleScraper
 
 
-def load_fixture() -> str:
-    fixture_path = Path(__file__).parent / "fixtures" / "google_deprecations.html"
-    return fixture_path.read_text()
+def load_items() -> dict:
+    fixture = Path(__file__).parent / "fixtures" / "google_deprecations.md"
+    items = GoogleScraper().extract_structured_deprecations(fixture.read_text())
+    return {item.model_id: item for item in items}
+
+
+def test_fetches_markdown_source():
+    """ai.google.dev redirects to client-rendered AI Studio pages; fetch the .md source."""
+    assert (
+        GoogleScraper().get_source_url()
+        == "https://aistudio.google.com/docs/deprecations.md"
+    )
 
 
 def test_extracts_only_rows_with_concrete_shutdown_dates():
-    """Rows without dated shutdowns are lifecycle notes, not feed items."""
-    scraper = GoogleScraper()
-    items = scraper.extract_structured_deprecations(load_fixture())
-    model_ids = {item.model_id for item in items}
-
-    assert model_ids == {
+    """Rows without a dated shutdown ("No shutdown date announced", "N/A") are skipped."""
+    assert set(load_items()) == {
         "gemini-2.5-pro",
+        "gemini-2.5-computer-use-preview-10-2025",
+        "gemini-2.5-pro-preview-03-25",
         "gemini-2.5-pro-preview-05-06",
-        "imagen-4.0-generate-001",
+        "gemini-2.5-pro-preview-06-05",
     }
-    assert "gemini-3.1-pro-preview" not in model_ids
-    assert "veo-3.0-generate-001" not in model_ids
 
 
 def test_extracts_shutdown_dates_and_replacements():
-    """Google deprecation table fields should map cleanly to output fields."""
-    scraper = GoogleScraper()
-    items = {
-        item.model_id: item
-        for item in scraper.extract_structured_deprecations(load_fixture())
-    }
+    """Replacements stop at the parenthesised note, which repeats the old model."""
+    items = load_items()
 
-    assert items["gemini-2.5-pro"].shutdown_date == "2026-06-17"
-    assert items["gemini-2.5-pro"].replacement_models == ["gemini-3.1-pro-preview"]
-    assert items["imagen-4.0-generate-001"].replacement_models == [
-        "gemini-3-pro-image-preview",
-        "gemini-2.5-flash-image",
-    ]
+    assert items["gemini-2.5-pro"].shutdown_date == "2026-12-01"
+    assert items["gemini-2.5-pro"].replacement_models == ["gemini-3.8-flash"]
+    assert items["gemini-2.5-pro-preview-05-06"].shutdown_date == "2025-12-02"
 
 
-def test_preserves_table_section_context_and_url():
-    """Context should identify the source table without changelog noise."""
-    scraper = GoogleScraper()
-    items = {
-        item.model_id: item
-        for item in scraper.extract_structured_deprecations(load_fixture())
-    }
+def test_preserves_section_context_and_anchor():
+    """Context names the table section; the URL links to its Markdoc id."""
+    items = load_items()
 
-    pro_item = items["gemini-2.5-pro"]
-    assert "Gemini deprecations table: Gemini 2.5 Pro" in pro_item.deprecation_context
-    assert pro_item.url.endswith("#gemini-2-5-pro")
+    pro = items["gemini-2.5-pro"]
+    assert "Gemini deprecations table: Gemini 2.5 Pro models." in (
+        pro.deprecation_context
+    )
+    assert pro.url == (
+        "https://aistudio.google.com/docs/deprecations#gemini-2.5-pro-models"
+    )
 
-
-def test_model_ids_are_not_concatenated():
-    """Each table row should create a clean single model ID."""
-    scraper = GoogleScraper()
-    items = scraper.extract_structured_deprecations(load_fixture())
-
-    for item in items:
-        assert len(item.model_id) < 100
-        assert item.model_id.count("gemini") <= 1
-        assert item.model_id.count("imagen") <= 1
+    preview = items["gemini-2.5-pro-preview-05-06"]
+    assert "Gemini 2.5 Pro models: Deprecated models" in preview.deprecation_context
+    assert preview.url.endswith("#gemini-2.5-pro-deprecated-models")

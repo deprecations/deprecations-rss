@@ -84,6 +84,26 @@ def scrape_all(previous_data: list[dict]) -> tuple[list[dict], list[dict]]:
                     print(f"  → Using {len(filtered_previous)} cached items")
                 continue
 
+            previous_provider_data = [
+                item for item in previous_data if item.get("provider") == provider_name
+            ]
+            if not deprecation_dicts and previous_provider_data:
+                # A provider dropping to zero items is almost always a moved or
+                # restructured page, not every deprecation disappearing at once.
+                message = (
+                    f"Scraped 0 deprecations, previously {len(previous_provider_data)}"
+                )
+                provider_failures.append(
+                    {"provider": provider_name, "kind": "empty", "message": message}
+                )
+                print(f"✗ Failed to scrape {provider_name}: {message}")
+                filtered_previous = _filter_fallback_items(
+                    scraper_class, previous_provider_data
+                )
+                all_deprecations.extend(filtered_previous)
+                print(f"  → Using {len(filtered_previous)} cached items")
+                continue
+
             all_deprecations.extend(deprecation_dicts)
             print(f"✓ Scraped {provider_name}: {len(deprecations)} deprecations")
         except Exception as exc:
