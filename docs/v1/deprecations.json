@@ -320,6 +320,873 @@
     "deprecation_date": "2024-09-04"
   },
   {
+    "provider": "Google",
+    "model_id": "gemini-3.1-flash-lite",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2027-05-07",
+    "deprecation_date": "2027-05-07",
+    "replacement_models": [
+      "gemini-3.5-flash-lite"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 3 models. Release date: 2026-05-07. Shutdown date: 2027-05-07. Recommended replacement: gemini-3.5-flash-lite.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-3-models",
+    "content_hash": "02faa8440ef4b4bc",
+    "scraped_at": "2026-11-20T09:46:24.923608+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-3.1-flash-tts-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-12-18",
+    "deprecation_date": "2026-12-18",
+    "replacement_models": [
+      "gemini-3.8-flash-tts",
+      "gemini-3.8-flash-lite-tts"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 3 models: Preview models. Release date: 2026-02-26. Shutdown date: 2026-12-18. Recommended replacement: gemini-3.8-flash-tts, gemini-3.8-flash-lite-tts.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-3-preview-models",
+    "content_hash": "5f8b540717e37dc1",
+    "scraped_at": "2026-11-20T09:46:24.923672+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-3-pro-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-03-09",
+    "deprecation_date": "2026-03-09",
+    "replacement_models": [
+      "gemini-3.1-pro-preview"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 3 models: Deprecated models. Release date: 2025-11-18. Shutdown date: 2026-03-09. Recommended replacement: gemini-3.1-pro-preview.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-3-deprecated-models",
+    "content_hash": "3f157fb9c4faef2d",
+    "scraped_at": "2026-11-20T09:46:24.923779+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-3.1-flash-lite-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-05-25",
+    "deprecation_date": "2026-05-25",
+    "replacement_models": [
+      "gemini-3.1-flash-lite"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 3 models: Deprecated models. Release date: 2026-03-03. Shutdown date: 2026-05-25. Recommended replacement: gemini-3.1-flash-lite.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-3-deprecated-models",
+    "content_hash": "a9d2f0ca25350fbe",
+    "scraped_at": "2026-11-20T09:46:24.923807+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-pro",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-12-01",
+    "deprecation_date": "2026-12-01",
+    "replacement_models": [
+      "gemini-3.8-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.5 Pro models. Release date: 2025-06-17. Shutdown date: 2026-12-01. Recommended replacement: gemini-3.8-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-pro-models",
+    "content_hash": "3e5c324786158442",
+    "scraped_at": "2026-11-20T09:46:24.923851+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-computer-use-preview-10-2025",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-07-28",
+    "deprecation_date": "2026-07-28",
+    "replacement_models": [
+      "gemini-3.8-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.5 Pro models: Deprecated models. Release date: 2025-10-07. Shutdown date: 2026-07-28. Recommended replacement: gemini-3.8-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-pro-deprecated-models",
+    "content_hash": "ea0c5ff035efdabb",
+    "scraped_at": "2026-11-20T09:46:24.923894+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-pro-preview-03-25",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-12-02",
+    "deprecation_date": "2025-12-02",
+    "replacement_models": [
+      "gemini-3.8-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.5 Pro models: Deprecated models. Release date: 2025-03-03. Shutdown date: 2025-12-02. Recommended replacement: gemini-3.8-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-pro-deprecated-models",
+    "content_hash": "fcf9f4824ea77b2d",
+    "scraped_at": "2026-11-20T09:46:24.923918+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-pro-preview-05-06",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-12-02",
+    "deprecation_date": "2025-12-02",
+    "replacement_models": [
+      "gemini-3.8-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.5 Pro models: Deprecated models. Release date: 2025-05-06. Shutdown date: 2025-12-02. Recommended replacement: gemini-3.8-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-pro-deprecated-models",
+    "content_hash": "8354c3046da9f72f",
+    "scraped_at": "2026-11-20T09:46:24.923941+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-pro-preview-06-05",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-12-02",
+    "deprecation_date": "2025-12-02",
+    "replacement_models": [
+      "gemini-3.8-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.5 Pro models: Deprecated models. Release date: 2025-06-05. Shutdown date: 2025-12-02. Recommended replacement: gemini-3.8-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-pro-deprecated-models",
+    "content_hash": "25eef711a126c99f",
+    "scraped_at": "2026-11-20T09:46:24.923963+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-flash",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-12-01",
+    "deprecation_date": "2026-12-01",
+    "replacement_models": [
+      "gemini-3.5-flash-lite"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.5 Flash models. Release date: 2025-06-17. Shutdown date: 2026-12-01. Recommended replacement: gemini-3.5-flash-lite.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-flash-models",
+    "content_hash": "301976a583ac9aa8",
+    "scraped_at": "2026-11-20T09:46:24.924006+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-flash-lite-preview-09-2025",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-03-31",
+    "deprecation_date": "2026-03-31",
+    "replacement_models": [
+      "gemini-3.1-flash-lite"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.5 Flash models: Deprecated models. Release date: 2025-09-25. Shutdown date: 2026-03-31. Recommended replacement: gemini-3.1-flash-lite.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-flash-deprecated-models",
+    "content_hash": "1e48a972a96a0345",
+    "scraped_at": "2026-11-20T09:46:24.924065+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-flash-preview-05-20",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-11-18",
+    "deprecation_date": "2025-11-18",
+    "replacement_models": [
+      "gemini-3.6-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.5 Flash models: Deprecated models. Release date: 2025-05-20. Shutdown date: 2025-11-18. Recommended replacement: gemini-3.6-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-flash-deprecated-models",
+    "content_hash": "b44520f661ca01b1",
+    "scraped_at": "2026-11-20T09:46:24.924088+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-flash-preview-09-2025",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-02-17",
+    "deprecation_date": "2026-02-17",
+    "replacement_models": [
+      "gemini-3.6-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.5 Flash models: Deprecated models. Release date: 2025-09-25. Shutdown date: 2026-02-17. Recommended replacement: gemini-3.6-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-flash-deprecated-models",
+    "content_hash": "a454c1e5a37adce3",
+    "scraped_at": "2026-11-20T09:46:24.924112+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.0-flash",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-06-01",
+    "deprecation_date": "2026-06-01",
+    "replacement_models": [
+      "gemini-3.6-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.0 models: Deprecated models. Release date: 2025-02-05. Shutdown date: 2026-06-01. Recommended replacement: gemini-3.6-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.0-deprecated-models",
+    "content_hash": "37959faf4dadf47e",
+    "scraped_at": "2026-11-20T09:46:24.924167+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.0-flash-001",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-06-01",
+    "deprecation_date": "2026-06-01",
+    "replacement_models": [
+      "gemini-3.6-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.0 models: Deprecated models. Release date: 2025-02-05. Shutdown date: 2026-06-01. Recommended replacement: gemini-3.6-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.0-deprecated-models",
+    "content_hash": "4e70bbd684dd1268",
+    "scraped_at": "2026-11-20T09:46:24.924190+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.0-flash-lite",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-06-01",
+    "deprecation_date": "2026-06-01",
+    "replacement_models": [
+      "gemini-3.1-flash-lite"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.0 models: Deprecated models. Release date: 2025-02-25. Shutdown date: 2026-06-01. Recommended replacement: gemini-3.1-flash-lite.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.0-deprecated-models",
+    "content_hash": "3c27622388237fce",
+    "scraped_at": "2026-11-20T09:46:24.924212+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.0-flash-lite-001",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-06-01",
+    "deprecation_date": "2026-06-01",
+    "replacement_models": [
+      "gemini-3.1-flash-lite"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.0 models: Deprecated models. Release date: 2025-02-25. Shutdown date: 2026-06-01. Recommended replacement: gemini-3.1-flash-lite.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.0-deprecated-models",
+    "content_hash": "ced31dc8fffd254e",
+    "scraped_at": "2026-11-20T09:46:24.924234+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.0-flash-lite-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-12-09",
+    "deprecation_date": "2025-12-09",
+    "replacement_models": [
+      "gemini-3.1-flash-lite"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.0 models: Deprecated models. Release date: 2025-02-05. Shutdown date: 2025-12-09. Recommended replacement: gemini-3.1-flash-lite.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.0-deprecated-models",
+    "content_hash": "7d1bdcef07c402ae",
+    "scraped_at": "2026-11-20T09:46:24.924257+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.0-flash-lite-preview-02-05",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-12-09",
+    "deprecation_date": "2025-12-09",
+    "replacement_models": [
+      "gemini-3.1-flash-lite"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini 2.0 models: Deprecated models. Release date: 2025-02-05. Shutdown date: 2025-12-09. Recommended replacement: gemini-3.1-flash-lite.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-2.0-deprecated-models",
+    "content_hash": "8a725acd38d9859c",
+    "scraped_at": "2026-11-20T09:46:24.924279+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-flash-native-audio-preview-12-2025",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2027-03-31",
+    "deprecation_date": "2027-03-31",
+    "replacement_models": [
+      "gemini-3.8-live"
+    ],
+    "deprecation_context": "Gemini deprecations table: Live API models: Preview models. Release date: 2025-12-12. Shutdown date: 2027-03-31. Recommended replacement: gemini-3.8-live.",
+    "url": "https://aistudio.google.com/docs/deprecations#live-api-preview-models",
+    "content_hash": "e40d2a32523274de",
+    "scraped_at": "2026-11-20T09:46:24.924418+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-live-2.5-flash-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-12-09",
+    "deprecation_date": "2025-12-09",
+    "replacement_models": [
+      "gemini-3.8-live"
+    ],
+    "deprecation_context": "Gemini deprecations table: Live API models: Deprecated models. Release date: 2025-06-17. Shutdown date: 2025-12-09. Recommended replacement: gemini-3.8-live.",
+    "url": "https://aistudio.google.com/docs/deprecations#live-api-deprecated-models",
+    "content_hash": "10a243f5fa902758",
+    "scraped_at": "2026-11-20T09:46:24.924453+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.0-flash-live-001",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-12-09",
+    "deprecation_date": "2025-12-09",
+    "replacement_models": [
+      "gemini-3.8-live"
+    ],
+    "deprecation_context": "Gemini deprecations table: Live API models: Deprecated models. Release date: 2025-04-09. Shutdown date: 2025-12-09. Recommended replacement: gemini-3.8-live.",
+    "url": "https://aistudio.google.com/docs/deprecations#live-api-deprecated-models",
+    "content_hash": "1281b430644aa797",
+    "scraped_at": "2026-11-20T09:46:24.924476+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-flash-preview-tts",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-12-18",
+    "deprecation_date": "2026-12-18",
+    "replacement_models": [
+      "gemini-3.8-flash-tts",
+      "gemini-3.8-flash-lite-tts"
+    ],
+    "deprecation_context": "Gemini deprecations table: Audio models: Preview models. Release date: 2025-05-20. Shutdown date: 2026-12-18. Recommended replacement: gemini-3.8-flash-tts, gemini-3.8-flash-lite-tts.",
+    "url": "https://aistudio.google.com/docs/deprecations#audio-preview-models",
+    "content_hash": "f789a9a3133d0758",
+    "scraped_at": "2026-11-20T09:46:24.924540+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-pro-preview-tts",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-12-18",
+    "deprecation_date": "2026-12-18",
+    "replacement_models": [
+      "gemini-3.8-flash-tts",
+      "gemini-3.8-flash-lite-tts"
+    ],
+    "deprecation_context": "Gemini deprecations table: Audio models: Preview models. Release date: 2025-05-20. Shutdown date: 2026-12-18. Recommended replacement: gemini-3.8-flash-tts, gemini-3.8-flash-lite-tts.",
+    "url": "https://aistudio.google.com/docs/deprecations#audio-preview-models",
+    "content_hash": "177e304c5ed1284e",
+    "scraped_at": "2026-11-20T09:46:24.924565+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-embedding-001",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2028-05-14",
+    "deprecation_date": "2028-05-14",
+    "replacement_models": [
+      "gemini-embedding-2"
+    ],
+    "deprecation_context": "Gemini deprecations table: Embedding models. Release date: 2025-07-14. Shutdown date: 2028-05-14. Recommended replacement: gemini-embedding-2.",
+    "url": "https://aistudio.google.com/docs/deprecations#embedding-models",
+    "content_hash": "60b20dd8789e315b",
+    "scraped_at": "2026-11-20T09:46:24.924617+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-embedding-2-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-11-06",
+    "deprecation_date": "2026-11-06",
+    "replacement_models": [
+      "gemini-embedding-2"
+    ],
+    "deprecation_context": "Gemini deprecations table: Embedding models: Deprecated models. Release date: 2026-03-10. Shutdown date: 2026-11-06. Recommended replacement: gemini-embedding-2.",
+    "url": "https://aistudio.google.com/docs/deprecations#embedding-deprecated-models",
+    "content_hash": "52972f519c125344",
+    "scraped_at": "2026-11-20T09:46:24.924667+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "text-embedding-004",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-01-14",
+    "deprecation_date": "2026-01-14",
+    "replacement_models": [
+      "gemini-embedding-2"
+    ],
+    "deprecation_context": "Gemini deprecations table: Embedding models: Deprecated models. Release date: 2024-04-09. Shutdown date: 2026-01-14. Recommended replacement: gemini-embedding-2.",
+    "url": "https://aistudio.google.com/docs/deprecations#embedding-deprecated-models",
+    "content_hash": "0e9799854657595b",
+    "scraped_at": "2026-11-20T09:46:24.924690+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "embedding-001",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-10-30",
+    "deprecation_date": "2025-10-30",
+    "replacement_models": [
+      "gemini-embedding-2"
+    ],
+    "deprecation_context": "Gemini deprecations table: Embedding models: Deprecated models. Release date: 2024-04-09. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-2.",
+    "url": "https://aistudio.google.com/docs/deprecations#embedding-deprecated-models",
+    "content_hash": "887ccfb53324069d",
+    "scraped_at": "2026-11-20T09:46:24.924712+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "embedding-gecko-001",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-10-30",
+    "deprecation_date": "2025-10-30",
+    "replacement_models": [
+      "gemini-embedding-2"
+    ],
+    "deprecation_context": "Gemini deprecations table: Embedding models: Deprecated models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-2.",
+    "url": "https://aistudio.google.com/docs/deprecations#embedding-deprecated-models",
+    "content_hash": "62ad77277267c0a6",
+    "scraped_at": "2026-11-20T09:46:24.924726+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-embedding-exp",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-10-30",
+    "deprecation_date": "2025-10-30",
+    "replacement_models": [
+      "gemini-embedding-2"
+    ],
+    "deprecation_context": "Gemini deprecations table: Embedding models: Deprecated models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-2.",
+    "url": "https://aistudio.google.com/docs/deprecations#embedding-deprecated-models",
+    "content_hash": "37a64c8f379d3e44",
+    "scraped_at": "2026-11-20T09:46:24.924753+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-embedding-exp-03-07",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-10-30",
+    "deprecation_date": "2025-10-30",
+    "replacement_models": [
+      "gemini-embedding-2"
+    ],
+    "deprecation_context": "Gemini deprecations table: Embedding models: Deprecated models. Shutdown date: 2025-10-30. Recommended replacement: gemini-embedding-2.",
+    "url": "https://aistudio.google.com/docs/deprecations#embedding-deprecated-models",
+    "content_hash": "d3ff4ac737be58ed",
+    "scraped_at": "2026-11-20T09:46:24.924769+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-flash-image",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2027-03-15",
+    "deprecation_date": "2027-03-15",
+    "replacement_models": [
+      "gemini-3.1-flash-lite-image"
+    ],
+    "deprecation_context": "Gemini deprecations table: Nano Banana models. Release date: 2025-10-02. Shutdown date: 2027-03-15. Recommended replacement: gemini-3.1-flash-lite-image.",
+    "url": "https://aistudio.google.com/docs/deprecations#nano-banana-models",
+    "content_hash": "234e9ac9f52b33d6",
+    "scraped_at": "2026-11-20T09:46:24.924884+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-3.1-flash-image-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-06-25",
+    "deprecation_date": "2026-06-25",
+    "replacement_models": [
+      "gemini-nano-banana-2.1"
+    ],
+    "deprecation_context": "Gemini deprecations table: Nano Banana models: Deprecated models. Release date: 2026-02-26. Shutdown date: 2026-06-25. Recommended replacement: gemini-nano-banana-2.1.",
+    "url": "https://aistudio.google.com/docs/deprecations#nano-banana-deprecated-models",
+    "content_hash": "6cc01444b9e468c6",
+    "scraped_at": "2026-11-20T09:46:24.924926+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-3-pro-image-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-06-25",
+    "deprecation_date": "2026-06-25",
+    "replacement_models": [
+      "gemini-3-pro-image"
+    ],
+    "deprecation_context": "Gemini deprecations table: Nano Banana models: Deprecated models. Release date: 2025-11-20. Shutdown date: 2026-06-25. Recommended replacement: gemini-3-pro-image.",
+    "url": "https://aistudio.google.com/docs/deprecations#nano-banana-deprecated-models",
+    "content_hash": "0b86b38a5f0d8922",
+    "scraped_at": "2026-11-20T09:46:24.924949+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.5-flash-image-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-01-15",
+    "deprecation_date": "2026-01-15",
+    "replacement_models": [
+      "gemini-nano-banana-2.1"
+    ],
+    "deprecation_context": "Gemini deprecations table: Nano Banana models: Deprecated models. Release date: 2025-05-07. Shutdown date: 2026-01-15. Recommended replacement: gemini-nano-banana-2.1.",
+    "url": "https://aistudio.google.com/docs/deprecations#nano-banana-deprecated-models",
+    "content_hash": "29ffc4dfeb43b91c",
+    "scraped_at": "2026-11-20T09:46:24.924971+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-2.0-flash-preview-image-generation",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-11-14",
+    "deprecation_date": "2025-11-14",
+    "replacement_models": [
+      "gemini-nano-banana-2.1"
+    ],
+    "deprecation_context": "Gemini deprecations table: Nano Banana models: Deprecated models. Release date: 2025-05-07. Shutdown date: 2025-11-14. Recommended replacement: gemini-nano-banana-2.1.",
+    "url": "https://aistudio.google.com/docs/deprecations#nano-banana-deprecated-models",
+    "content_hash": "f94b5ad701ee2c22",
+    "scraped_at": "2026-11-20T09:46:24.924994+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "imagen-4.0-generate-001",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-08-17",
+    "deprecation_date": "2026-08-17",
+    "replacement_models": [
+      "gemini-nano-banana-2.1"
+    ],
+    "deprecation_context": "Gemini deprecations table: Imagen models: Deprecated models. Release date: 2025-06-24. Shutdown date: 2026-08-17. Recommended replacement: gemini-nano-banana-2.1.",
+    "url": "https://aistudio.google.com/docs/deprecations#imagen-deprecated-models",
+    "content_hash": "7957b9c9b2faccf2",
+    "scraped_at": "2026-11-20T09:46:24.925043+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "imagen-4.0-ultra-generate-001",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-08-17",
+    "deprecation_date": "2026-08-17",
+    "replacement_models": [
+      "gemini-nano-banana-2.1"
+    ],
+    "deprecation_context": "Gemini deprecations table: Imagen models: Deprecated models. Release date: 2025-06-24. Shutdown date: 2026-08-17. Recommended replacement: gemini-nano-banana-2.1.",
+    "url": "https://aistudio.google.com/docs/deprecations#imagen-deprecated-models",
+    "content_hash": "4fb562f0ca0bb877",
+    "scraped_at": "2026-11-20T09:46:24.925064+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "imagen-4.0-fast-generate-001",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-08-17",
+    "deprecation_date": "2026-08-17",
+    "replacement_models": [
+      "gemini-nano-banana-2.1"
+    ],
+    "deprecation_context": "Gemini deprecations table: Imagen models: Deprecated models. Release date: 2025-06-24. Shutdown date: 2026-08-17. Recommended replacement: gemini-nano-banana-2.1.",
+    "url": "https://aistudio.google.com/docs/deprecations#imagen-deprecated-models",
+    "content_hash": "70e1e1eed82f6b67",
+    "scraped_at": "2026-11-20T09:46:24.925086+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "imagen-4.0-generate-preview-06-06",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-02-17",
+    "deprecation_date": "2026-02-17",
+    "replacement_models": [
+      "gemini-nano-banana-2.1"
+    ],
+    "deprecation_context": "Gemini deprecations table: Imagen models: Deprecated models. Release date: 2025-06-24. Shutdown date: 2026-02-17. Recommended replacement: gemini-nano-banana-2.1.",
+    "url": "https://aistudio.google.com/docs/deprecations#imagen-deprecated-models",
+    "content_hash": "971af8046555b5db",
+    "scraped_at": "2026-11-20T09:46:24.925107+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "imagen-4.0-ultra-generate-preview-06-06",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-02-17",
+    "deprecation_date": "2026-02-17",
+    "replacement_models": [
+      "gemini-nano-banana-2.1"
+    ],
+    "deprecation_context": "Gemini deprecations table: Imagen models: Deprecated models. Release date: 2025-06-24. Shutdown date: 2026-02-17. Recommended replacement: gemini-nano-banana-2.1.",
+    "url": "https://aistudio.google.com/docs/deprecations#imagen-deprecated-models",
+    "content_hash": "daeac3d4e66242e9",
+    "scraped_at": "2026-11-20T09:46:24.925129+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "imagen-3.0-generate-002",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-11-10",
+    "deprecation_date": "2025-11-10",
+    "replacement_models": [
+      "gemini-nano-banana-2.1"
+    ],
+    "deprecation_context": "Gemini deprecations table: Imagen models: Deprecated models. Release date: 2025-02-06. Shutdown date: 2025-11-10. Recommended replacement: gemini-nano-banana-2.1.",
+    "url": "https://aistudio.google.com/docs/deprecations#imagen-deprecated-models",
+    "content_hash": "7dedfc27c3eccae1",
+    "scraped_at": "2026-11-20T09:46:24.925151+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "veo-3.1-lite-generate-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-10-22",
+    "deprecation_date": "2026-10-22",
+    "replacement_models": [
+      "gemini-omni-1.2-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Veo models: Deprecated models. Release date: 2026-03-31. Shutdown date: 2026-10-22. Recommended replacement: gemini-omni-1.2-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+    "content_hash": "01a06d868e5d5fcb",
+    "scraped_at": "2026-11-20T09:46:24.925216+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "veo-3.1-generate-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-10-22",
+    "deprecation_date": "2026-10-22",
+    "replacement_models": [
+      "gemini-omni-1.2-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Veo models: Deprecated models. Release date: 2025-10-15. Shutdown date: 2026-10-22. Recommended replacement: gemini-omni-1.2-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+    "content_hash": "0345842af05b1b8a",
+    "scraped_at": "2026-11-20T09:46:24.925240+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "veo-3.1-fast-generate-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-10-22",
+    "deprecation_date": "2026-10-22",
+    "replacement_models": [
+      "gemini-omni-1.2-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Veo models: Deprecated models. Release date: 2025-10-15. Shutdown date: 2026-10-22. Recommended replacement: gemini-omni-1.2-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+    "content_hash": "f3e3efca83a81d7b",
+    "scraped_at": "2026-11-20T09:46:24.925262+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "veo-3.0-generate-001",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-06-30",
+    "deprecation_date": "2026-06-30",
+    "replacement_models": [
+      "gemini-omni-1.2-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Veo models: Deprecated models. Release date: 2025-09-09. Shutdown date: 2026-06-30. Recommended replacement: gemini-omni-1.2-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+    "content_hash": "62e5ee4183b93de7",
+    "scraped_at": "2026-11-20T09:46:24.925285+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "veo-3.0-fast-generate-001",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-06-30",
+    "deprecation_date": "2026-06-30",
+    "replacement_models": [
+      "gemini-omni-1.2-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Veo models: Deprecated models. Release date: 2025-09-09. Shutdown date: 2026-06-30. Recommended replacement: gemini-omni-1.2-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+    "content_hash": "4cea25f0529fff36",
+    "scraped_at": "2026-11-20T09:46:24.925308+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "veo-2.0-generate-001",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-06-30",
+    "deprecation_date": "2026-06-30",
+    "replacement_models": [
+      "gemini-omni-1.2-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Veo models: Deprecated models. Release date: 2025-04-09. Shutdown date: 2026-06-30. Recommended replacement: gemini-omni-1.2-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+    "content_hash": "bcc492549f89c203",
+    "scraped_at": "2026-11-20T09:46:24.925330+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "veo-3.0-generate-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-11-12",
+    "deprecation_date": "2025-11-12",
+    "replacement_models": [
+      "gemini-omni-1.2-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Veo models: Deprecated models. Release date: 2025-07-31. Shutdown date: 2025-11-12. Recommended replacement: gemini-omni-1.2-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+    "content_hash": "d3699091e748d06c",
+    "scraped_at": "2026-11-20T09:46:24.925371+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "veo-3.0-fast-generate-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2025-11-12",
+    "deprecation_date": "2025-11-12",
+    "replacement_models": [
+      "gemini-omni-1.2-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Veo models: Deprecated models. Release date: 2025-07-31. Shutdown date: 2025-11-12. Recommended replacement: gemini-omni-1.2-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+    "content_hash": "7a843bd1ead3ca19",
+    "scraped_at": "2026-11-20T09:46:24.925404+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-omni-1.1-flash",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-12-03",
+    "deprecation_date": "2026-12-03",
+    "replacement_models": [
+      "gemini-omni-1.2-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini Omni Flash models. Release date: 2026-08-27. Shutdown date: 2026-12-03. Recommended replacement: gemini-omni-1.2-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-omni-flash-models",
+    "content_hash": "623da64f661d6365",
+    "scraped_at": "2026-11-20T09:46:24.925496+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-omni-flash-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-10-22",
+    "deprecation_date": "2026-10-22",
+    "replacement_models": [
+      "gemini-omni-1.2-flash"
+    ],
+    "deprecation_context": "Gemini deprecations table: Gemini Omni Flash models: Deprecated models. Release date: 2026-06-30. Shutdown date: 2026-10-22. Recommended replacement: gemini-omni-1.2-flash.",
+    "url": "https://aistudio.google.com/docs/deprecations#gemini-omni-flash-deprecated-models",
+    "content_hash": "38d7f730cad8e95e",
+    "scraped_at": "2026-11-20T09:46:24.925539+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-robotics-er-1.6-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-08-31",
+    "deprecation_date": "2026-08-31",
+    "replacement_models": [
+      "gemini-robotics-er-2-preview"
+    ],
+    "deprecation_context": "Gemini deprecations table: Robotics models: Deprecated models. Release date: 2026-04-14. Shutdown date: 2026-08-31. Recommended replacement: gemini-robotics-er-2-preview.",
+    "url": "https://aistudio.google.com/docs/deprecations#robotics-deprecated-models",
+    "content_hash": "b322a4ed676e2412",
+    "scraped_at": "2026-11-20T09:46:24.925745+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
+    "provider": "Google",
+    "model_id": "gemini-robotics-er-1.5-preview",
+    "announcement_date": "2026-11-20",
+    "shutdown_date": "2026-04-30",
+    "deprecation_date": "2026-04-30",
+    "replacement_models": [
+      "gemini-robotics-er-2-preview"
+    ],
+    "deprecation_context": "Gemini deprecations table: Robotics models: Deprecated models. Release date: 2025-09-25. Shutdown date: 2026-04-30. Recommended replacement: gemini-robotics-er-2-preview.",
+    "url": "https://aistudio.google.com/docs/deprecations#robotics-deprecated-models",
+    "content_hash": "8572e476a6dc50b4",
+    "scraped_at": "2026-11-20T09:46:24.925773+00:00",
+    "first_observed": "2026-11-20",
+    "last_observed": "2026-11-20"
+  },
+  {
     "provider": "Google Vertex",
     "model_id": "claude-sonnet-4-5",
     "announcement_date": "2026-11-05",

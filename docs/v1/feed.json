@@ -473,6 +473,1251 @@
       ]
     },
     {
+      "id": "google-gemini-3.1-flash-lite",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-3-models",
+      "title": "Google: gemini-3.1-flash-lite",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.923608+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-3.1-flash-lite",
+        "shutdown_date": "2027-05-07",
+        "deprecation_date": "2027-05-07",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.5-flash-lite"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "google-gemini-3.1-flash-tts-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-3-preview-models",
+      "title": "Google: gemini-3.1-flash-tts-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.923672+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-3.1-flash-tts-preview",
+        "shutdown_date": "2026-12-18",
+        "deprecation_date": "2026-12-18",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.8-flash-tts",
+          "gemini-3.8-flash-lite-tts"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-3-pro-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-3-deprecated-models",
+      "title": "Google: gemini-3-pro-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.923779+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-3-pro-preview",
+        "shutdown_date": "2026-03-09",
+        "deprecation_date": "2026-03-09",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.1-pro-preview"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-3.1-flash-lite-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-3-deprecated-models",
+      "title": "Google: gemini-3.1-flash-lite-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.923807+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-3.1-flash-lite-preview",
+        "shutdown_date": "2026-05-25",
+        "deprecation_date": "2026-05-25",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.1-flash-lite"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-pro",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-pro-models",
+      "title": "Google: gemini-2.5-pro",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.923851+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-pro",
+        "shutdown_date": "2026-12-01",
+        "deprecation_date": "2026-12-01",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.8-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-computer-use-preview-10-2025",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-pro-deprecated-models",
+      "title": "Google: gemini-2.5-computer-use-preview-10-2025",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.923894+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-computer-use-preview-10-2025",
+        "shutdown_date": "2026-07-28",
+        "deprecation_date": "2026-07-28",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.8-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-pro-preview-03-25",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-pro-deprecated-models",
+      "title": "Google: gemini-2.5-pro-preview-03-25",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.923918+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-pro-preview-03-25",
+        "shutdown_date": "2025-12-02",
+        "deprecation_date": "2025-12-02",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.8-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-pro-preview-05-06",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-pro-deprecated-models",
+      "title": "Google: gemini-2.5-pro-preview-05-06",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.923941+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-pro-preview-05-06",
+        "shutdown_date": "2025-12-02",
+        "deprecation_date": "2025-12-02",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.8-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-pro-preview-06-05",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-pro-deprecated-models",
+      "title": "Google: gemini-2.5-pro-preview-06-05",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.923963+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-pro-preview-06-05",
+        "shutdown_date": "2025-12-02",
+        "deprecation_date": "2025-12-02",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.8-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-flash",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-flash-models",
+      "title": "Google: gemini-2.5-flash",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924006+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-flash",
+        "shutdown_date": "2026-12-01",
+        "deprecation_date": "2026-12-01",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.5-flash-lite"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-flash-lite-preview-09-2025",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-flash-deprecated-models",
+      "title": "Google: gemini-2.5-flash-lite-preview-09-2025",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924065+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-flash-lite-preview-09-2025",
+        "shutdown_date": "2026-03-31",
+        "deprecation_date": "2026-03-31",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.1-flash-lite"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-flash-preview-05-20",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-flash-deprecated-models",
+      "title": "Google: gemini-2.5-flash-preview-05-20",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924088+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-flash-preview-05-20",
+        "shutdown_date": "2025-11-18",
+        "deprecation_date": "2025-11-18",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.6-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-flash-preview-09-2025",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.5-flash-deprecated-models",
+      "title": "Google: gemini-2.5-flash-preview-09-2025",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924112+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-flash-preview-09-2025",
+        "shutdown_date": "2026-02-17",
+        "deprecation_date": "2026-02-17",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.6-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-2.0-flash",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.0-deprecated-models",
+      "title": "Google: gemini-2.0-flash",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924167+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.0-flash",
+        "shutdown_date": "2026-06-01",
+        "deprecation_date": "2026-06-01",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.6-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-2.0-flash-001",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.0-deprecated-models",
+      "title": "Google: gemini-2.0-flash-001",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924190+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.0-flash-001",
+        "shutdown_date": "2026-06-01",
+        "deprecation_date": "2026-06-01",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.6-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-2.0-flash-lite",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.0-deprecated-models",
+      "title": "Google: gemini-2.0-flash-lite",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924212+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.0-flash-lite",
+        "shutdown_date": "2026-06-01",
+        "deprecation_date": "2026-06-01",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.1-flash-lite"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-2.0-flash-lite-001",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.0-deprecated-models",
+      "title": "Google: gemini-2.0-flash-lite-001",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924234+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.0-flash-lite-001",
+        "shutdown_date": "2026-06-01",
+        "deprecation_date": "2026-06-01",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.1-flash-lite"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-2.0-flash-lite-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.0-deprecated-models",
+      "title": "Google: gemini-2.0-flash-lite-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924257+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.0-flash-lite-preview",
+        "shutdown_date": "2025-12-09",
+        "deprecation_date": "2025-12-09",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.1-flash-lite"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-2.0-flash-lite-preview-02-05",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-2.0-deprecated-models",
+      "title": "Google: gemini-2.0-flash-lite-preview-02-05",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924279+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.0-flash-lite-preview-02-05",
+        "shutdown_date": "2025-12-09",
+        "deprecation_date": "2025-12-09",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.1-flash-lite"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-flash-native-audio-preview-12-2025",
+      "url": "https://aistudio.google.com/docs/deprecations#live-api-preview-models",
+      "title": "Google: gemini-2.5-flash-native-audio-preview-12-2025",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924418+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-flash-native-audio-preview-12-2025",
+        "shutdown_date": "2027-03-31",
+        "deprecation_date": "2027-03-31",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.8-live"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "google-gemini-live-2.5-flash-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#live-api-deprecated-models",
+      "title": "Google: gemini-live-2.5-flash-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924453+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-live-2.5-flash-preview",
+        "shutdown_date": "2025-12-09",
+        "deprecation_date": "2025-12-09",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.8-live"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-2.0-flash-live-001",
+      "url": "https://aistudio.google.com/docs/deprecations#live-api-deprecated-models",
+      "title": "Google: gemini-2.0-flash-live-001",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924476+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.0-flash-live-001",
+        "shutdown_date": "2025-12-09",
+        "deprecation_date": "2025-12-09",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.8-live"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-flash-preview-tts",
+      "url": "https://aistudio.google.com/docs/deprecations#audio-preview-models",
+      "title": "Google: gemini-2.5-flash-preview-tts",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924540+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-flash-preview-tts",
+        "shutdown_date": "2026-12-18",
+        "deprecation_date": "2026-12-18",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.8-flash-tts",
+          "gemini-3.8-flash-lite-tts"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-pro-preview-tts",
+      "url": "https://aistudio.google.com/docs/deprecations#audio-preview-models",
+      "title": "Google: gemini-2.5-pro-preview-tts",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924565+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-pro-preview-tts",
+        "shutdown_date": "2026-12-18",
+        "deprecation_date": "2026-12-18",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.8-flash-tts",
+          "gemini-3.8-flash-lite-tts"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-embedding-001",
+      "url": "https://aistudio.google.com/docs/deprecations#embedding-models",
+      "title": "Google: gemini-embedding-001",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924617+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-embedding-001",
+        "shutdown_date": "2028-05-14",
+        "deprecation_date": "2028-05-14",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-embedding-2"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2028"
+      ]
+    },
+    {
+      "id": "google-gemini-embedding-2-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#embedding-deprecated-models",
+      "title": "Google: gemini-embedding-2-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924667+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-embedding-2-preview",
+        "shutdown_date": "2026-11-06",
+        "deprecation_date": "2026-11-06",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-embedding-2"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-text-embedding-004",
+      "url": "https://aistudio.google.com/docs/deprecations#embedding-deprecated-models",
+      "title": "Google: text-embedding-004",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924690+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "text-embedding-004",
+        "shutdown_date": "2026-01-14",
+        "deprecation_date": "2026-01-14",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-embedding-2"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-embedding-001",
+      "url": "https://aistudio.google.com/docs/deprecations#embedding-deprecated-models",
+      "title": "Google: embedding-001",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924712+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "embedding-001",
+        "shutdown_date": "2025-10-30",
+        "deprecation_date": "2025-10-30",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-embedding-2"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-embedding-gecko-001",
+      "url": "https://aistudio.google.com/docs/deprecations#embedding-deprecated-models",
+      "title": "Google: embedding-gecko-001",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924726+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "embedding-gecko-001",
+        "shutdown_date": "2025-10-30",
+        "deprecation_date": "2025-10-30",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-embedding-2"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-embedding-exp",
+      "url": "https://aistudio.google.com/docs/deprecations#embedding-deprecated-models",
+      "title": "Google: gemini-embedding-exp",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924753+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-embedding-exp",
+        "shutdown_date": "2025-10-30",
+        "deprecation_date": "2025-10-30",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-embedding-2"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-embedding-exp-03-07",
+      "url": "https://aistudio.google.com/docs/deprecations#embedding-deprecated-models",
+      "title": "Google: gemini-embedding-exp-03-07",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924769+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-embedding-exp-03-07",
+        "shutdown_date": "2025-10-30",
+        "deprecation_date": "2025-10-30",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-embedding-2"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-flash-image",
+      "url": "https://aistudio.google.com/docs/deprecations#nano-banana-models",
+      "title": "Google: gemini-2.5-flash-image",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924884+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-flash-image",
+        "shutdown_date": "2027-03-15",
+        "deprecation_date": "2027-03-15",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3.1-flash-lite-image"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "google-gemini-3.1-flash-image-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#nano-banana-deprecated-models",
+      "title": "Google: gemini-3.1-flash-image-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924926+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-3.1-flash-image-preview",
+        "shutdown_date": "2026-06-25",
+        "deprecation_date": "2026-06-25",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-nano-banana-2.1"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-3-pro-image-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#nano-banana-deprecated-models",
+      "title": "Google: gemini-3-pro-image-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924949+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-3-pro-image-preview",
+        "shutdown_date": "2026-06-25",
+        "deprecation_date": "2026-06-25",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-3-pro-image"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-2.5-flash-image-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#nano-banana-deprecated-models",
+      "title": "Google: gemini-2.5-flash-image-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924971+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.5-flash-image-preview",
+        "shutdown_date": "2026-01-15",
+        "deprecation_date": "2026-01-15",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-nano-banana-2.1"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-2.0-flash-preview-image-generation",
+      "url": "https://aistudio.google.com/docs/deprecations#nano-banana-deprecated-models",
+      "title": "Google: gemini-2.0-flash-preview-image-generation",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.924994+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-2.0-flash-preview-image-generation",
+        "shutdown_date": "2025-11-14",
+        "deprecation_date": "2025-11-14",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-nano-banana-2.1"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-imagen-4.0-generate-001",
+      "url": "https://aistudio.google.com/docs/deprecations#imagen-deprecated-models",
+      "title": "Google: imagen-4.0-generate-001",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925043+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "imagen-4.0-generate-001",
+        "shutdown_date": "2026-08-17",
+        "deprecation_date": "2026-08-17",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-nano-banana-2.1"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-imagen-4.0-ultra-generate-001",
+      "url": "https://aistudio.google.com/docs/deprecations#imagen-deprecated-models",
+      "title": "Google: imagen-4.0-ultra-generate-001",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925064+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "imagen-4.0-ultra-generate-001",
+        "shutdown_date": "2026-08-17",
+        "deprecation_date": "2026-08-17",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-nano-banana-2.1"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-imagen-4.0-fast-generate-001",
+      "url": "https://aistudio.google.com/docs/deprecations#imagen-deprecated-models",
+      "title": "Google: imagen-4.0-fast-generate-001",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925086+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "imagen-4.0-fast-generate-001",
+        "shutdown_date": "2026-08-17",
+        "deprecation_date": "2026-08-17",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-nano-banana-2.1"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-imagen-4.0-generate-preview-06-06",
+      "url": "https://aistudio.google.com/docs/deprecations#imagen-deprecated-models",
+      "title": "Google: imagen-4.0-generate-preview-06-06",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925107+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "imagen-4.0-generate-preview-06-06",
+        "shutdown_date": "2026-02-17",
+        "deprecation_date": "2026-02-17",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-nano-banana-2.1"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-imagen-4.0-ultra-generate-preview-06-06",
+      "url": "https://aistudio.google.com/docs/deprecations#imagen-deprecated-models",
+      "title": "Google: imagen-4.0-ultra-generate-preview-06-06",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925129+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "imagen-4.0-ultra-generate-preview-06-06",
+        "shutdown_date": "2026-02-17",
+        "deprecation_date": "2026-02-17",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-nano-banana-2.1"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-imagen-3.0-generate-002",
+      "url": "https://aistudio.google.com/docs/deprecations#imagen-deprecated-models",
+      "title": "Google: imagen-3.0-generate-002",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925151+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "imagen-3.0-generate-002",
+        "shutdown_date": "2025-11-10",
+        "deprecation_date": "2025-11-10",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-nano-banana-2.1"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-veo-3.1-lite-generate-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+      "title": "Google: veo-3.1-lite-generate-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925216+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-3.1-lite-generate-preview",
+        "shutdown_date": "2026-10-22",
+        "deprecation_date": "2026-10-22",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-omni-1.2-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-veo-3.1-generate-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+      "title": "Google: veo-3.1-generate-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925240+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-3.1-generate-preview",
+        "shutdown_date": "2026-10-22",
+        "deprecation_date": "2026-10-22",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-omni-1.2-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-veo-3.1-fast-generate-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+      "title": "Google: veo-3.1-fast-generate-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925262+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-3.1-fast-generate-preview",
+        "shutdown_date": "2026-10-22",
+        "deprecation_date": "2026-10-22",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-omni-1.2-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-veo-3.0-generate-001",
+      "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+      "title": "Google: veo-3.0-generate-001",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925285+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-3.0-generate-001",
+        "shutdown_date": "2026-06-30",
+        "deprecation_date": "2026-06-30",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-omni-1.2-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-veo-3.0-fast-generate-001",
+      "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+      "title": "Google: veo-3.0-fast-generate-001",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925308+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-3.0-fast-generate-001",
+        "shutdown_date": "2026-06-30",
+        "deprecation_date": "2026-06-30",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-omni-1.2-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-veo-2.0-generate-001",
+      "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+      "title": "Google: veo-2.0-generate-001",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925330+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-2.0-generate-001",
+        "shutdown_date": "2026-06-30",
+        "deprecation_date": "2026-06-30",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-omni-1.2-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-veo-3.0-generate-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+      "title": "Google: veo-3.0-generate-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925371+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-3.0-generate-preview",
+        "shutdown_date": "2025-11-12",
+        "deprecation_date": "2025-11-12",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-omni-1.2-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-veo-3.0-fast-generate-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#veo-deprecated-models",
+      "title": "Google: veo-3.0-fast-generate-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925404+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "veo-3.0-fast-generate-preview",
+        "shutdown_date": "2025-11-12",
+        "deprecation_date": "2025-11-12",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-omni-1.2-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2025"
+      ]
+    },
+    {
+      "id": "google-gemini-omni-1.1-flash",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-omni-flash-models",
+      "title": "Google: gemini-omni-1.1-flash",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925496+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-omni-1.1-flash",
+        "shutdown_date": "2026-12-03",
+        "deprecation_date": "2026-12-03",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-omni-1.2-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-omni-flash-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#gemini-omni-flash-deprecated-models",
+      "title": "Google: gemini-omni-flash-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925539+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-omni-flash-preview",
+        "shutdown_date": "2026-10-22",
+        "deprecation_date": "2026-10-22",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-omni-1.2-flash"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-robotics-er-1.6-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#robotics-deprecated-models",
+      "title": "Google: gemini-robotics-er-1.6-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925745+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-robotics-er-1.6-preview",
+        "shutdown_date": "2026-08-31",
+        "deprecation_date": "2026-08-31",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-robotics-er-2-preview"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "google-gemini-robotics-er-1.5-preview",
+      "url": "https://aistudio.google.com/docs/deprecations#robotics-deprecated-models",
+      "title": "Google: gemini-robotics-er-1.5-preview",
+      "content_text": "",
+      "date_published": "2026-11-20T09:46:24.925773+00:00",
+      "_deprecation": {
+        "provider": "Google",
+        "model_id": "gemini-robotics-er-1.5-preview",
+        "shutdown_date": "2026-04-30",
+        "deprecation_date": "2026-04-30",
+        "announcement_date": "2026-11-20",
+        "replacement_models": [
+          "gemini-robotics-er-2-preview"
+        ],
+        "first_observed": "2026-11-20",
+        "last_observed": "2026-11-20"
+      },
+      "tags": [
+        "Google",
+        "shutdown-2026"
+      ]
+    },
+    {
       "id": "google-vertex-claude-sonnet-4-5",
       "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-4-5",
       "title": "Google Vertex: claude-sonnet-4-5",
