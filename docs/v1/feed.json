@@ -13,6 +13,29 @@
   "language": "en-US",
   "items": [
     {
+      "id": "anthropic-claude-opus-4-5-20251101",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-11-23-claude-opus-4-5-model",
+      "title": "Anthropic: claude-opus-4-5-20251101",
+      "content_text": "",
+      "date_published": "2026-11-24T12:05:53.270485+00:00",
+      "_deprecation": {
+        "provider": "Anthropic",
+        "model_id": "claude-opus-4-5-20251101",
+        "shutdown_date": "2027-01-22",
+        "deprecation_date": "2026-11-23",
+        "announcement_date": "2026-11-24",
+        "replacement_models": [
+          "claude-opus-5-5"
+        ],
+        "first_observed": "2026-11-24",
+        "last_observed": "2026-11-24"
+      },
+      "tags": [
+        "Anthropic",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "anthropic-claude-opus-4-1-20250805",
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-06-05-claude-opus-4-1-model",
       "title": "Anthropic: claude-opus-4-1-20250805",
@@ -5170,16 +5193,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Llama-3.3-70B-Instruct",
       "content_text": "",
-      "date_published": "2026-10-22T07:14:31.490940+00:00",
+      "date_published": "2026-11-24T12:05:56.171006+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Llama-3.3-70B-Instruct",
-        "shutdown_date": "2027-01-31",
-        "deprecation_date": "2027-01-31",
+        "shutdown_date": "2027-02-03",
+        "deprecation_date": "2027-02-03",
         "announcement_date": "2026-10-22",
         "replacement_models": null,
         "first_observed": "2026-10-22",
-        "last_observed": "2026-10-22"
+        "last_observed": "2026-11-24"
       },
       "tags": [
         "Azure",
@@ -5191,20 +5214,20 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Llama-4-Maverick-17B-128E-Instruct-FP8",
       "content_text": "",
-      "date_published": "2026-10-22T07:14:31.490979+00:00",
+      "date_published": "2026-11-24T12:05:56.171025+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Llama-4-Maverick-17B-128E-Instruct-FP8",
-        "shutdown_date": "2026-11-19",
-        "deprecation_date": "2026-11-19",
+        "shutdown_date": "2027-02-03",
+        "deprecation_date": "2027-02-03",
         "announcement_date": "2026-10-22",
         "replacement_models": null,
         "first_observed": "2026-10-22",
-        "last_observed": "2026-10-22"
+        "last_observed": "2026-11-24"
       },
       "tags": [
         "Azure",
-        "shutdown-2026"
+        "shutdown-2027"
       ]
     },
     {
@@ -5543,6 +5566,27 @@
         "replacement_models": null,
         "first_observed": "2026-07-10",
         "last_observed": "2026-10-23"
+      },
+      "tags": [
+        "Azure",
+        "shutdown-2027"
+      ]
+    },
+    {
+      "id": "azure-kimi-k3.1-pro",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+      "title": "Azure: Kimi-K3.1-Pro",
+      "content_text": "",
+      "date_published": "2026-11-24T12:05:56.171545+00:00",
+      "_deprecation": {
+        "provider": "Azure",
+        "model_id": "Kimi-K3.1-Pro",
+        "shutdown_date": "2027-11-04",
+        "deprecation_date": "2027-11-04",
+        "announcement_date": "2026-11-24",
+        "replacement_models": null,
+        "first_observed": "2026-11-24",
+        "last_observed": "2026-11-24"
       },
       "tags": [
         "Azure",
@@ -6091,16 +6135,16 @@
       "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
       "title": "Azure: Llama-4-Scout-17B-16E-Instruct",
       "content_text": "",
-      "date_published": "2026-10-24T06:57:09.744292+00:00",
+      "date_published": "2026-11-24T12:05:56.172460+00:00",
       "_deprecation": {
         "provider": "Azure",
         "model_id": "Llama-4-Scout-17B-16E-Instruct",
-        "shutdown_date": "2027-01-31",
-        "deprecation_date": "2027-01-31",
+        "shutdown_date": "2027-02-03",
+        "deprecation_date": "2027-02-03",
         "announcement_date": "2026-10-24",
         "replacement_models": null,
         "first_observed": "2026-10-24",
-        "last_observed": "2026-10-24"
+        "last_observed": "2026-11-24"
       },
       "tags": [
         "Azure",

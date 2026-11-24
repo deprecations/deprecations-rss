@@ -4,7 +4,21 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Fri, 20 Nov 2026 09:46:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 12:05:56 GMT</lastBuildDate>
+    <item>
+      <title>Anthropic: claude-opus-4-5-20251101</title>
+      <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-11-23-claude-opus-4-5-model</link>
+      <description>Provider: Anthropic
+Model ID: claude-opus-4-5-20251101
+Deprecation Date: 2026-11-23
+Shutdown Date: 2027-01-22
+First Observed: 2026-11-24
+Last Observed: 2026-11-24
+
+On November 23, 2026, Anthropic notified developers using Claude Opus 4.5 of its upcoming retirement on the Claude API.</description>
+      <pubDate>Tue, 24 Nov 2026 12:05:53 GMT</pubDate>
+      <guid isPermaLink="false">Anthropic-claude-opus-4-5-20251101-2027-01-22-e3b0c442</guid>
+    </item>
     <item>
       <title>Anthropic: claude-opus-4-1-20250805</title>
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-06-05-claude-opus-4-1-model</link>
@@ -3282,28 +3296,28 @@ DeepSeek</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Llama-3.3-70B-Instruct
-Deprecation Date: 2027-01-31
-Shutdown Date: 2027-01-31
+Deprecation Date: 2027-02-03
+Shutdown Date: 2027-02-03
 First Observed: 2026-10-22
-Last Observed: 2026-10-22
+Last Observed: 2026-11-24
 
 Meta</description>
-      <pubDate>Thu, 22 Oct 2026 07:14:31 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-3.3-70B-Instruct-2027-01-31-e3b0c442</guid>
+      <pubDate>Tue, 24 Nov 2026 12:05:56 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Llama-3.3-70B-Instruct-2027-02-03-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Llama-4-Maverick-17B-128E-Instruct-FP8</title>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Llama-4-Maverick-17B-128E-Instruct-FP8
-Deprecation Date: 2026-11-19
-Shutdown Date: 2026-11-19
+Deprecation Date: 2027-02-03
+Shutdown Date: 2027-02-03
 First Observed: 2026-10-22
-Last Observed: 2026-10-22
+Last Observed: 2026-11-24
 
 Meta</description>
-      <pubDate>Thu, 22 Oct 2026 07:14:31 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-4-Maverick-17B-128E-Instruct-FP8-2026-11-19-e3b0c442</guid>
+      <pubDate>Tue, 24 Nov 2026 12:05:56 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Llama-4-Maverick-17B-128E-Instruct-FP8-2027-02-03-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: model-router</title>
@@ -3528,6 +3542,20 @@ Last Observed: 2026-10-23
 MoonshotAI</description>
       <pubDate>Fri, 23 Oct 2026 07:06:09 GMT</pubDate>
       <guid isPermaLink="false">Azure-Kimi-K2.7-Code-2027-04-16-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Azure: Kimi-K3.1-Pro</title>
+      <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
+      <description>Provider: Azure
+Model ID: Kimi-K3.1-Pro
+Deprecation Date: 2027-11-04
+Shutdown Date: 2027-11-04
+First Observed: 2026-11-24
+Last Observed: 2026-11-24
+
+MoonshotAI</description>
+      <pubDate>Tue, 24 Nov 2026 12:05:56 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Kimi-K3.1-Pro-2027-11-04-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: gpt-oss-120b</title>
@@ -3884,14 +3912,14 @@ Cohere</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: Llama-4-Scout-17B-16E-Instruct
-Deprecation Date: 2027-01-31
-Shutdown Date: 2027-01-31
+Deprecation Date: 2027-02-03
+Shutdown Date: 2027-02-03
 First Observed: 2026-10-24
-Last Observed: 2026-10-24
+Last Observed: 2026-11-24
 
 Meta</description>
-      <pubDate>Sat, 24 Oct 2026 06:57:09 GMT</pubDate>
-      <guid isPermaLink="false">Azure-Llama-4-Scout-17B-16E-Instruct-2027-01-31-e3b0c442</guid>
+      <pubDate>Tue, 24 Nov 2026 12:05:56 GMT</pubDate>
+      <guid isPermaLink="false">Azure-Llama-4-Scout-17B-16E-Instruct-2027-02-03-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: Phi-4</title>

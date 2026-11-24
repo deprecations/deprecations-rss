@@ -1,6 +1,22 @@
 [
   {
     "provider": "Anthropic",
+    "model_id": "claude-opus-4-5-20251101",
+    "announcement_date": "2026-11-24",
+    "shutdown_date": "2027-01-22",
+    "deprecation_date": "2026-11-23",
+    "replacement_models": [
+      "claude-opus-5-5"
+    ],
+    "deprecation_context": "On November 23, 2026, Anthropic notified developers using Claude Opus 4.5 of its upcoming retirement on the Claude API.",
+    "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-11-23-claude-opus-4-5-model",
+    "content_hash": "2289c8e8e3f09c0b",
+    "scraped_at": "2026-11-24T12:05:53.270485+00:00",
+    "first_observed": "2026-11-24",
+    "last_observed": "2026-11-24"
+  },
+  {
+    "provider": "Anthropic",
     "model_id": "claude-opus-4-1-20250805",
     "announcement_date": "2026-06-06",
     "shutdown_date": "2026-08-05",
@@ -3545,29 +3561,29 @@
     "provider": "Azure",
     "model_id": "Llama-3.3-70B-Instruct",
     "announcement_date": "2026-10-22",
-    "shutdown_date": "2027-01-31",
-    "deprecation_date": "2027-01-31",
+    "shutdown_date": "2027-02-03",
+    "deprecation_date": "2027-02-03",
     "replacement_models": null,
     "deprecation_context": "Meta",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "65c9934ff20b7272",
-    "scraped_at": "2026-10-22T07:14:31.490940+00:00",
+    "content_hash": "f1ac0e3dfb689cc1",
+    "scraped_at": "2026-11-24T12:05:56.171006+00:00",
     "first_observed": "2026-10-22",
-    "last_observed": "2026-10-22"
+    "last_observed": "2026-11-24"
   },
   {
     "provider": "Azure",
     "model_id": "Llama-4-Maverick-17B-128E-Instruct-FP8",
     "announcement_date": "2026-10-22",
-    "shutdown_date": "2026-11-19",
-    "deprecation_date": "2026-11-19",
+    "shutdown_date": "2027-02-03",
+    "deprecation_date": "2027-02-03",
     "replacement_models": null,
     "deprecation_context": "Meta",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "34b909caf47c8bea",
-    "scraped_at": "2026-10-22T07:14:31.490979+00:00",
+    "content_hash": "48de807b9f94ec20",
+    "scraped_at": "2026-11-24T12:05:56.171025+00:00",
     "first_observed": "2026-10-22",
-    "last_observed": "2026-10-22"
+    "last_observed": "2026-11-24"
   },
   {
     "provider": "Azure",
@@ -3798,6 +3814,20 @@
     "scraped_at": "2026-10-23T07:06:09.538034+00:00",
     "first_observed": "2026-07-10",
     "last_observed": "2026-10-23"
+  },
+  {
+    "provider": "Azure",
+    "model_id": "Kimi-K3.1-Pro",
+    "announcement_date": "2026-11-24",
+    "shutdown_date": "2027-11-04",
+    "deprecation_date": "2027-11-04",
+    "replacement_models": null,
+    "deprecation_context": "MoonshotAI",
+    "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
+    "content_hash": "8ec46dc4cdd5dc3f",
+    "scraped_at": "2026-11-24T12:05:56.171545+00:00",
+    "first_observed": "2026-11-24",
+    "last_observed": "2026-11-24"
   },
   {
     "provider": "Azure",
@@ -4165,15 +4195,15 @@
     "provider": "Azure",
     "model_id": "Llama-4-Scout-17B-16E-Instruct",
     "announcement_date": "2026-10-24",
-    "shutdown_date": "2027-01-31",
-    "deprecation_date": "2027-01-31",
+    "shutdown_date": "2027-02-03",
+    "deprecation_date": "2027-02-03",
     "replacement_models": null,
     "deprecation_context": "Meta",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "6843d392a32d559a",
-    "scraped_at": "2026-10-24T06:57:09.744292+00:00",
+    "content_hash": "90b42cc22edf2534",
+    "scraped_at": "2026-11-24T12:05:56.172460+00:00",
     "first_observed": "2026-10-24",
-    "last_observed": "2026-10-24"
+    "last_observed": "2026-11-24"
   },
   {
     "provider": "Azure",
