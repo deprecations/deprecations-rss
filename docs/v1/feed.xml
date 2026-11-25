@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Tue, 24 Nov 2026 12:05:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 10:56:52 GMT</lastBuildDate>
     <item>
       <title>Anthropic: claude-opus-4-5-20251101</title>
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-11-23-claude-opus-4-5-model</link>
@@ -1054,6 +1054,22 @@ Last Observed: 2026-11-20
 Gemini deprecations table: Robotics models: Deprecated models. Release date: 2025-09-25. Shutdown date: 2026-04-30. Recommended replacement: gemini-robotics-er-2-preview.</description>
       <pubDate>Fri, 20 Nov 2026 09:46:24 GMT</pubDate>
       <guid isPermaLink="false">Google-gemini-robotics-er-1.5-preview-2026-04-30-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Google Vertex: claude-opus-4-5</title>
+      <link>https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#opus-4-5</link>
+      <description>Provider: Google Vertex
+Model ID: claude-opus-4-5
+Deprecation Date: 2026-11-23
+Shutdown Date: 2027-01-22
+First Observed: 2026-11-25
+Last Observed: 2026-11-25
+
+Anthropic's Claude Opus 4.5 on Google Cloud is deprecated as of November 23, 2026 and will be shut down on January 22, 2027 . Anthropic's Claude Opus 4.5 on Google Cloud is available to
+existing customers only. Anthropic's Claude Opus 4.5 on Google Cloud is optimized for coding, agents, computer use, and
+enterprise workflows. Try in Agent Studio View model card in Model Garden Model ID claude-opus-4-5 Launch stage deprecated Supported inputs &amp; outputs Inputs: Text , Code , Images , Documents Out...</description>
+      <pubDate>Wed, 25 Nov 2026 10:56:52 GMT</pubDate>
+      <guid isPermaLink="false">Google_Vertex-claude-opus-4-5-2027-01-22-e3b0c442</guid>
     </item>
     <item>
       <title>Google Vertex: claude-sonnet-4-5</title>

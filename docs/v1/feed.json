@@ -1741,6 +1741,27 @@
       ]
     },
     {
+      "id": "google-vertex-claude-opus-4-5",
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#opus-4-5",
+      "title": "Google Vertex: claude-opus-4-5",
+      "content_text": "",
+      "date_published": "2026-11-25T10:56:52.976735+00:00",
+      "_deprecation": {
+        "provider": "Google Vertex",
+        "model_id": "claude-opus-4-5",
+        "shutdown_date": "2027-01-22",
+        "deprecation_date": "2026-11-23",
+        "announcement_date": "2026-11-25",
+        "replacement_models": null,
+        "first_observed": "2026-11-25",
+        "last_observed": "2026-11-25"
+      },
+      "tags": [
+        "Google Vertex",
+        "shutdown-2027"
+      ]
+    },
+    {
       "id": "google-vertex-claude-sonnet-4-5",
       "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#sonnet-4-5",
       "title": "Google Vertex: claude-sonnet-4-5",

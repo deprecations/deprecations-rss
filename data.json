@@ -1204,6 +1204,20 @@
   },
   {
     "provider": "Google Vertex",
+    "model_id": "claude-opus-4-5",
+    "announcement_date": "2026-11-25",
+    "shutdown_date": "2027-01-22",
+    "deprecation_date": "2026-11-23",
+    "replacement_models": null,
+    "deprecation_context": "Anthropic's Claude Opus 4.5 on Google Cloud is deprecated as of November 23, 2026 and will be shut down on January 22, 2027 . Anthropic's Claude Opus 4.5 on Google Cloud is available to\nexisting customers only. Anthropic's Claude Opus 4.5 on Google Cloud is optimized for coding, agents, computer use, and\nenterprise workflows. Try in Agent Studio View model card in Model Garden Model ID claude-opus-4-5 Launch stage deprecated Supported inputs & outputs Inputs: Text , Code , Images , Documents Outputs: Text Token limits Maximum input tokens: 200,000 Maximum output tokens: 64,000 Capabilities Supported Computer use Web search Batch predictions Prompt caching Function calling Count tokens Not supported Usage types Supported Fixed quota Provisioned Throughput Not supported Technical specifications Images Limitation and specifications: See Vision in Anthropic's documentation Documents Limitation and specifications: See PDF support in Anthropic's documentation Versions claude-opus-4-5 Launch stage: Deprecated Release date: November 24, 2025 Supported regions Model availability (Includes fixed quota & Provisioned Throughput) United States us-east5 Europe europe-west1 Asia Pacific asia-southeast1 Global global endpoint ML processing United States Multi-region Europe Multi-region Asia Pacific asia-southeast1 Quota limits us-east5: QPM: 200 Input TPM: 2,000,000 uncached and cache write Output TPM: 200,000 Context length: 200,000 europe-west1: QPM: 200 Input TPM: 2,000,000 uncached and cache write Output TPM: 200,000 Context length: 200,000 asia-southeast1: QPM: 200 Input TPM: 2,000,000 uncached and cache write Output TPM: 200,000 Context length: 200,000 global endpoint: QPM: 400 Input TPM: 4,000,000 uncached and cache write Output TPM: 400,000 Context length: 200,000 Pricing See Pricing .",
+    "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models#opus-4-5",
+    "content_hash": "af0a7f9ee9ccd767",
+    "scraped_at": "2026-11-25T10:56:52.976735+00:00",
+    "first_observed": "2026-11-25",
+    "last_observed": "2026-11-25"
+  },
+  {
+    "provider": "Google Vertex",
     "model_id": "claude-sonnet-4-5",
     "announcement_date": "2026-11-05",
     "shutdown_date": "2026-11-30",
