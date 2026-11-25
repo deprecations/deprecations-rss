@@ -7,7 +7,6 @@ import unicodedata
 from typing import Iterable
 
 
-SECTION_HEADING_RE = re.compile(r"^###\s+(.*)$", re.MULTILINE)
 TABLE_SEPARATOR_RE = re.compile(r"^\s*\|?(?:\s*:?-{3,}:?\s*\|)+\s*:?-{3,}:?\s*\|?\s*$")
 CODE_SPAN_RE = re.compile(r"`([^`]+)`")
 
@@ -37,9 +36,10 @@ def slugify_heading(text: str) -> str:
     return re.sub(r"-+", "-", slug)
 
 
-def split_markdown_sections(content: str) -> list[tuple[str, str]]:
-    """Split markdown content into level-3 sections."""
-    matches = list(SECTION_HEADING_RE.finditer(content))
+def split_markdown_sections(content: str, level: int = 3) -> list[tuple[str, str]]:
+    """Split markdown content into sections at the given heading level."""
+    heading_re = re.compile(rf"^#{{{level}}}\s+(.*)$", re.MULTILINE)
+    matches = list(heading_re.finditer(content))
     sections: list[tuple[str, str]] = []
 
     for idx, match in enumerate(matches):
