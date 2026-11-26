@@ -3861,15 +3861,15 @@
     "provider": "Azure",
     "model_id": "grok-4",
     "announcement_date": "2026-10-24",
-    "shutdown_date": "2027-01-31",
-    "deprecation_date": "2027-01-31",
+    "shutdown_date": "2027-02-03",
+    "deprecation_date": "2027-02-03",
     "replacement_models": null,
     "deprecation_context": "xAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "ac487c63f01203cd",
-    "scraped_at": "2026-10-24T06:57:09.742231+00:00",
+    "content_hash": "83ea69ead22dcb80",
+    "scraped_at": "2026-11-26T10:32:42.949156+00:00",
     "first_observed": "2026-10-24",
-    "last_observed": "2026-10-24"
+    "last_observed": "2026-11-26"
   },
   {
     "provider": "Azure",
@@ -3973,15 +3973,15 @@
     "provider": "Azure",
     "model_id": "grok-code-fast-1",
     "announcement_date": "2026-10-24",
-    "shutdown_date": "2027-01-31",
-    "deprecation_date": "2027-01-31",
+    "shutdown_date": "2027-02-03",
+    "deprecation_date": "2027-02-03",
     "replacement_models": null,
     "deprecation_context": "xAI",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models",
-    "content_hash": "69f3f922e7c6c26f",
-    "scraped_at": "2026-10-24T06:57:09.742528+00:00",
+    "content_hash": "f79066624562923d",
+    "scraped_at": "2026-11-26T10:32:42.949527+00:00",
     "first_observed": "2026-10-24",
-    "last_observed": "2026-10-24"
+    "last_observed": "2026-11-26"
   },
   {
     "provider": "Azure",

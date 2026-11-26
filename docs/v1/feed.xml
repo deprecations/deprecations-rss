@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Wed, 25 Nov 2026 10:56:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 10:32:42 GMT</lastBuildDate>
     <item>
       <title>Anthropic: claude-opus-4-5-20251101</title>
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-11-23-claude-opus-4-5-model</link>
@@ -3592,14 +3592,14 @@ OpenAI-OSS</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: grok-4
-Deprecation Date: 2027-01-31
-Shutdown Date: 2027-01-31
+Deprecation Date: 2027-02-03
+Shutdown Date: 2027-02-03
 First Observed: 2026-10-24
-Last Observed: 2026-10-24
+Last Observed: 2026-11-26
 
 xAI</description>
-      <pubDate>Sat, 24 Oct 2026 06:57:09 GMT</pubDate>
-      <guid isPermaLink="false">Azure-grok-4-2027-01-31-e3b0c442</guid>
+      <pubDate>Thu, 26 Nov 2026 10:32:42 GMT</pubDate>
+      <guid isPermaLink="false">Azure-grok-4-2027-02-03-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: grok-4-1-fast-non-reasoning</title>
@@ -3704,14 +3704,14 @@ xAI</description>
       <link>https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement#timelines-for-foundry-models</link>
       <description>Provider: Azure
 Model ID: grok-code-fast-1
-Deprecation Date: 2027-01-31
-Shutdown Date: 2027-01-31
+Deprecation Date: 2027-02-03
+Shutdown Date: 2027-02-03
 First Observed: 2026-10-24
-Last Observed: 2026-10-24
+Last Observed: 2026-11-26
 
 xAI</description>
-      <pubDate>Sat, 24 Oct 2026 06:57:09 GMT</pubDate>
-      <guid isPermaLink="false">Azure-grok-code-fast-1-2027-01-31-e3b0c442</guid>
+      <pubDate>Thu, 26 Nov 2026 10:32:42 GMT</pubDate>
+      <guid isPermaLink="false">Azure-grok-code-fast-1-2027-02-03-e3b0c442</guid>
     </item>
     <item>
       <title>Azure: claude-sonnet-5</title>
