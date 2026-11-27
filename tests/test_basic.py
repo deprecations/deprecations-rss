@@ -31,6 +31,7 @@ def test_scraper_imports():
         from src.scrapers.groq_scraper import GroqScraper  # noqa: F401
         from src.scrapers.xai_scraper import XAIScraper  # noqa: F401
         from src.scrapers.azure_foundry_scraper import AzureFoundryScraper  # noqa: F401
+        from src.scrapers.fireworks_scraper import FireworksScraper  # noqa: F401
 
         assert True
     except ImportError as e:

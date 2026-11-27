@@ -36,6 +36,7 @@ We check these pages daily:
 - [Groq Model Deprecations](https://console.groq.com/docs/deprecations)
 - [xAI Models](https://docs.x.ai/docs/models)
 - [Azure AI Foundry Retirements](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement)
+- [Fireworks AI Changelog](https://docs.fireworks.ai/updates/changelog) (serverless model deprecations)
 
 ## Why This Exists
 AI providers deprecate models regularly, sometimes with just a few months
