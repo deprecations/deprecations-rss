@@ -21,7 +21,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://deprecations.info/">
     <meta property="og:title" content="AI Deprecations Feeds - Never miss an AI model shutdown again">
-    <meta property="og:description" content="Track AI model deprecations from OpenAI, Anthropic, Google, AWS Bedrock, Cohere, Groq, xAI, Azure, and more. Available as JSON API, JSON Feed, and RSS.">
+    <meta property="og:description" content="Track AI model deprecations from OpenAI, Anthropic, Google, AWS Bedrock, Cohere, Groq, xAI, Azure, Fireworks AI, and more. Available as JSON API, JSON Feed, and RSS.">
     <meta property="og:image" content="https://deprecations.info/social-card.jpeg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1731">
@@ -66,7 +66,7 @@
 
         <section class="intro">
             <p class="lead">
-                Track AI model deprecations from OpenAI, Anthropic, Google AI/Gemini, Google Vertex AI, AWS Bedrock, Cohere, Groq, xAI, and Azure.
+                Track AI model deprecations from OpenAI, Anthropic, Google AI/Gemini, Google Vertex AI, AWS Bedrock, Cohere, Groq, xAI, Azure, and Fireworks AI.
                 Available as <strong>JSON API</strong>, <strong>JSON Feed</strong>, and <strong>RSS</strong> - perfect
                 for programmatic access and automation.
                 When they announce a model is being shut down, it shows up here. That's it.
@@ -159,6 +159,7 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                 <button class="filter-badge aws" data-filter="aws">AWS</button>
                 <button class="filter-badge xai" data-filter="xai">xAI</button>
                 <button class="filter-badge azure" data-filter="azure">AZR</button>
+                <button class="filter-badge fireworks" data-filter="fireworks">FIR</button>
             </div>
 
             <div class="data-table-container">
@@ -305,7 +306,8 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                         'aws': 'AWS',
                         'awsbedrock': 'AWS Bedrock',
                         'xai': 'xAI',
-                        'azure': 'Azure OpenAI'
+                        'azure': 'Azure OpenAI',
+                        'fireworksai': 'Fireworks AI'
                     };
 
                     // Try exact match first
@@ -437,7 +439,8 @@ t19 -45.5t-18.5 -45t-44.5 -19.5zM551 477q-27 0 -46 19t-19 45.5t19 45.5t45.5 19t4
                                 'awsbedrock': 'aws',
                                 'xai': 'xai',
                                 'azure': 'azure',
-                                'azureopenai': 'azure'
+                                'azureopenai': 'azure',
+                                'fireworksai': 'fireworks'
                             };
 
                             const mappedProvider = providerMap[normalizedProvider] || normalizedProvider;
@@ -1353,6 +1356,7 @@ end</code></pre>
                     'Groq': { className: 'groq', short: 'GRQ' },
                     'xAI': { className: 'xai', short: 'xAI' },
                     'Azure': { className: 'azure', short: 'AZR' },
+                    'Fireworks AI': { className: 'fireworks', short: 'FIR' },
                 };
 
                 try {

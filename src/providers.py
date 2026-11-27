@@ -9,6 +9,7 @@ from .scrapers.cohere_scraper import CohereScraper
 from .scrapers.groq_scraper import GroqScraper
 from .scrapers.xai_scraper import XAIScraper
 from .scrapers.azure_foundry_scraper import AzureFoundryScraper
+from .scrapers.fireworks_scraper import FireworksScraper
 
 SCRAPERS = [
     OpenAIScraper,
@@ -20,6 +21,7 @@ SCRAPERS = [
     GroqScraper,
     XAIScraper,
     AzureFoundryScraper,
+    FireworksScraper,
 ]
 
 TRACKED_PROVIDER_PAGES = [
@@ -67,5 +69,10 @@ TRACKED_PROVIDER_PAGES = [
         "provider": AzureFoundryScraper.provider_name,
         "label": "Azure AI Foundry Retirements",
         "url": AzureFoundryScraper.url,
+    },
+    {
+        "provider": FireworksScraper.provider_name,
+        "label": "Fireworks AI Changelog",
+        "url": FireworksScraper.url,
     },
 ]
