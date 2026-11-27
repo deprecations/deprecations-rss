@@ -86,6 +86,8 @@ class OpenAIScraper(EnhancedBaseScraper):
                     )
                 )
 
+        items.extend(self._extract_from_lifecycle_tables(content))
+
         deduped: dict[str, DeprecationItem] = {}
         for item in items:
             existing = deduped.get(item.model_id)
@@ -93,6 +95,17 @@ class OpenAIScraper(EnhancedBaseScraper):
                 deduped[item.model_id] = item
 
         return list(deduped.values())
+
+    def _extract_from_lifecycle_tables(self, content: str) -> List[DeprecationItem]:
+        """Extract model rows from the tables under "## ... deprecations" headings."""
+        items: list[DeprecationItem] = []
+        for title, body in split_markdown_sections(content, level=2):
+            if not title.lower().endswith("deprecations"):
+                continue
+            url = f"{self.url}#{slugify_heading(title)}"
+            for _, _, block in extract_markdown_tables(body.splitlines()):
+                items.extend(self._extract_from_markdown_table(block, "", "", url))
+        return items
 
     def _extract_from_markdown_table(
         self, block: list[str], context: str, announcement_date: str, url: str
@@ -110,10 +123,13 @@ class OpenAIScraper(EnhancedBaseScraper):
         shutdown_idx = None
         model_idx = None
         replacement_idx = None
+        notice_idx = None
 
         for idx, header in enumerate(header_text):
             if "SHUTDOWN" in header or "EOL" in header:
                 shutdown_idx = idx
+            elif "NOTICE" in header:
+                notice_idx = idx
             elif (
                 "REPLACEMENT" in header
                 or "RECOMMENDED" in header
@@ -157,11 +173,19 @@ class OpenAIScraper(EnhancedBaseScraper):
             if not filtered_models:
                 continue
 
-            shutdown_date = announcement_date
+            row_announcement_date = announcement_date
+            if notice_idx is not None and notice_idx < len(row):
+                row_announcement_date = (
+                    self.parse_date(row[notice_idx]) or announcement_date
+                )
+
+            shutdown_date = row_announcement_date
             if shutdown_idx is not None and shutdown_idx < len(row):
                 parsed_date = self.parse_date(row[shutdown_idx])
                 if parsed_date:
                     shutdown_date = parsed_date
+            if not shutdown_date:
+                continue
 
             replacement_models = None
             if replacement_idx is not None and replacement_idx < len(row):
@@ -174,7 +198,7 @@ class OpenAIScraper(EnhancedBaseScraper):
                     DeprecationItem(
                         provider=self.provider_name,
                         model_id=model_id,
-                        announcement_date=announcement_date,
+                        announcement_date=row_announcement_date,
                         shutdown_date=shutdown_date,
                         replacement_models=replacement_models,
                         deprecation_context=context,

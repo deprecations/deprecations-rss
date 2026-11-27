@@ -80,6 +80,68 @@ def test_openai_extracts_escaped_pipe_aliases_and_substitute_models():
         assert item.replacement_models == ["gpt-4.1"]
 
 
+def test_openai_extracts_from_consolidated_lifecycle_tables():
+    """Upcoming/Past tables with per-row notice dates and no dated headings."""
+    markdown = """
+# Deprecations
+
+## Overview
+
+Each model has one of three lifecycle states.
+
+## Upcoming deprecations
+
+| Shutdown date    | Affected model                    | Status     | Recommended replacement | Notice date  |
+| ---------------- | --------------------------------- | ---------- | ----------------------- | ------------ |
+| **Dec 11, 2026** | `gpt-5-nano`, `gpt-5-nano-2025-08-07` | Deprecated | `gpt-6-luna`            | Jun 11, 2026 |
+
+## Feature and endpoint deprecations
+
+| Shutdown date    | Affected feature or endpoint | Status     | Recommended replacement | Notice date  |
+| ---------------- | ---------------------------- | ---------- | ----------------------- | ------------ |
+| **Jan 6, 2027**  | Videos API                   | Deprecated | -                       | Jul 6, 2026  |
+
+## Model deprecation notice periods
+
+| Model type | Notice period |
+| ---------- | ------------- |
+| GA model   | 6 months      |
+
+## Past deprecations
+
+| Shutdown date    | Affected model or feature | Listed replacement | Notice date  |
+| ---------------- | ------------------------- | ------------------ | ------------ |
+| **Oct 23, 2026** | `gpt-4-1106-preview`      | `gpt-5.6-sol`      | Apr 22, 2026 |
+| **Aug 26, 2026** | Assistants API            | Responses API      | Aug 20, 2025 |
+| **Dec 3, 2022**  | `/v1/answers`             | [View transition guide](https://example.com) | Jun 3, 2022 |
+
+### Historical notes
+
+- The legacy fine-tunes endpoint shutdown also removed access to models trained with it.
+"""
+
+    items = OpenAIScraper().extract_structured_deprecations(markdown)
+    by_model = {item.model_id: item for item in items}
+
+    assert set(by_model) == {
+        "gpt-5-nano",
+        "gpt-5-nano-2025-08-07",
+        "gpt-4-1106-preview",
+    }
+
+    nano = by_model["gpt-5-nano-2025-08-07"]
+    assert nano.shutdown_date == "2026-12-11"
+    assert nano.announcement_date == "2026-06-11"
+    assert nano.replacement_models == ["gpt-6-luna"]
+    assert nano.url.endswith("#upcoming-deprecations")
+
+    past = by_model["gpt-4-1106-preview"]
+    assert past.shutdown_date == "2026-10-23"
+    assert past.announcement_date == "2026-04-22"
+    assert past.replacement_models == ["gpt-5.6-sol"]
+    assert past.url.endswith("#past-deprecations")
+
+
 def test_anthropic_extracts_from_markdown_history():
     """Anthropic markdown history tables should produce correct dates and replacements."""
     markdown = """

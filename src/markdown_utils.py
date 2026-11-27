@@ -37,9 +37,12 @@ def slugify_heading(text: str) -> str:
     return re.sub(r"-+", "-", slug)
 
 
-def split_markdown_sections(content: str) -> list[tuple[str, str]]:
-    """Split markdown content into level-3 sections."""
-    matches = list(SECTION_HEADING_RE.finditer(content))
+def split_markdown_sections(content: str, level: int = 3) -> list[tuple[str, str]]:
+    """Split markdown content into level-3 sections, or another heading level."""
+    heading_re = SECTION_HEADING_RE
+    if level != 3:
+        heading_re = re.compile(rf"^#{{{level}}}\s+(.*)$", re.MULTILINE)
+    matches = list(heading_re.finditer(content))
     sections: list[tuple[str, str]] = []
 
     for idx, match in enumerate(matches):
