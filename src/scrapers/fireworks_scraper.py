@@ -44,12 +44,11 @@ MIGRATION_BULLET_RE = re.compile(
     r"^\*\s+(?P<subject>.+?)\s+[—–]\s+(?P<action>(?:migrate|move|switch|use)\b.*)$",
     re.IGNORECASE,
 )
-# The subject of a whole-model bullet is exactly one bold link or one bold name.
+# The subject of a whole-model bullet is exactly one bold model link.
 LINKED_SUBJECT_RE = re.compile(
     r"^\*\*\[(?P<name>[^\]]+)\]\(https://app\.fireworks\.ai/models/fireworks/"
     r"(?P<slug>[a-z0-9][a-z0-9._-]*)\)\*\*$"
 )
-NAMED_SUBJECT_RE = re.compile(r"^\*\*(?P<name>[^*\[\]]+)\*\*$")
 # Prose notices such as "**MiniMax M2.5** is deprecated from serverless."
 PROSE_SUBJECTS_RE = re.compile(
     r"^(?P<subjects>\*\*[^*]+\*\*(?:(?:,\s*|,?\s+and\s+)\*\*[^*]+\*\*)*)"
@@ -161,9 +160,7 @@ class FireworksScraper(EnhancedBaseScraper):
         items: list[DeprecationItem] = []
         if bullets:
             for match in bullets:
-                item = self._item_from_bullet(
-                    entry, intro, shutdown_date, match.group(0)
-                )
+                item = self._item_from_bullet(entry, intro, shutdown_date, match)
                 if item is not None:
                     items.append(item)
             return items
@@ -196,11 +193,11 @@ class FireworksScraper(EnhancedBaseScraper):
         entry: ChangelogEntry,
         intro: str,
         shutdown_date: str,
-        bullet: str,
+        match: re.Match[str],
     ) -> DeprecationItem | None:
         """Build a row from a migration bullet, or None when it is not a whole-model retirement."""
-        match = MIGRATION_BULLET_RE.match(bullet)
-        if match is None or PARTIAL_RETIREMENT_RE.search(bullet):
+        bullet = match.group(0)
+        if PARTIAL_RETIREMENT_RE.search(bullet):
             return None
 
         # "**[GLM 5.2](...)**, including **GLM 5.2 Fast** ..." retires GLM 5.2;
@@ -221,14 +218,15 @@ class FireworksScraper(EnhancedBaseScraper):
         return self._build_item(entry, model_id, shutdown_date, replacements, context)
 
     def _subject_model_id(self, subject: str) -> str:
-        """Return the model ID for a bold subject, or "" when it is qualified."""
+        """Return the model ID for a bold linked subject, or "" otherwise.
+
+        Subjects without a model link (for example "**Llama 3.3 70B Instruct**")
+        are skipped: the display name is not a model ID, and guessing a slug is
+        often wrong. Qualified subjects ("... (US endpoint only)") are skipped too.
+        """
         linked = LINKED_SUBJECT_RE.match(subject)
         if linked:
             return f"{self.model_id_prefix}{linked.group('slug')}"
-        named = NAMED_SUBJECT_RE.match(subject)
-        if named:
-            # No model link: Fireworks names the model only by its display name.
-            return named.group("name").strip()
         return ""
 
     def _linked_model_ids(self, text: str) -> list[str]:

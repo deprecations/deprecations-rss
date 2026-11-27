@@ -96,22 +96,37 @@ def test_replacements_never_name_the_row_itself(items):
         assert model_id not in (item.replacement_models or [])
 
 
-def test_unlinked_models_use_display_name(items):
-    llama = items["Llama 3.3 70B Instruct"]
-    assert llama.shutdown_date == "2026-05-14"
-    assert llama.replacement_models == [f"{PREFIX}gpt-oss-120b"]
-    assert items["Inkling"].replacement_models is None
+def test_unlinked_models_produce_no_rows(items):
+    # Bold names with no model link are not model IDs; they would clash with the
+    # API IDs other rows use (gpt-oss-20b recommends accounts/fireworks/models/qwen3-8b).
+    for name in [
+        "Llama 3.3 70B Instruct",
+        "Qwen3 8B",
+        "Inkling",
+        "MiniMax M2.5",
+        "DeepSeek V4 Flash",
+    ]:
+        assert name not in items
+    assert all(model_id.startswith(PREFIX) for model_id in items)
 
 
-def test_prose_notice_without_date_uses_entry_date(items):
-    item = items["MiniMax M2.5"]
-    assert item.shutdown_date == "2026-06-17"
-    assert item.replacement_models == [f"{PREFIX}minimax-m2p7"]
+def test_prose_notice_with_linked_model_uses_entry_date(scraper):
+    content = """**2026-12-01**
+
+Inference
+
+# Serverless deprecation: MiniMax M2.7
+
+**[MiniMax M2.7](https://app.fireworks.ai/models/fireworks/minimax-m2p7)** is deprecated from serverless. Migrate to **[MiniMax M3](https://app.fireworks.ai/models/fireworks/minimax-m3)**.
+"""
+    [item] = scraper.extract_structured_deprecations(content)
+    assert item.model_id == f"{PREFIX}minimax-m2p7"
+    assert item.shutdown_date == "2026-12-01"
+    assert item.replacement_models == [f"{PREFIX}minimax-m3"]
 
 
 def test_bullets_win_over_prose_summary(items):
     assert f"{PREFIX}kimi-k2p5" in items
-    assert "Kimi K2.5" not in items
     assert items[f"{PREFIX}qwen3p6-plus"].replacement_models == [
         f"{PREFIX}qwen3p7-plus"
     ]
@@ -119,16 +134,14 @@ def test_bullets_win_over_prose_summary(items):
 
 def test_training_feature_and_new_model_entries_are_ignored(items):
     # Serverless Training removals keep the model on inference.
-    assert "Qwen 3.5 9B" not in items
-    assert "Qwen 3.6 27B" not in items
+    assert f"{PREFIX}qwen3p8-27b" not in items
     # New-model bullets in a deprecation entry are not retirements.
     assert f"{PREFIX}deepseek-v4p1-flash-1017" not in items
-    assert "DeepSeek V4.1 Flash 1017" not in items
     assert f"{PREFIX}muse-spark-open" not in items
 
 
 def test_expected_row_count(items):
-    assert len(items) == 26
+    assert len(items) == 15
 
 
 def test_global_endpoint_remains_available_produces_no_row(scraper):
