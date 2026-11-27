@@ -132,9 +132,7 @@ def test_bullets_win_over_prose_summary(items):
     ]
 
 
-def test_training_feature_and_new_model_entries_are_ignored(items):
-    # Serverless Training removals keep the model on inference.
-    assert f"{PREFIX}qwen3p8-27b" not in items
+def test_new_model_bullets_are_ignored(items):
     # New-model bullets in a deprecation entry are not retirements.
     assert f"{PREFIX}deepseek-v4p1-flash-1017" not in items
     assert f"{PREFIX}muse-spark-open" not in items
@@ -156,5 +154,29 @@ Inference
 Several Serverless endpoints will be decommissioned on **December 15, 2026**.
 
 * **[MiniMax M3](https://app.fireworks.ai/models/fireworks/minimax-m3)** — migrate to **[GLM 5.3](https://app.fireworks.ai/models/fireworks/glm-5p3)** on the US endpoint. The global MiniMax M3 endpoint remains available.
+"""
+    assert scraper.extract_structured_deprecations(content) == []
+
+
+def test_serverless_training_deprecations_produce_no_rows(scraper):
+    # Serverless Training removals keep the model on inference, so neither the
+    # prose form nor the bullet form gives a row, even with a linked subject.
+    content = """**2026-12-02**
+
+Training
+
+# Serverless Training deprecation: Qwen 3.8 27B
+
+**[Qwen 3.8 27B](https://app.fireworks.ai/models/fireworks/qwen3p8-27b)** is deprecated from Serverless Training effective December 2, 2026.
+
+**2026-12-01**
+
+Training
+
+# Upcoming Serverless Training deprecation: GLM 5.3
+
+On **December 15, 2026**, these models will be removed from the shared Serverless Training pool.
+
+* **[GLM 5.3](https://app.fireworks.ai/models/fireworks/glm-5p3)** — migrate to **[Kimi K3](https://app.fireworks.ai/models/fireworks/kimi-k3)**
 """
     assert scraper.extract_structured_deprecations(content) == []
