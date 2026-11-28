@@ -43,5 +43,10 @@
     "provider": "Azure",
     "label": "Azure AI Foundry Retirements",
     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-lifecycle-retirement"
+  },
+  {
+    "provider": "Fireworks AI",
+    "label": "Fireworks AI Changelog",
+    "url": "https://docs.fireworks.ai/updates/changelog"
   }
 ]

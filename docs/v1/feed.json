@@ -6436,6 +6436,348 @@
         "Azure",
         "shutdown-2026"
       ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/gpt-oss-120b",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/gpt-oss-120b",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040343+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/gpt-oss-120b",
+        "shutdown_date": "2026-11-07",
+        "deprecation_date": "2026-10-19",
+        "announcement_date": "2026-11-28",
+        "replacement_models": null,
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/nemotron-3-ultra-nvfp4",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/nemotron-3-ultra-nvfp4",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040377+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/nemotron-3-ultra-nvfp4",
+        "shutdown_date": "2026-11-07",
+        "deprecation_date": "2026-10-19",
+        "announcement_date": "2026-11-28",
+        "replacement_models": null,
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040395+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b",
+        "shutdown_date": "2026-11-07",
+        "deprecation_date": "2026-10-19",
+        "announcement_date": "2026-11-28",
+        "replacement_models": null,
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/deepseek-v4-pro-0813",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/deepseek-v4-pro-0813",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040934+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/deepseek-v4-pro-0813",
+        "shutdown_date": "2026-09-25",
+        "deprecation_date": "2026-09-12",
+        "announcement_date": "2026-11-28",
+        "replacement_models": [
+          "accounts/fireworks/models/deepseek-v4p1-flash"
+        ],
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/deepseek-v4-flash-0731",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/deepseek-v4-flash-0731",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040930+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/deepseek-v4-flash-0731",
+        "shutdown_date": "2026-09-25",
+        "deprecation_date": "2026-09-12",
+        "announcement_date": "2026-11-28",
+        "replacement_models": [
+          "accounts/fireworks/models/deepseek-v4p1-flash"
+        ],
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/deepseek-v4-flash-vision-exp",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/deepseek-v4-flash-vision-exp",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040936+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/deepseek-v4-flash-vision-exp",
+        "shutdown_date": "2026-09-25",
+        "deprecation_date": "2026-09-12",
+        "announcement_date": "2026-11-28",
+        "replacement_models": [
+          "accounts/fireworks/models/deepseek-v4p1-flash"
+        ],
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/muse-glimmer-30b",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/muse-glimmer-30b",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040941+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/muse-glimmer-30b",
+        "shutdown_date": "2026-09-25",
+        "deprecation_date": "2026-09-12",
+        "announcement_date": "2026-11-28",
+        "replacement_models": [
+          "accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b"
+        ],
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/kimi-k2p6",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/kimi-k2p6",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040943+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/kimi-k2p6",
+        "shutdown_date": "2026-09-25",
+        "deprecation_date": "2026-09-12",
+        "announcement_date": "2026-11-28",
+        "replacement_models": [
+          "accounts/fireworks/models/glm-5p3",
+          "accounts/fireworks/models/kimi-k3"
+        ],
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/kimi-k2p7-code",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/kimi-k2p7-code",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040945+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/kimi-k2p7-code",
+        "shutdown_date": "2026-09-25",
+        "deprecation_date": "2026-09-12",
+        "announcement_date": "2026-11-28",
+        "replacement_models": [
+          "accounts/fireworks/models/glm-5p3",
+          "accounts/fireworks/models/kimi-k3"
+        ],
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/glm-5p2",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/glm-5p2",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040938+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/glm-5p2",
+        "shutdown_date": "2026-09-25",
+        "deprecation_date": "2026-09-12",
+        "announcement_date": "2026-11-28",
+        "replacement_models": [
+          "accounts/fireworks/models/glm-5p3"
+        ],
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/minimax-m2p7",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/minimax-m2p7",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040759+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/minimax-m2p7",
+        "shutdown_date": "2026-08-27",
+        "deprecation_date": "2026-08-27",
+        "announcement_date": "2026-11-28",
+        "replacement_models": [
+          "accounts/fireworks/models/minimax-m3"
+        ],
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/gpt-oss-20b",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/gpt-oss-20b",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040774+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/gpt-oss-20b",
+        "shutdown_date": "2026-08-27",
+        "deprecation_date": "2026-08-27",
+        "announcement_date": "2026-11-28",
+        "replacement_models": [
+          "accounts/fireworks/models/gpt-oss-120b",
+          "accounts/fireworks/models/qwen3-8b"
+        ],
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/deepseek-v4-pro",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/deepseek-v4-pro",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040794+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/deepseek-v4-pro",
+        "shutdown_date": "2026-08-27",
+        "deprecation_date": "2026-08-27",
+        "announcement_date": "2026-11-28",
+        "replacement_models": [
+          "accounts/fireworks/models/deepseek-v4-pro-0813"
+        ],
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/kimi-k2p5",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/kimi-k2p5",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040856+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/kimi-k2p5",
+        "shutdown_date": "2026-06-26",
+        "deprecation_date": "2026-06-26",
+        "announcement_date": "2026-11-28",
+        "replacement_models": [
+          "accounts/fireworks/models/kimi-k2p6"
+        ],
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
+    },
+    {
+      "id": "fireworks-ai-accounts/fireworks/models/qwen3p6-plus",
+      "url": "https://docs.fireworks.ai/updates/changelog",
+      "title": "Fireworks AI: accounts/fireworks/models/qwen3p6-plus",
+      "content_text": "",
+      "date_published": "2026-11-28T09:53:50.040868+00:00",
+      "_deprecation": {
+        "provider": "Fireworks AI",
+        "model_id": "accounts/fireworks/models/qwen3p6-plus",
+        "shutdown_date": "2026-06-26",
+        "deprecation_date": "2026-06-26",
+        "announcement_date": "2026-11-28",
+        "replacement_models": [
+          "accounts/fireworks/models/qwen3p7-plus"
+        ],
+        "first_observed": "2026-11-28",
+        "last_observed": "2026-11-28"
+      },
+      "tags": [
+        "Fireworks AI",
+        "shutdown-2026"
+      ]
     }
   ]
 }

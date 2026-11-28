@@ -4,7 +4,7 @@
     <title>AI Model Deprecations</title>
     <link>https://deprecations.info/</link>
     <description>RSS feed tracking deprecations across major AI providers</description>
-    <lastBuildDate>Thu, 26 Nov 2026 10:32:42 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 09:53:50 GMT</lastBuildDate>
     <item>
       <title>Anthropic: claude-opus-4-5-20251101</title>
       <link>https://platform.claude.com/docs/en/about-claude/model-deprecations#2026-11-23-claude-opus-4-5-model</link>
@@ -4104,6 +4104,276 @@ Last Observed: 2026-06-04
 NTT Data</description>
       <pubDate>Thu, 04 Jun 2026 06:44:39 GMT</pubDate>
       <guid isPermaLink="false">Azure-tsuzumi-7b-2026-08-31-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/gpt-oss-120b</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/gpt-oss-120b
+Deprecation Date: 2026-10-19
+Shutdown Date: 2026-11-07
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Upcoming Serverless deprecation: GPT OSS 120B, Inkling, Nemotron, and US endpoints for MiniMax M3 and GLM 5.3 Flash
+
+Several Serverless models will be decommissioned on November 7, 2026 to better serve newer, higher-performance replacements. This applies only to serverless inference. Dedicated deployments and Reserved Throughput are unaffected.
+
+GPT OSS 120B — move to a dedicated deployment of GPT OSS 120B</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/gpt-oss-120b-2026-11-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/nemotron-3-ultra-nvfp4</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/nemotron-3-ultra-nvfp4
+Deprecation Date: 2026-10-19
+Shutdown Date: 2026-11-07
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Upcoming Serverless deprecation: GPT OSS 120B, Inkling, Nemotron, and US endpoints for MiniMax M3 and GLM 5.3 Flash
+
+Several Serverless models will be decommissioned on November 7, 2026 to better serve newer, higher-performance replacements. This applies only to serverless inference. Dedicated deployments and Reserved Throughput are unaffected.
+
+NVIDIA Nemotron 3 Ultra — move to a dedicated deployment of Nemotron Super VL</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/nemotron-3-ultra-nvfp4-2026-11-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b
+Deprecation Date: 2026-10-19
+Shutdown Date: 2026-11-07
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Upcoming Serverless deprecation: GPT OSS 120B, Inkling, Nemotron, and US endpoints for MiniMax M3 and GLM 5.3 Flash
+
+Several Serverless models will be decommissioned on November 7, 2026 to better serve newer, higher-performance replacements. This applies only to serverless inference. Dedicated deployments and Reserved Throughput are unaffected.
+
+NVIDIA Nemotron 3.5 Lightning 30B A3B — move to a dedicated deployment of Nemotron Super VL</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b-2026-11-07-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/deepseek-v4-pro-0813</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/deepseek-v4-pro-0813
+Deprecation Date: 2026-09-12
+Shutdown Date: 2026-09-25
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Serverless deprecation: DeepSeek V4 Pro (0813), DeepSeek V4 Flash (0731), and related models
+
+The serverless deprecation announced for September 25, 2026 is now in effect. The models below are no longer available on public serverless, including Fast and US-only serverless endpoints where those existed. Dedicated deployments are unaffected.
+
+DeepSeek V4 Pro (0813) — migrate to DeepSeek V4.1 Flash</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/deepseek-v4-pro-0813-2026-09-25-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/deepseek-v4-flash-0731</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/deepseek-v4-flash-0731
+Deprecation Date: 2026-09-12
+Shutdown Date: 2026-09-25
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Serverless deprecation: DeepSeek V4 Pro (0813), DeepSeek V4 Flash (0731), and related models
+
+The serverless deprecation announced for September 25, 2026 is now in effect. The models below are no longer available on public serverless, including Fast and US-only serverless endpoints where those existed. Dedicated deployments are unaffected.
+
+DeepSeek V4 Flash (0731) — migrate to DeepSeek V4.1 Flash</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/deepseek-v4-flash-0731-2026-09-25-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/deepseek-v4-flash-vision-exp</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/deepseek-v4-flash-vision-exp
+Deprecation Date: 2026-09-12
+Shutdown Date: 2026-09-25
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Serverless deprecation: DeepSeek V4 Pro (0813), DeepSeek V4 Flash (0731), and related models
+
+The serverless deprecation announced for September 25, 2026 is now in effect. The models below are no longer available on public serverless, including Fast and US-only serverless endpoints where those existed. Dedicated deployments are unaffected.
+
+DeepSeek V4 Flash Vision Exp — migrate to DeepSeek V4.1 Flash</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/deepseek-v4-flash-vision-exp-2026-09-25-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/muse-glimmer-30b</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/muse-glimmer-30b
+Deprecation Date: 2026-09-12
+Shutdown Date: 2026-09-25
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Serverless deprecation: DeepSeek V4 Pro (0813), DeepSeek V4 Flash (0731), and related models
+
+The serverless deprecation announced for September 25, 2026 is now in effect. The models below are no longer available on public serverless, including Fast and US-only serverless endpoints where those existed. Dedicated deployments are unaffected.
+
+Muse Glimmer 30B — migrate to NVIDIA Nemotron 3.5 Lightning 30B A3B</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/muse-glimmer-30b-2026-09-25-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/kimi-k2p6</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/kimi-k2p6
+Deprecation Date: 2026-09-12
+Shutdown Date: 2026-09-25
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Serverless deprecation: DeepSeek V4 Pro (0813), DeepSeek V4 Flash (0731), and related models
+
+The serverless deprecation announced for September 25, 2026 is now in effect. The models below are no longer available on public serverless, including Fast and US-only serverless endpoints where those existed. Dedicated deployments are unaffected.
+
+Kimi K2.6 — migrate to GLM 5.3 or Kimi K3</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/kimi-k2p6-2026-09-25-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/kimi-k2p7-code</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/kimi-k2p7-code
+Deprecation Date: 2026-09-12
+Shutdown Date: 2026-09-25
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Serverless deprecation: DeepSeek V4 Pro (0813), DeepSeek V4 Flash (0731), and related models
+
+The serverless deprecation announced for September 25, 2026 is now in effect. The models below are no longer available on public serverless, including Fast and US-only serverless endpoints where those existed. Dedicated deployments are unaffected.
+
+Kimi K2.7 Code — migrate to GLM 5.3 or Kimi K3</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/kimi-k2p7-code-2026-09-25-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/glm-5p2</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/glm-5p2
+Deprecation Date: 2026-09-12
+Shutdown Date: 2026-09-25
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Serverless deprecation: DeepSeek V4 Pro (0813), DeepSeek V4 Flash (0731), and related models
+
+The serverless deprecation announced for September 25, 2026 is now in effect. The models below are no longer available on public serverless, including Fast and US-only serverless endpoints where those existed. Dedicated deployments are unaffected.
+
+GLM 5.2, including GLM 5.2 Fast, GLM 5.2 Fast US, and GLM 5.2 US — migrate to GLM 5.3</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/glm-5p2-2026-09-25-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/minimax-m2p7</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/minimax-m2p7
+Deprecation Date: 2026-08-27
+Shutdown Date: 2026-08-27
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro
+
+The following models are deprecated from serverless effective August 27, 2026.
+
+MiniMax M2.7 — migrate to MiniMax M3</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/minimax-m2p7-2026-08-27-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/gpt-oss-20b</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/gpt-oss-20b
+Deprecation Date: 2026-08-27
+Shutdown Date: 2026-08-27
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro
+
+The following models are deprecated from serverless effective August 27, 2026.
+
+GPT OSS 20B — migrate to GPT OSS 120B or Qwen3 8B for lower-latency workloads</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/gpt-oss-20b-2026-08-27-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/deepseek-v4-pro</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/deepseek-v4-pro
+Deprecation Date: 2026-08-27
+Shutdown Date: 2026-08-27
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Serverless deprecation: MiniMax M2.7, GPT OSS 20B, Kimi K2.6 Turbo/Fast, Kimi K2.7 Code Fast, DeepSeek V4 Pro
+
+The following models are deprecated from serverless effective August 27, 2026.
+
+DeepSeek V4 Pro — migrate to DeepSeek V4 Pro (0813)</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/deepseek-v4-pro-2026-08-27-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/kimi-k2p5</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/kimi-k2p5
+Deprecation Date: 2026-06-26
+Shutdown Date: 2026-06-26
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Serverless deprecation: Kimi K2.5 and Qwen 3.6 Plus
+
+Kimi K2.5 and Qwen 3.6 Plus are deprecated from serverless.
+
+Kimi K2.5 — migrate to Kimi K2.6</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/kimi-k2p5-2026-06-26-e3b0c442</guid>
+    </item>
+    <item>
+      <title>Fireworks AI: accounts/fireworks/models/qwen3p6-plus</title>
+      <link>https://docs.fireworks.ai/updates/changelog</link>
+      <description>Provider: Fireworks AI
+Model ID: accounts/fireworks/models/qwen3p6-plus
+Deprecation Date: 2026-06-26
+Shutdown Date: 2026-06-26
+First Observed: 2026-11-28
+Last Observed: 2026-11-28
+
+Serverless deprecation: Kimi K2.5 and Qwen 3.6 Plus
+
+Kimi K2.5 and Qwen 3.6 Plus are deprecated from serverless.
+
+Qwen 3.6 Plus — migrate to Qwen 3.7 Plus</description>
+      <pubDate>Sat, 28 Nov 2026 09:53:50 GMT</pubDate>
+      <guid isPermaLink="false">Fireworks_AI-accounts/fireworks/models/qwen3p6-plus-2026-06-26-e3b0c442</guid>
     </item>
   </channel>
 </rss>
